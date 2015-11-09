@@ -1,0 +1,3758 @@
+Group 0000 Length,0000,0000,UL,1
+Length to End RETIRED,0000,0001,UL,1
+Affected SOP Class UID,0000,0002,UI,1
+Requested SOP Class UID,0000,0003,UI,1
+Recognition Code RETIRED,0000,0010,SH,1
+Command Field,0000,0100,US,1
+Message ID,0000,0110,US,1
+Message ID Being Responded To,0000,0120,US,1
+Initiator RETIRED,0000,0200,LO,1
+Receiver RETIRED,0000,0300,LO,1
+FIND Location RETIRED,0000,0400,LO,1
+Move Destination,0000,0600,AE,1
+Priority,0000,0700,US,1
+Data Set Type,0000,0800,US,1
+Number of Matches RETIRED,0000,0850,SS,1
+Response Sequence Number RETIRED,0000,0860,SS,1
+Status,0000,0900,US,1
+Offending Element,0000,0901,AT,1-N
+Error Comment,0000,0902,LO,1
+Error ID,0000,0903,US,1
+Affected SOP Instance UID,0000,1000,UI,1
+Requested SOP Instance UID,0000,1001,UI,1
+Event Type ID,0000,1002,US,1
+Attribute Identifier List,0000,1005,AT,1-N
+Action Type ID,0000,1008,US,1
+Number of Remaining Suboperations,0000,1020,US,1
+Number of Completed Suboperations,0000,1021,US,1
+Number of Failed Suboperations,0000,1022,US,1
+Number of Warning Suboperations,0000,1023,US,1
+Move Originator Application Entity Title,0000,1030,AE,1
+Move Originator Message ID,0000,1031,US,1
+DIALOG Receiver RETIRED,0000,4000,LO,1
+Terminal Type RETIRED,0000,4010,LO,1
+Message Set ID RETIRED,0000,5010,LO,1
+End Message ID RETIRED,0000,5020,SH,1
+Display Format RETIRED,0000,5110,LO,1
+Page Position ID RETIRED,0000,5120,LO,1
+Text Format ID RETIRED,0000,5130,SH,1
+Normal/Reverse RETIRED,0000,5140,SH,1
+Add Gray Scale RETIRED,0000,5150,SH,1
+Borders RETIRED,0000,5160,SH,1
+Copies RETIRED,0000,5170,DS,1
+Magnification Type RETIRED,0000,5180,SH,1
+Erase RETIRED,0000,5190,LO,1-N
+Print RETIRED,0000,51A0,SH,1
+Overlays RETIRED,0000,51B0,SS,1-N
+Group 0002 Length,0002,0000,UL,1
+File Meta Information Version,0002,0001,OB,1
+Media Storage SOP Class UID,0002,0002,UI,1
+Media Storage SOP Instance UID,0002,0003,UI,1
+Transfer Syntax UID,0002,0010,UI,1
+Implementation Class UID,0002,0012,UI,1
+Implementation Version Name,0002,0013,SH,1
+Source Application Entity Title,0002,0016,AE,1
+Private Information Creator UID,0002,0100,UI,1
+Private Information,0002,0102,OB,1
+Group 0004 Length,0004,0000,UL,1
+File-set ID,0004,1130,CS,1
+File-set Descriptor File ID,0004,1141,CS,1-8
+Specific Character Set of File-set Descriptor File,0004,1142,CS,1
+Offset of First Dir Rec of the Root Dir Entity,0004,1200,UL,1
+Offset of Last Dir Rec of the Root Dir Entity,0004,1202,UL,1
+File-set Consistency Flag,0004,1212,US,1
+Directory Record Sequence,0004,1220,SQ,1
+Offset of the Next Directory Record,0004,1400,UL,1
+Record In-use Flag,0004,1410,US,1
+Offset of Referenced Lower-Level Directory Entity,0004,1420,UL,1
+Directory Record Type,0004,1430,CS,1
+Private Record UID,0004,1432,UI,1
+Referenced File ID,0004,1500,CS,1-8
+MRDR Directory Record Offset,0004,1504,UL,1
+Referenced SOP Class UID in File,0004,1510,UI,1
+Referenced SOP Instance UID in File,0004,1511,UI,1
+Referenced Transfer Syntax UID in File,0004,1512,UI,1
+Number of References,0004,1600,UL,1
+Group 0008 Length,0008,0000,UL,1
+Group 0008 Length to End RETIRED,0008,0001,UL,1
+Specific Character Set,0008,0005,CS,1-N
+Image Type,0008,0008,CS,1-N
+Recognition Code RETIRED,0008,0010,SH,1
+Instance Creation Date,0008,0012,DA,1
+Instance Creation Time,0008,0013,TM,1
+Instance Creator UID,0008,0014,UI,1
+SOP Class UID,0008,0016,UI,1
+SOP Instance UID,0008,0018,UI,1
+Study Date,0008,0020,DA,1
+Series Date,0008,0021,DA,1
+Acquisition Date,0008,0022,DA,1
+Content Date,0008,0023,DA,1
+Overlay Date,0008,0024,DA,1
+Curve Date,0008,0025,DA,1
+Acquisition Datetime,0008,002A,DT,1
+Study Time,0008,0030,TM,1
+Series Time,0008,0031,TM,1
+Acquisition Time,0008,0032,TM,1
+Content Time,0008,0033,TM,1
+Overlay Time,0008,0034,TM,1
+Curve Time,0008,0035,TM,1
+Data Set Type RETIRED,0008,0040,SS,1
+Data Set Subtype RETIRED,0008,0041,LO,1
+Nuclear Medicine Series Type RETIRED,0008,0042,CS,1
+Accession Number,0008,0050,SH,1
+Query/Retrieve Level,0008,0052,CS,1
+Retrieve AE Title,0008,0054,AE,1-N
+Instance Availability,0008,0056,CS,1
+Failed SOP Instance UID List,0008,0058,UI,1-N
+Modality,0008,0060,CS,1
+Modalities in Study,0008,0061,CS,1-N
+SOP Classes in Study,0008,0062,UI,1-N
+Conversion Type,0008,0064,CS,1
+Presentation Intent Type,0008,0068,CS,1
+Manufacturer,0008,0070,LO,1
+Institution Name,0008,0080,LO,1
+Institution Address,0008,0081,ST,1
+Institution Code Sequence,0008,0082,SQ,1
+Referring Physician's Name,0008,0090,PN,1
+Referring Physician's Address,0008,0092,ST,1
+Referring Physician's Telephone Numbers,0008,0094,SH,1-N
+Referring Physician Identification Sequence,0008,0096,SQ,1
+Code Value,0008,0100,SH,1
+Coding Scheme Designator,0008,0102,SH,1
+Coding Scheme Version,0008,0103,SH,1
+Code Meaning,0008,0104,LO,1
+Mapping Resource,0008,0105,CS,1
+Context Group Version,0008,0106,DT,1
+Context Group Local Version,0008,0107,DT,1
+Context Group Extension Flag,0008,010B,CS,1
+Coding Scheme UID,0008,010C,UI,1
+Context Group Extension Creator UID,0008,010D,UI,1
+Context Identifier,0008,010F,CS,1
+Coding Scheme Identification Sequence,0008,0110,SQ,1
+Coding Scheme Registry,0008,0112,LO,1
+Coding Scheme External ID,0008,0114,ST,1
+Coding Scheme Name,0008,0115,ST,1
+Responsible Organization,0008,0116,ST,1
+Timezone Offset From UTC,0008,0201,SH,1
+Network ID RETIRED,0008,1000,LO,1
+Station Name,0008,1010,SH,1
+Study Description,0008,1030,LO,1
+Procedure Code Sequence,0008,1032,SQ,1
+Series Description,0008,103E,LO,1
+Institutional Department Name,0008,1040,LO,1
+Physician(s) of Record,0008,1048,PN,1-N
+Physician(s) of Record Identification Sequence,0008,1049,SQ,1
+Performing Physician's Name,0008,1050,PN,1-N
+Performing Physician Identification Sequence,0008,1052,SQ,1
+Name of Physician(s) Reading Study,0008,1060,PN,1-N
+Physician(s) Reading Study Identification Sequence,0008,1062,SQ,1
+Operators' Name,0008,1070,PN,1-N
+Operator Identification Sequence,0008,1072,SQ,1
+Admitting Diagnosis Description,0008,1080,LO,1-N
+Admitting Diagnosis Code Sequence,0008,1084,SQ,1
+Manufacturer's Model Name,0008,1090,LO,1
+Referenced Results Sequence,0008,1100,SQ,1
+Referenced Study Sequence,0008,1110,SQ,1
+Referenced Performed Procedure Step Sequence,0008,1111,SQ,1
+Referenced Series Sequence,0008,1115,SQ,1
+Referenced Patient Sequence,0008,1120,SQ,1
+Referenced Visit Sequence,0008,1125,SQ,1
+Referenced Overlay Sequence,0008,1130,SQ,1
+Referenced Waveform Sequence,0008,113A,SQ,1
+Referenced Image Sequence,0008,1140,SQ,1
+Referenced Curve Sequence,0008,1145,SQ,1
+Reference Instance Sequence,0008,114A,SQ,1
+Referenced SOP Class UID,0008,1150,UI,1
+Referenced SOP Instance UID,0008,1155,UI,1
+SOP Classes Supported,0008,115A,UI,1-N
+Referenced Frame Number,0008,1160,IS,1-N
+Transaction UID,0008,1195,UI,1
+Failure Reason,0008,1197,US,1
+Failed SOP Sequence,0008,1198,SQ,1
+Referenced SOP Sequence,0008,1199,SQ,1
+Studies Containing Other Referenced Instances Seq,0008,1200,SQ,1
+Related Series Sequence,0008,1250,SQ,1
+Lossy Image Compression RETIRED,0008,2110,CS,1
+Derivation Description,0008,2111,ST,1
+Source Image Sequence,0008,2112,SQ,1
+Stage Name,0008,2120,SH,1
+Stage Number,0008,2122,IS,1
+Number of Stages,0008,2124,IS,1
+View Name,0008,2127,SH,1
+View Number,0008,2128,IS,1
+Number of Event Timers,0008,2129,IS,1
+Number of Views in Stage,0008,212A,IS,1
+Event Elapsed Time(s),0008,2130,DS,1-N
+Event Timer Name(s),0008,2132,LO,1-N
+Start Trim,0008,2142,IS,1
+Stop Trim,0008,2143,IS,1
+Recommended Display Frame Rate,0008,2144,IS,1
+Transducer Position RETIRED,0008,2200,CS,1
+Transducer Orientation RETIRED,0008,2204,CS,1
+Anatomic Structure RETIRED,0008,2208,CS,1
+Anatomic Region Sequence,0008,2218,SQ,1
+Anatomic Region Modifier Sequence,0008,2220,SQ,1
+Primary Anatomic Structure Sequence,0008,2228,SQ,1
+Anatomic Structure Space or Region Sequence,0008,2229,SQ,1
+Primary Anatomic Structure Modifier Sequence,0008,2230,SQ,1
+Transducer Position Sequence RETIRED,0008,2240,SQ,1
+Transducer Position Modifier Sequence RETIRED,0008,2242,SQ,1
+Transducer Orientation Sequence RETIRED,0008,2244,SQ,1
+Transducer Orientation Modifier Sequence RETIRED,0008,2246,SQ,1
+Alternate Representation Sequence,0008,3001,SQ,1
+Group 0008 Comments RETIRED,0008,4000,LO,1-N
+Frame Type,0008,9007,CS,4
+Referenced Image Evidence Sequence,0008,9092,SQ,1
+Referenced Raw Data Sequence,0008,9121,SQ,1
+Creator-Version UID,0008,9123,UI,1
+Derivation Image Sequence,0008,9124,SQ,1
+Source Image Evidence Sequence,0008,9154,SQ,1
+Pixel Presentation,0008,9205,CS,1
+Volumentric Properties,0008,9206,CS,1
+Volume Based Calculation Technique,0008,9207,CS,1
+Complex Image Component,0008,9208,CS,1
+Acquisition Contrast,0008,9209,CS,1
+Derivation Code Sequence,0008,9215,SQ,1
+Referenced Greyscale Presentation State Sequence,0008,9237,SQ,1
+SIENET General Purpose IMGF,0009,ISI,01,SQ,1
+Number of Measurements,0009,SIEMENS CM VA0  CMS,00,IS,1
+Storage Mode,0009,SIEMENS CM VA0  CMS,10,CS,1
+Evaluation Mask Image,0009,SIEMENS CM VA0  CMS,12,UL,1
+Table Zero Date,0009,SIEMENS CM VA0  CMS,26,DA,1
+Table Zero Time,0009,SIEMENS CM VA0  CMS,27,TM,1
+Generator Identification Label,0009,SIEMENS CM VA0  LAB,10,LO,1
+Gantry Identification Label,0009,SIEMENS CM VA0  LAB,11,LO,1
+XRay Tube Identification Label,0009,SIEMENS CM VA0  LAB,12,LO,1
+Detector Identification Label,0009,SIEMENS CM VA0  LAB,13,LO,1
+DAS Identification Label,0009,SIEMENS CM VA0  LAB,14,LO,1
+SMI Identification Label,0009,SIEMENS CM VA0  LAB,15,LO,1
+CPU Identification Label,0009,SIEMENS CM VA0  LAB,16,LO,1
+Header Version,0009,SIEMENS CM VA0  LAB,20,SH,1
+SOMATOM Software Name,0009,SIEMENS CT VA0  IDE,10,LO,1
+Data Set Subtype 1,0009,SIEMENS CT VA0  IDE,30,CS,1
+Data Set Subtype 2,0009,SIEMENS CT VA0  IDE,31,SH,1
+Data Set Subtype 3,0009,SIEMENS CT VA0  IDE,32,SH,1
+Data Set Subtype 4,0009,SIEMENS CT VA0  IDE,33,SH,1
+Data Set Subtype 5,0009,SIEMENS CT VA0  IDE,34,SH,1
+Directory Text,0009,SIEMENS CT VA0  IDE,40,LO,1
+Exposure Time Text,0009,SIEMENS CT VA0  IDE,42,LO,1
+Scan Date,0009,SIEMENS CT VA0  IDE,50,DA,1
+Scan Time,0009,SIEMENS CT VA0  IDE,51,TM,1
+Original Data Set Owner,0009,SIEMENS CT VA0  ORI,20,LO,1
+Original Modality,0009,SIEMENS CT VA0  ORI,30,SH,1
+RIS Patient Info IMGEF,0009,SIEMENS ISI,14,SQ,1
+Recognition Code,0009,SIEMENS MED,10,LO,1
+Byte Offset of Original Header,0009,SIEMENS MED,30,US,1
+Length of Original Header,0009,SIEMENS MED,31,UL,1
+Byte Offset of Pixel Matrix,0009,SIEMENS MED,40,US,1
+Length of Pixel Matrix,0009,SIEMENS MED,41,UL,1
+PDM EFID Placeholder,0009,SIEMENS MED,F5,LO,1
+PDM Data Object Type Extension,0009,SIEMENS MED,F6,LO,1
+Main Acquisition View,0009,SIEMENS MED NM,80,LO,1
+SIENET Command Field,0009,SIENET,01,US,1
+Receiver PLA,0009,SIENET,14,LO,1
+Comments,0009,SPI RELEASE 1,10,LO,1
+Unique Identifier,0009,SPI RELEASE 1,15,LO,1
+Data Object Type,0009,SPI RELEASE 1,40,US,1
+Data Object Subtype,0009,SPI RELEASE 1,41,SH,1
+Comments,0009,SPI,10,LO,1
+Unique Identifier,0009,SPI,15,LO,1
+Data Object Type,0009,SPI,40,US,1
+Data Object Subtype,0009,SPI,41,SH,1
+Group 0010 Length,0010,0000,UL,1
+Patient's Name,0010,0010,PN,1
+Patient ID,0010,0020,LO,1
+Issuer of Patient ID,0010,0021,LO,1
+Patient's Birth Date,0010,0030,DA,1
+Patient's Birth Time,0010,0032,TM,1
+Patient's Sex,0010,0040,CS,1
+Patient's Insurance Plan Code Sequence,0010,0050,SQ,1
+Other Patient IDs,0010,1000,LO,1-N
+Other Patient Names,0010,1001,PN,1-N
+Patient's Birth Name,0010,1005,PN,1
+Patient's Age,0010,1010,AS,1
+Patient's Size,0010,1020,DS,1
+Patient's Weight,0010,1030,DS,1
+Patient's Address,0010,1040,LO,1
+Insurance Plan ID RETIRED,0010,1050,LO,1-N
+Patient's Mother's Birth Name,0010,1060,PN,1
+Military Rank,0010,1080,LO,1
+Branch of Service,0010,1081,LO,1
+Medical Record Locator,0010,1090,LO,1
+Medical Alerts,0010,2000,LO,1-N
+Contrast Allergies,0010,2110,LO,1-N
+Country of Residence,0010,2150,LO,1
+Region of Residence,0010,2152,LO,1
+Patient's Telephone Numbers,0010,2154,SH,1-N
+Ethnic Group,0010,2160,SH,1
+Occupation,0010,2180,SH,1
+Smoking Status,0010,21A0,CS,1
+Additional Patient History,0010,21B0,LT,1
+Pregnancy Status,0010,21C0,US,1
+Last Menstrual Date,0010,21D0,DA,1
+Patient's Religious Preference,0010,21F0,LO,1
+Patient Comments,0010,4000,LT,1
+Registration Date,0011,SIEMENS CM VA0  CMS,10,DA,1
+Registration Time,0011,SIEMENS CM VA0  CMS,11,TM,1
+Used Patient Weight,0011,SIEMENS CM VA0  CMS,23,DS,1
+Organ Code,0011,SIEMENS CM VA0  CMS,40,IS,1
+Patient UID,0011,SIEMENS ISI,03,LO,1
+Patient ID,0011,SIEMENS ISI,04,LO,1
+Case ID,0011,SIEMENS ISI,0A,LO,1
+Request ID,0011,SIEMENS ISI,22,LO,1
+Examination UID,0011,SIEMENS ISI,23,LO,1
+Medical Alerts,0011,SIEMENS ISI,41,LO,1
+Contrast Allergy,0011,SIEMENS ISI,42,LO,1
+Patient Registration Date,0011,SIEMENS ISI,A1,DA,1
+Patient Registration Time,0011,SIEMENS ISI,A2,TM,1
+Patient Last Name,0011,SIEMENS ISI,B0,LO,1
+Patient First Name,0011,SIEMENS ISI,B2,LO,1
+Patient Hospital Status,0011,SIEMENS ISI,B4,CS,1
+Current Location Time,0011,SIEMENS ISI,BC,LO,1
+Patient Insurance Status,0011,SIEMENS ISI,C0,CS,1
+Patient Billing Type,0011,SIEMENS ISI,D0,LO,1
+Patient Billing Address,0011,SIEMENS ISI,D2,LO,1
+Organ System,0011,SIEMENS MED NM,10,CS,1
+Total Fluoro TimePatient,0011,SIEMENS RA GEN,20,UL,1
+Dose Area ProductPatient,0011,SIEMENS RA GEN,25,UL,1
+Patient DOB,0011,SIEMENS RA GEN,30,LO,1
+Patient Initial Puck Counter,0011,SIEMENS RA GEN,35,LO,1
+Patient Initial Position,0011,SIEMENS RA GEN,40,CS,1
+Patient UID,0011,SIEMENS RIS,10,LO,1
+Patient ID,0011,SIEMENS RIS,11,LO,1
+Patient Registration Date,0011,SIEMENS RIS,20,DA,1
+Patient Registration Time,0011,SIEMENS RIS,21,TM,1
+Patient NameRIS,0011,SIEMENS RIS,30,PN,1
+Patient Prename,0011,SIEMENS RIS,31,PN,1
+Patient Hospital Status,0011,SIEMENS RIS,40,LO,1
+Medical Alerts,0011,SIEMENS RIS,41,LO,1
+Contrast Allergy,0011,SIEMENS RIS,42,LO,1
+Organ,0011,SPI RELEASE 1,10,LO,1
+Allergy Indication,0011,SPI RELEASE 1,15,LO,1
+Pregnancy,0011,SPI RELEASE 1,20,CS,1
+Organ,0011,SPI,10,LO,1
+Allergy Indication,0011,SPI,15,LO,1
+Pregnancy,0011,SPI,20,CS,1
+Clinical Trial Sponsor Name,0012,0010,LO,1
+Clinical Trial Protocol ID,0012,0020,LO,1
+Clinical Trial Protocol Name,0012,0021,LO,1
+Clinical Trial Site ID,0012,0030,LO,1
+Clinical Trial Site Name,0012,0031,LO,1
+Clinical Trial Subject ID,0012,0040,LO,1
+Clinical Trial Subject Reading ID,0012,0042,LO,1
+Clinical Trial Time Point ID,0012,0050,LO,1
+Clinical Trial Time Point Description,0012,0051,ST,1
+Clinical Trial Coordinating Center Name,0012,0060,LO,1
+Modifying Physician,0013,SIEMENS CM VA0  CMS,00,PN,1
+Modification Date,0013,SIEMENS CM VA0  CMS,10,DA,1
+Modification Time,0013,SIEMENS CM VA0  CMS,12,TM,1
+Patient Name,0013,SIEMENS CM VA0  CMS,20,PN,1
+Patient Id,0013,SIEMENS CM VA0  CMS,22,LO,1
+Patient Birthdate,0013,SIEMENS CM VA0  CMS,30,DA,1
+Patient Weight,0013,SIEMENS CM VA0  CMS,31,DS,1
+Patient Maiden Name,0013,SIEMENS CM VA0  CMS,32,PN,1
+Referring Physician,0013,SIEMENS CM VA0  CMS,33,PN,1
+Admitting Diagnosis,0013,SIEMENS CM VA0  CMS,34,LO,1
+Patient Sex,0013,SIEMENS CM VA0  CMS,35,CS,1
+Procedure Description,0013,SIEMENS CM VA0  CMS,40,LO,1
+Rest Direction,0013,SIEMENS CM VA0  CMS,42,CS,1
+Patient Position,0013,SIEMENS CM VA0  CMS,44,CS,1
+View Direction,0013,SIEMENS CM VA0  CMS,46,SH,1
+Window Width Native Current,0017,SIEMENS DFR.01 MANIPULATED,11,US,1
+Window Center Native,0017,SIEMENS DFR.01 MANIPULATED,12,US,1
+Window Width Subtraction Current,0017,SIEMENS DFR.01 MANIPULATED,14,US,1
+Window Center Subtraction Current,0017,SIEMENS DFR.01 MANIPULATED,15,US,1
+Edge Enhancement Native Current,0017,SIEMENS DFR.01 MANIPULATED,25,DS,1
+Edge Enhancement Subtraction Current,0017,SIEMENS DFR.01 MANIPULATED,27,DS,1
+DSA Representation Current,0017,SIEMENS DFR.01 MANIPULATED,31,US,1
+Number of Mask Current,0017,SIEMENS DFR.01 MANIPULATED,32,US,1
+RightLeft Mark Current,0017,SIEMENS DFR.01 MANIPULATED,33,US,1
+Number of Series Representative,0017,SIEMENS DFR.01 MANIPULATED,35,US,1
+Rectangle Shutter Horizontal Current,0017,SIEMENS DFR.01 MANIPULATED,37,US,1
+Rectangle Shutter Vertical Aktuell,0017,SIEMENS DFR.01 MANIPULATED,38,US,1
+Landmark Current,0017,SIEMENS DFR.01 MANIPULATED,71,LO,1
+Zoom Factor,0017,SIEMENS DFR.01 MANIPULATED,72,US,1
+Roam Horizontal,0017,SIEMENS DFR.01 MANIPULATED,73,US,1
+Roam Vertikal,0017,SIEMENS DFR.01 MANIPULATED,74,US,1
+Pixel Shift Horizontal,0017,SIEMENS DFR.01 MANIPULATED,77,IS,1
+Pixel Shift Vertikal,0017,SIEMENS DFR.01 MANIPULATED,78,IS,1
+Image Flip,0017,SIEMENS DFR.01 MANIPULATED,79,US,1
+Invers Current,0017,SIEMENS DFR.01 MANIPULATED,7A,US,1
+Documentation Flag,0017,SIEMENS DFR.01 MANIPULATED,83,SH,1
+Summation Count Filling,0017,SIEMENS DFR.01 MANIPULATED,91,US,1
+Summation Count Mask,0017,SIEMENS DFR.01 MANIPULATED,92,US,1
+PeakOp Start,0017,SIEMENS DFR.01 MANIPULATED,93,US,1
+PeakOp End,0017,SIEMENS DFR.01 MANIPULATED,94,US,1
+Cine Rate,0017,SIEMENS DFR.01 MANIPULATED,A0,IS,1
+Image Name,0017,SIEMENS DFR.01 MANIPULATED,A1,LO,1
+Image Name Extension 1,0017,SIEMENS DFR.01 MANIPULATED,A2,LO,1
+Image Name Extension 2,0017,SIEMENS DFR.01 MANIPULATED,A3,LO,1
+Image Type,0017,SIEMENS DFR.01 ORIGINAL,10,CS,1
+Window Width Native Original,0017,SIEMENS DFR.01 ORIGINAL,11,US,1
+Window Center Native,0017,SIEMENS DFR.01 ORIGINAL,12,US,1
+Window Width Subtraction Original,0017,SIEMENS DFR.01 ORIGINAL,14,US,1
+Window Center Subtraction Original,0017,SIEMENS DFR.01 ORIGINAL,15,US,1
+LUT Number for Autowindow,0017,SIEMENS DFR.01 ORIGINAL,16,US,1
+Edge Enhancement Kernelsize Original,0017,SIEMENS DFR.01 ORIGINAL,21,US,1
+Edge Enhancement Mode Original,0017,SIEMENS DFR.01 ORIGINAL,22,US,1
+Edge Enhancement LUTs Original,0017,SIEMENS DFR.01 ORIGINAL,23,US,N
+Filter Type Native Original,0017,SIEMENS DFR.01 ORIGINAL,24,US,1
+Edge Enhancement Native Original,0017,SIEMENS DFR.01 ORIGINAL,25,DS,1
+Filter Type Subtraction Original,0017,SIEMENS DFR.01 ORIGINAL,26,US,1
+Edge Enhancement Subtraction Original,0017,SIEMENS DFR.01 ORIGINAL,27,DS,1
+DSA Representation Original,0017,SIEMENS DFR.01 ORIGINAL,31,US,1
+Number of Maske Original,0017,SIEMENS DFR.01 ORIGINAL,32,US,1
+RightLeft Mark Original,0017,SIEMENS DFR.01 ORIGINAL,33,US,1
+Slice Position,0017,SIEMENS DFR.01 ORIGINAL,34,DS,1
+Rectangle Shutter Horizontal Original,0017,SIEMENS DFR.01 ORIGINAL,37,US,1
+Rectangle Vertical Original,0017,SIEMENS DFR.01 ORIGINAL,38,US,1
+Dose,0017,SIEMENS DFR.01 ORIGINAL,41,DS,1
+Dose Area Product,0017,SIEMENS DFR.01 ORIGINAL,42,DS,1
+Focus,0017,SIEMENS DFR.01 ORIGINAL,43,US,1
+SDM,0017,SIEMENS DFR.01 ORIGINAL,44,US,1
+Image Intensifer Format,0017,SIEMENS DFR.01 ORIGINAL,45,DS,1
+Density Correction,0017,SIEMENS DFR.01 ORIGINAL,46,DS,1
+Exposure Curves,0017,SIEMENS DFR.01 ORIGINAL,47,LO,1
+Organ Program Name,0017,SIEMENS DFR.01 ORIGINAL,49,LO,1
+Count of Images in Series,0017,SIEMENS DFR.01 ORIGINAL,4A,IS,1
+Image Intensifier Zoom,0017,SIEMENS DFR.01 ORIGINAL,51,US,1
+ROSA Receiver ErrCount,0017,SIEMENS DFR.01 ORIGINAL,52,UL,1
+Table Position Peri,0017,SIEMENS DFR.01 ORIGINAL,61,US,1
+Series Numbers of Petri,0017,SIEMENS DFR.01 ORIGINAL,62,US,N
+Landmark Original,0017,SIEMENS DFR.01 ORIGINAL,71,LO,1
+Invers Original,0017,SIEMENS DFR.01 ORIGINAL,7A,US,1
+L2 Image,0017,SIEMENS DFR.01 ORIGINAL,B1,CS,1
+L2 Acquisition Monitor,0017,SIEMENS DFR.01 ORIGINAL,B2,IS,1
+Folder UID,0017,SIEMENS DFR.01 ORIGINAL,C1,LO,1
+Series UID,0017,SIEMENS DFR.01 ORIGINAL,C2,LO,1
+Subseries UID,0017,SIEMENS DFR.01 ORIGINAL,C3,LO,1
+Unknown 0017 0000,0017,SIEMENS MED NM,00,ST,1
+Scanning Sequence,0017,SIEMENS MED NM,20,CS,1
+KVP,0017,SIEMENS MED NM,60,DS,1
+Unknown 0017 0080,0017,SIEMENS MED NM,80,ST,N
+Group 0018 Length,0018,0000,UL,1
+Contrast/Bolus Agent,0018,0010,LO,1
+Contrast/Bolus Agent Sequence,0018,0012,SQ,1
+Contrast/Bolus Administration Route Sequence,0018,0014,SQ,1
+Body Part Examined,0018,0015,CS,1
+Scanning Sequence,0018,0020,CS,1-N
+Sequence Variant,0018,0021,CS,1-N
+Scan Options,0018,0022,CS,1-N
+MR Acquisition Type,0018,0023,CS,1
+Sequence Name,0018,0024,SH,1
+Angio Flag,0018,0025,CS,1
+Intervention Drug Information Sequence,0018,0026,SQ,1
+Intervention Drug Stop Time,0018,0027,TM,1
+Intervention Drug Dose,0018,0028,DS,1
+Intervention Drug Sequence,0018,0029,SQ,1
+Additional Drug Sequence,0018,002A,SQ,1
+Radionuclide RETIRED,0018,0030,LO,1-N
+Radiopharmaceutical,0018,0031,LO,1
+Energy Window Centerline RETIRED,0018,0032,DS,1
+Energy Window Total Width RETIRED,0018,0033,DS,1-N
+Intervention Drug Name,0018,0034,LO,1
+Intervention Drug Start Time,0018,0035,TM,1
+Intervention Sequence,0018,0036,SQ,1
+Therapy Type RETIRED,0018,0037,CS,1
+Intervention Status,0018,0038,CS,1
+Therapy Description RETIRED,0018,0039,CS,1
+Intervention Description,0018,003A,ST,1
+Cine Rate,0018,0040,IS,1
+Slice Thickness,0018,0050,DS,1
+KVP,0018,0060,DS,1
+Counts Accumulated,0018,0070,IS,1
+Acquisition Termination Condition,0018,0071,CS,1
+Effective Series Duration,0018,0072,DS,1
+Acquisition Start Condition,0018,0073,CS,1
+Acquisition Start Condition Data,0018,0074,IS,1
+Acquisition Termination Condition Data,0018,0075,IS,1
+Repetition Time,0018,0080,DS,1
+Echo Time,0018,0081,DS,1
+Inversion Time,0018,0082,DS,1
+Number of Averages,0018,0083,DS,1
+Imaging Frequency,0018,0084,DS,1
+Imaged Nucleus,0018,0085,SH,1
+Echo Number(s),0018,0086,IS,1-N
+Magnetic Field Strength,0018,0087,DS,1
+Spacing Between Slices,0018,0088,DS,1
+Number of Phase Encoding Steps,0018,0089,IS,1
+Data Collection Diameter,0018,0090,DS,1
+Echo Train Length,0018,0091,IS,1
+Percent Sampling,0018,0093,DS,1
+Percent Phase Field of View,0018,0094,DS,1
+Pixel Bandwidth,0018,0095,DS,1
+Device Serial Number,0018,1000,LO,1
+Plate ID,0018,1004,LO,1
+Secondary Capture Device ID,0018,1010,LO,1
+Hardcopy Creation Device ID,0018,1011,LO,1
+Date of Secondary Capture,0018,1012,DA,1
+Time of Secondary Capture,0018,1014,TM,1
+Secondary Capture Device Manufacturer,0018,1016,LO,1
+Hardcopy Device Manufacturer,0018,1017,LO,1
+Secondary Capture Device Manufacturer's Model Name,0018,1018,LO,1
+Secondary Capture Device Software Version(s),0018,1019,LO,1-N
+Hardcopy Device Software Version,0018,101A,LO,1-N
+Hardcopy Device Manufacturer's Model Name,0018,101B,LO,1
+Software Version(s),0018,1020,LO,1-N
+Video Image Format Acquired,0018,1022,SH,1
+Digital Image Format Acquired,0018,1023,LO,1
+Protocol Name,0018,1030,LO,1
+Contrast/Bolus Route,0018,1040,LO,1
+Contrast/Bolus Volume,0018,1041,DS,1
+Contrast/Bolus Start Time,0018,1042,TM,1
+Contrast/Bolus Stop Time,0018,1043,TM,1
+Contrast/Bolus Total Dose,0018,1044,DS,1
+Syringe Counts,0018,1045,IS,1
+Contrast Flow Rate,0018,1046,DS,1-N
+Contrast Flow Duration,0018,1047,DS,1-N
+Contrast/Bolus Ingredient,0018,1048,CS,1
+Contrast/Bolus Ingredient Concentration,0018,1049,DS,1
+Spatial Resolution,0018,1050,DS,1
+Trigger Time,0018,1060,DS,1
+Trigger Source or Type,0018,1061,LO,1
+Nominal Interval,0018,1062,IS,1
+Frame Time,0018,1063,DS,1
+Framing Type,0018,1064,LO,1
+Frame Time Vector,0018,1065,DS,1-N
+Frame Delay,0018,1066,DS,1
+Image Trigger Delay,0018,1067,DS,1
+Multiplex Group Time Offset,0018,1068,DS,1
+Trigger Time Offset,0018,1069,DS,1
+Synchronization Trigger,0018,106A,CS,1
+Synchronization Channel,0018,106C,US,2
+Trigger Sample Position,0018,106E,UL,1
+Radiopharmaceutical Route,0018,1070,LO,1
+Radiopharmaceutical Volume,0018,1071,DS,1
+Radiopharmaceutical Start Time,0018,1072,TM,1
+Radiopharmaceutical Stop Time,0018,1073,TM,1
+Radionuclide Total Dose,0018,1074,DS,1
+Radionuclide Half Life,0018,1075,DS,1
+Radionuclide Positron Fraction,0018,1076,DS,1
+Radiopharmaceutical Specific Activity,0018,1077,DS,1
+Beat Rejection Flag,0018,1080,CS,1
+Low R-R Value,0018,1081,IS,1
+High R-R Value,0018,1082,IS,1
+Intervals Acquired,0018,1083,IS,1
+Intervals Rejected,0018,1084,IS,1
+PVC Rejection,0018,1085,LO,1
+Skip Beats,0018,1086,IS,1
+Heart Rate,0018,1088,IS,1
+Cardiac Number of Images,0018,1090,IS,1
+Trigger Window,0018,1094,IS,1
+Reconstruction Diameter,0018,1100,DS,1
+Distance Source to Detector,0018,1110,DS,1
+Distance Source to Patient,0018,1111,DS,1
+Estimated Radiographic Magnification Factor,0018,1114,DS,1
+Gantry/Detector Tilt,0018,1120,DS,1
+Gantry/Detector Slew,0018,1121,DS,1
+Table Height,0018,1130,DS,1
+Table Traverse,0018,1131,DS,1
+Table Motion,0018,1134,CS,1
+Table Vertical Increment,0018,1135,DS,1-N
+Table Lateral Increment,0018,1136,DS,1-N
+Table Longitudinal Increment,0018,1137,DS,1-N
+Table Angle,0018,1138,DS,1
+Table Type,0018,113A,CS,1
+Rotation Direction,0018,1140,CS,1
+Angular Position,0018,1141,DS,1
+Radial Position,0018,1142,DS,1-N
+Scan Arc,0018,1143,DS,1
+Angular Step,0018,1144,DS,1
+Center of Rotation Offset,0018,1145,DS,1
+Rotation Offset RETIRED,0018,1146,DS,1-N
+Field of View Shape,0018,1147,CS,1
+Field of View Dimension(s),0018,1149,IS,1-2
+Exposure Time,0018,1150,IS,1
+X-ray Tube Current,0018,1151,IS,1
+Exposure,0018,1152,IS,1
+Exposure in uAs,0018,1153,IS,1
+Average Pulse Width,0018,1154,DS,1
+Radiation Setting,0018,1155,CS,1
+Rectification Type,0018,1156,CS,1
+Radiation Mode,0018,115A,CS,1
+Image Area Dose Product,0018,115E,DS,1
+Filter Type,0018,1160,SH,1
+Type of Filters,0018,1161,LO,1-N
+Intensifier Size,0018,1162,DS,1
+Imager Pixel Spacing,0018,1164,DS,2
+Grid,0018,1166,CS,1-N
+Generator Power,0018,1170,IS,1
+Collimator/grid Name,0018,1180,SH,1
+Collimator Type,0018,1181,CS,1
+Focal Distance,0018,1182,IS,1-2
+X Focus Center,0018,1183,DS,1-2
+Y Focus Center,0018,1184,DS,1-2
+Focal Spot(s),0018,1190,DS,1-N
+Anode Target Material,0018,1191,CS,1
+Body Part Thickness,0018,11A0,DS,1
+Compression Force,0018,11A2,DS,1
+Date of Last Calibration,0018,1200,DA,1-N
+Time of Last Calibration,0018,1201,TM,1-N
+Convolution Kernel,0018,1210,SH,1-N
+Upper/Lower Pixel Values RETIRED,0018,1240,DS,1-N
+Actual Frame Duration,0018,1242,IS,1
+Count Rate,0018,1243,IS,1
+Preferred Playback Sequencing,0018,1244,US,1
+Receive Coil Name,0018,1250,SH,1
+Transmit Coil Name,0018,1251,SH,1
+Plate Type,0018,1260,SH,1
+Phosphor Type,0018,1261,LO,1
+Scan Velocity,0018,1300,DS,1
+Whole Body Technique,0018,1301,CS,1-N
+Scan Length,0018,1302,IS,1
+Acquisition Matrix,0018,1310,US,4
+In-Plane Phase Encoding Direction,0018,1312,CS,1
+Flip Angle,0018,1314,DS,1
+Variable Flip Angle Flag,0018,1315,CS,1
+SAR,0018,1316,DS,1
+dB/dt,0018,1318,DS,1
+Acquisition Device Processing Description,0018,1400,LO,1
+Acquisition Device Processing Code,0018,1401,LO,1
+Cassette Orientation,0018,1402,CS,1
+Cassette Size,0018,1403,CS,1
+Exposures on Plate,0018,1404,US,1
+Relative X-ray Exposure,0018,1405,IS,1
+Column Angulation,0018,1450,DS,1
+Tomo Layer Height,0018,1460,DS,1
+Tomo Angle,0018,1470,DS,1
+Tomo Time,0018,1480,DS,1
+Tomo Type,0018,1490,CS,1
+Tomo Class,0018,1491,CS,1
+Number of Tomosynthesis Source Images,0018,1495,IS,1
+Positioner Motion,0018,1500,CS,1
+Positioner Type,0018,1508,CS,1
+Positioner Primary Angle,0018,1510,DS,1
+Positioner Secondary Angle,0018,1511,DS,1
+Positioner Primary Angle Increment,0018,1520,DS,1-N
+Positioner Secondary Angle Increment,0018,1521,DS,1-N
+Detector Primary Angle,0018,1530,DS,1
+Detector Secondary Angle,0018,1531,DS,1
+Shutter Shape,0018,1600,CS,1-3
+Shutter Left Vertical Edge,0018,1602,IS,1
+Shutter Right Vertical Edge,0018,1604,IS,1
+Shutter Upper Horizontal Edge,0018,1606,IS,1
+Shutter Lower Horizontal Edge,0018,1608,IS,1
+Center of Circular Shutter,0018,1610,IS,2
+Radius of Circular Shutter,0018,1612,IS,1
+Vertices of Polygonal Shutter,0018,1620,IS,2-N
+Shutter Presentation Value,0018,1622,US,1
+Shutter Overlay Group,0018,1623,US,1
+Collimator Shape,0018,1700,CS,1-3
+Collimator Left Vertical Edge,0018,1702,IS,1
+Collimator Right Vertical Edge,0018,1704,IS,1
+Collimator Upper Horizontal Edge,0018,1706,IS,1
+Collimator Lower Horizontal Edge,0018,1708,IS,1
+Center of Circular Collimator,0018,1710,IS,2
+Radius of Circular Collimator,0018,1712,IS,1
+Vertices of the Polygonal Collimator,0018,1720,IS,2-N
+Acquisition Time Synchronized,0018,1800,CS,1
+Time Source,0018,1801,SH,1
+Time Distribution Protocol,0018,1802,CS,1
+NTP Source Address,0018,1803,LO,1
+Page Number Vector,0018,2001,IS,1-N
+Frame Label Vector,0018,2002,SH,1-N
+Frame Primary Angle Vector,0018,2003,DS,1-N
+Frame Secondary Angle Vector,0018,2004,DS,1-N
+Slice Location Vector,0018,2005,DS,1-N
+Display Window Label Vector,0018,2006,SH,1-N
+Nominal Scanned Pixel Spacing,0018,2010,DS,2
+Digitizing Device Transport Direction,0018,2020,CS,1
+Rotation of Scanned Film,0018,2030,DS,1
+IVUS Acquisition,0018,3100,CS,1
+IVUS Pullback Rate,0018,3101,DS,1
+IVUS Gated Rate,0018,3102,DS,1
+IVUS Pullback Start Frame Number,0018,3103,IS,1
+IVUS Pullback Stop Frame Number,0018,3104,IS,1
+Lesion Number,0018,3105,IS,1-N
+Group 0018 Comments RETIRED,0018,4000,LO,1-N
+TM-Line Position X1,0018,4041,SL,1
+TM-Line Position Y1,0018,4043,SL,1
+Output Power,0018,5000,SH,1-N
+Transducer Data,0018,5010,LO,3
+Focus Depth,0018,5012,DS,1
+Processing Function,0018,5020,LO,1
+Postprocessing Function,0018,5021,LO,1
+Mechanical Index,0018,5022,DS,1
+Bone Thermal Index,0018,5024,DS,1
+Cranial Thermal Index,0018,5026,DS,1
+Soft Tissue Thermal Index,0018,5027,DS,1
+Soft Tissue-focus Thermal Index,0018,5028,DS,1
+Soft Tissue-surface Thermal Index,0018,5029,DS,1
+Dynamic Range RETIRED,0018,5030,DS,1
+Total Gain RETIRED,0018,5040,DS,1
+Depth of Scan Field,0018,5050,IS,1
+Patient Position,0018,5100,CS,1
+View Position,0018,5101,CS,1
+Projection Eponymous Name Code Sequence,0018,5104,SQ,1
+Image Transformation Matrix,0018,5210,DS,6
+Image Translation Vector,0018,5212,DS,3
+Sensitivity,0018,6000,DS,1
+Sequence of Ultrasound Regions,0018,6011,SQ,1
+Region Spatial Format,0018,6012,US,1
+Region Data Type,0018,6014,US,1
+Region Flags,0018,6016,UL,1
+Region Location Min X0,0018,6018,UL,1
+Region Location Min Y0,0018,601A,UL,1
+Region Location Max X1,0018,601C,UL,1
+Region Location Max Y1,0018,601E,UL,1
+Reference Pixel X0,0018,6020,SL,1
+Reference Pixel Y0,0018,6022,SL,1
+Physical Units X Direction,0018,6024,US,1
+Physical Units Y Direction,0018,6026,US,1
+Reference Pixel Physical Value X,0018,6028,FD,1
+Reference Pixel Physical Value Y,0018,602A,FD,1
+Physical Delta X,0018,602C,FD,1
+Physical Delta Y,0018,602E,FD,1
+Transducer Frequency,0018,6030,UL,1
+Transducer Type,0018,6031,CS,1
+Pulse Repetition Frequency,0018,6032,UL,1
+Doppler Correction Angle,0018,6034,FD,1
+Steering Angle,0018,6036,FD,1
+Doppler Sample Volume X Position RETIRED,0018,6038,UL,1
+Doppler Sample Volume X Position,0018,6039,SL,1
+Doppler Sample Volume Y Position RETIRED,0018,603A,UL,1
+Doppler Sample Volume Y Position,0018,603B,SL,1
+TM-Line Position X0 RETIRED,0018,603C,UL,1
+TM-Line Position X0,0018,603D,SL,1
+TM-Line Position Y0 RETIRED,0018,603E,UL,1
+TM-Line Position Y0,0018,603F,SL,1
+TM-Line Position X1 RETIRED,0018,6040,UL,1
+TM-Line Position Y1 RETIRED,0018,6042,UL,1
+Pixel Component Organization,0018,6044,US,1
+Pixel Component Mask,0018,6046,UL,1
+Pixel Component Range Start,0018,6048,UL,1
+Pixel Component Range Stop,0018,604A,UL,1
+Pixel Component Physical Units,0018,604C,US,1
+Pixel Component Data Type,0018,604E,US,1
+Number of Table Break Points,0018,6050,UL,1
+Table of X Break Points,0018,6052,UL,1-N
+Table of Y Break Points,0018,6054,FD,1-N
+Number of Table Entries,0018,6056,UL,1
+Table of Pixel Values,0018,6058,UL,1-N
+Table of Parameter Values,0018,605A,FL,1-N
+R Wave Time Vector,0018,6060,FL,1-N
+Detector Conditions Nominal Flag,0018,7000,CS,1
+Detector Temperature,0018,7001,DS,1
+Detector Type,0018,7004,CS,1
+Detector Configuration,0018,7005,CS,1
+Detector Description,0018,7006,LT,1
+Detector Mode,0018,7008,LT,1
+Detector ID,0018,700A,SH,1
+Date of Last Detector Calibration,0018,700C,DA,1
+Time of Last Detector Calibration,0018,700E,TM,1
+Exposures on Detector Since Last Calibration,0018,7010,IS,1
+Exposures on Detector Since Manufactured,0018,7011,IS,1
+Detector Time Since Last Exposure,0018,7012,DS,1
+Detector Active Time,0018,7014,DS,1
+Detector Activation Offset From Exposure,0018,7016,DS,1
+Detector Binning,0018,701A,DS,2
+Detector Element Physical Size,0018,7020,DS,2
+Detector Element Spacing,0018,7022,DS,2
+Detector Active Shape,0018,7024,CS,1
+Detector Active Dimension(s),0018,7026,DS,1-2
+Detector Active Origin,0018,7028,DS,2
+Detector Manufacturer Name,0018,702A,LO,1
+Detector Manufacturer's Model Name,0018,702B,LO,1
+Field of View Origin,0018,7030,DS,2
+Field of View Rotation,0018,7032,DS,1
+Field of View Horizontal Flip,0018,7034,CS,1
+Grid Absorbing Material,0018,7040,LT,1
+Grid Spacing Material,0018,7041,LT,1
+Grid Thickness,0018,7042,DS,1
+Grid Pitch,0018,7044,DS,1
+Grid Aspect Ratio,0018,7046,IS,2
+Grid Period,0018,7048,DS,1
+Grid Focal Distance,0018,704C,DS,1
+Filter Material,0018,7050,CS,1-N
+Filter Thickness Minimum,0018,7052,DS,1-N
+Filter Thickness Maximum,0018,7054,DS,1-N
+Exposure Control Mode,0018,7060,CS,1
+Exposure Control Mode Description,0018,7062,LT,1
+Exposure Status,0018,7064,CS,1
+Phototimer Setting,0018,7065,DS,1
+Exposure Time in uS,0018,8150,DS,1
+X-Ray Tube Current in uA,0018,8151,DS,1
+Content Qualification,0018,9004,CS,1
+Pulse Sequence Name,0018,9005,SH,1
+MR Imaging Modifier Sequence,0018,9006,SQ,1
+Echo Pulse Sequence,0018,9008,CS,1
+Inversion Recovery,0018,9009,CS,1
+Flow Compensation,0018,9010,CS,1
+Multiple Spin Echo,0018,9011,CS,1
+Multi-planar Excitation,0018,9012,CS,1
+Phase Contrast,0018,9014,CS,1
+Time of Flight Contrast,0018,9015,CS,1
+Spoiling,0018,9016,CS,1
+Steady State Pulse Sequence,0018,9017,CS,1
+Echo Planar Pulse Sequence,0018,9018,CS,1
+Tag Angle First Axis,0018,9019,FD,1
+Magnetization Transfer,0018,9020,CS,1
+T2 Preparation,0018,9021,CS,1
+Blood Signal Nulling,0018,9022,CS,1
+Saturation Recovery,0018,9024,CS,1
+Spectrally Selected Suppression,0018,9025,CS,1
+Spectrally Selected Excitation,0018,9026,CS,1
+Spatial Pre-saturation,0018,9027,CS,1
+Tagging,0018,9028,CS,1
+Oversampling Phase,0018,9029,CS,1
+Tag Spacing First Dimension,0018,9030,FD,1
+Geometry of k-Space Traversal,0018,9032,CS,1
+Segmented k-Space Traversal,0018,9033,CS,1
+Rectilinear Phase Encode Reordering,0018,9034,CS,1
+Tag Thickness,0018,9035,FD,1
+Partial Fourier Direction,0018,9036,CS,1
+Cardiac Synchronization Technique,0018,9037,CS,1
+Receive Coil Manufacturer Name,0018,9041,LO,1
+MR Receive Coil Sequence,0018,9042,SQ,1
+Receive Coil Type,0018,9043,CS,1
+Quadrature Receive Coil,0018,9044,CS,1
+Multi-Coil Definition Sequence,0018,9045,SQ,1
+Multi-Coil Configuration,0018,9046,LO,1
+Multi-Coil Element Name,0018,9047,SH,1
+Multi-Coil Element Used,0018,9048,CS,1
+MR Transmit Coil Sequence,0018,9049,SQ,1
+Transmit Coil Manufacturer Name,0018,9050,LO,1
+Transmit Coil Type,0018,9051,CS,1
+Spectral Width,0018,9052,FD,1-2
+Chemical Shift Reference,0018,9053,FD,1-2
+Volume Localization Technique,0018,9054,CS,1
+MR Acquisition Freq Enc Steps,0018,9058,US,1
+Decoupling,0018,9059,CS,1
+Decoupled Nucleus,0018,9060,CS,1-2
+Decoupling Frequency,0018,9061,FD,1-2
+Decoupling Method,0018,9062,CS,1
+Decoupling Chemical Shift Reference,0018,9063,FD,1-2
+k-Space Filtering,0018,9064,CS,1
+Time Domain Filtering,0018,9065,CS,1-2
+Number of Zero fills,0018,9066,US,1-2
+Baseline Correction,0018,9067,CS,1
+Parallel Reduction Factor In Plane,0018,9069,FD,1
+Cardiac R-R Interval Specified,0018,9070,FD,1
+Acquisition Duration,0018,9073,FD,1
+Frame Acquisition Datetime,0018,9074,DT,1
+Diffusion Directionality,0018,9075,CS,1
+Diffusion Gradient Direction Sequence,0018,9076,SQ,1
+Parallel Acquistion,0018,9077,CS,1
+Parallel Acquisition Technique,0018,9078,CS,1
+Inversion Times,0018,9079,FD,1-n
+Metabolite Map Description,0018,9080,ST,1
+Partial Fourier,0018,9081,CS,1
+Effective Echo Time,0018,9082,FD,1
+Metabolite Map Code Sequence,0018,9083,SQ,1
+Chemical Shift Sequence,0018,9084,SQ,1
+Cardiac Signmal Source,0018,9085,CS,1
+Diffusion b value,0018,9087,FD,1
+Diffusion gradient Orientation,0018,9089,FD,3
+Velocity Encoding Direction,0018,9090,FD,3
+Velocity Encoding Minimal Value,0018,9091,FD,1
+Number of k space Trajectories,0018,9093,US,1
+Coverage of k space,0018,9094,CS,1
+Spectroscopy Acquisition Phase Rows,0018,9095,UL,1
+Transmitter Frequence,0018,9098,FD,1-2
+Resonant Nucleus,0018,9100,CS,1-2
+Frequency Correction,0018,9101,CS,1
+MR Spectroscopy FOV Geometry Sequence,0018,9103,SQ,1
+Slab Thickness,0018,9104,FD,1
+Slab Orientation,0018,9105,FD,3
+Mid Slab Position,0018,9106,FD,3
+MR Spatial Saturation Sequence,0018,9107,SQ,1
+MR Timing and related Parameters Sequence,0018,9112,SQ,1
+MR Echo Sequence,0018,9114,SQ,1
+MR Modifier Sequence,0018,9115,SQ,1
+MR Diffusion Sequence,0018,9117,SQ,1
+Cardiac Trigger Sequence,0018,9118,SQ,1
+MR Averages Sequence,0018,9119,SQ,1
+MR FOV Geometry Sequence,0018,9125,SQ,1
+Volume Localization Sequence,0018,9126,SQ,1
+Spectroscopy Acquisition Data Columns,0018,9127,UL,1
+Diffusion Anisotropy Type,0018,9147,CS,1
+Frame Reference Datetime,0018,9151,DT,1
+MR Metabolite Map Sequence,0018,9152,SQ,1
+Parallel reduction Factor out of plane,0018,9155,FD,1
+Spectroscopy Acquisition Out of Plane Steps,0018,9159,UL,1
+Bulk Motion Status,0018,9166,CS,1
+Parallel Reduction Factor Second In plan,0018,9168,FD,1
+Cardiac Beat rejection technique,0018,9169,CS,1
+Respiratory Motion Compensation Technique,0018,9170,CS,1
+Respiratory Signal Source,0018,9171,CS,1
+Bulk Motion Compensation Technique,0018,9172,CS,1
+Bulk Motion Signal Source,0018,9173,CS,1
+Applicable Safety Standard Agency,0018,9174,CS,1
+Applicable Safety Standard Description,0018,9175,LO,1
+Operating Mode Sequence,0018,9176,SQ,1
+Operating Mode Type,0018,9177,CS,1
+Operation Mode,0018,9178,CS,1
+Gradient Output Type,0018,9180,CS,1
+Specific Absorption Rate Value,0018,9181,FD,1
+Gradient Output,0018,9182,FD,1
+Flow Compensation Direction,0018,9183,CS,1
+Tagging Delay,0018,9184,FD,1
+Chemical Shifts Minimum Integration Limit in Hz,0018,9195,FD,1
+Chemical Shifts Maximum Integration Limit in Hz,0018,9196,FD,1
+MR Velocity Encoding Sequence,0018,9197,SQ,1
+First Order Phase Correction,0018,9198,CS,1
+Water Referenced Phase Correction,0018,9199,CS,1
+MR Spectroscopy Acquisition Type,0018,9200,CS,1
+Respiratory Cycle Position,0018,9214,CS,1
+Velocity Encoding Maximum Value,0018,9217,FD,1
+Tag Spacing Second Dimension,0018,9218,FD,1
+Tag Angle Second Axis,0018,9219,SS,1
+Frame Acquisition Duration,0018,9220,FD,1
+MR Image Frame Type Sequence,0018,9226,SQ,1
+MR Spectroscopy Frame Type Sequence,0018,9227,SQ,1
+MR Acquisition Phase Encoding Steps in-plane,0018,9231,US,1
+MR Acquisition Phase Encoding Steps out-of-plane,0018,9232,US,1
+Spectroscopy Acquisition Phase Columns,0018,9234,UL,1
+Cardiac Cycle Position,0018,9236,CS,1
+Specific Absorption Rate Sequence,0018,9239,SQ,1
+RF Echo Train Length,0018,9240,US,1
+Gradient Echo Train Length,0018,9241,US,1
+Chemical Shifts Minimum Integration Limit in ppm,0018,9295,FD,1
+Chemical Shifts Maximum Integration Limit in ppm,0018,9296,FD,1
+CT Acquisition Type Sequence,0018,9301,SQ,1
+Acquisition Type,0018,9302,CS,1
+Tube Angle,0018,9303,FD,1
+CT Acquisition Details Sequence,0018,9304,SQ,1
+Revolution Time,0018,9305,FD,1
+Single Collimation Width,0018,9306,FD,1
+Total Collimation Width,0018,9307,FD,1
+CT Table Dynamics Sequence,0018,9308,SQ,1
+Table Speed,0018,9309,FD,1
+Table Feed per Rotation,0018,9310,FD,1
+Spiral Pitch Factor,0018,9311,FD,1
+CT Geometry Sequence,0018,9312,SQ,1
+Data Collection Center (Patient),0018,9313,FD,3
+CT Reconstruction Sequence,0018,9314,SQ,1
+Reconstruction Algorithm,0018,9315,CS,1
+Convolution Kernel Group,0018,9316,CS,1
+Reconstruction Field of View,0018,9317,FD,2
+Reconstruction Target Center (Patient),0018,9318,FD,3
+Reconstruction Angle,0018,9319,FD,1
+Image Filter,0018,9320,SH,1
+CT Exposure Sequence,0018,9321,SQ,1
+Reconstruction Pixel Spacing,0018,9322,FD,2
+Exposure Modulation Type,0018,9323,CS,1
+Estimated Dose Saving,0018,9324,FD,1
+CT X-ray Details Sequence,0018,9325,SQ,1
+CT Position Sequence,0018,9326,SQ,1
+Table Position,0018,9327,FD,1
+Exposure Time in ms,0018,9328,FD,1
+CT Image Frame Type Sequence,0018,9329,SQ,1
+X-ray Tube Current in mA,0018,9330,FD,1
+Exposure in mAs,0018,9332,FD,1
+Constant Volume Flag,0018,9333,CS,1
+Fluoroscopy Flag,0018,9334,CS,1
+Distance Source to Data Collection Center,0018,9335,FD,1
+Contrast/Bolus Agent Number,0018,9337,US,1
+Contrast/Bolus Ingredient Code Sequence,0018,9338,SQ,1
+Contrast Administration Profile Sequence,0018,9340,SQ,1
+Contrast/Bolus Usage Sequence,0018,9341,SQ,1
+Contrast/Bolus Agent Administered,0018,9342,CS,1
+Contrast/Bolus Agent Detected,0018,9343,CS,1
+Contrast/Bolus Agent Phase,0018,9344,CS,1
+CTDIvol,0018,9345,FD,1
+Contributing Equipment Sequence,0018,A001,SQ,1
+Contribution DateTime,0018,A002,DT,1
+Contribution Description,0018,A003,ST,1
+Parameter File Name,0019,SIEMENS CM VA0  ACQU,10,LO,1
+Sequence File Name,0019,SIEMENS CM VA0  ACQU,11,LO,1
+Sequence File Owner,0019,SIEMENS CM VA0  ACQU,12,LO,1
+Sequence Description,0019,SIEMENS CM VA0  ACQU,13,LO,1
+EPI File Name,0019,SIEMENS CM VA0  ACQU,14,LO,1
+Mode File Name,0019,SIEMENS CM VA0  ACQU,20,LO,1
+Convolution Kernel Comment 1,0019,SIEMENS CM VA0  ACQU,30,LO,1
+Convolution Kernel Comment 2,0019,SIEMENS CM VA0  ACQU,31,LO,1
+Convolution Kernel Comment 3,0019,SIEMENS CM VA0  ACQU,32,LO,1
+Convolution Kernel Comment 4,0019,SIEMENS CM VA0  ACQU,33,LO,1
+Convolution Kernel Comment 5,0019,SIEMENS CM VA0  ACQU,34,LO,1
+Convolution Kernel Comment 6,0019,SIEMENS CM VA0  ACQU,35,LO,1
+Convolution Kernel Comment 7,0019,SIEMENS CM VA0  ACQU,36,LO,1
+Convolution Kernel Comment 8,0019,SIEMENS CM VA0  ACQU,37,LO,1
+Convolution Kernel Comment 9,0019,SIEMENS CM VA0  ACQU,38,LO,1
+Convolution Kernel Comment 10,0019,SIEMENS CM VA0  ACQU,39,LO,1
+Reading Code RZ1 Comment 1,0019,SIEMENS CM VA0  ACQU,3A,LO,1
+Reading Code RZ1 Comment 2,0019,SIEMENS CM VA0  ACQU,3B,LO,1
+Reading Code RZ2 Comment 1,0019,SIEMENS CM VA0  ACQU,3C,LO,1
+Net Frequency,0019,SIEMENS CM VA0  CMS,10,IS,1
+Measurement Mode,0019,SIEMENS CM VA0  CMS,20,CS,1
+Calculation Mode,0019,SIEMENS CM VA0  CMS,30,CS,1
+Noise Level,0019,SIEMENS CM VA0  CMS,50,IS,1
+Number of Data Bytes,0019,SIEMENS CM VA0  CMS,60,IS,1
+Reading Code RZ2 Comment 2,0019,SIEMENS CM VA0  COAD,3D,LO,1
+Distance Source to SourceSide Collimator,0019,SIEMENS CT VA0  COAD,10,IS,1
+Distance Source to DetectorSide Collimator,0019,SIEMENS CT VA0  COAD,11,IS,1
+Number of Possible Channels,0019,SIEMENS CT VA0  COAD,20,IS,1
+Mean Channel Number,0019,SIEMENS CT VA0  COAD,21,IS,1
+Detector Spacing,0019,SIEMENS CT VA0  COAD,22,DS,1
+Detector Center,0019,SIEMENS CT VA0  COAD,23,DS,1
+Reading Integration Time,0019,SIEMENS CT VA0  COAD,24,DS,1
+Detector Alignment,0019,SIEMENS CT VA0  COAD,50,DS,1
+Table Feed,0019,SIEMENS CT VA0  COAD,52,DS,1
+Rotation Time,0019,SIEMENS CT VA0  COAD,54,DS,1
+Focus Alignment,0019,SIEMENS CT VA0  COAD,60,DS,1
+Focal Spot Deflection Amplitude,0019,SIEMENS CT VA0  COAD,65,UL,1
+Focal Spot Deflection Phase,0019,SIEMENS CT VA0  COAD,66,UL,1
+Focal Spot Deflection Offset,0019,SIEMENS CT VA0  COAD,67,UL,1
+Water Scaling Factor,0019,SIEMENS CT VA0  COAD,70,DS,1
+Interpolation Factor,0019,SIEMENS CT VA0  COAD,71,DS,1
+Patient Region,0019,SIEMENS CT VA0  COAD,80,CS,1
+Patient Phase of Life,0019,SIEMENS CT VA0  COAD,82,CS,1
+Osteo Offset,0019,SIEMENS CT VA0  COAD,90,DS,1
+Osteo Regression Line Slope,0019,SIEMENS CT VA0  COAD,92,DS,1
+Osteo Regression Line Intercept,0019,SIEMENS CT VA0  COAD,93,DS,1
+Osteo Standardization Code,0019,SIEMENS CT VA0  COAD,94,IS,1
+Osteo Phantom Number,0019,SIEMENS CT VA0  COAD,96,IS,1
+Spiral Location Begin,0019,SIEMENS CT VA0  COAD,A0,DS,1
+Spiral Location End,0019,SIEMENS CT VA0  COAD,A1,DS,1
+Spiral z Profile,0019,SIEMENS CT VA0  COAD,A2,CS,1
+Spiral Reconstruction Direction,0019,SIEMENS CT VA0  COAD,A3,CS,1
+Spiral Reconstruction Increment,0019,SIEMENS CT VA0  COAD,A4,DS,1
+Scan Tilt Plane Distance,0019,SIEMENS CT VA0  COAD,A5,DS,1
+Mode Processing Step Mask,0019,SIEMENS CT VA0  COAD,A6,UL,N
+Mode Processing Control Mask,0019,SIEMENS CT VA0  COAD,A7,UL,1
+Mode Master Mask,0019,SIEMENS CT VA0  COAD,A8,UL,N
+Mode Store Step,0019,SIEMENS CT VA0  COAD,A9,IS,1
+Focus Size Type,0019,SIEMENS CT VA0  COAD,AA,CS,1
+Mode Adaptive Filter Kind,0019,SIEMENS CT VA0  COAD,AB,IS,1
+Mode MBH Kind,0019,SIEMENS CT VA0  COAD,AC,IS,1
+Mode Balancing Kind,0019,SIEMENS CT VA0  COAD,AD,IS,1
+Number of Readings per Rotation,0019,SIEMENS CT VA0  COAD,AE,IS,1
+Correction Table Reference Time,0019,SIEMENS CT VA0  COAD,AF,DS,1
+Feed per Rotation,0019,SIEMENS CT VA0  COAD,B0,DS,1
+Source Side Collimator Aperture,0019,SIEMENS CT VA0  GEN,10,DS,1
+Detector Side Collimator Aperture,0019,SIEMENS CT VA0  GEN,11,DS,1
+Exposure Time current,0019,SIEMENS CT VA0  GEN,20,IS,1
+Exposure current,0019,SIEMENS CT VA0  GEN,21,IS,1
+Generator Power current,0019,SIEMENS CT VA0  GEN,25,DS,1
+Generator Voltage current,0019,SIEMENS CT VA0  GEN,26,DS,1
+Master Control Mask,0019,SIEMENS CT VA0  GEN,40,UL,1
+Processing Mask,0019,SIEMENS CT VA0  GEN,42,US,N
+IRS Data Number,0019,SIEMENS CT VA0  GEN,44,UL,N
+IRS Data Length,0019,SIEMENS CT VA0  GEN,45,UL,N
+Number of Virtuell Channels,0019,SIEMENS CT VA0  GEN,62,IS,1
+Number of Reading,0019,SIEMENS CT VA0  GEN,70,IS,1
+Reading Code,0019,SIEMENS CT VA0  GEN,71,CS,1
+Number of Projections,0019,SIEMENS CT VA0  GEN,74,IS,1
+Number of Bytes,0019,SIEMENS CT VA0  GEN,75,IS,1
+Reconstruction Algorithm Set,0019,SIEMENS CT VA0  GEN,80,IS,N
+Reconstruction Algorithm Index,0019,SIEMENS CT VA0  GEN,81,IS,1
+Regeneration Software Version,0019,SIEMENS CT VA0  GEN,82,LO,1
+Multiscan Reconstruction Increment,0019,SIEMENS CT VA0  GEN,84,IS,1
+Multiscan Reconstruction Width,0019,SIEMENS CT VA0  GEN,85,IS,1
+Range Number,0019,SIEMENS CT VA0  GEN,88,IS,1
+Measurement Mode,0019,SIEMENS DLR.01,10,LO,1
+Image Type,0019,SIEMENS DLR.01,11,LO,1
+Software Version,0019,SIEMENS DLR.01,15,LO,1
+MPM Code,0019,SIEMENS DLR.01,20,LO,1
+Latitude,0019,SIEMENS DLR.01,21,LO,1
+Sensitivity,0019,SIEMENS DLR.01,22,LO,1
+EDR,0019,SIEMENS DLR.01,23,LO,1
+l fix,0019,SIEMENS DLR.01,24,LO,1
+s fix,0019,SIEMENS DLR.01,25,LO,1
+Preset Mode,0019,SIEMENS DLR.01,26,LO,1
+Region,0019,SIEMENS DLR.01,27,LO,1
+Subregion,0019,SIEMENS DLR.01,28,LO,1
+Orientation,0019,SIEMENS DLR.01,30,LO,1
+Mark on Film,0019,SIEMENS DLR.01,31,LO,1
+Rotation on DRC,0019,SIEMENS DLR.01,32,LO,1
+Reader Type,0019,SIEMENS DLR.01,40,LO,1
+Sub Modality,0019,SIEMENS DLR.01,41,LO,1
+Reader Serial Number,0019,SIEMENS DLR.01,42,LO,1
+Cassette Scale,0019,SIEMENS DLR.01,50,LO,1
+Cassette Matrix,0019,SIEMENS DLR.01,51,LO,1
+Cassette Submatrix,0019,SIEMENS DLR.01,52,LO,1
+Barcode,0019,SIEMENS DLR.01,53,LO,1
+GT Contrast Type,0019,SIEMENS DLR.01,60,LO,1
+GA Rotation Amount,0019,SIEMENS DLR.01,61,LO,1
+GC Rotation Center,0019,SIEMENS DLR.01,62,LO,1
+GS Density Shift,0019,SIEMENS DLR.01,63,LO,1
+RN Frequency Rank,0019,SIEMENS DLR.01,64,US,1
+RE Frequency Enhancement,0019,SIEMENS DLR.01,65,LO,1
+RT Frequency Type,0019,SIEMENS DLR.01,66,LO,1
+Kernel Length,0019,SIEMENS DLR.01,67,LO,1
+Kernel Mode,0019,SIEMENS DLR.01,68,UL,1
+Convulsion Mode,0019,SIEMENS DLR.01,69,UL,1
+PLA Source,0019,SIEMENS DLR.01,70,LO,1
+PLA Destination,0019,SIEMENS DLR.01,71,LO,1
+UID Original Image,0019,SIEMENS DLR.01,75,LO,1
+Filterset,0019,SIEMENS DLR.01,76,LO,1
+Reader Header,0019,SIEMENS DLR.01,80,LO,1
+PLA of Secondary Destination,0019,SIEMENS DLR.01,90,LO,1
+Number of detectors,0019,SIEMENS MED NM,01,SS,1
+Number of scalers,0019,SIEMENS MED NM,02,SS,1
+Scaler Index,0019,SIEMENS MED NM,03,SS,1
+Radionuclide Units,0019,SIEMENS MED NM,04,DS,1
+Radiopharmaceutical,0019,SIEMENS MED NM,05,DS,1
+Display Magnification,0019,SIEMENS MED NM,06,FL,1
+Scaler Counts,0019,SIEMENS MED NM,07,SL,1
+Processed Flag 0 Raw 1 Process,0019,SIEMENS MED NM,08,SS,1
+MicroDELTA Parameter Blocks,0019,SIEMENS MED NM,09,SS,1
+MicroDELTA File Extension,0019,SIEMENS MED NM,0A,LO,1
+MicroDELTA Write ID,0019,SIEMENS MED NM,0B,LO,1
+MicroDELTA Write Version,0019,SIEMENS MED NM,0C,SS,1
+MicroDELTA Mode,0019,SIEMENS MED NM,0D,CS,1
+MicroDELTA ESFR,0019,SIEMENS MED NM,0E,LO,1
+Siemens ICON Data Type,0019,SIEMENS MED NM,0F,SL,1
+MicroDELTA Expansion Blocks,0019,SIEMENS MED NM,10,OW,1
+MicroDELTA Version,0019,SIEMENS MED NM,11,CS,1
+MicroDELTA Trend,0019,SIEMENS MED NM,12,LO,1
+MicroDELTA Number of Overlays,0019,SIEMENS MED NM,13,SS,1
+MicroDELTA Overlay Block,0019,SIEMENS MED NM,14,SS,1
+MicroDELTA Color Table Extra,0019,SIEMENS MED NM,15,SS,1
+Number of Views,0019,SIEMENS MED NM,16,SS,1
+MicroDELTA Thyroid Markers,0019,SIEMENS MED NM,17,SS,1
+MicroDELTA Color Table Used,0019,SIEMENS MED NM,18,SS,1
+Save Screen Flag 1 SaveScreen,0019,SIEMENS MED NM,19,SS,1
+MicroDELTA Overlay Map,0019,SIEMENS MED NM,1A,SS,1
+SGI Converted LookUp Table,0019,SIEMENS MED NM,1B,SS,1
+MicroDELTA Mystery1,0019,SIEMENS MED NM,1C,SS,1
+MicroDELTA Mystery2,0019,SIEMENS MED NM,1D,SS,1
+Time of Lasix Administration,0019,SIEMENS MED NM,20,FL,1
+Lasix Dose mg,0019,SIEMENS MED NM,21,FL,1
+Bladder Esidual Volume cc,0019,SIEMENS MED NM,22,FL,1
+Bladder Image Extension,0019,SIEMENS MED NM,23,SS,1
+Serum Creatinine mg/dl,0019,SIEMENS MED NM,24,FL,1
+TER,0019,SIEMENS MED NM,25,FL,1
+TER Lower Limit,0019,SIEMENS MED NM,26,FL,1
+Body Surface Area m2,0019,SIEMENS MED NM,27,FL,1
+CTQ Normal Margin,0019,SIEMENS MED NM,30,FL,1
+CTQ Abnormal Sagittal Margin,0019,SIEMENS MED NM,31,FL,1
+CTQ Abnormal Oblique Margin,0019,SIEMENS MED NM,32,FL,1
+Accepted Beats,0019,SIEMENS MED NM,41,SS,1
+Rejected Beats,0019,SIEMENS MED NM,42,SS,1
+Percent of R-R Interval Framed,0019,SIEMENS MED NM,43,SS,1
+Beats Rejected Post PVC,0019,SIEMENS MED NM,44,SS,1
+Trigger Source,0019,SIEMENS MED NM,45,FL,1
+Beat Rejection Parameter,0019,SIEMENS MED NM,47,FL,1
+Rejection Scheme,0019,SIEMENS MED NM,48,SH,1
+PVC Threshold msec,0019,SIEMENS MED NM,49,FL,1
+Framing Mode 1 Forward 2 F/B,0019,SIEMENS MED NM,4A,SS,1
+Autobeat Window 0 No 1 Yes,0019,SIEMENS MED NM,4B,SS,1
+MicroDELTA Acquisition Time per Window msec,0019,SIEMENS MED NM,4C,FL,1
+CTQ Unknown Entry Count,0019,SIEMENS MED NM,4E,SS,1
+CTQ Matrix Size,0019,SIEMENS MED NM,4F,SS,1
+CTQ has been used,0019,SIEMENS MED NM,50,SS,1
+CTQ Male Entry Count,0019,SIEMENS MED NM,51,SS,1
+CTQ Female Entry Count,0019,SIEMENS MED NM,52,SS,1
+CTQ Stress/Rest Time Delay,0019,SIEMENS MED NM,53,SS,1
+CTQ Time Delay Units,0019,SIEMENS MED NM,54,CS,1
+CTQ Min Oblique Stack Count,0019,SIEMENS MED NM,55,SS,1
+CTQ Max Oblique Stack Count,0019,SIEMENS MED NM,56,SS,1
+CTQ Min Sagittal Stack Count,0019,SIEMENS MED NM,57,SS,1
+CTQ Max Sagittal Stack Count,0019,SIEMENS MED NM,58,SS,1
+CTQ Min Radius Percent,0019,SIEMENS MED NM,59,SS,1
+CTQ Find Max or Average Flag,0019,SIEMENS MED NM,5A,UL,1
+CTQ Basal Slice Index Offset,0019,SIEMENS MED NM,5B,SS,1
+CTQ Starting Line Index,0019,SIEMENS MED NM,5C,SS,1
+CTQ Line Counts,0019,SIEMENS MED NM,5D,SS,1
+CTQ  Radii Counts,0019,SIEMENS MED NM,5E,SS,1
+CTQ Radial Angle Increment,0019,SIEMENS MED NM,5F,SS,1
+Whole Body Processed Flag 0:Raw 1:Img1-Img2 2:Im,0019,SIEMENS MED NM,60,SS,1
+Whole Body View,0019,SIEMENS MED NM,61,SS,1
+WB Display Field Length in cm,0019,SIEMENS MED NM,62,SS,1
+WB Scan Length in cm,0019,SIEMENS MED NM,63,SS,1
+WB Scan Speed cm/min,0019,SIEMENS MED NM,64,SS,1
+WB Scan Speed Mode 0 Manual 1 Auto,0019,SIEMENS MED NM,65,SS,1
+WB Scan Start 0 Head 1 Feet,0019,SIEMENS MED NM,66,SS,1
+WB Scan Direction 0 Lt to Rt 1 Rt to Lt,0019,SIEMENS MED NM,67,SS,1
+WB Aperature Width in cm,0019,SIEMENS MED NM,68,FL,1
+WB Number of Passes,0019,SIEMENS MED NM,69,SS,1
+WB Scan Time msec,0019,SIEMENS MED NM,6A,SS,1
+WB Anterior kCounts View 1,0019,SIEMENS MED NM,6B,FL,1
+WB Anterior kCounts View 2,0019,SIEMENS MED NM,6C,FL,1
+WB Count Density,0019,SIEMENS MED NM,6D,FL,1
+WB Reference View Flag 1 Ref,0019,SIEMENS MED NM,6E,SS,1
+WB Coun Density Speed cm/min,0019,SIEMENS MED NM,6F,FL,1
+WB Scan Type,0019,SIEMENS MED NM,70,CS,1
+WB IRIS Corr. File Name,0019,SIEMENS MED NM,71,LO,1
+WB Posterior kCounts View 1,0019,SIEMENS MED NM,72,FL,1
+WB Posterior kCounts View 2,0019,SIEMENS MED NM,73,FL,1
+WB Ant View Status No Img 1 Complete 2 Aborted,0019,SIEMENS MED NM,74,SS,1
+WB Post View Status No Img 1 Complete 2 Aborted,0019,SIEMENS MED NM,75,SS,1
+WB Post Scan Time msec,0019,SIEMENS MED NM,76,SS,1
+WB Ant Pixel Overflow 1 Yes,0019,SIEMENS MED NM,77,SS,1
+WB Post Pixel Overflow 1 Yes,0019,SIEMENS MED NM,78,SS,1
+Segment Type 0 Segments 2 Time/Segment,0019,SIEMENS MED NM,7F,SS,1
+Number of Segments,0019,SIEMENS MED NM,80,SS,1
+PVC Rejection Flag 1 Reject,0019,SIEMENS MED NM,81,SS,1
+Total Counts Framed,0019,SIEMENS MED NM,82,SL,1
+Total Beats Framed,0019,SIEMENS MED NM,83,SS,1
+Present Time of Day,0019,SIEMENS MED NM,84,SS,1
+Framed Counts,0019,SIEMENS MED NM,85,SS,1
+Time per Segment msec,0019,SIEMENS MED NM,86,SS,1
+BBA Miscellaneous Info,0019,SIEMENS MED NM,87,LT,1
+Tolerance %,0019,SIEMENS MED NM,88,SL,1
+SWG,0019,SIEMENS MED NM,89,SS,1
+R-R Interval msec,0019,SIEMENS MED NM,8A,SL,1
+Total Counts in Acquisition,0019,SIEMENS MED NM,8D,SL,1
+Rejection Type,0019,SIEMENS MED NM,8E,SL,1
+Phase Total Counts,0019,SIEMENS MED NM,91,FL,1
+Phase Pause msec,0019,SIEMENS MED NM,92,SL,1
+Phase Start msec,0019,SIEMENS MED NM,93,SL,1
+Window Center Method 0 Avg 1 Peak,0019,SIEMENS MED NM,94,SS,1
+Number of Beats to Average,0019,SIEMENS MED NM,95,SS,1
+Histogram Bin Interval msec,0019,SIEMENS MED NM,96,FL,1
+Counts in Peak Bin,0019,SIEMENS MED NM,97,SS,1
+VPDs Detected,0019,SIEMENS MED NM,A0,SS,1
+Number of Phases,0019,SIEMENS MED NM,A1,SS,1
+Requested Frame Duration msec,0019,SIEMENS MED NM,A2,SL,1
+Frames per Phase,0019,SIEMENS MED NM,A3,SL,1
+Frame Pause msec,0019,SIEMENS MED NM,A4,SL,1
+Head Tilt degrees,0019,SIEMENS MED NM,C0,FL,1
+Uniformity Correction Flag,0019,SIEMENS MED NM,C1,SS,1
+Overflow Flag,0019,SIEMENS MED NM,C2,SS,1
+Pixel Dimensions,0019,SIEMENS MED NM,F0,FL,1
+Magnetic Field Strength,0019,SIEMENS MR VA0  COAD,12,DS,1
+ADC Voltage,0019,SIEMENS MR VA0  COAD,14,DS,1
+ADC Offset,0019,SIEMENS MR VA0  COAD,16,DS,N
+Transmitter Amplitude,0019,SIEMENS MR VA0  COAD,20,DS,1
+Number of Transmitter Amplitudes,0019,SIEMENS MR VA0  COAD,21,IS,1
+Transmitter Attenuator,0019,SIEMENS MR VA0  COAD,22,DS,1
+Transmitter Calibration,0019,SIEMENS MR VA0  COAD,24,DS,1
+Transmitter Reference,0019,SIEMENS MR VA0  COAD,26,DS,1
+Receiver Total Gain,0019,SIEMENS MR VA0  COAD,50,DS,1
+Receiver Amplifier Gain,0019,SIEMENS MR VA0  COAD,51,DS,1
+Receiver Preamplifier Gain,0019,SIEMENS MR VA0  COAD,52,DS,1
+Receiver Cable Attenuation,0019,SIEMENS MR VA0  COAD,54,DS,1
+Receiver Reference Gain,0019,SIEMENS MR VA0  COAD,55,DS,1
+Receiver Filter Frequency,0019,SIEMENS MR VA0  COAD,56,IS,1
+Reconstruction Scale Factor,0019,SIEMENS MR VA0  COAD,60,DS,1
+Reference Scale Factor,0019,SIEMENS MR VA0  COAD,62,DS,1
+Phase Gradient Amplitude,0019,SIEMENS MR VA0  COAD,70,DS,1
+Readout Gradient Amplitude,0019,SIEMENS MR VA0  COAD,71,DS,1
+Selection Gradient Amplitude,0019,SIEMENS MR VA0  COAD,72,DS,1
+Gradient Delay Time,0019,SIEMENS MR VA0  COAD,80,DS,N
+Total Gradient Delay Time,0019,SIEMENS MR VA0  COAD,82,DS,1
+Sensitivity Correction Label,0019,SIEMENS MR VA0  COAD,90,LO,1
+Saturation Phase Encoding Vector Coronal Component,0019,SIEMENS MR VA0  COAD,91,DS,1-5
+Saturation Readout Vector Coronal Component,0019,SIEMENS MR VA0  COAD,92,DS,1-5
+RF Watchdog Mask,0019,SIEMENS MR VA0  COAD,A0,IS,1
+RF Power Error Indicator,0019,SIEMENS MR VA0  COAD,A2,DS,1
+Specific Absorption Rate SAR,0019,SIEMENS MR VA0  COAD,A5,DS,N
+Specific Energy Dose SED,0019,SIEMENS MR VA0  COAD,A6,DS,N
+Adjustment Status Mask,0019,SIEMENS MR VA0  COAD,B0,UL,1
+EPI Capacity,0019,SIEMENS MR VA0  COAD,C1,DS,N
+EPI Inductance,0019,SIEMENS MR VA0  COAD,C2,DS,N
+EPI Switch Configuration Code,0019,SIEMENS MR VA0  COAD,C3,IS,N
+EPI Switch Hardware Code,0019,SIEMENS MR VA0  COAD,C4,IS,N
+EPI Switch Delay Time,0019,SIEMENS MR VA0  COAD,C5,DS,N
+Flow Sensitivity,0019,SIEMENS MR VA0  COAD,D1,DS,1
+Calculation Submode,0019,SIEMENS MR VA0  COAD,D2,CS,1
+Field of View Ratio,0019,SIEMENS MR VA0  COAD,D3,DS,1
+Base Raw Matrix Size,0019,SIEMENS MR VA0  COAD,D4,IS,1
+2D Phase Oversampling Lines,0019,SIEMENS MR VA0  COAD,D5,IS,1
+3D Phase Oversampling Part,0019,SIEMENS MR VA0  COAD,D6,IS,1
+Echo Line Position,0019,SIEMENS MR VA0  COAD,D7,IS,1
+Echo Column Position,0019,SIEMENS MR VA0  COAD,D8,IS,1
+Lines per Segment,0019,SIEMENS MR VA0  COAD,D9,IS,1
+Phase Coding Direction,0019,SIEMENS MR VA0  COAD,DA,CS,1
+Total Measurement Time nominal,0019,SIEMENS MR VA0  GEN,10,DS,1
+Total Measurement Time current,0019,SIEMENS MR VA0  GEN,11,DS,1
+Start Delay Time,0019,SIEMENS MR VA0  GEN,12,DS,1
+Dwell Time,0019,SIEMENS MR VA0  GEN,13,DS,1
+Number of Phases,0019,SIEMENS MR VA0  GEN,14,IS,1
+Sequence Control Mask,0019,SIEMENS MR VA0  GEN,16,UL,N
+Measurement Status Mask,0019,SIEMENS MR VA0  GEN,18,UL,1
+Number of Fourier Lines nominal,0019,SIEMENS MR VA0  GEN,20,IS,1
+Number of Fourier Lines current,0019,SIEMENS MR VA0  GEN,21,IS,1
+Number of Fourier Lines after Zero,0019,SIEMENS MR VA0  GEN,26,IS,1
+First Measured Fourier Line,0019,SIEMENS MR VA0  GEN,28,IS,1
+Acquisition Columns,0019,SIEMENS MR VA0  GEN,30,IS,1
+Reconstruction Columns,0019,SIEMENS MR VA0  GEN,31,IS,1
+AC Element Number,0019,SIEMENS MR VA0  GEN,40,IS,1
+AC Element Select Mask,0019,SIEMENS MR VA0  GEN,41,UL,1
+AC Element Data Mask,0019,SIEMENS MR VA0  GEN,42,UL,1
+AC Element To ADC Connect,0019,SIEMENS MR VA0  GEN,43,IS,1-N
+AC Element Noise Level,0019,SIEMENS MR VA0  GEN,44,IS,1-N
+AC ADC Pair Number,0019,SIEMENS MR VA0  GEN,45,IS,1
+AC Combination Mask,0019,SIEMENS MR VA0  GEN,46,UL,1
+Number of Averages current,0019,SIEMENS MR VA0  GEN,50,IS,1
+Flip Angle,0019,SIEMENS MR VA0  GEN,60,DS,1
+Number of Prescans,0019,SIEMENS MR VA0  GEN,70,IS,1
+Filter Type for Raw Data,0019,SIEMENS MR VA0  GEN,81,CS,1
+Filter Parameter for Raw Data,0019,SIEMENS MR VA0  GEN,82,DS,1-4
+Filter Type for Image Data,0019,SIEMENS MR VA0  GEN,83,CS,1
+Filter Parameter for Image Data,0019,SIEMENS MR VA0  GEN,84,DS,1-4
+Filter Type for Phase Correction,0019,SIEMENS MR VA0  GEN,85,CS,1
+Filter Parameter for Phase Correction,0019,SIEMENS MR VA0  GEN,86,DS,1-4
+Normalization Filter Type for Image Data,0019,SIEMENS MR VA0  GEN,87,CS,1
+Normalization Filter Parameter for Image Data,0019,SIEMENS MR VA0  GEN,88,DS,1-4
+Number of Saturation Regions,0019,SIEMENS MR VA0  GEN,90,IS,1
+Saturation Phase Encoding Vector Sagittal Compo...,0019,SIEMENS MR VA0  GEN,91,DS,1-5
+Saturation Readout Vector Sagittal Component,0019,SIEMENS MR VA0  GEN,92,DS,1-5
+Image Rotation Angle,0019,SIEMENS MR VA0  GEN,94,DS,1
+Coil ID Mask,0019,SIEMENS MR VA0  GEN,96,UL,N
+Coil Class Mask,0019,SIEMENS MR VA0  GEN,97,UL,N
+Coil Position,0019,SIEMENS MR VA0  GEN,98,DS,N
+EPI Reconstruction Phase,0019,SIEMENS MR VA0  GEN,A0,DS,1
+EPI Reconstruction Slope,0019,SIEMENS MR VA0  GEN,A1,DS,1
+Acquired Plane,0019,SIEMENS RA GEN,15,CS,1
+Scene Flag,0019,SIEMENS RA GEN,20,UL,1
+ReferencePhotofile Flag,0019,SIEMENS RA GEN,22,UL,1
+Scene Name,0019,SIEMENS RA GEN,24,LO,1
+Acquisition Index,0019,SIEMENS RA GEN,26,US,1
+Mixed Pulse Mode,0019,SIEMENS RA GEN,28,US,1
+Number of Positions,0019,SIEMENS RA GEN,2A,US,1
+Number of Phases,0019,SIEMENS RA GEN,2C,US,1
+Framerate for 8 Positions,0019,SIEMENS RA GEN,2E,US,N
+FramesPhase,0019,SIEMENS RA GEN,30,US,N
+Stepping Direction,0019,SIEMENS RA GEN,32,US,1
+Image Transfer Delay,0019,SIEMENS RA GEN,44,US,1
+InversNot Invers,0019,SIEMENS RA GEN,46,UL,1
+Blanking Circle Diameter,0019,SIEMENS RA GEN,4C,US,1
+Stand Data Valid,0019,SIEMENS RA GEN,50,US,1
+Table Tilt,0019,SIEMENS RA GEN,52,US,1
+Table Axis Rotation,0019,SIEMENS RA GEN,54,US,1
+Table Longitudinal Position,0019,SIEMENS RA GEN,56,US,1
+Table Side Offset,0019,SIEMENS RA GEN,58,US,1
+Table Isocenter Height,0019,SIEMENS RA GEN,5A,US,1
+Collimation Data Valid,0019,SIEMENS RA GEN,5E,UL,1
+PERI Sequence Number,0019,SIEMENS RA GEN,60,UL,1
+PERI Total Scenes,0019,SIEMENS RA GEN,62,UL,1
+PERI Overlap Top,0019,SIEMENS RA GEN,64,US,1
+PERI Overlap Bottom,0019,SIEMENS RA GEN,66,UL,1
+Raw Image Number,0019,SIEMENS RA GEN,68,UL,1
+XRay Data Valid,0019,SIEMENS RA GEN,6A,UL,1
+Filling Average Factor,0019,SIEMENS RA GEN,76,UL,1
+II Level CalibrationFactor,0019,SIEMENS RA GEN,9C,UL,1
+Nativ Review Flag,0019,SIEMENS RA GEN,9E,UL,1
+System Calibration Factor Plane A,0019,SIEMENS RA PLANE A,20,UL,1
+XRay Parameter Set Number,0019,SIEMENS RA PLANE A,22,US,1
+XRay System,0019,SIEMENS RA PLANE A,24,US,1
+Acquired Display Mode,0019,SIEMENS RA PLANE A,28,US,1
+Acquisition Framerate,0019,SIEMENS RA PLANE A,2C,US,1
+Maximum Frame Limit,0019,SIEMENS RA PLANE A,2E,US,1
+Native Filter Type,0019,SIEMENS RA PLANE A,30,US,1
+Subtracted Filter Type,0019,SIEMENS RA PLANE A,32,US,1
+Filter Factor Native,0019,SIEMENS RA PLANE A,34,US,1
+Anatomic Blackground Factor,0019,SIEMENS RA PLANE A,36,US,1
+Window Upper Limit Native,0019,SIEMENS RA PLANE A,38,US,1
+Window Lower Limit Native,0019,SIEMENS RA PLANE A,3A,US,1
+Window Brightness Phase 1 Sub,0019,SIEMENS RA PLANE A,3C,US,1
+Window Brightness Phase 2 Sub,0019,SIEMENS RA PLANE A,3E,US,1
+Window Contrast Phase 1 Sub,0019,SIEMENS RA PLANE A,40,US,1
+Window Contrast Phase 2 Sub,0019,SIEMENS RA PLANE A,42,US,1
+Filter Factor Subtraction,0019,SIEMENS RA PLANE A,44,US,1
+Peak Opacified,0019,SIEMENS RA PLANE A,46,US,1
+Mask Frame,0019,SIEMENS RA PLANE A,48,UL,1
+BIH Frame,0019,SIEMENS RA PLANE A,4A,UL,1
+Center Beam Angulation CaudCran,0019,SIEMENS RA PLANE A,4C,US,1
+Center Beam Angulation LR Anterior,0019,SIEMENS RA PLANE A,4E,US,1
+Longitudinal Position,0019,SIEMENS RA PLANE A,50,US,1
+Side Offset,0019,SIEMENS RA PLANE A,52,US,1
+Isocenter Height,0019,SIEMENS RA PLANE A,54,US,1
+Image Twist,0019,SIEMENS RA PLANE A,56,US,1
+SourceImage Distance,0019,SIEMENS RA PLANE A,58,US,1
+Mechanical Magnet Factor,0019,SIEMENS RA PLANE A,5A,US,1
+Calibration Flag,0019,SIEMENS RA PLANE A,5C,UL,1
+Calibration Angle CranCaud,0019,SIEMENS RA PLANE A,5E,UL,1
+Calibration Angle RAOLAO,0019,SIEMENS RA PLANE A,60,UL,1
+Calibration Table to Floor Distance,0019,SIEMENS RA PLANE A,62,UL,1
+Calibration Isocenter to Floor Distance,0019,SIEMENS RA PLANE A,64,UL,1
+Calibration Isocenter to Source Distance,0019,SIEMENS RA PLANE A,66,UL,1
+Calibration Source to II Distance,0019,SIEMENS RA PLANE A,68,UL,1
+Calibration II Zoom,0019,SIEMENS RA PLANE A,6A,UL,1
+Calibration II Field,0019,SIEMENS RA PLANE A,6C,UL,1
+Calibration Factor,0019,SIEMENS RA PLANE A,6E,UL,1
+Calibration Object to Image Distance,0019,SIEMENS RA PLANE A,70,UL,1
+Calibration System Factor,0019,SIEMENS RA PLANE A,72,UL,N
+Calibration System Correction,0019,SIEMENS RA PLANE A,74,UL,N
+Calibration System II Formats,0019,SIEMENS RA PLANE A,76,UL,N
+Calibration Gantry Data Valid,0019,SIEMENS RA PLANE A,78,UL,1
+Collimator Square Breadth,0019,SIEMENS RA PLANE A,7A,US,1
+Collimator Square Height,0019,SIEMENS RA PLANE A,7C,US,1
+Collimator Square Diameter,0019,SIEMENS RA PLANE A,7E,US,1
+Collimator Finger Turn Angle,0019,SIEMENS RA PLANE A,80,US,1
+Collimator Finger Position,0019,SIEMENS RA PLANE A,82,US,1
+Collimator Diaphragm Turn Angle,0019,SIEMENS RA PLANE A,84,US,1
+Collimator Diagphragm Position 1,0019,SIEMENS RA PLANE A,86,US,1
+Collimator Diaphragm Position 2,0019,SIEMENS RA PLANE A,88,US,1
+Collimator Diaphragm Mode,0019,SIEMENS RA PLANE A,8A,US,1
+Collimator Beam Limit Breadth,0019,SIEMENS RA PLANE A,8C,US,1
+Collimator Beam Limit Height,0019,SIEMENS RA PLANE A,8E,US,1
+Collimator Beam Limit Diameter,0019,SIEMENS RA PLANE A,90,US,1
+XRay Control Mode,0019,SIEMENS RA PLANE A,92,US,1
+XRay System,0019,SIEMENS RA PLANE A,94,US,1
+Focal Spot,0019,SIEMENS RA PLANE A,96,US,1
+Exposure Control,0019,SIEMENS RA PLANE A,98,US,1
+XRay Voltage,0019,SIEMENS RA PLANE A,9A,US,1
+XRay Current,0019,SIEMENS RA PLANE A,9C,US,1
+XRay Current Time Product,0019,SIEMENS RA PLANE A,9E,UL,1
+Pulse Time,0019,SIEMENS RA PLANE A,A0,US,1
+Scene Time Fluoro Clock,0019,SIEMENS RA PLANE A,A2,US,1
+Maximum PulseRate,0019,SIEMENS RA PLANE A,A4,US,1
+Pulses per Scene,0019,SIEMENS RA PLANE A,A6,US,1
+Dose Area Product of Scene,0019,SIEMENS RA PLANE A,A8,UL,1
+Dose,0019,SIEMENS RA PLANE A,AA,US,1
+Dose Rate,0019,SIEMENS RA PLANE A,AC,US,1
+System Calibration Factor Plane B,0019,SIEMENS RA PLANE B,20,UL,1
+XRay Parameter Set Number,0019,SIEMENS RA PLANE B,22,US,1
+XRay System,0019,SIEMENS RA PLANE B,24,US,1
+Acquired Display Mode,0019,SIEMENS RA PLANE B,28,US,1
+Acquisition Framerate,0019,SIEMENS RA PLANE B,2C,US,1
+Maximum Frame Limit,0019,SIEMENS RA PLANE B,2E,US,1
+Native Filter Type,0019,SIEMENS RA PLANE B,30,US,1
+Subtracted Filter Type,0019,SIEMENS RA PLANE B,32,US,1
+Filter Factor Native,0019,SIEMENS RA PLANE B,34,US,1
+Anatomic Blackground Factor,0019,SIEMENS RA PLANE B,36,US,1
+Window Upper Limit Native,0019,SIEMENS RA PLANE B,38,US,1
+Window Lower Limit Native,0019,SIEMENS RA PLANE B,3A,US,1
+Window Brightness Phase 1 Sub,0019,SIEMENS RA PLANE B,3C,US,1
+Window Brightness Phase 2 Sub,0019,SIEMENS RA PLANE B,3E,US,1
+Window Contrast Phase 1 Sub,0019,SIEMENS RA PLANE B,40,US,1
+Window Contrast Phase 2 Sub,0019,SIEMENS RA PLANE B,42,US,1
+Filter Factor Subtraction,0019,SIEMENS RA PLANE B,44,US,1
+Peak Opacified,0019,SIEMENS RA PLANE B,46,US,1
+Mask Frame,0019,SIEMENS RA PLANE B,48,UL,1
+BIH Frame,0019,SIEMENS RA PLANE B,4A,UL,1
+Center Beam Angulation CaudCran,0019,SIEMENS RA PLANE B,4C,US,1
+Center Beam Angulation LR Anterior,0019,SIEMENS RA PLANE B,4E,US,1
+Longitudinal Position,0019,SIEMENS RA PLANE B,50,US,1
+Side Offset,0019,SIEMENS RA PLANE B,52,US,1
+Isocenter Height,0019,SIEMENS RA PLANE B,54,US,1
+Image Twist,0019,SIEMENS RA PLANE B,56,US,1
+SourceImage Distance,0019,SIEMENS RA PLANE B,58,US,1
+Mechanical Magnet Factor,0019,SIEMENS RA PLANE B,5A,US,1
+Calibration Flag,0019,SIEMENS RA PLANE B,5C,UL,1
+Calibration Angle CranCaud,0019,SIEMENS RA PLANE B,5E,UL,1
+Calibration Angle RAOLAO,0019,SIEMENS RA PLANE B,60,UL,1
+Calibration Table to Floor Distance,0019,SIEMENS RA PLANE B,62,UL,1
+Calibration Isocenter to Floor Distance,0019,SIEMENS RA PLANE B,64,UL,1
+Calibration Isocenter to Source Distance,0019,SIEMENS RA PLANE B,66,UL,1
+Calibration Source to II Distance,0019,SIEMENS RA PLANE B,68,UL,1
+Calibration II Zoom,0019,SIEMENS RA PLANE B,6A,UL,1
+Calibration II Field,0019,SIEMENS RA PLANE B,6C,UL,1
+Calibration Factor,0019,SIEMENS RA PLANE B,6E,UL,1
+Calibration Object to Image Distance,0019,SIEMENS RA PLANE B,70,UL,1
+Calibration System Factor,0019,SIEMENS RA PLANE B,72,UL,N
+Calibration System Correction,0019,SIEMENS RA PLANE B,74,UL,N
+Calibration System II Formats,0019,SIEMENS RA PLANE B,76,UL,N
+Calibration Gantry Data Valid,0019,SIEMENS RA PLANE B,78,UL,1
+Collimator Square Breadth,0019,SIEMENS RA PLANE B,7A,US,1
+Collimator Square Height,0019,SIEMENS RA PLANE B,7C,US,1
+Collimator Square Diameter,0019,SIEMENS RA PLANE B,7E,US,1
+Collimator Finger Turn Angle,0019,SIEMENS RA PLANE B,80,US,1
+Collimator Finger Position,0019,SIEMENS RA PLANE B,82,US,1
+Collimator Diaphragm Turn Angle,0019,SIEMENS RA PLANE B,84,US,1
+Collimator Diagphragm Position 1,0019,SIEMENS RA PLANE B,86,US,1
+Collimator Diaphragm Position 2,0019,SIEMENS RA PLANE B,88,US,1
+Collimator Diaphragm Mode,0019,SIEMENS RA PLANE B,8A,US,1
+Collimator Beam Limit Breadth,0019,SIEMENS RA PLANE B,8C,US,1
+Collimator Beam Limit Height,0019,SIEMENS RA PLANE B,8E,US,1
+Collimator Beam Limit Diameter,0019,SIEMENS RA PLANE B,90,US,1
+XRay Control Mode,0019,SIEMENS RA PLANE B,92,US,1
+XRay System,0019,SIEMENS RA PLANE B,94,US,1
+Focal Spot,0019,SIEMENS RA PLANE B,96,US,1
+Exposure Control,0019,SIEMENS RA PLANE B,98,US,1
+XRay Voltage,0019,SIEMENS RA PLANE B,9A,US,1
+XRay Current,0019,SIEMENS RA PLANE B,9C,US,1
+XRay Current Time Product,0019,SIEMENS RA PLANE B,9E,UL,1
+Pulse Time,0019,SIEMENS RA PLANE B,A0,US,1
+Scene Time Fluoro Clock,0019,SIEMENS RA PLANE B,A2,US,1
+Maximum PulseRate,0019,SIEMENS RA PLANE B,A4,US,1
+Pulses per Scene,0019,SIEMENS RA PLANE B,A6,US,1
+Dose Area Product of Scene,0019,SIEMENS RA PLANE B,A8,UL,1
+Dose,0019,SIEMENS RA PLANE B,AA,US,1
+Dose Rate,0019,SIEMENS RA PLANE B,AC,US,1
+Location RET,001F,SIEMENS MED NM,50,DS,1
+Group 0020 Length,0020,0000,UL,1
+Study Instance UID,0020,000D,UI,1
+Series Instance UID,0020,000E,UI,1
+Study ID,0020,0010,SH,1
+Series Number,0020,0011,IS,1
+Acquisition Number,0020,0012,IS,1
+Instance Number,0020,0013,IS,1
+Isotope Number RETIRED,0020,0014,IS,1
+Phase Number RETIRED,0020,0015,IS,1
+Interval Number RETIRED,0020,0016,IS,1
+Time Slot Number RETIRED,0020,0017,IS,1
+Angle Number RETIRED,0020,0018,IS,1
+Item Number,0020,0019,IS,1
+Patient Orientation,0020,0020,CS,2
+Overlay Number,0020,0022,IS,1
+Curve Number,0020,0024,IS,1
+Lookup Table Number,0020,0026,IS,1
+Image Position RETIRED,0020,0030,DS,1-N
+Image Position (Patient),0020,0032,DS,3
+Image Orientation RETIRED,0020,0035,DS,1-N
+Image Orientation (Patient),0020,0037,DS,6
+Location RETIRED,0020,0050,DS,1
+Frame of Reference UID,0020,0052,UI,1
+Laterality,0020,0060,CS,1
+Image Laterality,0020,0062,CS,1
+Image Geometry Type RETIRED,0020,0070,LO,1
+Masking Image RETIRED,0020,0080,LO,1-N
+Temporal Position Identifier,0020,0100,IS,1
+Number of Temporal Positions,0020,0105,IS,1
+Temporal Resolution,0020,0110,DS,1
+Synchronization Frame of Reference UID,0020,0200,UI,1
+Series in Study,0020,1000,IS,1
+Acquisitions in Series RETIRED,0020,1001,DS,1
+Images in Acquisition,0020,1002,IS,1
+Acquisitions in Study,0020,1004,IS,1
+Reference RETIRED,0020,1020,LO,1-N
+Position Reference Indicator,0020,1040,LO,1
+Slice Location,0020,1041,DS,1
+Other Study Numbers,0020,1070,IS,1-N
+Number of Patient Related Studies,0020,1200,IS,1
+Number of Patient Related Series,0020,1202,IS,1
+Number of Patient Related Instances,0020,1204,IS,1
+Number of Study Related Series,0020,1206,IS,1
+Number of Study Related Instances,0020,1208,IS,1
+Number of Series Related Instances,0020,1209,IS,1
+Source Image ID RETIRED,0020,3100,LO,1-N
+Modifying Device ID RETIRED,0020,3401,LO,1
+Modified Image ID RETIRED,0020,3402,LO,1
+Modified Image Date RETIRED,0020,3403,DA,1
+Modifying Device Manufacturer RETIRED,0020,3404,LO,1
+Modified Image Time RETIRED,0020,3405,TM,1
+Modified Image Description RETIRED,0020,3406,LO,1
+Image Comments,0020,4000,LT,1
+Original Image Identification RETIRED,0020,5000,SS,1-N
+Original Image Identification Nomenclature RETIRED,0020,5002,LO,1-N
+Stack ID,0020,9056,SH,1
+In-Stack Position Number,0020,9057,UL,1
+Frame Anatomy Sequence,0020,9071,SQ,1
+Frame Laterality,0020,9072,CS,1
+Frame Content Sequence,0020,9111,SQ,1
+Plane Position Sequence,0020,9113,SQ,1
+Plane Orientation Sequence,0020,9116,SQ,1
+Temporal Position Index,0020,9128,UL,1
+Trigger Delay Time,0020,9153,FD,1
+Frame Acquisition Number,0020,9156,US,1
+Dimension Index Values,0020,9157,UL,1-N
+Frame Comments,0020,9158,LT,1
+Concatenation UID,0020,9161,UI,1
+In-concatenation Number,0020,9162,US,1
+In-concatenation Total Number,0020,9163,US,1
+Dimension Organization UID,0020,9164,UI,1
+Dimension Index Pointer,0020,9165,AT,1
+Functional Group Pointer,0020,9167,AT,1
+Dimension Index Private Creator,0020,9213,LO,1
+Dimension Organization Sequence,0020,9221,SQ,1
+Dimension Index Sequence,0020,9222,SQ,1
+Concatenation Frame Offset Number,0020,9228,UL,1
+Functional Group Private Creator,0020,9238,LO,1
+Field of View,0021,SIEMENS CM VA0  CMS,20,DS,N
+Image Magnification Factor,0021,SIEMENS CM VA0  CMS,22,DS,1
+Image Scroll Offset,0021,SIEMENS CM VA0  CMS,24,DS,N
+Image Pixel Offset,0021,SIEMENS CM VA0  CMS,26,IS,1
+View Direction,0021,SIEMENS CM VA0  CMS,30,CS,1
+Rest Direction,0021,SIEMENS CM VA0  CMS,32,CS,1
+Image Position,0021,SIEMENS CM VA0  CMS,60,DS,N
+Image Normal,0021,SIEMENS CM VA0  CMS,61,DS,N
+Image Distance,0021,SIEMENS CM VA0  CMS,63,DS,1
+Image Positioning History Mask,0021,SIEMENS CM VA0  CMS,65,US,1
+Image Row,0021,SIEMENS CM VA0  CMS,6A,DS,N
+Image Column,0021,SIEMENS CM VA0  CMS,6B,DS,N
+Patient Orientation Set 1,0021,SIEMENS CM VA0  CMS,70,CS,N
+Patient Orientation Set 2,0021,SIEMENS CM VA0  CMS,71,CS,N
+Study Name,0021,SIEMENS CM VA0  CMS,80,LO,1
+Study Type,0021,SIEMENS CM VA0  CMS,82,SH,1
+Rotation Angle,0021,SIEMENS CT VA0 GEN,10,IS,1
+Start Angle,0021,SIEMENS CT VA0 GEN,11,IS,1
+Scan,0021,SIEMENS CT VA0 GEN,20,IS,1
+Tube Position,0021,SIEMENS CT VA0 GEN,30,IS,1
+Length of Topogram,0021,SIEMENS CT VA0 GEN,32,DS,1
+Correction Factor,0021,SIEMENS CT VA0 GEN,34,DS,1
+Maximum Table Position,0021,SIEMENS CT VA0 GEN,36,DS,1
+Table Move Direction Code,0021,SIEMENS CT VA0 GEN,40,IS,1
+VOI Start Row,0021,SIEMENS CT VA0 GEN,45,IS,1
+VOI Stop Row,0021,SIEMENS CT VA0 GEN,46,IS,1
+VOI Start Column,0021,SIEMENS CT VA0 GEN,47,IS,1
+VOI Stop Column,0021,SIEMENS CT VA0 GEN,48,IS,1
+VOI Start Slice,0021,SIEMENS CT VA0 GEN,49,IS,1
+VOI Stop Slice,0021,SIEMENS CT VA0 GEN,4A,IS,1
+Vector Start Row,0021,SIEMENS CT VA0 GEN,50,IS,1
+Vector Row Step,0021,SIEMENS CT VA0 GEN,51,IS,1
+Vector Start Column,0021,SIEMENS CT VA0 GEN,52,IS,1
+Vector Column Step,0021,SIEMENS CT VA0 GEN,53,IS,1
+Range Type Code,0021,SIEMENS CT VA0 GEN,60,IS,1
+Reference Type Code,0021,SIEMENS CT VA0 GEN,62,IS,1
+Object Orientation,0021,SIEMENS CT VA0 GEN,70,DS,N
+Light Orientation,0021,SIEMENS CT VA0 GEN,72,DS,N
+Light Brightness,0021,SIEMENS CT VA0 GEN,75,DS,1
+Light Contrast,0021,SIEMENS CT VA0 GEN,76,DS,1
+Overlay Threshold,0021,SIEMENS CT VA0 GEN,7A,IS,N
+Surface Threshold,0021,SIEMENS CT VA0 GEN,7B,IS,N
+Grey Scale Threshold,0021,SIEMENS CT VA0 GEN,7C,IS,N
+Field of Interest,0021,SIEMENS CT VA0 GEN,A0,IS,N
+Image Filter Label,0021,SIEMENS CT VA0 GEN,A1,CS,1
+Exemplary Element 1,0021,SIEMENS CT VA0 GEN,A2,CS,1
+Exemplary Element 2,0021,SIEMENS CT VA0 GEN,A3,IS,N
+Exemplary Element 3,0021,SIEMENS CT VA0 GEN,A4,LO,1
+Reference Data Set 1,0021,SIEMENS CT VA0 GEN,A5,IS,1
+Reference Data Set 2,0021,SIEMENS CT VA0 GEN,A6,IS,1
+Window Program Name,0021,SIEMENS CT VA0 GEN,A7,LO,1
+Repetition Time,0021,SIEMENS CT VA0 ORMR,80,DS,1
+Echo Time,0021,SIEMENS CT VA0 ORMR,81,DS,1
+Inversion Time,0021,SIEMENS CT VA0 ORMR,82,DS,1
+Number of Averages,0021,SIEMENS CT VA0 ORMR,83,IS,1
+Imaging Frequency,0021,SIEMENS CT VA0 ORMR,84,DS,1
+Imaged Nucleus,0021,SIEMENS CT VA0 ORMR,85,LO,1
+Echo Number,0021,SIEMENS CT VA0 ORMR,86,IS,1
+Flip Angle,0021,SIEMENS CT VA0 ORMR,90,DS,1
+Creation Mask service,0021,SIEMENS CT VA0 RAW,10,UL,N
+Evaluation Mask service,0021,SIEMENS CT VA0 RAW,20,UL,N
+Extended Processing Mask,0021,SIEMENS CT VA0 RAW,30,US,N
+Manipulation Mask,0021,SIEMENS CT VA0 RAW,40,UL,N
+Composition Mask,0021,SIEMENS CT VA0 RAW,41,UL,N
+Alteration Mask,0021,SIEMENS CT VA0 RAW,42,UL,N
+Generation Mask,0021,SIEMENS CT VA0 RAW,43,UL,N
+Function Mask,0021,SIEMENS CT VA0 RAW,44,UL,N
+Mode Mirroring Code,0021,SIEMENS CT VA0 RAW,50,CS,1
+1 Plot,0021,SIEMENS DFR.01 SERVICE,10,US,1
+Width 1 Plot,0021,SIEMENS DFR.01 SERVICE,11,US,1
+2 Plot,0021,SIEMENS DFR.01 SERVICE,12,US,1
+Width 2 Plot,0021,SIEMENS DFR.01 SERVICE,13,US,1
+xCoordinate Region of Interest,0021,SIEMENS DFR.01 SERVICE,20,US,1-5
+yCoordinate Region of Interest,0021,SIEMENS DFR.01 SERVICE,21,US,1-5
+Width Region of Interest,0021,SIEMENS DFR.01 SERVICE,22,US,1-5
+Height Region of Interest,0021,SIEMENS DFR.01 SERVICE,23,US,1-5
+Graphic Evaluation Mask,0021,SIEMENS DFR.01,10,US,1
+Type 1st Graphic Element,0021,SIEMENS DFR.01,11,US,1
+Description 1st Graphic Element,0021,SIEMENS DFR.01,12,LO,1
+Type 2nd Graphic Element,0021,SIEMENS DFR.01,13,US,1
+Description 2nd Graphic Element,0021,SIEMENS DFR.01,14,LO,1
+Type 3rd Graphic Element,0021,SIEMENS DFR.01,15,US,1
+Description 3rd Graphic Element,0021,SIEMENS DFR.01,16,LO,1
+Type 4th Graphic Element,0021,SIEMENS DFR.01,17,US,1
+Description 4th Graphic Element,0021,SIEMENS DFR.01,18,LO,1
+Type 5th Graphic Element,0021,SIEMENS DFR.01,19,US,1
+Description 5th Graphic Element,0021,SIEMENS DFR.01,20,LO,1
+Type 6th Graphic Element,0021,SIEMENS DFR.01,21,US,1
+Description 6th Graphic Element,0021,SIEMENS DFR.01,22,LO,1
+Type 7th Graphic Element,0021,SIEMENS DFR.01,23,US,1
+Description 7th Graphic Element,0021,SIEMENS DFR.01,24,LO,1
+Type 8th Graphic Element,0021,SIEMENS DFR.01,25,US,1
+Description 8th Graphic Element,0021,SIEMENS DFR.01,26,LO,1
+Type 9th Graphic Element,0021,SIEMENS DFR.01,27,US,1
+Description 9th Graphic Element,0021,SIEMENS DFR.01,28,LO,1
+Type 10th Graphic Element,0021,SIEMENS DFR.01,29,US,1
+Description 10th Graphic Element,0021,SIEMENS DFR.01,30,LO,1
+Zoom,0021,SIEMENS MED,10,DS,1
+Target,0021,SIEMENS MED,11,DS,N
+Tube Angle During Topogram,0021,SIEMENS MED,12,IS,1
+ROI Mask,0021,SIEMENS MED,20,US,1
+Phase Corrections Rows sequence,0021,SIEMENS MR VA0 GEN,20,IS,1
+Phase Corrections Columns sequence,0021,SIEMENS MR VA0 GEN,21,IS,1
+Phase Corrections Rows reconstruction,0021,SIEMENS MR VA0 GEN,22,IS,1
+Phase Corrections Columns reconstruction,0021,SIEMENS MR VA0 GEN,24,IS,1
+Number of 3D Raw Partitions nominal,0021,SIEMENS MR VA0 GEN,30,IS,1
+Number of 3D Raw Partitions current,0021,SIEMENS MR VA0 GEN,31,IS,1
+Number of 3D Image Partitions,0021,SIEMENS MR VA0 GEN,34,IS,1
+Actual 3D Image Partition Number,0021,SIEMENS MR VA0 GEN,36,IS,1
+Slab Thickness,0021,SIEMENS MR VA0 GEN,39,DS,1
+Number of Slices nominal,0021,SIEMENS MR VA0 GEN,40,IS,1
+Number of Slices current,0021,SIEMENS MR VA0 GEN,41,IS,1
+Current Slice Number,0021,SIEMENS MR VA0 GEN,42,IS,1
+Current Group Number,0021,SIEMENS MR VA0 GEN,43,IS,1
+Current Slice Distance Factor,0021,SIEMENS MR VA0 GEN,44,DS,1
+MIP Start Row,0021,SIEMENS MR VA0 GEN,45,IS,1
+MIP Stop Row,0021,SIEMENS MR VA0 GEN,46,IS,1
+MIP Start Column,0021,SIEMENS MR VA0 GEN,47,IS,1
+MIP Stop Column,0021,SIEMENS MR VA0 GEN,48,IS,1
+MIP Start Slice,0021,SIEMENS MR VA0 GEN,49,IS,1
+MIP Stop Slice,0021,SIEMENS MR VA0 GEN,4A,IS,1
+Order of Slices,0021,SIEMENS MR VA0 GEN,4F,CS,1
+Signal Mask,0021,SIEMENS MR VA0 GEN,50,UL,1
+Delay after Trigger,0021,SIEMENS MR VA0 GEN,52,IS,1
+RRInterval,0021,SIEMENS MR VA0 GEN,53,IS,1
+Number of Trigger Pulses,0021,SIEMENS MR VA0 GEN,54,DS,1
+Repetition Time effective,0021,SIEMENS MR VA0 GEN,56,DS,1
+Gate Phase,0021,SIEMENS MR VA0 GEN,57,CS,1
+Gate Threshold,0021,SIEMENS MR VA0 GEN,58,DS,1
+Gated Ratio,0021,SIEMENS MR VA0 GEN,59,DS,1
+Number of Interpolated Images,0021,SIEMENS MR VA0 GEN,60,IS,1
+Number of Echoes,0021,SIEMENS MR VA0 GEN,70,IS,1
+Second Echo Time,0021,SIEMENS MR VA0 GEN,72,DS,1
+Second Repetition Time,0021,SIEMENS MR VA0 GEN,73,DS,1
+Cardiac Code,0021,SIEMENS MR VA0 GEN,80,IS,1
+Saturation Phase Encoding Vector Transversal Co...,0021,SIEMENS MR VA0 GEN,91,DS,1-N
+Saturation Readout Vector Transversal Component,0021,SIEMENS MR VA0 GEN,92,DS,1-N
+Sequence Type,0021,SIEMENS MR VA0 RAW,00,CS,1
+Vector Size original,0021,SIEMENS MR VA0 RAW,01,IS,1
+Vector Size extended,0021,SIEMENS MR VA0 RAW,02,IS,1
+Acquired Spectral Range,0021,SIEMENS MR VA0 RAW,03,DS,1
+VOI Position,0021,SIEMENS MR VA0 RAW,04,DS,N
+VOI Size,0021,SIEMENS MR VA0 RAW,05,DS,N
+CSI Matrix Size original,0021,SIEMENS MR VA0 RAW,06,IS,N
+CSI Matrix Size extended,0021,SIEMENS MR VA0 RAW,07,IS,N
+Spatial Grid Shift,0021,SIEMENS MR VA0 RAW,08,DS,N
+Signal Limits Minimum,0021,SIEMENS MR VA0 RAW,09,DS,1
+Signal Limits Maximum,0021,SIEMENS MR VA0 RAW,10,DS,1
+AC ADC Offset,0021,SIEMENS MR VA0 RAW,30,DS,1-N
+AC Preamplifier Gain,0021,SIEMENS MR VA0 RAW,31,DS,1-N
+Saturation Type,0021,SIEMENS MR VA0 RAW,50,CS,1
+Saturation Normal Vector,0021,SIEMENS MR VA0 RAW,51,DS,N
+Saturation Position Vector,0021,SIEMENS MR VA0 RAW,52,DS,N
+Saturation Thickness,0021,SIEMENS MR VA0 RAW,53,DS,N
+Saturation Width,0021,SIEMENS MR VA0 RAW,54,DS,N
+Saturation Distance,0021,SIEMENS MR VA0 RAW,55,DS,N
+Images in Study,0021,SIEMENS RA GEN,15,US,1
+Scenes in Study,0021,SIEMENS RA GEN,20,US,1
+Images in Photofile,0021,SIEMENS RA GEN,25,US,1
+Images in All Scenes,0021,SIEMENS RA GEN,30,US,1
+Group 0022 Length,0022,0000,UL,1
+Light Path Filter Pass-Through Wavelength,0022,0001,US,1
+Light Path Filter Pass Band,0022,0002,US,2
+Image Path Filter Pass-Through Wavelength,0022,0003,US,1
+Image Path Filter Pass Band,0022,0004,US,2
+Patient Eye Movement Commanded,0022,0005,CS,1
+Patient Eye Movement Command Code Sequence,0022,0006,SQ,1
+Spherical Lens Power,0022,0007,FL,1
+Cylinder Lens Power,0022,0008,FL,1
+Cylinder Axis,0022,0009,FL,1
+Emmetropic Magnification,0022,000A,FL,1
+Intra Ocular Pressure,0022,000B,FL,1
+Horizontal Field of View,0022,000C,FL,1
+Pupil Dilated,0022,000D,CS,1
+Degree of Dilation,0022,000E,FL,1
+Stereo Baseline Angle,0022,0010,FL,1
+Stereo Baseline Displacement,0022,0011,FL,1
+Stereo Horizontal Pixel Offset,0022,0012,FL,1
+Stereo Vertical Pixel Offset,0022,0013,FL,1
+Stereo Rotation,0022,0014,FL,1
+Acquisition Device Type Code Sequence,0022,0015,SQ,1
+Illumination Type Code Sequence,0022,0016,SQ,1
+Light Path Filter Type Stack Code Sequence,0022,0017,SQ,1
+Image Path Filter Type Stack Code Sequence,0022,0018,SQ,1
+Lenses Code Sequence,0022,0019,SQ,1
+Channel Description Code Sequence,0022,001A,SQ,1
+Refractive State Sequence,0022,001B,SQ,1
+Mydriatic Agent Code Sequence,0022,001C,SQ,1
+Relative Image Position Code Sequence,0022,001D,SQ,1
+Stereo Pairs Sequence,0022,0020,SQ,1
+Left Image Sequence,0022,0021,SQ,1
+Right Image Sequence,0022,0022,SQ,1
+Group 0028 Length,0028,0000,UL,1
+Samples per Pixel,0028,0002,US,1
+Samples per Pixel Used,0028,0003,US,1
+Photometric Interpretation,0028,0004,CS,1
+Image Dimensions RETIRED,0028,0005,SS,1
+Planar Configuration,0028,0006,US,1
+Number of Frames,0028,0008,IS,1
+Frame Increment Pointer,0028,0009,AT,1-N
+Frame Dimension Pointer,0028,000A,AT,1-N
+Rows,0028,0010,US,1
+Columns,0028,0011,US,1
+Planes,0028,0012,US,1
+Ultrasound Color Data Present,0028,0014,US,1
+Pixel Spacing,0028,0030,DS,2
+Zoom Factor,0028,0031,DS,2
+Zoom Center,0028,0032,DS,2
+Pixel Aspect Ratio,0028,0034,IS,2
+Image Format RETIRED,0028,0040,SH,1
+Manipulated Image RETIRED,0028,0050,LO,1-N
+Corrected Image,0028,0051,CS,1-N
+Compression Code RETIRED,0028,0060,SH,1
+Bits Allocated,0028,0100,US,1
+Bits Stored,0028,0101,US,1
+High Bit,0028,0102,US,1
+Pixel Representation,0028,0103,US,1
+Smallest Pixel Value RETIRED,0028,0104,SS,1
+Largest Pixel Value RETIRED,0028,0105,SS,1
+Smallest Image Pixel Value,0028,0106,US,1
+Largest Image Pixel Value,0028,0107,US,1
+Smallest Pixel Value in Series,0028,0108,US,1
+Largest Pixel Value in Series,0028,0109,US,1
+Smallest Image Pixel Value in Plane,0028,0110,US,1
+Largest Image Pixel Value in Plane,0028,0111,US,1
+Pixel Padding Value,0028,0120,US,1
+Image Location RETIRED,0028,0200,SS,1
+Quality Control Image,0028,0300,CS,1
+Burned In Annotation,0028,0301,CS,1
+Pixel Intensity Relationship,0028,1040,CS,1
+Pixel Intensity Relationship Sign,0028,1041,SS,1
+Window Center,0028,1050,DS,1-N
+Window Width,0028,1051,DS,1-N
+Rescale Intercept,0028,1052,DS,1
+Rescale Slope,0028,1053,DS,1
+Rescale Type,0028,1054,LO,1
+Window Center and Width Explanation,0028,1055,LO,1-N
+VOI LUT Function,0028,1056,CS,1
+Gray Scale RETIRED,0028,1080,SH,1
+Recommended Viewing Mode,0028,1090,CS,1
+Lookup Table Descriptors Gray RETIRED,0028,1100,SS,1-N
+Red Palette Color Lookup Table Descriptor,0028,1101,US,3
+Green Palette Color Lookup Table Descriptor,0028,1102,US,3
+Blue Palette Color Lookup Table Descriptor,0028,1103,US,3
+Palette Color Lookup Table UID,0028,1199,UI,1
+Lookup Data Gray RETIRED,0028,1200,SS,1-N
+Red Palette Color lookup Table Data,0028,1201,OW,1
+Green Palette Color lookup Table Data,0028,1202,OW,1
+Blue Palette Color Lookup Table Data,0028,1203,OW,1
+Segmented Red Palette Color Lookup Table,0028,1221,OW,1
+Segmented Green Palette Color Lookup Table,0028,1222,OW,1
+Segmented Blue Palette Color Lookup Table,0028,1223,OW,1
+Implant Present,0028,1300,CS,1
+Partial View,0028,1350,CS,1
+Partial View Description,0028,1351,ST,1
+Partial View Code Sequence,0028,1352,SQ,1
+Lossy Image Compression,0028,2110,CS,1
+Lossy Image Compression Ratio,0028,2112,DS,1-N
+Lossy Image Compression Method,0028,2114,CS,1-N
+Modality LUT Sequence,0028,3000,SQ,1
+LUT Descriptor,0028,3002,US,3
+LUT Explanation,0028,3003,LO,1
+Modality LUT Type,0028,3004,LO,1
+LUT Data,0028,3006,US,1-N
+VOI LUT Sequence,0028,3010,SQ,1
+Softcopy VOI LUT Sequence,0028,3110,SQ,1
+Group 0028 Comments RETIRED,0028,4000,LO,1-N
+Bi-Plane Acquisition Sequence,0028,5000,SQ,1
+Representative Frame Number,0028,6010,US,1
+Frame Numbers of Interest (FOI),0028,6020,US,1-N
+Frame(s) of Interest Description,0028,6022,LO,1-N
+Frame of Interest Type,0028,6023,CS,1-N
+Mask Pointer(s) RETIRED,0028,6030,US,1-N
+R Wave Pointer,0028,6040,US,1-N
+Mask Subtraction Sequence,0028,6100,SQ,1
+Mask Operation,0028,6101,CS,1
+Applicable Frame Range,0028,6102,US,2-N
+Mask Frame Numbers,0028,6110,US,1-N
+Contrast Frame Averaging,0028,6112,US,1
+Mask Sub-pixel Shift,0028,6114,FL,2
+TID Offset,0028,6120,SS,1
+Mask Operation Explanation,0028,6190,ST,1
+Data Point Rows,0028,9001,UL,1
+Data Point Columns,0028,9002,UL,1
+Signal Domain Columns,0028,9003,CS,1
+Largest Monochrome Pixel Value RETIRED,0028,9099,US,1
+Data Representation,0028,9108,CS,1
+Pixel Measures Sequence,0028,9110,SQ,1
+Frame VOI LUT Sequence,0028,9132,SQ,1
+Pixel Value Transformation Sequence,0028,9145,SQ,1
+Signal Domain Rows,0028,9235,CS,1
+Zoom Factor,0029,SHS MagicView 300,01,FD,1-N
+Pan Factor X,0029,SHS MagicView 300,02,FD,1
+Pan Factor Y,0029,SHS MagicView 300,03,FD,1
+NmPalette,0029,SHS MagicView 300,04,LO,1
+Window Style,0029,SIEMENS CM VA0  CMS,10,CS,1
+Window Look,0029,SIEMENS CM VA0  CMS,11,CS,1
+Window Table Index,0029,SIEMENS CM VA0  CMS,12,UL,1
+Window Scale,0029,SIEMENS CM VA0  CMS,13,CS,1
+Pixel Quality Code,0029,SIEMENS CM VA0  CMS,20,CS,N
+Pixel Quality Value,0029,SIEMENS CM VA0  CMS,22,IS,N
+Archive Code,0029,SIEMENS CM VA0  CMS,50,CS,1
+Exposure Code,0029,SIEMENS CM VA0  CMS,51,CS,1
+Sort Code,0029,SIEMENS CM VA0  CMS,52,IS,1
+Remote Copy Code,0029,SIEMENS CM VA0  CMS,53,CS,1
+Splash,0029,SIEMENS CM VA0  CMS,60,IS,1
+CSA Header Type,0029,SIEMENS CSA HEADER,08,CS,1
+CSA Header Version,0029,SIEMENS CSA HEADER,09,LO,1
+CSA Header Info,0029,SIEMENS CSA HEADER,10,OB,1
+CSA Data Type,0029,SIEMENS CSA NON-IMAGE,08,CS,1
+CSA Data Version,0029,SIEMENS CSA NON-IMAGE,09,LO,1
+CSA Data Info,0029,SIEMENS CSA NON-IMAGE,10,OB,1
+MEDCOM Header Type,0029,SIEMENS MEDCOM HEADER,08,CS,1
+MEDCOM Header Version,0029,SIEMENS MEDCOM HEADER,09,LO,1
+MEDCOM Header Info,0029,SIEMENS MEDCOM HEADER,10,OB,1
+MEDCOM OOG Type,0029,SIEMENS MEDCOM OOG,08,CS,1
+MEDCOM OOG Version,0029,SIEMENS MEDCOM OOG,09,LO,1
+MEDCOM OOG Info,0029,SIEMENS MEDCOM OOG,10,OB,1
+Examination Reason,0031,SIEMENS ISI,12,LO,1
+Requested Date,0031,SIEMENS ISI,30,DA,1
+Worklist Request Start Time,0031,SIEMENS ISI,32,TM,1
+Worklist Request End Time,0031,SIEMENS ISI,33,TM,1
+Requested Time,0031,SIEMENS ISI,4A,TM,1
+Requested Location,0031,SIEMENS ISI,80,LO,1
+Camera Name,0031,SIEMENS MED NM,01,LO,1
+Unknown Element 0031 02,0031,SIEMENS MED NM,02,SS,1
+External Zoom,0031,SIEMENS MED NM,03,FL,1
+CCD Energy Level,0031,SIEMENS MED NM,04,FL,1
+CCD Window Width,0031,SIEMENS MED NM,05,SS,1
+CCD Window Offset,0031,SIEMENS MED NM,06,FL,1
+CCD Peaking Mode,0031,SIEMENS MED NM,07,SS,1
+CCD Autopeak Function,0031,SIEMENS MED NM,08,LO,1
+CCD Count Rate Mode,0031,SIEMENS MED NM,09,SS,1
+Analog Output Device,0031,SIEMENS MED NM,0A,SS,1
+Communication Type,0031,SIEMENS MED NM,0B,SS,1
+Control Unit 1 ICON 2 DOT 3 ScintiView,0031,SIEMENS MED NM,0C,SS,1
+WAM Mode,0031,SIEMENS MED NM,0D,SS,1
+Event Control Mode,0031,SIEMENS MED NM,0E,SS,1
+Zoom X Offset 0.1 mm,0031,SIEMENS MED NM,0F,FL,1
+Zoom Y Offset 0.1 mm,0031,SIEMENS MED NM,10,FL,1
+Gantry Zero Position,0031,SIEMENS MED NM,11,SS,1
+Request UID,0031,SIEMENS RIS,10,LO,1
+Requesting Physician,0031,SIEMENS RIS,45,LO,1
+Requested Physician,0031,SIEMENS RIS,50,LO,1
+Group 0032 Length,0032,0000,UL,1
+Study Status ID,0032,000A,CS,1
+Study Priority ID,0032,000C,CS,1
+Study ID Issuer,0032,0012,LO,1
+Study Verified Date,0032,0032,DA,1
+Study Verified Time,0032,0033,TM,1
+Study Read Date,0032,0034,DA,1
+Study Read Time,0032,0035,TM,1
+Scheduled Study Start Date,0032,1000,DA,1
+Scheduled Study Start Time,0032,1001,TM,1
+Scheduled Study Stop Date,0032,1010,DA,1
+Scheduled Study Stop Time,0032,1011,TM,1
+Scheduled Study Location,0032,1020,LO,1
+Scheduled Study Location AE Title(s),0032,1021,AE,1-N
+Reason for Study,0032,1030,LO,1
+Requesting Physician Identification Sequence,0032,1031,SQ,1
+Requesting Physician,0032,1032,PN,1
+Requesting Service,0032,1033,LO,1
+Study Arrival Date,0032,1040,DA,1
+Study Arrival Time,0032,1041,TM,1
+Study Completion Date,0032,1050,DA,1
+Study Completion Time,0032,1051,TM,1
+Study Component Status ID,0032,1055,CS,1
+Requested Procedure Description,0032,1060,LO,1
+Requested Procedure Code Sequence,0032,1064,SQ,1
+Requested Contrast Agent,0032,1070,LO,1
+Study Comments,0032,4000,LT,1
+Group 0038 Length,0038,0000,UL,1
+Referenced Patient Alias Sequence,0038,0004,SQ,1
+Visit Status ID,0038,0008,CS,1
+Admission ID,0038,0010,LO,1
+Issuer of Admission ID,0038,0011,LO,1
+Route of Admissions,0038,0016,LO,1
+Scheduled Admission Date,0038,001A,DA,1
+Scheduled Admission Time,0038,001B,TM,1
+Scheduled Discharge Date,0038,001C,DA,1
+Scheduled Discharge Time,0038,001D,TM,1
+Scheduled Patient Institution Residence,0038,001E,LO,1
+Admitting Date,0038,0020,DA,1
+Admitting Time,0038,0021,TM,1
+Discharge Date,0038,0030,DA,1
+Discharge Time,0038,0032,TM,1
+Discharge Diagnosis Description,0038,0040,LO,1
+Discharge Diagnosis Code Sequence,0038,0044,SQ,1
+Special Needs,0038,0050,LO,1
+Current Patient Location,0038,0300,LO,1
+Patient's Institution Residence,0038,0400,LO,1
+Patient State,0038,0500,LO,1
+Visit Comments,0038,4000,LT,1
+Group 003A Length,003A,0000,UL,1
+Waveform Originality,003A,0004,CS,1
+Number of Waveform Channels,003A,0005,US,1
+Number of Waveform Samples,003A,0010,UL,1
+Sampling Frequency,003A,001A,DS,1
+Multiplex Group Label,003A,0020,SH,1
+Channel Definition Sequence,003A,0200,SQ,1
+Waveform Channel Number,003A,0202,IS,1
+Channel Label,003A,0203,SH,1
+Channel Status,003A,0205,CS,1-N
+Channel Source Sequence,003A,0208,SQ,1
+Channel Source Modifiers Sequence,003A,0209,SQ,1
+Source Waveform Sequence,003A,020A,SQ,1
+Channel Derivation Description,003A,020C,LO,1
+Channel Sensitivity,003A,0210,DS,1
+Channel Sensitivity Units Sequence,003A,0211,SQ,1
+Channel Sensitivity Correction Factor,003A,0212,DS,1
+Channel Baseline,003A,0213,DS,1
+Channel Time Skew,003A,0214,DS,1
+Channel Sample Skew,003A,0215,DS,1
+Channel Offset,003A,0218,DS,1
+Waveform Bits Stored,003A,021A,US,1
+Filter Low Frequency,003A,0220,DS,1
+Filter High Frequency,003A,0221,DS,1
+Notch Filter Frequency,003A,0222,DS,1
+Notch Filter Bandwidth,003A,0223,DS,1
+Multiplexed Audio Channels Description Code Seq,003A,0300,SQ,1
+Channel Identification Code,003A,0301,IS,1
+Channel Mode,003A,0302,CS,1
+Group 0040 Length,0040,0000,UL,1
+Scheduled Station AE Title,0040,0001,AE,1-N
+Scheduled Procedure Step Start Date,0040,0002,DA,1
+Scheduled Procedure Step Start Time,0040,0003,TM,1
+Scheduled Procedure Step End Date,0040,0004,DA,1
+Scheduled Procedure Step End Time,0040,0005,TM,1
+Scheduled Performing Physician's Name,0040,0006,PN,1
+Scheduled Procedure Step Description,0040,0007,LO,1
+Scheduled Protocol Code Sequence,0040,0008,SQ,1
+Scheduled Procedure Step ID,0040,0009,SH,1
+Stage Code Sequence,0040,000A,SQ,1
+Scheduled Performing Phys Identification Sequence,0040,000B,SQ,1
+Scheduled Station Name,0040,0010,SH,1-N
+Scheduled Procedure Step Location,0040,0011,SH,1
+Pre-Medication,0040,0012,LO,1
+Scheduled Procedure Step Status,0040,0020,CS,1
+Scheduled Procedure Step Sequence,0040,0100,SQ,1
+Referenced Standalone SOP Instance Sequence,0040,0220,SQ,1
+Performed Station AE Title,0040,0241,AE,1
+Performed Station Name,0040,0242,SH,1
+Performed Location,0040,0243,SH,1
+Performed Procedure Step Start Date,0040,0244,DA,1
+Performed Procedure Step Start Time,0040,0245,TM,1
+Performed Procedure Step End Date,0040,0250,DA,1
+Performed Procedure Step End Time,0040,0251,TM,1
+Performed Procedure Step Status,0040,0252,CS,1
+Performed Procedure Step ID,0040,0253,SH,1
+Performed Procedure Step Description,0040,0254,LO,1
+Performed Procedure Type Description,0040,0255,LO,1
+Performed Protocol Code Sequence,0040,0260,SQ,1
+Scheduled Step Attributes Sequence,0040,0270,SQ,1
+Request Attributes Sequence,0040,0275,SQ,1
+Comments on the Performed Procedure Steps,0040,0280,ST,1
+PPS Discontinuation Reason Code Sequence,0040,0281,SQ,1
+Quantity Sequence,0040,0293,SQ,1
+Quantity,0040,0294,DS,1
+Measuring Units Sequence,0040,0295,SQ,1
+Billing Item Sequence,0040,0296,SQ,1
+Total Time of Fluoroscopy,0040,0300,US,1
+Total Number of Exposures,0040,0301,US,1
+Entrance Dose,0040,0302,US,1
+Exposed Area,0040,0303,US,1-2
+Distance Source to Entrance,0040,0306,DS,1
+Distance Source to Support RETIRED,0040,0307,DS,1
+Exposure Dose Sequence,0040,030E,SQ,1
+Comments on Radiation Dose,0040,0310,ST,1
+X-Ray Output,0040,0312,DS,1
+Half Value Layer,0040,0314,DS,1
+Organ Dose,0040,0316,DS,1
+Organ Exposed,0040,0318,CS,1
+Billing Procedure Step Sequence,0040,0320,SQ,1
+Film Consumption Sequence,0040,0321,SQ,1
+Billing Supplies and Devices Sequence,0040,0324,SQ,1
+Referenced Procedure Step Sequence RETIRED,0040,0330,SQ,1
+Performed Series Sequence,0040,0340,SQ,1
+Comments on the Scheduled Procedure Step,0040,0400,LT,1
+Protocol Context Sequence,0040,0440,SQ,1
+Content Item Modifier Sequence,0040,0441,SQ,1
+Specimen Accession Number,0040,050A,LO,1
+Specimen Sequence,0040,0550,SQ,1
+Specimen Identifier,0040,0551,LO,1
+Acquisition Context Sequence,0040,0555,SQ,1
+Acquisition Context Description,0040,0556,ST,1
+Specimen Type Code Sequence,0040,059A,SQ,1
+Slide Identifier,0040,06FA,LO,1
+Image Center Point Coordinates Sequence,0040,071A,SQ,1
+X offset in Slide Coordinate System,0040,072A,DS,1
+Y offset in Slide Coordinate System,0040,073A,DS,1
+Z offset in Slide Coordinate System,0040,074A,DS,1
+Pixel Spacing Sequence,0040,08D8,SQ,1
+Coordinate System Axis Code Sequence,0040,08DA,SQ,1
+Measurement Units Code Sequence,0040,08EA,SQ,1
+Requested Procedure ID,0040,1001,SH,1
+Reason for the Requested Procedure,0040,1002,LO,1
+Requested Procedure Priority,0040,1003,SH,1
+Patient Transport Arrangements,0040,1004,LO,1
+Requested Procedure Location,0040,1005,LO,1
+Placer Order Number / Procedure RETIRED,0040,1006,SH,1
+Filler Order Number Procedure RETIRED,0040,1007,SH,1
+Confidentiality Code,0040,1008,LO,1
+Reporting Priority,0040,1009,SH,1
+Reason for Requested Procedure Code Sequence,0040,100A,SQ,1
+Names of Intended Recipients of Results,0040,1010,PN,1-N
+Intended Recp of Results Identification Sequence,0040,1011,SQ,1
+Person identification Code Sequence,0040,1101,SQ,1
+Person's Address,0040,1102,ST,1
+Person's Telephone Numbers,0040,1103,LO,1-N
+Requested Procedure Comments,0040,1400,LT,1
+Reason for the Imaging Service Request RET,0040,2001,LO,1
+Issue Date of Imaging Service Request,0040,2004,DA,1
+Issue Time of Imaging Service Request,0040,2005,TM,1
+Placer Order Number Imaging Service Request RET,0040,2006,SH,1
+Filler Order Number Imaging Service Request RET,0040,2007,SH,1
+Order Entered By,0040,2008,PN,1
+Order Enterer's Location,0040,2009,SH,1
+Order Callback Phone Number,0040,2010,SH,1
+Placer Order Number / Imaging Service Request,0040,2016,LO,1
+Filler Order Number / Imaging Service Request,0040,2017,LO,1
+Imaging Service Request Comments,0040,2400,LT,1
+Confidentiality Constraint on Patient Data Descrip,0040,3001,LO,1
+General Purpose Scheduled Procedure Step Status,0040,4001,CS,1
+General Purpose Performed Procedure Step Status,0040,4002,CS,1
+General Purpose Scheduled Procedure Step Priority,0040,4003,CS,1
+Scheduled Processing Applications Code Sequence,0040,4004,SQ,1
+Scheduled Procedure Step Start Date and Time,0040,4005,DT,1
+Multiple Copies Flag,0040,4006,CS,1
+Performed Processing Applications Code Sequence,0040,4007,SQ,1
+Human Performer Code Sequence,0040,4009,SQ,1
+Scheduled Procedure Step Modification Date Time,0040,4010,DT,1
+Expected Completion Date and Time,0040,4011,DT,1
+Resulting General Purpose Performed Procedure Step,0040,4015,SQ,1
+Referenced General Purpose Scheduled Procedure Ste,0040,4016,SQ,1
+Scheduled Workitem Code Sequence,0040,4018,SQ,1
+Performed Workitem Code Sequence,0040,4019,SQ,1
+Input Availability Flag,0040,4020,CS,1
+Input Information Sequence,0040,4021,SQ,1
+Relevant Information Sequence,0040,4022,SQ,1
+Referenced GP Scheduled Procedure Step Transaction,0040,4023,UI,1
+Scheduled Station Name Code Sequence,0040,4025,SQ,1
+Scheduled Station Class Code Sequence,0040,4026,SQ,1
+Scheduled Station Geographic Location Code Sequenc,0040,4027,SQ,1
+Performed Station Name Code Sequence,0040,4028,SQ,1
+Performed Station Class Code Sequence,0040,4029,SQ,1
+Performed Station Geographic Location Code Sequenc,0040,4030,SQ,1
+Requested Subsequent Workitem Code Sequence,0040,4031,SQ,1
+Non-DICOM Output Code Sequence,0040,4032,SQ,1
+Output Information Sequence,0040,4033,SQ,1
+Scheduled Human Performers Sequence,0040,4034,SQ,1
+Actual Human Performers Sequence,0040,4035,SQ,1
+Human Performer's Organization,0040,4036,LO,1
+Human Performer's Name,0040,4037,PN,1
+Entrance Dose in mGy,0040,8302,DS,1
+Real World Value Mapping Sequence,0040,9096,SQ,1
+Pixel Value Mapping Code Sequence,0040,9098,SQ,1
+LUT Label,0040,9210,SH,1
+Real World Value Last Value Mapped,0040,9211,US,1
+Real World Value LUT Data,0040,9212,FD,1-N
+Real World Value First Value Mapped,0040,9216,US,1
+Real World Value Intercept,0040,9224,FD,1
+Real World Value Slope,0040,9225,FD,1
+Relationship Type,0040,A010,CS,1
+Verifying Organization,0040,A027,LO,1
+Verification DateTime,0040,A030,DT,1
+Observation DateTime,0040,A032,DT,1
+Value Type,0040,A040,CS,1
+Concept Name Code Sequence,0040,A043,SQ,1
+Continuity of Content,0040,A050,CS,1
+Verifying Observer Sequence,0040,A073,SQ,1
+Verifying Observer Name,0040,A075,PN,1
+Verifying Observer Identification Code Sequence,0040,A088,SQ,1
+Referenced Waveform Channels,0040,A0B0,US,2-N
+DateTime,0040,A120,DT,1
+Date,0040,A121,DA,1
+Time,0040,A122,TM,1
+Person Name,0040,A123,PN,1
+UID,0040,A124,UI,1
+Temporal Range Type,0040,A130,CS,1
+Referenced Sample Positions,0040,A132,UL,1-N
+Referenced Frame Numbers,0040,A136,US,1-N
+Referenced Time Offsets,0040,A138,DS,1-N
+Referenced Datetime,0040,A13A,DT,1-N
+Text Value,0040,A160,UT,1
+Concept Code Sequence,0040,A168,SQ,1
+Purpose of Reference Code Sequence,0040,A170,SQ,1
+Annotation Group Number,0040,A180,US,1
+Modifier Code Sequence,0040,A195,SQ,1
+Measured Value Sequence,0040,A300,SQ,1
+Numeric Value Qualifier Code Sequence,0040,A301,SQ,1
+Numeric Value,0040,A30A,DS,1-N
+Predecessor Documents Sequence,0040,A360,SQ,1
+Referenced Request Sequence,0040,A370,SQ,1
+Performed Procedure Code Sequence,0040,A372,SQ,1
+Current Requested Procedure Evidence Sequence,0040,A375,SQ,1
+Pertinent Other Evidence Sequence,0040,A385,SQ,1
+Completion Flag,0040,A491,CS,1
+Completion Flag Description,0040,A492,LO,1
+Verification Flag,0040,A493,CS,1
+Content Template Sequence,0040,A504,SQ,1
+Identical Documents Sequence,0040,A525,SQ,1
+Content Sequence,0040,A730,SQ,1
+Annotation Sequence,0040,B020,SQ,1
+Template Identifier,0040,DB00,CS,1
+Template Version RETIRED,0040,DB06,DT,1
+Template Local Version RETIRED,0040,DB07,DT,1
+Template Extension Flag RETIRED,0040,DB0B,CS,1
+Template Extension Organization UID RETIRED,0040,DB0C,UI,1
+Template Extension Creator UID RETIRED,0040,DB0D,UI,1
+Referenced Content Item Identifier,0040,DB73,UL,1-N
+Number of Hardcopies,0041,SIEMENS DLR.01,10,US,1
+Film Format,0041,SIEMENS DLR.01,20,CS,1
+Film Size,0041,SIEMENS DLR.01,30,LO,1
+Full Film Format,0041,SIEMENS DLR.01,31,LO,1
+Text Relating to Data Object,0041,SIEMENS MED NM,21,LO,1
+Folder Creation Date,0041,SIEMENS MED NM,30,DA,1
+Folder Creation Time,0041,SIEMENS MED NM,32,TM,1
+Folder Modification Date,0041,SIEMENS MED NM,34,DA,1
+Folder Modification Time,0041,SIEMENS MED NM,36,TM,1
+Folder Owner Name,0041,SIEMENS MED NM,40,LO,1
+Folder Status,0041,SIEMENS MED NM,50,SS,1
+Number of Images in Folder,0041,SIEMENS MED NM,70,SL,1
+Number of Non-Image Objects,0041,SIEMENS MED NM,71,SL,1
+Group 0050 Length,0050,0000,UL,1
+Calibration Image,0050,0004,CS,1
+Device Sequence,0050,0010,SQ,1
+Device Type,0050,0012,CS,1
+Device Length,0050,0014,DS,1
+Device Diameter,0050,0016,DS,1
+Device Diameter Units,0050,0017,CS,1
+Device Volume,0050,0018,DS,1
+Inter-marker Distance,0050,0019,DS,1
+Device Description,0050,0020,LO,1
+Coded Interventional Device Sequence,0050,0030,SQ,1
+Image Text,0051,SIEMENS CM VA0  CMS,10,LO,N
+Number of Windows,0051,SIEMENS MED NM,10,SS,1
+Average Heart Rate BPM,0051,SIEMENS MED NM,11,SS,1
+Accepted Beats in Window,0051,SIEMENS MED NM,12,SS,1
+Average R-R Interval msec,0051,SIEMENS MED NM,13,SS,1
+Window Width %,0051,SIEMENS MED NM,14,SS,1
+Hottest Pixel in Window,0051,SIEMENS MED NM,15,SL,1
+Total Counts in Window,0051,SIEMENS MED NM,18,SL,1
+Terminate on Pixel Overflow Flag 1 Terminate,0053,SIEMENS MED NM,01,SS,1
+Terminate on List Buffer Overflow Flag,0053,SIEMENS MED NM,02,SS,1
+First Frame by Counts,0053,SIEMENS MED NM,03,SS,1
+Elapsed Time Start Condition 0 None 1 Any 2 All,0053,SIEMENS MED NM,10,SS,1
+Elapsed Time Start msec,0053,SIEMENS MED NM,11,SL,1
+Count Rate Start Condition 0 None 1 Any 2 All,0053,SIEMENS MED NM,12,SS,1
+Count Rate Start,0053,SIEMENS MED NM,13,SL,1
+Start Heart Beat Count Condition 0 None 1 Any 2 ,0053,SIEMENS MED NM,14,SS,1
+Start Heart Beat Count,0053,SIEMENS MED NM,15,SL,1
+Start Heart Rate Threshold Condition,0053,SIEMENS MED NM,16,SS,1
+Start Heart Rate Increasing Flag,0053,SIEMENS MED NM,17,SS,1
+Start Heart Rate,0053,SIEMENS MED NM,18,SL,1
+Manual Stop Flag 0 No 1 Yes,0053,SIEMENS MED NM,19,SL,1
+Elapsed Time Stop Condition 0 None 1 Any 2 All,0053,SIEMENS MED NM,1A,SS,1
+Elapsed Time Stop,0053,SIEMENS MED NM,1B,SL,1
+Stop Heart Beat Count Condition 0 None 1 Any 2 A,0053,SIEMENS MED NM,1C,SS,1
+Stop Heart Beat Count,0053,SIEMENS MED NM,1D,SL,1
+Info Density Stop Condition,0053,SIEMENS MED NM,30,SS,1
+Info Density Stop Scaler,0053,SIEMENS MED NM,31,SS,1
+Info Density Stop Region,0053,SIEMENS MED NM,32,SS,1
+Info Density Stop Count,0053,SIEMENS MED NM,33,SL,1
+Stop Condition Status 0 None 1 Any 2 All,0053,SIEMENS MED NM,40,SS,1
+Stop Count,0053,SIEMENS MED NM,41,SL,1
+Stop Count Condition Status 0 None 1 Any 2 All ,0053,SIEMENS MED NM,42,SS,1
+Stop Time,0053,SIEMENS MED NM,43,SL,1
+Stop Time Condition Status 0 None 1 Any 2 All ,0053,SIEMENS MED NM,44,SS,1
+Group 0054 Length,0054,0000,UL,1
+Energy Window Vector,0054,0010,US,1-N
+Number of Energy Windows,0054,0011,US,1
+Energy Window Information Sequence,0054,0012,SQ,1
+Energy Window Range Sequence,0054,0013,SQ,1
+Energy Window Lower Limit,0054,0014,DS,1
+Energy Window Upper Limit,0054,0015,DS,1
+Radiopharmaceutical Information Sequence,0054,0016,SQ,1
+Residual Syringe Counts,0054,0017,IS,1
+Energy Window Name,0054,0018,SH,1
+Detector Vector,0054,0020,US,1-N
+Number of Detectors,0054,0021,US,1
+Detector Information Sequence,0054,0022,SQ,1
+Phase Vector,0054,0030,US,1-N
+Number of Phases,0054,0031,US,1
+Phase Information Sequence,0054,0032,SQ,1
+Number of Frames in Phase,0054,0033,US,1
+Phase Delay,0054,0036,IS,1
+Pause Between Frames,0054,0038,IS,1
+Phase Description,0054,0039,CS,1
+Rotation Vector,0054,0050,US,1-N
+Number of Rotations,0054,0051,US,1
+Rotation Information Sequence,0054,0052,SQ,1
+Number of Frames in Rotation,0054,0053,US,1
+R-R Interval Vector,0054,0060,US,1-N
+Number of R-R Intervals,0054,0061,US,1
+Gated Information Sequence,0054,0062,SQ,1
+Data Information Sequence,0054,0063,SQ,1
+Time Slot Vector,0054,0070,US,1-N
+Number of Time Slots,0054,0071,US,1
+Time Slot Information Sequence,0054,0072,SQ,1
+Time Slot Time,0054,0073,DS,1
+Slice Vector,0054,0080,US,1-N
+Number of Slices,0054,0081,US,1
+Angular View Vector,0054,0090,US,1-N
+Time Slice Vector,0054,0100,US,1-N
+Number of Time Slices,0054,0101,US,1
+Start Angle,0054,0200,DS,1
+Type of Detector Motion,0054,0202,CS,1
+Trigger Vector,0054,0210,IS,1-N
+Number of Triggers in Phase,0054,0211,US,1
+View Code Sequence,0054,0220,SQ,1
+View Modifier Code Sequence,0054,0222,SQ,1
+Radionuclide Code Sequence,0054,0300,SQ,1
+Administration Route Code Sequence,0054,0302,SQ,1
+Radiopharmaceutical Code Sequence,0054,0304,SQ,1
+Calibration Data Sequence,0054,0306,SQ,1
+Energy Window Number,0054,0308,US,1
+Image ID,0054,0400,SH,1
+Patient Orientation Code Sequence,0054,0410,SQ,1
+Patient Orientation Modifier Code Sequence,0054,0412,SQ,1
+Patient Gantry Relationship Code Sequence,0054,0414,SQ,1
+Slice Progress Direction,0054,0500,CS,1
+Series Type,0054,1000,CS,2
+Units,0054,1001,CS,1
+Counts Source,0054,1002,CS,1
+Reprojection Method,0054,1004,CS,1
+Randoms Correction Method,0054,1100,CS,1
+Attenuation Correction Method,0054,1101,LO,1
+Decay Correction,0054,1102,CS,1
+Reconstruction Method,0054,1103,LO,1
+Detector Lines of Response Used,0054,1104,LO,1
+Scatter Correction Method,0054,1105,LO,1
+Axial Acceptance,0054,1200,DS,1
+Axial Mash,0054,1201,IS,2
+Transverse Mash,0054,1202,IS,1
+Detector Element Size,0054,1203,DS,2
+Coincidence Window Width,0054,1210,DS,1
+Secondary Counts Type,0054,1220,CS,1-N
+Frame Reference Time,0054,1300,DS,1
+Primary (Prompts) Counts Accumulated,0054,1310,IS,1
+Secondary Counts Accumulated,0054,1311,IS,1-N
+Slice Sensitivity Factor,0054,1320,DS,1
+Decay Factor,0054,1321,DS,1
+Dose Calibration Factor,0054,1322,DS,1
+Scatter Fraction Factor,0054,1323,DS,1
+Dead Time Factor,0054,1324,DS,1
+Image Index,0054,1330,US,1
+Counts Included,0054,1400,CS,1-N
+Dead Time Correction Flag,0054,1401,CS,1
+Current Ward,0055,SIEMENS ISI,46,PN,1
+Unknown 55-02,0055,SIEMENS MED NM,02,SS,1
+Flood Corr. Flag 1 Corr,0055,SIEMENS MED NM,20,SS,1
+Flood Acquisition Date,0055,SIEMENS MED NM,21,DS,1
+COR Corr. Flag 1 Corr,0055,SIEMENS MED NM,30,SS,1
+COR Acquisition Date,0055,SIEMENS MED NM,31,DA,1
+COR Data,0055,SIEMENS MED NM,38,OW,1
+Noncircular Orbit Flag 1 NCO,0055,SIEMENS MED NM,40,SS,1
+NCO Values,0055,SIEMENS MED NM,48,FL,1
+Prone Flag 0 Supine 1 Prone,0055,SIEMENS MED NM,50,SS,1
+Orbit 0 Circular 1 Elliptical,0055,SIEMENS MED NM,51,SS,1
+Total Rotation in Degrees,0055,SIEMENS MED NM,52,SS,1
+Zero Location (T=Top B=Bottom),0055,SIEMENS MED NM,53,CS,1
+Angular Step,0055,SIEMENS MED NM,54,FL,1
+Start Angle,0055,SIEMENS MED NM,55,FL,1
+Decay Corr. Flag 1 Corr,0055,SIEMENS MED NM,56,SS,1
+Scatter Corr. Flag 1 Corr,0055,SIEMENS MED NM,57,SS,1
+Radial Map Info in 0.1 mm Inc.,0055,SIEMENS MED NM,58,FL,1
+Direction H HeadIn F FeetIn,0055,SIEMENS MED NM,59,CS,1
+Table Traverse cm,0055,SIEMENS MED NM,5A,FL,1
+Multiplexor Flag 1 Multiplexed,0055,SIEMENS MED NM,5B,SS,1
+Pixel Acquisition Date,0055,SIEMENS MED NM,5C,DS,1
+Angle Type 1 360o 2 128 Steps,0055,SIEMENS MED NM,5D,SS,1
+Orbit Definition,0055,SIEMENS MED NM,5E,SL,1
+Arm Length in cm,0055,SIEMENS MED NM,5F,FL,1
+Auto Window Beats,0055,SIEMENS MED NM,60,SS,1
+Non-gated File Extension,0055,SIEMENS MED NM,61,SS,1
+TIC Error Values,0055,SIEMENS MED NM,64,SS,1
+X1,0055,SIEMENS MED NM,65,SS,1
+Y1,0055,SIEMENS MED NM,66,SS,1
+X2,0055,SIEMENS MED NM,67,SS,1
+Y2,0055,SIEMENS MED NM,68,SS,1
+X3,0055,SIEMENS MED NM,69,SS,1
+Y3,0055,SIEMENS MED NM,6A,SS,1
+X4,0055,SIEMENS MED NM,6B,SS,1
+Y4,0055,SIEMENS MED NM,6C,SS,1
+Pixel Size Flag 1 Valid Size,0055,SIEMENS MED NM,6D,SS,1
+X Focal Length,0055,SIEMENS MED NM,70,FL,1
+Y Focal Length,0055,SIEMENS MED NM,71,FL,1
+X Gains,0055,SIEMENS MED NM,72,FL,1
+Y Gains,0055,SIEMENS MED NM,73,FL,1
+X Offset,0055,SIEMENS MED NM,74,FL,1
+Y Offset,0055,SIEMENS MED NM,75,FL,1
+X Principal Ray,0055,SIEMENS MED NM,76,FL,1
+Y Principal Ray,0055,SIEMENS MED NM,77,FL,1
+Total Flood Counts,0055,SIEMENS MED NM,78,FL,1
+File Altered Flag 1 Altered,0055,SIEMENS MED NM,80,SS,1
+Raw Data Extension,0055,SIEMENS MED NM,81,SS,1
+Sagittal Extension,0055,SIEMENS MED NM,82,SS,1
+Coronal Extension,0055,SIEMENS MED NM,83,SS,1
+Transverse Extension,0055,SIEMENS MED NM,84,SS,1
+Volume Rendered Extension,0055,SIEMENS MED NM,85,SS,1
+Plane of Transverse Bottom Slice,0055,SIEMENS MED NM,86,SL,1
+Plane of Transverse Top Slice,0055,SIEMENS MED NM,87,SL,1
+Slice Step in Pixels,0055,SIEMENS MED NM,88,SL,1
+Y-Axis Smooth  Slice Weights,0055,SIEMENS MED NM,8A,SL,1
+Number of Transverse Slices,0055,SIEMENS MED NM,8B,SL,1
+Attenuation Flag 1 Chang 2 Sorenson,0055,SIEMENS MED NM,8C,SS,1
+Sagittal Right Limit,0055,SIEMENS MED NM,8D,SS,1
+Sagittal Left Limit,0055,SIEMENS MED NM,8E,SS,1
+Coronal Posterior Limit,0055,SIEMENS MED NM,8F,SS,1
+Coronal Anterior Limit,0055,SIEMENS MED NM,90,SS,1
+Isotope Used in Reconstruction,0055,SIEMENS MED NM,91,SS,1
+Filter Cutoff Frequency,0055,SIEMENS MED NM,93,FL,1
+Filter Alpha Coefficient,0055,SIEMENS MED NM,94,FL,1
+Filter Order,0055,SIEMENS MED NM,95,FL,1
+Attenuation Cooefficient,0055,SIEMENS MED NM,96,FL,1
+Percent Ray,0055,SIEMENS MED NM,97,SS,1
+Astigmatic Collimator 1 Neuro 2 Cardiac,0055,SIEMENS MED NM,98,SS,1
+XP0,0055,SIEMENS MED NM,99,SS,1
+ZP0,0055,SIEMENS MED NM,9A,SS,1
+XP1,0055,SIEMENS MED NM,9B,SS,1
+ZP1,0055,SIEMENS MED NM,9C,SS,1
+Rotation Matrix,0055,SIEMENS MED NM,9D,FL,1
+X0,0055,SIEMENS MED NM,9E,FL,1
+X1,0055,SIEMENS MED NM,9F,FL,1
+Y0,0055,SIEMENS MED NM,A0,FL,1
+Y1,0055,SIEMENS MED NM,A1,FL,1
+Z0,0055,SIEMENS MED NM,A2,FL,1
+Z1,0055,SIEMENS MED NM,A3,FL,1
+Transverse Scale,0055,SIEMENS MED NM,A4,SS,1
+Pixel Size  X Direction mm,0055,SIEMENS MED NM,A5,FL,1
+Pixel Size  Y Direction mm,0055,SIEMENS MED NM,A6,FL,1
+Regions File Extension,0055,SIEMENS MED NM,A7,SS,1
+Gated SPECT Bins Reconstructed,0055,SIEMENS MED NM,A8,SS,1
+Vertical Oblique Image,0055,SIEMENS MED NM,A9,SS,1
+Oblique Region  First Slice,0055,SIEMENS MED NM,B0,SS,1
+Oblique Region  Last Slice,0055,SIEMENS MED NM,B1,SS,1
+Low Count,0057,SIEMENS MED NM,10,SS,1
+Vertical Oblique Image,0057,SIEMENS MED NM,20,SS,1
+Group 0060 Length,0060,0000,UL,1
+Histogram Sequence,0060,3000,SQ,1
+Histogram Number of Bins,0060,3002,US,1
+Histogram First Bin Value,0060,3004,US,1
+Histogram Last Bin Value,0060,3006,US,1
+Histogram Bin Width,0060,3008,US,1
+Histogram Explanation,0060,3010,LO,1
+Histogram Data,0060,3020,UL,1-N
+Group 0070 Length,0070,0000,UL,1
+Graphic Annotation Sequence,0070,0001,SQ,1
+Graphic Layer,0070,0002,CS,1
+Bounding Box Annotation Units,0070,0003,CS,1
+Anchor Point Annotation Units,0070,0004,CS,1
+Graphic Annotation Units,0070,0005,CS,1
+Unformatted Text Value,0070,0006,ST,1
+Text Object Sequence,0070,0008,SQ,1
+Graphic Object Sequence,0070,0009,SQ,1
+Bounding Box Top Left Hand Corner,0070,0010,FL,2
+Bounding Box Bottom Right Hand Corner,0070,0011,FL,2
+Bounding Box Text Horizontal Justification,0070,0012,CS,1
+Anchor Point,0070,0014,FL,2
+Anchor Point Visibility,0070,0015,CS,1
+Graphic Dimensions,0070,0020,US,1
+Number of Graphic Points,0070,0021,US,1
+Graphic Data,0070,0022,FL,2-N
+Graphic Type,0070,0023,CS,1
+Graphic Filled,0070,0024,CS,1
+Image Horizontal Flip,0070,0041,CS,1
+Image Rotation,0070,0042,US,1
+Displayed Area Top Left Hand Corner,0070,0052,SL,2
+Displayed Area Bottom Right Hand Corner,0070,0053,SL,2
+Displayed Area Selection Sequence,0070,005A,SQ,1
+Graphic Layer Sequence,0070,0060,SQ,1
+Graphic Layer Order,0070,0062,IS,1
+Graphic Layer Recommended Display Grayscale Value,0070,0066,US,1
+Graphic Layer Recommended Display RGB Value,0070,0067,US,3
+Graphic Layer Description,0070,0068,LO,1
+Content Label,0070,0080,CS,1
+Content Description,0070,0081,LO,1
+Presentation Creation Date,0070,0082,DA,1
+Presentation Creation Time,0070,0083,TM,1
+Content Creator's Name,0070,0084,PN,1
+Presentation Size Mode,0070,0100,CS,1
+Presentation Pixel Spacing,0070,0101,DS,2
+Presentation Pixel Aspect Ratio,0070,0102,IS,2
+Presentation Pixel Magnification Ratio,0070,0103,FL,1
+Shape Type,0070,0306,CS,1
+Registration Sequence,0070,0308,SQ,1
+Matrix Registration Sequence,0070,0309,SQ,1
+Matrix Sequence,0070,030A,SQ,1
+Frame of Reference Transformation Matrix Type,0070,030C,CS,1
+Registration Type Code Sequence,0070,030D,SQ,1
+Fiducial Description,0070,030F,ST,1
+Fiducial Identifier,0070,0310,SH,1
+Fiducial Identifier Code Sequence,0070,0311,SQ,1
+Contour Uncertainty Radius,0070,0312,FD,1
+Used Fiducials Sequence,0070,0314,SQ,1
+Graphic Coordinates Data Sequence,0070,0318,SQ,1
+Fiducial UID,0070,031A,UI,1
+Fiducial Set Sequence,0070,031C,SQ,1
+Fiducial Sequence,0070,031E,SQ,1
+Group 0072 Length,0072,0000,UL,1
+Hanging Protocol Name,0072,0002,SH,1
+Hanging Protocol Description,0072,0004,LO,1
+Hanging Protocol Level,0072,0006,CS,1
+Hanging Protocol Creator,0072,0008,LO,1
+Hanging Protocol Creation Datetime,0072,000A,DT,1
+Hanging Protocol Definition Sequence,0072,000C,SQ,1
+Hanging Protocol User Identification Code Sequence,0072,000E,SQ,1
+Hanging Protocol User Group Name,0072,0010,LO,1
+Source Hanging Protocol Sequence,0072,0012,SQ,1
+Number of Priors Referenced,0072,0014,US,1
+Image Sets Sequence,0072,0020,SQ,1
+Image Set Selector Sequence,0072,0022,SQ,1
+Image Set Selector Usage Flag,0072,0024,CS,1
+Selector Attribute,0072,0026,AT,1
+Selector Value Number,0072,0028,US,1
+Time Based Image Sets Sequence,0072,0030,SQ,1
+Image Set Number,0072,0032,US,1
+Image Set Selector Category,0072,0034,CS,1
+Relative Time,0072,0038,US,2
+Relative Time Units,0072,003A,CS,1
+Abstract Prior Value,0072,003C,SS,2
+Abstract Prior Code Sequence,0072,003E,SQ,1
+Image Set Label,0072,0040,LO,1
+Selector Attribute VR,0072,0050,CS,1
+Selector Sequence Pointer,0072,0052,AT,1
+Selector Sequence Pointer Private Creator,0072,0054,LO,1
+Selector Attribute Private Creator,0072,0056,LO,1
+Selector AT Value,0072,0060,AT,1-N
+Selector CS Value,0072,0062,CS,1-N
+Selector IS Value,0072,0064,IS,1-N
+Selector LO Value,0072,0066,LO,1-N
+Selector LT Value,0072,0068,LT,1
+Selector PN Value,0072,006A,PN,1-N
+Selector SH Value,0072,006C,SH,1-N
+Selector ST Value,0072,006E,ST,1
+Selector UT Value,0072,0070,UT,1
+Selector DS Value,0072,0072,DS,1-N
+Selector FD Value,0072,0074,FD,1-N
+Selector FL Value,0072,0076,FL,1-N
+Selector UL Value,0072,0078,UL,1-N
+Selector US Value,0072,007A,US,1-N
+Selector SL Value,0072,007C,SL,1-N
+Selector SS Value,0072,007E,SS,1-N
+Selector Code Sequence Value,0072,0080,SQ,1
+Number of Screens,0072,0100,US,1
+Nominal Screen Definition Sequence,0072,0102,SQ,1
+Number of Vertical Pixels,0072,0104,US,1
+Number of Horizontal Pixels,0072,0106,US,1
+Display Environment Spatial Position,0072,0108,FD,4
+Screen Minimum Grayscale Bit Depth,0072,010A,US,1
+Screen Minimum Color Bit Depth,0072,010C,US,1
+Application Maximum Repaint Time,0072,010E,US,1
+Display Sets Sequence,0072,0200,SQ,1
+Display Set Number,0072,0202,US,1
+Display Set Presentation Group,0072,0204,US,1
+Display Set Presentation Group Description,0072,0206,LO,1
+Partial Data Display Handling,0072,0208,CS,1
+Synchronized Scrolling Sequence,0072,0210,SQ,1
+Display Set Scrolling Group,0072,0212,US,2-N
+Navigation Indicator Sequence,0072,0214,SQ,1
+Navigation Display Set,0072,0216,US,1
+Reference Display Sets,0072,0218,US,1-N
+Image Boxes Sequence,0072,0300,SQ,1
+Image Box Number,0072,0302,US,1
+Image Box Layout Type,0072,0304,CS,1
+Image Box Tile Horizontal Dimension,0072,0306,US,1
+Image Box Tile Veritical Dimension,0072,0308,US,1
+Image Box Scroll Direction,0072,0310,CS,1
+Image Box Small Scroll Type,0072,0312,CS,1
+Image Box Small Scroll Amount,0072,0314,US,1
+Image Box large Scroll Type,0072,0316,CS,1
+Image Box Large Scroll Amount,0072,0318,US,1
+Image Box Overlap Priority,0072,0320,US,1
+Cine Relative to Real-Time,0072,0330,FD,1
+Filter Operations Sequence,0072,0400,SQ,1
+Filter-by Category,0072,0402,CS,1
+Filter-by Attibute Presence,0072,0404,CS,1
+Filter-by Operator,0072,0406,CS,1
+Blending Operation Type,0072,0500,CS,1
+Reformatting Operation Type,0072,0510,CS,1
+Reformatting Thickness,0072,0512,FD,1
+Reformatting Interval,0072,0514,FD,1
+Reformatting Operation Initial View Direction,0072,0516,CS,1
+3D Rendering Type,0072,0520,CS,1-N
+Sorting Operations Sequence,0072,0600,SQ,1
+Sort-by Category,0072,0602,CS,1
+Sorting Direction,0072,0604,CS,1
+Display Set Patient Orientation,0072,0700,CS,2
+VOI Type,0072,0702,CS,1
+Pseudo-color Type,0072,0704,CS,1
+Show Grayscale Inverted,0072,0706,CS,1
+Show Image True Size Flag,0072,0710,CS,1
+Show Graphic Annotation Flag,0072,0712,CS,1
+Show Patient Demographics Flag,0072,0714,CS,1
+Show Acquisition Techniques Flag,0072,0716,CS,1
+Group 0088 Length,0088,0000,UL,1
+Storage Media File-set ID,0088,0130,SH,1
+Storage Media File-set UID,0088,0140,UI,1
+Icon Image Sequence,0088,0200,SQ,1
+Topic Title,0088,0904,LO,1
+Topic Subject,0088,0906,ST,1
+Topic Author,0088,0910,LO,1
+Topic Key Words,0088,0912,LO,1-32
+Patient Name,0091,SIENET,20,PN,1-N
+Examination Folder ID,0095,SIENET,01,LO,1
+Folder Reported Status,0095,SIENET,04,UL,1
+SIENET ISA PLA,0095,SIENET,07,LO,1
+Folder Rebuild Status,0095,SIENET,0C,UL,1
+RIS Organ,0095,SIENET,26,CS,1
+Key Images,0099,SIENET,02,UL,1
+Image Number,0099,SIENET,05,SL,1
+Group 0100 Length,0100,0000,UL,1
+SOP Instance Status,0100,0410,CS,1
+SOP Authorization Date and Time,0100,0420,DT,1
+SOP Authorization Comment,0100,0424,LT,1
+Authorization Equipment Certification Number,0100,0426,LO,1
+RIS Key,0193,SIEMENS ISI,02,LO,1
+RIS Worklist IMGEF,0307,SIEMENS ISI,01,SQ,1
+RIS Report IMGEF,0309,SIEMENS ISI,01,SQ,1
+Group 0400 Length,0400,0000,UL,1
+MAC ID Number,0400,0005,US,1
+MAC Calculation Transfer Syntax UID,0400,0010,UI,1
+MAC Algorithm,0400,0015,CS,1
+Data Elements Signed,0400,0020,AT,1-N
+Digital Signature UID,0400,0100,UI,1
+Digital Signature DateTime,0400,0105,DT,1
+Certificate Type,0400,0110,CS,1
+Certificate of Signer,0400,0115,OB,1
+Signature,0400,0120,OB,1
+Certified Timestamp Type,0400,0305,CS,1
+Certified Timestamp,0400,0310,OB,1
+Encrypted Attributes Sequence,0400,0500,SQ,1
+Encrypted Content Transfer Syntax UID,0400,0510,UI,1
+Encrypted Content,0400,0520,OB,1
+Modified Attributes Sequence,0400,0550,SQ,1
+Private Voxar Capture UID,1135,Voxar 2.16.124.113543.6003.1999.12.20.12.5.0,00,UI,1
+Private Voxar Saved State,1135,Voxar 2.16.124.113543.6003.1999.12.20.12.5.0,01,OB,1
+Private Voxar Icon Image Sequence,1135,Voxar 2.16.124.113543.6003.1999.12.20.12.5.0,02,SQ,1
+Private Voxar Top Right Display Demographics,1135,Voxar 2.16.124.113543.6003.1999.12.20.12.5.0,03,ST,1
+Private Voxar Bottom Left Display Demographics,1135,Voxar 2.16.124.113543.6003.1999.12.20.12.5.0,04,ST,1
+Private Voxar Span State Schema,1135,Voxar 2.16.124.113543.6003.1999.12.20.12.5.0,05,IS,1
+Private Voxar Live Image Restored Size,1135,Voxar 2.16.124.113543.6003.1999.12.20.12.5.0,06,UL,1
+Private Voxar CaptureType,1135,Voxar 2.16.124.113543.6003.1999.12.20.12.5.0,07,UI,1
+Private Voxar Capture Source Series UID Sequence,1135,Voxar 2.16.124.113543.6003.1999.12.20.12.5.0,08, SQ,1
+Private Voxar Capture Source Series UID,1135,Voxar 2.16.124.113543.6003.1999.12.20.12.5.0,09,UI,1
+Private Voxar Background Gray For Capture,1135,Voxar 2.16.124.113543.6003.1999.12.20.12.5.0,10,IS,1
+Private Voxar Calcium Scoring Report Schema,1135,Voxar 2.16.124.113543.6003.1999.12.20.12.5.0,11,IS,1
+Private Voxar Source Series Number,1135,Voxar 2.16.124.113543.6003.1999.12.20.12.5.0,12,IS,1
+Private Voxar Bottom Left Display Demographics,1135,Voxar 2.16.124.113543.6003.1999.12.20.12.5.0,13,LO,1
+Group 2000 Length,2000,0000,UL,1
+Number of Copies,2000,0010,IS,1
+Printer Configuration Sequence,2000,001E,SQ,1
+Print Priority,2000,0020,CS,1
+Medium Type,2000,0030,CS,1
+Film Destination,2000,0040,CS,1
+Film Session Label,2000,0050,LO,1
+Memory Allocation,2000,0060,IS,1
+Maximum Memory Allocation,2000,0061,IS,1
+Color Image Printing Flag,2000,0062,CS,1
+Collation Flag,2000,0063,CS,1
+Annotation Flag,2000,0065,CS,1
+Image Overlay Flag,2000,0067,CS,1
+Presentation LUT Flag,2000,0069,CS,1
+Image Box Presentation LUT Flag,2000,006A,CS,1
+Memory Bit Depth,2000,00A0,US,1
+Printing Bit Depth,2000,00A1,US,1
+Media Installed Sequence,2000,00A2,SQ,1
+Other Media Available Sequence,2000,00A4,SQ,1
+Supported Image Display Formats Sequence,2000,00A8,SQ,1
+Referenced Film Box Sequence,2000,0500,SQ,1
+Referenced Stored Print Sequence,2000,0510,SQ,1
+Group 2010 Length,2010,0000,UL,1
+Image Display Format,2010,0010,ST,1
+Annotation Display Format ID,2010,0030,CS,1
+Film Orientation,2010,0040,CS,1
+Film Size ID,2010,0050,CS,1
+Printer Resolution ID,2010,0052,CS,1
+Default Printer Resolution ID,2010,0054,CS,1
+Magnification Type,2010,0060,CS,1
+Smoothing Type,2010,0080,CS,1
+Default Magnification Type,2010,00A6,CS,1
+Other Magnification Types Available,2010,00A7,CS,1-N
+Default Smoothing Type,2010,00A8,CS,1
+Other Smoothing Types Available,2010,00A9,CS,1-N
+Border Density,2010,0100,CS,1
+Empty Image Density,2010,0110,CS,1
+Min Density,2010,0120,US,1
+Max Density,2010,0130,US,1
+Trim,2010,0140,CS,1
+Configuration Information,2010,0150,ST,1
+Configuration Information Description,2010,0152,LT,1
+Maximum Collated Films,2010,0154,IS,1
+Illumination,2010,015E,US,1
+Reflected Ambient Light,2010,0160,US,1
+Printer Pixel Spacing,2010,0376,DS,2
+Referenced Film Session Sequence,2010,0500,SQ,1
+Referenced Image Box Sequence,2010,0510,SQ,1
+Referenced Basic Annotation Box Sequence,2010,0520,SQ,1
+Group 2020 Length,2020,0000,UL,1
+Image Position,2020,0010,US,1
+Polarity,2020,0020,CS,1
+Requested Image Size,2020,0030,DS,1
+Requested Decimate/Crop Behavior,2020,0040,CS,1
+Requested Resolution ID,2020,0050,CS,1
+Requested Image Size Flag,2020,00A0,CS,1
+Decimate/Crop Result,2020,00A2,CS,1
+Basic Grayscale Image Sequence,2020,0110,SQ,1
+Basic Color Image Sequence,2020,0111,SQ,1
+Referenced Image Overlay Box Sequence,2020,0130,SQ,1
+Referenced VOI LUT Box Sequence,2020,0140,SQ,1
+Group 2030 Length,2030,0000,UL,1
+Annotation Position,2030,0010,US,1
+Text String,2030,0020,LO,1
+Group 2040 Length,2040,0000,UL,1
+Referenced Overlay Plane Sequence,2040,0010,SQ,1
+Referenced Overlay Plane Groups,2040,0011,US,1-99
+Overlay Pixel Data Sequence,2040,0020,SQ,1
+Overlay Magnification Type,2040,0060,CS,1
+Overlay Smoothing Type,2040,0070,CS,1
+Overlay or Image Magnification,2040,0072,CS,1
+Magnify to Number of Columns,2040,0074,US,1
+Overlay Foreground Density,2040,0080,CS,1
+Overlay Background Density,2040,0082,CS,1
+Overlay Mode RETIRED,2040,0090,CS,1
+Threshold Density RETIRED,2040,0100,CS,1
+Image Overlay Box Referenced Image Box Sequence,2040,0500,SQ,1
+Group 2050 Length,2050,0000,UL,1
+Presentation LUT Sequence,2050,0010,SQ,1
+Presentation LUT Shape,2050,0020,CS,1
+Referenced Presentation LUT Sequence,2050,0500,SQ,1
+Group 2100 Length,2100,0000,UL,1
+Print Job ID,2100,0010,SH,1
+Execution Status,2100,0020,CS,1
+Execution Status Info,2100,0030,CS,1
+Creation Date,2100,0040,DA,1
+Creation Time,2100,0050,TM,1
+Originator,2100,0070,AE,1
+Destination AE,2100,0140,AE,1
+Owner ID,2100,0160,SH,1
+Number of Films,2100,0170,IS,1
+Referenced Print Job Sequence,2100,0500,SQ,1
+Group 2110 Length,2110,0000,UL,1
+Printer Status,2110,0010,CS,1
+Printer Status Info,2110,0020,CS,1
+Printer Name,2110,0030,LO,1
+Print Queue ID,2110,0099,SH,1
+Group 2120 Length,2120,0000,UL,1
+Queue Status,2120,0010,CS,1
+Print Job Description Sequence,2120,0050,SQ,1
+Print Queue Referenced Print Job Sequence,2120,0070,SQ,1
+Group 2130 Length,2130,0000,UL,1
+Print Management Capabilities Sequence,2130,0010,SQ,1
+Printer Characteristics Sequence,2130,0015,SQ,1
+Film Box Content Sequence,2130,0030,SQ,1
+Image Box Content Sequence,2130,0040,SQ,1
+Annotation Content Sequence,2130,0050,SQ,1
+Image Overlay Box Content Sequence,2130,0060,SQ,1
+Presentation LUT Content Sequence,2130,0080,SQ,1
+Proposed Study Sequence,2130,00A0,SQ,1
+Original Image Sequence,2130,00C0,SQ,1
+Group 2200 Length,2200,0000,UL,1
+Label Using Information Extracted From Instances,2200,0001,CS,1
+Label Text,2200,0002,UT,1
+Label Style Selection,2200,0003,CS,1
+Media Disposition,2200,0004,LT,1
+Barcode Value,2200,0005,LT,1
+Barcode Symbology,2200,0006,CS,1
+Allow Media Splitting,2200,0007,CS,1
+Include Non-DICOM Objects,2200,0008,CS,1
+Include Display Application,2200,0009,CS,1
+Preserve Composite Instances After Media Creation,2200,000A,CS,1
+Total Number of Pieces of Media Created,2200,000B,US,1
+Requested Media Application Profile,2200,000C,LO,1
+References Storage Media Sequence,2200,000D,SQ,1
+Failure Attributes,2200,000E,AT,1-N
+Allow Lossy Compression,2200,000F,CS,1
+Request Priority,2200,0020,CS,1
+Group 3002 Length,3002,0000,UL,1
+RT Image Label,3002,0002,SH,1
+RT Image Name,3002,0003,LO,1
+RT Image Description,3002,0004,ST,1
+Reported Values Origin,3002,000A,CS,1
+RT Image Plane,3002,000C,CS,1
+X-Ray Image Receptor Translation,3002,000D,DS,3
+X-ray Image Receptor Angle,3002,000E,DS,1
+RT Image Orientation,3002,0010,DS,6
+Image Plane Pixel Spacing,3002,0011,DS,2
+RT Image Position,3002,0012,DS,2
+Radiation Machine Name,3002,0020,SH,1
+Radiation Machine SAD,3002,0022,DS,1
+Radiation Machine SSD,3002,0024,DS,1
+RT Image SID,3002,0026,DS,1
+Source of Reference Object Distance,3002,0028,DS,1
+Fraction Number,3002,0029,IS,1
+Exposure Sequence,3002,0030,SQ,1
+Meterset Exposure,3002,0032,DS,1
+Diaphragm Position,3002,0034,DS,4
+Fluence Map Sequence,3002,0040,SQ,1
+Fluence Data Source,3002,0041,CS,1
+Fluence Data Scale,3002,0042,DS,1
+Group 3004 Length,3004,0000,UL,1
+DVH Type,3004,0001,CS,1
+Dose Units,3004,0002,CS,1
+Dose Type,3004,0004,CS,1
+Dose Comment,3004,0006,LO,1
+Normalization Point,3004,0008,DS,3
+Dose Summation Type,3004,000A,CS,1
+Grid Frame Offset Vector,3004,000C,DS,2-N
+Dose Grid Scaling,3004,000E,DS,1
+RT Dose ROI Sequence,3004,0010,SQ,1
+Dose Value,3004,0012,DS,1
+DVH Normalization Point,3004,0040,DS,3
+DVH Normalization Dose Value,3004,0042,DS,1
+DVH Sequence,3004,0050,SQ,1
+DVH Dose Scaling,3004,0052,DS,1
+DVH Volume Units,3004,0054,CS,1
+DVH Number of Bins,3004,0056,IS,1
+DVH Data,3004,0058,DS,2-N
+DVH Referenced ROI Sequence,3004,0060,SQ,1
+DVH ROI Contribution Type,3004,0062,CS,1
+DVH Minimum Dose,3004,0070,DS,1
+DVH Maximum Dose,3004,0072,DS,1
+DVH Mean Dose,3004,0074,DS,1
+Group 3006 Length,3006,0000,UL,1
+Structure Set Label,3006,0002,SH,1
+Structure Set Name,3006,0004,LO,1
+Structure Set Description,3006,0006,ST,1
+Structure Set Date,3006,0008,DA,1
+Structure Set Time,3006,0009,TM,1
+Referenced Frame of Reference Sequence,3006,0010,SQ,1
+RT Referenced Study Sequence,3006,0012,SQ,1
+RT Referenced Series Sequence,3006,0014,SQ,1
+Contour Image Sequence,3006,0016,SQ,1
+Structure Set ROI Sequence,3006,0020,SQ,1
+ROI Number,3006,0022,IS,1
+Referenced Frame of Reference UID,3006,0024,UI,1
+ROI Name,3006,0026,LO,1
+ROI Description,3006,0028,ST,1
+ROI Display Color,3006,002A,IS,3
+ROI Volume,3006,002C,DS,1
+RT Related ROI Sequence,3006,0030,SQ,1
+RT ROI Relationship,3006,0033,CS,1
+ROI Generation Algorithm,3006,0036,CS,1
+ROI Generation Description,3006,0038,LO,1
+ROI Contour Sequence,3006,0039,SQ,1
+Contour Sequence,3006,0040,SQ,1
+Contour Geometric Type,3006,0042,CS,1
+Contour Slab Thickness,3006,0044,DS,1
+Contour Offset Vector,3006,0045,DS,3
+Number of Contour Points,3006,0046,IS,1
+Contour Number,3006,0048,IS,1
+Attached Contours,3006,0049,IS,1-N
+Contour Data,3006,0050,DS,3-N
+RT ROI Observations Sequence,3006,0080,SQ,1
+Observation Number,3006,0082,IS,1
+Referenced ROI Number,3006,0084,IS,1
+ROI Observation Label,3006,0085,SH,1
+RT ROI Identification Code Sequence,3006,0086,SQ,1
+ROI Observation Description,3006,0088,ST,1
+Related RT ROI Observations Sequence,3006,00A0,SQ,1
+RT ROI Interpreted Type,3006,00A4,CS,1
+ROI Interpreter,3006,00A6,PN,1
+ROI Physical Properties Sequence,3006,00B0,SQ,1
+ROI Physical Property,3006,00B2,CS,1
+ROI Physical Property Value,3006,00B4,DS,1
+Frame of Reference Relationship Sequence,3006,00C0,SQ,1
+Related Frame of Reference UID,3006,00C2,UI,1
+Frame of Reference Transformation Type,3006,00C4,CS,1
+Frame of Reference Transformation Matrix,3006,00C6,DS,16
+Frame of Reference Transformation Comment,3006,00C8,LO,1
+Group 3008 Length,3008,0000,UL,1
+Measured Dose Reference Sequence,3008,0010,SQ,1
+Measured Dose Description,3008,0012,ST,1
+Measured Dose Type,3008,0014,CS,1
+Measured Dose Value,3008,0016,DS,1
+Treatment Session Beam Sequence,3008,0020,SQ,1
+Current Fraction Number,3008,0022,IS,1
+Treatment Control Point Date,3008,0024,DA,1
+Treatment Control Point Time,3008,0025,TM,1
+Treatment Termination Status,3008,002A,CS,1
+Treatment Termination Code,3008,002B,SH,1
+Treatment Verification Status,3008,002C,CS,1
+Referenced Treatment Record Sequence,3008,0030,SQ,1
+Specified Primary Meterset,3008,0032,DS,1
+Specified Secondary Meterset,3008,0033,DS,1
+Delivered Primary Meterset,3008,0036,DS,1
+Delivered Secondary Meterset,3008,0037,DS,1
+Specified Treatment Time,3008,003A,DS,1
+Delivered Treatment Time,3008,003B,DS,1
+Control Point Delivery Sequence,3008,0040,SQ,1
+Specified Meterset,3008,0042,DS,1
+Delivered Meterset,3008,0044,DS,1
+Dose Rate Delivered,3008,0048,DS,1
+Treatment Summary Calculated Dose Reference Sequen,3008,0050,SQ,1
+Cumulative Dose to Dose Reference,3008,0052,DS,1
+First Treatment Date,3008,0054,DA,1
+Most Recent Treatment Date,3008,0056,DA,1
+Number of Fractions Delivered,3008,005A,IS,1
+Override Sequence,3008,0060,SQ,1
+Override Parameter Pointer,3008,0062,AT,1
+Measured Dose Reference Number,3008,0064,IS,1
+Override Reason,3008,0066,ST,1
+Calculated Dose Reference Sequence,3008,0070,SQ,1
+Calculated Dose Reference Number,3008,0072,IS,1
+Calculated Dose Reference Description,3008,0074,ST,1
+Calculated Dose Reference Dose Value,3008,0076,DS,1
+Start Meterset,3008,0078,DS,1
+End Meterset,3008,007A,DS,1
+Referenced Measured Dose Reference Sequence,3008,0080,SQ,1
+Referenced Measured Dose Reference Number,3008,0082,IS,1
+Referenced Calculated Dose Reference Sequence,3008,0090,SQ,1
+Referenced Calculated Dose Reference Number,3008,0092,IS,1
+Beam Limiting Device Leaf Pairs Sequence,3008,00A0,SQ,1
+Recorded Wedge Sequence,3008,00B0,SQ,1
+Recorded Compensator Sequence,3008,00C0,SQ,1
+Recorded Block Sequence,3008,00D0,SQ,1
+Treatment Summary Measured Dose Reference Sequence,3008,00E0,SQ,1
+Recorded Source Sequence,3008,0100,SQ,1
+Source Serial Number,3008,0105,LO,1
+Treatment Session Application Setup Sequence,3008,0110,SQ,1
+Application Setup Check,3008,0116,CS,1
+Recorded Brachy Accessory Device Sequence,3008,0120,SQ,1
+Referenced Brachy Accessory Device Number,3008,0122,IS,1
+Recorded Channel Sequence,3008,0130,SQ,1
+Specified Channel Total Time,3008,0132,DS,1
+Delivered Channel Total Time,3008,0134,DS,1
+Specified Number of Pulses,3008,0136,IS,1
+Delivered Number of Pulses,3008,0138,IS,1
+Specified Pulse Repetition Interval,3008,013A,DS,1
+Delivered Pulse Repetition Interval,3008,013C,DS,1
+Recorded Source Applicator Sequence,3008,0140,SQ,1
+Referenced Source Applicator Number,3008,0142,IS,1
+Recorded Channel Shield Sequence,3008,0150,SQ,1
+Referenced Channel Shield Number,3008,0152,IS,1
+Brachy Control Point Delivered Sequence,3008,0160,SQ,1
+Safe Position Exit Date,3008,0162,DA,1
+Safe Position Exit Time,3008,0164,TM,1
+Safe Position Return Date,3008,0166,DA,1
+Safe Position Return Time,3008,0168,TM,1
+Current Treatment Status,3008,0200,CS,1
+Treatment Status Comment,3008,0202,ST,1
+Fraction Group Summary Sequence,3008,0220,SQ,1
+Referenced Fraction Number,3008,0223,IS,1
+Fraction Group Type,3008,0224,CS,1
+Beam Stopper Position,3008,0230,CS,1
+Fraction Status Summary Sequence,3008,0240,SQ,1
+Treatment Date,3008,0250,DA,1
+Treatment Time,3008,0251,TM,1
+Group 300A Length,300A,0000,UL,1
+RT Plan Label,300A,0002,SH,1
+RT Plan Name,300A,0003,LO,1
+RT Plan Description,300A,0004,ST,1
+RT Plan Date,300A,0006,DA,1
+RT Plan Time,300A,0007,TM,1
+Treatment Protocols,300A,0009,LO,1-N
+Treatment Intent,300A,000A,CS,1
+Treatment Sites,300A,000B,LO,1-N
+RT Plan Geometry,300A,000C,CS,1
+Prescription Description,300A,000E,ST,1
+Dose Reference Sequence,300A,0010,SQ,1
+Dose Reference Number,300A,0012,IS,1
+Dose Reference UID,300A,0013,UI,1
+Dose Reference Structure Type,300A,0014,CS,1
+Nominal Beam Energy Unit,300A,0015,CS,1
+Dose Reference Description,300A,0016,LO,1
+Dose Reference Point Coordinates,300A,0018,DS,3
+Nominal Prior Dose,300A,001A,DS,1
+Dose Reference Type,300A,0020,CS,1
+Constraint Weight,300A,0021,DS,1
+Delivery Warning Dose,300A,0022,DS,1
+Delivery Maximum Dose,300A,0023,DS,1
+Target Minimum Dose,300A,0025,DS,1
+Target Prescription Dose,300A,0026,DS,1
+Target Maximum Dose,300A,0027,DS,1
+Target Underdose Volume Fraction,300A,0028,DS,1
+Organ at Risk Full-volume Dose,300A,002A,DS,1
+Organ at Risk Limit Dose,300A,002B,DS,1
+Organ at Risk Maximum Dose,300A,002C,DS,1
+Organ at Risk Overdose Volume Fraction,300A,002D,DS,1
+Tolerance Table Sequence,300A,0040,SQ,1
+Tolerance Table Number,300A,0042,IS,1
+Tolerance Table Label,300A,0043,SH,1
+Gantry Angle Tolerance,300A,0044,DS,1
+Beam Limiting Device Angle Tolerance,300A,0046,DS,1
+Beam Limiting Device Tolerance Sequence,300A,0048,SQ,1
+Beam Limiting Device Position Tolerance,300A,004A,DS,1
+Patient Support Angle Tolerance,300A,004C,DS,1
+Table Top Eccentric Angle Tolerance,300A,004E,DS,1
+Table Top Vertical Position Tolerance,300A,0051,DS,1
+Table Top Longitudinal Position Tolerance,300A,0052,DS,1
+Table Top Lateral Position Tolerance,300A,0053,DS,1
+RT Plan Relationship,300A,0055,CS,1
+Fraction Group Sequence,300A,0070,SQ,1
+Fraction Group Number,300A,0071,IS,1
+Fraction Group Description,300A,0072,LO,1
+Number of Fractions Planned,300A,0078,IS,1
+Number of Fractions Per Day,300A,0079,IS,1
+Repeat Fraction Cycle Length,300A,007A,IS,1
+Fraction Pattern,300A,007B,LT,1
+Number of Beams,300A,0080,IS,1
+Beam Dose Specification Point,300A,0082,DS,3
+Beam Dose,300A,0084,DS,1
+Beam Meterset,300A,0086,DS,1
+Number of Brachy Application Setups,300A,00A0,IS,1
+Brachy Application Setup Dose Specification Point,300A,00A2,DS,3
+Brachy Application Setup Dose,300A,00A4,DS,1
+Beam Sequence,300A,00B0,SQ,1
+Treatment Machine Name,300A,00B2,SH,1
+Primary Dosimeter Unit,300A,00B3,CS,1
+Source-Axis Distance,300A,00B4,DS,1
+Beam Limiting Device Sequence,300A,00B6,SQ,1
+RT Beam Limiting Device Type,300A,00B8,CS,1
+Source to Beam Limiting Device Distance,300A,00BA,DS,1
+Number of Leaf Jaw Pairs,300A,00BC,IS,1
+Leaf Position Boundaries,300A,00BE,DS,3-N
+Beam Number,300A,00C0,IS,1
+Beam Name,300A,00C2,LO,1
+Beam Description,300A,00C3,ST,1
+Beam Type,300A,00C4,CS,1
+Radiation Type,300A,00C6,CS,1
+High Dose Technique Type,300A,00C7,CS,1
+Reference Image Number,300A,00C8,IS,1
+Planned Verification Image Sequence,300A,00CA,SQ,1
+Imaging Device-Specific Acquisition Parameters,300A,00CC,LO,1-N
+Treatment Delivery Type,300A,00CE,CS,1
+Number of Wedges,300A,00D0,IS,1
+Wedge Sequence,300A,00D1,SQ,1
+Wedge Number,300A,00D2,IS,1
+Wedge Type,300A,00D3,CS,1
+Wedge ID,300A,00D4,SH,1
+Wedge Angle,300A,00D5,IS,1
+Wedge Factor,300A,00D6,DS,1
+Wedge Orientation,300A,00D8,DS,1
+Source to Wedge Tray Distance,300A,00DA,DS,1
+Bolus ID,300A,00DC,SH,1
+Bolus Description,300A,00DD,ST,1
+Number of Compensators,300A,00E0,IS,1
+Material ID,300A,00E1,SH,1
+Total Compensator Tray Factor,300A,00E2,DS,1
+Compensator Sequence,300A,00E3,SQ,1
+Compensator Number,300A,00E4,IS,1
+Compensator ID,300A,00E5,SH,1
+Source to Compensator Tray Distance,300A,00E6,DS,1
+Compensator Rows,300A,00E7,IS,1
+Compensator Columns,300A,00E8,IS,1
+Compensator Pixel Spacing,300A,00E9,DS,2
+Compensator Position,300A,00EA,DS,2
+Compensator Transmission Data,300A,00EB,DS,1-N
+Compensator Thickness Data,300A,00EC,DS,1-N
+Number of Boli,300A,00ED,IS,1
+Compensator Type,300A,00EE,CS,1
+Number of Blocks,300A,00F0,IS,1
+Total Block Tray Factor,300A,00F2,DS,1
+Block Sequence,300A,00F4,SQ,1
+Block Tray ID,300A,00F5,SH,1
+Source to Block Tray Distance,300A,00F6,DS,1
+Block Type,300A,00F8,CS,1
+Accessory Code,300A,00F9,LO,1
+Block Divergence,300A,00FA,CS,1
+Block Mounting Position,300A,00FB,CS,1
+Block Number,300A,00FC,IS,1
+Block Name,300A,00FE,LO,1
+Block Thickness,300A,0100,DS,1
+Block Transmission,300A,0102,DS,1
+Block Number of Points,300A,0104,IS,1
+Block Data,300A,0106,DS,2-N
+Applicator Sequence,300A,0107,SQ,1
+Applicator ID,300A,0108,SH,1
+Applicator Type,300A,0109,CS,1
+Applicator Description,300A,010A,LO,1
+Cumulative Dose Reference Coefficient,300A,010C,DS,1
+Final Cumulative Meterset Weight,300A,010E,DS,1
+Number of Control Points,300A,0110,IS,1
+Control Point Sequence,300A,0111,SQ,1
+Control Point Index,300A,0112,IS,1
+Nominal Beam Energy,300A,0114,DS,1
+Dose Rate Set,300A,0115,DS,1
+Wedge Position Sequence,300A,0116,SQ,1
+Wedge Position,300A,0118,CS,1
+Beam Limiting Device Position Sequence,300A,011A,SQ,1
+Leaf Jaw Positions,300A,011C,DS,2-N
+Gantry Angle,300A,011E,DS,1
+Gantry Rotation Direction,300A,011F,CS,1
+Beam Limiting Device Angle,300A,0120,DS,1
+Beam Limiting Device Rotation Direction,300A,0121,CS,1
+Patient Support Angle,300A,0122,DS,1
+Patient Support Rotation Direction,300A,0123,CS,1
+Table Top Eccentric Axis Distance,300A,0124,DS,1
+Table Top Eccentric Angle,300A,0125,DS,1
+Table Top Eccentric Rotation Direction,300A,0126,CS,1
+Table Top Vertical Position,300A,0128,DS,1
+Table Top Longitudinal Position,300A,0129,DS,1
+Table Top Lateral Position,300A,012A,DS,1
+Isocenter Position,300A,012C,DS,3
+Surface Entry Point,300A,012E,DS,3
+Source to Surface Distance,300A,0130,DS,1
+Cumulative Meterset Weight,300A,0134,DS,1
+Patient Setup Sequence,300A,0180,SQ,1
+Patient Setup Number,300A,0182,IS,1
+Patient Setup Label,300A,0183,LO,1
+Patient Additional Position,300A,0184,LO,1
+Fixation Device Sequence,300A,0190,SQ,1
+Fixation Device Type,300A,0192,CS,1
+Fixation Device Label,300A,0194,SH,1
+Fixation Device Description,300A,0196,ST,1
+Fixation Device Position,300A,0198,SH,1
+Fixation Device Pitch Angle,300A,0199,FL,1
+Fixation Device Roll Angle,300A,019A,FL,1
+Shielding Device Sequence,300A,01A0,SQ,1
+Shielding Device Type,300A,01A2,CS,1
+Shielding Device Label,300A,01A4,SH,1
+Shielding Device Description,300A,01A6,ST,1
+Shielding Device Position,300A,01A8,SH,1
+Setup Technique,300A,01B0,CS,1
+Setup Technique Description,300A,01B2,ST,1
+Setup Device Sequence,300A,01B4,SQ,1
+Setup Device Type,300A,01B6,CS,1
+Setup Device Label,300A,01B8,SH,1
+Setup Device Description,300A,01BA,ST,1
+Setup Device Parameter,300A,01BC,DS,1
+Setup Reference Description,300A,01D0,ST,1
+Table Top Vertical Setup Displacement,300A,01D2,DS,1
+Table Top Longitudinal Setup Displacement,300A,01D4,DS,1
+Table Top Lateral Setup Displacement,300A,01D6,DS,1
+Brachy Treatment Technique,300A,0200,CS,1
+Brachy Treatment Type,300A,0202,CS,1
+Treatment Machine Sequence,300A,0206,SQ,1
+Source Sequence,300A,0210,SQ,1
+Source Number,300A,0212,IS,1
+Source Type,300A,0214,CS,1
+Source Manufacturer,300A,0216,LO,1
+Active Source Diameter,300A,0218,DS,1
+Active Source Length,300A,021A,DS,1
+Source Encapsulation Nominal Thickness,300A,0222,DS,1
+Source Encapsulation Nominal Transmission,300A,0224,DS,1
+Source Isotope Name,300A,0226,LO,1
+Source Isotope Half Life,300A,0228,DS,1
+Reference Air Kerma Rate,300A,022A,DS,1
+Air Kerma Rate Reference Date,300A,022C,DA,1
+Air Kerma Rate Reference Time,300A,022E,TM,1
+Application Setup Sequence,300A,0230,SQ,1
+Application Setup Type,300A,0232,CS,1
+Application Setup Number,300A,0234,IS,1
+Application Setup Name,300A,0236,LO,1
+Application Setup Manufacturer,300A,0238,LO,1
+Template Number,300A,0240,IS,1
+Template Type,300A,0242,SH,1
+Template Name,300A,0244,LO,1
+Total Reference Air Kerma,300A,0250,DS,1
+Brachy Accessory Device Sequence,300A,0260,SQ,1
+Brachy Accessory Device Number,300A,0262,IS,1
+Brachy Accessory Device ID,300A,0263,SH,1
+Brachy Accessory Device Type,300A,0264,CS,1
+Brachy Accessory Device Name,300A,0266,LO,1
+Brachy Accessory Device Nominal Thickness,300A,026A,DS,1
+Brachy Accessory Device Nominal Transmission,300A,026C,DS,1
+Channel Sequence,300A,0280,SQ,1
+Channel Number,300A,0282,IS,1
+Channel Length,300A,0284,DS,1
+Channel Total Time,300A,0286,DS,1
+Source Movement Type,300A,0288,CS,1
+Number of Pulses,300A,028A,IS,1
+Pulse Repetition Interval,300A,028C,DS,1
+Source Applicator Number,300A,0290,IS,1
+Source Applicator ID,300A,0291,SH,1
+Source Applicator Type,300A,0292,CS,1
+Source Applicator Name,300A,0294,LO,1
+Source Applicator Length,300A,0296,DS,1
+Source Applicator Manufacturer,300A,0298,LO,1
+Source Applicator Wall Nominal Thickness,300A,029C,DS,1
+Source Applicator Wall Nominal Transmission,300A,029E,DS,1
+Source Applicator Step Size,300A,02A0,DS,1
+Transfer Tube Number,300A,02A2,IS,1
+Transfer Tube Length,300A,02A4,DS,1
+Channel Shield Sequence,300A,02B0,SQ,1
+Channel Shield Number,300A,02B2,IS,1
+Channel Shield ID,300A,02B3,SH,1
+Channel Shield Name,300A,02B4,LO,1
+Channel Shield Nominal Thickness,300A,02B8,DS,1
+Channel Shield Nominal Transmission,300A,02BA,DS,1
+Final Cumulative Time Weight,300A,02C8,DS,1
+Brachy Control Point Sequence,300A,02D0,SQ,1
+Control Point Relative Position,300A,02D2,DS,1
+Control Point 3D Position,300A,02D4,DS,3
+Cumulative Time Weight,300A,02D6,DS,1
+Compensator Divergence,300A,02E0,CS,1
+Compensator Mounting Position,300A,02E1,CS,1
+Source to Compensator Distance,300A,02E2,DS,1-N
+Group 300C Length,300C,0000,UL,1
+Referenced RT Plan Sequence,300C,0002,SQ,1
+Referenced Beam Sequence,300C,0004,SQ,1
+Referenced Beam Number,300C,0006,IS,1
+Referenced Reference Image Number,300C,0007,IS,1
+Start Cumulative Meterset Weight,300C,0008,DS,1
+End Cumulative Meterset Weight,300C,0009,DS,1
+Referenced Brachy Application Setup Sequence,300C,000A,SQ,1
+Referenced Brachy Application Setup Number,300C,000C,IS,1
+Referenced Source Number,300C,000E,IS,1
+Referenced Fraction Group Sequence,300C,0020,SQ,1
+Referenced Fraction Group Number,300C,0022,IS,1
+Referenced Verification Image Sequence,300C,0040,SQ,1
+Referenced Reference Image Sequence,300C,0042,SQ,1
+Referenced Dose Reference Sequence,300C,0050,SQ,1
+Referenced Dose Reference Number,300C,0051,IS,1
+Brachy Referenced Dose Reference Sequence,300C,0055,SQ,1
+Referenced Structure Set Sequence,300C,0060,SQ,1
+Referenced Patient Setup Number RETIRED,300C,006A,IS,1
+Referenced Dose Sequence,300C,0080,SQ,1
+Referenced Tolerance Table Number,300C,00A0,IS,1
+Referenced Bolus Sequence,300C,00B0,SQ,1
+Referenced Wedge Number,300C,00C0,IS,1
+Referenced Compensator Number,300C,00D0,IS,1
+Referenced Block Number,300C,00E0,IS,1
+Referenced Control Point Index,300C,00F0,IS,1
+Referenced Control Point Sequence,300C,00F2,SQ,1
+Referenced Start Control Point Index,300C,00F4,IS,1
+Referenced Stop Control Point Index,300C,00F6,IS,1
+Group 300E Length,300E,0000,UL,1
+Approval Status,300E,0002,CS,1
+Review Date,300E,0004,DA,1
+Review Time,300E,0005,TM,1
+Reviewer Name,300E,0008,PN,1
+Group 4000 Length RETIRED,4000,0000,UL,1
+Arbitrary RETIRED,4000,0010,LO,1-N
+Group 4000 Comments RETIRED,4000,4000,LO,1-N
+Group 4008 Length,4008,0000,UL,1
+Results ID,4008,0040,SH,1
+Results ID Issuer,4008,0042,LO,1
+Referenced Interpretation Sequence,4008,0050,SQ,1
+Interpretation Recorded Date,4008,0100,DA,1
+Interpretation Recorded Time,4008,0101,TM,1
+Interpretation Recorder,4008,0102,PN,1
+Reference to Recorded Sound,4008,0103,LO,1
+Interpretation Transcription Date,4008,0108,DA,1
+Interpretation Transcription Time,4008,0109,TM,1
+Interpretation Transcriber,4008,010A,PN,1
+Interpretation Text,4008,010B,ST,1
+Interpretation Author,4008,010C,PN,1
+Interpretation Approver Sequence,4008,0111,SQ,1
+Interpretation Approval Date,4008,0112,DA,1
+Interpretation Approval Time,4008,0113,TM,1
+Physician Approving Interpretation,4008,0114,PN,1
+Interpretation Diagnosis Description,4008,0115,LT,1
+Interpretation Diagnosis Code Sequence,4008,0117,SQ,1
+Results Distribution List Sequence,4008,0118,SQ,1
+Distribution Name,4008,0119,PN,1
+Distribution Address,4008,011A,LO,1
+Interpretation ID,4008,0200,SH,1
+Interpretation ID Issuer,4008,0202,LO,1
+Interpretation Type ID,4008,0210,CS,1
+Interpretation Status ID,4008,0212,CS,1
+Impressions,4008,0300,ST,1
+Results Comments,4008,4000,ST,1
+Report ID,4009,SIEMENS ISI,01,LO,1
+Report Status,4009,SIEMENS ISI,20,CS,1
+Report Creation Date,4009,SIEMENS ISI,30,DA,1
+Report Approving Physician,4009,SIEMENS ISI,70,PN,1
+Report Text,4009,SIEMENS ISI,E0,LO,1
+Report Transcriber,4009,SIEMENS ISI,E2,PN,1
+Reporting Radiologist,4009,SIEMENS ISI,E3,PN,1
+Group 4FFE Length,4FFE,0000,UL,1
+MAC Parameters Sequence,4FFE,0001,SQ,1
+Group 5000 Length,5000,0000,UL,1
+Curve Dimensions,5000,0005,US,1
+Number of Points,5000,0010,US,1
+Type of Data,5000,0020,CS,1
+Curve Description,5000,0022,LO,1
+Axis Units,5000,0030,SH,1-N
+Axis Labels,5000,0040,SH,1-N
+Data Value Representation,5000,0103,US,1
+Minimum Coordinate Value,5000,0104,US,1-N
+Maximum Coordinate Value,5000,0105,US,1-N
+Curve Range,5000,0106,SH,1-N
+Curve Data Descriptor,5000,0110,US,1-N
+Coordinate Start Value,5000,0112,US,1-N
+Coordinate Step Value,5000,0114,US,1-N
+Curve Activation Layer,5000,1001,CS,1
+Audio Type,5000,2000,US,1
+Audio Sample Format,5000,2002,US,1
+Number of Channels,5000,2004,US,1
+Number of Samples,5000,2006,UL,1
+Sample Rate,5000,2008,UL,1
+Total Time,5000,200A,UL,1
+Audio Sample Data,5000,200C,OW,1
+Audio Comments,5000,200E,LT,1
+Curve Label,5000,2500,LO,1
+Curve Referenced Overlay Sequence,5000,2600,SQ,1
+Referenced Overlay Group,5000,2610,US,1
+Curve Data,5000,3000,OW,1
+Number of Points,5001,SIEMENS MED NM,02,SL,1
+Minimal Value on X-Axis,5001,SIEMENS MED NM,03,FL,1
+Maximal Value on X-Axis,5001,SIEMENS MED NM,04,FL,1
+Minimal Value on Y-Axis,5001,SIEMENS MED NM,05,FL,1
+Maximal Value on Y-Axis,5001,SIEMENS MED NM,06,FL,1
+Curve Name,5001,SIEMENS MED NM,07,LO,1
+Curve Function Label,5001,SIEMENS MED NM,08,LO,1
+X Axis Label,5001,SIEMENS MED NM,09,SH,1
+Y Axis Label,5001,SIEMENS MED NM,0A,SH,1
+Curve Data,5001,SIEMENS MED NM,0B,OW,1
+Group 5200 Length,5200,0000,UL,1
+Shared Functional Groups Sequence,5200,9229,SQ,1
+Per-frame Functional Groups Sequence,5200,9230,SQ,1
+Group 5400 Length,5400,0000,UL,1
+Waveform Sequence,5400,0100,SQ,1
+Channel Minimum Value,5400,0110,OW,1
+Channel Maximum Value,5400,0112,OW,1
+Waveform Bits Allocated,5400,1004,US,1
+Waveform Sample Interpretation,5400,1006,CS,1
+Waveform Padding Value,5400,100A,OW,1
+Waveform Data,5400,1010,OW,1
+Group 5600 Length,5600,0000,UL,1
+First Order Phase Correction Angle,5600,0010,OF,1
+Spectroscopy Data,5600,0020,OF,1
+Group 6000 Length,6000,0000,UL,1
+Overlay Rows,6000,0010,US,1
+Overlay Columns,6000,0011,US,1
+Overlay Planes,6000,0012,US,1
+Number of Frames in Overlay,6000,0015,IS,1
+Overlay Description,6000,0022,LO,1
+Overlay Type,6000,0040,CS,1
+Overlay Subtype,6000,0045,LO,1
+Overlay Origin,6000,0050,SS,2
+Image Frame Origin,6000,0051,US,1
+Overlay Plane Origin,6000,0052,US,1
+Compression Code RETIRED,6000,0060,SH,1
+Overlay Bits Allocated,6000,0100,US,1
+Overlay Bit Position,6000,0102,US,1
+Overlay Format RETIRED,6000,0110,SH,1
+Overlay Location RETIRED,6000,0200,SS,1
+Overlay Activation Layer,6000,1001,CS,1
+Overlay Descriptor - Gray RETIRED,6000,1100,US,1
+Overlay Descriptor - Red RETIRED,6000,1101,US,1
+Overlay Descriptor - Green RETIRED,6000,1102,US,1
+Overlay Descriptor - Blue RETIRED,6000,1103,US,1
+Overlays - Gray RETIRED,6000,1200,US,1-N
+Overlays - Red RETIRED,6000,1201,US,1-N
+Overlays - Green RETIRED,6000,1202,US,1-N
+Overlays - Blue RETIRED,6000,1203,US,1-N
+ROI Area,6000,1301,IS,1
+ROI Mean,6000,1302,DS,1
+ROI Standard Deviation,6000,1303,DS,1
+Overlay Label,6000,1500,LO,1
+Overlay Data,6000,3000,OW,1
+Group 6000 Comments RETIRED,6000,4000,LO,1-N
+Group Length,6002,0000,UL,1
+Overlay Rows,6002,0010,US,1
+Overlay Columns,6002,0011,US,1
+Overlay Planes,6002,0012,US,1
+Number of Frames in Overlay,6002,0015,IS,1
+Overlay Description,6002,0022,LO,1
+Overlay Type,6002,0040,CS,1
+Overlay Subtype,6002,0045,LO,1
+Origin,6002,0050,SS,N
+Image Frame Origin,6002,0051,US,1
+Overlay Plane Origin,6002,0052,US,1
+Compression Code,6002,0060,SH,1
+Overlay Bits Allocated,6002,0100,US,1
+Bit Position,6002,0102,US,1
+Overlay Format,6002,0110,SH,1
+Overlay Location,6002,0200,SS,1
+Overlay Descriptor Gray,6002,1100,US,1
+Overlay Descriptor Red,6002,1101,US,1
+Overlay Descriptor Green,6002,1102,US,1
+Overlay Descriptor Blue,6002,1103,US,1
+Overlays Gray,6002,1200,US,1-N
+Overlays Red,6002,1201,US,1-N
+Overlays Green,6002,1202,US,1-N
+Overlays Blue,6002,1203,US,1-N
+ROI Area,6002,1301,IS,1
+ROI Mean,6002,1302,DS,1
+ROI Standard Deviation,6002,1303,DS,1
+Overlay Label,6002,1500,LO,1
+Overlay Data,6002,3000,OW,1
+Comments,6002,4000,LO,1-N
+Group Length,6004,0000,UL,1
+Overlay Rows,6004,0010,US,1
+Overlay Columns,6004,0011,US,1
+Overlay Planes,6004,0012,US,1
+Number of Frames in Overlay,6004,0015,IS,1
+Overlay Description,6004,0022,LO,1
+Overlay Type,6004,0040,CS,1
+Overlay Subtype,6004,0045,LO,1
+Origin,6004,0050,SS,N
+Image Frame Origin,6004,0051,US,1
+Overlay Plane Origin,6004,0052,US,1
+Compression Code,6004,0060,SH,1
+Overlay Bits Allocated,6004,0100,US,1
+Bit Position,6004,0102,US,1
+Overlay Format,6004,0110,SH,1
+Overlay Location,6004,0200,SS,1
+Overlay Descriptor Gray,6004,1100,US,1
+Overlay Descriptor Red,6004,1101,US,1
+Overlay Descriptor Green,6004,1102,US,1
+Overlay Descriptor Blue,6004,1103,US,1
+Overlays Gray,6004,1200,US,1-N
+Overlays Red,6004,1201,US,1-N
+Overlays Green,6004,1202,US,1-N
+Overlays Blue,6004,1203,US,1-N
+ROI Area,6004,1301,IS,1
+ROI Mean,6004,1302,DS,1
+ROI Standard Deviation,6004,1303,DS,1
+Overlay Label,6004,1500,LO,1
+Overlay Data,6004,3000,OW,1
+Comments,6004,4000,LO,1-N
+Group Length,6006,0000,UL,1
+Overlay Rows,6006,0010,US,1
+Overlay Columns,6006,0011,US,1
+Overlay Planes,6006,0012,US,1
+Number of Frames in Overlay,6006,0015,IS,1
+Overlay Description,6006,0022,LO,1
+Overlay Type,6006,0040,CS,1
+Overlay Subtype,6006,0045,LO,1
+Origin,6006,0050,SS,N
+Image Frame Origin,6006,0051,US,1
+Overlay Plane Origin,6006,0052,US,1
+Compression Code,6006,0060,SH,1
+Overlay Bits Allocated,6006,0100,US,1
+Bit Position,6006,0102,US,1
+Overlay Format,6006,0110,SH,1
+Overlay Location,6006,0200,SS,1
+Overlay Descriptor Gray,6006,1100,US,1
+Overlay Descriptor Red,6006,1101,US,1
+Overlay Descriptor Green,6006,1102,US,1
+Overlay Descriptor Blue,6006,1103,US,1
+Overlays Gray,6006,1200,US,1-N
+Overlays Red,6006,1201,US,1-N
+Overlays Green,6006,1202,US,1-N
+Overlays Blue,6006,1203,US,1-N
+ROI Area,6006,1301,IS,1
+ROI Mean,6006,1302,DS,1
+ROI Standard Deviation,6006,1303,DS,1
+Overlay Label,6006,1500,LO,1
+Overlay Data,6006,3000,OW,1
+Comments,6006,4000,LO,1-N
+Group Length,6008,0000,UL,1
+Overlay Rows,6008,0010,US,1
+Overlay Columns,6008,0011,US,1
+Overlay Planes,6008,0012,US,1
+Number of Frames in Overlay,6008,0015,IS,1
+Overlay Description,6008,0022,LO,1
+Overlay Type,6008,0040,CS,1
+Overlay Subtype,6008,0045,LO,1
+Origin,6008,0050,SS,N
+Image Frame Origin,6008,0051,US,1
+Overlay Plane Origin,6008,0052,US,1
+Compression Code,6008,0060,SH,1
+Overlay Bits Allocated,6008,0100,US,1
+Bit Position,6008,0102,US,1
+Overlay Format,6008,0110,SH,1
+Overlay Location,6008,0200,SS,1
+Overlay Descriptor Gray,6008,1100,US,1
+Overlay Descriptor Red,6008,1101,US,1
+Overlay Descriptor Green,6008,1102,US,1
+Overlay Descriptor Blue,6008,1103,US,1
+Overlays Gray,6008,1200,US,1-N
+Overlays Red,6008,1201,US,1-N
+Overlays Green,6008,1202,US,1-N
+Overlays Blue,6008,1203,US,1-N
+ROI Area,6008,1301,IS,1
+ROI Mean,6008,1302,DS,1
+ROI Standard Deviation,6008,1303,DS,1
+Overlay Label,6008,1500,LO,1
+Overlay Data,6008,3000,OW,1
+Comments,6008,4000,LO,1-N
+Group Length,600A,0000,UL,1
+Overlay Rows,600A,0010,US,1
+Overlay Columns,600A,0011,US,1
+Overlay Planes,600A,0012,US,1
+Number of Frames in Overlay,600A,0015,IS,1
+Overlay Description,600A,0022,LO,1
+Overlay Type,600A,0040,CS,1
+Overlay Subtype,600A,0045,LO,1
+Origin,600A,0050,SS,N
+Image Frame Origin,600A,0051,US,1
+Overlay Plane Origin,600A,0052,US,1
+Compression Code,600A,0060,SH,1
+Overlay Bits Allocated,600A,0100,US,1
+Bit Position,600A,0102,US,1
+Overlay Format,600A,0110,SH,1
+Overlay Location,600A,0200,SS,1
+Overlay Descriptor Gray,600A,1100,US,1
+Overlay Descriptor Red,600A,1101,US,1
+Overlay Descriptor Green,600A,1102,US,1
+Overlay Descriptor Blue,600A,1103,US,1
+Overlays Gray,600A,1200,US,1-N
+Overlays Red,600A,1201,US,1-N
+Overlays Green,600A,1202,US,1-N
+Overlays Blue,600A,1203,US,1-N
+ROI Area,600A,1301,IS,1
+ROI Mean,600A,1302,DS,1
+ROI Standard Deviation,600A,1303,DS,1
+Overlay Label,600A,1500,LO,1
+Overlay Data,600A,3000,OW,1
+Comments,600A,4000,LO,1-N
+Group Length,600C,0000,UL,1
+Overlay Rows,600C,0010,US,1
+Overlay Columns,600C,0011,US,1
+Overlay Planes,600C,0012,US,1
+Number of Frames in Overlay,600C,0015,IS,1
+Overlay Description,600C,0022,LO,1
+Overlay Type,600C,0040,CS,1
+Overlay Subtype,600C,0045,LO,1
+Origin,600C,0050,SS,N
+Image Frame Origin,600C,0051,US,1
+Overlay Plane Origin,600C,0052,US,1
+Compression Code,600C,0060,SH,1
+Overlay Bits Allocated,600C,0100,US,1
+Bit Position,600C,0102,US,1
+Overlay Format,600C,0110,SH,1
+Overlay Location,600C,0200,SS,1
+Overlay Descriptor Gray,600C,1100,US,1
+Overlay Descriptor Red,600C,1101,US,1
+Overlay Descriptor Green,600C,1102,US,1
+Overlay Descriptor Blue,600C,1103,US,1
+Overlays Gray,600C,1200,US,1-N
+Overlays Red,600C,1201,US,1-N
+Overlays Green,600C,1202,US,1-N
+Overlays Blue,600C,1203,US,1-N
+ROI Area,600C,1301,IS,1
+ROI Mean,600C,1302,DS,1
+ROI Standard Deviation,600C,1303,DS,1
+Overlay Label,600C,1500,LO,1
+Overlay Data,600C,3000,OW,1
+Comments,600C,4000,LO,1-N
+Group Length,600E,0000,UL,1
+Overlay Rows,600E,0010,US,1
+Overlay Columns,600E,0011,US,1
+Overlay Planes,600E,0012,US,1
+Number of Frames in Overlay,600E,0015,IS,1
+Overlay Description,600E,0022,LO,1
+Overlay Type,600E,0040,CS,1
+Overlay Subtype,600E,0045,LO,1
+Origin,600E,0050,SS,N
+Image Frame Origin,600E,0051,US,1
+Overlay Plane Origin,600E,0052,US,1
+Compression Code,600E,0060,SH,1
+Overlay Bits Allocated,600E,0100,US,1
+Bit Position,600E,0102,US,1
+Overlay Format,600E,0110,SH,1
+Overlay Location,600E,0200,SS,1
+Overlay Descriptor Gray,600E,1100,US,1
+Overlay Descriptor Red,600E,1101,US,1
+Overlay Descriptor Green,600E,1102,US,1
+Overlay Descriptor Blue,600E,1103,US,1
+Overlays Gray,600E,1200,US,1-N
+Overlays Red,600E,1201,US,1-N
+Overlays Green,600E,1202,US,1-N
+Overlays Blue,600E,1203,US,1-N
+ROI Area,600E,1301,IS,1
+ROI Mean,600E,1302,DS,1
+ROI Standard Deviation,600E,1303,DS,1
+Overlay Label,600E,1500,LO,1
+Overlay Data,600E,3000,OW,1
+Comments,600E,4000,LO,1-N
+Group Length,6010,0000,UL,1
+Overlay Rows,6010,0010,US,1
+Overlay Columns,6010,0011,US,1
+Overlay Planes,6010,0012,US,1
+Number of Frames in Overlay,6010,0015,IS,1
+Overlay Description,6010,0022,LO,1
+Overlay Type,6010,0040,CS,1
+Overlay Subtype,6010,0045,LO,1
+Origin,6010,0050,SS,N
+Image Frame Origin,6010,0051,US,1
+Overlay Plane Origin,6010,0052,US,1
+Compression Code,6010,0060,SH,1
+Overlay Bits Allocated,6010,0100,US,1
+Bit Position,6010,0102,US,1
+Overlay Format,6010,0110,SH,1
+Overlay Location,6010,0200,SS,1
+Overlay Descriptor Gray,6010,1100,US,1
+Overlay Descriptor Red,6010,1101,US,1
+Overlay Descriptor Green,6010,1102,US,1
+Overlay Descriptor Blue,6010,1103,US,1
+Overlays Gray,6010,1200,US,1-N
+Overlays Red,6010,1201,US,1-N
+Overlays Green,6010,1202,US,1-N
+Overlays Blue,6010,1203,US,1-N
+ROI Area,6010,1301,IS,1
+ROI Mean,6010,1302,DS,1
+ROI Standard Deviation,6010,1303,DS,1
+Overlay Label,6010,1500,LO,1
+Overlay Data,6010,3000,OW,1
+Comments,6010,4000,LO,1-N
+Group Length,6012,0000,UL,1
+Overlay Rows,6012,0010,US,1
+Overlay Columns,6012,0011,US,1
+Overlay Planes,6012,0012,US,1
+Number of Frames in Overlay,6012,0015,IS,1
+Overlay Description,6012,0022,LO,1
+Overlay Type,6012,0040,CS,1
+Overlay Subtype,6012,0045,LO,1
+Origin,6012,0050,SS,N
+Image Frame Origin,6012,0051,US,1
+Overlay Plane Origin,6012,0052,US,1
+Compression Code,6012,0060,SH,1
+Overlay Bits Allocated,6012,0100,US,1
+Bit Position,6012,0102,US,1
+Overlay Format,6012,0110,SH,1
+Overlay Location,6012,0200,SS,1
+Overlay Descriptor Gray,6012,1100,US,1
+Overlay Descriptor Red,6012,1101,US,1
+Overlay Descriptor Green,6012,1102,US,1
+Overlay Descriptor Blue,6012,1103,US,1
+Overlays Gray,6012,1200,US,1-N
+Overlays Red,6012,1201,US,1-N
+Overlays Green,6012,1202,US,1-N
+Overlays Blue,6012,1203,US,1-N
+ROI Area,6012,1301,IS,1
+ROI Mean,6012,1302,DS,1
+ROI Standard Deviation,6012,1303,DS,1
+Overlay Label,6012,1500,LO,1
+Overlay Data,6012,3000,OW,1
+Comments,6012,4000,LO,1-N
+Group Length,6014,0000,UL,1
+Overlay Rows,6014,0010,US,1
+Overlay Columns,6014,0011,US,1
+Overlay Planes,6014,0012,US,1
+Number of Frames in Overlay,6014,0015,IS,1
+Overlay Description,6014,0022,LO,1
+Overlay Type,6014,0040,CS,1
+Overlay Subtype,6014,0045,LO,1
+Origin,6014,0050,SS,N
+Image Frame Origin,6014,0051,US,1
+Overlay Plane Origin,6014,0052,US,1
+Compression Code,6014,0060,SH,1
+Overlay Bits Allocated,6014,0100,US,1
+Bit Position,6014,0102,US,1
+Overlay Format,6014,0110,SH,1
+Overlay Location,6014,0200,SS,1
+Overlay Descriptor Gray,6014,1100,US,1
+Overlay Descriptor Red,6014,1101,US,1
+Overlay Descriptor Green,6014,1102,US,1
+Overlay Descriptor Blue,6014,1103,US,1
+Overlays Gray,6014,1200,US,1-N
+Overlays Red,6014,1201,US,1-N
+Overlays Green,6014,1202,US,1-N
+Overlays Blue,6014,1203,US,1-N
+ROI Area,6014,1301,IS,1
+ROI Mean,6014,1302,DS,1
+ROI Standard Deviation,6014,1303,DS,1
+Overlay Label,6014,1500,LO,1
+Overlay Data,6014,3000,OW,1
+Comments,6014,4000,LO,1-N
+Group Length,6016,0000,UL,1
+Overlay Rows,6016,0010,US,1
+Overlay Columns,6016,0011,US,1
+Overlay Planes,6016,0012,US,1
+Number of Frames in Overlay,6016,0015,IS,1
+Overlay Description,6016,0022,LO,1
+Overlay Type,6016,0040,CS,1
+Overlay Subtype,6016,0045,LO,1
+Origin,6016,0050,SS,N
+Image Frame Origin,6016,0051,US,1
+Overlay Plane Origin,6016,0052,US,1
+Compression Code,6016,0060,SH,1
+Overlay Bits Allocated,6016,0100,US,1
+Bit Position,6016,0102,US,1
+Overlay Format,6016,0110,SH,1
+Overlay Location,6016,0200,SS,1
+Overlay Descriptor Gray,6016,1100,US,1
+Overlay Descriptor Red,6016,1101,US,1
+Overlay Descriptor Green,6016,1102,US,1
+Overlay Descriptor Blue,6016,1103,US,1
+Overlays Gray,6016,1200,US,1-N
+Overlays Red,6016,1201,US,1-N
+Overlays Green,6016,1202,US,1-N
+Overlays Blue,6016,1203,US,1-N
+ROI Area,6016,1301,IS,1
+ROI Mean,6016,1302,DS,1
+ROI Standard Deviation,6016,1303,DS,1
+Overlay Label,6016,1500,LO,1
+Overlay Data,6016,3000,OW,1
+Comments,6016,4000,LO,1-N
+Group Length,6018,0000,UL,1
+Overlay Rows,6018,0010,US,1
+Overlay Columns,6018,0011,US,1
+Overlay Planes,6018,0012,US,1
+Number of Frames in Overlay,6018,0015,IS,1
+Overlay Description,6018,0022,LO,1
+Overlay Type,6018,0040,CS,1
+Overlay Subtype,6018,0045,LO,1
+Origin,6018,0050,SS,N
+Image Frame Origin,6018,0051,US,1
+Overlay Plane Origin,6018,0052,US,1
+Compression Code,6018,0060,SH,1
+Overlay Bits Allocated,6018,0100,US,1
+Bit Position,6018,0102,US,1
+Overlay Format,6018,0110,SH,1
+Overlay Location,6018,0200,SS,1
+Overlay Descriptor Gray,6018,1100,US,1
+Overlay Descriptor Red,6018,1101,US,1
+Overlay Descriptor Green,6018,1102,US,1
+Overlay Descriptor Blue,6018,1103,US,1
+Overlays Gray,6018,1200,US,1-N
+Overlays Red,6018,1201,US,1-N
+Overlays Green,6018,1202,US,1-N
+Overlays Blue,6018,1203,US,1-N
+ROI Area,6018,1301,IS,1
+ROI Mean,6018,1302,DS,1
+ROI Standard Deviation,6018,1303,DS,1
+Overlay Label,6018,1500,LO,1
+Overlay Data,6018,3000,OW,1
+Comments,6018,4000,LO,1-N
+Group Length,601A,0000,UL,1
+Overlay Rows,601A,0010,US,1
+Overlay Columns,601A,0011,US,1
+Overlay Planes,601A,0012,US,1
+Number of Frames in Overlay,601A,0015,IS,1
+Overlay Description,601A,0022,LO,1
+Overlay Type,601A,0040,CS,1
+Overlay Subtype,601A,0045,LO,1
+Origin,601A,0050,SS,N
+Image Frame Origin,601A,0051,US,1
+Overlay Plane Origin,601A,0052,US,1
+Compression Code,601A,0060,SH,1
+Overlay Bits Allocated,601A,0100,US,1
+Bit Position,601A,0102,US,1
+Overlay Format,601A,0110,SH,1
+Overlay Location,601A,0200,SS,1
+Overlay Descriptor Gray,601A,1100,US,1
+Overlay Descriptor Red,601A,1101,US,1
+Overlay Descriptor Green,601A,1102,US,1
+Overlay Descriptor Blue,601A,1103,US,1
+Overlays Gray,601A,1200,US,1-N
+Overlays Red,601A,1201,US,1-N
+Overlays Green,601A,1202,US,1-N
+Overlays Blue,601A,1203,US,1-N
+ROI Area,601A,1301,IS,1
+ROI Mean,601A,1302,DS,1
+ROI Standard Deviation,601A,1303,DS,1
+Overlay Label,601A,1500,LO,1
+Overlay Data,601A,3000,OW,1
+Comments,601A,4000,LO,1-N
+Group Length,601C,0000,UL,1
+Overlay Rows,601C,0010,US,1
+Overlay Columns,601C,0011,US,1
+Overlay Planes,601C,0012,US,1
+Number of Frames in Overlay,601C,0015,IS,1
+Overlay Description,601C,0022,LO,1
+Overlay Type,601C,0040,CS,1
+Overlay Subtype,601C,0045,LO,1
+Origin,601C,0050,SS,N
+Image Frame Origin,601C,0051,US,1
+Overlay Plane Origin,601C,0052,US,1
+Compression Code,601C,0060,SH,1
+Overlay Bits Allocated,601C,0100,US,1
+Bit Position,601C,0102,US,1
+Overlay Format,601C,0110,SH,1
+Overlay Location,601C,0200,SS,1
+Overlay Descriptor Gray,601C,1100,US,1
+Overlay Descriptor Red,601C,1101,US,1
+Overlay Descriptor Green,601C,1102,US,1
+Overlay Descriptor Blue,601C,1103,US,1
+Overlays Gray,601C,1200,US,1-N
+Overlays Red,601C,1201,US,1-N
+Overlays Green,601C,1202,US,1-N
+Overlays Blue,601C,1203,US,1-N
+ROI Area,601C,1301,IS,1
+ROI Mean,601C,1302,DS,1
+ROI Standard Deviation,601C,1303,DS,1
+Overlay Label,601C,1500,LO,1
+Overlay Data,601C,3000,OW,1
+Comments,601C,4000,LO,1-N
+Group Length,601E,0000,UL,1
+Overlay Rows,601E,0010,US,1
+Overlay Columns,601E,0011,US,1
+Overlay Planes,601E,0012,US,1
+Number of Frames in Overlay,601E,0015,IS,1
+Overlay Description,601E,0022,LO,1
+Overlay Type,601E,0040,CS,1
+Overlay Subtype,601E,0045,LO,1
+Origin,601E,0050,SS,N
+Image Frame Origin,601E,0051,US,1
+Overlay Plane Origin,601E,0052,US,1
+Compression Code,601E,0060,SH,1
+Overlay Bits Allocated,601E,0100,US,1
+Bit Position,601E,0102,US,1
+Overlay Format,601E,0110,SH,1
+Overlay Location,601E,0200,SS,1
+Overlay Descriptor Gray,601E,1100,US,1
+Overlay Descriptor Red,601E,1101,US,1
+Overlay Descriptor Green,601E,1102,US,1
+Overlay Descriptor Blue,601E,1103,US,1
+Overlays Gray,601E,1200,US,1-N
+Overlays Red,601E,1201,US,1-N
+Overlays Green,601E,1202,US,1-N
+Overlays Blue,601E,1203,US,1-N
+ROI Area,601E,1301,IS,1
+ROI Mean,601E,1302,DS,1
+ROI Standard Deviation,601E,1303,DS,1,
+Overlay Label,601E,1500,LO,1,
+Overlay Data,601E,3000,OW,1,
+Comments,601E,4000,LO,1-N,
+Image Graphics Format Code,6021,SIEMENS CM VA0  CMS,00,CS,1
+Image Graphics,6021,SIEMENS CM VA0  CMS,10,OB,1
+Osteo Contour Comment,6023,SIEMENS CM VA0  OST,00,LO,1
+Osteo Contour Buffer,6023,SIEMENS CM VA0  OST,10,SS,1-N
+Group 7FE0 Length,7FE0,0000,UL,1
+Pixel Data,7FE0,0010,OW,1
+Compressed Pixel Data,7FE1,SIEMENS MED NM,10,OW,1
+Length of Group 0x7FE3,7FE3,SIEMENS MED NM,00,UL,1
+Lowest Pixel Value in THIS Frame,7FE3,SIEMENS MED NM,14,SL,1
+Highest Pixel Value in THIS Frame,7FE3,SIEMENS MED NM,15,SL,1
+Total Counts in THIS Frame,7FE3,SIEMENS MED NM,16,SL,1
+Duration of THIS Frame msec,7FE3,SIEMENS MED NM,17,SL,1
+Frame Angle,7FE3,SIEMENS MED NM,18,FL,1
+Frame Name,7FE3,SIEMENS MED NM,19,LO,1
+View Number,7FE3,SIEMENS MED NM,1A,FL,1
+Pixel Overflow Flag 1 Pixel Overflow,7FE3,SIEMENS MED NM,1B,SS,1
+Buffer Overflow Flag 1 Buffer Overflow,7FE3,SIEMENS MED NM,1C,SS,1
+Start Time of THIS Frame From Start of Study,7FE3,SIEMENS MED NM,1E,SL,1
+ROI Maximum Pixel Value,7FE3,SIEMENS MED NM,1F,SL,1
+ROI Average Pixel Value,7FE3,SIEMENS MED NM,20,SL,1
+ROI Total Counts,7FE3,SIEMENS MED NM,21,SL,1
+ROI Total Pixels,7FE3,SIEMENS MED NM,22,SL,1
+ROI Center Coordinates,7FE3,SIEMENS MED NM,23,SL,1
+ROI Name,7FE3,SIEMENS MED NM,24,LO,1
+ROI Data,7FE3,SIEMENS MED NM,25,SS,1
+Group FFFA Length,FFFA,0000,UL,1
+Digital Signatures Sequence,FFFA,FFFA,SQ,1
+Group Length,FFFC,0000,UL,1
+Data Set Trailing Padding,FFFC,FFFC,OB,1
