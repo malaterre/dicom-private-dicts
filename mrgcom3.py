@@ -5,36 +5,34 @@ import sys
 from struct import *
 
 vr_dict = {
-0:'AE', 
-1:'AS', 
-2:'CS', 
-3:'DA', 
-4:'DS', 
-5:'DT', 
+0:'AE',
+1:'AS',
+2:'CS',
+3:'DA',
+4:'DS',
+5:'DT',
 6:'IS',
 7:'LO',
-8:'LT', 
-9:'PN', 
-10:'SH', 
-11:'ST', 
-12:'TM', 
-13:'UT', 
-14:'??', 
-14:'UI', 
-15:'SS', 
-16:'US', 
-17:'AT', 
-18:'SL', 
-19:'??', 
-19:'UL', 
-20:'FL', 
-21:'FD', 
-22:'??', 
-23:'OB', 
-24:'OW', 
-25:'??', 
-26:'OF', 
-27:'SQ', 
+8:'LT',
+9:'PN',
+10:'SH',
+11:'ST',
+12:'TM',
+13:'UT',
+14:'UI',
+15:'SS',
+16:'US',
+17:'AT',
+18:'SL',
+19:'UL',
+20:'FL',
+21:'FD',
+#22:'??',
+23:'OB',
+24:'OW',
+#25:'??',
+26:'OF',
+27:'SQ',
 }
 
 vm_dict = {
@@ -68,17 +66,13 @@ def process( f ):
   if group % 2 == 1:
     chunk = f.read(0x40+1)
     creator = chunk.rstrip( chr(0) )
-    #print '%s,%04X,%s,%02X,%s,%s (%d)' % (name, group,creator, element, vr, vm, vrnum)
     print '%s,%04X,%s,%02X,%s,%s' % (name, group,creator, element, vr, vm )
   else:
-    #print '%s,%04X,%04X,%s,%s (%d)' % (name, group, element, vr, vm, vrnum)
     print '%s,%04X,%04X,%s,%s' % (name, group, element, vr, vm)
-  #print '%s,%04x,%04x(%d),%d,%d' % (name, group, element,element, vrnum, vmnum)
 
 if __name__ == "__main__":
   filename = sys.argv[1]
   with open(filename,'rb') as f:
     chunk = f.read(0x48)
-    #print len(chunk)
     while True:
       process( f )
