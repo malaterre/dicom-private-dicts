@@ -16,7 +16,7 @@
 ;                29.08.2002 Goeltl-Schuberth, enh. MR
 ;                17.04.2003 Goeltl-Schuberth, DICOM 2003
 ;                10.09.2003 Goeltl-Schuberth, Fehler berichtigt
-;		 21.10.2003 Goeltl-Schuberth, VR zu einigen ret. Tags hinzugefügt
+;		 21.10.2003 Goeltl-Schuberth, VR zu einigen ret. Tags hinzugefÃ¼gt
 ;		 28.10.2003 Goeltl-Schuberth, Format aus DicomFox-Datenbank extrahiert
 0002#0000#Group Length#UL#1#
 0002#0001#File Meta Information Version#OB#1#
@@ -1066,8 +1066,8 @@
 0040#1010#Names of Intended Recipients of Results#PN#1-n#
 0040#1011#Intended Recipients of Results Identification Sequence#SQ#1#
 0040#1101#Person Identification Code Sequence#SQ#1#
-0040#1102#Person’s Address#ST#1#
-0040#1103#Person’s Telephone Numbers#LO#1-n#
+0040#1102#Personâ€™s Address#ST#1#
+0040#1103#Personâ€™s Telephone Numbers#LO#1-n#
 0040#1400#Requested Procedure Comments#LT#1#
 0040#2001#Reason for the Imaging Service Request#LO#1#
 0040#2004#Issue Date of Imaging Service Request#DA#1#
