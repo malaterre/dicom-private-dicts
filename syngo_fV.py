@@ -52,7 +52,7 @@ if __name__ == "__main__":
       line = line.rstrip('\n')
       if line:
         if ord(line[0]) == 0:
-          parse = parse + 1
+          parse += 1
           #print line, ord(line[0])
           line = line.lstrip(chr(0))
           #print line, ord(line[0])
