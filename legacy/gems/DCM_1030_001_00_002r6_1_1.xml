@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget www.gehealthcare.com/usen/interoperability/dicom/docs/DCM_1030_001_00_002r6_1_1.pdf
+ $ pdftotext -nopgbrk -layout -f 60 -l 61 DCM_1030_001_00_002r6_1_1.pdf DCM_1030_001_00_002r6_1_1.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py DCM_1030_001_00_002r6_1_1.txt DCM_1030_001_00_002r6_1_1.xml
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.gehealthcare.com/usen/interoperability/dicom/docs/DCM_1030_001_00_002r6_1_1.pdf">
+  <dict ref="??" name="??" owner="Applicare/RadWorks/Version 6.0">
+    <entry group="4105" element="XX01" vr="CS" vm="1" name="Annotation Type"/>
+    <entry group="4105" element="XX02" vr="DS" vm="1" name="Annotation Value"/>
+    <entry group="4105" element="XX03" vr="UI" vm="1" name="Cutline Image UID"/>
+    <entry group="4105" element="XX04" vr="UI" vm="1" name="Cutline Set UID"/>
+    <entry group="4105" element="XX05" vr="US" vm="1" name="Annotation Color"/>
+    <entry group="4105" element="XX06" vr="CS" vm="1" name="Annotation Line Style"/>
+    <entry group="4105" element="XX07" vr="SH" vm="1" name="Annotation Label"/>
+    <entry group="4105" element="XX08" vr="PN" vm="1" name="Annotation Creator"/>
+    <entry group="4105" element="XX09" vr="DA" vm="1" name="Annotation Creation Date"/>
+    <entry group="4105" element="XX0A" vr="TM" vm="1" name="Annotation Creation Time"/>
+    <entry group="4105" element="XX0B" vr="SQ" vm="1" name="Annotation Modification Sequence"/>
+    <entry group="4105" element="XX0C" vr="PN" vm="1" name="Annotation Modifier"/>
+    <entry group="4105" element="XX0D" vr="DA" vm="1" name="Annotation Modification Date"/>
+    <entry group="4105" element="XX0E" vr="TM" vm="1" name="Annotation Modification Time"/>
+    <entry group="4105" element="XX0F" vr="LO" vm="1" name="Palette Color LUT Name"/>
+    <entry group="4105" element="XX10" vr="US" vm="1" name="Annotation Number"/>
+  </dict>
+  <dict ref="??" name="??" owner="Applicare/RadWorks/Version 6.0">
+    <entry group="4107" element="XX01" vr="SQ" vm="1" name="Requested Palette Color LUT (GSPS)"/>
+  </dict>
+  <dict ref="??" name="??" owner="Applicare/RadWorks/Version 6.0/Summary">
+    <entry group="3109" element="XX11" vr="ST" vm="1" name="Receive Origin Description"/>
+  </dict>
+  <dict ref="??" name="??" owner="GE LUT Asymmetry Parameter">
+    <entry group="0045" element="XX67" vr="DS" vm="3" name="LUT Asymmetry"/>
+  </dict>
+  <dict ref="??" name="??" owner="Applicare/RadWorks/Version 5.0">
+    <entry group="3109" element="XX11" vr="ST" vm="1" name="Receive Origin Description"/>
+    <entry group="3109" element="XX02" vr="SH" vm="1" name="NEW/SEEN Status"/>
+    <entry group="3109" element="XX03" vr="CS" vm="1" name="Delete Lock"/>
+    <entry group="3109" element="XX08" vr="LO" vm="1" name="Receive Origin"/>
+    <entry group="3109" element="XX09" vr="LO" vm="1" name="Folder"/>
+    <entry group="3109" element="XX0A" vr="DA" vm="1" name="Receive Date"/>
+    <entry group="3109" element="XX0B" vr="TM" vm="1" name="Receive Time"/>
+    <entry group="3109" element="XX34" vr="CS" vm="1" name="Requested Compression"/>
+    <entry group="3109" element="XX41" vr="CS" vm="1" name="Study Lock"/>
+    <entry group="3109" element="XX43" vr="CS" vm="1" name="Archive Status"/>
+  </dict>
+</dicts>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.swissray.com/downloads/dicom/Storage.pdf
+ $ pdftotext -layout -nopgbrk -f 6 Storage.pdf Storage.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.swissray.com/downloads/dicom/Storage.pdf">
+  <dict owner="SVISION">
+    <entry group="0017" element="1000" vr="LO" type="3" name="Extended Body Part"/>
+    <entry group="0017" element="1010" vr="LO" type="3" name="Extended View Position"/>
+    <entry group="0017" element="10F0" vr="IS" type="3" name="Images SOP Class"/>
+    <entry group="0017" element="1020" vr="SQ" type="3" name="Scheduled Procedure Step"/>
+    <entry group="0017" element="10A0" vr="IS" type="3" name="Fixed Grid System"/>
+    <entry group="0019" element="1000" vr="IS" type="3" name="AEC Field"/>
+    <entry group="0019" element="1001" vr="IS" type="3" name="AEC Film Screen"/>
+    <entry group="0019" element="1002" vr="IS" type="3" name="AEC Density"/>
+    <entry group="0019" element="1010" vr="IS" type="3" name="Patient Thickness"/>
+    <entry group="0019" element="1018" vr="IS" type="3" name="Beam Distance"/>
+    <entry group="0019" element="1020" vr="IS" type="3" name="Workstation Number"/>
+    <entry group="0019" element="1028" vr="IS" type="3" name="Tube Number"/>
+    <entry group="0019" element="1030" vr="IS" type="3" name="Bucky Grid"/>
+    <entry group="0019" element="1034" vr="IS" type="3" name="Focus"/>
+    <entry group="0019" element="1038" vr="IS" type="3" name="Age Group"/>
+    <entry group="0019" element="1040" vr="IS" type="3" name="Collimator Distance X"/>
+    <entry group="0019" element="1041" vr="IS" type="3" name="Collimator Distance Y"/>
+    <entry group="0019" element="1050" vr="IS" type="3" name="Bucky Height"/>
+    <entry group="0019" element="1060" vr="IS" type="3" name="Bucky Angle"/>
+    <entry group="0019" element="1068" vr="IS" type="3" name="C-Arm Angle"/>
+    <entry group="0019" element="1069" vr="IS" type="3" name="Collimator Angle"/>
+    <entry group="0019" element="1070" vr="IS" type="3" name="Filter Number"/>
+    <entry group="0019" element="1074" vr="LO" type="3" name="Filter Material 1"/>
+    <entry group="0019" element="1075" vr="LO" type="3" name="Filter Material 2"/>
+    <entry group="0019" element="1078" vr="DS" type="3" name="Filter Thickness 1"/>
+    <entry group="0019" element="1079" vr="DS" type="3" name="Filter Thickness 2"/>
+    <entry group="0019" element="1080" vr="IS" type="3" name="Bucky Format"/>
+    <entry group="0019" element="1081" vr="IS" type="3" name="Object Position"/>
+    <entry group="0019" element="1090" vr="LO" type="3" name="Desk Command"/>
+    <entry group="0019" element="1091" vr="IS" type="3" name="Central Beam X"/>
+    <entry group="0019" element="1092" vr="IS" type="3" name="Central Beam Y"/>
+    <entry group="0019" element="1093" vr="IS" type="3" name="Tube Turn Angle"/>
+    <entry group="0019" element="1094" vr="IS" type="3" name="Stand drive level"/>
+    <entry group="0019" element="10A0" vr="DS" type="3" name="Extended Exposure Time"/>
+    <entry group="0019" element="10A1" vr="DS" type="3" name="Actual Exposure Time"/>
+    <entry group="0019" element="10A8" vr="DS" type="3" name="Extended X-ray Tube Current"/>
+    <entry group="0019" element="10B0" vr="IS" type="3" name="Dose Indicator"/>
+    <entry group="0019" element="10B1" vr="IS" type="3" name="Shift Reference Value"/>
+    <entry group="0021" element="1000" vr="DS" type="3" name="Noise Reduction"/>
+    <entry group="0021" element="1001" vr="DS" type="3" name="Contrast Amplification"/>
+    <entry group="0021" element="1002" vr="DS" type="3" name="Edge Contrast Boosting"/>
+    <entry group="0021" element="1003" vr="DS" type="3" name="Latitude Reduction"/>
+    <entry group="0021" element="1010" vr="LO" type="3" name="Find Range Algorithm"/>
+    <entry group="0021" element="1011" vr="DS" type="3" name="Threshold C-Algorithm"/>
+    <entry group="0021" element="1020" vr="LO" type="3" name="Sensometric Curve"/>
+    <entry group="0021" element="1030" vr="DS" type="3" name="Lower Window Offset"/>
+    <entry group="0021" element="1031" vr="DS" type="3" name="Upper Window Offset"/>
+    <entry group="0021" element="1040" vr="DS" type="3" name="Min. Printable Density"/>
+    <entry group="0021" element="1041" vr="DS" type="3" name="Max. Printable Density"/>
+    <entry group="0021" element="1050" vr="DS" type="3" name="Min. Window Latitude"/>
+    <entry group="0021" element="1051" vr="DS" type="3" name="Max. Window Latitude"/>
+    <entry group="0021" element="1052" vr="DS" type="3" name="Rel. Window Alignment"/>
+    <entry group="0021" element="1060" vr="DS" type="3" name="Decomposition Layer"/>
+    <entry group="0021" element="1090" vr="DS" type="3" name="Brightness"/>
+    <entry group="0021" element="1091" vr="DS" type="3" name="Contrast"/>
+    <entry group="0021" element="1092" vr="DS" type="3" name="Shape Factor"/>
+    <entry group="0023" element="1000" vr="LO" type="3" name="Image Laterality"/>
+    <entry group="0023" element="1001" vr="IS" type="3" name="Letter Position"/>
+    <entry group="0023" element="1002" vr="IS" type="3" name="Burned In Annotation"/>
+    <entry group="0023" element="10F0" vr="IS" type="3" name="Image SOP Class"/>
+    <entry group="0025" element="1000" vr="IS" type="3" name="Original Image"/>
+    <entry group="0025" element="1001" vr="IS" type="3" name="Not Processed Image"/>
+    <entry group="0025" element="1002" vr="IS" type="3" name="Cut Out Image"/>
+    <entry group="0025" element="1003" vr="IS" type="3" name="Duplicated Image"/>
+    <entry group="0025" element="1004" vr="IS" type="3" name="Stored Image"/>
+    <entry group="0025" element="1005" vr="IS" type="3" name="Retrieved Image"/>
+    <entry group="0025" element="1006" vr="IS" type="3" name="New Image"/>
+    <entry group="0025" element="1007" vr="IS" type="3" name="Media Stored Image"/>
+    <entry group="0025" element="1008" vr="IS" type="3" name="Image State"/>
+    <entry group="0025" element="1009" vr="IS" type="3" name="Image Stitched Manually"/>
+    <entry group="0025" element="100A" vr="IS" type="3" name="Image Stitched Automatically"/>
+    <entry group="0025" element="1020" vr="LO" type="3" name="Source Image File"/>
+    <entry group="0025" element="1021" vr="LO" type="3" name="Source UID"/>
+    <entry group="0027" element="1000" vr="IS" type="3" name="Number of Series"/>
+    <entry group="0027" element="1001" vr="IS" type="3" name="Number of Studies"/>
+    <entry group="0027" element="1010" vr="DT" type="3" name="Oldest Series"/>
+    <entry group="0027" element="1011" vr="DT" type="3" name="Newest Series"/>
+    <entry group="0027" element="1012" vr="DT" type="3" name="Oldest Study"/>
+    <entry group="0027" element="1013" vr="DT" type="3" name="Newest Study"/>
+    <entry group="0029" element="1000" vr="IS" type="3" name="Key Note Instance UID"/>
+    <entry group="0029" element="1001" vr="IS" type="3" name="Storage State"/>
+    <entry group="0029" element="1002" vr="IS" type="3" name="Referenced Image SOP Class"/>
+    <entry group="0029" element="1003" vr="LO" type="3" name="Ref. Image Instance UID"/>
+    <entry group="0029" element="1004" vr="IS" type="3" name="Rel. Pres. State Number"/>
+    <entry group="0029" element="1005" vr="LO" type="3" name="Rel. Presentation State UID"/>
+  </dict>
+</dicts>

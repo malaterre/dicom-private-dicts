@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.gehealthcare.com/usen/interoperability/dicom/docs/2206228_100r02.pdf
+ $ pdftotext -nopgbrk -layout -f 27 -l 27 2206228_100r02.pdf 2206228_100r02.txt 
+ <some minor manual cleaning>
+ $ python txt2xml.py 2206228_100r02.txt 2206228_100r02.xml
+
+TODO:
+  the file contains some descritption
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.gehealthcare.com/usen/interoperability/dicom/docs/2206228_100r02.pdf">
+  <dict ref="Table 22" name="PRIVATE QUERY KEY ATTRIBUTES" owner="1.2.840.113708.794.1.1.2.0">
+    <entry group="0087" element="00xx" vr="LO" vm="1" name="Private Data Element Creator"/>
+    <entry group="0087" element="xx10" vr="CS" vm="1" name="Media Type"/>
+    <entry group="0087" element="xx20" vr="CS" vm="1" name="Media Location"/>
+    <entry group="0087" element="xx40" vr="DS" vm="1" name="Size in MB"/>
+    <entry group="0087" element="xx50" vr="IS" vm="1" name="Estimated Retrieve Time"/>
+  </dict>
+</dicts>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.fujifilm.de/media/DICOM_CRConsole.pdf
+ $ pdftotext -layout -nopgbrk -f 27 -l 56 DICOM_CRConsole.pdf DICOM_CRConsole.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py DICOM_CRConsole.txt DICOM_CRConsole.xml
+
+NOTE:
+
+  What is this thing:
+
+    <entry group="0019" element="YY71" vr="SI" vm="1">
+      <description>&gt;Exposure Division Count</description>
+    </entry>
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.fujifilm.de/media/DICOM_CRConsole.pdf">
+  <dict ref="8.2.8.1" name="Private Control Information Module" owner="FDMS 1.0">
+    <entry group="0009" element="xx04" vr="SH" type="3" name="Image Control Unit"/>
+    <entry group="0009" element="xx05" vr="OW" type="3" name="Image UID"/>
+    <entry group="0009" element="xx06" vr="OW" type="3" name="Route Image UID"/>
+    <entry group="0009" element="xx08" vr="UL" type="3" name="Image Display Information Version No."/>
+    <entry group="0009" element="xx09" vr="UL" type="3" name="Patient Information Version No."/>
+    <entry group="0009" element="xx0C" vr="OW" type="3" name="Film UID"/>
+    <entry group="0009" element="xx10" vr="CS" type="3" name="Exposure Unit Type Code"/>
+    <entry group="0009" element="xx80" vr="LO" type="3" name="Kanji Hospital Name"/>
+    <entry group="0009" element="xx90" vr="ST" type="3" name="Distribution Code"/>
+    <entry group="0009" element="xx92" vr="SH" type="3" name="Kanji Department Name"/>
+    <entry group="0009" element="xxF0" vr="CS" type="3" name="Blackening Process Flag"/>
+    <entry group="0009" element="xxF1" vr="ST" type="1C" name="Processing Information Flag"/>
+    <entry group="0021" element="xx10" vr="CS" type="3" name="FCR Image ID"/>
+    <entry group="50F1" element="xx20" vr="CS" type="3" name="Image Processing Modification Flag"/>
+    <entry group="0029" element="xx50" vr="CS" type="3" name="Data Compression Code"/>
+  </dict>
+  <dict ref="8.2.8.2" name="Private Exposure Information Module" owner="FDMS 1.0">
+    <entry group="0025" element="xx10" vr="US" type="3" name="Relative Light Emission Amount Sk"/>
+    <entry group="0025" element="xx11" vr="US" type="3" name="Term of Correction for Each IP Type St"/>
+    <entry group="0025" element="xx12" vr="US" type="3" name="Reading Gain Gp"/>
+    <entry group="0019" element="xx15" vr="LO" type="3" name="Kanji Body Part for Exposure"/>
+    <entry group="0019" element="xx32" vr="LO" type="3" name="Kanji Menu Name"/>
+    <entry group="0019" element="xx40" vr="CS" type="3" name="Image Processing Type"/>
+    <entry group="0019" element="xx50" vr="CS" type="3" name="EDR Mode"/>
+    <entry group="0019" element="xx60" vr="SH" type="3" name="Radiographer's Code"/>
+    <entry group="0019" element="xx70" vr="IS" type="3" name="Split Exposure Format"/>
+    <entry group="0019" element="xx71" vr="IS" type="3" name="No. of Split Exposure Frames"/>
+    <entry group="0019" element="xx80" vr="IS" type="3" name="Reading Position Specification"/>
+    <entry group="0019" element="xx81" vr="IS" type="3" name="Reading Sensitivity Center"/>
+    <entry group="0021" element="xx30" vr="CS" type="3" name="Set No."/>
+    <entry group="0021" element="xx40" vr="IS" type="3" name="Image No. in the Set"/>
+    <entry group="0021" element="xx50" vr="CS" type="3" name="Pair Processing Information"/>
+    <entry group="0021" element="xx80" vr="OB" type="3" name="Equipment Type-Specific Information"/>
+    <entry group="50F1" element="xx06" vr="CS" type="3" name="Energy Subtraction Param."/>
+    <entry group="50F1" element="xx07" vr="CS" type="3" name="Subtraction Registration Result"/>
+    <entry group="50F1" element="xx08" vr="CS" type="1C" name="Energy Subtraction Param. 2"/>
+    <entry group="50F1" element="xx09" vr="SL" type="1C" name="Afin Conversion Coefficient"/>
+    <entry group="50F1" element="xx0A" vr="SH" type="1C" name="FNC Parameters"/>
+  </dict>
+  <dict ref="8.2.8.3" name="Private Print Information Module" owner="FDMS 1.0">
+    <entry group="0019" element="xx90" vr="SH" type="3" name="Film Annotation Character String 1"/>
+    <entry group="0019" element="xx91" vr="SH" type="3" name="Film Annotation Character String 2"/>
+    <entry group="2011" element="xx11" vr="CS" type="3" name="Image Position Specifying Flag"/>
+    <entry group="50F1" element="xx10" vr="CS" type="3" name="Film Output Format"/>
+  </dict>
+  <dict ref="8.2.8.4" name="Private Image Information Module" owner="FDMS 1.0">
+    <entry group="0029" element="xx20" vr="CS" type="3" name="Image Scanning Direction"/>
+    <entry group="0029" element="xx30" vr="CS" type="3" name="Extended Reading Size Value"/>
+    <entry group="0029" element="xx34" vr="US" type="3" name="Mag./Reduc. Ratio"/>
+    <entry group="0029" element="xx44" vr="CS" type="3" name="Line Density Code"/>
+  </dict>
+  <dict ref="8.2.8.5" name="Private Creator List" owner="FDMS 1.0">
+    <entry group="0009" element="00xx" vr="LO" type="1C" name="Private Creator"/>
+    <entry group="0019" element="00xx" vr="LO" type="1C" name="Private Creator"/>
+    <entry group="0021" element="00xx" vr="LO" type="1C" name="Private Creator"/>
+    <entry group="0023" element="00xx" vr="LO" type="1C" name="Private Creator"/>
+    <entry group="0025" element="00xx" vr="LO" type="1C" name="Private Creator"/>
+    <entry group="0027" element="00xx" vr="LO" type="1C" name="Private Creator"/>
+    <entry group="0029" element="00xx" vr="LO" type="1C" name="Private Creator"/>
+    <entry group="2011" element="00xx" vr="LO" type="1C" name="Private Creator"/>
+    <entry group="50F1" element="00xx" vr="LO" type="1C" name="Private Creator"/>
+  </dict>
+  <dict name="Attributes of Exposure Status Sequence" owner="FDMS 1.0">
+    <entry group="0019" element="XXA0" vr="SQ" vm="1" name="Exposure Status Sequence"/>
+    <entry group="0019" element="YY71" vr="IS" vm="1" name="&gt;Exposure Division Count"/>
+    <entry group="0019" element="YYA1" vr="CS" vm="1" name="&gt;Exposure Status"/>
+    <entry group="0019" element="YYA2" vr="CS" vm="1" name="&gt;Exposure Kind"/>
+  </dict>
+</dicts>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts>
+  <dict ref="PRIVATE" name="CREATOR IDENTIFICATION" owner="GEMS_FALCON_03">
+    <entry name="Collimator Width" group="0045" element="1072" vr="DS" vm="1"/>
+    <entry name="Collimator Height" group="0045" element="1073" vr="DS" vm="1"/>
+  </dict>
+</dicts>

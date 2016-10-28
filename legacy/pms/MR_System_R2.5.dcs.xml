@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts url="http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/MR_System_R2.5.dcs.pdf">
+  <dict owner="Philips Imaging DD 001">
+    <entry name="Acquisition Number                       " group="2001" element="107B" vr="IS"/>
+    <entry name="Chemical Shift                           " group="2001" element="1001" vr="FL"/>
+    <entry name="Chemical Shift Number MR                 " group="2001" element="1002" vr="IS"/>
+    <entry name="Diffusion B-Factor                       " group="2001" element="1003" vr="FL"/>
+    <entry name="Diffusion Direction                      " group="2001" element="1004" vr="CS"/>
+    <entry name="Diffusion Echo Time                      " group="2001" element="1011" vr="FL"/>
+    <entry name="Dynamic Series                           " group="2001" element="1012" vr="CS"/>
+    <entry name="EPI Factor                               " group="2001" element="1013" vr="SL"/>
+    <entry name="Echo Time Display MR                     " group="2001" element="1025" vr="SH"/>
+    <entry name="Examination Source                       " group="2001" element="1063" vr="CS"/>
+    <entry name="Flip Angle Philips                       " group="2001" element="1023" vr="DS"/>
+    <entry name="Image Enhanced                           " group="2001" element="1006" vr="CS"/>
+    <entry name="Image Type ED ES                         " group="2001" element="1007" vr="CS"/>
+    <entry name="Number of Dynamic Scans                  " group="2001" element="1081" vr="IS"/>
+    <entry name="Number of Echoes                         " group="2001" element="1014" vr="SL"/>
+    <entry name="Number of Locations                      " group="2001" element="1015" vr="SS"/>
+    <entry name="Number of PC Directions                  " group="2001" element="1016" vr="SS"/>
+    <entry name="Number of Phases MR                      " group="2001" element="1017" vr="SL"/>
+    <entry name="Number of Slices MR                      " group="2001" element="1018" vr="SL"/>
+    <entry name="Number of Stacks                         " group="2001" element="1060" vr="SL"/>
+    <entry name="PC Velocity                              " group="2001" element="101A" vr="FL"/>
+    <entry name="Partial Matrix Scanned                   " group="2001" element="1019" vr="CS"/>
+    <entry name="Phase Number                             " group="2001" element="1008" vr="IS"/>
+    <entry name="Prepulse Delay                           " group="2001" element="101B" vr="FL"/>
+    <entry name="Prepulse Type                            " group="2001" element="101C" vr="CS"/>
+    <entry name="Private Creator Group 2001               " group="2001" element="0010" vr="LO "/>
+    <entry name="Private Creator Group 2001               " group="2001" element="0010" vr="LO"/>
+    <entry name="Prospective Motion Correction            " group="2001" element="10F1" vr="FL" vm="1-n"/>
+    <entry name="Reconstruction Number MR                 " group="2001" element="101D" vr="IS"/>
+    <entry name="Respiration Sync                         " group="2001" element="101F" vr="CS"/>
+    <entry name="Retrospective Motion Correction          " group="2001" element="10F2" vr="FL"/>
+    <entry name="SPIR                                     " group="2001" element="1021" vr="CS"/>
+    <entry name="Scanning Technique Description MR        " group="2001" element="1020" vr="LO"/>
+    <entry name="Slice Number MR                          " group="2001" element="100A" vr="IS"/>
+    <entry name="Stack Number Of Slices                   " group="2001" element="102D" vr="SS"/>
+    <entry name="Stack Radial Angle                       " group="2001" element="1032" vr="FL"/>
+    <entry name="Stack Radial Axis                        " group="2001" element="1033" vr="CS"/>
+    <entry name="Stack Sequence                           " group="2001" element="105F" vr="SQ"/>
+    <entry name="Stack Slice Number                       " group="2001" element="1035" vr="SS"/>
+    <entry name="Stack Type                               " group="2001" element="1036" vr="CS"/>
+    <entry name="Water Fat Shift                          " group="2001" element="1022" vr="FL"/>
+    <entry name="Zoom Mode                                " group="2001" element="103F" vr="CS"/>
+  </dict>
+  <dict owner="Philips MR Imaging DD 001">
+    <entry name="Private Creator Group 2005               " group="2005" element="0010" vr="LO"/>
+    <entry name="Syncra Scan Type                         " group="2005" element="10A1" vr="CS"/>
+    <entry name="Number of Chemical Shift                 " group="2005" element="1020" vr="SL"/>
+    <entry name="Diffusion Direction AP                   " group="2005" element="10B1" vr="FL"/>
+    <entry name="Diffusion Direction FH                   " group="2005" element="10B2" vr="FL"/>
+    <entry name="Diffusion Direction RL                   " group="2005" element="10B0" vr="FL"/>
+  </dict>
+</dicts>

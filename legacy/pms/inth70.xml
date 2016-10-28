@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<!--
+FIXME:
+     <entry name="Image Blanking Shape                   " group="0019" element="1000" />
+conflicts with
+     <entry name="&gt; APR Name" group="0019" element="2000" vr="LO"/>
+
+Manually added vm for 0019,1000 and 0019,1010
+-->
+<dicts edition="2008" url="ftp://ftp.philips.com/pub/pms-3003/Conformance_Stmnts/pdf/inth70.pdf">
+  <dict ref="Table 8-23" name="X-Ray Angiographic Image Storage SOP Class - Image Blanking" owner="CARDIO-D.R. 1.0">
+    <entry name="Private Creator Group 0019             " group="0019" element="0010" vr="LO"/>
+    <entry name="Image Blanking Shape                   " group="0019" element="1000" vr="CS" vm="1-2">
+      <description>Shape(s) of the image blanking defined for display.
+The following shapes are supported:
+RECTANGULAR
+CIRCULAR
+This multi-valued Attribute shall contain at most one
+of each Enumerated value (so combinations are supported).</description>
+    </entry>
+    <entry name="Image Blanking Left Vertical Edge      " group="0019" element="1002" vr="IS"/>
+    <entry name="Image Blanking Right Vertical Edge     " group="0019" element="1004" vr="IS"/>
+    <entry name="Image Blanking Upper Horizontal Edge   " group="0019" element="1006" vr="IS"/>
+    <entry name="Image Blanking Lower Horizontal Edge   " group="0019" element="1008" vr="IS"/>
+    <entry name="Center Of Circular Image Blanking      " group="0019" element="1010" vr="IS" vm="2">
+      <description> Location of the center of the circular image blanking
+with respect to pixels in the image given as number of
+pixels.
+Required if Image Blanking Shape (0019,xx00) contains
+CIRCULAR.  </description>
+    </entry>
+    <entry name="Radius Of Circular Image Blanking      " group="0019" element="1012" vr="IS"/>
+  </dict>
+</dicts>

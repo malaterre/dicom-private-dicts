@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grass Root DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<!--
+made from parsing:
+
+$ gdcmdump - -xml-dict IM_00003.dcm
+
+-->
+<dicts>
+  <dict>
+<entry group="0009" element="0008" name="?" vr="LO" vm="1" owner="SPI Release 1"/>
+<entry group="0009" element="0010" name="?" vr="LO" vm="1" owner="PHILIPS MR"/>
+<entry group="0009" element="0010" name="?" vr="US" vm="1" owner="PHILIPS MR/PART 12"/>
+<entry group="0009" element="0012" name="?" vr="LO" vm="1" owner="PHILIPS MR"/>
+<entry group="0009" element="0015" name="?" vr="LO" vm="1" owner="SPI-P Release 1"/>
+<entry group="0009" element="0015" name="?" vr="LO" vm="1" owner="SPI Release 1"/>
+<entry group="0009" element="0016" name="?" vr="LO" vm="1" owner="SPI-P Release 1"/>
+<entry group="0009" element="0018" name="?" vr="LO" vm="1" owner="SPI-P Release 1"/>
+<entry group="0019" element="0000" name="?" vr="DS" vm="2" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0000" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0000" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART 7"/>
+<entry group="0019" element="0001" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0001" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0002" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0002" name="?" vr="IS" vm="1-n" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0003" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0005" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0006" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0007" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0008" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0009" name="?" vr="DS" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0019" element="0009" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="000a" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="000b" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="000c" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="000d" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="000e" name="?" vr="IS" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0019" element="000f" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0010" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0010" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART 6"/>
+<entry group="0019" element="0014" name="?" vr="CS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0015" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="001a" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="001b" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="001c" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="001d" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="001e" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0021" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0022" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0023" name="?" vr="DS" vm="3" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0024" name="?" vr="DS" vm="3" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0024" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0025" name="?" vr="DS" vm="3" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0026" name="?" vr="DS" vm="3" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0027" name="?" vr="DS" vm="3" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0028" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0029" name="?" vr="DS" vm="3" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0030" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0031" name="?" vr="DS" vm="3" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0031" name="?" vr="LO" vm="1" owner="SPI-P-Private_ICS Release 1"/>
+<entry group="0019" element="0032" name="?" vr="US" vm="1" owner="PHILIPS MR SPECTRO;1"/>
+<entry group="0019" element="0040" name="?" vr="US" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0050" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0050" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0051" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0052" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0053" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0054" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0055" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0056" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0057" name="?" vr="US" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0058" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0059" name="?" vr="US" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0060" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0061" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0062" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0063" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0064" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0066" name="?" vr="US" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0067" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0069" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="006a" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="006e" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0070" name="?" vr="DS" vm="2" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0080" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0081" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="008a" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="008b" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="008c" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="008d" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="008e" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="008f" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0094" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0095" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0096" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0097" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="0099" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00a0" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00a1" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00a3" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00b1" name="?" vr="IS" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0019" element="00b2" name="?" vr="IS" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0019" element="00b3" name="?" vr="IS" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0019" element="00b4" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00b4" name="?" vr="IS" vm="1-n" owner="PHILIPS MR/LAST"/>
+<entry group="0019" element="00b5" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00b5" name="?" vr="IS" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0019" element="00b6" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00b7" name="?" vr="IS" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0019" element="00c6" name="?" vr="IS" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0019" element="00c9" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00ca" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00cb" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00cc" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00ce" name="?" vr="IS" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0019" element="00cf" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00d0" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00d1" name="?" vr="US" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00d2" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00d3" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00d5" name="?" vr="DS" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0019" element="00d5" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00d6" name="?" vr="IS" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0019" element="00d6" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00d7" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00d8" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00d9" name="?" vr="IS" vm="1-n" owner="PHILIPS MR/LAST"/>
+<entry group="0019" element="00d9" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00da" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00db" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00e0" name="?" vr="IS" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0019" element="00e0" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00e1" name="?" vr="DS" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0019" element="00e1" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00e2" name="?" vr="IS" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0019" element="00e3" name="?" vr="DS" vm="3" owner="PHILIPS MR/LAST"/>
+<entry group="0019" element="00e4" name="?" vr="IS" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0019" element="00e5" name="?" vr="DS" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0019" element="00f0" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00f2" name="?" vr="LT" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0019" element="00f3" name="?" vr="LT" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0019" element="00f6" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00f7" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00f8" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00f9" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00fa" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00fb" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0019" element="00fc" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0021" element="0000" name="?" vr="DA" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0021" element="0000" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0021" element="0006" name="?" vr="UI" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0021" element="0007" name="?" vr="DT" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0021" element="0008" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0021" element="0009" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0021" element="000a" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0021" element="000f" name="?" vr="CS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0021" element="0010" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0021" element="0010" name="?" vr="TM" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0021" element="0013" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0021" element="0014" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0021" element="0015" name="?" vr="US" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0021" element="0020" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0021" element="0021" name="?" vr="DS" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0021" element="0030" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0021" element="0031" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0021" element="0035" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0021" element="0040" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0021" element="0040" name="?" vr="IS" vm="1" owner="SPI-P-Private_CDS Release 1"/>
+<entry group="0021" element="0050" name="?" vr="IS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0029" element="0000" name="?" vr="FD" vm="1" owner="SPI-P-Private_ICS Release 1;2"/>
+<entry group="0029" element="0000" name="?" vr="LO" vm="1" owner="SPI-P-Private_ICS Release 1;3"/>
+<entry group="0029" element="0000" name="?" vr="SL" vm="1" owner="SPI-P-Private_ICS Release 1;1"/>
+<entry group="0029" element="0000" name="?" vr="UL" vm="1" owner="SPI-P-Private_ICS Release 1;4"/>
+<entry group="0029" element="0001" name="?" vr="FD" vm="1" owner="SPI-P-Private_ICS Release 1;2"/>
+<entry group="0029" element="0001" name="?" vr="FL" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0001" name="?" vr="FL" vm="2" owner="SPI-P-Private_ICS Release 1;4"/>
+<entry group="0029" element="0002" name="?" vr="FD" vm="1" owner="SPI-P-Private_ICS Release 1;2"/>
+<entry group="0029" element="0002" name="?" vr="LO" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0002" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;4"/>
+<entry group="0029" element="0003" name="?" vr="SL" vm="1" owner="SPI-P-Private_ICS Release 1;2"/>
+<entry group="0029" element="0003" name="?" vr="UL" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0004" name="?" vr="LO" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0004" name="?" vr="SL" vm="1" owner="SPI-P-Private_ICS Release 1;2"/>
+<entry group="0029" element="0004" name="?" vr="US" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0029" element="0005" name="?" vr="FL" vm="1" owner="SPI-P-Private_ICS Release 1;1"/>
+<entry group="0029" element="0005" name="?" vr="SL" vm="1" owner="SPI-P-Private_ICS Release 1;2"/>
+<entry group="0029" element="0006" name="?" vr="FL" vm="1" owner="SPI-P-Private_ICS Release 1;1"/>
+<entry group="0029" element="0006" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0006" name="?" vr="UL" vm="1" owner="SPI-P-Private_ICS Release 1;4"/>
+<entry group="0029" element="0007" name="?" vr="SL" vm="1" owner="SPI-P-Private_ICS Release 1;4"/>
+<entry group="0029" element="0007" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0008" name="?" vr="US" vm="1" owner="SPI-P-Private_ICS Release 1;4"/>
+<entry group="0029" element="0008" name="?" vr="US" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0009" name="?" vr="FL" vm="1" owner="SPI-P-Private_ICS Release 1;4"/>
+<entry group="0029" element="000a" name="?" vr="FL" vm="1" owner="SPI-P-Private_ICS Release 1;4"/>
+<entry group="0029" element="000a" name="?" vr="US" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="000b" name="?" vr="FL" vm="1" owner="SPI-P-Private_ICS Release 1;4"/>
+<entry group="0029" element="000b" name="?" vr="US" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="000c" name="?" vr="FL" vm="1" owner="SPI-P-Private_ICS Release 1;4"/>
+<entry group="0029" element="000c" name="?" vr="US" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="000d" name="?" vr="US" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="000f" name="?" vr="LO" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="000f" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1"/>
+<entry group="0029" element="0010" name="?" vr="DS" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0029" element="0010" name="?" vr="OB" vm="1" owner="SPI-P-Private_CDS Release 1"/>
+<entry group="0029" element="0010" name="?" vr="US" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0014" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0015" name="?" vr="UL" vm="2" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0016" name="?" vr="FL" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0017" name="?" vr="FL" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="001a" name="?" vr="UL" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="001b" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1"/>
+<entry group="0029" element="001c" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1"/>
+<entry group="0029" element="001d" name="?" vr="US" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="001f" name="?" vr="FL" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0020" name="?" vr="DS" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0029" element="0020" name="?" vr="FL" vm="1" owner="SPI-P-Private_ICS Release 1;1"/>
+<entry group="0029" element="0020" name="?" vr="FL" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0020" name="?" vr="LO" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0029" element="0021" name="?" vr="FL" vm="1" owner="SPI-P-Private_ICS Release 1;1"/>
+<entry group="0029" element="0021" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1"/>
+<entry group="0029" element="0021" name="?" vr="UL" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0023" name="?" vr="US" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0024" name="?" vr="UL" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="002a" name="?" vr="UL" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="002b" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="002c" name="?" vr="UL" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="002d" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="002e" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="002f" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0030" name="?" vr="ST" vm="1" owner="SPI-P-Private_ICS Release 1;1"/>
+<entry group="0029" element="0031" name="?" vr="DS" vm="2" owner="PHILIPS MR/PART"/>
+<entry group="0029" element="0032" name="?" vr="DS" vm="2" owner="PHILIPS MR/PART"/>
+<entry group="0029" element="0032" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0034" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0035" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0036" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0037" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0038" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0039" name="?" vr="FL" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="003d" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0043" name="?" vr="US" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0044" name="?" vr="US" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0048" name="?" vr="UL" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="004c" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1"/>
+<entry group="0029" element="004f" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0050" name="?" vr="CS" vm="1" owner="SPI-P-Private_ICS Release 1;5"/>
+<entry group="0029" element="0050" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0029" element="0051" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0029" element="0052" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0029" element="0053" name="?" vr="DS" vm="1" owner="PHILIPS MR/PART"/>
+<entry group="0029" element="0055" name="?" vr="CS" vm="1" owner="SPI-P-Private_ICS Release 1;5"/>
+<entry group="0029" element="005c" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="005d" name="?" vr="UL" vm="1-n" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="005e" name="?" vr="UL" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="005f" name="?" vr="US" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0060" name="?" vr="US" vm="1" owner="SPI-P-Private_ICS Release 1;3"/>
+<entry group="0029" element="0061" name="?" vr="IS" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0029" element="0062" name="?" vr="IS" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0029" element="0063" name="?" vr="US" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0065" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0066" name="?" vr="UL" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0067" name="?" vr="LO" vm="1" owner="SPI-P-Private_ICS Release 1"/>
+<entry group="0029" element="0067" name="?" vr="UL" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0068" name="?" vr="UL" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0068" name="?" vr="US" vm="1" owner="SPI-P-Private_ICS Release 1"/>
+<entry group="0029" element="0069" name="?" vr="UL" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="006a" name="?" vr="LO" vm="1" owner="SPI-P-Private_ICS Release 1"/>
+<entry group="0029" element="006b" name="?" vr="FD" vm="1" owner="SPI-P-Private_ICS Release 1;1"/>
+<entry group="0029" element="006b" name="?" vr="US" vm="1" owner="SPI-P-Private_ICS Release 1"/>
+<entry group="0029" element="006d" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;6"/>
+<entry group="0029" element="0083" name="?" vr="IS" vm="1" owner="PHILIPS MR/LAST"/>
+<entry group="0029" element="00a0" name="?" vr="US" vm="1" owner="SPI-P-Private_ICS Release 1;4"/>
+<entry group="0029" element="00a1" name="?" vr="US" vm="1" owner="SPI-P-Private_ICS Release 1;4"/>
+<entry group="0029" element="00b0" name="?" vr="SL" vm="1" owner="SPI-P-Private_ICS Release 1;3"/>
+<entry group="0029" element="00b1" name="?" vr="FL" vm="1" owner="SPI-P-Private_ICS Release 1;3"/>
+<entry group="0029" element="00b1" name="?" vr="US" vm="1" owner="SPI-P-Private_ICS Release 1;4"/>
+<entry group="0029" element="00b2" name="?" vr="FL" vm="1" owner="SPI-P-Private_ICS Release 1;3"/>
+<entry group="0029" element="00b2" name="?" vr="US" vm="1" owner="SPI-P-Private_ICS Release 1;4"/>
+<entry group="0029" element="00b3" name="?" vr="SL" vm="1" owner="SPI-P-Private_ICS Release 1;4"/>
+<entry group="0029" element="00b4" name="?" vr="FL" vm="1" owner="SPI-P-Private_ICS Release 1;3"/>
+<entry group="0029" element="00b5" name="?" vr="FL" vm="1" owner="SPI-P-Private_ICS Release 1;4"/>
+<entry group="0029" element="00b9" name="?" vr="FL" vm="1" owner="SPI-P-Private_ICS Release 1;3"/>
+<entry group="0029" element="00bc" name="?" vr="SL" vm="1" owner="SPI-P-Private_ICS Release 1;4"/>
+<entry group="0029" element="00bd" name="?" vr="SL" vm="1" owner="SPI-P-Private_ICS Release 1;4"/>
+<entry group="0029" element="00be" name="?" vr="US" vm="1" owner="SPI-P-Private_ICS Release 1;4"/>
+<entry group="0029" element="00c0" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;3"/>
+<entry group="0029" element="00c1" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;3"/>
+<entry group="0029" element="00c2" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;3"/>
+<entry group="0029" element="00c3" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;3"/>
+<entry group="0029" element="00c4" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;3"/>
+<entry group="0029" element="00c5" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;3"/>
+<entry group="0029" element="00cd" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;1"/>
+<entry group="0029" element="00e0" name="?" vr="SQ" vm="1" owner="SPI-P-Private_ICS Release 1;4"/>
+  </dict>
+  </dicts>
+

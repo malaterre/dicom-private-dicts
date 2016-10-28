@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+grep INTEL /usr/share/dcmtk/dicom.dic
+
+#
+#  Copyright (C) 1994-2005, OFFIS
+#
+#  This software and supporting documentation were developed by
+#
+#    Kuratorium OFFIS e.V.
+#    Healthcare Information and Communication Systems
+#    Escherweg 2
+#    D-26121 Oldenburg, Germany
+#
+#  THIS SOFTWARE IS MADE AVAILABLE,  AS IS,  AND OFFIS MAKES NO  WARRANTY
+#  REGARDING  THE  SOFTWARE,  ITS  PERFORMANCE,  ITS  MERCHANTABILITY  OR
+#  FITNESS FOR ANY PARTICULAR USE, FREEDOM FROM ANY COMPUTER DISEASES  OR
+#  ITS CONFORMITY TO ANY SPECIFICATION. THE ENTIRE RISK AS TO QUALITY AND
+#  PERFORMANCE OF THE SOFTWARE IS WITH THE USER.
+
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008">
+  <dict owner="INTELERAD MEDICAL SYSTEMS">
+    <entry group="3f01" element="0001" vr="LO" name="Institution Code" vm="1"/>
+    <entry group="3f01" element="0002" vr="LO" name="Routed Transfer AE" vm="1"/>
+    <entry group="3f01" element="0003" vr="LO" name="Source AE" vm="1"/>
+    <entry group="3f01" element="0004" vr="LO" name="Deferred Validation" vm="1"/>
+    <entry group="3f01" element="0005" vr="LO" name="Series Owner" vm="1"/>
+  </dict>
+</dicts>

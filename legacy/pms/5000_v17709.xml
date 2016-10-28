@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/5000_v17709.pdf
+ $ pdftotext -nopgbrk -layout 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+NOTE:
+
+ Most of the info was also gathered from the following file:
+
+ http://medical.nema.org/medical/dicom/DataSets/WG12/Philips_Ultrasound/HDI_5000_DVS/3EAF5780
+
+(0029,0060) LO [ATL PRIVATE TAGS]                       #  16, 1 PrivateCreator
+(0029,6030) UL 1                                        #   4, 1 Unknown Tag & Data
+(0029,6031) UL 0                                        #   4, 1 Unknown Tag & Data
+(0029,6032) UL 2                                        #   4, 1 Unknown Tag & Data
+(0029,6033) DS [0\30]                                   #   4, 2 Unknown Tag & Data
+(0029,6034) DS [60\60]                                  #   6, 2 Unknown Tag & Data
+(0029,6035) LO (no value available)                     #   0, 0 Unknown Tag & Data
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/5000_v17709.pdf">
+  <dict ref="Table 4.1-1" name="Private Tags used by DVS" owner="ATL PRIVATE TAGS">
+    <entry group="0029" element="0060" vr="LO" vm="1" name="Private Creator Data Element"/>
+    <entry group="0029" element="6030" vr="UL" vm="1" name="Loop Mode"/>
+    <entry group="0029" element="6031" vr="UL" vm="1" name="Trigger mode"/>
+    <entry group="0029" element="6032" vr="UL" vm="1" name="Number of Loops"/>
+    <entry group="0029" element="6033" vr="DS" vm="1-n" name="Loop Indexes"/>
+    <entry group="0029" element="6034" vr="DS" vm="1-n" name="Loop Heart Rates"/>
+    <entry group="0029" element="6035" vr="LO" vm="1" name="Medications"/>
+  </dict>
+</dicts>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts url="http://www.dim.hcuge.ch/papyrus/Papyrus31Specif.pdf">
+  <dict name="The PAPYRUS Data Elements" owner="PAPYRUS 3.0">
+    <!--entry group="0041" element="0000" vr="UL" vm="1" name="Group Length"/-->
+    <!--entry group="0041" element="0010" vr="LO" vm="1" name="Owner ID"/-->
+    <entry group="0041" element="1000" vr="LT" vm="1" name="Comments"/>
+    <entry group="0041" element="1010" vr="SQ" vm="1" name="Pointer Sequence"/>
+    <entry group="0041" element="1011" vr="UL" vm="1" name="Image Pointer"/>
+    <entry group="0041" element="1012" vr="UL" vm="1" name="Pixel Offset"/>
+    <entry group="0041" element="1013" vr="SQ" vm="1" name="Image Identifier Sequence"/>
+    <entry group="0041" element="1014" vr="SQ" vm="1" name="External PAPYRUS-File Reference Sequence"/>
+    <entry group="0041" element="1015" vr="US" vm="1" name="Number of images"/>
+    <entry group="0041" element="1021" vr="UI" vm="1" name="Referenced SOP Class UID"/>
+    <entry group="0041" element="1022" vr="UI" vm="1" name="Referenced SOP Instance UID"/>
+    <entry group="0041" element="1031" vr="LO" vm="1" name="Referenced File Name"/>
+    <entry group="0041" element="1032" vr="LO" vm="1-n" name="Referenced File Path"/>
+    <entry group="0041" element="1041" vr="UI" vm="1" name="Referenced Image SOP Class UID"/>
+    <entry group="0041" element="1042" vr="UI" vm="1" name="Referenced Image SOP Instance UID"/>
+    <entry group="0041" element="1050" vr="SQ" vm="1" name="Image Sequence"/>
+  <entry group="60xx" element="xx00" vr="IS" vm="1" name="Overlay ID"/>
+  <entry group="60xx" element="xx01" vr="LT" vm="1-n" name="Linked Overlays"/>
+  <entry group="60xx" element="xx10" vr="US" vm="1" name="Overlay Rows"/>
+  <entry group="60xx" element="xx11" vr="US" vm="1" name="Overlay Columns"/>
+  <entry group="60xx" element="xx40" vr="LO" vm="1" name="Overlay Type"/>
+  <entry group="60xx" element="xx50" vr="US" vm="1-n" name="Overlay Origin"/>
+  <entry group="60xx" element="xx60" vr="LO" vm="1" name="Editable"/>
+  <entry group="60xx" element="xx70" vr="LO" vm="1" name="Overlay Font"/>
+  <entry group="60xx" element="xx72" vr="LO" vm="1" name="Overlay Style"/>
+  <entry group="60xx" element="xx74" vr="US" vm="1" name="Overlay Font Size"/>
+  <entry group="60xx" element="xx76" vr="LO" vm="1" name="Overlay Color"/>
+  <entry group="60xx" element="xx78" vr="US" vm="1" name="Shadow Size"/>
+  <entry group="60xx" element="xx80" vr="LO" vm="1" name="Fill Pattern"/>
+  <entry group="60xx" element="xx82" vr="US" vm="1" name="Overlay Pen Size"/>
+  <entry group="60xx" element="xxa0" vr="LO" vm="1" name="Label"/>
+  <entry group="60xx" element="xxa2" vr="LT" vm="1" name="Post It Text"/>
+  <entry group="60xx" element="xxa4" vr="US" vm="2" name="Anchor Point"/>
+  <entry group="60xx" element="xxb0" vr="LO" vm="1" name="ROI Type"/>
+  <entry group="60xx" element="xxb2" vr="LT" vm="1" name="Attached Annotation"/>
+  <entry group="60xx" element="xxba" vr="US" vm="1-n" name="Contour Points"/>
+  <entry group="60xx" element="xxbc" vr="US" vm="1-n" name="Mask Data"/>
+  <entry group="60xx" element="xxc0" vr="SQ" vm="1" name="UIN Overlay Sequence"/>
+
+  </dict>
+</dicts>

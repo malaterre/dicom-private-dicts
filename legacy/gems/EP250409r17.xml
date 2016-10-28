@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget http://www.gehealthcare.com/usen/interoperability/dicom/docs/EP250409r17.pdf
+ $ pdftotext  -layout -nopgbrk
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts url="http://www.gehealthcare.com/usen/interoperability/dicom/docs/EP250409r17.pdf">
+  <dict>
+    <entry name="Private Creator" group="7FE1" element="00xx" vr="LO" vm="1" owner="GEMS_Ultrasound_MovieGroup_001"/>
+    <entry name="Private Creator" group="6003" element="00xx" vr="LO" vm="1" owner="GEMS_Ultrasound_ImageGroup_001"/>
+    <entry name="Private Creator" group="6005" element="00xx" vr="LO" vm="1" owner="GEMS_Ultrasound_ExamGroup_001"/>
+  <!-- FIXME: the followings were manually added since I could not find def of those anywhere !! -->
+    <entry name="" group="6003" element="xx10" vr="SQ" vm="1" owner="GEMS_Ultrasound_ImageGroup_001"/>
+    <entry name="" group="6003" element="xx11" vr="OB" vm="1" owner="GEMS_Ultrasound_ImageGroup_001"/>
+  </dict>
+</dicts>

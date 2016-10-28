@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2009">
+  <dict>
+<entry group="0009" element="0000" vr="LO" vm="1" name="?" owner="EMAGEON STUDY HOME"/>
+<entry group="0009" element="0001" vr="LO" vm="1" name="?" owner="EMAGEON STUDY HOME"/>
+<entry group="0009" element="0000" vr="SQ" vm="1" name="?" owner="EMAGEON JPEG2K INFO"/>
+<entry group="0009" element="0001" vr="DT" vm="1" name="?" owner="EMAGEON JPEG2K INFO"/>
+  </dict>
+</dicts>

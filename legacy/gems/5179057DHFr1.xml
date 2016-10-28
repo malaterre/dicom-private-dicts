@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget www.gehealthcare.com/usen/interoperability/dicom/docs/5179057DHFr1.pdf
+ $ pdftotext -f 60 -l 62 -layout -nopgbrk 5179057DHFr1.pdf 5179057DHFr1.txt 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.gehealthcare.com/usen/interoperability/dicom/docs/5179057DHFr1.pdf">
+  <dict ref="Table 3-29" name="Private Creator Identification - Ventri" owner="QUASAR_INTERNAL_USE">
+    <entry group="0009" element="xx01" vr="UL" vm="1-n" name="Rate Vector"/>
+    <entry group="0009" element="xx02" vr="UL" vm="1-n" name="Count Vector"/>
+    <entry group="0009" element="xx03" vr="UL" vm="1-n" name="Time Vector"/>
+    <entry group="0009" element="xx07" vr="US" vm="1-n" name="Angle Vector"/>
+    <entry group="0009" element="xx08" vr="US" vm="1" name="Camera Shape"/>
+    <entry group="0009" element="xx10" vr="US" vm="1" name="WholeBody Spots"/>
+    <entry group="0009" element="xx11" vr="US" vm="1" name="Worklist Flag"/>
+    <entry group="0009" element="xx13" vr="ST" vm="1" name="Sequence Type"/>
+    <entry group="0009" element="xx14" vr="ST" vm="1" name="Sequence Name"/>
+    <entry group="0009" element="xx15" vr="UL" vm="1" name="Avr RR Time Vector"/>
+    <entry group="0009" element="xx16" vr="UL" vm="1" name="Low Limit Vector"/>
+    <entry group="0009" element="xx17" vr="UL" vm="1" name="High Limit Vector"/>
+    <entry group="0009" element="xx18" vr="UL" vm="1" name="Begin Index Vector"/>
+    <entry group="0009" element="xx19" vr="UL" vm="1" name="End Index Vector"/>
+    <entry group="0009" element="xx1A" vr="UL" vm="1" name="Raw Time Vector"/>
+    <entry group="0009" element="xx1B" vr="LO" vm="1" name="Image Type String"/>
+  </dict>
+  <dict ref="Table 3-30" name="Private Creator Identification - Ventri" owner="APEX_PRIVATE">
+    <entry group="0027" element="xx11" vr="UN" vm="1" name="Bed Position"/>
+  </dict>
+  <dict ref="Table 3-31" name="Private Creator Identification - Ventri" owner="GEMS_GENIE_1">
+    <entry group="0009" element="xx10" vr="LO" vm="1" name="Study Name"/>
+    <entry group="0009" element="xx11" vr="SL" vm="1" name="Study Flags"/>
+    <entry group="0009" element="xx12" vr="SL" vm="1" name="Study Type"/>
+    <entry group="0009" element="xx40" vr="PN" vm="1" name="Patient Object Name"/>
+    <entry group="0009" element="xx41" vr="SL" vm="1" name="Patient Flags"/>
+    <entry group="0009" element="xx42" vr="DA" vm="1" name="Patient Creation Date"/>
+    <entry group="0009" element="xx43" vr="TM" vm="1" name="Patient Creation Time"/>
+    <entry group="0011" element="xx0D" vr="LO" vm="1" name="Radio Nuclide Name"/>
+    <entry group="0011" element="xx12" vr="LO" vm="1" name="Dataset Name"/>
+    <entry group="0011" element="xx15" vr="SL" vm="1" name="Detector Number"/>
+    <entry group="0013" element="xx11" vr="SL" vm="1" name="Source Translator"/>
+    <entry group="0013" element="xx26" vr="LT" vm="1" name="Study Comments"/>
+    <entry group="0033" element="xx08" vr="CS" vm="1" name="GENIE Data Object Type"/>
+    <entry group="0033" element="xx10" vr="SL" vm="1" name="Modified"/>
+    <entry group="0033" element="xx11" vr="LO" vm="1" name="Name"/>
+    <entry group="0033" element="xx16" vr="LO" vm="1" name="ProtocolDataUID"/>
+    <entry group="0033" element="xx17" vr="SH" vm="1" name="Date"/>
+    <entry group="0033" element="xx18" vr="SH" vm="1" name="Time"/>
+    <entry group="0033" element="xx19" vr="UL" vm="1" name="ProtocoldataFlags"/>
+    <entry group="0033" element="xx1A" vr="UL" vm="1" name="ProtocolName"/>
+    <entry group="0033" element="xx1B" vr="LO" vm="1" name="RelevantDataUID"/>
+    <entry group="0033" element="xx1C" vr="LO" vm="1" name="BulkData"/>
+    <entry group="0033" element="xx1D" vr="SL" vm="1-n" name="IntData"/>
+    <entry group="0033" element="xx1E" vr="FD" vm="1-n" name="DoubleData"/>
+    <entry group="0033" element="xx1F" vr="LT" vm="1-n" name="StringData"/>
+    <entry group="0033" element="xx20" vr="LT" vm="1-n" name="BulkDataFormat"/>
+    <entry group="0033" element="xx23" vr="LT" vm="1-n" name="StringDataFormat"/>
+    <entry group="0033" element="xx24" vr="LT" vm="1" name="Description"/>
+    <entry group="0033" element="xx30" vr="UL" vm="1" name="Allocate trigger buffer"/>
+    <entry group="0033" element="xx33" vr="UL" vm="1" name="Number of triggers"/>
+    <entry group="0033" element="xx34" vr="UL" vm="1" name="Trigger size"/>
+    <entry group="0033" element="xx35" vr="UL" vm="1" name="Trigger data size"/>
+    <entry group="0033" element="xx36" vr="OB" vm="1-n" name="Trigger data"/>
+  </dict>
+</dicts>

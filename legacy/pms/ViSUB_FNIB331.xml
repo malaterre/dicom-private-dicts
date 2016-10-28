@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<!--
+Manually added vr=SQ when the name read 'SEQUENCE'... doh !
+
+
+The following look suspciciously similar to CARDIO-D.R....
+    <entry name="&gt; Convolution Kernel Size               " group="0029" element="1001"/>
+    <entry name="&gt; Convolution Kernel Coefficients       " group="0029" element="1002"/>
+    <entry name="&gt; Edge Enhancement Gain                 " group="0029" element="1003"/>
+set VR to the same as CARDIO-D.R.
+
+I could double check that it did match on a least:
+gdcmSampleData/ForSeriesTesting/MultiFramesSingleSerieXR/1.3.46.670589.7.5.10.80002138018.20001204.181556.7.1.1.dcm
+
+-->
+<dicts edition="2008">
+  <dict ref="Table 8-36" name="Multi-frame Vascular XA Image Storage SOP Class - X-Ray Image Module (Extended)" owner="INTEGRIS 1.0">
+    <entry name="Private Creator Group 0029              " group="0029" element="0010"/>
+    <entry name="Edge Enhancement Sequence               " group="0029" element="1000" vr="SQ"/>
+    <entry name="&gt; Private Creator Group 0029            " group="0029" element="0010"/>
+    <entry name="&gt; Convolution Kernel Size               " group="0029" element="1001" vr="US" vm="2"/>
+    <entry name="&gt; Convolution Kernel Coefficients       " group="0029" element="1002" vr="US" vm="1-n"/>
+    <entry name="&gt; Edge Enhancement Gain                 " group="0029" element="1003" vr="FL" vm="1"/>
+  </dict>
+  <dict ref="Table 8-78" name="Modality Performed Procedure Step SOP Class - Radiation Dose Module (Extended) Section" owner="INTEGRIS 1.0">
+    <entry name="Private Creator Group 0041          " group="0041" element="0010"/>
+    <entry name="Accumulated Fluoroscopy Dose        " group="0041" element="1020"/>
+    <entry name="Accumulated Exposure Dose           " group="0041" element="1030"/>
+    <entry name="Total Dose                          " group="0041" element="1040"/>
+    <entry name="Total Number of Frames              " group="0041" element="1041"/>
+  </dict>
+  <dict ref="Table 8-80" name="Modality Performed Procedure SOP Class - Private Exposure Information Module (Private)" owner="INTEGRIS 1.0">
+    <entry name="Private Creator Group 0041              " group="0041" element="0010"/>
+    <entry name="Exposure Information Sequence           " group="0041" element="1050" vr="SQ"/>
+    <entry name="&gt; Private Creator Group 0009            " group="0009" element="0010"/>
+    <entry name="&gt; Exposure Channel                      " group="0009" element="1008"/>
+    <entry name="&gt; Exposure Start Time                   " group="0009" element="1032"/>
+    <entry name="&gt; Private Creator Group 0019            " group="0019" element="0020"/>
+    <entry name="&gt; APR Name                              " group="0019" element="2000"/>
+    <entry name="&gt; Frame Rate                            " group="0019" element="2040"/>
+  </dict>
+  <dict ref="Table 8-80" name="Modality Performed Procedure SOP Class - Private Exposure Information Module (Private)" owner="INTEGRIS 1.0">
+    <entry name="Private Creator Group 0021           " group="0021" element="0010"/>
+    <entry name="Exposure Number                      " group="0021" element="1012"/>
+    <entry name="Private Creator Group 0029           " group="0029" element="0030"/>
+    <entry name="Number of Exposure Results           " group="0029" element="3008"/>
+  </dict>
+</dicts>

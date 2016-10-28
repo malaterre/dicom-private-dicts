@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<!--
+8.1 DATA DICTIONARY OF PRIVATE ATTRIBUTES
+
+PMOD application reserves a block of private attributes in a group 55h for all created instances.
+Private creator Id is PMOD_1. All created instances includes frames durations element.
+Additionally, created instances of NM Image Storage SOP class includes private elements for
+frames start times, positions and orientations.
+PGEN module reserves a block of private attributes in a group 7fe1h to store genes codes and
+labels. It uses a private creator Id PMOD_GENPET.
+The table below includes all private elements created by PMOD application.
+
+-->
+<dicts edition="2008" url="http://www.dominator.com/assets/006/5686.pdf">
+  <dict ref="Table 8.1-1" name="DATA DICTIONARY OF PRIVATE ATTRIBUTES" owner="PMOD_1">
+    <entry group="0055" element="00xx" name="Private Creator                                               " vr="LO" vm="1"/>
+    <entry group="0055" element="xx01" name="Frames Start Times                                            " vr="FD" vm="1-n"/>
+    <entry group="0055" element="xx02" name="Frames Positions                                              " vr="FD" vm="3-3n"/>
+    <entry group="0055" element="xx03" name="Frames Orientations                                           " vr="FD" vm="6-6n"/>
+    <entry group="0055" element="xx04" name="Frames Durations (ms)                                         " vr="FD" vm="1-n"/>
+  </dict>
+  <dict owner="PMOD_GENPET">
+    <entry group="7fe1" element="00xx" name="Private Creator                                               " vr="LO" vm="1"/>
+    <entry group="7fe1" element="xx01" name="Slices Names                                                  " vr="UT" vm="1"/>
+    <entry group="7fe1" element="xx02" name="Gene Codes                                                    " vr="UT" vm="1"/>
+    <entry group="7fe1" element="xx03" name="Gene Labels                                                   " vr="UT" vm="1"/>
+  </dict>
+</dicts>

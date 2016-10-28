@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/PETView_8.1.4_453567956051.pdf
+ $ pdftotext -nopgbrk -layout -f 71 -l 71 PETView_8.1.4_453567956051.pdf PETView_8.1.4_453567956051.txt 
+ <some minor manual cleaning>
+ $ python txt2xml.py PETView_8.1.4_453567956051.txt PETView_8.1.4_453567956051.xml
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/PETView_8.1.4_453567956051.pdf">
+  <dict ref="Table 8-28" name="Private Elements for PET Images" owner="Philips PET Private Group">
+    <entry group="7053" element="0010" vr="LO" vm="1" name="Private Creator Data element"/>
+    <entry group="7053" element="1000" vr="DS" vm="1" name="SUV Factor">
+<description>SUV Factor. The SUV Factor is
+used to convert the pixel data
+from counts to an SUV value.
+This is done by multiplying each
+pixel value by the SUV Factor. If
+the SUV Factor is 0.0, then the
+pixel data cannot be converted
+from counts to an SUV value.</description></entry>
+    <entry group="7053" element="1001" vr="OB" vm="1" name="Private"/>
+    <entry group="7053" element="1002" vr="OB" vm="1" name="Private"/>
+    <entry group="7053" element="1003" vr="ST" vm="1" name="Original image file name"/>
+  </dict>
+  <dict ref="Table 8-29" name="Private Elements for Snapshot Images" owner="Philips PET Private Group">
+    <entry group="0511" element="0010" vr="LO" vm="1" name="Private Creator Data element"/>
+    <entry group="0511" element="1000" vr="US" vm="1" name="?"/>
+    <entry group="0511" element="1001" vr="US" vm="1" name="?"/>
+    <entry group="0511" element="1002" vr="OB" vm="1" name="?"/>
+    <entry group="0511" element="1003" vr="OB" vm="1" name="?"/>
+    <entry group="0511" element="1032" vr="DS" vm="1" name="?"/>
+    <entry group="0511" element="1050" vr="DS" vm="1" name="?"/>
+  </dict>
+</dicts>

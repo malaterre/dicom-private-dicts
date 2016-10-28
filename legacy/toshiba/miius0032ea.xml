@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget http://www.medical.toshiba.com/dicom/pdf/miius0032ea.pdf
+ $ pdftotext -nopgbrk -layout 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.medical.toshiba.com/dicom/pdf/miius0032ea.pdf">
+  <dict ref="Table 8.1-25" name="PRIVATE APPLICATION MODULE OF CREATED US IMAGE SOP INSTANCES" owner="TOSHIBA MDW HEADER">
+    <entry name="Private Creator             " group="0029" element="0010" vr="LO"/>
+    <entry name="Application Header Type     " group="0029" element="1008" vr="CS"/>
+    <entry name="Application Header Version  " group="0029" element="1009" vr="LO"/>
+    <entry name="Application Header Data     " group="0029" element="1010" vr="OB"/>
+    <entry name="Private Creator             " group="0029" element="0011" vr="LO"/>
+    <entry name="PMTF Information 1          " group="0029" element="1131" vr="LO"/>
+    <entry name="PMTF Information 2          " group="0029" element="1132" vr="UL"/>
+    <entry name="PMTF Information 3          " group="0029" element="1133" vr="UL"/>
+    <entry name="PMTF Information 4          " group="0029" element="1134" vr="CS"/>
+  </dict>
+  <dict ref="Table 8.1-30" name="PRIVATE APPLICATION MODULE OF CREATED US MULTI-FRAME IMAGE SOP INSTANCES">
+    <entry name="Private Creator              " group="0029" element="0010" vr="LO" owner="TOSHIBA MDW NON-IMAGE"/>
+    <entry name="Application Header Type      " group="0029" element="1008" vr="CS" owner="TOSHIBA MDW NON-IMAGE"/>
+    <entry name="Application Header Version   " group="0029" element="1009" vr="LO" owner="TOSHIBA MDW NON-IMAGE"/>
+    <entry name="Private Creator              " group="0029" element="0011" vr="LO" owner="PMTF INFORMATION DATA"/>
+    <entry name="PMTF Information 1           " group="0029" element="1131" vr="LO" owner="PMTF INFORMATION DATA"/>
+    <entry name="PMTF Information 2           " group="0029" element="1132" vr="UL" owner="PMTF INFORMATION DATA"/>
+    <entry name="PMTF Information 3           " group="0029" element="1133" vr="UL" owner="PMTF INFORMATION DATA"/>
+    <entry name="PMTF Information 4           " group="0029" element="1134" vr="CS" owner="PMTF INFORMATION DATA"/>
+    <entry name="Private Creator              " group="0029" element="0012" vr="LO" owner="TOSHIBA MDW HEADER"/>
+    <entry name="Application Header Type      " group="0029" element="1208" vr="CS" owner="TOSHIBA MDW HEADER"/>
+    <entry name="Application Header Version   " group="0029" element="1209" vr="LO" owner="TOSHIBA MDW HEADER"/>
+    <entry name="Application Header Data      " group="0029" element="1210" vr="OB" owner="TOSHIBA MDW HEADER"/>
+  </dict>
+  <dict ref="Table 8.1-35" name="PRIVATE APPLICATION MODULE OF CREATED BASIC TEXT SR SOP INSTANCES">
+    <entry name="Private Creator               " group="0029" element="0010" vr="LO" owner="TOSHIBA MDW NON-IMAGE"/>
+    <entry name="Application Header Type       " group="0029" element="1008" vr="CS" owner="TOSHIBA MDW NON-IMAGE"/>
+    <entry name="Application Header Version    " group="0029" element="1009" vr="LO" owner="TOSHIBA MDW NON-IMAGE"/>
+    <entry name="Application Header Data       " group="0029" element="1020" vr="OB" owner="TOSHIBA MDW NON-IMAGE"/>
+    <entry name="Private Creator               " group="0029" element="0011" vr="LO" owner="PMTF INFORMATION DATA"/>
+    <entry name="PMTF Information 1            " group="0029" element="1131" vr="LO" owner="PMTF INFORMATION DATA"/>
+    <entry name="PMTF Information 2            " group="0029" element="1132" vr="UL" owner="PMTF INFORMATION DATA"/>
+    <entry name="PMTF Information 3            " group="0029" element="1133" vr="UL" owner="PMTF INFORMATION DATA"/>
+    <entry name="PMTF Information 4            " group="0029" element="1134" vr="CS" owner="PMTF INFORMATION DATA"/>
+  </dict>
+  <dict ref="Table 8.1-42" name="PRIVATE APPLICATION MODULE OF CREATED ENHANCED SR SOP INSTANCES">
+    <entry name="Private Creator              " group="0029" element="0010" vr="LO" owner="TOSHIBA MDW NON-IMAGE"/>
+    <entry name="Application Header Type      " group="0029" element="1008" vr="CS" owner="TOSHIBA MDW NON-IMAGE"/>
+    <entry name="Application Header Version   " group="0029" element="1009" vr="LO" owner="TOSHIBA MDW NON-IMAGE"/>
+    <entry name="Application Header Data      " group="0029" element="1020" vr="OB" owner="TOSHIBA MDW NON-IMAGE"/>
+    <entry name="Private Creator              " group="0029" element="0011" vr="LO" owner="PMTF INFORMATION DATA"/>
+    <entry name="PMTF Information 1           " group="0029" element="1131" vr="LO" owner="PMTF INFORMATION DATA"/>
+    <entry name="PMTF Information 2           " group="0029" element="1132" vr="UL" owner="PMTF INFORMATION DATA"/>
+    <entry name="PMTF Information 3           " group="0029" element="1133" vr="UL" owner="PMTF INFORMATION DATA"/>
+    <entry name="PMTF Information 4           " group="0029" element="1134" vr="CS" owner="PMTF INFORMATION DATA"/>
+    <entry name="Private Creator              " group="7015" element="0060" vr="LO" owner="TOSHIBA ENCRYPTED SR DATA"/>
+    <entry name="Toshiba US Private Data      " group="7015" element="6000" vr="OB" owner="TOSHIBA ENCRYPTED SR DATA"/>
+  </dict>
+  <dict ref="Table 8.5-3" name="PRIVATE APPLICATION MODULE OF CREATED TOSHIBA US PRIVATE DATA SOP INSTANCES">
+    <entry name="Private Creator             " group="0029" element="0010" vr="LO" owner="TOSHIBA MDW NON-IMAGE"/>
+    <entry name="Application Header Type     " group="0029" element="1008" vr="CS" owner="TOSHIBA MDW NON-IMAGE"/>
+    <entry name="Application Header Version  " group="0029" element="1009" vr="LO" owner="TOSHIBA MDW NON-IMAGE"/>
+    <entry name="Application Header Data     " group="0029" element="1010" vr="OB" owner="TOSHIBA MDW NON-IMAGE"/>
+    <entry name="Private Creator             " group="0029" element="0011" vr="LO" owner="PMTF INFORMATION DATA"/>
+    <entry name="PMTF Information 1          " group="0029" element="1131" vr="LO" owner="PMTF INFORMATION DATA"/>
+    <entry name="PMTF Information 2          " group="0029" element="1132" vr="UL" owner="PMTF INFORMATION DATA"/>
+    <entry name="PMTF Information 3          " group="0029" element="1133" vr="UL" owner="PMTF INFORMATION DATA"/>
+    <entry name="PMTF Information 4          " group="0029" element="1134" vr="CS" owner="PMTF INFORMATION DATA"/>
+    <entry name="Private Creator             " group="0029" element="0012" vr="LO" owner="TOSHIBA MDW HEADER"/>
+    <entry name="Application Header Type     " group="0029" element="1208" vr="CS" owner="TOSHIBA MDW HEADER"/>
+    <entry name="Application Header Version  " group="0029" element="1209" vr="LO" owner="TOSHIBA MDW HEADER"/>
+    <entry name="Application Header Data     " group="0029" element="1210" vr="OB" owner="TOSHIBA MDW HEADER"/>
+    <entry name="Private Creator             " group="7FE1" element="0010" vr="LO" owner="TOSHIBA MDW NON-IMAGE"/>
+    <entry name="Toshiba US Private Data     " group="7FE1" element="1010" vr="OB" owner="TOSHIBA MDW NON-IMAGE"/>
+  </dict>
+</dicts>

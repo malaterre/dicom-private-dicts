@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.agfa.com/germany/de/binaries/000978%20DICOM%20Conformance%20Statement%20CR%20QS%20v%203.0_tcm181-26665.PDF
+ $ pdftotext -layout -nopgbrk -f 15 -l 16
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.agfa.com/germany/de/binaries/000978%20DICOM%20Conformance%20Statement%20CR%20QS%20v%203.0_tcm181-26665.PDF">
+  <dict ref="Table 2-13" name="C-Store SCU private attributes" owner="AGFA">
+    <entry group="0019" element="0010" vr="SH" vm="1" name="Private Identification Code"/>
+    <entry group="0019" element="1010" vr="ST" vm="1" name="Image Processing Parameters"/>
+    <entry group="0019" element="1013" vr="LO" vm="1" name="Sensitometry Name"/>
+    <entry group="0019" element="1015" vr="LO" vm="1" name="Dose Monitoring List"/>
+    <entry group="0019" element="101A" vr="LO" vm="1" name="Clipped Exposure Deviation"/>
+    <entry group="0019" element="101B" vr="LO" vm="1" name="Logarithmic PLT Full Scale"/>
+    <entry group="0019" element="1060" vr="US" vm="1" name="Total number of series"/>
+    <entry group="0019" element="1062" vr="SH" vm="1" name="ID Station name"/>
+    <entry group="0019" element="1065" vr="US" vm="1" name="Number of images in study to be transmitted (only sent with autoverify: on)"/>
+    <entry group="0019" element="1070" vr="US" vm="1" name="Total number of images"/>
+    <entry group="0019" element="1080" vr="ST" vm="1" name="Geometrical Transformations"/>
+    <entry group="0019" element="1081" vr="ST" vm="1" name="Roam Origin"/>
+    <entry group="0019" element="1082" vr="US" vm="1" name="Zoom factor"/>
+    <entry group="0019" element="1093" vr="CS" vm="1" name="Status"/>
+  </dict>
+</dicts>

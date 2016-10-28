@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget 
+ $ pdftotext  -layout -nopgbrk
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.gehealthcare.com/usen/xr/dicom/docs/cs_dlxc11.pdf">
+  <dict ref="4-5" name="PRIVATE DATA DICTIONARY FOR SECONDARY CAPTURE" owner="DLX_LKUP_01">
+    <entry group="60nn" element="00xx" name="Private Creator LKUP_01" vm="1" vr="LO"/>
+    <entry group="60nn" element="xx01" name="Gray Palette color lookup table descriptor" vm="3" vr="LT"/>
+    <entry group="60nn" element="xx02" name="Gray Palette color lookup table data" vm="1" vr="LT"/>
+  </dict>
+  <dict owner="DLX_PATNT_01">
+    <entry group="0011" element="00xx" vr="LO" vm="1" name="Private Creator PATIENT_01"/>
+    <entry group="0011" element="xx01" vr="LT" vm="1" name="Patient DOB"/>
+  </dict>
+  <dict owner="DLX_EXAMS_01">
+    <entry group="0015" element="00xx" vr="LO" vm="1" name="Private Creator EXAM_01"/>
+    <entry group="0015" element="xx01" vr="DS" vm="1" name="Stenos_calibr_ratio;"/>
+    <entry group="0015" element="xx02" vr="DS" vm="1" name="Stenos_magnification;"/>
+    <entry group="0015" element="xx03" vr="DS" vm="1" name="Cardiac_calibr_ratio;"/>
+  </dict>
+  <dict owner="DLX_SERIE_01">
+    <entry group="0019" element="00xx" vr="LO" vm="1" name="Private Creator SERIE_01"/>
+    <entry group="0019" element="xx01" vr="DS" vm="1" name="Angle_value_1"/>
+    <entry group="0019" element="xx02" vr="DS" vm="1" name="Angle_value_2"/>
+    <entry group="0019" element="xx03" vr="DS" vm="1" name="Angle_value_3"/>
+    <entry group="0019" element="xx04" vr="CS" vm="1" name="Angle_label_1"/>
+    <entry group="0019" element="xx05" vr="CS" vm="1" name="Angle_label_2"/>
+    <entry group="0019" element="xx06" vr="CS" vm="1" name="Angle_label_3"/>
+    <entry group="0019" element="xx07" vr="ST" vm="1" name="Adx_procedure_name"/>
+    <entry group="0019" element="xx08" vr="ST" vm="1" name="Adx_exam_name"/>
+    <entry group="0019" element="xx09" vr="SH" vm="1" name="Adx_patient_size"/>
+    <entry group="0019" element="000A" vr="IS" vm="1" name="Acq_record view"/>
+    <entry group="0019" element="xx10" vr="DS" vm="1" name="Adx_injector_delay"/>
+    <entry group="0019" element="xx11" vr="CS" vm="1" name="Adx_auto_inject"/>
+    <entry group="0019" element="xx14" vr="IS" vm="1" name="Adx_acq_mod"/>
+    <entry group="0019" element="xx15" vr="CS" vm="1" name="Adx_camera_rotation_enable"/>
+    <entry group="0019" element="xx16" vr="CS" vm="1" name="Adx_reverse_sweep"/>
+    <entry group="0019" element="xx17" vr="IS" vm="1" name="Cur_spatial_filter_strength"/>
+    <entry group="0019" element="xx18" vr="IS" vm="1" name="Zoom_factor"/>
+    <entry group="0019" element="xx19" vr="IS" vm="1" name="X_zoom"/>
+    <entry group="0019" element="xx1A" vr="IS" vm="1" name="Y_zoom"/>
+    <entry group="0019" element="xx1B" vr="DS" vm="1" name="Adx_focus"/>
+    <entry group="0019" element="xx1C" vr="CS" vm="1" name="Adx_dose"/>
+    <entry group="0019" element="xx1D" vr="IS" vm="1" name="Side_mark"/>
+    <entry group="0019" element="xx1E" vr="IS" vm="1" name="Percentage_landscape"/>
+    <entry group="0019" element="xx1F" vr="DS" vm="1" name="Adx_exposure_duration"/>
+  </dict>
+  <dict owner="DLX_ANNOT_01">
+    <entry group="70nn" element="00xx" vr="LO" vm="1" name="Private Creator ANNOT_01"/>
+    <entry group="70nn" element="xx04" vr="ST" vm="1" name="Text_annotation"/>
+    <entry group="70nn" element="xx05" vr="IS" vm="2" name="Box"/>
+    <entry group="70nn" element="xx07" vr="IS" vm="2" name="Arrow end"/>
+  </dict>
+</dicts>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ See also DICOM_CRConsole.xml
+ $ wget http://www.fujifilmmedical.fr/up/File/DICOM/fcr_dicom-Flash%20IIP_CR%20Console.pdf
+ $ pdftotext -layout -nopgbrk -f 27 fcr_dicom-Flash\ IIP_CR\ Console.pdf fcr_dicom-Flash\ IIP_CR\ Console.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+NOTE:
+  SI -> IS (0019,0071)
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<!--
+-->
+<dicts edition="2008" url="http://www.fujifilmmedical.fr/up/File/DICOM/fcr_dicom-Flash%20IIP_CR%20Console.pdf">
+<dict owner="FDMS 1.0">
+<entry group="0009" element="xx04" vr="SH" type="3" name="Image Control Unit"/>
+<entry group="0009" element="xx05" vr="OW" type="3" name="Image UID"/>
+<entry group="0009" element="xx06" vr="OW" type="3" name="Route Image UID"/>
+<entry group="0009" element="xx08" vr="UL" type="3" name="Image Display Information"/>
+<entry group="0009" element="xx09" vr="UL" type="3" name="Patient Information"/>
+<entry group="0009" element="xx0C" vr="OW" type="3" name="Film UID"/>
+<entry group="0009" element="xx10" vr="CS" type="3" name="Exposure Unit Type Code"/>
+<entry group="0009" element="xx80" vr="LO" type="3" name="Kanji Hospital Name"/>
+<entry group="0009" element="xx90" vr="ST" type="3" name="Distribution Code"/>
+<entry group="0009" element="xx92" vr="SH" type="3" name="Kanji Department Name"/>
+<entry group="0009" element="xxF0" vr="CS" type="3" name="Blackening Process Flag"/>
+<entry group="0009" element="xxF1" vr="ST" type="1C" name="Processing Information"/>
+<entry group="0021" element="xx10" vr="CS" type="3" name="FCR Image ID"/>
+<entry group="50F1" element="xx20" vr="CS" type="3" name="Image Processing"/>
+<entry group="0029" element="xx50" vr="CS" type="3" name="Data Compression Code"/>
+<entry group="0025" element="xx10" vr="US" type="3" name="Relative Light Emission"/>
+<entry group="0025" element="xx11" vr="US" type="3" name="Term of Correction for"/>
+<entry group="0025" element="xx12" vr="US" type="3" name="Reading Gain Gp"/>
+<entry group="0019" element="xx15" vr="LO" type="3" name="Kanji Body Part for"/>
+<entry group="0019" element="xx32" vr="LO" type="3" name="Kanji Menu Name"/>
+<entry group="0019" element="xx40" vr="CS" type="3" name="Image Processing Type"/>
+<entry group="0019" element="xx50" vr="CS" type="3" name="EDR Mode"/>
+<entry group="0019" element="xx60" vr="SH" type="3" name="Radiographer's Code"/>
+<entry group="0019" element="xx70" vr="IS" type="3" name="Split Exposure Format"/>
+<entry group="0019" element="xx71" vr="IS" type="3" name="No. of Split Exposure"/>
+<entry group="0019" element="xx80" vr="IS" type="3" name="Reading Position"/>
+<entry group="0019" element="xx81" vr="IS" type="3" name="Reading Sensitivity"/>
+<entry group="0021" element="xx30" vr="CS" type="3" name="Set No."/>
+<entry group="0021" element="xx40" vr="IS" type="3" name="Image No. in the Set"/>
+<entry group="0021" element="xx50" vr="CS" type="3" name="Pair Processing"/>
+<entry group="0021" element="xx80" vr="OB" type="3" name="Equipment Type-Specific"/>
+<entry group="50F1" element="xx06" vr="CS" type="3" name="Energy Subtraction"/>
+<entry group="50F1" element="xx07" vr="CS" type="3" name="Subtraction Registration"/>
+<entry group="50F1" element="xx08" vr="CS" type="1C" name="Energy Subtraction Param."/>
+<entry group="50F1" element="xx09" vr="SL" type="1C" name="Afin Conversion"/>
+<entry group="50F1" element="xx0A" vr="SH" type="1C" name="FNC Parameters"/>
+<entry group="0019" element="xx90" vr="SH" type="3" name="Film Annotation"/>
+<entry group="0019" element="xx91" vr="SH" type="3" name="Film Annotation"/>
+<entry group="2011" element="xx11" vr="CS" type="3" name="Image Position"/>
+<entry group="50F1" element="xx10" vr="CS" type="3" name="Film Output Format"/>
+<entry group="0029" element="xx20" vr="CS" type="3" name="Image Scanning"/>
+<entry group="0029" element="xx30" vr="CS" type="3" name="Extended Reading Size"/>
+<entry group="0029" element="xx34" vr="US" type="3" name="Mag./Reduc. Ratio"/>
+<entry group="0029" element="xx44" vr="CS" type="3" name="Line Density Code"/>
+<entry group="0009" element="00xx" vr="LO" type="1C" name="Private Creator"/>
+<entry group="0019" element="00xx" vr="LO" type="1C" name="Private Creator"/>
+<entry group="0021" element="00xx" vr="LO" type="1C" name="Private Creator"/>
+<entry group="0023" element="00xx" vr="LO" type="1C" name="Private Creator"/>
+<entry group="0025" element="00xx" vr="LO" type="1C" name="Private Creator"/>
+<entry group="0027" element="00xx" vr="LO" type="1C" name="Private Creator"/>
+<entry group="0029" element="00xx" vr="LO" type="1C" name="Private Creator"/>
+<entry group="2011" element="00xx" vr="LO" type="1C" name="Private Creator"/>
+<entry group="50F1" element="00xx" vr="LO" type="1C" name="Private Creator"/>
+<entry group="0009" element="xx90" vr="ST" type="None" name="Distribution Code"/>
+<entry group="0019" element="XXA0" vr="SQ" type="1" name="Exposure Status Sequence"/>
+<entry group="0019" element="YY71" vr="IS" type="1" name="&gt;Exposure Division Count"/>
+<entry group="0019" element="YYA1" vr="CS" type="1" name="&gt;Exposure Status"/>
+<entry group="0019" element="YYA2" vr="CS" type="1" name="&gt;Exposure Kind"/>
+</dict>
+</dicts>

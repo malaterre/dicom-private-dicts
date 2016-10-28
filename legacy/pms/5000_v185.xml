@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ grep -e " [0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][13579BDFbdf]," /home/mmalaterre/Projects/gdcm/Sandbox/pms/5000_v185.txt > 5000_v185.xml  
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007">
+  <dict owner="ATL HDI V1.0">
+    <entry name="Private Creator Data            " group="0009" element="0010"/>
+    <entry name="Private                         " group="0009" element="1010"/>
+    <entry name="Private                         " group="0009" element="1020"/>
+    <entry name="Private                         " group="0009" element="1030"/>
+    <entry name="Private                         " group="0009" element="1040"/>
+    <entry name="Private                         " group="0009" element="1050"/>
+    <entry name="Private                         " group="0009" element="1060"/>
+    <entry name="Private                         " group="0009" element="1070"/>
+    <entry name="Private                         " group="0009" element="1080"/>
+    <entry name="Private                         " group="0009" element="1090"/>
+    <entry name="Private                         " group="0009" element="1100"/>
+    <entry name="Private                         " group="0009" element="1160"/>
+    <entry name="Private                         " group="0009" element="1170"/>
+    <entry name="Private                         " group="0009" element="1180"/>
+    <entry name="Private                         " group="0009" element="1190"/>
+    <entry name="Private                         " group="0009" element="1191"/>
+    <entry name="Private                         " group="0009" element="1200"/>
+    <entry name="Private                         " group="0009" element="1210"/>
+    <entry name="Private                         " group="0009" element="1220"/>
+    <entry name="Private                         " group="0009" element="1230"/>
+    <entry name="Private                         " group="0009" element="1250"/>
+    <entry name="Private Creator Data Element    " group="0029" element="0060"/>
+    <entry name="Loop Mode                       " group="0029" element="6030"/>
+    <entry name="Trigger mode                    " group="0029" element="6031"/>
+    <entry name="Number of Loops                 " group="0029" element="6032"/>
+    <entry name="Loop Indexes                    " group="0029" element="6033"/>
+    <entry name="Loop Heart Rates                " group="0029" element="6034"/>
+    <entry name="Medications                     " group="0029" element="6035"/>
+  </dict>
+</dicts>

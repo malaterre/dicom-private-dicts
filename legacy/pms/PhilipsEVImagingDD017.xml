@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2009 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2009">
+<dict>
+<entry group="2007" element="00c1" vr="UI" vm="1" name="? SOP Instance UID ?" owner="Philips EV Imaging DD 017"/>
+<entry group="2007" element="00c2" vr="DA" vm="1" name="?" owner="Philips EV Imaging DD 017"/>
+<entry group="2007" element="00c3" vr="TM" vm="1" name="?" owner="Philips EV Imaging DD 017"/>
+<entry group="2007" element="00c4" vr="UL" vm="1" name="?" owner="Philips EV Imaging DD 017"/>
+</dict>
+</dicts>

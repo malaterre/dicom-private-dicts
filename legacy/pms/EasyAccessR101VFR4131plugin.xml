@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="">
+  <dict owner="SECTRA_Ident_01">
+    <entry name="Private creator code   " group="0009" element="00xx" vr="LO" vm="1"/>
+    <entry name="Request number         " group="0009" element="xx01" vr="LO" vm="1"/>
+    <entry name="Examination number     " group="0009" element="xx02" vr="LO" vm="1"/>
+    <entry name="Series ID              " group="0009" element="xx04" vr="LO" vm="1"/>
+    <entry name="Series Order           " group="0009" element="xx05" vr="LO" vm="1"/>
+    <entry name="File Name              " group="0009" element="xx06" vr="LO" vm="1"/>
+    <entry name="Image Data ID          " group="0009" element="xx07" vr="LO" vm="1"/>
+  </dict>
+  <dict owner="SECTRA_ImageInfo_01">
+    <entry name="Private creator code   " group="0029" element="00yy" vr="LO" vm="1"/>
+    <entry name="Image info             " group="0029" element="yy01" vr="OB" vm="1"/>
+    <entry name="Marking                " group="0029" element="yy02" vr="CS" vm="1"/>
+    <entry name="No Decompression       " group="0029" element="yy03" vr="LO" vm="1"/>
+    <entry name="Image Info new         " group="0029" element="yy04" vr="OB" vm="1"/>
+  </dict>
+  <dict owner="SECTRA_OverlayInfo_01">
+    <entry name="Private creator code   " group="6001" element="00zz" vr="LO" vm="1"/>
+    <entry name="Sectra Overlay         " group="6001" element="zz01" vr="LO" vm="1"/>
+  </dict>
+  <dict owner="Philips EV Imaging DD 022">
+    <entry name="Volume Sequence Capture" group="2007" element="2512" vr="UN"/>
+    <entry name="Original SOP Instance   " group="2007" element="2517" vr="UN"/>
+  </dict>
+  <dict owner="Philips EV Imaging DD 021">
+    <entry name="Private Creator Group   " group="2007" element="0024" vr="LO"/>
+    <entry name="Vol Seg Edit Connectivity" group="2007" element="2404" vr="SL"/>
+<!--
+           Private creator code    0009,00FF    LO      ALWAYS      AUTO       SECTRA_Ident_01
+           Request number          0009,FF01    UN      ALWAYS      AUTO       -
+           Examination number      0009,FF02    UN      ALWAYS      AUTO       -
+           Private creator code    0029,00FE    LO      ALWAYS      AUTO       SECTRA_
+           Image info              0029,FE01    UN      ANAP        AUTO       -
+           Image Info new          0029,FE04    UN      ALWAYS      AUTO       -
+-->
+  </dict>
+</dicts>

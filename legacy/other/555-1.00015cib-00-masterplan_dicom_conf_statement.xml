@@ -1,0 +1,110 @@
+Private attributes                (3005,00xx)    3     Private creator group
+>lMean and lWindow                (3005,xx2A)    3     Mean and Window attribute
+Private attributes                (3005,00xx)    3     Private creator group
+>>Registration Type               (3005,xx20)    3     Valid AM Registration Types:
+>>Number of Point                 (3005,xx22)   1C     Number of point pairs per landmark registration
+>>AM Registration                 (3005,xx24)   1C     If lNumPointPairs > 0.
+                                  (3005,xx44)          prior to OTP 1.3 SP2.
+>>>AM Registration                (3005,xx26)   1C     Define a Point Pair:
+                                  (3005,xx46)          Tag id xx26 is obsolete and only present for objects created
+>>>AM Landmark                    (3005,xx28)   1C     String defining the registration name.
+                                  (3005,xx48)          prior to OTP 1.3 SP2.
+>>LNumSurfacePts                  (3005,xx24)   1C     Number of surface Points.
+                                  (3005,xx54)          prior to OTP 1.3 SP2.
+>>LNumIterationPts                (3005,xx26)   1C     Number of iteration Points.
+                                  (3005,xx56)          prior to OTP 1.3 SP2.
+>>AM Surface Point                (3005,xx28)   1C     lROI1Index\lROI2Index\ X1\Y1\Z1\X2\Y2\Z2
+                                  (3005,xx58)          prior to OTP 1.3 SP2.
+Private attributes                (3005,00xx)    3     Private creator group
+>AM Roi Private                   (3005,xx00)    3     Sequence for ROI attributes that do not exist in the
+>>bIsCompletedFlag                (3005,xx02)   1C     ROI completed (drawing done) or not
+>>lVisualizationType              (3005,xx04)   1C     Type of 3D visualization, e.g. solid, transparent, wire etc
+>>lOpacity                        (3005,xx06)   1C     The opacity, 0 to 100%, of a transparent 3D visualization
+>>lClosureType                    (3005,xx08)    1C     The type rendering at the top and/or bottom of an ROI,
+>>bHelperVisible                  (3005,xx0A)    1C     Help contours visible in 3D view or not
+>>bSlicedVisible                  (3005,xx0C)    1C     2D Contours visible in 3D view or not
+>>bVisible                        (3005,xx0E)    1C     ROI visible in views or not
+>>dVoxelSize                      (3005,xx10)    1C     The voxel size of the triangulation basis
+>>lTriangulationAlgorit           (3005,xx12)    1C     The algorithm for triangulation used for the ROI
+Private attributes                (3005,00xx)     3     Private creator group
+AM Next ROI Number                (3005,xx2C)     3     SCU - Provided as next unique ROI Number to be used
+Treatment Planning                (3005,xx59)     3     SCU - Provided if TPRP is defined in AM.
+>Treatment Planning               ( 3005,xx2E)   1C     SCU - Provided if TPRP is defined in AM.
+Number (TPRP)                                           Must be present if sequence (3005,xx59) is present
+>Treatment Planning               ( 3005,xx30)   1C     SCU - Provided if TPRP is defined in AM.
+TPRP) Frame Of                                          Must be present if sequence (3005,xx59) is present
+Private attributes                (3005,00xx)    3     Private creator group
+RT Plan Optimization              (3005,xx08)    3     Optimization status for RT Plan.
+RT Plan Calculation               (3005,xx0A)    3     Calculation status for RT Plan.
+Next Beam Number                  (3005,xx25)    3     SCU - Provided if RT Plan created by Oncentra MasterPlan
+ROI Optimization info             (3005,xx40)    3     SCU - Provided if RT Plan created by Oncentra MasterPlan
+> ROI Optimisation                (3005,xx41)          SCU - Provided if RT Plan created by Oncentra MasterPlan
+> Relative Standard               (3005,xx42)   1C     SCU - Provided if RT Plan created by Oncentra MasterPlan
+Optimization                      (3005,xx0D)    3     SCU - Provided if RT Plan created by Oncentra MasterPlan
+>Optimization                     (3005,xx0E)   1C     At least one item must be present if sequence is present.
+> Optimization                    (3005,xx10)   1C     Must be present if `Optimization Parameter Type' is present.
+Library Plan Info                 (3005,xx44)    3     Informational string about label and date of the library plan
+Private attributes                (3005,00xx)    3     Private creator group
+>Relative Standard                (3005,xx42)    3     Private information used by the optimizer.
+>Library Plan ROI Info            (3005,xx43)    3     Private information used for library plan handling.
+Private attributes                (3005,00xx)     3     Private creator group
+>> TMS Wedge                      (3005,xx22)     3     SCU - Provided if dose has been calculated and the private
+Fraction                                                tag Effective Wedge Angle (3005, xx24) has been provided.
+>> Effective Wedge                (3005,xx24)     3     SCU - Provided
+> TMS Beam Weight                 (3005,xx20)    3     SCU - Not provided
+Private attributes                (3005,00xx)       3     Private creator group
+>Optimization                     (3005,xx0C)       3     Sequence containing constraints and restrictions imposed on
+>>Optimization                    (3005,xx0E)    1C       Type of constraint to be imposed in optimization of RT Plan.
+Constraint Type                                           Required if Optimization Constraint Sequence (3005,xx0C) is
+>>Optimization                    (3005,xx10)    1C       Value of associated constraint type. Required if Optimization
+Constraint Value                                          Constraint Sequence (3005,xx0C) is sent.
+Private attributes                (3005,00xx)    3     Private creator group
+BM DRR Mean &                     (3005,xx00)    3     Mean and Window setting for display of an OTP DRR
+BM DRR Image                      (3005,xx02)    3     LNumObliqueImages\lBoneContrastEnhFactor\
+Magnification                     (3005,xx03)    3     Used for the film registration functionality to store data
+Dlg Focus Isocenter               (3005,xx04)    3     Used for the film registration functionality to store data
+Beam Direction                    (3005,xx05)    3     Used for the film registration functionality to store data
+Dlg Gantry Angle                  (3005,xx06)    3     Used for the film registration functionality to store data
+L-Arm Angle                       (3005,xx07)    3     Used for the film registration functionality to store data
+C-Arm Angle                       (3005,xx08)    3     Used for the film registration functionality to store data
+Dlg Isocenter Film                (3005,xx09)    3     Used for the film registration functionality to store data
+Reconstruction Angle              (3005,xx0A)    3     Used for the film registration functionality to store data
+Flip Horizontal                   (3005,xx0B)    3     Used for the film registration functionality to store data
+Flip Vertical                     (3005,xx0C)    3     Used for the film registration functionality to store data
+Reconstruction                    (3005,xx0D)    3     Defined term. One of:
+Dimension Cross Wire              (3005,xx0E)    3     Used for the film registration functionality to store data
+Distance Top Cross To             (3005,xx0F)    3     Used for the film registration functionality to store data
+Distance Bottom Cross             (3005,xx10)    3     Used for the film registration functionality to store data
+Distance Left Side                (3005,xx11)    3     Used for the film registration functionality to store data
+Distance Right Side               (3005,xx12)    3     Used for the film registration functionality to store data
+Large Cross Point 1               (3005,xx13)    3     Used for the film registration functionality to store data
+Large Cross Point 2                 (3005,xx14)        3   Used for the film registration functionality to store data
+Small Cross Point 1                 (3005,xx15)        3   Used for the film registration functionality to store data
+Small Cross Point 2                 (3005,xx16)        3   Used for the film registration functionality to store data
+Cross Translation                   (3005,xx17)        3   Used for the film registration functionality to store data
+Cross Angle                         (3005,xx18)        3   Used for the film registration functionality to store data
+ Private attributes               (3005,00xx)    3     Private creator group
+ Density Basis in Dose            (3005,xx00)    3     Basis for generating density matrix in dose calculation.
+ Dose Calculation                 (3005,xx04)    3     Sequence for specification of dose calculation algorithm for
+                                                       (3005,xx04) is sent.
+ >Dose Calculation                (3005,xx06)   1C     Specification of dose calculation algorithm for associated
+                                                       Sequence (3005,xx04) is sent.
+ >Algorithm Specific              (3005,xx17)    3     Sequence containing algorithm specific parameters
+ >>Algorithm Specific             (3005,xx18)   1C     Name of algorithm specific parameter. Required if Algorithm
+ Parameter Type                                        Specific Parameter Sequence (3005,xx17) is sent.
+ >>Algorithm Specific             (3005,xx19)   1C     Value of the specified parameter. Required if Algorithm
+ Parameter Value                                       Specific Parameter Sequence (3005,xx17) is sent.
+ >QA Parameters                   (3005,xx30)    3     Sequence containing control information for QA information
+ >>Request QA output              (3005,xx31    1C     Indicates whether QA output is requested or not. Required if
+ >>Line dose input file           (3005,xx32)   1C     Name of file for line dose output controlling information.
+ >>Line dose output file          (3005,xx33)   1C     Name of file for line dose output result. Shall be a file name,
+ External Axial                   (3005,xx16)    3     Extension in axial direction of the patient external contour
+ Gy Per Meterset                  (3005,xx23)    3     Gy per meterset (monitor unit or minute) for this dose
+Private attributes                (3005,00xx)    3     Private creator group
+>Gy Per Meterset                  (3005,xx23)    3     Gy per meterset for this particular dose point.
+>Dose Component                   (3005,xx26)    3     Introduces sequence of items specifying dose components
+>>Dose Component                  (3005,xx27)   1C     Dose component type.
+                                                       (3005,xx26) is sent.
+>>Dose Component                  (3005,xx28)   1C     Value of the dose component identified by Dose
+Value                                                  Component Type (3005,xx27). Required if Dose
+                                                       Component Sequence (3005,xx26) is sent.

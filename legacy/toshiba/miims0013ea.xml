@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.medical.toshiba.com/dicom/pdf/miims0013ea.pdf
+ $ pdftotext -nopgbrk -layout miims0013ea.pdf miims0013ea.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py miims0013ea.txt miims0013ea.xml
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.medical.toshiba.com/dicom/pdf/miims0013ea.pdf">
+  <dict ref="7.2" name="DATA DICTIONARY OF PRIVATE ATTRIBUTES">
+    <entry group="7019" element="xx71" vr="CS" vm="1" owner="TOSHIBA_MEC_OT3" name="Indicator of creator"/>
+    <entry group="7019" element="xx72" vr="LO" vm="1" owner="TOSHIBA_MEC_OT3" name="ID of quality assurance reviewer"/>
+    <entry group="7019" element="xx73" vr="PN" vm="1" owner="TOSHIBA_MEC_OT3" name="Name of quality assurance reviewer"/>
+    <entry group="7019" element="xx74" vr="DA" vm="1" owner="TOSHIBA_MEC_OT3" name="Date of completion of quality assurance"/>
+    <entry group="7019" element="xx75" vr="TM" vm="1" owner="TOSHIBA_MEC_OT3" name="Time of completion of quality assurance"/>
+    <entry group="7019" element="xx76" vr="LO" vm="1" owner="TOSHIBA_MEC_OT3" name="Host name of quality assurance station"/>
+    <entry group="7019" element="xx77" vr="CS" vm="1" owner="TOSHIBA_MEC_OT3" name="Station name and version of quality assurance station"/>
+    <entry group="7019" element="xx78" vr="CS" vm="1" owner="TOSHIBA_MEC_OT3" name="Flag of completion of quality assurance"/>
+    <entry group="7019" element="xx79" vr="CS" vm="1" owner="TOSHIBA_MEC_OT3" name="Status of quality assurance review"/>
+    <entry group="7019" element="xx7A" vr="UI" vm="1" owner="TOSHIBA_MEC_OT3" name="Original SOP Instance UID"/>
+    <entry group="7019" element="xx7B" vr="UI" vm="1" owner="TOSHIBA_MEC_OT3" name="Original Series Instance UID"/>
+    <entry group="7019" element="xx7C" vr="UI" vm="1" owner="TOSHIBA_MEC_OT3" name="Original Study Instance UID"/>
+    <entry group="7019" element="xx7D" vr="US" vm="1" owner="TOSHIBA_MEC_OT3" name="Rotation information for image display from original image"/>
+    <entry group="7019" element="xx7E" vr="SQ" vm="1" owner="TOSHIBA_MEC_OT3" name="Sequence of LR mark"/>
+    <entry group="7019" element="xx7F" vr="US" vm="1" owner="TOSHIBA_MEC_OT3" name="Rotation status at creation of LR mark"/>
+    <entry group="7019" element="xx80" vr="OB_OW" vm="1" owner="TOSHIBA_MEC_OT3" name="Original image data on area of original LR mark"/>
+    <entry group="7019" element="xx81" vr="SS" vm="1" owner="TOSHIBA_MEC_OT3" name="X start position of LR mark"/>
+    <entry group="7019" element="xx82" vr="SS" vm="1" owner="TOSHIBA_MEC_OT3" name="Y start position of LR mark"/>
+    <entry group="7019" element="xx83" vr="US" vm="1" owner="TOSHIBA_MEC_OT3" name="Size of LR mark in X direction"/>
+    <entry group="7019" element="xx84" vr="US" vm="1" owner="TOSHIBA_MEC_OT3" name="Size of LR mark in Y direction"/>
+    <entry group="7019" element="xx85" vr="LO" vm="1" owner="TOSHIBA_MEC_OT3" name="Previous Patient ID"/>
+    <entry group="7019" element="xx86" vr="CS" vm="1" owner="TOSHIBA_MEC_OT3" name="Previous modality"/>
+  </dict>
+</dicts>

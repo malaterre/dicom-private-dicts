@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.medical.siemens.com/siemens/en_AU/rg_marcom_FBAs/files/brochures/DICOM/ax/DCS_AXIOM_Artis_VB22.pdf
+ $ pdftotext -nopgbrk -layout -f 106 -l 109 DCS_AXIOM_Artis_VB22.pdf DCS_AXIOM_Artis_VB22.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py DCS_AXIOM_Artis_VB22.txt DCS_AXIOM_Artis_VB22.xml
+
+NOTE:
+  Handling of 0025 group was a pain...
+
+Manual change:
+
+-    <entry group="0021" element="xx1E" vr="US" vm="8" owner="SIEMENS SMS-AX  ACQ 1.0" name="EVE"/>
++    <entry group="0021" element="xx1E" vr="US" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="EVE"/>
+
+Input was taken from : mas_06_s_dicom_fs.pdf
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.medical.siemens.com/siemens/en_AU/rg_marcom_FBAs/files/brochures/DICOM/ax/DCS_AXIOM_Artis_VB22.pdf">
+  <dict ref="A.3" name="Registry of private DICOM Data Elements">
+    <entry group="0019" element="xx00" vr="US" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Review Mode"/>
+    <entry group="0019" element="xx01" vr="US" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Anatomical Background Percent"/>
+    <entry group="0019" element="xx02" vr="US" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Number of Phases"/>
+    <entry group="0019" element="xx03" vr="US" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Apply Anatomical Background"/>
+    <entry group="0019" element="xx04" vr="SS" vm="4-4n" owner="SIEMENS SMS-AX  VIEW 1.0" name="Pixelshift Array"/>
+    <entry group="0019" element="xx05" vr="US" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Brightness"/>
+    <entry group="0019" element="xx06" vr="US" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Contrast"/>
+    <entry group="0019" element="xx07" vr="US" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Enabled"/>
+    <entry group="0019" element="xx08" vr="US" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Native Edge Enh. Percent Gain"/>
+    <entry group="0019" element="xx09" vr="SS" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Native Edge Enh. LUT Index"/>
+    <entry group="0019" element="xx0A" vr="SS" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Native Edge Enh. Kernel Size"/>
+    <entry group="0019" element="xx0B" vr="US" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Subtr. Edge Enh. Percent Gain"/>
+    <entry group="0019" element="xx0C" vr="SS" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Subtr. Edge Enh. LUT Index"/>
+    <entry group="0019" element="xx0D" vr="SS" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Subtr. Edge Enh. Kernel Size"/>
+    <entry group="0019" element="xx0E" vr="US" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Fade Percent"/>
+    <entry group="0019" element="xx0F" vr="US" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Flipped Befor Laterality Applied"/>
+    <entry group="0019" element="xx10" vr="US" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Apply Fade"/>
+    <entry group="0019" element="xx12" vr="US" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Zoom"/>
+    <entry group="0019" element="xx13" vr="SS" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Pan X"/>
+    <entry group="0019" element="xx14" vr="SS" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Pan Y"/>
+    <entry group="0019" element="xx15" vr="SS" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Native Edge Enh. Adv Perc. Gain"/>
+    <entry group="0019" element="xx16" vr="SS" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Subtr. Edge Enh. Adv Perc. Gain"/>
+    <entry group="0019" element="xx17" vr="US" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Invert Flag"/>
+    <entry group="0019" element="xx1A" vr="OB" vm="1" owner="SIEMENS SMS-AX  VIEW 1.0" name="Quant 1K Overlay"/>
+    <entry group="0021" element="xx00" vr="US" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Acquisition Type"/>
+    <entry group="0021" element="xx01" vr="US" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Acquisition Mode"/>
+    <entry group="0021" element="xx02" vr="US" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Footswitch Index"/>
+    <entry group="0021" element="xx03" vr="US" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Acquisition Room"/>
+    <entry group="0021" element="xx04" vr="SL" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Current Time Product"/>
+    <entry group="0021" element="xx05" vr="SL" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Dose"/>
+    <entry group="0021" element="xx06" vr="SL" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Skin Dose Percent"/>
+    <entry group="0021" element="xx07" vr="SL" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Skin Dose Accumulation"/>
+    <entry group="0021" element="xx08" vr="SL" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Skin Dose Rate"/>
+    <entry group="0021" element="xx0A" vr="UL" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Copper Filter"/>
+    <entry group="0021" element="xx0B" vr="US" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Measuring Field"/>
+    <entry group="0021" element="xx0C" vr="SS" vm="3" owner="SIEMENS SMS-AX  ACQ 1.0" name="Post Blanking Circle"/>
+    <entry group="0021" element="xx0D" vr="SS" vm="2-2n" owner="SIEMENS SMS-AX  ACQ 1.0" name="Dyna Angles"/>
+    <entry group="0021" element="xx0E" vr="SS" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Total Steps"/>
+    <entry group="0021" element="xx0F" vr="SL" vm="3-3n" owner="SIEMENS SMS-AX  ACQ 1.0" name="Dyna X-Ray Info"/>
+    <entry group="0021" element="xx10" vr="US" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Modality LUT Input Gamma"/>
+    <entry group="0021" element="xx11" vr="US" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Modality LUT Output Gamma"/>
+    <entry group="0021" element="xx12" vr="OB" vm="1-n" owner="SIEMENS SMS-AX  ACQ 1.0" name="SH_STPAR"/>
+    <entry group="0021" element="xx13" vr="US" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Acquisition Zoom"/>
+    <entry group="0021" element="xx14" vr="SS" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Dyna Angulation Step Width"/>
+    <entry group="0021" element="xx15" vr="US" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Harmonization"/>
+    <entry group="0021" element="xx16" vr="US" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="DR Single Flag"/>
+    <entry group="0021" element="xx17" vr="SL" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Source to Isocenter"/>
+    <entry group="0021" element="xx18" vr="US" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Pressure Data"/>
+    <entry group="0021" element="xx19" vr="SL" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="ECG Index Array"/>
+    <entry group="0021" element="xx1A" vr="US" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="FD Flag"/>
+    <entry group="0021" element="xx1B" vr="OB" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="SH_ZOOM"/>
+    <entry group="0021" element="xx1C" vr="OB" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="SH_COLPAR"/>
+    <entry group="0021" element="xx1D" vr="US" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="K-Factor"/>
+    <entry group="0021" element="xx1E" vr="US" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="EVE"/>
+    <entry group="0021" element="xx1F" vr="SL" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Total Scene Time"/>
+    <entry group="0021" element="xx20" vr="US" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Restore Flag"/>
+    <entry group="0021" element="xx21" vr="US" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Stand Movement Flag"/>
+    <entry group="0021" element="xx22" vr="US" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="FD Rows"/>
+    <entry group="0021" element="xx23" vr="US" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="FD Columns"/>
+    <entry group="0021" element="xx24" vr="US" vm="1" owner="SIEMENS SMS-AX  ACQ 1.0" name="Table Movement Flag"/>
+    <entry group="0023" element="xx00" vr="DS" vm="2" owner="SIEMENS SMS-AX  QUANT 1.0" name="Horizontal Calibration Pixel Size"/>
+    <entry group="0023" element="xx01" vr="DS" vm="2" owner="SIEMENS SMS-AX  QUANT 1.0" name="Vertical Calibration Pixel Size"/>
+    <entry group="0023" element="xx02" vr="LO" vm="1" owner="SIEMENS SMS-AX  QUANT 1.0" name="Calibration Object"/>
+    <entry group="0023" element="xx03" vr="DS" vm="1" owner="SIEMENS SMS-AX  QUANT 1.0" name="Calibration Object Size"/>
+    <entry group="0023" element="xx04" vr="LO" vm="1" owner="SIEMENS SMS-AX  QUANT 1.0" name="Calibration Method"/>
+    <entry group="0023" element="xx05" vr="ST" vm="1" owner="SIEMENS SMS-AX  QUANT 1.0" name="Filename"/>
+    <entry group="0023" element="xx06" vr="IS" vm="1" owner="SIEMENS SMS-AX  QUANT 1.0" name="Frame Number"/>
+    <entry group="0023" element="xx07" vr="IS" vm="2" owner="SIEMENS SMS-AX  QUANT 1.0" name="Calibration Factor Multiplicity"/>
+    <entry group="0025" element="xx00" vr="US" vm="1" owner="SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0" name="View Native"/>
+    <entry group="0025" element="xx01" vr="US" vm="1" owner="SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0" name="Original Series Number"/>
+    <entry group="0025" element="xx02" vr="US" vm="1" owner="SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0" name="Original Image Number"/>
+    <entry group="0025" element="xx03" vr="US" vm="1" owner="SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0" name="Win Center"/>
+    <entry group="0025" element="xx04" vr="US" vm="1" owner="SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0" name="Win Width"/>
+    <entry group="0025" element="xx05" vr="US" vm="1" owner="SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0" name="Win Brightness"/>
+    <entry group="0025" element="xx06" vr="US" vm="1" owner="SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0" name="Win Contrast"/>
+    <entry group="0025" element="xx07" vr="US" vm="1" owner="SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0" name="Original Frame Number"/>
+    <entry group="0025" element="xx08" vr="US" vm="1" owner="SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0" name="Original Mask Frame Number"/>
+    <entry group="0025" element="xx09" vr="US" vm="1" owner="SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0" name="Opac"/>
+    <entry group="0025" element="xx0A" vr="US" vm="1" owner="SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0" name="Original Number of Frames"/>
+    <entry group="0025" element="xx0B" vr="DS" vm="1" owner="SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0" name="Original Scene Duration"/>
+    <entry group="0025" element="xx0C" vr="LO" vm="1" owner="SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0" name="Identifier LOID"/>
+    <entry group="0025" element="xx0D" vr="SS" vm="1-n" owner="SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0" name="Original Scene VFR Info"/>
+    <entry group="0025" element="xx0E" vr="SS" vm="1" owner="SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0" name="Original Frame ECG Position"/>
+    <entry group="0025" element="xx0F" vr="SS" vm="1" owner="SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0" name="Original ECG 1st Frame Offset (retired)"/>
+    <entry group="0025" element="xx10" vr="SS" vm="1" owner="SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0" name="Zoom Flag"/>
+    <entry group="0025" element="xx11" vr="AA" vm="0" owner="SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0" name="reserved"/>
+    <entry group="0025" element="xx12" vr="US" vm="1" owner="SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0" name="Number of Mask Frames"/>
+    <entry group="0025" element="xx13" vr="US" vm="1" owner="SIEMENS SMS-AX  ORIGINAL IMAGE INFO 1.0" name="Number of Fill Frames"/>
+    <entry group="0029" element="xx08" vr="CS" vm="1" owner="SIEMENS CSA NON-IMAGE" name="CSA Data Type"/>
+    <entry group="0029" element="xx09" vr="LO" vm="1" owner="SIEMENS CSA NON-IMAGE" name="CSA Data Version"/>
+    <entry group="0029" element="xx10" vr="OB" vm="1" owner="SIEMENS CSA NON-IMAGE" name="CSA Data Info"/>
+    <entry group="0029" element="xx08" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="MedCom Header Type"/>
+    <entry group="0029" element="xx09" vr="LO" vm="1" owner="SIEMENS MEDCOM HEADER" name="MedCom Header Version"/>
+    <entry group="0029" element="xx10" vr="OB" vm="1" owner="SIEMENS MEDCOM HEADER" name="MedCom Header Info"/>
+    <entry group="0029" element="xx20" vr="OB" vm="1" owner="SIEMENS MEDCOM HEADER" name="MedCom History Information"/>
+    <entry group="0029" element="xx31" vr="LO" vm="1" owner="SIEMENS MEDCOM HEADER" name="PMTF Information 1"/>
+    <entry group="0029" element="xx32" vr="UL" vm="1" owner="SIEMENS MEDCOM HEADER" name="PMTF Information 2"/>
+    <entry group="0029" element="xx33" vr="UL" vm="1" owner="SIEMENS MEDCOM HEADER" name="PMTF Information 3"/>
+    <entry group="0029" element="xx34" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="PMTF Information 4"/>
+    <entry group="0029" element="xx35" vr="UL" vm="1" owner="SIEMENS MEDCOM HEADER" name="PMTF Information 5"/>
+    <entry group="0029" element="xx40" vr="SQ" vm="1" owner="SIEMENS MEDCOM HEADER" name="Application Header Sequence"/>
+    <entry group="0029" element="xx41" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Application Header Type"/>
+    <entry group="0029" element="xx42" vr="LO" vm="1" owner="SIEMENS MEDCOM HEADER" name="Application Header ID"/>
+    <entry group="0029" element="xx43" vr="LO" vm="1" owner="SIEMENS MEDCOM HEADER" name="Application Header Version"/>
+    <entry group="0029" element="xx44" vr="OB" vm="1" owner="SIEMENS MEDCOM HEADER" name="Application Header Info"/>
+    <entry group="0029" element="xx50" vr="LO" vm="8" owner="SIEMENS MEDCOM HEADER" name="Workflow Control Flags"/>
+    <entry group="0029" element="xx51" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Arch. Management Flag Keep Online"/>
+    <entry group="0029" element="xx52" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Arch. Mgmnt Flag Do Not Archive"/>
+    <entry group="0029" element="xx53" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Image Location Status"/>
+    <entry group="0029" element="xx54" vr="DS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Estimated Retrieve Time"/>
+    <entry group="0029" element="xx55" vr="DS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Data Size of Retrieved Images"/>
+    <entry group="0029" element="xx60" vr="LO" vm="1" owner="SIEMENS MEDCOM HEADER2" name="Series Workflow Status"/>
+    <entry group="0029" element="xx08" vr="CS" vm="1" owner="SIEMENS MEDCOM OOG" name="MedCom OOG Type"/>
+    <entry group="0029" element="xx09" vr="LO" vm="1" owner="SIEMENS MEDCOM OOG" name="MedCom OOG Version"/>
+    <entry group="0029" element="xx10" vr="OB" vm="1" owner="SIEMENS MEDCOM OOG" name="MedCom OOG Info"/>
+    <entry group="0029" element="xx00" vr="SQ" vm="1" owner="CARDIO-D.R. 1.0" name="Standard Edge Enhancement Sequence"/>
+    <entry group="0029" element="xx01" vr="US" vm="2" owner="CARDIO-D.R. 1.0" name="Convolution Kernel Size"/>
+    <entry group="0029" element="xx02" vr="US" vm="1-n" owner="CARDIO-D.R. 1.0" name="Convolution Kernel Coefficients"/>
+    <entry group="0029" element="xx03" vr="FL" vm="1" owner="CARDIO-D.R. 1.0" name="Edge Enhancement Gain"/>
+    <entry group="7FE1" element="xx10" vr="OB" vm="1" owner="SIEMENS CSA NON-IMAGE" name="CSA Data"/>
+  </dict>
+</dicts>

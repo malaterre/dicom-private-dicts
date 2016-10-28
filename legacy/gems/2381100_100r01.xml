@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget www.gehealthcare.com/usen/interoperability/dicom/docs/2381100_100r01.pdf
+ $ pdftotext -nopgbrk -layout -f 119 -l 119 2381100_100r01.pdf 2381100_100r01.txt 
+ $ pdftotext -nopgbrk -layout -f 101 -l 102 2381100_100r01.pdf 2381100_100r01-2.txt   
+ <some minor manual cleaning>
+ $ python txt2xml.py 2381100_100r01.txt 2381100_100r01.xml
+ $ python txt2xml.py 2381100_100r01-2.txt 2381100_100r01-2.xml
+
+TODO:
+ The conversion process lost the type...
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.gehealthcare.com/usen/interoperability/dicom/docs/2381100_100r01.pdf">
+  <dict ref="TABLE 6-1" name="PRIVATE CREATOR IDENTIFICATION" owner="GEMS_AWSoft_SB1">
+    <entry group="0039" element="XX50" vr="UI" vm="1" name="Reference to Study UID"/>
+    <entry group="0039" element="XX51" vr="UI" vm="1" name="Reference to Series UID"/>
+    <entry group="0039" element="XX52" vr="IS" vm="1" name="Reference to Original Instance Number"/>
+  </dict>
+  <dict ref="TABLE 6.5-2" name="PRIVATE CREATOR IDENTIFICATION" owner="GEMS_IDEN_01">
+    <entry group="0009" element="XX01" vr="LO" vm="1" name="Full fidelity"/>
+    <entry group="0009" element="XX02" vr="SH" vm="1" name="Suite id"/>
+    <entry group="0009" element="XX04" vr="SH" vm="1" name="Product id"/>
+    <entry group="0009" element="XX27" vr="SL" vm="1" name="Image actual date"/>
+    <entry group="0009" element="XX30" vr="SH" vm="1" name="Service id"/>
+    <entry group="0009" element="XX31" vr="SH" vm="1" name="Mobile location number"/>
+    <entry group="0009" element="XXE3" vr="UI" vm="1" name="Equipment UID"/>
+    <entry group="0009" element="XXE6" vr="SH" vm="1" name="Genesis Version - now"/>
+    <entry group="0009" element="XXE7" vr="UL" vm="1" name="Exam Record checksum"/>
+    <entry group="0009" element="XXE8" vr="SH" vm="1" name="Series Suite Id"/>
+    <entry group="0009" element="XXE9" vr="SL" vm="1" name="Actual series data time stamp"/>
+  </dict>
+  <dict ref="TABLE 6.5-3" name="PRIVATE CREATOR IDENTIFICATION" owner="GEMS_RELA_01">
+    <entry group="0021" element="XX03" vr="SS" vm="1" name="Series from which Prescribed"/>
+    <entry group="0021" element="XX05" vr="SH" vm="1" name="Genesis Version - now"/>
+    <entry group="0021" element="XX07" vr="UL" vm="1" name="Series Record checksum"/>
+    <entry group="0021" element="XX37" vr="SS" vm="1" name="Screen Format"/>
+  </dict>
+  <dict ref="TABLE 6.5-4" name="PRIVATE CREATOR IDENTIFICATION" owner="GEMS_SERS_01">
+    <entry group="0025" element="XX07" vr="SL" vm="1" name="Images in Series"/>
+    <entry group="0025" element="XX19" vr="SL" vm="1" name="Last Instance Number used"/>
+    <entry group="0025" element="XX1A" vr="SH" vm="1" name="Primary Receiver Suite and"/>
+  </dict>
+  <dict ref="TABLE 6.5-5" name="PRIVATE CREATOR IDENTIFICATION" owner="GEMS_IMPS_01">
+    <entry group="0029" element="XX26" vr="SS" vm="1" name="Version of the hdr struct"/>
+    <entry group="0029" element="XX34" vr="SL" vm="1" name="Advantage comp. Overflow"/>
+    <entry group="0029" element="XX35" vr="SL" vm="1" name="Advantage comp. Underflow"/>
+  </dict>
+  <dict ref="TABLE 6.5-6" name="PRIVATE CREATOR IDENTIFICATION" owner="GEMS_PARM_01">
+    <entry group="0043" element="XX13" vr="SS" vm="5" name="Decon kernel parameters"/>
+  </dict>
+  <dict ref="TABLE 7-1" name="PRIVATE CREATOR IDENTIFICATION" owner="GEMS_AWSoft_SB1">
+  <entry name="Private Entity Launch Command" group="0039" element="XX95" vr="LO" vm="1" />
+</dict>
+  <dict ref="TABLE 8.5-1" name="PRIVATE CREATOR IDENTIFICATION" owner="GEMS_AWSOFT_CD1">
+    <entry group="0039" element="XX65" vr="UI" vm="1" name="Reference to Study UID"/>
+    <entry group="0039" element="XX70" vr="UI" vm="1" name="Reference to Series UID"/>
+    <entry group="0039" element="XX75" vr="IS" vm="1" name="Reference to Original Instance"/>
+    <entry group="0039" element="XX80" vr="IS" vm="1" name="DPO Number"/>
+    <!--entry group="0020" element="XX13" vr="IS" vm="1" name="DPO Number"/--><!-- typo in the official doc -->
+    <entry group="0039" element="XX85" vr="DA" vm="1" name="DPO Date"/>
+    <entry group="0039" element="XX90" vr="TM" vm="1" name="DPO Time"/>
+    <entry group="0039" element="XX95" vr="LO" vm="1" name="DPO Invocation String"/>
+    <entry group="0039" element="XXAA" vr="CS" vm="1" name="DPO type"/>
+    <entry group="0039" element="XXFF" vr="OB" vm="1" name="DPO data"/>
+  </dict>
+</dicts>

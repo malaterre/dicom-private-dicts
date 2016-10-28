@@ -1,0 +1,21 @@
+                            Private Group Identifier                        <0011, 0010>             LO
+                            Patient Locale                                  <0011, 1010>             CS
+                            Study Locale                                    <0011, 1020>             CS
+                            Study Folder                                    <0011, 1021>             CS
+                            Series Locale                                   <0011, 1030>             CS
+                            Series Protocol Modifications                   <0011, 1031>             CS
+                            Image Compression                               <0011, 1040>             CS
+                            Image Locale                                    <0011, 1042>             CS
+                            Pilot Tube Position                             <0011, 1050>             FD
+                            Reconstruction filter                           <0011, 1051>             CS
+                            Spiral Interpolation filter                     <0011, 1052>             CS
+                            Reconstruction Horizontal Center                <0011, 1053>             FD
+                            Reconstruction Vertical Center                  <0011, 1054>             FD
+                            Injector Flag                                   <0011, 1055>             CS
+                            Spiral Revolutions                              <0011, 1056>             FD
+                            Spiral Pitch                                    <0011, 1057>             FD
+                            Pilot Edge Enhancement                       <0011, 1058              CS
+                            Pilot Scan Type                              <0011, 1059>             CS
+                            Sampling                                     <0011, 105A>             FD
+                            Scan Type                                    <0011, 105B              CS
+                            CT Image Locale                              <0011, 105C>             CS

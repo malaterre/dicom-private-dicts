@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget www.medical.siemens.com/siemens/de_DE/rg_marcom_FBAs/files/brochures/DICOM/us/acuson/Antares5.0_DCSpublic.pdf
+ $ pdftotext -nopgbrk -layout -f 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="www.medical.siemens.com/siemens/de_DE/rg_marcom_FBAs/files/brochures/DICOM/us/acuson/Antares5.0_DCSpublic.pdf">
+  <dict owner="SIEMENS MED SMS USG ANTARES">
+    <entry name="Private Creator                        " group="0019" element="0001" type="3">
+      <description>     SIEMENS MED SMS USG ANTARES</description>
+    </entry>
+    <entry name="Private Creator Version                " group="0019" element="1000" type="3">
+      <description>     1.1</description>
+    </entry>
+    <entry name="Frame Rate                             " group="0019" element="1003" type="3">
+      <description>     in fps</description>
+    </entry>
+    <entry name="Burned in Graphics                     " group="0019" element="100C" type="3">
+      <description>     0 = Overlay, 1 = Graphics burned into pixel data</description>
+    </entry>
+    <entry name="SieClear Index                         " group="0019" element="100D" type="3">
+      <description>     Off, 1, 2, 3, 4</description>
+    </entry>
+    <entry name="B-Mode Submode                         " group="0019" element="1020" type="3">
+      <description>     GEN, THI, etc.</description>
+    </entry>
+    <entry name="B-Mode Dynamic Range                   " group="0019" element="1021" type="3">
+      <description>     in dB</description>
+    </entry>
+    <entry name="B-Mode Overall Gain                    " group="0019" element="1022" type="3">
+      <description>     in dB</description>
+    </entry>
+    <entry name="B-Mode Res/Speed Index                 " group="0019" element="1023" type="3">
+      <description>     Resolution Vs. Speed</description>
+    </entry>
+    <entry name="B-Mode Edge Enhance Index              " group="0019" element="1024" type="3">
+      <description/>
+    </entry>
+    <entry name="B-Mode Persistence Index               " group="0019" element="1025" type="3">
+      <description/>
+    </entry>
+    <entry name="B-Mode Map Index                       " group="0019" element="1026" type="3">
+      <description/>
+    </entry>
+    <entry name="B-Mode Tint Type                       " group="0019" element="102A" type="3">
+      <description>     0 = Grayscale, 1 = Color Balance, 2 = Pseudo Color</description>
+    </entry>
+    <entry name="B-Mode Tint Index                      " group="0019" element="102D" type="3">
+      <description/>
+    </entry>
+    <entry name="ClarifyVE Index                        " group="0019" element="102E" type="3">
+      <description>     Off, 1, 2, 3, 4, 5, 6, 7</description>
+    </entry>
+    <entry name="Image Flag                             " group="0019" element="103A" type="3">
+      <description>     1 = flagged image, 0 (or not present) = not flagged</description>
+    </entry>
+    <entry name="Color Flow state                       " group="0019" element="1040" type="3">
+      <description>     Low, Gen, High</description>
+    </entry>
+    <entry name="Color Flow Wall Filter Index           " group="0019" element="1041" type="3">
+      <description/>
+    </entry>
+    <entry name="Color Flow Submode                     " group="0019" element="1042" type="3">
+      <description>     Power, CDV, CDE, VEL</description>
+    </entry>
+    <entry name="Color Flow Overall Gain                " group="0019" element="1043" type="3">
+      <description>     in dB</description>
+    </entry>
+    <entry name="Color Flow Res/Speed Index             " group="0019" element="1044" type="3">
+      <description/>
+    </entry>
+    <entry name="Color Flow Smooth Index                " group="0019" element="1046" type="3">
+      <description/>
+    </entry>
+    <entry name="Color Flow Persistence Index           " group="0019" element="1047" type="3">
+      <description/>
+    </entry>
+    <entry name="Color Flow Map Index                   " group="0019" element="1048" type="3">
+      <description/>
+    </entry>
+    <entry name="Color Flow Priority Index              " group="0019" element="1049" type="3">
+      <description/>
+    </entry>
+    <entry name="Color Flow Maximum Velocity            " group="0019" element="1054" type="3">
+      <description>     in cm/sec</description>
+    </entry>
+    <entry name="Doppler Dynamic Range                  " group="0019" element="1060" type="3">
+      <description>     in dB</description>
+    </entry>
+    <entry name="Doppler Overall Gain                   " group="0019" element="1061" type="3">
+      <description>     in dB</description>
+    </entry>
+    <entry name="Doppler Wall Filter                    " group="0019" element="1062" type="3">
+      <description>     in Hz</description>
+    </entry>
+    <entry name="Doppler Gate Size                      " group="0019" element="1063" type="3">
+      <description>     in mm</description>
+    </entry>
+    <entry name="Doppler Map Index                      " group="0019" element="1065" type="3">
+      <description/>
+    </entry>
+    <entry name="Doppler Submode                        " group="0019" element="1066" type="3">
+      <description>     PW, CW, etc.</description>
+    </entry>
+    <entry name="Doppler Time/Freq Res Index            " group="0019" element="1069" type="3">
+      <description/>
+    </entry>
+    <entry name="Doppler Trace Inverted                 " group="0019" element="106A" type="3">
+      <description>      0, 1</description>
+    </entry>
+    <entry name="Doppler Tint Type                      " group="0019" element="106C" type="3">
+      <description>      0 = Grayscale, 1 = Color Balance, 2 = Pseudo Color</description>
+    </entry>
+    <entry name="Doppler Tint Index                     " group="0019" element="1072" type="3">
+      <description/>
+    </entry>
+    <entry name="M-Mode Dynamic Range                   " group="0019" element="1080" type="3">
+      <description>      in dB</description>
+    </entry>
+    <entry name="M-Mode Overall Gain                    " group="0019" element="1081" type="3">
+      <description>      in dB</description>
+    </entry>
+    <entry name="M-Mode Edge Enhance Index              " group="0019" element="1082" type="3">
+      <description/>
+    </entry>
+    <entry name="M-Mode Map Index                       " group="0019" element="1083" type="3">
+      <description/>
+    </entry>
+    <entry name="M-Mode Tint Type                       " group="0019" element="1086" type="3">
+      <description>     0 = Grayscale, 1 = Color Balance, 2 = Pseudo Color</description>
+    </entry>
+    <entry name="M-Mode Submode                         " group="0019" element="1087" type="3">
+      <description>     GEN</description>
+    </entry>
+    <entry name="M-Mode Tint Index                      " group="0019" element="1088" type="3">
+      <description/>
+    </entry>
+  </dict>
+  <dict owner="SIEMENS MEDCOM HEADER">
+    <entry name="MedCom Header Info - Private Creator   " group="0029" element="0010" type="3">
+      <description>      SIEMENS MEDCOM HEADER</description>
+    </entry>
+    <entry name="MedCom Header data                     " group="0029" element="1020" type="3">
+      <description/>
+    </entry>
+    <entry name="PMTF Information 1                     " group="0029" element="1031" type="3">
+      <description/>
+    </entry>
+    <entry name="PMTF Information 2                     " group="0029" element="1032" type="3">
+      <description/>
+    </entry>
+    <entry name="PMTF Information 3                     " group="0029" element="1033" type="3">
+      <description/>
+    </entry>
+    <entry name="PMTF Information 4                     " group="0029" element="1034" type="3">
+      <description>      DB TO DICOM</description>
+    </entry>
+</dict>
+<dict owner="SIEMENS MEDCOM OOG">
+    <entry name="MedCom OOG - Private Creator           " group="0029" element="0011" type="3" vr="LO" vm="1">
+      <description>      SIEMENS MEDCOM OOG</description>
+    </entry>
+    <entry name="MedCom OOG Type                        " group="0029" element="1108" type="3">
+      <description>      MEDCOM OOG 2</description>
+    </entry>
+    <entry name="MedCom OOG Version                     " group="0029" element="1109" type="3">
+      <description>      VE31F</description>
+    </entry>
+    <entry name="MedCom OOG Info                        " group="0029" element="1110" type="3">
+      <description/>
+    </entry>
+  </dict>
+  <dict owner="SIEMENS MED SMS USG ANTARES 3D VOLUME">
+    <entry name="Private Creator                     " group="0039" element="0010" type="1">
+      <description>SIEMENS MED SMS USG ANTARES 3D VOLUME</description>
+    </entry>
+    <entry name="Release Version                     " group="0039" element="1000" type="3">
+      <description>3.0.3</description>
+    </entry>
+    <entry name="VolumeAcquisitionDuration           " group="0039" element="1003" type="3"/>
+    <entry name="VolumeRawDataType                   " group="0039" element="1004" type="3">
+      <description>Data Type (Cartesian/Scan- Converted/PreScanConverted Format</description>
+    </entry>
+    <entry name="ScanType                            " group="0039" element="1005" type="3"/>
+    <entry name="ZlateralMin                         " group="0039" element="1006" type="3">
+      <description>Minimum span along the depth (wobble min.)</description>
+    </entry>
+    <entry name="ZlateralSpan                        " group="0039" element="1007" type="3">
+      <description>Span along the depth (wobble span)</description>
+    </entry>
+    <entry name="ZRadiusOfCurvature                  " group="0039" element="1008" type="3">
+      <description>Radius of curvature, in (wobble)</description>
+    </entry>
+    <entry name="WobbleCorrection                    " group="0039" element="1009" type="3">
+      <description>Wobbling shear correction factor (0.0 to 1.0)</description>
+    </entry>
+    <entry name="ScaleAlongWidth                     " group="0039" element="1010" type="3">
+      <description>Width scaling mm/pixel</description>
+    </entry>
+    <entry name="ScaleAlongHeight                    " group="0039" element="1011" type="3">
+      <description>Height scaling mm/pixel</description>
+    </entry>
+    <entry name="ScaleAlongDepth                     " group="0039" element="1012" type="3">
+      <description>Depth scaling mm/pixel</description>
+    </entry>
+    <entry name="BufferSize                          " group="0039" element="1013" type="3"/>
+    <entry name="AcquisitionRate                     " group="0039" element="1014" type="3">
+      <description>Time required to acquire one volume</description>
+    </entry>
+    <entry name="DepthMinCm                          " group="0039" element="1015" type="3">
+      <description>The min/start depth for the BImage</description>
+    </entry>
+    <entry name="IsLeftRightFlippedEn                " group="0039" element="1016" type="3">
+      <description>Whether the acquired images were Left/Right flipped</description>
+    </entry>
+    <entry name="IsUpDownFlippedEn                   " group="0039" element="1017" type="3">
+      <description>Whether the acquired images were up/down flipped</description>
+    </entry>
+    <entry name="IsVolumeGeomAccurate                " group="0039" element="1018" type="3">
+      <description>Is the volume passed is geometrically accurate (In order to display ruler)</description>
+    </entry>
+    <entry name="BByteMaskOffset                     " group="0039" element="1019" type="3">
+      <description>Bytemasks is the offset fro Mask data which is used for space leaping optimization in renderer</description>
+    </entry>
+    <entry name="BByteMaskSize                       " group="0039" element="1020" type="3">
+      <description>Size of the byte mask data</description>
+    </entry>
+    <entry name="DepthMaxCm                          " group="0039" element="1021" type="3">
+      <description>The max/end depth for the BImage</description>
+    </entry>
+    <entry name="AcqPlaneRotationDeg                 " group="0039" element="1022" type="3">
+      <description>Angle by which the volume is to be rotated around, normal to the Aquisition plane (Z axis) (in degrees)</description>
+    </entry>
+    <entry name="BeamAxialSpan                       " group="0039" element="1023" type="3">
+      <description>beam span, in mm</description>
+    </entry>
+    <entry name="BeamLateralMin                      " group="0039" element="1024" type="3">
+      <description>Min lateral angle</description>
+    </entry>
+    <entry name="BeamLateralSpan                     " group="0039" element="1025" type="3">
+      <description>Angular span</description>
+    </entry>
+    <entry name="BeamAxialMin                        " group="0039" element="1026" type="3">
+      <description>Axial min or radius of curvature in 2d</description>
+    </entry>
+    <entry name="NumDisplaySamples                   " group="0039" element="1027" type="3">
+      <description>Number of actual samples along each beam</description>
+    </entry>
+    <entry name="DVolumeWidth                        " group="0039" element="1028" type="3">
+      <description>Volume Width of the Power/Doppler Volume</description>
+    </entry>
+    <entry name="DVolumeDepth                        " group="0039" element="1029" type="3">
+      <description>Volume Depth of the Power/Doppler Volume</description>
+    </entry>
+    <entry name="DVolumeHeight                       " group="0039" element="1030" type="3">
+      <description>Volume Height of the Power/Doppler Volume</description>
+    </entry>
+    <entry name="DVolumePosX                         " group="0039" element="1031" type="3"/>
+    <entry name="DVolumePosY                         " group="0039" element="1032" type="3"/>
+    <entry name="DVolumePosZ                         " group="0039" element="1033" type="3"/>
+    <entry name="DBeamAxialMin                       " group="0039" element="1034" type="3">
+      <description>Axial min or radius of curvature in 2d for Power/Doppler</description>
+    </entry>
+    <entry name="DBeamAxialSpan                      " group="0039" element="1035" type="3"/>
+    <entry name="DBeamLateralMin                     " group="0039" element="1036" type="3">
+      <description>Min lateral angle for Power/Doppler</description>
+    </entry>
+    <entry name="DBeamLateralSpan                    " group="0039" element="1037" type="3">
+      <description>Angular span from Power/Doppler</description>
+    </entry>
+    <entry name="NumOfVolumesInSequence              " group="0039" element="1038" type="3">
+      <description>Number Of Volumes In Sequence</description>
+    </entry>
+    <entry name="DByteMaskOffset                     " group="0039" element="1039" type="3">
+      <description>Bytemasks is the offset for the mask data which is used for space leaping optimization in renderer when in Power/Doppler</description>
+    </entry>
+    <entry name="DByteMaskSize                       " group="0039" element="1040" type="3">
+      <description>Size of the byte mask data when in Power/Doppler</description>
+    </entry>
+    <entry name="PrivateCreatorVersionOfBookmark     " group="0039" element="1050" type="3">
+      <description>3.6.0</description>
+    </entry>
+    <entry name="BCutPlaneEnable                     " group="0039" element="1051" type="3">
+      <description>Cut-plane volume rendering for B data</description>
+    </entry>
+    <entry name="BMprColorMapIndex                   " group="0039" element="1052" type="3">
+      <description>Index of the tint colormap for MPR B data</description>
+    </entry>
+    <entry name="BMprDynamicRangeDb                  " group="0039" element="1053" type="3">
+      <description>dB value of dynamic range curve for MPR B data</description>
+    </entry>
+    <entry name="BMprGrayMapIndex                    " group="0039" element="1054" type="3">
+      <description>Index of the image enhancement LUT for the MPR B data</description>
+    </entry>
+    <entry name="BVolumeRenderMode                   " group="0039" element="1055" type="3">
+      <description>Volume rendering mode for B data</description>
+    </entry>
+    <entry name="BVrBrightness                       " group="0039" element="1056" type="3">
+      <description>Brightness value for the volume rendered B data</description>
+    </entry>
+    <entry name="BVrContrast                         " group="0039" element="1057" type="3">
+      <description>Contrast value for the volume rendered B data</description>
+    </entry>
+    <entry name="BVrColorMapIndex                    " group="0039" element="1058" type="3">
+      <description>Index of the tint colormap for the volume rendered B data</description>
+    </entry>
+    <entry name="BVrDynamicRangeDb                   " group="0039" element="1059" type="3">
+      <description>dB value of dynamic range curve for the volume rendered B data</description>
+    </entry>
+    <entry name="BVrGrayMapIndex                     " group="0039" element="105a" type="3">
+      <description>Index of the image enhancement LUT for the volume rendered B data</description>
+    </entry>
+    <entry name="BVrOpacity                          " group="0039" element="105b" type="3">
+      <description>Opacity percentage of the opacity curve used for the volume rendered B data</description>
+    </entry>
+    <entry name="BVrThresholdHigh                    " group="0039" element="105c" type="3">
+      <description>High threshold of the opacity curve used for the volume rendered B data</description>
+    </entry>
+    <entry name="BVrThresholdLow                     " group="0039" element="105d" type="3">
+      <description>Low threshold of the opacity curve used for the volume rendered B data</description>
+    </entry>
+    <entry name="BPreProcessFilterMix                " group="0039" element="105e" type="3">
+      <description>Mix percentage used for mixing filtered data for the volume rendered B data</description>
+    </entry>
+    <entry name="CCutPlaneEnable                     " group="0039" element="105f" type="3">
+      <description>Cut-plane volume rendering for B data</description>
+    </entry>
+    <entry name="CFrontClipMode                      " group="0039" element="1060" type="3">
+      <description>Flag indicating whether Niche and Parallel Cut edit operation will clip power data.</description>
+    </entry>
+    <entry name="CMprColorMapIndex                   " group="0039" element="1061" type="3">
+      <description>Index of the tint colormap for MPR power data</description>
+    </entry>
+    <entry name="CMprColorFlowPriorityIndex          " group="0039" element="1062" type="3">
+      <description>Threshold representing amount of power data cut from the MPR power data</description>
+    </entry>
+    <entry name="CVolumeRenderMode                   " group="0039" element="1063" type="3">
+      <description>Volume rendering mode for power data</description>
+    </entry>
+    <entry name="CVrColorMapIndex                    " group="0039" element="1064" type="3">
+      <description>Index of the tint colormap for the volume rendered power data</description>
+    </entry>
+    <entry name="CVrColorFlowPriorityIndex           " group="0039" element="1065" type="3">
+      <description>Threshold representing amount of power data cut from the volume rendered power data</description>
+    </entry>
+    <entry name="CVrOpacity                          " group="0039" element="1066" type="3">
+      <description>Opacity percentage of the opacity curve used for the volume rendered power data</description>
+    </entry>
+    <entry name="CVrThresholdHigh                    " group="0039" element="1067" type="3">
+      <description>High threshold of the opacity curve used for the volume rendered power data</description>
+    </entry>
+    <entry name="CVrThresholdLow                     " group="0039" element="1068" type="3">
+      <description>Low threshold of the opacity curve used for the volume rendered power data</description>
+    </entry>
+    <entry name="VoiMode                             " group="0039" element="1069" type="3">
+      <description>Flag indicating whether VOI is on or off</description>
+    </entry>
+    <entry name="VoiRotationOffsetDeg                " group="0039" element="106a" type="3">
+      <description>Fixed rotation applied to VOI</description>
+    </entry>
+    <entry name="VoiSizeRatioX                       " group="0039" element="106b" type="3">
+      <description>Width of VOI in relative units</description>
+    </entry>
+    <entry name="VoiSizeRatioY                       " group="0039" element="106c" type="3">
+      <description>Length of VOI in relative units</description>
+    </entry>
+    <entry name="VoiSizeRatioZ                       " group="0039" element="106d" type="3">
+      <description>Height of VOI in relative units</description>
+    </entry>
+    <entry name="VoiSyncPlane                        " group="0039" element="106e" type="3">
+      <description>Plane synced to the VOI</description>
+    </entry>
+    <entry name="VoiViewMode                         " group="0039" element="106f" type="3">
+      <description>Type indicating whether the rendering is synced to the front or back of the VOI</description>
+    </entry>
+    <entry name="VrOrientationA                      " group="0039" element="1070" type="3">
+      <description>Matrix representing the oritentation of the volume rendered image</description>
+    </entry>
+    <entry name="MprOrientationA                     " group="0039" element="1071" type="3">
+      <description>Matrix representing the oritentation of the MPRs</description>
+    </entry>
+    <entry name="VrOffsetVector                      " group="0039" element="1072" type="3">
+      <description>Vector representing the vertical and horizontal offset of the volume on the display</description>
+    </entry>
+    <entry name="BlendingRatio                       " group="0039" element="1073" type="3">
+      <description>Value indicating the amount of blending between B and power data when blend is on</description>
+    </entry>
+    <entry name="FusionBlendMode                     " group="0039" element="1074" type="3">
+      <description>Mode for fusing in one display power and B volume rendered data</description>
+    </entry>
+    <entry name="QualityFactor                       " group="0039" element="1075" type="3">
+      <description>Factor determining the volume rendering quality</description>
+    </entry>
+    <entry name="RendererType                        " group="0039" element="1076" type="3">
+      <description>Type of the rendererer engine used</description>
+    </entry>
+    <entry name="SliceMode                           " group="0039" element="1077" type="3">
+      <description>Mode for displaying the textured map MPRs in the 3D quadrant</description>
+    </entry>
+    <entry name="ActiveQuad                          " group="0039" element="1078" type="3">
+      <description>Value indicating which quadrant in the display is active</description>
+    </entry>
+    <entry name="ScreenMode                          " group="0039" element="1079" type="3">
+      <description>Value indicating which screen layout is applied</description>
+    </entry>
+    <entry name="CutPlaneSide                        " group="0039" element="107a" type="3">
+      <description>Value indicating which half space of the cut-plane is used for volume rendering</description>
+    </entry>
+    <entry name="WireframeMode                       " group="0039" element="107b" type="3">
+      <description>Flag indicating whether wireframe around rendered data is on or off</description>
+    </entry>
+    <entry name="CrossmarkMode                       " group="0039" element="107c" type="3">
+      <description>Flag indicating whether crossmark is shown on the display</description>
+    </entry>
+    <entry name="MprDisplayType                      " group="0039" element="107d" type="3">
+      <description>Value indicating whether B or power or B+power data are displayed in the MPRs</description>
+    </entry>
+    <entry name="VolumeDisplayType                   " group="0039" element="107e" type="3">
+      <description>Value indicating whether B or power or B+power data are displayed in the volume rendered image</description>
+    </entry>
+    <entry name="LastReset                           " group="0039" element="107f" type="3">
+      <description>Value indicating the last reset</description>
+    </entry>
+    <entry name="LastNonFullScreenMode               " group="0039" element="1080" type="3">
+      <description>Value indicating the last active quadrant before entering full screen</description>
+    </entry>
+    <entry name="MprToolIndex                        " group="0039" element="1081" type="3">
+      <description>Index indicating which tool (rotation, pan, resizing) is used on the MPRs</description>
+    </entry>
+    <entry name="VoiToolIndex                        " group="0039" element="1082" type="3">
+      <description>Index indicating which tool (rotation, pan, resizing) is used on the volume rendered image when VOI is on</description>
+    </entry>
+    <entry name="ToolLoopMode                        " group="0039" element="1083" type="3">
+      <description>Value indicating in which loop</description>
+    </entry>
+    <entry name="VolumeArbMode                       " group="0039" element="1084" type="3">
+      <description>Index indicating whether volume or MPR rotation is active on the 3D display window</description>
+    </entry>
+    <entry name="MprZoomEn                           " group="0039" element="1085" type="3">
+      <description>Flag indicating whether zoom is enabled in the MPR</description>
+    </entry>
+    <entry name="IsVolumeZoomEn                      " group="0039" element="1086" type="3">
+      <description>Flag indicating whether zoom is enabled in the rendered volume</description>
+    </entry>
+    <entry name="ZoomLevelMpr                        " group="0039" element="1087" type="3">
+      <description>Value indicating the amount of zoom (in relative units) applied in the MPR</description>
+    </entry>
+    <entry name="ZoomLevelVolume                     " group="0039" element="1088" type="3">
+      <description>Value indicating the amount of zoom (in relative units) applied in the rendered volume</description>
+    </entry>
+    <entry name="IsAutoRotateEn                      " group="0039" element="1089" type="3">
+      <description>Flag indicating whether animation is enabled</description>
+    </entry>
+    <entry name="AutoRotateAxis                      " group="0039" element="108a" type="3">
+      <description>Value indicating the axis of rotation for the animation</description>
+    </entry>
+    <entry name="AutoRotateRangeIndex                " group="0039" element="108b" type="3">
+      <description>Value indicating the total angle range for the animation</description>
+    </entry>
+    <entry name="AutoRotateSpeedIndex                " group="0039" element="108c" type="3">
+      <description>Value indicating the speed (in relative units) for the animation</description>
+    </entry>
+    <entry name="CVrBrightness                       " group="0039" element="108d" type="3">
+      <description>Brightness value for the volume rendered power data</description>
+    </entry>
+    <entry name="CFlowStateIndex                     " group="0039" element="108e" type="3">
+      <description>Index for flow state of power data (low, medium, high)</description>
+    </entry>
+    <entry name="BSubmodeIndex                       " group="0039" element="108f" type="3">
+      <description>Index for indicating the B submode (THI, B, etc...)</description>
+    </entry>
+    <entry name="CSubmodeIndex                       " group="0039" element="1090" type="3">
+      <description>Index for indicating the C submode</description>
+    </entry>
+    <entry name="DICOMAttrNameCutPlane               " group="0039" element="1091" type="3">
+      <description>Quadrant used to cut volume when colume cut enabled</description>
+    </entry>
+    <entry name="BookmarkChunkId                     " group="0039" element="1092" type="3">
+      <description>Index of Bookmark</description>
+    </entry>
+    <entry name="SequenceMinChunkId                  " group="0039" element="1093" type="3">
+      <description>Begin range index of volume sequence</description>
+    </entry>
+    <entry name="SequenceMaxChunkId                  " group="0039" element="1094" type="3">
+      <description>End range index of volume sequence</description>
+    </entry>
+    <entry name="VolumeRateHz                        " group="0039" element="1095" type="3">
+      <description>Rate at which volumes are rendered</description>
+    </entry>
+    <entry name="VoiPositionOffsetX                  " group="0039" element="109a" type="3">
+      <description>Offset in the x dimension between the center of the VOI and center of volume in relative units</description>
+    </entry>
+    <entry name="VoiPositionOffsetY                  " group="0039" element="109b" type="3">
+      <description>Offset in the y dimension between the center of the VOI and center of volume in relative units</description>
+    </entry>
+    <entry name="VoiPositionOffsetZ                  " group="0039" element="109c" type="3">
+      <description>Offset in the z dimension between the center of the VOI and center of volume in relative units</description>
+    </entry>
+    <entry name="VrToolIndex                         " group="0039" element="109d" type="3">
+      <description>Index indicating which tool (rotation, pan, resizing) is used on the volume rendered image</description>
+    </entry>
+    <entry name="ShadingPercent                      " group="0039" element="109e" type="3">
+      <description>Value indicating the amount of shading in the volume rendered image</description>
+    </entry>
+    <entry name="VolumeType                          " group="0039" element="109f" type="3">
+      <description>Value indicating the type of volume (B or B and Power)</description>
+    </entry>
+    <entry name="VolumeRateHz                        " group="0039" element="1095" type="3">
+      <description>Rate at which volumes are rendered</description>
+    </entry>
+    <entry name="DICOMAttrNameVrQuadDisplayType      " group="0039" element="10a0" type="3">
+      <description>The type of display to show in the volume quadrant</description>
+    </entry>
+    <entry name="DICOMAttrNameMprCenterLocation      " group="0039" element="10a1" type="3">
+      <description>Offset location of slice centerpoint with respect to quadrant center</description>
+    </entry>
+    <entry name="DICOMAttrNameSliceMode              " group="0039" element="1077" type="3">
+      <description>Value indicating that system in multislice mode</description>
+    </entry>
+    <entry name="DICOMAttrNameSliceRangeType         " group="0039" element="10e0" type="3">
+      <description>Value indicating type of slice mode (horizontal/vertical)</description>
+    </entry>
+    <entry name="DICOMAttrNameSliceMPRPlane          " group="0039" element="10e1" type="3">
+      <description>Value indicating selected MPR for slice mode (Acquisition/Elevation/Coronal)</description>
+    </entry>
+    <entry name="DICOMAttrNameSliceLayout            " group="0039" element="10e2" type="3">
+      <description>Selected layout for slice mode (2x2, 3x3, 4x4, 6x6)</description>
+    </entry>
+    <entry name="DICOMAttrNameSliceSpacing           " group="0039" element="10e3" type="3">
+      <description>Value indicates the spacing between MPR slices</description>
+    </entry>
+    <entry name="DICOMAttrNameThinVrMode             " group="0039" element="10e4" type="3">
+      <description>Value indicating that system in ThinVr mode</description>
+    </entry>
+    <entry name="DICOMAttrNameThinVrThickness        " group="0039" element="10e5" type="3">
+      <description>Selected thickness value</description>
+    </entry>
+    <entry name="DICOMAttrNameVoiPivotX              " group="0039" element="10e6" type="3">
+      <description>Curved TOP VOI pivot x</description>
+    </entry>
+    <entry name="DICOMAttrNameVoiPivotY              " group="0039" element="10e7" type="3">
+      <description>Curved TOP VOI pivot y</description>
+    </entry>
+    <entry name="DICOMAttrNameVoiPivotZ              " group="0039" element="10e8" type="3">
+      <description>Curved TOP VOI pivot z</description>
+    </entry>
+    <entry name="DICOMAttrNameCTopVoiQuad            " group="0039" element="10e9" type="3">
+      <description>Curved TOP VOI Quad</description>
+    </entry>
+  </dict>
+</dicts>

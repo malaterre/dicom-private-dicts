@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/9605_0132RevC.pdf
+ $ pdftotext -nopgbrk -layout -f 22 -l 22 9605_0132RevC.pdf 9605_0132RevC.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py 9605_0132RevC.txt 9605_0132RevC.xml
+
+NOTE:
+  I do not understand what this means, so I'll just pick ADAC_IMG ...
+
+                  Group 0x0019 is an ADAC Pegasys private group. It is identified as an ADAC private group if the
+                  value in element (0019, 0010) is "ADAC_IMG", "ADAC_ROI", or a similar ADAC signature. All
+                  the 4 attributes in the following table must be present to make it a useful ADAC Pegasys header
+                  group.
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/9605_0132RevC.pdf">
+  <dict ref="Table 15" name="ADAC Pegasys Header Module Attributes" owner="ADAC_IMG">
+    <entry group="0019" element="0010" vr="LO" vm="2" type="3" name="ADAC Header Signature"/>
+    <entry group="0019" element="1002" vr="IS" vm="1" type="3" name="Ver200 ADAC Pegasys File Size"/>
+    <entry group="0019" element="1021" vr="US" vm="1" type="3" name="Ver200 Number of ADAC Headers"/>
+    <entry group="0019" element="1041" vr="IS" vm="1-n" type="3" name="Ver200 ADAC Header/Image Size"/>
+    <entry group="0019" element="1061" vr="OB" vm="1" type="3" name="Ver200 ADAC Pegasys Headers"/>
+  </dict>
+  <dict ref="Table 16" name="Old Pegasys Header Attributes" owner="ADAC_IMG">
+    <entry group="0019" element="0002" vr="IS" vm="1" type="3" name="ADAC Pegasys File Size"/>
+    <entry group="0019" element="0011" vr="US" vm="1" type="3" name="Number of ADAC Headers"/>
+    <entry group="0019" element="0012" vr="IS" vm="1-n" type="3" name="ADAC Header/Image Sizes"/>
+    <entry group="0019" element="0020" vr="OB" vm="1" type="3" name="ADAC Pegasys Headers"/>
+  </dict>
+  <dict ref="Table 17" name="Philips Private Group - Cardiac Stress State" owner="ADAC_IMG">
+    <entry group="7043" element="0010" vr="LO" vm="1" type="3" name="Philips NM Private Group"/>
+    <entry group="7043" element="1000" vr="SH" vm="1" type="3" name="Cardiac Stress State"/>
+  </dict>
+</dicts>

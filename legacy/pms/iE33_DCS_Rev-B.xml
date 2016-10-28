@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ grep -e " [0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][13579BDFbdf]," iE33_DCS_Rev-B.txt > iE33_DCS_Rev-B.xml  
+
+FIXME:
+  Cannot find the private creator
+
+FIXED:
+  L0 -> LO
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts>
+  <dict ref="Table 97" name="CREATED PRIVATE 3D PRESENTATION STATE OBJECT CONTENTS" owner="Philips US Private 3D">
+    <entry name="Threedpr Image Layout                         " group="200D" element="3A09" vr="IS"/>
+    <entry name="Threedpr Xres Filtering Enabled               " group="200D" element="3A0A" vr="IS"/>
+    <entry name="Threedpr Echo Twod Chroma Map Enabled         " group="200D" element="3A0B" vr="IS"/>
+    <entry name="Threedpr Box Outlined Enabled                 " group="200D" element="3A0C" vr="IS"/>
+    <entry name="Threedpr Smoothing Enabled                    " group="200D" element="3A0D" vr="IS"/>
+    <entry name="Threedpr Reference Graphic Enabled            " group="200D" element="3A0E" vr="IS"/>
+    <entry name="Threedpr Map Inverted                         " group="200D" element="3A0F" vr="IS"/>
+    <entry name="Threedpr Color Stream Display Enabled         " group="200D" element="3A10" vr="IS"/>
+    <entry name="Threedpr Echo Stream Display Enabled          " group="200D" element="3A11" vr="IS"/>
+    <entry name="Threedpr Basic Vol Brightness                 " group="200D" element="3A17" vr="IS"/>
+    <entry name="Threedpr Echo Smoothing                       " group="200D" element="3A1A" vr="IS"/>
+    <entry name="Threedpr Color Smoothing                      " group="200D" element="3A1B" vr="IS"/>
+    <entry name="Threedpr Num Completed Trim Planes            " group="200D" element="3A1E" vr="IS"/>
+    <entry name="Threedpr Depth                                " group="200D" element="3A1F" vr="IS"/>
+    <entry name="Threedpr Wall Filter                          " group="200D" element="3A21" vr="IS"/>
+    <entry name="Threedpr Baseline                             " group="200D" element="3A23" vr="FD"/>
+    <entry name="Threedpr Gain                                 " group="200D" element="3A24" vr="FD"/>
+    <entry name="Threedpr Compress                             " group="200D" element="3A25" vr="FD"/>
+    <entry name="Threedpr Light Brightness                     " group="200D" element="3A26" vr="FD"/>
+    <entry name="Threedpr Elevation Scale Factor               " group="200D" element="3A27" vr="FD"/>
+    <entry name="Threedpr Zoom Factor                          " group="200D" element="3A28" vr="FD"/>
+    <entry name="Threedpr Color Write Priority                 " group="200D" element="3A29" vr="FD"/>
+    <entry name="Threedpr Rotation Angle X                     " group="200D" element="3A2A" vr="FD"/>
+    <entry name="Threedpr Rotation Angle Y                     " group="200D" element="3A2B" vr="FD"/>
+    <entry name="Threedpr Data Voi Center                      " group="200D" element="3A2C" vr="FD"/>
+    <entry name="Threedpr View Translation                     " group="200D" element="3A2D" vr="FD"/>
+    <entry name="Threedpr Data Voi Min Point                   " group="200D" element="3A2E" vr="FD"/>
+    <entry name="Threedpr Data Voi Max Point                   " group="200D" element="3A2F" vr="FD"/>
+    <entry name="Threedpr Box Crop Min Point                   " group="200D" element="3A30" vr="FD"/>
+    <entry name="Threedpr Box Crop Max Point                   " group="200D" element="3A31" vr="FD"/>
+    <entry name="Threedpr Mpr Rotation Matrix                  " group="200D" element="3A32" vr="FD"/>
+    <entry name="Threedpr Vol Rotation Matrix                  " group="200D" element="3A33" vr="FD"/>
+    <entry name="Threedpr Trim Plane Equation                  " group="200D" element="3A34" vr="FD"/>
+    <entry name="Threedpr Subpage Data Version                 " group="200D" element="3A35" vr="IS"/>
+    <entry name="Threedpr Is Arbitrary Crop                    " group="200D" element="3A36" vr="IS"/>
+    <entry name="Threedpr Arbitrary Crop Dist From Center      " group="200D" element="3A37" vr="IS"/>
+    <entry name="Threedpr Arbitrary Crop Rotation Matrix       " group="200D" element="3A38" vr="FD"/>
+    <entry name="Threedpr Color Gain                           " group="200D" element="3A39" vr="FD"/>
+    <entry name="Threedpr Color Wall Filter Index              " group="200D" element="3A40" vr="IS"/>
+    <entry name="Threedpr Cursor Enabled                       " group="200D" element="3A41" vr="IS"/>
+    <entry name="Threedpr Bondbox Graphic Enabled              " group="200D" element="3A42" vr="IS"/>
+    <entry name="Threedpr Echo Vision Setting                  " group="200D" element="3402" vr="IS"/>
+    <entry name="Threedpr Color Vision Setting                 " group="200D" element="3403" vr="IS"/>
+    <entry name="Threedpr Transparency                         " group="200D" element="3404" vr="IS"/>
+    <entry name="Threedpr Vision Vol Brightness                " group="200D" element="3406" vr="FD"/>
+    <entry name="Threedpr Low Threshold                        " group="200D" element="3408" vr="IS"/>
+    <entry name="Threedpr Opacity Map                          " group="200D" element="340A" vr="IS"/>
+    <entry name="Threedpr Lighting                             " group="200D" element="340C" vr="IS"/>
+    <entry name="Threedpr Echo Chroma Map Hue                  " group="200D" element="340D" vr="IS"/>
+    <entry name="Threedpr Echo Twod Gray Map                   " group="200D" element="340E" vr="IS"/>
+    <entry name="Threedpr Color Map                            " group="200D" element="340F" vr="IS"/>
+    <entry name="Private Native Threed Data Sequence(1)        " group="200D" element="3016" vr="SQ"/>
+    <entry name="Private Native Data Type                      " group="200D" element="300D" vr="LO"/>
+    <entry name="Private Native Total Num Sample               " group="200D" element="3010" vr="IS"/>
+    <entry name="Native Data Sample Size                       " group="200D" element="3011" vr="IS"/>
+    <entry name="Private Native Data Stream Array              " group="200D" element="3020" vr="SQ"/>
+    <entry name="Private Native Data Stream                    " group="200D" element="300E" vr="OB"/>
+    <entry name="Private Native Data Instance Num              " group="200D" element="3021" vr="IS"/>
+    <entry name="Vdb Param Echo 3d Estimate Dimension(2)       " group="200D" element="3315" vr="LO"/>
+    <entry name="Vdb Param Echo 3d Estimate Pitch(2)           " group="200D" element="3316" vr="LO"/>
+    <entry name="Vdb Param Echo 3d Estimate Scale(2)           " group="200D" element="3317" vr="LO"/>
+    <entry name="Vdb Param Echo 3d Estimate Apex Position (2)  " group="200D" element="3318" vr="LO"/>
+    <entry name="Vdb Param Color 3d Estimate Dimension(2)      " group="200D" element="3610" vr="LO"/>
+    <entry name="Vdb Param Color 3d Estimate Pitch((2)         " group="200D" element="3611" vr="LO"/>
+    <entry name="Vdb Param Color 3d Estimate Scale(2)          " group="200D" element="3612" vr="LO"/>
+    <entry name="Vdb Param Color 3d Estimate Apex Position (1) " group="200D" element="3613" vr="LO"/>
+    <entry name="Vdb Param Color 3d Estimate Color Offset      " group="200D" element="3614" vr="LO"/>
+    <entry name="Vdb Threed Estimate Num Dimensions            " group="200D" element="330a" vr="UL"/>
+    <entry name="Vdb Param Matrix Encryption Random Number     " group="200D" element="3920" vr="LO"/>
+  </dict>
+</dicts>

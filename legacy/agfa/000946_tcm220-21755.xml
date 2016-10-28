@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget www.agfa.com/en/he/binaries/000946_tcm220-21755.pdf
+ $ pdftotext  -layout -nopgbrk  -f 25 -l 25 000946_tcm220-21755.pdf 000946_tcm220-21755.txt  
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+NOTE:
+  Sesion No. -> Session Number (both notation can be found in the document)
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.agfa.com/en/he/binaries/000946_tcm220-21755.pdf">
+  <dict ref="Table 3.18" name="Added standard element" owner="AGFA">
+    <entry name="Private Identification Code                                     " group="0019" element="0010"/>
+    <entry name="Image processing parameters (Note 1)                            " group="0019" element="1010"/>
+    <entry name="Identification data (Note 2)                                    " group="0019" element="1011"/>
+    <entry name="Sensitometry name                                               " group="0019" element="1013"/>
+    <entry name="Window/Level list (Note 3)                                      " group="0019" element="1014"/>
+    <entry name="Dose monitoring list (Note 4)                                   " group="0019" element="1015"/>
+    <entry name="Clipped exposure deviation                                      " group="0019" element="101A"/>
+    <entry name="Logarithmic plt_full_scale                                      " group="0019" element="101B"/>
+  </dict>
+  <dict ref="Table 3.37" name="Added standard elements" owner="AGFA_ADC_Compact">
+    <entry name="Private Identification Code" group="0019" element="0010" vr="LO" vm="1"/>
+    <entry name="Data stream from cassette" group="0019" element="1005" vr="ST" vm="1"/>
+    <entry name="Set of destination types" group="0019" element="1030" vr="ST" vm="1"/>
+    <entry name="Set of destination Ids" group="0019" element="1040" vr="ST" vm="1"/>
+    <entry name="Set of processing codes" group="0019" element="1050" vr="ST" vm="1"/>
+    <entry name="Number of series in study" group="0019" element="1060" vr="US" vm="1"/>
+    <entry name="Session Number" group="0019" element="1061" vr="US" vm="1"/>
+    <entry name="ID station name" group="0019" element="1062" vr="SH" vm="1"/>
+    <entry name="Number of images in series" group="0019" element="1070" vr="US" vm="1"/>
+    <entry name="Break condition" group="0019" element="1071" vr="US" vm="1"/>
+    <entry name="Wait (or Hold) flag" group="0019" element="1072" vr="US" vm="1"/>
+    <entry name="ScanRes flag" group="0019" element="1073" vr="US" vm="1"/>
+    <entry name="Operation code" group="0019" element="1074" vr="SH" vm="1"/>
+    <entry name="Image quality" group="0019" element="1095" vr="CS" vm="1"/>
+  </dict>
+</dicts>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ grep -e " [0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][13579BDFbdf]," DiDi_1_4_dcs_1_5.txt > DiDi_1_4_dcs_1_5.xml 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007">
+  <dict owner="SPI-P Release 1">
+<!--
+ * odd group number, 00YY Owner Data Elements (VR=LO, VM=1)
+   The value of this text element are the Recognition Codes and it declares that all elements
+   YYxx in the odd numbered group are Private Philips elements. The EasyVision Recognition
+   Codes are:
+   Group 9                  `SPI-P Release 1'
+   Group 11                 `SPI-P Release 1'
+   Group 21                 `SPI-P-Private_CDS Release 1'
+   Group 29                 `SPI-P-Private_ICS Release 1'
+                            `SPI-P-Private_ICS Release 1;1'
+                            `SPI-P-Private_ICS Release 1;5'
+-->
+<entry group="0009" element="YY04" name="Image Data Consistence" vr="LO" vm="1-n"/>
+<!--
+   This element indicates the consistency of the data elements because of incorporated
+   processing, windowing or burnt-in graphics. A data element becomes inconsistent if its
+   value incorporates a value (or reference to a value) which has been changed while the data
+   element itself has not been changed or deleted. Updating or deleting such data elements
+   cannot be done if the data element is a free formatted data element or other than a standard
+   data element.
+  The generic format of the multiple values of this text element is: <free text> | `$'<enumer-
+  ated text>. The first value is a global indication of the consistency and the following enu-
+  meration are defined for it:
+  *`$unknown': This is the default value.
+  *`$normal': Normal consistency.
+  *`$limited': Possibly limited consistency.
+  The other (second etc.) values of this element give detailed consistency information and are
+  not specified in this Statement.
+-->
+<entry group="0019" element="YY25" name="Original Pixel Data Quality" vr="LO" vm="1-n"/>
+<!--
+  This element indicates that the quality of the original pixel data is limited because of one
+  reason or another. The generic format and enumerated values are the same as for private ele-
+  ment 0009, YY04 Image Data Consistence.
+-->
+<entry group="0029" element="YY25" name="Processed Pixel Data Quality" vr="LO" vm="1-n"/>
+<!--
+  This element indicates that the quality of the processed pixel data is limited because of
+  incorporated processing, windowing or burnt in graphics. The first value summarizes the
+  quality. Each subsequent value identifies one aspects which contributes to the quality, in
+  order of occurrence. The generic format and enumerated values are the same as for private
+  element 0009, YY04 Image Data Consistence.
+-->
+<!--
+* A private group with group number 7FE1 can be available to store non standard pixel data
+  behind the 7FE0 group which contains the standard pixel data.
+-->
+</dict>
+</dicts>

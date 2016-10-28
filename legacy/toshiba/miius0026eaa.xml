@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.medical.toshiba.com/dicom/pdf/miius0026eaa.pdf
+ $ pdftotext -nopgbrk -layout miius0026eaa.pdf miius0026eaa.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py miius0026eaa.txt miius0026eaa.xml
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<!--
+MM / Thu Nov 12 11:29:12 CET 2009
+I think the documentation of Table 8.2 in miius0026eaa.pdf is busted (as usual).
+
+So I m fixing by hand the TOSHIBA MDW HEADER based on the following other files:
+http://www.toshiba-medical.de/produkte/ultrasound/download/Aplio.pdf
+and
+http://www3.toshiba.co.jp/tmd/english/dicom/pdf/miius0025ea.pdf
+-->
+<dicts edition="2007" url="http://www3.toshiba.co.jp/tmd/english/dicom/pdf/miius0026eaa.pdf">
+  <dict ref="8.2" name="DATA DICTIONARY OF PRIVATE ATTRIBUTES">
+    <entry group="0029" element="xx08" vr="CS" vm="1" owner="TOSHIBA MDW HEADER" name="Image Header Type"/>
+    <entry group="0029" element="xx09" vr="LO" vm="1" owner="TOSHIBA MDW HEADER" name="Image Header Version"/>
+    <entry group="0029" element="xx10" vr="OB" vm="1" owner="TOSHIBA MDW HEADER" name="Image Header Info"/>
+    <entry group="0029" element="xx18" vr="CS" vm="1" owner="TOSHIBA MDW HEADER" name="Series Header Type"/>
+    <entry group="0029" element="xx19" vr="LO" vm="1" owner="TOSHIBA MDW HEADER" name="Series Header Version"/>
+    <entry group="0029" element="xx20" vr="OB" vm="1" owner="TOSHIBA MDW HEADER" name="Series Header Info"/>
+    <entry group="0029" element="xx08" vr="CS" vm="1" owner="TOSHIBA COMAPL HEADER" name="COMAPL Header Type"/>
+    <entry group="0029" element="xx09" vr="LO" vm="1" owner="TOSHIBA COMAPL HEADER" name="COMAPL Header Version"/>
+    <entry group="0029" element="xx10" vr="OB" vm="1" owner="TOSHIBA COMAPL HEADER" name="COMAPL Header Info"/>
+    <entry group="0029" element="xx20" vr="OB" vm="1" owner="TOSHIBA COMAPL HEADER" name="COMAPL History Information"/>
+    <entry group="0029" element="xx31" vr="LO" vm="1" owner="PMTF INFORMATION DATA" name="PMTF Information 1"/>
+    <entry group="0029" element="xx32" vr="UL" vm="1" owner="PMTF INFORMATION DATA" name="PMTF Information 2"/>
+    <entry group="0029" element="xx33" vr="UL" vm="1" owner="PMTF INFORMATION DATA" name="PMTF Information 3"/>
+    <entry group="0029" element="xx34" vr="CS" vm="1" owner="PMTF INFORMATION DATA" name="PMTF Information 4"/>
+    <entry group="0029" element="xx08" vr="CS" vm="1" owner="TOSHIBA COMAPL OOG" name="COMAPL OOG Type"/>
+    <entry group="0029" element="xx09" vr="LO" vm="1" owner="TOSHIBA COMAPL OOG" name="COMAPL OOG Version"/>
+    <entry group="0029" element="xx10" vr="OB" vm="1" owner="TOSHIBA COMAPL OOG" name="COMAPL OOG Info"/>
+  </dict>
+</dicts>

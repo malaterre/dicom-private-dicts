@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="">
+  <dict ref="Table 6" name="Private Original Attributes Sequence" owner="PRIVATE ORIGINAL ATTRIBUTES">
+    <entry name="Private Creator Data Element          " group="0021" element="00F0" vr="LO" vm="1" type="1C"/>
+    <entry name="Private Original Attribute Sequence   " group="0021" element="F001" vr="SQ" vm="1" type="1C"/>
+    <entry name="&gt;Replacement Date and Time         " group="0021" element="F005" vr="DT" vm="1" type="1"/>
+    <entry name="&gt;Replacement Originator Name       " group="0021" element="F010" vr="LO" vm="1" type="3"/>
+    <entry name="&gt;Replacement Reason                " group="0021" element="F012" vr="LO" vm="1" type="3"/>
+    <entry name="&gt;Private Creator Data Element      " group="0021" element="00F0" vr="LO" vm="1" type="1C"/>
+    <entry name="&gt;Original Operators'Name           " group="0021" element="F070" vr="PN" vm="1-n" type="2C"/>
+<!--
+   >Operators' Name                      0008,1070     PN   1-n    1      
+   >Operator Identification Sequence 0008,1072    SQ   1      3      
+   >>Include "Person Identification Macro" Table 10-1 (DICOM Part 3)
+   >Patient Name                         0010,0010    PN    1     2C      
+   >Patient ID                           0010,0020    LO    1     2C      
+   >Patient Date of Birth                0010,0030    DA    1     2C      
+   >Patient Sex                          0010,0040    CS    1     2C      
+   >Other Patient IDs                    0010,1000    LO    1-n   2C      
+   >Accession Number                     0008,0050    SH    1     2C      
+-->
+  </dict>
+</dicts>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<!--
+DCS does not specify the VR, using a file from KONIKA, I found a couple of VR: 100[1-5]
+Since 100c use the keword Sequence, I assume this is a SQ...
+-->
+<dicts edition="2008" url="http://www.dominator.com/assets/006/5686.pdf">
+  <dict ref="Table 16" name="Private Tags" owner="DR Systems, Inc.">
+    <entry group="4453" element="0010" vr="LO" vm="1" name="Private Creator"/>
+    <entry group="4453" element="1001" vr="LO" name="DR Exam ID"/>
+    <entry group="4453" element="1002" vr="LO" name="DR Image Type"/>
+    <entry group="4453" element="1004" vr="LO" name="DR File Type"/>
+    <entry group="4453" element="1005" vr="LO" name="DR File Suffix"/>
+    <entry group="4453" element="100a" name="DR Annotation Type"/>
+    <entry group="4453" element="100c" vr="SQ" name="DR Original Instance UID Sequence"/>
+  </dict>
+</dicts>

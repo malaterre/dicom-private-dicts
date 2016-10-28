@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget www.gehealthcare.com/usen/interoperability/dicom/docs/2017753_209r09.pdf
+ $ pdftotext -f 45 -l 48 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+Typo: all UI should be US
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.gehealthcare.com/usen/interoperability/dicom/docs/2017753_209r09.pdf">
+  <dict ref="TABLE 13-1" name="PRIVATE DATA ELEMENTS FOR SIGNIFICATN/REJECT/CONFIDENTIAL VALUES" owner="GEIIS PACS">
+    <entry name="Private Creator ID                 " group="0903" element="00xx" vr="LO" vm="1"/>
+    <entry name="Reject Image Flag                  " group="0903" element="xx10" vr="US" vm="1"/>
+    <entry name="Significant Flag                   " group="0903" element="xx11" vr="US" vm="1"/>
+    <entry name="Confidential Flag                  " group="0903" element="xx12" vr="US" vm="1"/>
+  </dict>
+</dicts>

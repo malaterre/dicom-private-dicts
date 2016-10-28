@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL: https://gdcm.svn.sourceforge.net/svnroot/gdcm/Sandbox/index.xml $
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<index>
+<!--directory>siemens</directory-->
+  <file>agfa/000519_tcm181-21753.xml</file>
+  <file>agfa/000978%20DICOM%20Conformance%20Statement%20CR%20QS%20v%203.0_tcm181-26665.xml</file>
+  <file>agfa/001126_IMPAX_6.2_Solution_tcm181-29471.xml</file>
+  <file>agfa/000978_tcm220-21764.xml</file>
+  <file>agfa/000108_tcm220-21761.xml</file>
+  <file>agfa/000946_tcm220-21755.xml</file>
+  <file>agfa/000410_tcm220-21790.xml</file>
+  <file>agfa/dicom_canon_cxdi.xml</file>
+<!-- fuji -->
+  <file>fuji/DICOM_CRConsole.xml</file>
+  <file>fuji/fcr_dicom-Flash%20IIP_CR%20Console.xml</file>
+  <file>fuji/qa-ws771_dcs.xml</file>
+<!-- gems-->
+  <file>gems/DICT.DAT.xml</file>
+  <file>gems/2371419r3.xml</file> <!-- Need this one first to get 0043,xx64 properly -->
+  <file>gems/DOC0500644r4_CS.xml</file>
+  <file>gems/5229912_100r1.xml</file>
+  <file>gems/2274762r2_1.xml</file>
+  <file>gems/2389238_100r4.xml</file>
+  <file>gems/21682450.xml</file>
+  <file>gems/2341967_100r0.xml</file>
+  <file>gems/2017753_209r09.xml</file>
+  <file>gems/xpert5_5vg4_0.xml</file>
+  <file>gems/DOC0225604r2.xml</file>
+  <file>gems/2014451_386r4.xml</file>
+  <file>gems/2017753_209r07.xml</file>
+  <file>gems/2206228_100r02.xml</file>
+  <file>gems/2286012_100r5.xml</file>
+  <file>gems/2317752r3.xml</file>
+  <file>gems/2320439_100r0.xml</file>
+  <file>gems/2365523_100r1.xml</file>
+  <file>gems/2366844r2_9.xml</file>
+  <file>gems/2381100_100r01-2.xml</file>
+  <file>gems/2381100_100r01.xml</file>
+  <file>gems/2393233_100r01-2.xml</file>
+  <file>gems/2393233_100r01.xml</file>
+  <file>gems/3dxr2_0.xml</file>
+  <file>gems/5168972_100r2.xml</file>
+  <file>gems/5173574_2_100r1.xml</file>
+  <file>gems/5179057DHFr1.xml</file>
+  <file>gems/5198351_100r1.xml</file>
+  <file>gems/5257407_100r1.xml</file>
+  <file>gems/DCM_1030_001_00_002r6_1_1.xml</file>
+  <file>gems/DOC0054138r2.xml</file>
+  <file>gems/asrev1.xml</file>
+  <file>gems/contour72.xml</file>
+  <file>gems/cs_dlxc11.xml</file>
+  <file>gems/fusion.xml</file>
+  <file>gems/vxtlconf.xml</file>
+  <file>gems/EP250409r17.xml</file>
+  <file>gems/09610_0025rb.xml</file>
+  <file>gems/drscs040.xml</file>
+  <file>gems/2385079_100r0.xml</file>
+  <file>gems/5161694_100r2.xml</file>
+  <file>gems/5181424_100r3.xml</file>
+  <file>gems/5193428_1_800_r1_O.xml</file>
+  <file>gems/5137440_100r1.xml</file>
+  <file>gems/5125560_100r2.xml</file>
+  <file>gems/5124914r2.xml</file>
+  <file>gems/2270669_100r3.xml</file>
+  <file>gems/5160041_2_100r1.xml</file>
+  <file>gems/2246182r25.xml</file>
+  <file>gems/2258357r3.xml</file>
+<!-- other -->
+  <file>other/gdcmconformancetests.xml</file>
+  <file>other/impac.xml</file>
+  <file>other/vepro.xml</file>
+  <file>other/aloka.xml</file>
+  <file>other/segami.xml</file>
+  <file>other/tmdtk.xml</file>
+  <file>other/marotech.xml</file>
+  <file>other/emageon.xml</file>
+  <file>other/Magellan3_DicomConformanceStatement_3.2.xml</file>
+  <file>other/634.xml</file>
+  <file>other/mediface.xml</file>
+  <file>other/MortaraDICOMConformanceStatement.xml</file>
+  <file>other/dicom_4d.xml</file>
+  <file>other/PowerPACS_ImageImporter-DicomConform.xml</file>
+  <file>other/PMOD_v2.90_DICOM_Conformance.xml</file>
+  <file>other/PMOD_v2.75_DICOM_Conformance.xml</file>
+  <file>other/5686.xml</file>
+  <file>other/MeVis.xml</file>
+  <file>other/intelerad.xml</file>
+  <file>other/DICOMconformanceTruDR_VPACSv15.xml</file>
+  <file>other/DICOMConfStatRadworks.xml</file>
+  <file>other/DICOMStmt5-06.xml</file>
+  <file>other/AW-01413_001_01.xml</file>
+  <file>other/DEXIS-DICOM.xml</file>
+  <file>other/DOC0094938r1.xml</file>
+  <file>other/E1E-BW0799-2.xml</file>
+  <file>other/Papyrus31Specif.xml</file>
+  <file>other/RDWCRSdicomConfSt.xml</file>
+  <file>other/SNC172.xml</file>
+  <file>other/Storage.xml</file>
+  <file>other/1F9242.xml</file>
+  <file>other/DicomClient_Conformance_35.xml</file>
+  <file>other/amicas.xml</file>
+  <file>other/DICOM_Conformance_Statement_DynaSuite_Cardiac.xml</file>
+  <!-- TODO -->
+  <!--file>other/555-1.00015cib-00-masterplan_dicom_conf_statement.xml</file-->
+<!-- pms -->
+  <!-- acqsimctscanner.xml -->
+  <file>pms/DICOM_Conformance_Statement_JETStream_Acquisition.xml</file>
+  <file>pms/spi.xml</file>
+  <file>pms/PhilipsEVImagingDD017.xml</file>
+  <file>pms/PhilipsEVImagingDD019.xml</file>
+  <file>pms/EasyAccessR101VFR4131plugin.xml</file>
+  <file>pms/DCS-Digital-Diagnost15-05.xml</file>
+  <file>pms/ELEVA-DI-DITTO-R232-DICOMCS-02.xml</file>
+  <file>pms/HD11DCS.xml</file>
+  <file>pms/intol12.xml</file>
+  <file>pms/inth70.xml</file>
+  <file>pms/evrad42.xml</file>
+  <file>pms/EnVisor_C_1_DCS.xml</file>
+  <file>pms/ev44.xml</file>
+  <file>pms/DiDi_1_4_dcs_1_5.xml</file>
+  <file>pms/5000_v185.xml</file>
+  <file>pms/453567994381_B.xml</file>
+  <file>pms/5000_v17709.xml</file>
+  <file>pms/9605_0132RevC.xml</file>
+  <file>pms/iE33_DCS_Rev-B.xml</file>
+  <file>pms/CONFRM9.4.xml</file>
+  <file>pms/Conformance_Statement_MR_101_v04.xml</file>
+  <file>pms/ELEVA_EDI_DITTO_R2_DICOMCS_VF41_02.xml</file>
+  <!--file>pms/ELEVA_EDI_DITTO_R2_DICOMCS_VF41_022.xml</file-->
+  <file>pms/MR_System_R1_5_dcs.xml</file>
+  <file>pms/PETView_8.1.4_453567956051.xml</file>
+  <file>pms/System-SRS-DICOMConformance-Allura_FD-Rel60-XDY040-073208.xml</file>
+  <file>pms/ViSUB_FNIB331.xml</file> <!-- after Allura -->
+  <file>pms/easycapture_cs_8.2_final.xml</file>
+  <file>pms/mr91.xml</file>
+  <file>pms/mr_nt62.xml</file>
+  <file>pms/th51.xml</file>
+  <file>pms/MR_System_R2.5.dcs.xml</file> <!-- VM are missing -->
+  <file>pms/MR_Panorama_R6_1.xml</file> <!-- No owner ! -->
+<!-- siemens -->
+  <file>siemens/Aristos_DicomConformanceStatement.xml</file> <!-- high up please -->
+  <file>siemens/ACOMNET_DCS_VB11x.xml</file>
+  <file>siemens/S2000_1.5_DCS_public.xml</file>
+  <file>siemens/Sequoia12.2_DCSpublic.xml</file>
+  <file>siemens/ACOM_PC_REC_DCS_V60.xml</file>
+  <file>siemens/7357945E_DCS2.0_UM.xml</file>
+  <file>siemens/AXIOM_Artis_VB30.xml</file>
+  <file>siemens/X-LEONARDO_DCS_VB11.xml</file>
+  <file>siemens/AXIOM_Multistar_polytron_top_niu.xml</file>
+  <file>siemens/ARTIS_DCS_VA22B_02.xml</file>
+  <file>siemens/Conformance_DC_2006.xml</file>
+  <file>siemens/DCS_AXIOM_Artis_VB22.xml</file>
+  <file>siemens/FLUOROSPOT_Compact_VE20.xml</file>
+  <file>siemens/FluorospotCompactVF10C_LuminosDRFVA10C_DCS.xml</file>
+  <file>siemens/X-LEONARDO_DCS_VA60B.xml</file>
+  <file>siemens/Antares5.0_DCSpublic.xml</file>
+  <file>siemens/aspen_V6-0b.xml</file>
+  <file>siemens/diction.xml</file>
+  <file>siemens/syngoCT2007a_DICOM_VA10.xml</file>
+  <file>siemens/ACOM_Top_3_5.xml</file>
+  <file>siemens/ICON_DICOM.xml</file>
+  <file>siemens/esoft25DICOMConfStmt.xml</file>
+  <file>siemens/X500_1_0_conformance_statement.xml</file>
+  <file>siemens/mas_06_s_dicom_fs.xml</file>
+  <file>siemens/randomsource.xml</file>
+  <!--file>siemens/diction2.xml</file-->
+<!-- toshiba -->
+  <file>toshiba/miict0050ea.xml</file>
+  <file>toshiba/miict0048ea.xml</file> <!-- decent info ! -->
+  <file>toshiba/MIIXR00010EAB%20(V3.10).xml</file> <!-- this need to be a valid URI -->
+  <file>toshiba/miims0013ea.xml</file>
+  <file>toshiba/miius0026eaa.xml</file>
+  <file>toshiba/miius0029ea.xml</file>
+  <file>toshiba/miict0038ea.xml</file>
+  <file>toshiba/miius0032ea.xml</file>
+  <file>toshiba/miimr0005ea.xml</file>
+  <file>toshiba/miixr0010eac.xml</file>
+  <!-- please keep me last -->
+  <file>other/elscint1.xml</file>
+  <file>other/d3t.xml</file>
+  <file>other/spi.xml</file>
+</index>

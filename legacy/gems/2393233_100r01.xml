@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget www.gehealthcare.com/usen/interoperability/dicom/docs/2393233_100r01.pdf
+ $ pdftotext -nopgbrk -layout -f 124 -l 126 2393233_100r01.pdf 2393233_100r01.txt
+ $ pdftotext -nopgbrk -layout -f 163 -l 165 2393233_100r01.pdf 2393233_100r01-2.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py 2393233_100r01.txt 2393233_100r01.xml
+ $ python txt2xml.py 2393233_100r01-2.txt 2393233_100r01-2.xml
+
+NOTE:
+
+  This files contains AWSOME description even for private attributes. They are
+  completely and fully describe, type, descritpion...
+
+TABLE 8.6-17 contains a typo (problem of case), need to read table TABLE 8.6-15 to get GEMS_ADWSoft_3D2 case correct 
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.gehealthcare.com/usen/interoperability/dicom/docs/2393233_100r01.pdf">
+  <dict ref="Table 8.6-16" name="Private Creator Identification" owner="GEMS_3DSTATE_001">
+    <entry group="0047" element="xxD6" vr="ST" vm="1" name="General Description"/>
+    <entry group="0047" element="xxD7" vr="CS" vm="1" name="TDRT"/>
+    <entry group="0047" element="xxD8" vr="US" vm="1" name="NVRP"/>
+    <entry group="0047" element="xxD9" vr="US" vm="1" name="CVRPN"/>
+    <entry group="0047" element="xxDA" vr="SQ" vm="1" name="Volume Rendering Presets Sequence"/>
+    <entry group="0047" element="xxDB" vr="LO" vm="1" name="Preset Name"/>
+    <entry group="0047" element="xxDC" vr="SS" vm="1-n" name="Opacity Curve X"/>
+    <entry group="0047" element="xxDD" vr="FL" vm="1-n" name="Opacity Curve Y"/>
+    <entry group="0047" element="xxDE" vr="US" vm="1" name="NOCP"/>
+    <entry group="0047" element="xxDF" vr="SS" vm="1-n" name="Color Curve X"/>
+    <entry group="0047" element="xxE1" vr="US" vm="1" name="NCCP"/>
+    <entry group="0047" element="xxE2" vr="CS" vm="1" name="GSA"/>
+    <entry group="0047" element="xxE3" vr="CS" vm="1" name="VRSF"/>
+    <entry group="0047" element="xxE4" vr="FL" vm="1" name="AF"/>
+    <entry group="0047" element="xxE5" vr="FL" vm="1" name="DF"/>
+    <entry group="0047" element="xxE6" vr="FL" vm="1" name="SCF"/>
+    <entry group="0047" element="xxE7" vr="FL" vm="1" name="SPF"/>
+    <entry group="0047" element="xxE8" vr="FL" vm="24" name="Orthogonal Clipping Planes"/>
+    <entry group="0047" element="xxE9" vr="FL" vm="3" name="CP"/>
+    <entry group="0047" element="xxEA" vr="DS" vm="3" name="CFP"/>
+    <entry group="0047" element="xxEB" vr="DS" vm="3" name="CVU"/>
+    <entry group="0047" element="xxEC" vr="FL" vm="1" name="RFOV"/>
+    <entry group="0047" element="xxED" vr="CS" vm="1" name="PPRP"/>
+    <entry group="0047" element="xxEE" vr="DS" vm="1" name="3DWW"/>
+    <entry group="0047" element="xxEF" vr="DS" vm="1" name="3DWL"/>
+    <entry group="0047" element="xxF0" vr="CS" vm="1" name="BBV"/>
+    <entry group="0047" element="xxF1" vr="CS" vm="1" name="ERF"/>
+    <entry group="0047" element="xxF2" vr="US" vm="1" name="TDRMS"/>
+    <entry group="0047" element="xxF3" vr="FL" vm="1" name="TDSSS"/>
+  </dict>
+  <dict ref="Table 8.6-17" name="Private Creator Identification" owner="GEMS_ADWSoft_3D2">
+    <entry group="0057" element="xx04" vr="LT" vm="1" name="Views Layout"/>
+  </dict>
+  <dict ref="Table 8.6-18" name="Private Creator Identification" owner="GEMS_VXTLSTATE_001">
+    <entry group="0057" element="xx05" vr="SQ" vm="1" name="Volumes_info"/>
+    <entry group="0057" element="xx06" vr="SQ" vm="1" name="Image_UIDs"/>
+    <entry group="0057" element="xx07" vr="DT" vm="1" name="SUV_ScanTime"/>
+    <entry group="0057" element="xx08" vr="DT" vm="1" name="SUV_AdministredTime"/>
+    <entry group="0057" element="xx09" vr="DT" vm="1" name="SUV_MeasuredTime"/>
+    <entry group="0057" element="xx10" vr="DT" vm="1" name="SUV_PostInjectedTime"/>
+    <entry group="0057" element="xx11" vr="FL" vm="1" name="SUV_TracerActivity"/>
+    <entry group="0057" element="xx12" vr="FL" vm="1" name="SUV_PostInjectedActivity"/>
+    <entry group="0057" element="xx13" vr="FL" vm="1" name="SUV_HalfLife"/>
+    <entry group="0057" element="xx14" vr="LO" vm="1" name="SState_Version"/>
+    <entry group="0057" element="xx15" vr="SQ" vm="1" name="SegList_Seq"/>
+    <entry group="0057" element="xx16" vr="IS" vm="1" name="SegList_Count"/>
+    <entry group="0057" element="xx17" vr="OB" vm="1" name="SegList_List"/>
+    <entry group="0057" element="xx18" vr="LO" vm="1" name="SegList_Name"/>
+    <entry group="0057" element="xx19" vr="LO" vm="1" name="Volume_Filename"/>
+    <entry group="0057" element="xx20" vr="LO" vm="1" name="SegList_Label"/>
+    <entry group="0057" element="xx21" vr="SQ" vm="1" name="Bookmark_Seq"/>
+    <entry group="0057" element="xx22" vr="LT" vm="1" name="Bookmark"/>
+    <entry group="0057" element="xx23" vr="FL" vm="3" name="Cursor_position"/>
+    <entry group="0057" element="xx24" vr="UL" vm="3N" name="Color_Value_Field"/>
+    <entry group="0057" element="xx25" vr="IS" vm="1" name="Count"/>
+    <entry group="0057" element="xx26" vr="SQ" vm="1" name="Views_info"/>
+    <entry group="0057" element="xx27" vr="LT" vm="1" name="View_Slot"/>
+    <entry group="0057" element="xx28" vr="IS" vm="1" name="Wireframe_Size"/>
+    <entry group="0057" element="xx29" vr="UT" vm="1" name="Wireframe"/>
+    <entry group="0057" element="xx30" vr="IS" vm="1" name="Annotation_Size"/>
+    <entry group="0057" element="xx31" vr="LT" vm="1" name="Annotation"/>
+    <entry group="0057" element="xx32" vr="IS" vm="1" name="Slider_State"/>
+    <entry group="0057" element="xx33" vr="LO" vm="1" name="Proto_Name"/>
+    <entry group="0057" element="xx34" vr="LO" vm="1" name="Proto_Title"/>
+    <entry group="0057" element="xx35" vr="LO" vm="1" name="Proto_FilmName"/>
+    <entry group="0057" element="xx36" vr="LO" vm="1" name="Proto_Step"/>
+    <entry group="0057" element="xx38" vr="LT" vm="1" name="SegList_Slots"/>
+    <entry group="0057" element="xx39" vr="IS" vm="1" name="VT_Points_Size"/>
+    <entry group="0057" element="xx40" vr="LT" vm="1" name="VT_Points"/>
+    <entry group="0057" element="xx41" vr="IS" vm="1" name="VT_Meas_Size"/>
+    <entry group="0057" element="xx42" vr="LT" vm="1" name="VT_Meas"/>
+    <entry group="0057" element="xx43" vr="IS" vm="1" name="VT_Tree_Size"/>
+    <entry group="0057" element="xx44" vr="UT" vm="1" name="VT_Tree"/>
+    <entry group="0057" element="xx46" vr="IS" vm="1" name="VT_Preset_Size"/>
+    <entry group="0057" element="xx47" vr="LT" vm="1" name="VT_Preset"/>
+    <entry group="0057" element="xx48" vr="IS" vm="1" name="VT_State_Size"/>
+    <entry group="0057" element="xx49" vr="LT" vm="1" name="VT_State"/>
+    <entry group="0057" element="xx50" vr="IS" vm="1" name="Preferences_Size"/>
+    <entry group="0057" element="xx51" vr="LT" vm="1" name="Preferences"/>
+    <entry group="0057" element="xx52" vr="IS" vm="1" name="Volume_ZComb_Filter"/>
+    <entry group="0057" element="xx53" vr="IS" vm="1" name="HTML_Page_Size"/>
+    <entry group="0057" element="xx54" vr="LT" vm="1" name="HTML_Page"/>
+    <entry group="0057" element="xx55" vr="FL" vm="3" name="Camera_Position"/>
+    <entry group="0057" element="xx56" vr="IS" vm="1" name="Slider_Size"/>
+    <entry group="0057" element="xx57" vr="LT" vm="1" name="Slider"/>
+    <entry group="0057" element="xx58" vr="LO" vm="1" name="SegList_Pretty_Name"/>
+  </dict>
+  <dict ref="Table 5.6-1" name="3D MODEL IOD PRIVATE ATTRIBUTES" owner="GEMS_ACQU_01">
+    <entry group="0019" element="00xx" vr="LO" vm="1" name="Private Creator"/>
+    <entry group="0019" element="xx39" vr="SS" vm="1" name="Axial Type"/>
+    <entry group="0019" element="xx8F" vr="SS" vm="1" name="Swap Phase / Frequency Axis"/>
+    <entry group="0019" element="xx9C" vr="SS" vm="1" name="Pulse Sequence Name"/>
+    <entry group="0019" element="xx9F" vr="SS" vm="1" name="Coil Type"/>
+    <entry group="0019" element="xxA4" vr="SS" vm="1" name="SAT fat/water/none"/>
+    <entry group="0019" element="xxC0" vr="SS" vm="1" name="Bitmap of SAT Selections"/>
+    <entry group="0019" element="xxC1" vr="SS" vm="1" name="Surfacel Coil Intensity Correction Flag"/>
+    <entry group="0019" element="xxCB" vr="SS" vm="1" name="Phase Contrast Flow Axis"/>
+    <entry group="0019" element="xxCC" vr="SS" vm="1" name="Phase Contrast Velocity Encoding"/>
+    <entry group="0019" element="xxD5" vr="SS" vm="1" name="Fractional Echo"/>
+    <entry group="0019" element="xxD8" vr="SS" vm="1" name="Variable Echo Flag"/>
+    <entry group="0019" element="xxD9" vr="DS" vm="1" name="Concatenated Sat"/>
+    <entry group="0019" element="xxF2" vr="SS" vm="1" name="Number of Phases"/>
+  </dict>
+  <dict ref="Table 5.6-1" name="3D MODEL IOD PRIVATE ATTRIBUTES" owner="DLX_SERIE_01">
+    <entry group="0019" element="00xx" vr="LO" vm="1" name="Private Creator"/>
+    <entry group="0019" element="xx01" vr="DS" vm="1" name="Angle Value 1"/>
+    <entry group="0019" element="xx02" vr="DS" vm="1" name="Angle Value 2"/>
+    <entry group="0019" element="xx03" vr="DS" vm="1" name="Angle Value 3"/>
+    <entry group="0019" element="xx04" vr="CS" vm="1" name="Angle Label 1"/>
+    <entry group="0019" element="xx05" vr="CS" vm="1" name="Angle Label 2"/>
+    <entry group="0019" element="xx06" vr="CS" vm="1" name="Angle Label 3"/>
+    <entry group="0019" element="xx08" vr="ST" vm="1" name="DLX Exam Name"/>
+    <entry group="0019" element="xx0A" vr="IS" vm="1" name="Dlx Record View"/>
+    <entry group="0019" element="xx10" vr="DS" vm="1" name="Dlx Injector Delay"/>
+    <entry group="0019" element="xx1C" vr="CS" vm="1" name="Dlx Dose"/>
+  </dict>
+  <dict ref="Table 5.6-1" name="3D MODEL IOD PRIVATE ATTRIBUTES" owner="GEMS_ADWSoft_DPO">
+    <entry group="0039" element="00xx" vr="LO" vm="1" name="Private Creator"/>
+    <entry group="0039" element="xx80" vr="IS" vm="1" name="Private Entity Number"/>
+    <entry group="0039" element="xx85" vr="DA" vm="1" name="Private Entity Date"/>
+    <entry group="0039" element="xx90" vr="TM" vm="1" name="Private Entity Time"/>
+    <entry group="0039" element="xx95" vr="LO" vm="1" name="Private Entity Launch Command"/>
+    <entry group="0039" element="xxAA" vr="CS" vm="1" name="Private Entity Type"/>
+  </dict>
+  <dict ref="Table 5.6-1" name="3D MODEL IOD PRIVATE ATTRIBUTES" owner="GEMS_PARM_01">
+    <entry group="0043" element="00xx" vr="LO" vm="1" name="Private Creator"/>
+    <entry group="0043" element="xx1E" vr="DS" vm="1" name="Delta Start Time"/>
+    <entry group="0043" element="xx27" vr="SH" vm="1" name="Pitch Ratio"/>
+  </dict>
+  <dict ref="Table 5.6-1" name="3D MODEL IOD PRIVATE ATTRIBUTES" owner="GEMS_ADWSoft_3D1">
+    <entry group="0047" element="00xx" vr="LO" vm="1" name="Private Creator"/>
+    <entry group="0047" element="xx01" vr="SQ" vm="1" name="Reconstruction Parameters Sequence"/>
+    <entry group="0047" element="xx49" vr="UL" vm="3-N" name="Volume Color"/>
+    <entry group="0047" element="xx50" vr="UL" vm="1" name="Volume Voxel Count"/>
+    <entry group="0047" element="xx51" vr="UL" vm="1-N" name="Volume Segment Count"/>
+    <entry group="0047" element="xx53" vr="US" vm="1" name="Volume Slice Size"/>
+    <entry group="0047" element="xx54" vr="US" vm="1" name="Volume Slice Count"/>
+    <entry group="0047" element="xx55" vr="SL" vm="1" name="Volume Threshold Value"/>
+    <entry group="0047" element="xx57" vr="DS" vm="1" name="Volume Voxel Ratio"/>
+    <entry group="0047" element="xx58" vr="DS" vm="1" name="Volume Voxel Size"/>
+    <entry group="0047" element="xx59" vr="US" vm="1" name="Volume Z Position Size"/>
+    <entry group="0047" element="xx60" vr="DS" vm="9" name="Volume Base Line"/>
+    <entry group="0047" element="xx61" vr="DS" vm="3" name="Volume Center Point"/>
+    <entry group="0047" element="xx63" vr="SL" vm="1" name="Volume Skew Base"/>
+    <entry group="0047" element="xx64" vr="DS" vm="9" name="Volume Registration Transform Rotation Matrix"/>
+    <entry group="0047" element="xx65" vr="DS" vm="3" name="Volume Registration Transform Translation Vector"/>
+    <entry group="0047" element="xx66" vr="DS" vm="1" name="Volume Tilt"/>
+    <entry group="0047" element="xx70" vr="DS" vm="1-N" name="KPV List"/>
+    <entry group="0047" element="xx71" vr="IS" vm="1-N" name="X-Ray Tube Current List"/>
+    <entry group="0047" element="xx72" vr="IS" vm="1-N" name="Exposure List"/>
+    <entry group="0047" element="xx80" vr="LO" vm="1" name="Acquisition DLX Identifier"/>
+    <entry group="0047" element="xx81" vr="IS" vm="1" name="Acquisition DLX 2D Series Count"/>
+    <entry group="0047" element="xx85" vr="SQ" vm="1" name="Acquisition DLX 2D Series Sequence"/>
+    <entry group="0047" element="xx89" vr="DS" vm="1-N" name="Contrast Agent Volume List"/>
+    <entry group="0047" element="xx8A" vr="US" vm="1" name="Number Of Injections"/>
+    <entry group="0047" element="xx8B" vr="US" vm="1" name="Frame Count"/>
+    <entry group="0047" element="xx96" vr="IS" vm="1-N" name="Used Frames"/>
+    <entry group="0047" element="xx91" vr="LO" vm="1" name="XA 3D Reconstruction Algorithm Name"/>
+    <entry group="0047" element="xx92" vr="CS" vm="1" name="XA 3D Reconstruction Algorithm Version"/>
+    <entry group="0047" element="xx93" vr="DA" vm="1" name="DLX Calibration Date"/>
+    <entry group="0047" element="xx94" vr="TM" vm="1" name="DLX Calibration Time"/>
+    <entry group="0047" element="xx95" vr="CS" vm="1" name="DLX Calibration Status"/>
+    <entry group="0047" element="xx98" vr="US" vm="1" name="Transform Count"/>
+    <entry group="0047" element="xx99" vr="SQ" vm="1" name="Transform Sequence"/>
+    <entry group="0047" element="xx9A" vr="DS" vm="9" name="Transform Rotation Matrix"/>
+    <entry group="0047" element="xx9B" vr="DS" vm="3" name="Transform Translation Vector"/>
+    <entry group="0047" element="xx9C" vr="LO" vm="1" name="Transform Label"/>
+    <entry group="0047" element="xxB1" vr="US" vm="1" name="Wireframe Count"/>
+    <entry group="0047" element="xxB2" vr="US" vm="1" name="Location System"/>
+    <entry group="0047" element="xxB0" vr="SQ" vm="1" name="Wireframe List"/>
+    <entry group="0047" element="xxB5" vr="LO" vm="1" name="Wireframe Name"/>
+    <entry group="0047" element="xxB6" vr="LO" vm="1" name="Wireframe Group Name"/>
+    <entry group="0047" element="xxB7" vr="LO" vm="1" name="Wireframe Color"/>
+    <entry group="0047" element="xxB8" vr="SL" vm="1" name="Wireframe Attributes"/>
+    <entry group="0047" element="xxB9" vr="SL" vm="1" name="Wireframe Point Count"/>
+    <entry group="0047" element="xxBA" vr="SL" vm="1" name="Wireframe Timestamp"/>
+    <entry group="0047" element="xxBB" vr="SQ" vm="1" name="Wireframe Point List"/>
+    <entry group="0047" element="xxBC" vr="DS" vm="3" name="Wireframe Points Coordinates"/>
+    <entry group="0047" element="xxC0" vr="DS" vm="3" name="Volume Upper Left High Corner RAS"/>
+    <entry group="0047" element="xxC1" vr="DS" vm="9" name="Volume Slice To RAS Rotation Matrix"/>
+    <entry group="0047" element="xxC2" vr="DS" vm="1" name="Volume Upper Left High Corner TLOC"/>
+    <entry group="0047" element="xxD1" vr="OB" vm="1" name="Volume Segment List"/>
+    <entry group="0047" element="xxD2" vr="OB" vm="1" name="Volume Gradient List"/>
+    <entry group="0047" element="xxD3" vr="OB" vm="1" name="Volume Density List"/>
+    <entry group="0047" element="xxD4" vr="OB" vm="1" name="Volume Z Position List"/>
+    <entry group="0047" element="xxD5" vr="OB" vm="1" name="Volume Original Index List"/>
+    <entry group="0047" element="xxF4" vr="LO" vm="1-N" name="Volume Name(s)"/>
+    <entry group="0047" element="xxF5" vr="DS" vm="1-N" name="Min original density"/>
+    <entry group="0047" element="xxF6" vr="DS" vm="1-N" name="Max original density"/>
+    <entry group="0047" element="xxF7" vr="DS" vm="1-N" name="Min Converted Density"/>
+    <entry group="0047" element="xxF8" vr="DS" vm="1-N" name="Max Converted Density"/>
+    <entry group="0047" element="xxF9" vr="LO" vm="1" name="Protocol Film Name"/>
+    <entry group="0047" element="xxFA" vr="US" vm="1" name="Protocol Resolution"/>
+    <entry group="0047" element="xxFB" vr="US" vm="1" name="Phase Number (percent)"/>
+    <entry group="0047" element="xxFC" vr="OB" vm="1" name="Volume midscan times list"/>
+    <entry group="0047" element="xxFD" vr="OB" vm="1" name="Volume Registered Phases List"/>
+    <entry group="0047" element="xxFE" vr="LO" vm="1" name="Protocol Name"/>
+    <entry group="0047" element="xxFF" vr="LO" vm="1" name="Protocol Title"/>
+  </dict>
+  <dict ref="Table 5.6-1" name="3D MODEL IOD PRIVATE ATTRIBUTES" owner="GEMS_ADWSoft_3D2">
+    <entry group="0057" element="00xx" vr="LO" vm="1" name="Private Creator"/>
+    <entry group="0057" element="xx01" vr="OB" vm="1" name="Cardiac Reconstruction Algorithm List"/>
+    <entry group="0057" element="xx02" vr="OB" vm="1" name="Average Heart Rate for Image List"/>
+    <entry group="0057" element="xx03" vr="OB" vm="1" name="Temporal Resolution List"/>
+    <entry group="0057" element="xx04" vr="LT" vm="1" name="Layout View Preset"/>
+  </dict>
+</dicts>

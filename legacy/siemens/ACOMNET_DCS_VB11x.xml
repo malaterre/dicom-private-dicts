@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget http://www.medical.siemens.com/siemens/en_AU/rg_marcom_FBAs/files/brochures/DICOM/ax/ACOMNET_DCS_VB11x.pdf
+ $ pdftotext -nopgbrk -layout -f 38 -l 39 ACOMNET_DCS_VB11x.pdf ACOMNET_DCS_VB11x.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py ACOMNET_DCS_VB11x.txt ACOMNET_DCS_VB11x.xml
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.medical.siemens.com/siemens/en_AU/rg_marcom_FBAs/files/brochures/DICOM/ax/ACOMNET_DCS_VB11x.pdf">
+  <dict ref="A.3" name="Registry of DICOM Data Elements">
+    <entry group="0029" element="xx08" vr="CS" vm="1" owner="SIEMENS CSA HEADER" name="CSA Image Header Type"/>
+    <entry group="0029" element="xx09" vr="LO" vm="1" owner="SIEMENS CSA HEADER" name="CSA Image Header Version"/>
+    <entry group="0029" element="xx10" vr="OB" vm="1" owner="SIEMENS CSA HEADER" name="CSA Image Header Info"/>
+    <entry group="0029" element="xx18" vr="CS" vm="1" owner="SIEMENS CSA HEADER" name="CSA Series Header Type"/>
+    <entry group="0029" element="xx19" vr="LO" vm="1" owner="SIEMENS CSA HEADER" name="CSA Series Header Version"/>
+    <entry group="0029" element="xx20" vr="OB" vm="1" owner="SIEMENS CSA HEADER" name="CSA Series Header Info"/>
+    <entry group="0029" element="xx08" vr="CS" vm="1" owner="SIEMENS CSA NON-IMAGE" name="CSA Data Type"/>
+    <entry group="0029" element="xx09" vr="LO" vm="1" owner="SIEMENS CSA NON-IMAGE" name="CSA Data Version"/>
+    <entry group="0029" element="xx10" vr="OB" vm="1" owner="SIEMENS CSA NON-IMAGE" name="CSA Data Info"/>
+    <entry group="0029" element="xx08" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="MedCom Header Type"/>
+    <entry group="0029" element="xx09" vr="LO" vm="1" owner="SIEMENS MEDCOM HEADER" name="MedCom Header Version"/>
+    <entry group="0029" element="xx10" vr="OB" vm="1" owner="SIEMENS MEDCOM HEADER" name="MedCom Header Info"/>
+    <entry group="0029" element="xx20" vr="OB" vm="1" owner="SIEMENS MEDCOM HEADER" name="MedCom History Information"/>
+    <entry group="0029" element="xx31" vr="LO" vm="1" owner="SIEMENS MEDCOM HEADER" name="PMTF Information 1"/>
+    <entry group="0029" element="xx32" vr="UL" vm="1" owner="SIEMENS MEDCOM HEADER" name="PMTF Information 2"/>
+    <entry group="0029" element="xx33" vr="UL" vm="1" owner="SIEMENS MEDCOM HEADER" name="PMTF Information 3"/>
+    <entry group="0029" element="xx34" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="PMTF Information 4"/>
+    <entry group="0029" element="xx40" vr="SQ" vm="1" owner="SIEMENS MEDCOM HEADER" name="Application Header Sequence"/>
+    <entry group="0029" element="xx41" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Application Header Type"/>
+    <entry group="0029" element="xx42" vr="LO" vm="1" owner="SIEMENS MEDCOM HEADER" name="Application Header ID"/>
+    <entry group="0029" element="xx43" vr="LO" vm="1" owner="SIEMENS MEDCOM HEADER" name="Application Header Version"/>
+    <entry group="0029" element="xx44" vr="OB" vm="1" owner="SIEMENS MEDCOM HEADER" name="Application Header Info"/>
+    <entry group="0029" element="xx50" vr="LO" vm="8" owner="SIEMENS MEDCOM HEADER" name="Workflow Control Flags"/>
+    <entry group="0029" element="xx51" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Arch. Management Flag Keep Online"/>
+    <entry group="0029" element="xx52" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Arch. Mgmnt Flag Do Not Archive"/>
+    <entry group="0029" element="xx53" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Image Location Status"/>
+    <entry group="0029" element="xx54" vr="DS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Estimated Retrieve Time"/>
+    <entry group="0029" element="xx55" vr="DS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Data Size of Retrieved Images"/>
+    <entry group="0029" element="xx00" vr="SQ" vm="1" owner="CARDIO-D.R. 1.0" name="Standard Edge Enhancement Sequence"/>
+    <entry group="0029" element="xx01" vr="US" vm="2" owner="CARDIO-D.R. 1.0" name="Convolution Kernel Size"/>
+    <entry group="0029" element="xx02" vr="US" vm="1-n" owner="CARDIO-D.R. 1.0" name="Convolution Kernel Coefficients"/>
+    <entry group="0029" element="xx03" vr="FL" vm="1" owner="CARDIO-D.R. 1.0" name="Edge Enhancement Gain"/>
+    <entry group="7FE1" element="xx10" vr="OB" vm="1" owner="SIEMENS CSA NON-IMAGE" name="CSA Data"/>
+  </dict>
+</dicts>

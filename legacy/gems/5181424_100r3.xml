@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.gehealthcare.com/usen/interoperability/dicom/docs/2389238_100r4.pdf">
+  <dict ref="3.5" name="SC-Private data dictionary" owner="QCA_RESULTS">
+    <entry name="FOV Origin                            " group="0025" element="xx33" owner="GEMS_DL_FRAME_01" vr="IS" vm="2"/>
+    <entry name="FOV Dimensions                        " group="0025" element="xx30" owner="GEMS_DL_FRAME_01" vr="IS" vm="2"/>
+    <entry name="Collimator Left Vertical Edge         " group="0025" element="xx34" owner="GEMS_DL_FRAME_01" vr="IS" vm="1"/>
+    <entry name="Collimator Right Vertical Edge        " group="0025" element="xx35" owner="GEMS_DL_FRAME_01" vr="IS" vm="1"/>
+    <entry name="Collimator Upper Horizontal Edge      " group="0025" element="xx36" owner="GEMS_DL_FRAME_01" vr="IS" vm="1"/>
+    <entry name="Collimator Lower Horizontal Edge      " group="0025" element="xx37" owner="GEMS_DL_FRAME_01" vr="IS" vm="1"/>
+    <entry name="Vertices of the Polygonal Collimator  " group="0025" element="xx38" owner="GEMS_DL_FRAME_01" vr="IS" vm="2-2n"/>
+  </dict>
+</dicts>

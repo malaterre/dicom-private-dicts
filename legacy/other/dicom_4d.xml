@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.varian.com/media/oncology/services_and_support/pdf/dicom/dicom_4d.pdf
+ $ pdftotext -layout -nopgbrk 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+NOTE:
+
+  The DCS does not state what the private owner is ... 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<!--
+http://www.varian.com/us/oncology/services_and_support/resources/dicom_statements.html
+-->
+<dicts edition="2008" url="http://www.varian.com/media/oncology/services_and_support/pdf/dicom/dicom_4d.pdf">
+  <dict owner="Varian Medical Systems VISION 3253">
+    <entry group="3253" element="1000" name="XML stream." type="3" VR="IS"/>
+    <entry group="3253" element="1001" name="Data length of the XML stream" type="3" VR="IS"/>
+    <entry group="3253" element="1002" name="Extended Interface Format tag" type="3" VR="IS"/>
+  </dict>
+</dicts>

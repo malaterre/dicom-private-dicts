@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget http://www.mortara.com/assets/client_files/File/conformance/DICOM%20Conformance%20Statement.pdf
+ $ pdftotext -layout -nopgbrk 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.mortara.com/assets/client_files/File/conformance/DICOM%20Conformance%20Statement.pdf">
+  <dict owner="Mortara_Inc">
+    <entry name="Manufacturer Name           " group="1455" element="1010" vr="LO"/>
+    <!-- "Mortara Instrument, Inc." -->
+    <entry name="ELI Interpretation Vector   " group="1455" element="1000" vr="OW"/>
+    <!-- ELI interpretation vector -->
+    <entry name="Custom ID                   " group="1455" element="1001" vr="UN"/>
+    <!-- The custom ID format -->
+    <entry name="Race                        " group="1455" element="1002" vr="UT"/>
+    <!-- Custom ID field "Race" -->
+    <entry name="Social Security Number      " group="1455" element="1003" vr="UT"/>
+    <!-- Custom ID field "Social Security Number" -->
+    <entry name="Attending Physician         " group="1455" element="1004" vr="UT"/>
+    <!-- Custom ID field "Attending Physician" -->
+    <entry name="Procedural Diagnosis        " group="1455" element="1005" vr="UT"/>
+    <!-- Custom ID field "Procedural Diagnosis" -->
+    <entry name="Note1                       " group="1455" element="1006" vr="UT"/>
+    <!-- Custom ID field "Note1" -->
+    <entry name="Note2                       " group="1455" element="1007" vr="UT"/>
+    <!-- Custom ID field "Note2" -->
+    <entry name="Order Request Number        " group="1455" element="1008" vr="LO"/>
+    <!-- Custom ID field "Order Request Number" -->
+  </dict>
+</dicts>

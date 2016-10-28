@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ grep -e " [0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][13579BDFbdf]," EnVisor_C_1_DCS.txt > EnVisor_C_1_DCS.xml 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts>
+  <dict owner="Philips US Imaging 60">
+    <entry group="0031" element="0060" vr="LO" name="Private Creator"/>
+    <entry group="0031" element="6030" vr="UL" name="Private data"/>
+    <entry group="0031" element="6031" vr="UL" name="Private data"/>
+  </dict>
+  <dict owner="Philips EnVisor">
+    <entry name="Private Creator" group="7777" element="0010" vr="LO"/>
+    <entry group="7777" element="1001" vr="DA" name="Date 3D/PanView internal 'dataset' file was acquired"/>
+    <entry group="7777" element="1002" vr="CS" name="Type of 3D or PanView"/>
+    <entry group="7777" element="1003" vr="LO" name="Internal 3D/PanView software version number"/>
+    <entry group="7777" element="1014" vr="LT" name="Private string"/>
+  </dict>
+</dicts>

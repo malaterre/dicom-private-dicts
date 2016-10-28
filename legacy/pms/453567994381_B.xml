@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/453567994381_B.pdf
+ $ pdftotext -nopgbrk -layout -f 82 -l 83 453567994381_B.pdf 453567994381_B.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py 453567994381_B.txt 453567994381_B.xml
+
+FIXME:
+  There are some description in the original text that could be added
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/453567994381_B.pdf">
+  <dict ref="Table 104" name="Private Elements for PET Images" owner="Philips PET Private Group">
+    <entry group="7053" element="0010" vr="LO" vm="1" name="Private Creator Data element"/>
+    <entry group="7053" element="1000" vr="DS" vm="1" name="SUV Scale Factor"/>
+    <entry group="7053" element="1001" vr="OB" vm="1" name="Private"/>
+    <entry group="7053" element="1002" vr="OB" vm="1" name="Private"/>
+    <entry group="7053" element="1003" vr="ST" vm="1" name="Original image file name"/>
+    <entry group="7053" element="1009" vr="DS" vm="1" name="Activity Concentration Scale Factor"/>
+  </dict>
+  <dict ref="Table 105" name="Private Elements for Secondary Capture Images" owner="Philips PET Private Group">
+    <entry group="7053" element="0010" vr="LO" vm="1" name="Private Creator Data element"/>
+    <entry group="7053" element="1003" vr="ST" vm="1" name="Original image file name"/>
+  </dict>
+  <dict ref="Table 106" name="Private Elements for PET Raw Data" owner="Philips PET Private Group">
+    <entry group="7053" element="0010" vr="LO" vm="1" name="Private Creator Data Element"/>
+    <entry group="7053" element="1007" vr="SQ" vm="1" name="Acquisition File Sequence"/>
+    <entry group="7053" element="1003" vr="LO" vm="1" name="&gt; File Name"/>
+    <entry group="7053" element="100F" vr="UL" vm="1" name="&gt; Segment Size"/>
+    <entry group="7053" element="1010" vr="US" vm="1" name="&gt; Segment Number"/>
+    <entry group="7053" element="1011" vr="US" vm="1" name="&gt; Number of Segments"/>
+    <entry group="7053" element="1012" vr="SQ" vm="1" name="&gt; File Data Sequence"/>
+    <entry group="7053" element="1004" vr="OB" vm="1" name="&gt;&gt; File Data"/>
+  </dict>
+</dicts>

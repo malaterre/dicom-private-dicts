@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget 
+ $ pdftotext  -layout -nopgbrk  -f 15 -l 15 000978_tcm220-21764.pdf 000978_tcm220-21764.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+NOTE:
+  vm = 1 were manually added
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.agfa.com/en/he/binaries/000978_tcm220-21764.pdf">
+  <dict ref="Table 2-12" name="C-Store SCU private attributes" owner="AGFA">
+    <entry name="Private Identification Code" group="0019" element="0010" vr="SH" vm="1"/>
+    <entry name="Image Processing Parameters" group="0019" element="1010" vr="ST" vm="1"/>
+    <entry name="Sensitometry Name" group="0019" element="1013" vr="LO" vm="1"/>
+    <entry name="Dose Monitoring List" group="0019" element="1015" vr="LO" vm="1"/>
+    <entry name="Clipped Exposure Deviation" group="0019" element="101A" vr="LO" vm="1"/>
+    <entry name="Logarithmic PLT Full Scale" group="0019" element="101B" vr="LO" vm="1"/>
+    <entry name="Total number of series" group="0019" element="1060" vr="US" vm="1"/>
+    <entry name="ID Station name" group="0019" element="1062" vr="SH" vm="1"/>
+    <entry name="Number of images in study to be transmitted (only sent with autoverify: on)" group="0019" element="1065" vr="US" vm="1"/>
+    <entry name="Total number of images" group="0019" element="1070" vr="US" vm="1"/>
+    <entry name="Geometrical Transformations" group="0019" element="1080" vr="ST" vm="1"/>
+    <entry name="Roam Origin" group="0019" element="1081" vr="ST" vm="1"/>
+    <entry name="Zoom factor" group="0019" element="1082" vr="US" vm="1"/>
+    <entry name="Status" group="0019" element="1093" vr="CS" vm="1"/>
+  </dict>
+</dicts>

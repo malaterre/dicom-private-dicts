@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.gehealthcare.com/usen/xr/dicom/docs/drscs040.pdf">
+  <dict ref="TABLE 17" name="ADDITIONAL INFORMATION" owner="GEMS_DRS_1" >
+    <entry group="0037" element="00xx" vr="LO" vm="1" type="3" name="Private Creator DRS_1"/>
+    <entry group="0037" element="xx10" vr="LO" vm="1" type="3" name="Refering Department"/>
+    <entry group="0037" element="xx20" vr="US" vm="1" type="3" name="Screen Number"/>
+    <entry group="0037" element="xx40" vr="SH" vm="1" type="3" name="Left Orientation"/>
+    <entry group="0037" element="xx42" vr="SH" vm="1" type="3" name="Right Orientation"/>
+    <entry group="0037" element="xx50" vr="CS" vm="1" type="3" name="Inversion"/>
+    <entry group="0037" element="xx60" vr="US" vm="1" type="3" name="DSA"/>
+  </dict>
+</dicts>

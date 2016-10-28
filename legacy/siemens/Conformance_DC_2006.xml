@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.medical.siemens.com/siemens/en_GB/gg_mr_FBAs/files/DICOM_Statements/Conformance_DC_2006.pdf
+ $ pdftotext -nopgbrk -layout -f 126 -l 127 Conformance_DC_2006.pdf Conformance_DC_2006.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py Conformance_DC_2006.txt Conformance_DC_2006.xml
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.medical.siemens.com/siemens/en_GB/gg_mr_FBAs/files/DICOM_Statements/Conformance_DC_2006.pdf">
+  <dict ref="A.5" name="Registry of DICOM Data Elements">
+    <entry group="0029" element="xx08" vr="CS" vm="1" owner="SIEMENS CSA NON-IMAGE" name="CSA Data Type"/>
+    <entry group="0029" element="xx09" vr="LO" vm="1" owner="SIEMENS CSA NON-IMAGE" name="CSA Data Version"/>
+    <entry group="0029" element="xx10" vr="OB" vm="1" owner="SIEMENS CSA NON-IMAGE" name="CSA Data Info"/>
+    <entry group="0029" element="xx08" vr="CS" vm="1" owner="SIEMENS CSA HEADER" name="CSA Image Header Type"/>
+    <entry group="0029" element="xx09" vr="LO" vm="1" owner="SIEMENS CSA HEADER" name="CSA Image Header Version"/>
+    <entry group="0029" element="xx10" vr="OB" vm="1" owner="SIEMENS CSA HEADER" name="CSA Image Header Info"/>
+    <entry group="0029" element="xx18" vr="CS" vm="1" owner="SIEMENS CSA HEADER" name="CSA Series Header Type"/>
+    <entry group="0029" element="xx19" vr="LO" vm="1" owner="SIEMENS CSA HEADER" name="CSA Series Header Version"/>
+    <entry group="0029" element="xx20" vr="OB" vm="1" owner="SIEMENS CSA HEADER" name="CSA Series Header Info"/>
+    <entry group="0029" element="xx08" vr="CS" vm="1" owner="SIEMENS CSA REPORT" name="syngo Report Type"/>
+    <entry group="0029" element="xx09" vr="LO" vm="1" owner="SIEMENS CSA REPORT" name="syngo Report"/>
+    <entry group="0029" element="xx15" vr="US" vm="1" owner="SIEMENS CSA REPORT" name="SR Variant"/>
+    <entry group="0029" element="xx17" vr="UI" vm="1" owner="SIEMENS CSA REPORT" name="SC SOP Instance UID"/>
+    <entry group="0029" element="xx10" vr="OB" vm="1" owner="SIEMENS CSA ENVELOPE" name="syngo Report Data"/>
+    <entry group="0029" element="xx11" vr="OB" vm="1" owner="SIEMENS CSA ENVELOPE" name="syngo Report Presentation"/>
+    <entry group="0029" element="xx08" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="MedCom Header Type"/>
+    <entry group="0029" element="xx09" vr="LO" vm="1" owner="SIEMENS MEDCOM HEADER" name="MedCom Header Version"/>
+    <entry group="0029" element="xx10" vr="OB" vm="1" owner="SIEMENS MEDCOM HEADER" name="MedCom Header Info"/>
+    <entry group="0029" element="xx20" vr="OB" vm="1" owner="SIEMENS MEDCOM HEADER" name="MedCom History Information"/>
+    <entry group="0029" element="xx40" vr="SQ" vm="1" owner="SIEMENS MEDCOM HEADER" name="Application Header Sequence"/>
+    <entry group="0029" element="xx41" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Application Header Type"/>
+    <entry group="0029" element="xx42" vr="LO" vm="1" owner="SIEMENS MEDCOM HEADER" name="Application Header ID"/>
+    <entry group="0029" element="xx43" vr="LO" vm="1" owner="SIEMENS MEDCOM HEADER" name="Application Header Version"/>
+    <entry group="0029" element="xx44" vr="OB" vm="1" owner="SIEMENS MEDCOM HEADER" name="Application Header Info"/>
+    <entry group="0029" element="xx50" vr="LO" vm="8" owner="SIEMENS MEDCOM HEADER" name="Workflow Control Flags"/>
+    <entry group="0029" element="xx51" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Arch. Management Flag Keep Online"/>
+    <entry group="0029" element="xx52" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Arch. Mgmnt Flag Do Not Archive"/>
+    <entry group="0029" element="xx53" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Image Location Status"/>
+    <entry group="0029" element="xx54" vr="DS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Estimated Retrieve Time"/>
+    <entry group="0029" element="xx55" vr="DS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Data Size of Retrieved Images"/>
+    <entry group="0029" element="xx70" vr="SQ" vm="1" owner="SIEMENS MEDCOM HEADER" name="Siemens Link Sequence"/>
+    <entry group="0029" element="xx71" vr="AT" vm="1" owner="SIEMENS MEDCOM HEADER" name="Referenced Tag"/>
+    <entry group="0029" element="xx72" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Referenced Tag Type"/>
+    <entry group="0029" element="xx73" vr="UL" vm="1" owner="SIEMENS MEDCOM HEADER" name="Referenced Value Length"/>
+    <entry group="0029" element="xx74" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Referenced Object Device Type"/>
+    <entry group="0029" element="xx75" vr="OB" vm="1" owner="SIEMENS MEDCOM HEADER" name="Referenced Object Device Location"/>
+    <entry group="0029" element="xx76" vr="OB" vm="1" owner="SIEMENS MEDCOM HEADER" name="Referenced Object ID"/>
+    <entry group="0029" element="xx60" vr="LO" vm="1" owner="SIEMENS MEDCOM HEADER2" name="Series Work Flow Status"/>
+    <entry group="0029" element="xx08" vr="CS" vm="1" owner="SIEMENS MEDCOM OOG" name="MedCom OOG Type"/>
+    <entry group="0029" element="xx09" vr="LO" vm="1" owner="SIEMENS MEDCOM OOG" name="MedCom OOG Version"/>
+    <entry group="0029" element="xx10" vr="OB" vm="1" owner="SIEMENS MEDCOM OOG" name="MedCom OOG Info"/>
+    <entry group="7FE1" element="xx10" vr="OB" vm="1" owner="SIEMENS CSA NON-IMAGE" name="CSA Data"/>
+  </dict>
+</dicts>

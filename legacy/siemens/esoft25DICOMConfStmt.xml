@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget 
+ $ pdftotext -nopgbrk -layout
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts url="http://www.medical.siemens.com/siemens/sv_SE/rg_marcom_FBAs/files/brochures/DICOM/nm/esoft25DICOMConfStmt.pdf">
+  <dict ref="A.5" name="Standard Extensions of NM SOP Class" owner="SIEMENS MED NM">
+    <entry group="0019" element="00A5" vr="SS" vm="1-n" name="Number of repeats per phase"/>
+    <entry group="0019" element="00A6" vr="SS" vm="1-n" name="Cycles per repeat"/>
+    <entry group="0019" element="00A7" vr="SL" vm="1-n" name="Repeat start time"/>
+    <entry group="0019" element="00A8" vr="SL" vm="1-n" name="Repeat stop time"/>
+    <entry group="0019" element="00A9" vr="SL" vm="1-n" name="Effective repeat time"/>
+    <entry group="0019" element="00AA" vr="SS" vm="1-n" name="Acquired cycles per repeat"/>
+    <entry group="0021" element="0000" vr="OB" vm="1" name="ECAT File Menu Header"/>
+    <entry group="0021" element="0001" vr="OB" vm="1" name="ECAT File Subheader"/>
+    <entry group="0033" element="0000" vr="FL" vm="n" name="Flood correction Matrix Det 1 upto SR 2.0"/>
+    <entry group="0033" element="0001" vr="FL" vm="n" name="Flood correction Matrix Det 2 upto SR 2.0"/>
+    <entry group="0033" element="0024" vr="FL" vm="1" name="Backprojection angle head 1"/>
+    <entry group="0033" element="0025" vr="FL" vm="1" name="Backprojection angle head 2"/>
+    <entry group="0033" element="0028" vr="SL" vm="1" name="Number of point sources used for NCO and MHR"/>
+    <entry group="0033" element="0029" vr="FL" vm="1" name="Crystal thickness"/>
+    <entry group="0033" element="0030" vr="LO" vm="1" name="Preset name used for acquisition"/>
+    <entry group="0033" element="0031" vr="FL" vm="1" name="Camera config angle"/>
+    <entry group="0033" element="0032" vr="LO" vm="1" name="Crystal type Startburst or not"/>
+    <entry group="0033" element="0033" vr="SL" vm="1" name="Gantry step for COIN acquisitions"/>
+    <entry group="0033" element="0034" vr="FL" vm="1" name="Bed step for wholebody or Coin acquisitions"/>
+    <entry group="0033" element="0035" vr="FL" vm="1" name="Weight factor table for coincidence acquisitions"/>
+    <entry group="0033" element="0036" vr="FL" vm="1" name="Transaxial acceptance width for coincidence"/>
+    <entry group="0033" element="0037" vr="SL" vm="1" name="Starburst flags"/>
+    <entry group="0033" element="0038" vr="FL" vm="1" name="Pixel scale factor"/>
+    <entry group="0035" element="0000" vr="LO" vm="1" name="Specialized tomo type"/>
+    <entry group="0035" element="0001" vr="LO" vm="1" name="Energy window type"/>
+    <entry group="0035" element="0002" vr="SS" vm="1" name="Start and end row illuminated by wind position"/>
+    <entry group="0035" element="0003" vr="LO" vm="1" name="Blank scan image for profile"/>
+    <entry group="0035" element="0004" vr="SS" vm="1" name="Repeat number of the original dynamic SPECT"/>
+    <entry group="0035" element="0005" vr="SS" vm="1" name="Phase number of the original dynamic SPECT"/>
+    <entry group="0039" element="0000" vr="LT" vm="1" name="Toshiba CBF activity results"/>
+    <entry group="0055" element="0004" vr="SS" vm="1" name="Prompt window width"/>
+    <entry group="0055" element="0005" vr="SS" vm="1" name="Random window width"/>
+    <entry group="0055" element="007E" vr="FL" vm="1-n" name="Collimator thickness"/>
+    <entry group="0055" element="007F" vr="FL" vm="1-n" name="Collimator angular resolution"/>
+    <entry group="0057" element="0001" vr="LO" vm="1" name="e.soft DICOM original image type"/>
+    <entry group="0057" element="0002" vr="FL" vm="1" name="Dose calibration factor"/>
+    <entry group="0057" element="0003" vr="LO" vm="1" name="Units"/>
+    <entry group="0057" element="0004" vr="LO" vm="1" name="Decay correction"/>
+    <entry group="0057" element="0005" vr="SL" vm="N" name="Radio nuclide half life"/>
+    <entry group="0057" element="0006" vr="FL" vm="1" name="Rescale intercept"/>
+    <entry group="0057" element="0007" vr="FL" vm="1" name="Rescale Slope"/>
+    <entry group="0057" element="0008" vr="FL" vm="1" name="Frame reference time"/>
+    <entry group="0057" element="0009" vr="SL" vm="1" name="Number of Radiopharmaceutical information seq"/>
+    <entry group="0057" element="000A" vr="FL" vm="1" name="Decay factor"/>
+    <entry group="0057" element="000B" vr="LO" vm="1" name="Counts source"/>
+    <entry group="0057" element="000C" vr="SL" vm="n" name="Radio Nuclide positron fraction"/>
+    <entry group="7FE3" element="0014" vr="OW" vm="1" name="Minimum pixel in frame"/>
+    <entry group="7FE3" element="0015" vr="OW" vm="1" name="Maximum pixel in frame"/>
+<!--               7FE3    OW   1      Number of R-Waves in frame -->
+  </dict>
+  <dict ref="A.6" name="Standard Extensions of PT SOP Class" owner="SIEMENS MED NM">
+    <entry group="0021" element="0000" vr="OB" vm="1" name="ECAT File Menu Header"/>
+    <entry group="0021" element="0001" vr="OB" vm="1" name="ECAT File Subheader"/>
+  </dict>
+</dicts>

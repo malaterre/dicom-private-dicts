@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.medical.siemens.com/siemens/en_US/rg_marcom_FBAs/files/brochures/DICOM/ax/ACOM_PC_REC_DCS_V60.pdf">
+  <dict ref="5.3.1" name="DICOMDIR Keys" owner="CARDIO-SMS 1.0">
+<entry name="Private Creator                  " group="0009" element="0010"    type="3"/>      
+<entry name="ACOM flags                      " group="0009" element="1008"    type="3" vr="OB"/>      <!--Hex 7\10004\10004\7-->
+</dict>
+</dicts>
+
+

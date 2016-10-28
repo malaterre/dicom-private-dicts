@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget 
+ $ pdftotext -layout -nopgbrk 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="www.gehealthcare.com/usen/fun_img/nmedicine/nmdicom/docs/xpert5_5vg4_0.pdf">
+  <dict ref="Appendix A" name="Private Data Dictionary" owner="APEX_PRIVATE">
+    <entry name="Private Creator    " group="0027" element="1010" vr="LO" vm="1"/>
+    <entry name="Bed Position       " group="0027" element="1011" vr="DS" vm="1"/>
+  </dict>
+  <dict ref="Appendix A" name="Private Data Dictionary" owner="ELGEMS_XPERT">
+    <entry name="Private Creator    " group="7FA1" element="0010" vr="LO" vm="1"/>
+    <entry name="XPert Composite Report Item buffer           " group="7FA1" element="1000" vr="OB" vm="1"/>
+    <entry name="Xpert Composite Report Item Identificator             " group="7FA1" element="1010" vr="OB" vm="1"/>
+  </dict>
+</dicts>

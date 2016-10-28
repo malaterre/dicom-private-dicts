@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget http://www.medical.siemens.com/siemens/it_IT/rg_marcom_FBAs/files/brochures/DICOM/ax/AXIOM_Multistar_polytron_top_niu.pdf
+ $ pdftotext  -layout -nopgbrk 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts url="http://www.medical.siemens.com/siemens/it_IT/rg_marcom_FBAs/files/brochures/DICOM/ax/AXIOM_Multistar_polytron_top_niu.pdf">
+  <dict name="X-RAY ANGIOGRAPHIC IMAGE" owner="POLYTRON-SMS 2.5">
+    <entry name="Private Creator                  " group="0009" element="0010" vr="LO"/>
+    <entry name="Private Data 1                   " group="0009" element="1002"/>
+    <entry name="Private Data 2                   " group="0009" element="1003"/>
+    <entry name="Private Data 3                   " group="0009" element="1004"/>
+    <entry name="Private Data 4                   " group="0009" element="1010"/>
+    <entry name="Private Data 5                   " group="0009" element="1011"/>
+    <entry name="Private Data 6                   " group="0009" element="1012"/>
+  </dict>
+  <dict name="X-RAY ANGIOGRAPHIC IMAGE" owner="CARDIO-D.R. 1.0">
+    <entry name="Private Creator                  " group="0019" element="0010" vr="LO"/>
+    <entry name="Maximum Frame Size               " group="0019" element="1030" vr="UL"/>
+    <entry name="Private Creator                  " group="0021" element="0010" vr="LO"/>
+    <entry name="Image Sequence Number            " group="0021" element="1013" vr="IS"/>
+    <entry name="Private Creator                  " group="0029" element="0010" vr="LO"/>
+    <entry name="Edge Enhancement Sequence        " group="0029" element="1000" vr="SQ"/>
+    <entry name="&gt;Private Creator                 " group="0029" element="0010" vr="LO"/>
+    <entry name="&gt;Convolution Kernel Size         " group="0029" element="1001"/>
+    <entry name="&gt;Convolution Kernel Coefficients " group="0029" element="1002"/>
+    <entry name="&gt;Edge Enhancement Gain           " group="0029" element="1003"/>
+    <entry name="Edge Enhancement Gain            " group="0029" element="1003"/>
+  </dict>
+  <dict name="X-RAY ANGIOGRAPHIC IMAGE" owner="POLYTRON-SMS 2.5">
+    <entry name="Private Creator                  " group="0089" element="0010" vr="LO"/>
+    <entry name="Private Data                     " group="0089" element="1010"/>
+  </dict>
+  <dict name="PHOTOFILE" owner="POLYTRON-SMS 2.5">
+    <entry name="Private Creator " group="0009" element="0010" vr="LO"/>
+    <entry name="Private Data 1  " group="0009" element="1002"/>
+    <entry name="Private Data 2  " group="0009" element="1004"/>
+    <entry name="Private Data 3  " group="0009" element="1006"/>
+    <entry name="Private Creator " group="0089" element="0010" vr="LO"/>
+    <entry name="Private Data    " group="0089" element="1010"/>
+  </dict>
+</dicts>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+ Program: GDCM (Grassroots DICOM). A DICOM library
+ Module: $URL$
+
+ Copyright (c) 2006-2008 Mathieu Malaterre
+ All rights reserved.
+ See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+ This software is distributed WITHOUT ANY WARRANTY; without even
+ the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ PURPOSE. See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="">
+  <dict ref="A.8.2.7" name="Private Attributes and their interpretation">
+    <!--
+-->
+    <entry name="Number of Sub-Frames" group="0039" element="xx77" owner="SIEMENS MED OCS NUMBER OF SUB FRAMES" vr="IS" vm="1"/>
+    <entry name="Number of Frames" group="0039" element="xx76" owner="SIEMENS MED OCS NUMBER OF FRAMES" vr="IS" vm="1"/>
+    <entry name="Site Name" group="0039" element="xx78" owner="SIEMENS MED OCS SITE NAME" vr="CS" vm="1"/>
+    <entry name="Field Name" group="0039" element="xx79" owner="SIEMENS MED OCS FIELD NAME" vr="CS" vm="1"/>
+    <entry name="Field ID" group="0039" element="xx80" owner="SIEMENS MED OCS FIELD ID" vr="CS" vm="1"/>
+    <entry name="Calibration Date" group="0039" element="xx81" owner="SIEMENS MED OCS CALIBRATION DATE" vr="CS" vm="1"/>
+    <entry name="Valid Pixel Map Flag" group="0039" element="xx92" owner="SIEMENS MED OCS PI VALID PIXEL MAP" vr="IS" vm="1"/>
+    <entry name="Alignment Offset Valid Flag" group="0039" element="xx94" owner="SIEMENS MED OCS PI ALIGNMENT IMAGE" vr="IS" vm="1"/>
+    <entry name="Flat Panel Alignment last calibration Date and Time" group="0039" element="xx95" owner="SIEMENS MED OCS FP Alignment Calibration Date / Time" vr="DT" vm="1"/>
+  </dict>
+  <dict ref="A.8.2.8" name="Private Attributes and their interpretation">
+    <entry name="Starting Projection Angle" group="0039" element="xx82" owner="SIEMENS MED OCS CBT STARTING GANTRY ANGLE" vr="DS" vm="1-n"/>
+    <entry name="Ending Projection Angle" group="0039" element="xx83" owner="SIEMENS MED OCS CBT ENDING GANTRY ANGLE" vr="DS" vm="1-n"/>
+    <entry name="Arc Increment" group="0039" element="xx84" owner="SIEMENS MED OCS CBT ARC INCREMENT" vr="IS" vm="1-n"/>
+    <entry name="Gantry Rotation Direction" group="0039" element="xx85" owner="SIEMENS MED OCS CBT ROTATION DIRECTION" vr="CS" vm="1-n"/>
+    <entry name="Gantry Positions" group="0039" element="xx86" owner="SIEMENS MED OCS CBT PROJECTION GANTRY POSITIONS" vr="DS" vm="1-n"/>
+    <entry name="Reconstruction Slice Width" group="0039" element="xx87" owner="SIEMENS MED OCS CBT RECON SLICE WIDTH" vr="IS" vm="1"/>
+    <entry name="Reconstruction Slice Height" group="0039" element="xx88" owner="SIEMENS MED OCS CBT RECON SLICE HEIGHT" vr="IS" vm="1"/>
+    <entry name="Number of Reconstruction Slices" group="0039" element="xx89" owner="SIEMENS MED OCS CBT RECON NUM OF SLICES" vr="IS" vm="1"/>
+    <entry name="Reconstruction Filter Type" group="0039" element="xx90" owner="SIEMENS MED OCS CBT RECON FILTER TYPE" vr="IS" vm="1"/>
+    <entry name="Missing Projection Frames" group="0039" element="xx91" owner="SIEMENS MED OCS CBT MISSING PROJECTION FRAMES" vr="IS" vm="1-n"/>
+    <entry name="Patient Orientation" group="0039" element="xx93" owner="SIEMENS MED OCS CBT PATIENT_ORIENTATION" vr="CS" vm="1"/>
+    <entry name="I0-MU Scale Factor" group="0039" element="xx97" owner="SIEMENS MED OCS I0 MU SCALE FACTOR" vr="IS" vm="1"/>
+  </dict>
+  <dict ref="A.8.2.9" name="Private Attributes and their interpretation">
+    <entry name="Starting Projection Angle" group="0039" element="xx82" owner="SIEMENS MED OCS CBT STARTING GANTRY ANGLE" vr="DS" vm="1-n"/>
+    <entry name="Ending Projection Angle" group="0039" element="xx83" owner="SIEMENS MED OCS CBT ENDING GANTRY ANGLE" vr="DS" vm="1-n"/>
+    <entry name="Arc Increment" group="0039" element="xx84" owner="SIEMENS MED OCS CBT ARC INCREMENT" vr="IS" vm="1-n"/>
+    <entry name="Total MU delivered during Cone Beam" group="0039" element="xx96" owner="SIEMENS MED OCS CBT TOTAL_MU" vr="DS" vm="1"/>
+    <entry name="Lateral Table Position" group="0039" element="xx98" owner="SIEMENS MED OCS TABLE LATERAL POSITION" vr="DS" vm="1"/>
+    <entry name="Longitudinal Table Position" group="0039" element="xx99" owner="SIEMENS MED OCS TABLE LONGITUDINAL POSITION" vr="DS" vm="1"/>
+    <entry name="vertical Table Position" group="0039" element="xx75" owner="SIEMENS MED OCS TABLE VERTICAL POSITION" vr="DS" vm="1"/>
+  </dict>
+  <dict ref="A.9.3.3" name="Private Attributes and their interpretation">
+    <entry name="Reference Image" group="0039" element="xx76" owner="SIEMENS MED OCS REFERENCE IMAGE" vr="UI" vm="1"/>
+    <entry name="Offset" group="0039" element="xx78" owner="SIEMENS MED OCS TABLE OFFSET" vr="DS" vm="3"/>
+    <entry name="AE Title" group="0039" element="xx79" owner="SIEMENS MED OCS AE TITLE" vr="CS" vm="1"/>
+    <entry name="Transformation Matrix" group="0039" element="xx80" owner="SIEMENS MED OCS TRANS MATRIX" vr="DS" vm="5"/>
+    <entry name="Acknowledge Flag" group="0039" element="xx81" owner="SIEMENS MED OCS ACKNOWLEDGE FLAG" vr="IS" vm="1"/>
+    <entry name="Image Center in Image Coordinates" group="0039" element="xx82" owner="SIEMENS MED OCS ICC MATRIX" vr="DS" vm="2"/>
+    <entry name="Common Edge" group="0039" element="xx83" owner="SIEMENS MED OCS COMMON EDGE" vr="IS" vm="1"/>
+    <entry name="Non-RT Image SID" group="0039" element="xx85" owner="SIEMENS MED OCS SC IMG SID" vr="DS" vm="1"/>
+    <entry name="Non-RT Image SAD" group="0039" element="xx86" owner="SIEMENS MED OCS SC IMG SAD" vr="DS" vm="1"/>
+    <entry name="Non-RT Image Pixel Spacing" group="0039" element="xx87" owner="SIEMENS MED OCS SC IMG PIX SPC" vr="DS" vm="2"/>
+    <entry name="Scaled Image Pixel Spacing" group="0039" element="xx84" owner="SIEMENS MED OCS SCALED IMG PIX SPC" vr="DS" vm="2"/>
+    <entry name="Locked Flag" group="0039" element="xx88" owner="SIEMENS MED OCS REFERENCE LOCKED" vr="IS" vm="1"/>
+  </dict>
+</dicts>

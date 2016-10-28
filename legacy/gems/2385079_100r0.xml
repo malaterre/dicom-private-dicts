@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget http://www.gehealthcare.com/usen/xr/dicom/docs/2385079_100r0.pdf
+ $ pdftotext -f 56 -l 56
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.gehealthcare.com/usen/xr/dicom/docs/2385079_100r0.pdf">
+  <dict ref="TABLE 27" name="PRIVATE CREATOR IDENTIFICATION" owner="GEMS_SENO_02">
+    <entry group="0045" element="yy1b" vr="LO" vm="1" name="Clinical View"/>
+    <entry group="0045" element="yy20" vr="DS" vm="1" name="Estimated Anat mean"/>
+    <entry group="0045" element="yy26" vr="OB" vm="1" name="MAO Buffer"/>
+    <entry group="0045" element="yy29" vr="DS" vm="2" name="Windowing parameters"/>
+    <entry group="0045" element="yy2a" vr="IS" vm="1" name="2DLocX"/>
+    <entry group="0045" element="yy2b" vr="IS" vm="1" name="2DLocY"/>
+    <entry group="0045" element="yy49" vr="DS" vm="1" name="Radiological Thickness"/>
+    <entry group="0045" element="yy50" vr="UI" vm="1" name="SC Instance UID"/>
+    <entry group="0045" element="yy51" vr="UI" vm="1" name="SC series UID"/>
+    <entry group="0045" element="yy58" vr="DS" vm="1" name="mu"/>
+    <entry group="0045" element="yy59" vr="IS" vm="1" name="Threshold"/>
+    <entry group="0045" element="yy60" vr="IS" vm="4" name="Breast ROI X"/>
+    <entry group="0045" element="yy61" vr="IS" vm="4" name="Breast ROI Y"/>
+    <entry group="0045" element="yy64" vr="IS" vm="1" name="Segm Threshold"/>
+  </dict>
+</dicts>

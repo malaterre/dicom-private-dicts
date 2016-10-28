@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget 
+ $ pdftotext -nopgbrk -layout 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/ELEVA-DI-DITTO-R232-DICOMCS-02.pdf">
+  <dict ref="Table 87" name="Grayscale Softcopy Presentation State Storage SOP Class - Graphic Annotation Module ( C )" owner="Philips Imaging DD 001">
+    <entry name="&gt;&gt; Graphic Number Sequence" group="2001" element="109A" vr="SQ"/>
+  </dict>
+</dicts>

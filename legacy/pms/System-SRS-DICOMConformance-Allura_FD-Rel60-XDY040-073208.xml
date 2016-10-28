@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/System-SRS-DICOMConformance-Allura_FD-Rel60-XDY040-073208.pdf
+ $ pdftotext -nopgbrk -layout -f 27 -l 27 System-SRS-DICOMConformance-Allura_FD-Rel60-XDY040-073208.pdf System-SRS-DICOMConformance-Allura_FD-Rel60-XDY040-073208.txt
+ $ pdftotext -nopgbrk -layout -f 81 -l 81 System-SRS-DICOMConformance-Allura_FD-Rel60-XDY040-073208.pdf System-SRS-DICOMConformance-Allura_FD-Rel60-XDY040-073208.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py System-SRS-DICOMConformance-Allura_FD-Rel60-XDY040-073208.txt System-SRS-DICOMConformance-Allura_FD-Rel60-XDY040-073208.xml
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/System-SRS-DICOMConformance-Allura_FD-Rel60-XDY040-073208.pdf">
+  <dict ref="Table 29" name="N-CREATE MPPS Request Identifier: Extended Radiation Dose Module" owner="INTEGRIS 1.0">
+    <entry group="0041" element="0010" vr="LO" name="Private Creator Group 0041"/>
+    <entry group="0041" element="1041" vr="US" name="Total Number of Frames"/>
+    <entry group="0041" element="0010" vr="LO" name="Private Creator Group 0041"/>
+    <entry group="0041" element="1020" vr="DS" name="Accumulated Fluoroscopy Dose"/>
+    <entry group="0041" element="1030" vr="DS" name="Accumulated Exposure Dose"/>
+    <entry group="0041" element="1040" vr="DS" name="Total Dose"/>
+  </dict>
+  <dict ref="Table 29" name="N-CREATE MPPS Request Identifier: Extended Radiation Dose Module" owner="Philips X-ray Imaging DD 001">
+    <entry group="2003" element="0010" vr="LO" vm="1" name="Private Creator Group 2003"/>
+    <entry group="2003" element="102F" vr="CS" vm="1" name="IsResolvePatientMixApplied"/>
+  </dict>
+  <dict ref="Table 30" name="N-CREATE MPPS Request Identifier: Private Exposure (Fluo Stored) Module" owner="INTEGRIS 1.0">
+    <entry group="0041" element="0010" vr="LO" name="Private Creator Group 0041"/>
+    <entry group="0041" element="1050" vr="SQ" name="Exposure Information Sequence"/>
+    <entry group="0009" element="0010" vr="LO" name="&gt;Private Creator Group 0009"/>
+    <entry group="0009" element="1008" vr="CS" name="&gt; Exposure Channel"/>
+    <entry group="0009" element="1032" vr="TM" name="&gt; Exposure Start Time"/>
+    <entry name="&gt; APR Name" group="0019" element="2000" vr="LO"/>
+    <entry name="&gt; Frame Rate" group="0019" element="2040" vr="DS"/>
+    <entry name="&gt;Private Creator Group 0021" group="0021" element="0010" vr="LO"/>
+    <entry name="&gt; Exposure Number" group="0021" element="1012" vr="IS"/>
+    <entry name="&gt;Private Creator Group 0029" group="0029" element="0010" vr="LO"/>
+    <entry name="&gt; Number of Exposure Results" group="0029" element="3008" vr="IS"/>
+  </dict>
+  <dict ref="Table 126" name="X-Ray Table Module" owner="Philips X-ray Imaging DD 001">
+    <entry group="2003" element="1004" vr="SQ" vm="1" name="Private enhanced Table Sequence"/>
+  </dict>
+</dicts>

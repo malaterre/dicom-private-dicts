@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/CONFRM9.4.pdf
+ $ pdftotext -nopgbrk -layout 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/CONFRM9.4.pdf">
+  <dict ref="Table 2.1.2.1.3-3" name="Private Elements for NM Images" owner="Picker NM Private Group">
+    <entry group="7001" element="0010" vr="LO" vm="1" name="Private Creator Reserves private attributes (7001,1000) - (7001,10FF)."/>
+    <entry group="7001" element="1001" vr="UI" vm="1" name="Private"/>
+    <entry group="7001" element="1002" vr="OB" vm="1" name="Private"/>
+    <entry group="7001" element="1003" vr="OB" vm="1" name="Private"/>
+    <entry group="7001" element="1004" vr="OB" vm="1" name="Private"/>
+    <entry group="7001" element="1005" vr="OB" vm="1" name="Private"/>
+    <entry group="7001" element="1006" vr="OB" vm="1" name="Private"/>
+    <entry group="7001" element="1007" vr="OB" vm="1" name="Private"/>
+    <entry group="7001" element="1008" vr="OB" vm="1" name="Private"/>
+    <entry group="7001" element="1009" vr="OB" vm="1" name="Private"/>
+    <entry group="7001" element="1010" vr="SQ" vm="1" name="Private"/>
+    <entry group="7001" element="1011" vr="LO" vm="1" name="Private"/>
+    <entry group="7001" element="1012" vr="OB" vm="1" name="Private"/>
+    <entry group="7001" element="1013" vr="US" vm="1" name="Private"/>
+    <entry group="7001" element="1014" vr="OB" vm="1" name="Private"/>
+    <entry group="7001" element="1015" vr="OB" vm="1" name="Private"/>
+    <entry group="7001" element="1016" vr="OB" vm="1" name="Private"/>
+    <entry group="7001" element="1017" vr="LO" vm="1" name="Contains a text string that includes some of the same information that appears on the Odyssey Clinical Index (image directory) for this Image."/>
+    <entry group="7043" element="0010" vr="LO" vm="1" name="Private Creator Reserves private attributes (7043,1000) - (7043,10FF)."/>
+    <entry group="7043" element="1000" vr="SH" vm="1" name="Private."/>
+  </dict>
+</dicts>

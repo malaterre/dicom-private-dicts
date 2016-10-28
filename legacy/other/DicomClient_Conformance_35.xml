@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+
+NOTE: Change Ox into xx in :
+    <entry group="0021" element="xx01" name="                          " vr="UI" vm="1"/>
+    <entry group="0021" element="xx02" name="Item                      " vr="SQ" vm="1"/>
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.schicktech.com/uploads/downloads/DicomClient_Conformance_35.pdf">
+  <dict owner="SCHICK TECHNOLOGIES - Viewset Creator ID">
+    <entry group="0009" element="xx01" name="Instance UID              " vr="UI" vm="1"/>
+    <entry group="0009" element="xx02" name="Name                      " vr="LO" vm="1"/>
+    <entry group="0009" element="xx03" name="Sequence                  " vr="SQ" vm="1"/>
+    <entry group="0009" element="xx04" name="Mode                      " vr="UL" vm="1"/>
+    <entry group="0009" element="xx05" name="Type                      " vr="UL" vm="1"/>
+  </dict>
+  <dict owner="SCHICK TECHNOLOGIES - Viewset Item Creator ID">
+    <entry group="0009" element="xx01" name="Image Instance UID        " vr="UI" vm="1"/>
+    <entry group="0009" element="xx02" name="Number                    " vr="US" vm="1"/>
+    <entry group="0009" element="xx03" name="Order                     " vr="US" vm="1"/>
+    <entry group="0009" element="xx04" name="Type                      " vr="US" vm="1"/>
+    <entry group="0009" element="xx05" name="Orientation               " vr="US" vm="1"/>
+    <entry group="0009" element="xx06" name="Rect (Left, Top, Width, Height)" vr="US" vm="4"/>
+    <entry group="0009" element="xx07" name="Caption Height            " vr="US" vm="1"/>
+    <entry group="0009" element="xx08" name="Source                    " vr="US" vm="1"/>
+    <entry group="0009" element="xx09" name="Default Width             " vr="US" vm="1"/>
+    <entry group="0009" element="xx0A" name="Default Height            " vr="US" vm="1"/>
+  </dict>
+  <dict owner="SCHICK TECHNOLOGIES - Change List Creator ID">
+    <entry group="0021" element="xx01" name="Reference Image Instance UID" vr="UI" vm="1"/>
+    <entry group="0021" element="xx02" name="Sequence                  " vr="SQ" vm="1"/>
+  </dict>
+  <dict owner="SCHICK TECHNOLOGIES - Change Item Creator ID">
+    <entry group="0021" element="xx01" name="Change List Item UID      " vr="UI" vm="1"/>
+    <entry group="0021" element="xx02" name="Operation                 " vr="US" vm="1"/>
+    <entry group="0021" element="xx03" name="Date                      " vr="DT" vm="1"/>
+    <entry group="0021" element="xx04" name="User Name                 " vr="PN" vm="1"/>
+    <entry group="0021" element="xx05" name="Additional Change Data    " vr="OB" vm="1"/>
+  </dict>
+  <dict owner="SCHICK TECHNOLOGIES - Note List Creator ID">
+    <entry group="0021" element="xx01" name="Reference Image Instance UID" vr="UI" vm="1"/>
+    <entry group="0021" element="xx02" name="Item                      " vr="SQ" vm="1"/>
+  </dict>
+  <dict owner="SCHICK TECHNOLOGIES - Note Item Creator ID">
+    <entry group="0021" element="xx01" name="Text                      " vr="ST" vm="1"/>
+    <entry group="0021" element="xx02" name="Date                      " vr="DT" vm="1"/>
+    <entry group="0021" element="xx03" name="User Name                 " vr="PN" vm="1"/>
+    <entry group="0021" element="xx04" name="Coordinates (X, Y)        " vr="US" vm="2"/>
+  </dict>
+  <dict owner="SCHICK TECHNOLOGIES - Image Security Creator ID">
+    <entry group="0029" element="xx01" name="Image Checksum            " vr="UL" vm="1"/>
+  </dict>
+</dicts>

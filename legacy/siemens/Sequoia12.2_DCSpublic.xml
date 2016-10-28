@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+ Program: GDCM (Grassroots DICOM). A DICOM library
+ Module: $URL$
+
+ Copyright (c) 2006-2008 Mathieu Malaterre
+ All rights reserved.
+ See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+ This software is distributed WITHOUT ANY WARRANTY; without even
+ the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ PURPOSE. See the above copyright notice for more information.
+-->
+<!--
+$ pdftotext -nopgbrk -layout -f 30 -l 32 Sequoia12.2_DCSpublic.pdf      
+
+As usual the document is full of typo:
+  <dict owner="ACUSON:1.2..840.1113680.1.0:7f10">
+should be:
+  <dict owner="ACUSON:1.2.840.113680.1.0:7f10">
+-->
+<dicts edition="2008" url="http://www.medical.siemens.com/siemens/en_GB/rg_marcom_FBAs/files/brochures/DICOM/us/acuson/Sequoia12.2_DCSpublic.pdf">
+  <dict ref="Table 3-6" name="Private Elements in the Image IOD" owner="ACUSON:1.2.840.113680.1.0:0921">
+    <entry name=" Private Creator Data Element            " group="0009" element="0021"/>
+    <entry name=" View List                               " group="0009" element="212A"/>
+  </dict>
+  <dict owner="ACUSON:1.2.840.113680.1.0:0921">
+    <entry name=" &gt; Private Creator Data Element          " group="0009" element="0021"/>
+    <entry name=" &gt; View Name                             " group="0009" element="2120"/>
+  </dict>
+  <dict owner="ACUSON:1.2.840.113680.1.0:7f10">
+    <entry name=" Private Creator Data Element            " group="7FDF" element="0010"/>
+    <entry name=" Private Creator Data Element            " group="7FDF" element="00FE"/>
+    <entry name=" Lossy Compression Ratio                 " group="7FDF" element="1000"/>
+    <entry name=" Image Format                            " group="7FDF" element="1001"/>
+    <entry name=" Acuson Region Type                      " group="7FDF" element="1002"/>
+    <entry name=" Acuson Image Apex X                     " group="7FDF" element="100B"/>
+    <entry name=" Acuson Image Apex Y                     " group="7FDF" element="100C"/>
+    <entry name=" B-Color-On Flag                         " group="7FDF" element="100D"/>
+    <entry name=" Acuson Mechanical Apex X                " group="7FDF" element="100E"/>
+    <entry name=" Acuson Mechanical Apex Y                " group="7FDF" element="100F"/>
+    <entry name=" Acquisition Type:                       " group="7FDF" element="1010">
+      <description>String value, e.g "3DCARDIOVIEW'</description>
+    </entry>
+    <entry name=" Transformation Matrix Sequence          " group="7FDF" element="1018"/>
+    <entry name=" Left angle                              " group="7FDF" element="1020"/>
+    <entry name=" Right angle                             " group="7FDF" element="1022"/>
+    <entry name=" Color Map Family                        " group="7FDF" element="1024"/>
+    <entry name=" Full Colormap.                          " group="7FDF" element="1025"/>
+    <entry name=" Color Invert                            " group="7FDF" element="1026"/>
+    <entry name=" Color Baseline                          " group="7FDF" element="1027"/>
+    <entry name=" CD Color Mix Points X1                  " group="7FDF" element="1028"/>
+    <entry name=" CD Color Mix Points Y1                  " group="7FDF" element="1029"/>
+    <entry name=" CD Color Mix Points X2                  " group="7FDF" element="102a"/>
+    <entry name=" CD Color Mix Points Y2                  " group="7FDF" element="102b"/>
+    <entry name=" Color Accent                            " group="7FDF" element="102c"/>
+    <entry name=" Persistence SQ                          " group="7FDF" element="1030"/>
+    <entry name=" &gt; Persistence Mode                      " group="7FDF" element="1031"/>
+    <entry name=" &gt; Persistence Coefficient Mode          " group="7FDF" element="1032"/>
+    <entry name=" &gt; Alpha coefficient                     " group="7FDF" element="1033"/>
+    <entry name=" &gt; Gamma coefficient                     " group="7FDF" element="1034"/>
+    <entry name=" &gt; Persistence Time Flag                 " group="7FDF" element="1035"/>
+    <entry name=" &gt; Persistence adaptive flag             " group="7FDF" element="1036"/>
+    <entry name=" &gt; Persistence Frame Rate                " group="7FDF" element="1037"/>
+    <entry name=" &gt; Persistence ID                        " group="7FDF" element="1038"/>
+    <entry name=" Observation Date Time SQ                " group="7FDF" element="1040"/>
+    <entry name=" Capture Type Name                       " group="7FDF" element="1050"/>
+    <entry name=" Capture Type Number                     " group="7FDF" element="1052"/>
+    <entry name=" Number of Capture Types                 " group="7FDF" element="1054"/>
+    <entry name="CD Steering Angle                        " group="7FDF" element="1060"/>
+    <!--Valid for linear transducers only. </description>-->
+    <entry name="CD PRI                                   " group="7FDF" element="1061"/>
+    <!--Unit: microseconds />-->
+    <entry name="CD Dynamic Range                         " group="7FDF" element="1062"/>
+    <!--Floating point in dB />-->
+    <entry name="CD Velocity Scale Min                    " group="7FDF" element="1063"/>
+    <entry name="CD Velocity Scale Max                    " group="7FDF" element="1064"/>
+    <entry name="CD Color Mode                            " group="7FDF" element="1065"/>
+    <entry name="CD Frequency                             " group="7FDF" element="1066"/>
+    <entry name="CD Balance                               " group="7FDF" element="1067"/>
+    <!--  Encoding index, not values.  Index = 0,1,2 Value = -1,0,1 -->
+    <entry name="CD Delta                                 " group="7FDF" element="1068"/>
+    <entry name="CD Pan Box Min X0                        " group="7FDF" element="1069"/>
+    <entry name="CD Pan Box Min Y0                        " group="7FDF" element="106a"/>
+    <entry name="CD Pan Box Min X1                        " group="7FDF" element="106b"/>
+    <entry name="CD Pan Box Min Y1                        " group="7FDF" element="106c"/>
+    <entry name="CPS Map Type                             " group="7FDF" element="106d"/>
+    <entry name="CPS Map Data                             " group="7FDF" element="106e"/>
+    <entry name="CPS Balance Setting                      " group="7FDF" element="106f"/>
+    <!-- Encoding index, not values. Index = 0,1,2 Value = -1,0,1  -->
+    <entry name="3DCard Step Angle                        " group="7FDF" element="1070"/>
+    <!-- Angle in degrees: 3 or 5.  -->
+    <entry name="3DCard Xdcr Angle                        " group="7FDF" element="1071"/>
+    <!-- Angle in degrees in range 0-180.  -->
+    <entry name="B-mode Frequency                         " group="7FDF" element="1072"/>
+    <!-- -->
+    <entry name="B-mode Dynamic Range                     " group="7FDF" element="1073"/>
+    <!-- Float value in dB  -->
+    <entry name="B-mode Frame Rate                        " group="7FDF" element="1074"/>
+    <!-- The acoustic frame rate as displayed on the screen.  -->
+    <entry name="B-mode Space Time                        " group="7FDF" element="1075"/>
+    <entry name="B-mode Persistence                       " group="7FDF" element="1076"/>
+    <entry name="B-mode Display Depth Start               " group="7FDF" element="1077"/>
+    <entry name="B-mode Display Depth End                 " group="7FDF" element="1078"/>
+    <entry name="B-mode Res Mode                          " group="7FDF" element="1079"/>
+    <entry name="B-mode Preset Application                " group="7FDF" element="107a"/>
+    <entry name="Image Spec Name                          " group="7FDF" element="107b"/>
+    <entry name="B Preset Image Look                      " group="7FDF" element="107c"/>
+    <entry name="B-mode Post Processing                   " group="7FDF" element="107d"/>
+    <entry name="B Edge                                   " group="7FDF" element="107e"/>
+    <entry name="B Delta                                  " group="7FDF" element="107f"/>
+    <entry name="B-mode 1D Post Processing Curve          " group="7FDF" element="1080"/>
+    <!--   The B-mode 1-D post processing map should be no larger than 256 x-y entries. Each x-y value is between 0 and 255  -->
+    <entry name="B-mode Delta (ECRI) Map Diagonal         " group="7FDF" element="1081"/>
+    <!--   Map is stored as byte stream.    -->
+    <entry name="Bytes Per Timestamp                      " group="7FDF" element="1082"/>
+    <!--   Number of bytes per timestamp (for all timestamps): 64-bit => 8 bytes  -->
+    <entry name="   Microseconds in unit timestamp        " group="7FDF" element="1083"/>
+    <!--    Timestamps are in unit of 20 microseconds  -->
+    <entry name="   Start Stopwatch Timestamp             " group="7FDF" element="1084"/>
+    <!--    Only stored if the stopwatch has been used in this study. 64-bit timestamp value.  -->
+    <entry name="   Acoustic Frame Timestamp              " group="7FDF" element="1085"/>
+    <!--    Time corresponding to the end of ultrasound data collection at the end of each acoustic frame.  -->
+    <entry name="   R-Wave Timestamp                      " group="7FDF" element="1086"/>
+    <!--     The absolute 64-bit timestamp of R- Wave events  -->
+    <entry name="   Last Destruction Timestamp            " group="7FDF" element="1087"/>
+    <!--    64 bit timestamp. Only stored if there has been a destruction event in this study. Destruction events are defined as: mode transitions; transmit power changes; trigger masks indicating destruction frames have been fired.  -->
+    <entry name="   Pixels Per Second                     " group="7FDF" element="1088"/>
+    <entry name="   ECG Reference Timestamp               " group="7FDF" element="1089"/>
+    <entry name="   ECG Sampling Interval (milliseconds)  " group="7FDF" element="108a"/>
+    <entry name="   ECG Sample Count                      " group="7FDF" element="108b"/>
+    <entry name="   ECG Sample Size                       " group="7FDF" element="108c"/>
+    <entry name="   ECG Data Value                        " group="7FDF" element="108d"/>
+    <entry name="   Contrast/Active Image Indicator       " group="7FDF" element="108e"/>
+    <!--  Integer type binary flag. For dual-non-linear; upside only.  0: left side; 1 right side.  -->
+    <entry name="   Live Dual Mode Indicator              " group="7FDF" element="108f"/>
+    <!--  Integer type binary flag. For dual-non-linear; upside only.  -->
+    <entry name="   3DCard Clipset ID                     " group="7FDF" element="1090"/>
+    <entry name="   3DCard HRWave Min                     " group="7FDF" element="1091"/>
+    <entry name="   3DCard HRWave Max                     " group="7FDF" element="1092"/>
+    <entry name="   Perspective Capture Type              " group="7FDF" element="1093"/>
+    <entry name="   Trigger Mask.                         " group="7FDF" element="10F1"/>
+    <entry name="   Study Directory                       " group="7FDF" element="10F2"/>
+    <entry name="   Last Modify Date                      " group="7FDF" element="10F3"/>
+    <entry name="   Last Modify Time                      " group="7FDF" element="10F4"/>
+    <entry name="   Teaching Study                        " group="7FDF" element="10F5"/>
+    <entry name="   Series Base UID                       " group="7FDF" element="10F6"/>
+  </dict>
+  <dict owner="ACUSON:1.2.840.113680.1.0:7ffe">
+    <entry name="   Data Padding                          " group="7FDF" element="FE00"/>
+  </dict>
+</dicts>

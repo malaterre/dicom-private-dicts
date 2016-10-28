@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2009 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts>
+  <dict>
+    <entry group="0037" element="0001" vr="LO" vm="1" name="Some kind of version number" owner="MAROTECH Inc."/>
+    <entry group="0037" element="0021" vr="US" vm="1" name="Icon Row" owner="MAROTECH Inc."/>
+    <entry group="0037" element="0022" vr="US" vm="1" name="Icon Col" owner="MAROTECH Inc."/>
+    <entry group="0037" element="0023" vr="OB" vm="1" name="JPEG Compressed Icon" owner="MAROTECH Inc."/>
+  </dict>
+</dicts>

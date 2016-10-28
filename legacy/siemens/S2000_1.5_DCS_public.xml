@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget http://www.medical.siemens.com/siemens/en_GLOBAL/rg_marcom_FBAs/files/brochures/DICOM/us/acuson/S2000_1.5_DCS_public.pdf
+ $ pdftotext -layout -nopgbrk 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2010 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+
+<!--
+TODO this one has more:
+http://www.medical.siemens.com/siemens/en_GLOBAL/rg_marcom_FBAs/files/brochures/DICOM/us/acuson/S2000_VA16_DCS.pdf
+-->
+<dicts edition="2010" url="http://www.medical.siemens.com/siemens/en_GLOBAL/rg_marcom_FBAs/files/brochures/DICOM/us/acuson/S2000_1.5_DCS_public.pdf">
+  <dict ref="" name="S2000 Private Private Creator Attributes" owner="SIEMENS MED SMS USG S2000">
+<entry name="S2000 Private Private Creator" group="0019" element="0001" type="3" vr="SH">
+</entry><entry name="Private Creator Version" group="0019" element="1000" type="3">
+</entry><entry name="Frame Rate" group="0019" element="1003" type="3">
+</entry><entry name="Burned in Graphics" group="0019" element="100C" type="3">
+</entry><entry name="SieClear Index" group="0019" element="100D" type="3">
+</entry><entry name="B-Mode Submode" group="0019" element="1020" type="3">
+</entry><entry name="B-Mode Dynamic Range" group="0019" element="1021" type="3">
+</entry><entry name="B-Mode Overall Gain" group="0019" element="1022" type="3">
+</entry><entry name="B-Mode Res/Speed Index" group="0019" element="1023" type="3">
+</entry><entry name="B-Mode Edge Enhance Index" group="0019" element="1024" type="3">
+</entry><entry name="B-Mode Persistence Index" group="0019" element="1025" type="3">
+</entry><entry name="B-Mode Map Index" group="0019" element="1026" type="3">
+<!-- from file -->
+</entry><entry name="??" group="0019" element="1027" type="3" vr="US">
+</entry><entry name="??" group="0019" element="1028" type="3" vr="US">
+</entry><entry name="??" group="0019" element="1029" type="3" vr="US">
+</entry><entry name="B-Mode Tint Type" group="0019" element="102A" type="3" vr="US">
+</entry><entry name="B-Mode Tint Index" group="0019" element="102D" type="3">
+</entry><entry name="ClarifyVE Index" group="0019" element="102E" type="3">
+</entry><entry name="Image Flag" group="0019" element="103A" type="3">
+</entry><entry name="IPDA/MDA Data" group="0019" element="103B" type="3" vr="LT">
+</entry><entry name="Color Flow state" group="0019" element="1040" type="3">
+</entry><entry name="Color Flow Wall Filter Index" group="0019" element="1041" type="3">
+</entry><entry name="Color Flow Submode" group="0019" element="1042" type="3">
+</entry><entry name="Color Flow Overall Gain" group="0019" element="1043" type="3">
+</entry><entry name="Color Flow Res/Speed Index" group="0019" element="1044" type="3">
+</entry><entry name="Color Flow Smooth Index" group="0019" element="1046" type="3">
+</entry><entry name="Color Flow Persistence Index" group="0019" element="1047" type="3">
+</entry><entry name="Color Flow Map Index" group="0019" element="1048" type="3">
+</entry><entry name="Color Flow Priority Index" group="0019" element="1049" type="3">
+</entry><entry name="Color Flow Maximum Velocity" group="0019" element="1054" type="3">
+</entry><entry name="Doppler Dynamic Range" group="0019" element="1060" type="3">
+</entry><entry name="Doppler Overall Gain" group="0019" element="1061" type="3">
+</entry><entry name="S2000 Private Doppler Wall Filter" group="0019" element="1062" type="3">
+</entry><entry name="Attributes  Doppler Gate Size" group="0019" element="1063" type="3">
+</entry><entry name="Doppler Map Index" group="0019" element="1065" type="3">
+</entry><entry name="Doppler Submode" group="0019" element="1066" type="3">
+</entry><entry name="Doppler Time/Freq Res Index" group="0019" element="1069" type="3">
+</entry><entry name="Doppler Trace Inverted" group="0019" element="106A" type="3">
+</entry><entry name="Doppler Tint Type" group="0019" element="106C" type="3">
+</entry><entry name="Doppler Tint Index" group="0019" element="1072" type="3">
+</entry><entry name="M-Mode Dynamic Range" group="0019" element="1080" type="3">
+</entry><entry name="M-Mode Overall Gain" group="0019" element="1081" type="3">
+</entry><entry name="M-Mode Edge Enhance Index" group="0019" element="1082" type="3">
+</entry><entry name="M-Mode Map Index" group="0019" element="1083" type="3">
+</entry><entry name="M-Mode Tint Type" group="0019" element="1086" type="3">
+</entry><entry name="M-Mode Submode" group="0019" element="1087" type="3">
+</entry><entry name="M-Mode Tint Index" group="0019" element="1088" type="3">
+</entry>
+  </dict>
+</dicts>

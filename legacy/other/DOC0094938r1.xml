@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.instrumentarium.com/usen/interoperability/dicom/docs/DOC0094938r1.pdf
+ $ pdftotext 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+NOTE:
+
+  This company was bought by GEMS, and the DCS is pretty much a GEMS one, should
+  I move it from other to GEMS ?
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.instrumentarium.com/usen/interoperability/dicom/docs/DOC0094938r1.pdf">
+  <dict ref="Table 24" name="Query Private for Query" owner="Applicare/RadStore/Version 1.0">
+    <entry group="3113" element="00xx" vr="LO" vm="1" name="Block descriptor"/>
+    <entry group="3113" element="xx12" vr="LO" vm="1" name="State"/>
+    <entry group="3113" element="xx14" vr="DT" vm="1" name="DateLastAccessed"/>
+    <entry group="3113" element="xx16" vr="FD" vm="1" name="ByteSize"/>
+    <entry group="3113" element="xx1E" vr="LO" vm="1" name="Origin"/>
+    <entry group="3113" element="xx21" vr="SL" vm="1" name="Version"/>
+    <entry group="3113" element="xx23" vr="ST" vm="1" name="InstanceFileLocation"/>
+  </dict>
+  <dict owner="Applicare/RadWorks/Version 5.0">
+    <entry group="3109" element="00xx" vr="LO" vm="1" name="Block descriptor"/>
+    <entry group="3109" element="xx34" vr="LO" vm="1" name="State"/>
+  </dict>
+  <dict owner="GEIIS PACS">
+    <entry group="0907" element="00xx" vr="LO" vm="1" name="Private block id"/>
+    <entry group="0907" element="xx21" vr="US" vm="1" name="GEIIS_PREFETCH_ALGORITHM"/>
+    <entry group="0907" element="xx22" vr="US" vm="1" name="GEIIS_LIMIT_RECENT_STUDIES"/>
+    <entry group="0907" element="xx23" vr="US" vm="1" name="GEIIS_LIMIT_OLDEST_STUDIES"/>
+    <entry group="0907" element="xx24" vr="US" vm="1" name="GEIIS_LIMIT_RECENT_MONTHS"/>
+    <entry group="0907" element="xx31" vr="UI" vm="1-n" name="GEIIS_EXCLUDE_STUDY_UIDS"/>
+  </dict>
+  <dict ref="Table 39" name="Private EA Attributes" owner="Applicare/RadStore/Version 1.0">
+    <entry group="3113" element="xx02" vr="SL" vm="1" name="Id1"/>
+    <entry group="3113" element="xx03" vr="SL" vm="1" name="Id2"/>
+    <entry group="3113" element="xx04" vr="SL" vm="1" name="Id3"/>
+    <entry group="3113" element="xx12" vr="LO" vm="1" name="State"/>
+    <entry group="3113" element="xx13" vr="DT" vm="1" name="DateLastModified"/>
+    <entry group="3113" element="xx14" vr="DT" vm="1" name="DateLastAccessed"/>
+    <entry group="3113" element="xx16" vr="FD" vm="1" name="ByteSize"/>
+    <entry group="3113" element="xx17" vr="LO" vm="1" name="LibraryId"/>
+    <entry group="3113" element="xx1E" vr="LO" vm="1" name="Origin"/>
+    <entry group="3113" element="xx21" vr="SL" vm="1" name="Version"/>
+    <entry group="3113" element="xx23" vr="ST" vm="1" name="InstanceFileLocation"/>
+  </dict>
+</dicts>

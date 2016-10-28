@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grass Root DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<!--
+made from parsing some file. Thanks to Bartosz Wiklak bwiklak gmail.com for help.
+
+Ref:
+http://groups.google.com/group/comp.protocols.dicom/browse_thread/thread/93a5d11b12c03e23
+
+-->
+<dicts>
+  <dict>
+    <entry group="00e1" element="0001" vr="US" vm="1" name="?" owner="ELSCINT1"/>
+    <entry group="00e1" element="0022" vr="DS" vm="2" name="?" owner="ELSCINT1"/>
+    <entry group="00e1" element="0023" vr="DS" vm="2" name="?" owner="ELSCINT1"/>
+    <entry group="00e1" element="002a" vr="DS" vm="1" name="?" owner="ELSCINT1"/>
+    <entry group="00e1" element="0040" vr="SH" vm="1" name="?" owner="ELSCINT1"/>
+    <entry group="00e1" element="0041" vr="DS" vm="1" name="?" owner="ELSCINT1"/>
+    <entry group="00e1" element="0050" vr="DS" vm="1" name="?" owner="ELSCINT1"/>
+    <entry group="00e3" element="0000" vr="OB" vm="1" name="?" owner="ELSCINT1"/>
+    <entry group="00e3" element="0018" vr="OB" vm="1" name="?" owner="ELSCINT1"/>
+    <entry group="00e3" element="001f" vr="OB" vm="1" name="?" owner="ELSCINT1"/>
+    <entry group="01f1" element="0001" vr="CS" vm="2" name="?" owner="ELSCINT1"/>
+    <entry group="01f1" element="0002" vr="CS" vm="1" name="?" owner="ELSCINT1"/>
+    <entry group="01f1" element="0003" vr="CS" vm="1" name="?" owner="ELSCINT1"/>
+    <entry group="01f1" element="0004" vr="CS" vm="1" name="?" owner="ELSCINT1"/>
+    <entry group="01f1" element="0005" vr="DS" vm="1" name="?" owner="ELSCINT1"/>
+    <entry group="01f1" element="0006" vr="DS" vm="1" name="?" owner="ELSCINT1"/>
+    <entry group="01f1" element="0007" vr="DS" vm="1" name="?" owner="ELSCINT1"/>
+    <entry group="01f1" element="0008" vr="DS" vm="1" name="?" owner="ELSCINT1"/>
+    <entry group="01f1" element="000a" vr="US" vm="1" name="?" owner="ELSCINT1"/>
+    <entry group="01f1" element="000b" vr="CS" vm="2" name="?" owner="ELSCINT1"/>
+    <entry group="01f1" element="000c" vr="DS" vm="2" name="?" owner="ELSCINT1"/>
+    <entry group="01f1" element="000d" vr="DS" vm="1" name="?" owner="ELSCINT1"/>
+    <entry group="01f3" element="0001" vr="SQ" vm="1" name="?" owner="ELSCINT1"/>
+    <entry group="01f3" element="0002" vr="SS" vm="1" name="Reference Image Number" owner="ELSCINT1"/>
+    <entry group="01f3" element="0003" vr="FL" vm="2" name="Center of localizer line on SCOUT in pixels" owner="ELSCINT1"/>
+    <entry group="01f3" element="0004" vr="FL" vm="1" name="Tilt of localizer line (in radians). ~=gantry tilt in degrees" owner="ELSCINT1"/>
+    <entry group="07a1" element="0010" vr="LO" vm="1" name="?" owner="ELSCINT1"/>
+    <entry group="07a1" element="0011" vr="CS" vm="1" name="?" owner="ELSCINT1"/>
+    <entry group="07a1" element="0013" vr="UL" vm="1" name="?" owner="ELSCINT1"/>
+    <entry group="07a3" element="0001" vr="LO" vm="1" name="?" owner="ELSCINT1"/>
+  </dict>
+</dicts>

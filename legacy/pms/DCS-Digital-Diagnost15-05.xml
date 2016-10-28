@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/DCS-Digital-Diagnost15-05.pdf
+ $ pdftotext -nopgbrk -layout 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/DCS-Digital-Diagnost15-05.pdf">
+  <dict ref="Table 121" name="Private Attributes" owner="SPI-P-Private-DiDi Release 1">
+    <entry group="0019" element="0012" vr="LO" vm="1" name="Private Creator Group 0019 Block 12"/>
+    <entry group="0019" element="1200" vr="LT" vm="1" name="Post Mode String"/>
+    <entry group="0019" element="1201" vr="LT" vm="1" name="Post Data"/>
+    <entry group="0019" element="1210" vr="LT" vm="1" name="Image Header"/>
+    <entry group="0019" element="1220" vr="LT" vm="1" name="SCPreName"/>
+    <entry group="0019" element="1221" vr="IS" vm="1" name="SCPostNo"/>
+    <entry group="0019" element="1222" vr="LT" vm="1" name="SCSOPInstanceUID"/>
+    <entry group="0019" element="1223" vr="LT" vm="1" name="SCCreationDate"/>
+    <entry group="0019" element="1224" vr="LT" vm="1" name="SCProcessingCategory"/>
+    <entry group="0019" element="1225" vr="LT" vm="1" name="SCPostMethod"/>
+    <entry group="0019" element="1226" vr="LT" vm="1" name="SCPostString"/>
+    <entry group="0019" element="1227" vr="LT" vm="1" name="SCPostString2"/>
+    <entry group="0019" element="1228" vr="LT" vm="1" name="SCMode"/>
+    <entry group="0019" element="1229" vr="IS" vm="1" name="SCStCommit"/>
+    <entry group="0019" element="122A" vr="IS" vm="1" name="SCExported"/>
+    <entry group="0019" element="122B" vr="IS" vm="1" name="SCPrinted"/>
+    <entry group="0019" element="122C" vr="LT" vm="1" name="SCOperator"/>
+    <entry group="0019" element="1240" vr="LT" vm="1" name="SCPreName"/>
+    <entry group="0019" element="1241" vr="IS" vm="1" name="SCPreType"/>
+  </dict>
+  <dict owner="DIDI TO PCR 1.1">
+    <entry group="0019" element="0019" vr="LO" vm="1" name="Private Creator Group 0019 Block 19"/>
+    <entry group="0019" element="1922" vr="LO" vm="1" name="Route AET"/>
+    <entry group="0019" element="1923" vr="DS" vm="1" name="PCR Print Scale"/>
+    <entry group="0019" element="1924" vr="ST" vm="1" name="PCR Print Job End"/>
+    <entry group="0019" element="1925" vr="IS" vm="1" name="PCR No Film Copies"/>
+    <entry group="0019" element="1926" vr="IS" vm="1" name="PCR Film Layout Position"/>
+    <entry group="0019" element="1927" vr="ST" vm="1" name="PCR Print Report Name"/>
+    <entry group="0019" element="1970" vr="ST" vm="1" name="RAD Protocol Printer"/>
+    <entry group="0019" element="1971" vr="ST" vm="1" name="RAD Protocol Medium"/>
+    <entry group="0019" element="1980" vr="LO" vm="1" name="Original Filename"/>
+    <entry group="0019" element="1981" vr="SH" vm="1" name="Filter Type"/>
+    <entry group="0019" element="1982" vr="LT" vm="1" name="Stitching"/>
+    <entry group="0019" element="1989" vr="IS" vm="1" name="Exposure Index"/>
+    <entry group="0019" element="198A" vr="IS" vm="1" name="Collimator X"/>
+    <entry group="0019" element="198B" vr="IS" vm="1" name="Collimator Y"/>
+    <entry group="0019" element="198C" vr="LO" vm="1" name="Print Marker"/>
+    <entry group="0019" element="198D" vr="LO" vm="1" name="RGDV Name"/>
+    <entry group="0019" element="198E" vr="LO" vm="1" name="Acqd Sensitivity"/>
+    <entry group="0019" element="198F" vr="LO" vm="1" name="Processing Category"/>
+    <entry group="0019" element="1990" vr="LO" vm="1" name="Unprocessed Flag"/>
+    <entry group="0019" element="1991" vr="DS" vm="2" name="Key Values"/>
+    <entry group="0019" element="1992" vr="LO" vm="1" name="Destination Postprocessing Function"/>
+    <entry group="0019" element="19A0" vr="LO" vm="1" name="Version"/>
+    <entry group="0019" element="19A1" vr="LO" vm="1" name="Ranging Mode"/>
+    <entry group="0019" element="19A2" vr="DS" vm="1" name="Abdomen Brightness"/>
+    <entry group="0019" element="19A3" vr="DS" vm="1" name="Fixed Brightness"/>
+    <entry group="0019" element="19A4" vr="DS" vm="1" name="Detail Contrast"/>
+    <entry group="0019" element="19A5" vr="DA" vm="1" name="Contrast Balance"/>
+    <entry group="0019" element="19A6" vr="DS" vm="1" name="Structure Boost"/>
+    <entry group="0019" element="19A7" vr="DS" vm="1" name="Structure Preference"/>
+    <entry group="0019" element="19A8" vr="DS" vm="1" name="Noise Robustness"/>
+    <entry group="0019" element="19A9" vr="DS" vm="1" name="Noise Dose Limit"/>
+    <entry group="0019" element="19AA" vr="DS" vm="1" name="Noise Dose Step"/>
+    <entry group="0019" element="19AB" vr="DS" vm="1" name="Noise Frequency Limit"/>
+    <entry group="0019" element="19AC" vr="DS" vm="1" name="Weak Contrast Limit"/>
+    <entry group="0019" element="19AD" vr="DS" vm="1" name="Strong Contrast Limit"/>
+    <entry group="0019" element="19AE" vr="DS" vm="1" name="Structure Boost Offset"/>
+    <entry group="0019" element="19AF" vr="LO" vm="1" name="Smooth Gain"/>
+    <entry group="0019" element="19B0" vr="LO" vm="1" name="Measure Field 1"/>
+    <entry group="0019" element="19B1" vr="LO" vm="1" name="Measure Field 2"/>
+    <entry group="0019" element="19B2" vr="IS" vm="1" name="Key Percentile 1"/>
+    <entry group="0019" element="19B3" vr="IS" vm="1" name="Key Percentile 2"/>
+    <entry group="0019" element="19B4" vr="IS" vm="1" name="Density LUT"/>
+    <entry group="0019" element="19B5" vr="DS" vm="1" name="Brightness"/>
+    <entry group="0019" element="19B6" vr="DS" vm="1" name="Gamma"/>
+  </dict>
+  <dict owner="DIDI TO PCR 1.1">
+    <entry group="0089" element="0010" vr="LO" vm="1" name="Private Creator Group 0089 Block 10"/>
+    <entry group="0089" element="1010" vr="SQ" vm="1" name="Stamp Image Sequence"/>
+  </dict>
+</dicts>

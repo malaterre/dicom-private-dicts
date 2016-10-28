@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.gehealthcare.com/usen/interoperability/dicom/docs/asrev1.pdf
+ $ pdftotext -nopgbrk -layout -f 118 -l 120  asrev1.pdf asrev1.txt 
+ <some minor manual cleaning>
+ $ python txt2xml.py asrev1.txt asrev1.xml
+
+NOTE:
+  Need special handling for:
+...
+Group Properties                                                 (0249,52)      CS        0-n
+...
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.gehealthcare.com/usen/interoperability/dicom/docs/asrev1.pdf">
+  <dict ref="??" name="??" owner="GEMS_RTEN_01">
+    <entry group="0249" element="11" vr="DA" vm="1" name="Plan Creation Date"/>
+    <entry group="0249" element="13" vr="TM" vm="1" name="Plan Creation Time"/>
+    <entry group="0249" element="14" vr="PN" vm="1" name="Operator Name"/>
+    <entry group="0249" element="16" vr="LO" vm="1" name="Plan Comment"/>
+    <entry group="0249" element="18" vr="SQ" vm="1" name="Plan Image Sequence"/>
+    <entry group="0249" element="1A" vr="LO" vm="1" name="Exam/Series/Image Identifier"/>
+    <entry group="0249" element="1B" vr="IS" vm="1" name="Additional Image Identifier"/>
+    <entry group="0249" element="1C" vr="CS" vm="1" name="Build Resolution"/>
+    <entry group="0249" element="20" vr="SQ" vm="1" name="Structure Sequence"/>
+    <entry group="0249" element="22" vr="SH" vm="1" name="Structure Name"/>
+    <entry group="0249" element="24" vr="CS" vm="1" name="Structure Type"/>
+    <entry group="0249" element="28" vr="CS" vm="1" name="Structure Color"/>
+    <entry group="0249" element="30" vr="SQ" vm="1" name="Slab Sequence"/>
+    <entry group="0249" element="32" vr="SQ" vm="1" name="Slab Image Sequence"/>
+    <entry group="0249" element="36" vr="DS" vm="1" name="Z Plus Thickness"/>
+    <entry group="0249" element="38" vr="DS" vm="1" name="Z Minus Thickness"/>
+    <entry group="0249" element="3A" vr="DS" vm="3-n" name="Slab Shape"/>
+    <entry group="0249" element="40" vr="SQ" vm="1" name="Marker Sequence"/>
+    <entry group="0249" element="42" vr="SH" vm="1" name="Marker Name"/>
+    <entry group="0249" element="44" vr="CS" vm="1" name="Marker Color"/>
+    <entry group="0249" element="46" vr="DS" vm="3" name="Marker Position"/>
+    <entry group="0249" element="50" vr="SQ" vm="1" name="Beam Group Sequence"/>
+    <entry group="0249" element="51" vr="SH" vm="1" name="Group Name"/>
+    <entry group="0249" element="52" vr="CS" vm="0-n" name="Group Properties"/>
+    <entry group="0249" element="54" vr="SQ" vm="1" name="Beam Sequence"/>
+    <entry group="0249" element="60" vr="SQ" vm="1" name="Machine Reference Sequence"/>
+    <entry group="0249" element="62" vr="SH" vm="1" name="Machine Name"/>
+    <entry group="0249" element="64" vr="SH" vm="1" name="Beam Name"/>
+    <entry group="0249" element="66" vr="CS" vm="1" name="Particle Type"/>
+    <entry group="0249" element="68" vr="DS" vm="1" name="Nominal Particle Energy"/>
+    <entry group="0249" element="70" vr="SQ" vm="1" name="Block Sequence"/>
+    <entry group="0249" element="72" vr="LO" vm="1" name="Block Name"/>
+    <entry group="0249" element="74" vr="DS" vm="2-n" name="Block Shape"/>
+    <entry group="0249" element="80" vr="SQ" vm="1" name="Cutout Sequence"/>
+    <entry group="0249" element="82" vr="LO" vm="1" name="Cutout Name"/>
+    <entry group="0249" element="84" vr="DS" vm="2-n" name="Cutout Shape"/>
+    <entry group="0249" element="90" vr="SH" vm="1" name="Collimator Name"/>
+    <entry group="0249" element="92" vr="CS" vm="1" name="Collimator Type"/>
+    <entry group="0249" element="A0" vr="SQ" vm="1" name="Dynamic Segment Sequence"/>
+    <entry group="0249" element="A2" vr="DS" vm="1" name="Table Angle"/>
+    <entry group="0249" element="A4" vr="DS" vm="1" name="Gantry Angle"/>
+    <entry group="0249" element="A6" vr="DS" vm="1" name="Collimator Angle"/>
+    <entry group="0249" element="A8" vr="DS" vm="3" name="Isocenter Position"/>
+    <entry group="0249" element="A9" vr="DS" vm="1" name="Source-Surface Distance"/>
+    <entry group="0249" element="AA" vr="DS" vm="1" name="X Symmetric Opening"/>
+    <entry group="0249" element="AC" vr="DS" vm="1" name="Y Symmetric Opening"/>
+    <entry group="0249" element="AE" vr="DS" vm="1" name="X Positive Jaw Position"/>
+    <entry group="0249" element="B0" vr="DS" vm="1" name="X Negative Jaw Position"/>
+    <entry group="0249" element="B2" vr="DS" vm="1" name="Y Positive Jaw Position"/>
+    <entry group="0249" element="B4" vr="DS" vm="1" name="Y Negative Jaw Position"/>
+    <entry group="0249" element="B6" vr="DS" vm="2-n" name="Leaf Positions"/>
+    <entry group="0249" element="D0" vr="CS" vm="1" name="Treatment Position"/>
+  </dict>
+</dicts>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget ftp.philips.com/pub/pms-3003/Conformance_Stmnts/pdf/easycapture_cs_8.2_final.pdf
+ $ pdftotext -nopgbrk -layout -f 18 -l 18 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+Note:
+
+  Table can also be found at page 26, under 5.2) Private Attributes
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="ftp.philips.com/pub/pms-3003/Conformance_Stmnts/pdf/easycapture_cs_8.2_final.pdf">
+  <dict ref="Table 11" name="EasyCapture Private Attributes" owner="SECTRA_Ident_01">
+    <entry group="0009" element="00xx" vr="LO" vm="1" name="Private Creator Code"/>
+    <entry group="0009" element="xx01" vr="LO" vm="1" name="Request number"/>
+    <entry group="0009" element="xx02" vr="LO" vm="1" name="Examination number"/>
+  </dict>
+  <dict owner="SECTRA_ImageInfo_01">
+    <entry group="0029" element="00yy" vr="LO" vm="1" name="Private Creator Code"/>
+    <entry group="0029" element="yy01" vr="OB" vm="1" name="Image Info"/>
+  </dict>
+</dicts>

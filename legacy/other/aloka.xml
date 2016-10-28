@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grass Root DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts>
+  <dict>
+<entry group="0009" element="0000" vr="SH" vm="1" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0009" element="0004" vr="US" vm="1-n" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0009" element="0006" vr="US" vm="1-n" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0009" element="000a" vr="SH" vm="1" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0009" element="0020" vr="CS" vm="1" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0009" element="0022" vr="CS" vm="1" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0009" element="0024" vr="CS" vm="1" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0009" element="0026" vr="IS" vm="1" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0009" element="0028" vr="IS" vm="1" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0009" element="002a" vr="DS" vm="1" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0009" element="0030" vr="FD" vm="1" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0009" element="0032" vr="DS" vm="1" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0009" element="0034" vr="CS" vm="1" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0019" element="0008" vr="FD" vm="1" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0019" element="000c" vr="CS" vm="1" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0019" element="000e" vr="DS" vm="1" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0019" element="0018" vr="SL" vm="1" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0019" element="001a" vr="SL" vm="1" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0019" element="0040" vr="SS" vm="1" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0019" element="0046" vr="US" vm="1" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0019" element="0050" vr="SL" vm="1" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0019" element="0052" vr="DS" vm="1" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0019" element="0054" vr="DS" vm="1" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+<entry group="0019" element="0056" vr="FD" vm="1" name="?" owner="ALOKA:1.2.392.200039.103.2"/>
+  </dict>
+  </dicts>
+

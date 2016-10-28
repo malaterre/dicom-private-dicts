@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget http://www.dexis.com/UserFiles/File/sec_company/DEXIS-DICOM.pdf
+ $ pdftotext -layout -nopgbrk 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+NOTE:
+
+  The DCS does not state what the private owner is ... 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.dexis.com/UserFiles/File/sec_company/DEXIS-DICOM.pdf">
+  <dict owner="2.16.840.1.114059.1.1.6.1.50.1">
+    <entry group="0029" element="0029" name="Private Creator Tag Range"/>
+    <entry group="0029" element="2920" vr="LT" name="Description"/>
+    <entry group="0029" element="2921" vr="ST" name="Orientation"/>
+    <entry group="0029" element="2922" vr="ST" name="Parameter 1"/>
+    <entry group="0029" element="2923" vr="ST" name="Parameter 2"/>
+    <entry group="0029" element="2924" vr="LO" name="Teeth"/>
+    <entry group="0029" element="2925" vr="LO" name="Jaw"/>
+    <entry group="0029" element="2926" vr="LO" name="Quadrant"/>
+    <entry group="0029" element="2927" vr="LO" name="CRC"/>
+  </dict>
+</dicts>

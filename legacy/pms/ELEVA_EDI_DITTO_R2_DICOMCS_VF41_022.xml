@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dicts>
+<dict>
+<entry group="2001" element="0010" vr="LO" type="1" name="Private Creator Group 2001"/>
+<entry group="2001" element="1063" vr="CS" type="1" name="Examination Source"/>
+<entry group="2001" element="106E" vr="SH" type="1" name="Series Type"/>
+<entry group="2001" element="10A1" vr="CS" type="1" name="Is Raw Image"/>
+<entry group="2001" element="10C1" vr="LO" type="1" name="Nested Object Type Name"/>
+</dict>
+</dicts>

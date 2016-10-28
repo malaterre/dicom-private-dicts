@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/th51.pdf
+ $ pdftotext -nopgbrk -layout -f 22 -l 22 th51.pdf th51.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py th51.txt th51.xml
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/th51.pdf">
+  <dict ref="Table 8-14" name="(Private) Stamp Image Module" owner="PMS-THORA-5.1">
+    <entry group="0089" element="0010" vr="LO" vm="1" name="Private Creator"/>
+    <entry group="0089" element="1020" vr="SQ" vm="1" name="Stamp Image Sequence"/>
+  </dict>
+</dicts>

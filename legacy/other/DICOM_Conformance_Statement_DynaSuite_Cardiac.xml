@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget "http://incenter.medical.philips.com/doclib/6685109/DICOM_Conformance_Statement_DynaSuite_Cardiac.pdf?func=doc.Fetch&nodeid=6685109&vernum=1"
+ $ pdftotext -layout -nopgbrk -f 62 -l 62 DICOM_Conformance_Statement_DynaSuite_Cardiac.pdf DICOM_Conformance_Statement_DynaSuite_Cardiac.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2010 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<!--
+This is weird from the file:
+1.3.12.2.1107.5.5.2.200809.30000010022517181000000000019.dcm it looks like all UT are actually ST ...
+And 73,06 is actually LO ...
+
+See post:
+http://battleprogramming.net/notloadedimage.tbz
+
+https://sourceforge.net/mailarchive/forum.php?thread_name=AANLkTikrVeJ4fA0xtzjXW5O%3DD%3DE89uTrScmhhRo3OH9o%40mail.gmail.com&forum_name=gdcm-developers
+-->
+
+<dicts edition="2010" url="http://incenter.medical.philips.com/doclib/6685109/DICOM_Conformance_Statement_DynaSuite_Cardiac.pdf?func=doc.Fetch&amp;nodeid=6685109&amp;vernum=1">
+  <dict ref="8.2" name="Data Dictionary of Private Attributes" owner="STENTOR">
+    <entry group="0073" element="1002" name="Private Creator                                   " vr="LT" vm="1"/>
+<entry group="0073" element="1002"     name="Stentor Remote IP-Address Element"  vr="UT"   vm="1"    desc="Stores the remote IP-address of where the study came from" />
+<entry group="0073" element="1003"     name="Stentor Remote AETitle Element   "  vr="UT"   vm="1"    desc="Stores the remote AE-Title of where the study came from"/>
+<entry group="0073" element="1004"     name="Stentor Local AETitle Element    "  vr="UT"   vm="1"    desc="Name/Value for remote AE-Title"/>
+<entry group="0073" element="1006"     name="Stentor Transfer Syntax Value    "  vr="UT"   vm="1"    desc="Value of the transfer syntax"/>
+  </dict>
+</dicts>

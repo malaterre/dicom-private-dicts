@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="www.medical.siemens.com/siemens/sv_SE/rg_marcom_FBAs/files/brochures/DICOM/ct/syngoCT2007a_DICOM_VA10.pdf">
+  <dict>
+    <entry group="0019" element="xx90" owner="SIEMENS CT VA0  COAD" name="Osteo Offset" vr="DS" vm="1"/>
+    <entry group="0019" element="xx92" owner="SIEMENS CT VA0  COAD" name="Osteo Regression Line" vr="DS" vm="1"/>
+    <entry group="0019" element="xx93" owner="SIEMENS CT VA0  COAD" name="Osteo Regression Line" vr="DS" vm="1"/>
+    <entry group="0019" element="xx96" owner="SIEMENS CT VA0  COAD" name="Osteo Phantom Number" vr="IS" vm="1"/>
+    <entry group="0019" element="xxB0" owner="SIEMENS CT VA0  COAD" name="Feed per Rotation" vr="DS" vm="1"/>
+    <entry group="0019" element="xxBD" owner="SIEMENS CT VA0  COAD" name="Pulmo Trigger Level" vr="IS" vm="1"/>
+    <entry group="0019" element="xxBE" owner="SIEMENS CT VA0  COAD" name="Expiratoric Reserve" vr="DS" vm="1"/>
+    <entry group="0019" element="xxBF" owner="SIEMENS CT VA0  COAD" name="Vital Capacity" vr="DS" vm="1"/>
+    <entry group="0019" element="xxC0" owner="SIEMENS CT VA0  COAD" name="Pulmo Water" vr="DS" vm="1"/>
+    <entry group="0019" element="xxC1" owner="SIEMENS CT VA0  COAD" name="Pulmo Air" vr="DS" vm="1"/>
+    <entry group="0019" element="xxC2" owner="SIEMENS CT VA0  COAD" name="Pulmo Date" vr="DA" vm="1"/>
+    <entry group="0019" element="xxC3" owner="SIEMENS CT VA0  COAD" name="Pulmo Time" vr="TM" vm="1"/>
+    <entry group="0021" element="xx11" owner="SIEMENS MED" name="Target" vr="DS" vm="2"/>
+    <entry group="0009" element="00xx" owner="SIEMENS CT VA1 DUMMY" name="Private Creator Data Element" vr="LO" vm="1"/>
+  </dict>
+</dicts>

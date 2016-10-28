@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget www.agfa.com/en/he/binaries/000108_tcm220-21761.pdf
+ $ pdftotext  -layout -nopgbrk  
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+NOTE:
+  Sesion No. -> Session Number (both notation can be found in the document)
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.agfa.com/en/he/binaries/000108_tcm220-21761.pdf">
+  <dict ref="3.4.7" name="Private Elements" owner="AGFA">
+    <entry group="0019" element="0010" vr="LO" vm="1" name="Private Creator Identification Code ( fixed AGFA)"/>
+    <entry group="0019" element="1010" vr="LO" vm="3" name="Image Processing Parameters (Note 1)"/>
+    <entry group="0019" element="1011" vr="LO" vm="3" name="Identification Data (Note 2)"/>
+    <entry group="0019" element="1013" vr="LO" vm="3" name="Sensitometry Name"/>
+    <entry group="0019" element="1014" vr="ST" vm="3" name="Window/Level List (Note 3)"/>
+    <entry group="0019" element="1015" vr="LO" vm="3" name="Dose Monitoring List (Note 4)"/>
+    <entry group="0019" element="1016" vr="LO" vm="3" name="Other Info (Note 5)"/>
+  </dict>
+</dicts>

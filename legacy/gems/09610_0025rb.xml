@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget http://www.gehealthcare.com/usen/interoperability/dicom/docs/09610_0025rb.pdf
+ $ pdftotext -f 45 -l 48 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+NOTE:
+
+  Any missing type was set to 3 ...
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.gehealthcare.com/usen/interoperability/dicom/docs/09610_0025rb.pdf">
+  <dict ref="3.5" name="Private Data Dictionary for Secondary Capture" owner="QCA"><!-- "QCA Results" -->
+    <entry group="0009" element="0010" vr="LO" vm="1" type="1" name="Private Creator"/>
+    <entry group="0009" element="1000" vr="CS" vm="1" type="2" name="Analysis Type"/>
+    <entry group="0009" element="1004" vr="LO" vm="1" type="2" name="Segment Name"/>
+    <entry group="0009" element="1012" vr="DS" vm="1" type="1C" name="Pre Catheter size"/>
+    <entry group="0009" element="1013" vr="DS" vm="1" type="1C" name="Pre Reference Diameter"/>
+    <entry group="0009" element="1014" vr="DS" vm="1" type="1C" name="Pre Minimum Lumen Diameter"/>
+    <entry group="0009" element="1015" vr="DS" vm="1" type="2C" name="Pre Average Diameter"/>
+    <entry group="0009" element="1016" vr="DS" vm="1" type="2C" name="Pre Stenosis Length"/>
+    <entry group="0009" element="1017" vr="DS" vm="1" type="2C" name="Pre Stenosis %"/>
+    <entry group="0009" element="1018" vr="DS" vm="1" type="2C" name="Pre Geometric Area Reduction %"/>
+    <entry group="0009" element="1022" vr="DS" vm="1" type="1C" name="Post Catheter Size"/>
+    <entry group="0009" element="1023" vr="DS" vm="1" type="1C" name="Post Reference Diameter"/>
+    <entry group="0009" element="1024" vr="DS" vm="1" type="1C" name="Post Minimum Lumen Diameter"/>
+    <entry group="0009" element="1025" vr="DS" vm="1" type="2C" name="Post Average Diameter"/>
+    <entry group="0009" element="1026" vr="DS" vm="1" type="2C" name="Post Stenosis Length"/>
+    <entry group="0009" element="1027" vr="DS" vm="1" type="2C" name="Post Stenosis %"/>
+    <entry group="0009" element="1028" vr="DS" vm="1" type="2C" name="Post Geometric Area Reduction %"/>
+  </dict>
+  <dict ref="3.6" name="Private Data Dictionary for Secondary Capture" owner="QVA"><!-- "Quantitative Results" -->
+    <entry group="0009" element="0010" vr="LO" vm="1" type="1" name="Private Creator"/>
+    <entry group="0009" element="1040" vr="IS" vm="1" type="2" name="Calibration Frame"/>
+    <entry group="0009" element="1041" vr="IS" vm="1" type="3" name="End Diastolic Frame"/>
+    <entry group="0009" element="1042" vr="IS" vm="1" type="3" name="End Systolic Frame"/>
+    <entry group="0009" element="1043" vr="DS" vm="1" type="3" name="End Diastolic Volume"/>
+    <entry group="0009" element="1044" vr="DS" vm="1" type="3" name="End Systolic Volume"/>
+    <entry group="0009" element="1045" vr="DS" vm="1" type="3" name="Stroke Volume"/>
+    <entry group="0009" element="1046" vr="DS" vm="1" type="3" name="Cardiac Output"/>
+    <entry group="0009" element="1047" vr="DS" vm="1" type="3" name="Ejection Fraction"/>
+    <entry group="0009" element="1048" vr="DS" vm="1" type="3" name="Body Surface Area"/>
+    <entry group="0009" element="1049" vr="SH" vm="1" type="3" name="Artery Territory Region"/>
+    <entry group="0009" element="1050" vr="IS" vm="1" type="3" name="Number of Diseased Vessels"/>
+    <entry group="0009" element="1051" vr="DS" vm="1" type="3" name="Hypokinesis in Region"/>
+    <entry group="0009" element="1052" vr="DS" vm="1" type="3" name="Hyperkinesis in Region"/>
+    <entry group="0009" element="1053" vr="IS" vm="1" type="3" name="percent of chords with hyperkinesis &lt;- 2 SD"/>
+    <entry group="0009" element="1054" vr="IS" vm="1" type="3" name="percent of chords with alkinesis/dyskinesis"/>
+    <entry group="0009" element="1055" vr="DS" vm="1" type="3" name="Calibration Factor"/>
+  </dict>
+</dicts>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2009" url="http://incenter.medical.philips.com/doclib/getdoc.aspx?func=ll&amp;objid=5527804&amp;objaction=open">
+  <dict owner="PHILIPS NM -Private">
+    <entry name="Current Segment                     " group="7051" element="1000" vr="US"/>
+    <entry name="Number of Segments                  " group="7051" element="1001" vr="US"/>
+    <entry name="Segment Start Position              " group="7051" element="1002" vr="FL"/>
+    <entry name="Segment Stop Position               " group="7051" element="1003" vr="FL"/>
+    <entry name="Rel. COR offset - X dir.            " group="7051" element="1004" vr="FL"/>
+    <entry name="Rel. COR offset - Z dir.            " group="7051" element="1005" vr="FL"/>
+    <entry name="Current Rotation Number             " group="7051" element="1006" vr="US"/>
+    <entry name="Number of Rotations                 " group="7051" element="1007" vr="US"/>
+    <entry name="Alignment Translations              " group="7051" element="1010" vr="DS"/>
+    <entry name="Alignment Rotations                 " group="7051" element="1011" vr="DS"/>
+    <entry name="Alignment Timestamp                 " group="7051" element="1012" vr="DS"/>
+  </dict>
+</dicts>

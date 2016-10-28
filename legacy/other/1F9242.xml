@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget http://www.carestreamhealth.com/en/global/plugins/acrobat/en/health/pdf/prod/dicom/1F9242.pdf
+ $ pdftotext -layout -nopgbrk 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.carestreamhealth.com/en/global/plugins/acrobat/en/health/pdf/prod/dicom/1F9242.pdf">
+  <dict ref="Table 42" name="Registry of Private DICOM Data Elements" owner="CEMAX-ICON">
+    <entry group="0019" element="00xx" name="Private Creator                                   " vr="LT" vm="1"/>
+    <entry group="0019" element="xx00" name="CR Processing Parameters                          " vr="LT" vm="1"/>
+    <entry group="0019" element="xx10" name="CR Exposure Menu Code                             " vr="LO" vm="1"/>
+    <entry group="0019" element="xx20" name="CR Exposure Menu String                           " vr="LO" vm="1"/>
+    <entry group="0019" element="xx30" name="CR EDR Mode                                       " vr="LO" vm="1"/>
+    <entry group="0019" element="xx40" name="CR Latitude                                       " vr="LO" vm="1"/>
+    <entry group="0019" element="xx50" name="CR Group Number                                   " vr="LO" vm="1"/>
+    <entry group="0019" element="xx60" name="CR Equipment ID                                   " vr="LO" vm="1"/>
+    <entry group="0019" element="xx70" name="CR Image Serial Number                            " vr="LO" vm="1"/>
+    <entry group="0019" element="xx80" name="CR Bar Code Number                                " vr="LO" vm="1"/>
+    <entry group="0019" element="xx90" name="CR Film Output Exposure                           " vr="LO" vm="1"/>
+    <entry group="0029" element="00xx" name="Private Creator                                   " vr="LT" vm="1"/>
+    <entry group="0029" element="xx00" name="Key Image                                         " vr="LO" vm="1"/>
+    <entry group="0029" element="xx10" name="Note                                              " vr="LT" vm="1-n"/>
+    <entry group="0029" element="xx20" name="Annotation Sequence                               " vr="SQ" vm="1"/>
+    <entry group="0029" element="xx30" name="X Start Position                                  " vr="IS" vm="1"/>
+    <entry group="0029" element="xx40" name="Y Start Position                                  " vr="IS" vm="1"/>
+    <entry group="0029" element="xx50" name="X End Position                                    " vr="IS" vm="1"/>
+    <entry group="0029" element="xx60" name="Y End Position                                    " vr="IS" vm="1"/>
+    <entry group="0029" element="xx70" name="Annotation Text                                   " vr="LO" vm="1"/>
+    <entry group="0029" element="xx80" name="Which Marker                                      " vr="IS" vm="1"/>
+    <entry group="0029" element="xx90" name="Annotation Sequence                               " vr="SQ" vm="1"/>
+    <entry group="0029" element="xx91" name="X Coordinates                                     " vr="IS" vm="1-n"/>
+    <entry group="0029" element="xx92" name="Y Coordinates                                     " vr="IS" vm="1-n"/>
+    <entry group="0029" element="xx93" name="Annotation Type                                   " vr="IS" vm="1"/>
+    <entry group="0029" element="xx94" name="Number of points                                  " vr="IS" vm="1"/>
+    <entry group="0029" element="xx95" name="Fill Type                                         " vr="IS" vm="1"/>
+    <entry group="3033" element="00xx" name="Private Creator                                   " vr="LT" vm="1"/>
+    <entry group="3033" element="xx00" name="Study Priority Status                             " vr="CS" vm="1"/>
+  </dict>
+</dicts>

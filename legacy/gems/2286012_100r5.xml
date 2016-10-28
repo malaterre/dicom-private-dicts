@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+I could not find any DICOM file with DLX_SERIES_01 I would think this is
+a typo in the document they meant DLX_SERIE_01
+-->
+<dicts>
+<dict ref="Table 23" name="- Private Creator Identification" owner="GEMS_DL_IMG_01">
+<entry group="0019" element="XX81" vr="US" vm="1" name="Calibration frame"/>
+<entry group="0019" element="XX82" vr="CS" vm="1" name="Calibration object"/>
+<entry group="0019" element="XX83" vr="DS" vm="1" name="Calibration object size mm"/>
+<entry group="0019" element="XX84" vr="FL" vm="1" name="Calibration factor"/>
+<entry group="0019" element="XX85" vr="DA" vm="1" name="Calibration date"/>
+<entry group="0019" element="XX86" vr="TM" vm="1" name="Calibration time"/>
+<entry group="0019" element="XX87" vr="US" vm="1" name="Calibration accuracy"/>
+<entry group="0019" element="XX88" vr="CS" vm="1" name="Calibration extended"/>
+<entry group="0019" element="XX89" vr="US" vm="1" name="Calibration image original"/>
+<entry group="0019" element="XX8A" vr="US" vm="1" name="Calibration frame original"/>
+<entry group="0019" element="XX8B" vr="US" vm="1" name="Calibration nb points uif"/>
+<entry group="0019" element="XX8C" vr="US" vm="1-N" name="Calibration points row"/>
+<entry group="0019" element="XX8D" vr="US" vm="1-N" name="Calibration points column"/>
+<entry group="0019" element="XX8E" vr="FL" vm="1" name="Calibration mag ratio"/>
+<entry group="0019" element="XX8F" vr="LO" vm="1" name="Calibration sw version"/>
+<entry group="0019" element="XX90" vr="LO" vm="1" name="Extend calib sw version"/>
+<entry group="0019" element="XX91" vr="IS" vm="1" name="Calibration return code"/>
+<entry group="0019" element="XX93" vr="CS" vm="1-2" name="spatial_change"/>
+<entry group="0019" element="XX0B" vr="DS" vm="1" name="fov_dim_double"/>
+<entry group="0019" element="XX92" vr="DS" vm="1" name="detector_rot_angle"/>
+<entry group="0019" element="XX31" vr="IS" vm="1" name="def_spa_flt_family"/>
+<entry group="0019" element="XX32" vr="IS" vm="1" name="def_spa_flt_strgth"/>
+<entry group="0019" element="XX4E" vr="DS" vm="2" name="def_bright_contr"/>
+<entry group="0019" element="XX4F" vr="DS" vm="2" name="user_bright_contr"/>
+</dict>
+<dict ref="Table 24" name="- Private Creator Identification" owner="DLX_SERIE_01">
+<entry group="0019" element="XX01" vr="DS" vm="1" name="angle_value_1"/>
+<entry group="0019" element="XX02" vr="DS" vm="1" name="angle_value_2"/>
+<entry group="0019" element="XX03" vr="DS" vm="1" name="angle_value_3"/>
+<entry group="0019" element="XX04" vr="CS" vm="1" name="angle_label_1"/>
+<entry group="0019" element="XX05" vr="CS" vm="1" name="angle_label_2"/>
+<entry group="0019" element="XX06" vr="CS" vm="1" name="angle_label_3"/>
+<entry group="0019" element="XX17" vr="IS" vm="1" name="usr_spa_flt_strgth"/>
+<entry group="0019" element="XX18" vr="IS" vm="1" name="usr_zoom_factor"/>
+<entry group="0019" element="XX24" vr="DS" vm="1" name="lbd_cm_pc_dtort"/>
+<entry group="0019" element="XX25" vr="DS" vm="1" name="slope_lv_regress"/>
+<entry group="0019" element="XX26" vr="DS" vm="1" name="int_lv_regress"/>
+</dict>
+<dict ref="Table 25" name="- Private Creator Identification" owner="GEMS_DL_FRAME_01">
+<entry group="0025" element="XX0A" vr="SQ" vm="1" name="frame_sequence"/>
+<entry group="0025" element="XX02" vr="IS" vm="1" name="&gt;frame_id"/>
+<entry group="0025" element="XX03" vr="DS" vm="1" name="&gt;dist_src_to_det"/>
+<entry group="0025" element="XX04" vr="DS" vm="1" name="&gt;dist_src_to_pat"/>
+<entry group="0025" element="XX05" vr="DS" vm="1" name="&gt;dist_src_to_skin"/>
+<entry group="0025" element="XX1B" vr="DS" vm="1" name="&gt;table_vert_pos"/>
+<entry group="0025" element="XX1D" vr="DS" vm="1" name="&gt;table_long_pos"/>
+<entry group="0025" element="XX1C" vr="DS" vm="1" name="&gt;table_long_pos"/>
+<entry group="0025" element="XX1F" vr="DS" vm="1" name="&gt;kvp_actual"/>
+<entry group="0025" element="XX20" vr="DS" vm="1" name="&gt;mas_actual"/>
+<entry group="0025" element="XX21" vr="DS" vm="1" name="&gt;pw_actual"/>
+<entry group="0025" element="XX27" vr="DS" vm="1" name="&gt;tgt_entr_dose"/>
+<entry group="0025" element="XX28" vr="DS" vm="1" name="&gt;cnr_cmd"/>
+<entry group="0025" element="XX29" vr="DS" vm="1" name="&gt;contrast_cmd"/>
+<entry group="0025" element="XX2A" vr="DS" vm="1" name="&gt;ept_actual"/>
+<entry group="0025" element="XX2B" vr="IS" vm="1" name="&gt;spect_flt_znb"/>
+</dict>
+<dict ref="Table 41" name="- Private Creator Identification" owner="QCA_RESULTS">
+<entry group="0009" element="XX00" vr="CS" vm="1" name="Analysis Views"/>
+<entry group="0009" element="XX10" vr="LO" vm="1" name="Segment"/>
+<entry group="0009" element="XX11" vr="LO" vm="1" name="Pre Catheter Name 2C"/>
+<entry group="0009" element="XX12" vr="DS" vm="1" name="Pre Catheter Size"/>
+<entry group="0009" element="XX13" vr="DS" vm="1" name="Pre Reference Diameter"/>
+<entry group="0009" element="XX14" vr="DS" vm="1" name="Pre Minimum Lumen Diameter"/>
+<entry group="0009" element="XX15" vr="DS" vm="1" name="Pre Average Diameter"/>
+<entry group="0009" element="XX16" vr="DS" vm="1" name="Pre Stenosis Length"/>
+<entry group="0009" element="XX17" vr="IS" vm="1" name="Pre Stenosis %"/>
+<entry group="0009" element="XX18" vr="IS" vm="1" name="Pre Geometric Area Reduction %"/>
+<entry group="0009" element="XX21" vr="LO" vm="1" name="Post Catheter Name"/>
+<entry group="0009" element="XX22" vr="DS" vm="1" name="Post Catheter Size"/>
+<entry group="0009" element="XX23" vr="DS" vm="1" name="Post Reference Diameter"/>
+<entry group="0009" element="XX24" vr="DS" vm="1" name="Post Minimum Lumen Diameter"/>
+<entry group="0009" element="XX25" vr="DS" vm="1" name="Post Average Diameter"/>
+<entry group="0009" element="XX26" vr="DS" vm="1" name="Post Stenosis Length"/>
+<entry group="0009" element="XX27" vr="IS" vm="1" name="Post Stenosis %"/>
+<entry group="0009" element="XX28" vr="IS" vm="1" name="Post Geometric Area Reduction %"/>
+</dict>
+<dict ref="Table 42" name="- Private Creator Identification" owner="GEMS_DL_IMG_01">
+<entry group="0019" element="XX52" vr="IS" vm="1" name="src_frame_number"/>
+</dict>
+</dicts>

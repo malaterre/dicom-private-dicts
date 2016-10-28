@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget 
+ $ pdftotext -layout -nopgbrk 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="ftp://ftp.philips.com/pub/pms-3003/Conformance_Stmnts/pdf/intol12.pdf">
+  <dict ref="Table 4-2" name="Augmented DICOMDIR keys for AUG-XABC-DYNAMIC-CD" owner="CARDIO-D.R. 1.0" >
+    <entry name="File Location                 " group="0009" element="xx00" vr="UL" type="3"/>
+    <entry name="File Size                     " group="0009" element="xx01" vr="UL" type="1C"/>
+    <entry name="Alternate Image Sequence               " group="0009" element="xx40" vr="SQ" type="3"/>
+  </dict>
+</dicts>

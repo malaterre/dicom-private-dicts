@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grass Root DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2010 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<!-- found in a SPEC image [Nuclear Medicine Image Storage] -->
+<dicts>
+  <dict>
+<!-- IS2 Medical Systems Pulse CDC -->
+<entry group="0035" element="0097" vr="SH" vm="1" name="?" owner="SEGAMI__MEMO"/>
+<!-- #!nbHeads := 2
+#!origin := IS2 Medical Systems Pulse CDC
+-->
+<entry group="0035" element="0098" vr="LT" vm="1" name="?" owner="SEGAMI__MEMO"/>
+</dict>
+</dicts>

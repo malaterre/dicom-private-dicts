@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.gehealthcare.com/usen/interoperability/dicom/docs/2317752r3.pdf 
+ $ pdftotext -nopgbrk -layout -f 68 -l 73 2317752r3.pdf 2317752r3.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py 2317752r3.txt 2317752r3.xml
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.gehealthcare.com/usen/interoperability/dicom/docs/2317752r3.pdf">
+  <dict ref="B.1.1" name="Private Creator Identification" owner="GEMS_IDEN_01">
+    <entry group="0009" element="1001" vr="LO" vm="1" name="Full fidelity"/>
+    <entry group="0009" element="1002" vr="SH" vm="1" name="Suite id"/>
+    <entry group="0009" element="1004" vr="SH" vm="1" name="Product id"/>
+    <entry group="0009" element="1027" vr="SL" vm="1" name="Image actual date"/>
+    <entry group="0009" element="1030" vr="SH" vm="1" name="Service id"/>
+    <entry group="0009" element="1031" vr="SH" vm="1" name="Mobile location number"/>
+    <entry group="0009" element="10E3" vr="UI" vm="1" name="Equipment UID"/>
+    <entry group="0009" element="10E6" vr="SH" vm="1" name="Genesis Version - now"/>
+    <entry group="0009" element="10E7" vr="UL" vm="1" name="Exam Record checksum"/>
+    <entry group="0009" element="10E9" vr="SL" vm="1" name="Actual series data time stamp"/>
+  </dict>
+  <dict ref="B.1.2" name="Private Creator Identification" owner="GEMS_PATI_01">
+    <entry group="0011" element="1010" vr="SS" vm="1" name="Patient Status"/>
+  </dict>
+  <dict ref="B.1.3" name="Private Creator Identification" owner="GEMS_ACQU_01">
+    <entry group="0019" element="100F" vr="DS" vm="1" name="Horiz. Frame of ref."/>
+    <entry group="0019" element="1011" vr="SS" vm="1" name="Series contrast"/>
+    <entry group="0019" element="1012" vr="SS" vm="1" name="Last pseq"/>
+    <entry group="0019" element="1017" vr="SS" vm="1" name="Series plane"/>
+    <entry group="0019" element="1018" vr="LO" vm="1" name="First scan ras"/>
+    <entry group="0019" element="1019" vr="DS" vm="1" name="First scan location"/>
+    <entry group="0019" element="101A" vr="LO" vm="1" name="Last scan ras"/>
+    <entry group="0019" element="101B" vr="DS" vm="1" name="Last scan loc"/>
+    <entry group="0019" element="101E" vr="DS" vm="1" name="Display field of view"/>
+    <entry group="0019" element="105A" vr="FL" vm="1" name="Acquisition Duration"/>
+    <entry group="0019" element="107D" vr="DS" vm="1" name="Second echo"/>
+    <entry group="0019" element="107E" vr="SS" vm="1" name="Number of echoes"/>
+    <entry group="0019" element="107F" vr="DS" vm="1" name="Table delta"/>
+    <entry group="0019" element="1081" vr="SS" vm="1" name="Contiguous"/>
+    <entry group="0019" element="1084" vr="DS" vm="1" name="Peak SAR"/>
+    <entry group="0019" element="1085" vr="SS" vm="1" name="Monitor SAR"/>
+    <entry group="0019" element="1087" vr="DS" vm="1" name="Cardiac repetition time"/>
+    <entry group="0019" element="1088" vr="SS" vm="1" name="Images per cardiac cycle"/>
+    <entry group="0019" element="108A" vr="SS" vm="1" name="Actual receive gain analog"/>
+    <entry group="0019" element="108B" vr="SS" vm="1" name="Actual receive gain digital"/>
+    <entry group="0019" element="108D" vr="DS" vm="1" name="Delay after trigger"/>
+    <entry group="0019" element="108F" vr="SS" vm="1" name="Swappf"/>
+    <entry group="0019" element="1090" vr="SS" vm="1" name="Pause Interval"/>
+    <entry group="0019" element="1091" vr="DS" vm="1" name="Pulse Time"/>
+    <entry group="0019" element="1092" vr="SL" vm="1" name="Slice offset on freq axis"/>
+    <entry group="0019" element="1093" vr="DS" vm="1" name="Center Frequency"/>
+    <entry group="0019" element="1094" vr="SS" vm="1" name="Transmit Gain"/>
+    <entry group="0019" element="1095" vr="SS" vm="1" name="Analog receiver gain"/>
+    <entry group="0019" element="1096" vr="SS" vm="1" name="Digital receiver gain"/>
+    <entry group="0019" element="1097" vr="SL" vm="1" name="Bitmap defining CVs"/>
+    <entry group="0019" element="1098" vr="SS" vm="1" name="Center freq. Method"/>
+    <entry group="0019" element="109B" vr="SS" vm="1" name="Pulse seq. Mode"/>
+    <entry group="0019" element="109C" vr="LO" vm="1" name="Pulse seq. Name"/>
+    <entry group="0019" element="109D" vr="DT" vm="1" name="Pulse seq. Date"/>
+    <entry group="0019" element="109E" vr="LO" vm="1" name="Internal pulse seq. Name"/>
+    <entry group="0019" element="109F" vr="SS" vm="1" name="Transmitting coil"/>
+    <entry group="0019" element="10A0" vr="SS" vm="1" name="Surface Coil Type"/>
+    <entry group="0019" element="10A1" vr="SS" vm="1" name="Extremity Coil flag"/>
+    <entry group="0019" element="10A2" vr="SL" vm="1" name="Raw data run number"/>
+    <entry group="0019" element="10A3" vr="UL" vm="1" name="Calibrated Field strength"/>
+    <entry group="0019" element="10A4" vr="SS" vm="1" name="SAT fat/water/bone"/>
+    <entry group="0019" element="10A5" vr="DS" vm="1" name="Receive bandwidth"/>
+    <entry group="0019" element="10A7" vr="DS" vm="1" name="User data 0"/>
+    <entry group="0019" element="10A8" vr="DS" vm="1" name="User data 1"/>
+    <entry group="0019" element="10A9" vr="DS" vm="1" name="User data 2"/>
+    <entry group="0019" element="10AA" vr="DS" vm="1" name="User data 3"/>
+    <entry group="0019" element="10AB" vr="DS" vm="1" name="User data 4"/>
+    <entry group="0019" element="10AC" vr="DS" vm="1" name="User data 5"/>
+    <entry group="0019" element="10AD" vr="DS" vm="1" name="User data 6"/>
+    <entry group="0019" element="10AE" vr="DS" vm="1" name="User data 7"/>
+    <entry group="0019" element="10AF" vr="DS" vm="1" name="User data 8"/>
+    <entry group="0019" element="10B0" vr="DS" vm="1" name="User data 9"/>
+    <entry group="0019" element="10B1" vr="DS" vm="1" name="User data 10"/>
+    <entry group="0019" element="10B2" vr="DS" vm="1" name="User data 11"/>
+    <entry group="0019" element="10B3" vr="DS" vm="1" name="User data 12"/>
+    <entry group="0019" element="10B4" vr="DS" vm="1" name="User data 13"/>
+    <entry group="0019" element="10B5" vr="DS" vm="1" name="User data 14"/>
+    <entry group="0019" element="10B6" vr="DS" vm="1" name="User data 15"/>
+    <entry group="0019" element="10B7" vr="DS" vm="1" name="User data 16"/>
+    <entry group="0019" element="10B8" vr="DS" vm="1" name="User data 17"/>
+    <entry group="0019" element="10B9" vr="DS" vm="1" name="User data 18"/>
+    <entry group="0019" element="10BA" vr="DS" vm="1" name="User data 19"/>
+    <entry group="0019" element="10BB" vr="DS" vm="1" name="User data 20"/>
+    <entry group="0019" element="10BC" vr="DS" vm="1" name="User data 21"/>
+    <entry group="0019" element="10BD" vr="DS" vm="1" name="User data 22"/>
+    <entry group="0019" element="10BE" vr="DS" vm="1" name="Projection angle"/>
+    <entry group="0019" element="10C0" vr="SS" vm="1" name="Saturation planes"/>
+    <entry group="0019" element="10C1" vr="SS" vm="1" name="Surface coil intensity"/>
+    <entry group="0019" element="10C2" vr="SS" vm="1" name="SAT location R"/>
+    <entry group="0019" element="10C3" vr="SS" vm="1" name="SAT location L"/>
+    <entry group="0019" element="10C4" vr="SS" vm="1" name="SAT location A"/>
+    <entry group="0019" element="10C5" vr="SS" vm="1" name="SAT location P"/>
+    <entry group="0019" element="10C6" vr="SS" vm="1" name="SAT location H"/>
+    <entry group="0019" element="10C7" vr="SS" vm="1" name="SAT location F"/>
+    <entry group="0019" element="10C8" vr="SS" vm="1" name="SAT thickness R/L"/>
+    <entry group="0019" element="10C9" vr="SS" vm="1" name="SAT thickness A/P"/>
+    <entry group="0019" element="10CA" vr="SS" vm="1" name="SAT thickness H/F"/>
+    <entry group="0019" element="10CB" vr="SS" vm="1" name="Prescribed flow axis"/>
+    <entry group="0019" element="10CC" vr="SS" vm="1" name="Velocity encoding"/>
+    <entry group="0019" element="10CD" vr="SS" vm="1" name="Thickness disclaimer"/>
+    <entry group="0019" element="10CE" vr="SS" vm="1" name="Prescan type"/>
+    <entry group="0019" element="10CF" vr="SS" vm="1" name="Prescan status"/>
+    <entry group="0019" element="10D0" vr="SH" vm="1" name="Raw data type"/>
+    <entry group="0019" element="10D2" vr="SS" vm="1" name="Projection Algorithm"/>
+    <entry group="0019" element="10D3" vr="SH" vm="1" name="Projection algorithm"/>
+    <entry group="0019" element="10D5" vr="SS" vm="1" name="Fractional echo"/>
+    <entry group="0019" element="10D6" vr="SS" vm="1" name="Prep pulse"/>
+    <entry group="0019" element="10D7" vr="SS" vm="1" name="Cardiac phase number"/>
+    <entry group="0019" element="10D8" vr="SS" vm="1" name="Variable echoflag"/>
+    <entry group="0019" element="10D9" vr="DS" vm="1" name="Concatenated SAT"/>
+    <entry group="0019" element="10DF" vr="DS" vm="1" name="User data 23"/>
+    <entry group="0019" element="10E0" vr="DS" vm="1" name="User data 24"/>
+    <entry group="0019" element="10E2" vr="DS" vm="1" name="Velocity Encode Scale"/>
+    <entry group="0019" element="10F2" vr="SS" vm="1" name="Fast phases"/>
+    <entry group="0019" element="10F9" vr="DS" vm="1" name="Transmit gain"/>
+  </dict>
+  <dict ref="B.1.4" name="Private Creator Identification" owner="GEMS_RELA_01">
+    <entry group="0021" element="1003" vr="SS" vm="1" name="Series from which Prescribed"/>
+    <entry group="0021" element="1005" vr="SH" vm="1" name="Genesis Version - now"/>
+    <entry group="0021" element="1007" vr="UL" vm="1" name="Series Record checksum"/>
+    <entry group="0021" element="1018" vr="SH" vm="1" name="Genesis version - Now"/>
+    <entry group="0021" element="1019" vr="UL" vm="1" name="Acq recon record checksum"/>
+    <entry group="0021" element="1020" vr="DS" vm="1" name="Table start location"/>
+    <entry group="0021" element="1035" vr="SS" vm="1" name="Series from which prescribed"/>
+    <entry group="0021" element="1036" vr="SS" vm="1" name="Image from which prescribed"/>
+    <entry group="0021" element="1037" vr="SS" vm="1" name="Screen Format"/>
+    <entry group="0021" element="104F" vr="SS" vm="1" name="Locations in acquisition"/>
+    <entry group="0021" element="1050" vr="SS" vm="1" name="Graphically prescribed"/>
+    <entry group="0021" element="1051" vr="DS" vm="1" name="Rotation from source x rot"/>
+    <entry group="0021" element="1052" vr="DS" vm="1" name="Rotation from source y rot"/>
+    <entry group="0021" element="1053" vr="DS" vm="1" name="Rotation from source z rot"/>
+    <entry group="0021" element="1054" vr="SH" vm="3" name="Image position"/>
+    <entry group="0021" element="1055" vr="SH" vm="6" name="Image orientation"/>
+    <entry group="0021" element="1056" vr="SL" vm="1" name="Num 3D slabs"/>
+    <entry group="0021" element="1057" vr="SL" vm="1" name="Locs per slab"/>
+    <entry group="0021" element="1058" vr="SL" vm="1" name="Overlaps"/>
+    <entry group="0021" element="1059" vr="SL" vm="1" name="Image Filtering"/>
+    <entry group="0021" element="105A" vr="SL" vm="1" name="Diffusion direction"/>
+    <entry group="0021" element="105B" vr="DS" vm="1" name="Ihtagfa"/>
+    <entry group="0021" element="105C" vr="DS" vm="1" name="Ihtagor"/>
+    <entry group="0021" element="105D" vr="DS" vm="1" name="Ihbspti"/>
+    <entry group="0021" element="105E" vr="DS" vm="1" name="RTIA_timer"/>
+    <entry group="0021" element="105F" vr="DS" vm="1" name="Fps"/>
+    <entry group="0021" element="1081" vr="DS" vm="1" name="Auto window/level alpha"/>
+    <entry group="0021" element="1082" vr="DS" vm="1" name="Auto window/level beta"/>
+    <entry group="0021" element="1083" vr="DS" vm="1" name="Auto window/level window"/>
+    <entry group="0021" element="1084" vr="DS" vm="1" name="Auto window/level level"/>
+  </dict>
+  <dict ref="B.1.5" name="Private Creator Identification" owner="GEMS_STDY_01">
+    <entry group="0023" element="1001" vr="SL" vm="1" name="Number of series in Study"/>
+    <entry group="0023" element="1002" vr="SL" vm="1" name="Number of unarchived Series"/>
+    <entry group="0023" element="1010" vr="SS" vm="1" name="Reference image field"/>
+    <entry group="0023" element="1050" vr="SS" vm="1" name="Summary image"/>
+    <entry group="0023" element="1070" vr="FD" vm="1" name="Start time(secs) in first axial"/>
+    <entry group="0023" element="1074" vr="SL" vm="1" name="No. of updates to header"/>
+    <entry group="0023" element="107D" vr="SS" vm="1" name="Indicates if study has complete info (DICOM/genesis)"/>
+  </dict>
+  <dict ref="B.1.6" name="Private Creator Identification" owner="GEMS_SERS_01">
+    <entry group="0025" element="1006" vr="SS" vm="1" name="Last pulse sequence used"/>
+    <entry group="0025" element="1007" vr="SL" vm="1" name="Images in Series"/>
+    <entry group="0025" element="1010" vr="SL" vm="1" name="Landmark Counter"/>
+    <entry group="0025" element="1011" vr="SS" vm="1" name="Number of Acquisitions"/>
+    <entry group="0025" element="1014" vr="SL" vm="1" name="Indicates no. of updates to header"/>
+    <entry group="0025" element="1017" vr="SL" vm="1" name="Series Complete Flag"/>
+    <entry group="0025" element="1018" vr="SL" vm="1" name="Number of images archived"/>
+    <entry group="0025" element="1019" vr="SL" vm="1" name="Last image number used"/>
+    <entry group="0025" element="101A" vr="SH" vm="1" name="Primary Receiver Suite and Host"/>
+  </dict>
+  <dict ref="B.1.7" name="Private Creator Identification" owner="GEMS_IMAG_01">
+    <entry group="0027" element="1006" vr="SL" vm="1" name="Image archive flag"/>
+    <entry group="0027" element="1010" vr="SS" vm="1" name="Scout Type"/>
+    <entry group="0027" element="1030" vr="SH" vm="1" name="Foreign Image Revision"/>
+    <entry group="0027" element="1031" vr="SS" vm="1" name="Imaging Mode"/>
+    <entry group="0027" element="1032" vr="SS" vm="1" name="Pulse Sequence"/>
+    <entry group="0027" element="1033" vr="SL" vm="1" name="Imaging Options"/>
+    <entry group="0027" element="1035" vr="SS" vm="1" name="Plane Type"/>
+    <entry group="0027" element="1036" vr="SL" vm="1" name="Oblique Plane"/>
+    <entry group="0027" element="1040" vr="SH" vm="1" name="RAS letter of image location"/>
+    <entry group="0027" element="1041" vr="FL" vm="1" name="Image location"/>
+    <entry group="0027" element="1042" vr="FL" vm="1" name="Center R coord of plane image"/>
+    <entry group="0027" element="1043" vr="FL" vm="1" name="Center A coord of plane image"/>
+    <entry group="0027" element="1044" vr="FL" vm="1" name="Center S coord of plane image"/>
+    <entry group="0027" element="1045" vr="FL" vm="1" name="Normal R coord"/>
+    <entry group="0027" element="1046" vr="FL" vm="1" name="Normal A coord"/>
+    <entry group="0027" element="1047" vr="FL" vm="1" name="Normal S coord"/>
+    <entry group="0027" element="1048" vr="FL" vm="1" name="R Coord of Top Right Corner"/>
+    <entry group="0027" element="1049" vr="FL" vm="1" name="A Coord of Top Right Corner"/>
+    <entry group="0027" element="104A" vr="FL" vm="1" name="S Coord of Top Right Corner"/>
+    <entry group="0027" element="104B" vr="FL" vm="1" name="R Coord of Bottom Right Corner"/>
+    <entry group="0027" element="104C" vr="FL" vm="1" name="A Coord of Bottom Right Corner"/>
+    <entry group="0027" element="104D" vr="FL" vm="1" name="S Coord of Bottom Right Corner"/>
+    <entry group="0027" element="1060" vr="FL" vm="1" name="Image dimension - X"/>
+    <entry group="0027" element="1061" vr="FL" vm="1" name="Image dimension - Y"/>
+    <entry group="0027" element="1062" vr="FL" vm="1" name="Number of Excitations"/>
+  </dict>
+  <dict ref="B.1.8" name="Private Creator Identification" owner="GEMS_IMPS_01">
+    <entry group="0029" element="1015" vr="SL" vm="1" name="Lower range of Pixels1"/>
+    <entry group="0029" element="1016" vr="SL" vm="1" name="Lower range of Pixels1"/>
+    <entry group="0029" element="1017" vr="SL" vm="1" name="Lower range of Pixels2"/>
+    <entry group="0029" element="1018" vr="SL" vm="1" name="Upper range of Pixels2"/>
+    <entry group="0029" element="101A" vr="SL" vm="1" name="Len of tot hdr in bytes"/>
+    <entry group="0029" element="1026" vr="SS" vm="1" name="Version of the hdr struct"/>
+    <entry group="0029" element="1034" vr="SL" vm="1" name="Advantage comp. Overflow"/>
+    <entry group="0029" element="1035" vr="SL" vm="1" name="Advantage comp. Underflow"/>
+  </dict>
+  <dict ref="B.1.9" name="Private Creator Identification" owner="GEMS_PARM_01">
+    <entry group="0043" element="1001" vr="SS" vm="1" name="Bitmap of prescan options"/>
+    <entry group="0043" element="1002" vr="SS" vm="1" name="Gradient offset in X"/>
+    <entry group="0043" element="1003" vr="SS" vm="1" name="Gradient offset in Y"/>
+    <entry group="0043" element="1004" vr="SS" vm="1" name="Gradient offset in Z"/>
+    <entry group="0043" element="1005" vr="SS" vm="1" name="Img is original or unoriginal"/>
+    <entry group="0043" element="1006" vr="SS" vm="1" name="Number of EPI shots"/>
+    <entry group="0043" element="1007" vr="SS" vm="1" name="Views per segment"/>
+    <entry group="0043" element="1008" vr="SS" vm="1" name="Respiratory rate, bpm"/>
+    <entry group="0043" element="1009" vr="SS" vm="1" name="Respiratory trigger point"/>
+    <entry group="0043" element="100A" vr="SS" vm="1" name="Type of receiver used"/>
+    <entry group="0043" element="100B" vr="DS" vm="1" name="Peak rate of change of gradient field"/>
+    <entry group="0043" element="100C" vr="DS" vm="1" name="Limits in units of percent"/>
+    <entry group="0043" element="100D" vr="DS" vm="1" name="PSD estimated limit"/>
+    <entry group="0043" element="100E" vr="DS" vm="1" name="PSD estimated limit in tesla per second"/>
+    <entry group="0043" element="100F" vr="DS" vm="1" name="Saravghead"/>
+    <entry group="0043" element="1010" vr="US" vm="1" name="Window value"/>
+    <entry group="0043" element="101C" vr="SS" vm="1" name="GE image integrity"/>
+    <entry group="0043" element="101D" vr="SS" vm="1" name="Level value"/>
+    <entry group="0043" element="1028" vr="OB" vm="1" name="Unique image iden"/>
+    <entry group="0043" element="1029" vr="OB" vm="1" name="Histogram tables"/>
+    <entry group="0043" element="102A" vr="OB" vm="1" name="User defined data"/>
+    <entry group="0043" element="102B" vr="SS" vm="4" name="Private Scan Options"/>
+    <entry group="0043" element="102C" vr="SS" vm="1" name="Effective echo spacing"/>
+    <entry group="0043" element="102D" vr="SH" vm="1" name="String slop field 1"/>
+    <entry group="0043" element="102E" vr="SH" vm="1" name="String slop field 2"/>
+    <entry group="0043" element="102F" vr="SS" vm="1" name="Image Type (real, imaginary, phase, magnitude)"/>
+    <entry group="0043" element="1030" vr="SS" vm="1" name="Vas collapse flag"/>
+    <entry group="0043" element="1031" vr="DS" vm="2" name="RA cord of target recon center"/>
+    <entry group="0043" element="1032" vr="SS" vm="1" name="Vas flags"/>
+    <entry group="0043" element="1033" vr="FL" vm="1" name="Neg_scanspacing"/>
+    <entry group="0043" element="1034" vr="IS" vm="1" name="Offset Frequency"/>
+    <entry group="0043" element="1035" vr="UL" vm="1" name="User_usage_tag"/>
+    <entry group="0043" element="1036" vr="UL" vm="1" name="User_fill_map_MSW"/>
+    <entry group="0043" element="1037" vr="UL" vm="1" name="User_fill_map_LSW"/>
+    <entry group="0043" element="1038" vr="FL" vm="24" name="User data 25...User data 48"/>
+    <entry group="0043" element="1039" vr="IS" vm="4" name="Slop_int_6... slop_int_9&#10; 6: b_value&#10; 7: private imaging options 2&#10; 8: ihtagging&#10; 9: ihtagspc"/>
+    <entry group="0043" element="1060" vr="IS" vm="8" name="Slop_int_10...slop_int_17&#10; 10: ihfcineim&#10; 11: ihfcinent&#10; 12: Reserved&#10; 13: oprtarr&#10; 14: averages&#10; 15: Current Station #&#10; 16: Total # of Stations&#10; 17: Reserved"/>
+    <entry group="0043" element="1061" vr="UI" vm="1" name="Scanner Study Entity UID"/>
+    <entry group="0043" element="1062" vr="SH" vm="1" name="Scanner Study ID"/>
+    <entry group="0043" element="106F" vr="DS" vm="3-4" name="Scanner Table Entry (single gradient coil systems only)&#10;Scanner Table Entry + Gradient Coil Selected"/>
+  </dict>
+</dicts>

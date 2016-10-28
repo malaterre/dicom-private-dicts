@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.agfa.com/germany/de/binaries/000519_tcm181-21753.pdf
+ $ pdftotext -layout -nopgbrk -f 25 -l 25 000519_tcm181-21753.pdf 000519_tcm181-21753.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.agfa.com/germany/de/binaries/000519_tcm181-21753.pdf">
+  <dict ref="Table 3.37" name="Added standard elements" owner="AGFA_ADC_Compact">
+    <entry group="0019" element="0010" vr="LO" type="1" name="Private Identification Code"/>
+    <entry group="0019" element="1005" vr="ST" type="3" name="Data stream from cassette"/>
+    <entry group="0019" element="1060" vr="US" type="3" name="Number of series in study"/>
+    <entry group="0019" element="1062" vr="SH" type="3" name="ID station name"/>
+    <entry group="0019" element="1070" vr="US" type="3" name="Number of images in series"/>
+    <entry group="0019" element="1071" vr="US" type="3" name="Break condition"/>
+    <entry group="0019" element="1074" vr="SH" type="3" name="Operation code"/>
+    <entry group="0019" element="1095" vr="CS" type="3" name="Image quality"/>
+  </dict>
+</dicts>

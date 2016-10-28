@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/MR_System_R1_5_dcs.pdf
+ $ pdftotext -nopgbrk -layout -f  71 -l 71 MR_System_R1_5_dcs.pdf MR_System_R1_5_dcs.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py MR_System_R1_5_dcs.txt MR_System_R1_5_dcs.xml
+
+FIXME:
+  There is no VM ! Need to get them from parsed files...
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/MR_System_R1_5_dcs.pdf">
+  <dict ref="Table 66" name="Created Magnetic Resonance Image Storage SOP Class Attributes" owner="Philips Imaging DD 001">
+    <entry group="2001" element="0010" vr="LO" type="1" name="Private Creator Group 2001"/>
+    <entry group="2001" element="1001" vr="FL" type="2C" name="Chemical Shift"/>
+    <entry group="2001" element="1002" vr="IS" type="2C" name="Chemical Shift Number MR"/>
+    <entry group="2001" element="1003" vr="FL" type="2C" name="Diffusion B-Factor"/>
+    <entry group="2001" element="1004" vr="CS" type="2C" name="Diffusion Direction"/>
+    <entry group="2001" element="1006" vr="CS" type="2" name="Image Enhanced"/>
+    <entry group="2001" element="1007" vr="CS" type="2" name="Image Type ED ES"/>
+    <entry group="2001" element="1008" vr="IS" type="1" name="Phase Number"/>
+    <entry group="2001" element="100A" vr="IS" type="1" name="Slice Number MR"/>
+    <entry group="2001" element="1011" vr="FL" type="2C" name="Diffusion Echo Time"/>
+    <entry group="2001" element="1012" vr="CS" type="2" name="Dynamic Series"/>
+    <entry group="2001" element="1013" vr="SL" type="1" name="EPI Factor"/>
+    <entry group="2001" element="1014" vr="SL" type="2" name="Number of Echoes"/>
+    <entry group="2001" element="1015" vr="SS" type="2" name="Number of Locations"/>
+    <entry group="2001" element="1016" vr="SS" type="2" name="Number of PC Directions"/>
+    <entry group="2001" element="1017" vr="SL" type="2" name="Number of Phases MR"/>
+    <entry group="2001" element="1018" vr="SL" type="2" name="Number of Slices MR"/>
+    <entry group="2001" element="1019" vr="CS" type="2" name="Partial Matrix Scanned"/>
+    <entry group="2001" element="101A" vr="FL" type="1" name="PC Velocity"/>
+    <entry group="2001" element="101B" vr="FL" type="2" name="Prepulse Delay"/>
+    <entry group="2001" element="101C" vr="CS" type="2" name="Prepulse Type"/>
+    <entry group="2001" element="101D" vr="IS" type="2" name="Reconstruction Number MR"/>
+    <entry group="2001" element="101F" vr="CS" type="2" name="Respiration Sync"/>
+    <entry group="2001" element="1021" vr="CS" type="2" name="SPIR"/>
+    <entry group="2001" element="1022" vr="FL" type="2" name="Water Fat Shift"/>
+    <entry group="2001" element="1023" vr="DS" type="1" name="Flip Angle Philips"/>
+    <entry group="2001" element="1060" vr="SL" type="2" name="Number of Stacks"/>
+    <entry group="2001" element="1081" vr="IS" type="2" name="Number of Dynamic Scans"/>
+    <entry group="2001" element="107B" vr="IS" type="1" name="Acquisition Number"/>
+    <!--entry group="2005" element="0010" vr="LO" type="1" name="Private Creator Group 2005"/>
+    <entry group="2005" element="1020" vr="SL" type="2C" name="Number of Chemical Shift"/>
+    <entry group="2005" element="10A1" vr="CS" type="2C" name="Syncra Scan Type"/-->
+  </dict>
+  <dict ref="Table 70" name="Created Grayscale Softcopy Presentation State Storage SOP Class Attributes" owner="Philips Imaging DD 001">
+    <entry group="2001" element="103F" vr="CS" type="2" name="&gt;Zoom Mode"/>
+  </dict>
+  <dict ref="Table 71" name="Created Patient Root Query/Retrieve Information Model - FIND SOP Class Attributes" owner="Philips Imaging DD 001">
+    <entry group="2001" element="0010" vr="LO" type="1" name="Private Creator Group 2001"/>
+    <entry group="2001" element="1063" vr="CS" type="2E" name="Examination Source"/>
+  </dict>
+  <dict ref="Table 92" name="Created Media Storage Directory Storage SOP Class Attributes" owner="Philips Imaging DD 001">
+    <entry group="2001" element="0010" vr="LO" type="1" name="&gt; Private Creator Group 2001"/>
+    <entry group="2001" element="1014" vr="SL" type="2" name="&gt; Number of Echoes"/>
+    <entry group="2001" element="1017" vr="SL" type="2" name="&gt; Number of Phases MR"/>
+    <entry group="2001" element="1018" vr="SL" type="2" name="&gt; Number of Slices MR"/>
+    <entry group="2001" element="101D" vr="IS" type="2" name="&gt; Reconstruction Number MR"/>
+    <entry group="2001" element="1020" vr="LO" type="2" name="&gt; Scanning Technique Description MR"/>
+    <entry group="2001" element="1025" vr="SH" type="2" name="&gt; Echo Time Display MR"/>
+    <entry group="2001" element="105F" vr="SQ" type="2" name="&gt; Stack Sequence"/>
+    <entry group="2001" element="102D" vr="SS" type="2" name="&gt;&gt; Stack Number Of Slices"/>
+    <entry group="2001" element="1032" vr="FL" type="2" name="&gt;&gt; Stack Radial Angle"/>
+    <entry group="2001" element="1033" vr="CS" type="2" name="&gt;&gt; Stack Radial Axis"/>
+    <entry group="2001" element="1035" vr="SS" type="2" name="&gt;&gt; Stack Slice Number"/>
+    <entry group="2001" element="1036" vr="CS" type="2" name="&gt;&gt; Stack Type"/>
+    <entry group="2001" element="1063" vr="CS" type="2" name="&gt; Examination Source"/>
+    <!--entry group="2005" element="0010" vr="LO" type="1" name="&gt; Private Creator Group 2005"/>
+    <entry group="2005" element="1020" vr="SL" type="2" name="&gt; Number of Chemical Shift"/>
+    <entry group="2005" element="10A1" vr="CS" type="2" name="&gt; Syncra Scan Type"/-->
+  </dict>
+</dicts>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget www.gehealthcare.com/usen/interoperability/dicom/docs/2017753_209r07.pdf
+ $ pdftotext -f 108 -l 110 2017753_209r07.pdf 2017753_209r07.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.gehealthcare.com/usen/interoperability/dicom/docs/2017753_209r07.pdf">
+  <dict ref="TABLE 11-1" name="SPECIFICATION OF GE PRIVATE IMAGE THUMBNAIL SEQUENCE" owner="GEIIS">
+    <entry group="0009" element="00xx" vr="LO" vm="1" name="Private Creator ID"/>
+    <entry group="0009" element="xx10" vr="SQ" vm="1" name="GE Private Image Thumbnail Sequence"/>
+    <entry group="0029" element="0010" vr="LO" vm="1" name="&gt; Private Creator ID"/>
+    <entry group="0029" element="1010" vr="UL" vm="1" name="&gt; Shift Count"/>
+    <entry group="0029" element="1012" vr="UL" vm="1" name="&gt; Offset"/>
+    <entry group="0029" element="1014" vr="UL" vm="1" name="&gt; Actual Frame Number"/>
+    <entry group="7FD1" element="0010" vr="LO" vm="1" name="&gt; Private Creator ID"/>
+    <entry group="7FD1" element="1010" vr="UL" vm="1" name="&gt; GE IIS Compression Type"/>
+  </dict>
+  <dict ref="2.2.4" name="Patient Identifier Cross-Referencing Policies" owner="GEIIS">
+    <entry group="0905" element="00xx" vr="LO" vm="1" name="Private Creator"/>
+    <entry group="0905" element="xx30" vr="LO" vm="1" name="Assigning Authority For Patient ID">
+      <description>Centricity PACS also assigns a globally unique code to each Assigning Authority. This unique code is stored in a DICOM private tag (0905,xx30) with owner string "GEIIS". Centricity PACS will set this private tag when SOP Instances are acquired into the PACS. The DICOM attribute, Issuer of Patient ID (0010,0021), will also be updated, if necessary, to contain the correct Assigning Authority information and to remain in sync with the value in the private tag (0905,xx30) when SOP Instances are sent out of the PACS.</description>
+    </entry>
+  </dict>
+  <dict ref="TABLE 12-1" name="PRIVATE DATA ELEMENTS FOR ORIGINAL UID VALUES" owner="GEIIS">
+    <entry group="0907" element="00xx" vr="LO" vm="1" name="Private Creator ID"/>
+    <entry group="0907" element="xx10" vr="UI" vm="1" name="Original Study Instance UID"/>
+    <entry group="0907" element="xx20" vr="UI" vm="1" name="Original Series Instance UID"/>
+    <entry group="0907" element="xx30" vr="UI" vm="1" name="Original SOP Instance UID"/>
+  </dict>
+</dicts>

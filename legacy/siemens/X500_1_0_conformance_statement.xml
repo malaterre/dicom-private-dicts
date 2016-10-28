@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<!--
+See also:
+CV70_conformance_statement_ext.txt
+
+Manually set a dummy owner...
+-->
+<dicts edition="2008" url="http://www.medical.siemens.com/siemens/de_DE/rg_marcom_FBAs/files/brochures/DICOM/us/acuson/X500_1_0_conformance_statement.pdf">
+  <dict owner="Acuson X500">
+    <entry name="                                                        Private Creator " group="0011" element="0010"/>
+    <entry name="                                                   Siemens Medical      " group="0011" element="1010"/>
+    <entry name="                                                    DIMAQ Software      " group="0011" element="1011"/>
+    <entry name="                                                        Private Data    " group="0011" element="1020"/>
+    <entry name="                                                        Private Data    " group="0011" element="1021"/>
+    <entry name="                                                        Private Creator " group="0013" element="0010"/>
+    <entry name="                                                  Siemens Medical       " group="0013" element="1010"/>
+    <entry name="                                                   DIMAQ Software       " group="0013" element="1011"/>
+    <entry name="                                                       Private Data     " group="0013" element="1020"/>
+    <entry name="                                                       Private Creator  " group="0015" element="0010"/>
+    <entry name="                                                  Siemens Medical       " group="0015" element="1010"/>
+    <entry name="                                                   DIMAQ Software       " group="0015" element="1011"/>
+    <entry name="                                                       Private Data     " group="0015" element="1020"/>
+    <entry name="                                                       Private Creator  " group="0017" element="0010"/>
+    <entry name="                                                  Siemens Medical       " group="0017" element="1010"/>
+    <entry name="                                                   DIMAQ Software       " group="0017" element="1011"/>
+    <entry name="                                                       Private Data     " group="0017" element="1020"/>
+    <entry name="                                                 Private Creator        " group="0019" element="0010"/>
+    <entry name="                                                 Import Structured      " group="0019" element="1020"/>
+    <entry name="                                             View List                  " group="0009" element="212A"/>
+    <entry name="                                           &gt;(a)View Name                " group="0009" element="2120"/>
+    <entry name="                                                    Private Creator     " group="0011" element="0010"/>
+    <entry name="                                                   Siemens Medical      " group="0011" element="1010"/>
+    <entry name="                                                    DIMAQ Software      " group="0011" element="1011"/>
+    <entry name="                                                    Private Data        " group="0011" element="1020"/>
+    <entry name="                                                    Private Data        " group="0011" element="1021"/>
+    <entry name="                                                    Private Creator     " group="0013" element="0010"/>
+    <entry name="                                                   Siemens Medical      " group="0013" element="1010"/>
+    <entry name="                                                    DIMAQ Software      " group="0013" element="1011"/>
+    <entry name="                                                    Private Data        " group="0013" element="1020"/>
+    <entry name="                                                    Private Creator     " group="0015" element="0010"/>
+    <entry name="                                                   Siemens Medical      " group="0015" element="1010"/>
+    <entry name="                                                    DIMAQ Software      " group="0015" element="1011"/>
+    <entry name="                                                    Private Data        " group="0015" element="1020"/>
+    <entry name="                                                   Private Creator      " group="0017" element="0010"/>
+    <entry name="                                                  Siemens Medical       " group="0017" element="1010"/>
+    <entry name="                                                   DIMAQ Software       " group="0017" element="1011"/>
+    <entry name="                                                   Private Data         " group="0017" element="1020"/>
+    <entry name="                                                 Private Creator        " group="0019" element="0010"/>
+    <entry name="                                                 Import Structured      " group="0019" element="1020"/>
+    <entry name="                                                    Private Creator     " group="0011" element="0010"/>
+    <entry name="                                                   Siemens Medical      " group="0011" element="1010"/>
+    <entry name="                                                    DIMAQ Software      " group="0011" element="1011"/>
+    <entry name="                                                    Private Data        " group="0011" element="1020"/>
+    <entry name="                                                    Private Data        " group="0011" element="1021"/>
+    <entry name="                                                    Private Creator     " group="0013" element="0010"/>
+    <entry name="                                                   Siemens Medical      " group="0013" element="1010"/>
+    <entry name="                                                    DIMAQ Software      " group="0013" element="1011"/>
+    <entry name="                                                    Private Data        " group="0013" element="1020"/>
+    <entry name="                                                    Private Creator     " group="0015" element="0010"/>
+    <entry name="                                                   Siemens Medical      " group="0015" element="1010"/>
+    <entry name="                                                    DIMAQ Software      " group="0015" element="1011"/>
+    <entry name="                                                    Private Data        " group="0015" element="1020"/>
+    <entry name="                                                    Private Creator     " group="0017" element="0010"/>
+    <entry name="                                                  Siemens Medical       " group="0017" element="1010"/>
+    <entry name="                                                   DIMAQ Software       " group="0017" element="1011"/>
+    <entry name="                                                   Private Data         " group="0017" element="1020"/>
+    <entry name="                                                 Private Creator        " group="0019" element="0010"/>
+    <entry name="                                                 Import Structured      " group="0019" element="1020"/>
+    <entry name="                             Private Attributes   Private Creator       " group="0019" element="0010"/>
+    <entry name="                                                  Import Structured     " group="0019" element="1020"/>
+    <entry name="                                      View List                         " group="0009" element="212A" vr="SQ"/>
+    <entry name="                                      &gt;View Name                     " group="0009" element="2120" vr="SH"/>
+  </dict>
+</dicts>

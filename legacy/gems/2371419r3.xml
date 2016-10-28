@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.gehealthcare.com/usen/interoperability/dicom/docs/2371419r3.pdf
+ $ pdftotext.exe -layout -f 112 -l 113 2371419r3.pdf 2371419r3.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+NOTE:
+  Manually changed: GEMS_ACQ_01 into GEMS_ACQU_01
+
+I change the vm=3 into vm=2 for:
+    <entry group="0043" element="xx31" vr="DS" vm="2" type="3" name="Recon Center Coordinates"/>
+
+I changed US into IS in:
+    <entry group="0043" element="xx6D" vr="IS" vm="1" type="3" name="Area Size"/>
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.gehealthcare.com/usen/interoperability/dicom/docs/2371419r3.pdf">
+	<dict ref="A.1" name="CT IMAGE IOD PRIVATE DATA ELEMENTS DEFINITION" owner="GEMS_ACQU_01">
+    <entry group="0019" element="00xx" vr="LO" vm="1" type="3" name="Private Creator ID"/>
+    <entry group="0019" element="xx02" vr="SL" vm="1" type="3" name="Detector Channel"/>
+    <entry group="0019" element="xx23" vr="DS" vm="1" type="3" name="Table Speed [mm/rotation]"/>
+    <entry group="0019" element="xx24" vr="DS" vm="1" type="3" name="Mid Scan Time [sec]"/>
+    <entry group="0019" element="xx26" vr="SL" vm="1" type="3" name="Tube Azimuth [degree]"/>
+    <entry group="0019" element="xx27" vr="DS" vm="1" type="3" name="Rotation Speed [msec]"/>
+    <entry group="0019" element="xx39" vr="SS" vm="1" type="3" name="SFOV Type"/>
+    <entry group="0019" element="xx42" vr="SS" vm="1" type="3" name="Segment Number"/>
+    <entry group="0019" element="xx43" vr="SS" vm="1" type="3" name="Total Segments Required"/>
+    </dict>
+    <dict owner="GEMS_IMAG_01">
+    <entry group="0027" element="00xx" vr="LO" vm="1" type="1C" name="Private Creator ID"/>
+    <entry group="0027" element="xx50" vr="FL" vm="1" type="3" name="Scan Start Location"/>
+    <entry group="0027" element="xx51" vr="FL" vm="1" type="3" name="Scan End Location"/>
+    </dict>
+    <dict owner="GEMS_PARM_01">
+    <entry group="0043" element="00xx" vr="LO" vm="1" type="1C" name="Private Creator ID"/>
+    <entry group="0043" element="xx1E" vr="DS" vm="1" type="3" name="Delta Start Time [msec]"/>
+    <entry group="0043" element="xx27" vr="SH" vm="1" type="3" name="Scan Pitch Ratio"/>
+    <entry group="0043" element="xx31" vr="DS" vm="2" type="3" name="Recon Center Coordinates"/>
+    <entry group="0043" element="xx63" vr="SH" vm="1" type="3" name="Raw Data ID"/>
+    <entry group="0043" element="xx64" vr="CS" vm="1-n" type="3" name="Image Filter"/>
+    <entry group="0043" element="xx65" vr="US" vm="1" type="3" name="Motion Correction Indicator"/>
+    <entry group="0043" element="xx66" vr="US" vm="1" type="3" name="Helical Correction Indicator"/>
+    <entry group="0043" element="xx67" vr="US" vm="1" type="3" name="IBO Correction Indicator"/>
+    <entry group="0043" element="xx68" vr="US" vm="1" type="3" name="XT Correction Indicator"/>
+    <entry group="0043" element="xx69" vr="US" vm="1" type="3" name="Q-cal Correction Indicator"/>
+    <entry group="0043" element="xx6A" vr="US" vm="1" type="3" name="AV Correction Indicator"/>
+    <entry group="0043" element="xx6B" vr="US" vm="1" type="3" name="L-MDK Correction Indicator"/>
+    <entry group="0043" element="xx6C" vr="IS" vm="1" type="3" name="Detector Row"/>
+    <entry group="0043" element="xx6D" vr="IS" vm="1" type="3" name="Area Size"/>
+    <entry group="0043" element="xx6E" vr="SH" vm="1" type="3" name="Auto mA Mode"/>
+    </dict>
+    <dict owner="GEMS_HINO_CT_01">
+    <entry group="004B" element="00xx" vr="LO" vm="1" type="1C" name="Private Creator ID"/>
+    <entry group="004B" element="xx01" vr="DS" vm="1-n" type="3" name="Beam Thickness"/>
+    <entry group="004B" element="xx02" vr="DS" vm="1-n" type="3" name="R Time"/>
+    <entry group="004B" element="xx03" vr="IS" vm="1" type="3" name="HBC number"/>
+  </dict>
+</dicts>

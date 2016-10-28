@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<!--
+Tobias Boskamp :
+	
+In the current versions of eatDicom, the private tags are encoded as
+text (I don't know the exact VR), but there's no guarantee that this
+will not be changed in the future. The multiplicity is dependent on the
+context, some tags can have multiple values.
+-->
+<dicts edition="2008" url="http://www.mevislab.de/fileadmin/docs/html/mlabtoolbox/DCMTree__MeVisDicomTags_8h.html">
+  <dict owner="MeVis eatDicom">
+    <entry name="EatDicomVersion          " group="0009" element="0010"/>
+    <entry name="EatDicomOptions          " group="0009" element="0011"/>
+    <entry name="TimepointsID             " group="0009" element="0021"/>
+  </dict>
+  <dict owner="MeVis eD: Timepoint Information">
+    <entry name="TPDateTime               " group="0009" element="0010"/>
+    <entry name="TPDateTimeType           " group="0009" element="0011"/>
+    <description>
+      <definedterm>
+ACQUISITION
+CONTENT
+UNKNOWN
+</definedterm>
+    </description>
+    <entry name="TPSeriesDescription      " group="0009" element="0012"/>
+    <entry name="TPGradientDirections     " group="0009" element="0013"/>
+    <entry name="GeometryID               " group="0009" element="0021"/>
+  </dict>
+  <dict owner="MeVis eD: Geometry Information">
+    <entry name="GeoScannerOrigin         " group="0009" element="0011"/>
+    <entry name="SlicesID                 " group="0009" element="0021"/>
+  </dict>
+  <dict owner="MeVis eD: Slice Information">
+    <entry name="SlicesSOPInstanceUID     " group="0009" element="0010"/>
+  </dict>
+</dicts>

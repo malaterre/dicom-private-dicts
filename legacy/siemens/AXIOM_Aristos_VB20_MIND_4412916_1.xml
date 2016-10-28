@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="">
+  <dict ref="A.2.7" name="Aristos FD Processing Settings">
+    <entry group="0021" element="xx00" vr="US" vm="1" owner="Siemens: Thorax/Multix FD Post Processing" name="Label Left"/>
+    <entry group="0021" element="xx01" vr="SS" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Label Left Orientation"/>
+    <entry group="0021" element="xx02" vr="FL" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Label Left Percentage X"/>
+    <entry group="0021" element="xx03" vr="FL" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Label Left Percentage X"/>
+    <entry group="0021" element="xx04" vr="US" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Label Right"/>
+    <entry group="0021" element="xx01" vr="SS" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Label Right Orientation"/>
+    <entry group="0021" element="xx06" vr="FL" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Label Right Percentage X"/>
+    <entry group="0021" element="xx07" vr="FL" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Label Right Percentage X"/>
+    <entry group="0021" element="xx08" vr="US" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Auto Window Flag"/>
+    <entry group="0021" element="xx09" vr="SL" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Auto Window Center"/>
+    <entry group="0021" element="xx0a" vr="SL" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Auto Window Width"/>
+    <entry group="0021" element="xx0b" vr="SS" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Filter ID"/>
+    <entry group="0021" element="xx0c" vr="FL" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Degree of Edge Enhancement"/>
+    <entry group="0021" element="xx0d" vr="SS" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Half Kernel Size"/>
+    <entry group="0021" element="xx0e" vr="US" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Dose Control Value"/>
+    <entry group="0021" element="xx0f" vr="US" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Deleted Image Flag"/>
+    <entry group="0021" element="xx10" vr="US" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Same Size Support"/>
+    <entry group="0021" element="xx11" vr="SS" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Label Left Init Position"/>
+    <entry group="0021" element="xx12" vr="SS" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Label Right Init Position"/>
+    <entry group="0021" element="xx13" vr="SS" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Patient Rotation"/>
+    <entry group="0021" element="xx14" vr="US" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Anatomic Correct View Flag"/>
+  </dict>
+</dicts>

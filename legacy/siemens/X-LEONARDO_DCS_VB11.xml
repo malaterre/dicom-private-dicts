@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="">
+  <dict ref="Table 61" name="SC derived image (RGB) from InSpace EP" owner="BioPri3D">
+    <entry name="Private Creator                                 " group="0011" element="0010"/>
+    <entry name="Private Segmentation Data                       " group="0011" element="10xx">
+      <description> Segmentation data and results </description>
+    </entry>
+    <entry name="Private Creator                          " group="0063" element="10xx"/>
+    <entry name="Private Segmentation Data                " group="0063" element="10xx">
+      <description>Data according to DICOM proposal for Multi-Dimensional Interchange.  </description>
+    </entry>
+  </dict>
+</dicts>

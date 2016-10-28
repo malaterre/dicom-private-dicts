@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget 
+ $ pdftotext -layout -nopgbrk 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.mckesson.com/static_files/McKesson.com/MPT/Documents/DICOMStmt5-06.pdf">
+  <dict ref="Table 136" name="Private Elements Added by Horizon Medical ImagingTM" owner="A.L.I. Technologies, Inc.">
+    <entry group="3711" element="00xx" name="Private Creator ID       " vr="LO" vm="1"/>
+    <entry group="3711" element="xx01" name="Filename                 " vr="LO" vm="1"/>
+    <entry group="3711" element="xx02" name="Data Blob of a Visit     " vr="OB" vm="1"/>
+    <entry group="3711" element="xx03" name="Revision Number          " vr="US" vm="1"/>
+    <entry group="3711" element="xx04" name="Unix Timestamp           " vr="UL" vm="1"/>
+    <entry group="3711" element="xx05" name="Bag ID                   " vr="IS" vm="1"/>
+    <entry group="3711" element="xx0C" name="Original Study UID       " vr="UI" vm="1"/>
+    <entry group="3711" element="xx0D" name="Overlay Grayscale Value  " vr="US" vm="1"/>
+    <entry group="3711" element="xx0E" name="Anonymization Status     " vr="CS" vm="1"/>
+  </dict>
+</dicts>

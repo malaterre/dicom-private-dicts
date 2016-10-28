@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<!--
+automatically generated from:
+
+gdcmdump - -xml-dict gdcmDataExtra/gdcmSampleData/images_of_interest/494APG9K.dcm
+-->
+<dicts edition="2008" url="">
+  <dict>
+<entry group="6003" element="0010" vr="SQ" vm="1" name="?" owner="GEMS_Ultrasound_ImageGroup_001"/>
+<entry group="6003" element="0011" vr="OB" vm="1" name="?" owner="GEMS_Ultrasound_ImageGroup_001"/>
+<entry group="7fe1" element="0001" vr="SQ" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0002" vr="LO" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0003" vr="UL" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0008" vr="SQ" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0010" vr="SQ" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0012" vr="LO" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0018" vr="SQ" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0020" vr="SQ" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0024" vr="SH" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0026" vr="SQ" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0036" vr="SQ" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0037" vr="UL" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0043" vr="OB" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0048" vr="FD" vm="1-2" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0049" vr="UL" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0051" vr="FL" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0052" vr="FD" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0053" vr="UL" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0054" vr="SL" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0055" vr="OB" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0057" vr="LT" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0060" vr="OB" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0061" vr="OW" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0070" vr="SQ" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0071" vr="UL" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0072" vr="LO" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0073" vr="SQ" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0074" vr="LO" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0075" vr="SQ" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0077" vr="FD" vm="1-n" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0083" vr="SQ" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0084" vr="LO" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0085" vr="SQ" vm="1" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0086" vr="SL" vm="4" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+<entry group="7fe1" element="0087" vr="FD" vm="4" name="?" owner="GEMS_Ultrasound_MovieGroup_001"/>
+  </dict>
+</dicts>
+

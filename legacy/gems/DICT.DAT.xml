@@ -1,0 +1,484 @@
+<!--  -->
+<!--  (c)2004 GE Medical Systems -->
+<!--  -->
+<!--  Description: -->
+<!--        Dicom dictionary, containing -->
+<!-- 			 DICOM 2000 part 6 (MJS) -->
+<!-- 			 some supplement (JPD) -->
+<!--  -->
+<!-- ========================= private elements ================ -->
+<!--  Marconi  -->
+<dicts><dict owner="RadWorksMarconi">
+<entry group="0029" element="6024" vr="US" vm="1" name="&lt;internal&gt;"/><!--  -->
+<!--  Workstation Internal  -->
+</dict><dict owner="AMI Annotations_02">
+<entry group="3101" element="1020" vr="SQ" vm="1" name="AMI Annotation Sequence (RET)"/><!--  -->
+</dict><dict owner="AMI Annotations_01">
+<entry group="3101" element="1110" vr="SQ" vm="1" name="AMI Annotation Sequence (RET)"/><!--  -->
+</dict><dict owner="AMI Sequence Annotations_01">
+<entry group="3103" element="1110" vr="CS" vm="1" name="AMI Annotation Sequence (RET)"/><!--  -->
+<entry group="3103" element="1120" vr="UI" vm="1" name="AMI Annotation UID (RET)"/><!--  -->
+<entry group="3103" element="1130" vr="US" vm="1" name="AMI Annotation Color (RET)"/><!--  -->
+<entry group="3103" element="1150" vr="CS" vm="1" name="AMI Annotation Line Style (RET)"/><!--  -->
+<entry group="3103" element="1160" vr="SQ" vm="1" name="AMI Annotation Elements (RET)"/><!--  -->
+<entry group="3103" element="1170" vr="SH" vm="1" name="AMI Annotation Label (RET)"/><!--  -->
+<entry group="3103" element="1180" vr="PN" vm="1" name="AMI Annotation Creator (RET)"/><!--  -->
+<entry group="3103" element="1190" vr="PN" vm="1" name="AMI Annotation Modifiers (RET)"/><!--  -->
+<entry group="3103" element="11A0" vr="DA" vm="1" name="AMI Annotation Creation Date (RET)"/><!--  -->
+<entry group="3103" element="11B0" vr="TM" vm="1" name="AMI Annotation Creation Time (RET)"/><!--  -->
+<entry group="3103" element="11C0" vr="DA" vm="1" name="AMI Annotation Modification Dates (RET)"/><!--  -->
+<entry group="3103" element="11D0" vr="TM" vm="1" name="AMI Annotation Mofification Times (RET)"/><!--  -->
+<entry group="3103" element="11E0" vr="US" vm="1" name="AMI Annotation Frame Number (RET)"/><!--  -->
+</dict><dict owner="AMI Sequence Annotations_02">
+<entry group="3103" element="1010" vr="CS" vm="1" name="AMI Annotation Sequence (RET)"/><!--  -->
+<entry group="3103" element="1020" vr="UI" vm="1" name="AMI Annotation UID (RET)"/><!--  -->
+<entry group="3103" element="1030" vr="US" vm="1" name="AMI Annotation Color (RET)"/><!--  -->
+<entry group="3103" element="1050" vr="CS" vm="1" name="AMI Annotation Line Style (RET)"/><!--  -->
+<entry group="3103" element="1060" vr="SQ" vm="1" name="AMI Annotation Elements (RET)"/><!--  -->
+<entry group="3103" element="1070" vr="SH" vm="1" name="AMI Annotation Label (RET)"/><!--  -->
+<entry group="3103" element="1080" vr="PN" vm="1" name="AMI Annotation Creator (RET)"/><!--  -->
+<entry group="3103" element="1090" vr="PN" vm="1" name="AMI Annotation Modifiers (RET)"/><!--  -->
+<entry group="3103" element="10A0" vr="DA" vm="1" name="AMI Annotation Creation Date (RET)"/><!--  -->
+<entry group="3103" element="10B0" vr="TM" vm="1" name="AMI Annotation Creation Time (RET)"/><!--  -->
+<entry group="3103" element="10C0" vr="DA" vm="1" name="AMI Annotation Modification Dates (RET)"/><!--  -->
+<entry group="3103" element="10D0" vr="TM" vm="1" name="AMI Annotation Modification Times (RET)"/><!--  -->
+<entry group="3103" element="10E0" vr="US" vm="1" name="AMI Annotation Frame Number (RET)"/><!--  -->
+</dict><dict owner="AMI Sequence AnnotElements_01">
+<entry group="3105" element="1010" vr="DS" vm="1" name="AMI Annotation Element Position"/><!--  -->
+<entry group="3105" element="1020" vr="LT" vm="1" name="AMI Annotation Element Text"/><!--  -->
+</dict><dict owner="AMI ImageTransform_01">
+<entry group="3107" element="1010" vr="DS" vm="1" name="AMI Transformation Matrix (RET)"/><!--  -->
+<entry group="3107" element="1020" vr="DS" vm="1" name="AMI Center Offset (RET)"/><!--  -->
+<entry group="3107" element="1030" vr="DS" vm="1" name="AMI Magnification (RET)"/><!--  -->
+<entry group="3107" element="1040" vr="CS" vm="1" name="AMI Magnification Type (RET)"/><!--  -->
+<entry group="3107" element="1050" vr="DS" vm="1" name="AMI Displayed Area (RET)"/><!--  -->
+<entry group="3107" element="1060" vr="DS" vm="1" name="AMI Calibration Factor (RET)"/><!--  -->
+</dict><dict owner="AMI ImageContextExt_01">
+<entry group="3107" element="11A0" vr="CS" vm="1" name="AMI Window Function (RET)"/><!--  -->
+<entry group="3107" element="11B0" vr="DS" vm="1" name="AMI Window Slope (RET)"/><!--  -->
+</dict><dict owner="Applicare/RadWorks/Version 5.0">
+<entry group="3109" element="1001" vr="ST" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="3109" element="1002" vr="SH" vm="1" name="NEW/SEEN Status"/><!--  -->
+<entry group="3109" element="1003" vr="CS" vm="1" name="Delete Lock"/><!-- 				// Flag indicating study is locked. Defined values: 'L' or ' ' -->
+<entry group="3109" element="1004" vr="CS" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="3109" element="1005" vr="CS" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="3109" element="1006" vr="CS" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="3109" element="1007" vr="UL" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="3109" element="1008" vr="LO" vm="1" name="Receive Origin"/><!--  -->
+<entry group="3109" element="1009" vr="LO" vm="1" name="Folder"/><!--  -->
+<entry group="3109" element="100A" vr="DA" vm="1" name="Receive Date"/><!--  -->
+<entry group="3109" element="100B" vr="TM" vm="1" name="Receive Time"/><!--  -->
+<entry group="3109" element="100C" vr="CS" vm="1" name="Prior"/><!--  -->
+<entry group="3109" element="100D" vr="CS" vm="1" name="STAT Study"/><!-- 						// Flag indicating study is STAT. Defined values 'STAT' or 'ROUTINE' -->
+<entry group="3109" element="100E" vr="CS" vm="1" name="&lt;internal&gt;"/><!-- 						// Flag indicating study/image is KEY. Defined values 'KEY' or ' ' -->
+<entry group="3109" element="1010" vr="CS" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="3109" element="1011" vr="LO" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="3109" element="1012" vr="LO" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="3109" element="1013" vr="DA" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="3109" element="1014" vr="TM" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="3109" element="1019" vr="LO" vm="1" name="&lt;internal&gt;"/><!-- 			// Refers to the name of the Worklist -->
+<entry group="3109" element="1020" vr="UI" vm="1" name="&lt;internal&gt;"/><!-- 				// Refers to the UID of the Worklist -->
+<entry group="3109" element="1021" vr="CS" vm="1" name="&lt;internal&gt;"/><!-- 	 -->
+<entry group="3109" element="1022" vr="AE" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="3109" element="1023" vr="US" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="3109" element="1024" vr="LO" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="3109" element="1025" vr="LO" vm="1" name="&lt;internal&gt;"/><!-- 				// AMI origin name -->
+<entry group="3109" element="1026" vr="UI" vm="1" name="&lt;internal&gt;"/><!-- 		// Syudy instance uid generated by modality -->
+<entry group="3109" element="1027" vr="SQ" vm="1" name="&lt;internal&gt;"/><!-- 				// Sequence (AE, Host, Port, Stor. Comm.) -->
+<entry group="3109" element="1028" vr="LO" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="3109" element="1029" vr="LO" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="3109" element="102A" vr="LO" vm="1" name="Send Flag"/><!--  -->
+<entry group="3109" element="102B" vr="LO" vm="1" name="Print Flag"/><!--  -->
+<entry group="3109" element="102C" vr="LO" vm="1" name="Archive Flag"/><!--  -->
+<entry group="3109" element="1030" vr="LO" vm="1" name="&lt;internal&gt;"/><!-- 			// Requesting Facility Name (used with ADAC) -->
+<entry group="3109" element="1031" vr="CS" vm="1" name="&lt;internal&gt;"/><!-- 		// Requesting Procedure Name (used with ADAC) -->
+<entry group="3109" element="1032" vr="CS" vm="1" name="&lt;internal&gt;"/><!-- 		// Requesting Procedure Code (used with ADAC) -->
+<entry group="3109" element="1033" vr="CS" vm="1" name="Request Storage Commitment"/><!-- 			// Flag that indicates if storage commitment should be requested -->
+<entry group="3109" element="1034" vr="CS" vm="1" name="Requested Compression"/><!-- 				// Private Tag (CS) added to a DICOM C-MOVE request -->
+<entry group="3109" element="1036" vr="LO" vm="1" name="&lt;internal&gt;"/><!-- 				// Origin of update (used by Local Worklist) -->
+<entry group="3109" element="1035" vr="SQ" vm="1" name="&lt;internal&gt;"/><!-- 					// Study sequence for replies to PATIENT level queries -->
+<!-- PRIVATE_ELEM(3109, 1036, DCM_AMI_UPDATEORIGIN)					// Origin of update (used by Local Worklist) -->
+<entry group="3109" element="1037" vr="UI" vm="1" name="&lt;internal&gt;"/><!-- 			// Study UID that is being replaced -->
+<entry group="3109" element="1038" vr="SH" vm="1" name="&lt;internal&gt;"/><!-- 				// ACR code for teaching "folder" worklists -->
+<entry group="3109" element="1039" vr="SH" vm="1" name="&lt;internal&gt;"/><!-- 				// Special Interest Code (hospital defined code used for teaching worklist) -->
+<entry group="3109" element="1040" vr="IS" vm="1" name="&lt;internal&gt;"/><!-- 	// Number of Study Related Images (Study header)" -->
+<entry group="3109" element="1041" vr="CS" vm="1" name="&lt;internal&gt;"/><!-- 				// Study locked -->
+<entry group="3109" element="1042" vr="CS" vm="1" name="&lt;internal&gt;"/><!-- 				// contains workstation name -->
+<entry group="3109" element="1043" vr="CS" vm="1" name="Archive Status"/><!-- 		// archive status { <Empty>, "ARCHIVED" } -->
+<entry group="3109" element="10EE" vr="UI" vm="1" name="&lt;internal&gt;"/><!-- 			// Internal tag to set list UID -->
+<entry group="3109" element="10EF" vr="CS" vm="1" name="&lt;internal&gt;"/><!-- 					// Internal tag { ADD, REMOVE, CHANGE } -->
+</dict><dict owner="AMI ImageContext_01">
+<entry group="3109" element="1110" vr="CS" vm="1" name="AMI Window Invert (RET)"/><!--  -->
+<entry group="3109" element="1120" vr="IS" vm="1" name="AMI Window Center (RET)"/><!--  -->
+<entry group="3109" element="1130" vr="IS" vm="1" name="AMI Window Widith (RET)"/><!--  -->
+<entry group="3109" element="1140" vr="CS" vm="1" name="AMI Pixel Aspect Ratio Swap (RET)"/><!--  -->
+<entry group="3109" element="1150" vr="CS" vm="1" name="AMI Enable Averaging (RET)"/><!--  -->
+<entry group="3109" element="1160" vr="CS" vm="1" name="AMI Quality (RET)"/><!--  -->
+<entry group="3109" element="1170" vr="CS" vm="1" name="AMI Viewport Annotation Level (RET)"/><!--  -->
+<entry group="3109" element="1180" vr="CS" vm="1" name="AMI Show Image Annotation (RET)"/><!--  -->
+<entry group="3109" element="1190" vr="CS" vm="1" name="AMI Show Image Overlay (RET)"/><!--  -->
+</dict><dict owner="Applicare/RadWorks/Version 6.0/Summary">
+<!-- PRIVATE_ELEM(3109, 1201, SH, DCM_SUMMARY_STATUS)  is called DCM_AMI_STATUS -->
+<!-- PRIVATE_ELEM(3109, 1211, ST, DCM_SUMMARY_ORGSITENAME)  is called DCM_AMI_ORIGIN -->
+<entry group="3109" element="1212" vr="ST" vm="1" name="Receive Origin Description"/><!--  -->
+<!-- PRIVATE_ELEM(3109, 1215, DA, DCM_SUMMARY_RECEIVEDATE)  is called DCM_AMI_RECEIVEDATE -->
+<!-- PRIVATE_ELEM(3109, 1216, TM, DCM_SUMMARY_RECEIVETIME)  is called DCM_AMI_RECEIVETIME -->
+</dict><dict owner="http://www.gemedicalsystems.com/it_solutions/rad_pacs/">
+<entry group="3115" element="1701" vr="UT" vm="1" name="Reference to pacs study"/><!--  -->
+<entry group="3115" element="1702" vr="UT" vm="1" name="Reference to pacs image"/><!--  -->
+<entry group="3115" element="1703" vr="CS" vm="1" name="Pacs examnotes flag"/><!--  -->
+</dict><dict owner="http://www.gemedicalsystems.com/it_solutions/orthoview/2.1">
+<entry group="3117" element="1010" vr="DT" vm="1" name="OrthoView Session Date/Time"/><!--  -->
+<entry group="3117" element="1020" vr="PN" vm="1" name="OrthoView Session Creator"/><!--  -->
+<entry group="3117" element="1030" vr="CS" vm="1" name="OrthoView Session Completion Flag"/><!--  -->
+<entry group="3117" element="1040" vr="SQ" vm="1" name="OrthoView File Sequence"/><!--  -->
+<entry group="3117" element="1050" vr="ST" vm="1" name="OrthoView File Name"/><!--  -->
+<entry group="3117" element="1060" vr="OB" vm="1" name="OrthoView File Content"/><!--  -->
+</dict><dict owner="http://www.gemedicalsystems.com/it_solutions/bamwallthickness/1.0">
+<entry group="3119" element="1010" vr="DT" vm="1" name="BAM WallThickness Session Date/Time"/><!--  -->
+<entry group="3119" element="1020" vr="PN" vm="1" name="BAM WallThickness Session Creator"/><!--  -->
+<entry group="3119" element="1030" vr="CS" vm="1" name="BAM WallThickness Session Completion Flag"/><!--  -->
+<entry group="3119" element="1040" vr="SQ" vm="1" name="BAM WallThickness File Sequence"/><!--  -->
+<entry group="3119" element="1050" vr="ST" vm="1" name="BAM WallThickness File Name"/><!--  -->
+<entry group="3119" element="1060" vr="OB" vm="1" name="BAM WallThickness File Content"/><!--  -->
+</dict><dict owner="AMI StudyExtensions_01">
+<entry group="3111" element="1001" vr="UL" vm="1" name="AMI Last Released Annot Label (RET)"/><!-- 		 -->
+</dict><dict owner="RadWorksTBR">
+<entry group="3111" element="1102" vr="CS" vm="1" name="AMI Compression Type (RET)"/><!--  -->
+<entry group="3111" element="11FF" vr="SQ" vm="1" name="&lt;internal&gt;"/><!--  -->
+<!--  RadStore  -->
+</dict><dict owner="Applicare/RadStore/Version 1.0">
+<entry group="3113" element="1001" vr="SL" vm="1" name="OBSOLETE"/><!--  -->
+<entry group="3113" element="1002" vr="SL" vm="1" name="Id1"/><!--  -->
+<entry group="3113" element="1003" vr="SL" vm="1" name="Id2"/><!--  -->
+<entry group="3113" element="1004" vr="SL" vm="1" name="Id3"/><!--  -->
+<entry group="3113" element="1011" vr="LO" vm="1" name="OBSOLETE"/><!--  -->
+<entry group="3113" element="1012" vr="CS" vm="1" name="State"/><!--  					// image archiving state -->
+<entry group="3113" element="1013" vr="DT" vm="1" name="DateLastModified"/><!--  -->
+<entry group="3113" element="1014" vr="DT" vm="1" name="DateLastAccessed"/><!--  -->
+<entry group="3113" element="1015" vr="CS" vm="1" name="OBSOLETE"/><!--  -->
+<entry group="3113" element="1016" vr="FD" vm="1" name="ByteSize"/><!--  -->
+<entry group="3113" element="1017" vr="LO" vm="1" name="LibraryId"/><!--  -->
+<entry group="3113" element="1018" vr="LO" vm="1" name="Pathnames"/><!--  -->
+<entry group="3113" element="1019" vr="LO" vm="1" name="DriverPath"/><!--  -->
+<entry group="3113" element="101A" vr="LO" vm="1" name="Source"/><!--  -->
+<entry group="3113" element="101B" vr="LO" vm="1" name="Destination"/><!--  -->
+<entry group="3113" element="101C" vr="SL" vm="1" name="MediumId"/><!--  -->
+<entry group="3113" element="101D" vr="LO" vm="1" name="ArchiveId"/><!--  -->
+<entry group="3113" element="101E" vr="LO" vm="1" name="Origin"/><!--  -->
+<entry group="3113" element="1021" vr="SL" vm="1" name="Version"/><!--  -->
+<entry group="3113" element="1022" vr="SL" vm="1" name="OBSOLETE"/><!--  -->
+<entry group="3113" element="1023" vr="ST" vm="1" name="InstanceFileLocation"/><!--  -->
+<entry group="3113" element="1031" vr="IS" vm="1" name="OBSOLETE"/><!--  -->
+<entry group="3113" element="1032" vr="IS" vm="1" name="OBSOLETE"/><!--  -->
+<entry group="3113" element="1033" vr="IS" vm="1" name="OBSOLETE"/><!--  -->
+<!--  media information -->
+<entry group="3113" element="1035" vr="LO" vm="1" name="ImageMediumLocation"/><!--  -->
+<entry group="3113" element="1036" vr="LO" vm="1" name="ImageMediumLabel"/><!--  -->
+<entry group="3113" element="1037" vr="CS" vm="1" name="ImageMediumState"/><!--  -->
+<entry group="3113" element="1038" vr="LO" vm="1" name="SeriesMediumLocation"/><!--  -->
+<entry group="3113" element="1039" vr="LO" vm="1" name="SeriesMediumLabel"/><!--  -->
+<entry group="3113" element="103A" vr="CS" vm="1" name="SeriesMediumState"/><!--  -->
+<entry group="3113" element="103B" vr="LO" vm="1" name="StudyMediumLocation"/><!--  -->
+<entry group="3113" element="103C" vr="LO" vm="1" name="StudyMediumLabel"/><!--  -->
+<entry group="3113" element="103D" vr="CS" vm="1" name="StudyMediumState"/><!--  -->
+<!--  archiving states -->
+<entry group="3113" element="1052" vr="CS" vm="1" name="StudyState"/><!-- 				// binary composition of image states -->
+<entry group="3113" element="1053" vr="CS" vm="1" name="SeriesState"/><!-- 			// binary composition of image states -->
+<entry group="3113" element="1055" vr="CS" vm="1" name="ImageStateText"/><!-- 			// textual description of image state -->
+<entry group="3113" element="1056" vr="CS" vm="1" name="SeriesStateText"/><!-- 		// textual description combined series state -->
+<entry group="3113" element="1057" vr="CS" vm="1" name="StudyStateText"/><!-- 			// textual description combined study state -->
+<entry group="3113" element="1060" vr="DT" vm="1" name="Expiration"/><!-- 				// determines lifetime of internal worklist items (RadStore-PRouter) -->
+<entry group="3113" element="1069" vr="AT" vm="1" name="DeletedTags"/><!--  -->
+<!--  Workstation printing  -->
+</dict><dict owner="Applicare/Print/Version 5.1">
+<entry group="4101" element="1001" vr="UL" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="4101" element="1002" vr="SQ" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="4101" element="1003" vr="LO" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="4101" element="1004" vr="UL" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="4101" element="1005" vr="FD" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="4101" element="1006" vr="US" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="4101" element="1007" vr="US" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="4101" element="1008" vr="US" vm="1" name="&lt;internal&gt;"/><!--  -->
+<entry group="4101" element="1009" vr="US" vm="1" name="&lt;internal&gt;"/><!--  -->
+<!--  Workstation file format -->
+</dict><dict owner="Applicare/RadWorks/Version 6.0">
+<entry group="4103" element="1001" vr="AT" vm="1" name="Internal: non-existent tags"/><!--  -->
+<entry group="4103" element="1002" vr="UI" vm="1" name="Internal: non-existent objects"/><!--  -->
+<!--  Workstation annotations -->
+</dict><dict owner="Applicare/RadWorks/Version 6.0">
+<entry group="4105" element="1001" vr="CS" vm="1" name="Annotation Type"/><!--  -->
+<entry group="4105" element="1002" vr="DS" vm="1" name="Annotation Value"/><!--  -->
+<entry group="4105" element="1003" vr="UI" vm="1" name="Cutline Image UID"/><!--  -->
+<entry group="4105" element="1004" vr="UI" vm="1" name="Cutline Set UID"/><!--  -->
+<entry group="4105" element="1005" vr="US" vm="1" name="Annotation Color"/><!--  -->
+<entry group="4105" element="1006" vr="CS" vm="1" name="Annotation Line Style"/><!--  -->
+<entry group="4105" element="1007" vr="SH" vm="1" name="Annotation Label"/><!--  -->
+<entry group="4105" element="1008" vr="PN" vm="1" name="Annotation Creator"/><!--  -->
+<entry group="4105" element="1009" vr="DA" vm="1" name="Annotation Creation Date"/><!--  -->
+<entry group="4105" element="100A" vr="TM" vm="1" name="Annotation Creation Time"/><!--  -->
+<entry group="4105" element="100B" vr="SQ" vm="1" name="Annotation Modification Sequence"/><!--  -->
+<entry group="4105" element="100C" vr="PN" vm="1" name="Annotation Modifier"/><!--  -->
+<entry group="4105" element="100D" vr="DA" vm="1" name="Annotation Modification Date"/><!--  -->
+<entry group="4105" element="100E" vr="TM" vm="1" name="Annotation Modification Time"/><!--  -->
+<entry group="4105" element="100F" vr="LO" vm="1" name="Palette Color LUT Name"/><!--  -->
+<entry group="4105" element="1010" vr="US" vm="1" name="Annotation Number"/><!--  -->
+<!--  Presentation states -->
+</dict><dict owner="Applicare/RadWorks/Version 6.0">
+<entry group="4107" element="1001" vr="SQ" vm="1" name="Requested Palette Color LUT"/><!--  -->
+<!--  Centricity Radiology Web Mammography  -->
+</dict><dict owner="Applicare/Centricity Radiology Web/Version 1.0">
+<entry group="4109" element="1001" vr="SH" vm="1" name="Mammography Laterality"/><!--  -->
+<entry group="4109" element="1002" vr="SH" vm="1" name="Mammography View Name"/><!--  -->
+<entry group="4109" element="1003" vr="SH" vm="1" name="Mammography View Modifier"/><!--  -->
+<!--  Centricity Radiology Web  -->
+</dict><dict owner="Applicare/Centricity Radiology Web/Version 2.0">
+<entry group="4111" element="1001" vr="CS" vm="1" name="Secondary Spine Label"/><!--  -->
+<entry group="4111" element="1002" vr="IS" vm="1" name="Additional tags for Presentation State"/><!-- 		 -->
+<!--  GEMSIT Centricity RA600 Query  -->
+</dict><dict owner="GEMS-IT/Centricity RA600/7.0">
+<entry group="4113" element="1010" vr="UI" vm="1" name="Number of images in study"/><!--  -->
+<!--  GE Pathspeed Specific -->
+</dict><dict owner="GEIIS">
+<entry group="0009" element="1010" vr="SQ" vm="1" name="GE IIS Thumbnail Sequence"/><!--  -->
+<!--  GE Pathspeed Specific -->
+</dict><dict owner="GEIIS">
+<entry group="7FD1" element="1010" vr="UL" vm="1" name="GE IIS Compression ID"/><!--  -->
+<entry group="7FD1" element="1020" vr="UL" vm="1" name="GE IIS Multiframe Offsets"/><!--  -->
+<!--  GE Specific -->
+</dict><dict owner="GE LUT Asymmetry Parameter">
+<entry group="0045" element="1067" vr="DS" vm="1" name="LUT Assymetry"/><!--  -->
+<!--  Workflow Specific -->
+</dict><dict owner="Applicare/Workflow/Version 1.0">
+<entry group="3113" element="2001" vr="CS" vm="1" name="&lt;internal&gt;"/><!--  // From Hl7 -->
+<entry group="3113" element="2010" vr="SH" vm="1" name="&lt;internal&gt;"/><!--  // To flat out hierarchical sequence  -->
+<entry group="3113" element="2011" vr="SH" vm="1" name="&lt;internal&gt;"/><!--  // To flat out hierarchical sequence  -->
+<entry group="3113" element="2012" vr="LO" vm="1" name="&lt;internal&gt;"/><!--  // To flat out hierarchical sequence  -->
+<entry group="3113" element="2015" vr="SH" vm="1" name="&lt;internal&gt;"/><!--  // To flat out hierarchical sequence  -->
+<entry group="3113" element="2016" vr="SH" vm="1" name="&lt;internal&gt;"/><!--  // To flat out hierarchical sequence  -->
+<entry group="3113" element="2017" vr="LO" vm="1" name="&lt;internal&gt;"/><!--  // To flat out hierarchical sequence  -->
+<entry group="3113" element="2020" vr="SH" vm="1" name="&lt;internal&gt;"/><!--  // To flat out hierarchical sequence  -->
+<entry group="3113" element="2021" vr="SH" vm="1" name="&lt;internal&gt;"/><!--  // To flat out hierarchical sequence  -->
+<entry group="3113" element="2022" vr="LO" vm="1" name="&lt;internal&gt;"/><!--  // To flat out hierarchical sequence  -->
+<entry group="3113" element="2025" vr="SH" vm="1" name="&lt;internal&gt;"/><!--  // To flat out hierarchical sequence  -->
+<entry group="3113" element="2026" vr="SH" vm="1" name="&lt;internal&gt;"/><!--  // To flat out hierarchical sequence  -->
+<entry group="3113" element="2027" vr="LO" vm="1" name="&lt;internal&gt;"/><!--  // To flat out hierarchical sequence  -->
+<entry group="3113" element="2030" vr="UI" vm="1" name="&lt;internal&gt;"/><!--  // To flat out hierarchical sequence  -->
+<entry group="3113" element="2031" vr="UI" vm="1" name="&lt;internal&gt;"/><!--  // To flat out hierarchical sequence  -->
+<!--  workflow integration dll -->
+<entry group="3113" element="20E0" vr="CS" vm="1" name="&lt;internal&gt;"/><!-- 	// hostname of the station that locked the worklist item -->
+<entry group="3113" element="20E1" vr="CS" vm="1" name="&lt;internal&gt;"/><!-- 	// username of the NT user that locked the worklist item -->
+<entry group="3113" element="20E2" vr="CS" vm="1" name="&lt;internal&gt;"/><!--   // Keyflow field for the exchange username of user that locked the worklist item -->
+<!--   GE DLX patient attributes -->
+</dict><dict owner="DLX_PATNT_01">
+<entry group="0011" element="1001" vr="LT" vm="1" name="patient DOB"/><!--  -->
+<!--   GE DL (Innova) patient attributes -->
+</dict><dict owner="GEMS_DL_PATNT_01">
+<entry group="0011" element="1180" vr="UI" vm="1" name="Patient Instance Uid"/><!--  -->
+<entry group="0011" element="1181" vr="IS" vm="1" name="Last Study Number"/><!--  -->
+<entry group="0011" element="1182" vr="CS" vm="1" name="Patient Repaired"/><!--  -->
+<entry group="0011" element="1183" vr="CS" vm="1" name="Lock Demographics"/><!--  -->
+<!--   GE DL (Innova) study attributes -->
+</dict><dict owner="GEMS_DL_STUDY_01">
+<entry group="0015" element="1080" vr="DS" vm="1" name="Study Dose"/><!--  -->
+<entry group="0015" element="1081" vr="DS" vm="1" name="Study Total Dap"/><!--  -->
+<entry group="0015" element="1082" vr="DS" vm="1" name="Study Fluoro Dap"/><!--  -->
+<entry group="0015" element="1083" vr="IS" vm="1" name="Study Fluoro Time"/><!--  -->
+<entry group="0015" element="1084" vr="DS" vm="1" name="Study Record Dap"/><!--  -->
+<entry group="0015" element="1085" vr="IS" vm="1" name="Study Record Time"/><!--  -->
+<entry group="0015" element="1086" vr="IS" vm="1" name="Last Xa Number"/><!--  -->
+<entry group="0015" element="1088" vr="PN" vm="1" name="Default Operator Name"/><!--  -->
+<entry group="0015" element="1089" vr="PN" vm="1" name="Default Performing Physician Name"/><!--  -->
+<entry group="0015" element="108A" vr="CS" vm="1" name="Default Patient Orientation"/><!--  -->
+<entry group="0015" element="108B" vr="IS" vm="1" name="Last Sc Number"/><!--  -->
+<entry group="0015" element="108E" vr="UI" vm="1" name="Common Series Instance Uid"/><!--  -->
+<entry group="0015" element="108F" vr="IS" vm="1" name="Study Number"/><!--  -->
+<!--   GE DL (Innova) series attributes -->
+</dict><dict owner="GEMS_DL_SERIES_01">
+<entry group="0015" element="1185" vr="LO" vm="1" name="Series File Name"/><!--  -->
+<entry group="0015" element="1187" vr="IS" vm="1" name="Number Of Images"/><!--  -->
+<entry group="0015" element="118C" vr="CS" vm="1" name="Sent Flag"/><!--  -->
+<entry group="0015" element="118D" vr="US" vm="1" name="Item Locked"/><!--  -->
+<!--   GE DLX series attributes -->
+</dict><dict owner="DLX_SERIE_01">
+<entry group="0019" element="1001" vr="DS" vm="1" name="Angle Value 1"/><!--  -->
+<entry group="0019" element="1002" vr="DS" vm="1" name="Angle Value 2"/><!--  -->
+<entry group="0019" element="1003" vr="DS" vm="1" name="Angle Value 3"/><!--  -->
+<entry group="0019" element="1004" vr="CS" vm="1" name="Angle Label 1"/><!--  -->
+<entry group="0019" element="1005" vr="CS" vm="1" name="Angle Label 2"/><!--  -->
+<entry group="0019" element="1006" vr="CS" vm="1" name="Angle Label 3"/><!--  -->
+<entry group="0019" element="1007" vr="ST" vm="1" name="Adx Procedure Name"/><!--  -->
+<entry group="0019" element="1008" vr="ST" vm="1" name="Adx Exam Name"/><!--  -->
+<entry group="0019" element="1009" vr="SH" vm="1" name="Adx Patient Size"/><!--  -->
+<entry group="0019" element="100A" vr="IS" vm="1" name="Adx Record View"/><!--  -->
+<entry group="0019" element="1010" vr="DS" vm="1" name="Adx Injector Delay"/><!--  -->
+<entry group="0019" element="1011" vr="CS" vm="1" name="Adx Auto Inject"/><!--  -->
+<entry group="0019" element="1014" vr="IS" vm="1" name="Adx Acq Mode"/><!--  -->
+<entry group="0019" element="1015" vr="CS" vm="1" name="Adx Camera Rotation Enable"/><!--  -->
+<entry group="0019" element="1016" vr="CS" vm="1" name="Adx Reverse Sweep"/><!--  -->
+<entry group="0019" element="1017" vr="IS" vm="1" name="User Spatial Filter Strength"/><!--  -->
+<entry group="0019" element="1018" vr="IS" vm="1" name="User Zoom Factor"/><!--  -->
+<entry group="0019" element="1019" vr="IS" vm="1" name="X Zoom"/><!--  -->
+<entry group="0019" element="101A" vr="IS" vm="1" name="Y Zoom"/><!--  -->
+<entry group="0019" element="101B" vr="DS" vm="1" name="Adx Focus"/><!--  -->
+<entry group="0019" element="101C" vr="CS" vm="1" name="Adx Dose"/><!--  -->
+<entry group="0019" element="101D" vr="IS" vm="1" name="Side Mark"/><!--  -->
+<entry group="0019" element="101E" vr="IS" vm="1" name="Percent Landscape"/><!--  -->
+<entry group="0019" element="101F" vr="DS" vm="1" name="Adx Exposure Duration"/><!--  -->
+<entry group="0019" element="1020" vr="SH" vm="1" name="Ip Address"/><!--  -->
+<entry group="0019" element="1021" vr="DS" vm="1" name="Table Vertical Position"/><!--  -->
+<entry group="0019" element="1022" vr="DS" vm="1" name="Table Longitudinal Position"/><!--  -->
+<entry group="0019" element="1023" vr="DS" vm="1" name="Table Lateral Position"/><!--  -->
+<entry group="0019" element="1024" vr="DS" vm="1" name="Lambda cm Pincushion Distortion"/><!--  -->
+<entry group="0019" element="1025" vr="DS" vm="1" name="Slope LV Regression"/><!--  -->
+<entry group="0019" element="1026" vr="DS" vm="1" name="Intercept LV Regression"/><!--  -->
+<entry group="0019" element="1027" vr="DS" vm="1" name="Image chain FWHM psf mm min"/><!--  -->
+<entry group="0019" element="1028" vr="DS" vm="1" name="Image chain FWHM psf mm max"/><!--  -->
+<!--   GE DL (Innova) image attributes -->
+</dict><dict owner="GEMS_DL_IMG_01">
+<entry group="0019" element="110B" vr="DS" vm="1" name="Fov Dimension Double"/><!--  -->
+<entry group="0019" element="1130" vr="LO" vm="1" name="Image File Name"/><!--  -->
+<entry group="0019" element="1131" vr="IS" vm="1" name="Default Spatial Filter Family"/><!--  -->
+<entry group="0019" element="1132" vr="IS" vm="1" name="Default Spatial Filter Strength"/><!--  -->
+<entry group="0019" element="1133" vr="DS" vm="1" name="Min Saturation Dose"/><!--  -->
+<entry group="0019" element="1134" vr="DS" vm="1" name="Detector Gain"/><!--  -->
+<entry group="0019" element="1135" vr="DS" vm="1" name="Patient Dose Limit"/><!--  -->
+<entry group="0019" element="1136" vr="DS" vm="1" name="Preproc Image Rate Max"/><!--  -->
+<entry group="0019" element="1137" vr="CS" vm="1" name="Sensor Roi Shape"/><!--  -->
+<entry group="0019" element="1138" vr="DS" vm="1" name="Sensor Roi x Position"/><!--  -->
+<entry group="0019" element="1139" vr="DS" vm="1" name="Sensor Roi y Position"/><!--  -->
+<entry group="0019" element="113A" vr="DS" vm="1" name="Sensor Roi x Size"/><!--  -->
+<entry group="0019" element="113B" vr="DS" vm="1" name="Sensor Roi y Size"/><!--  -->
+<entry group="0019" element="113D" vr="DS" vm="1" name="Noise Sensitivity"/><!--  -->
+<entry group="0019" element="113E" vr="DS" vm="1" name="Sharp Sensitivity"/><!--  -->
+<entry group="0019" element="113F" vr="DS" vm="1" name="Contrast Sensitivity"/><!--  -->
+<entry group="0019" element="1140" vr="DS" vm="1" name="Lag Sensitivity"/><!--  -->
+<entry group="0019" element="1141" vr="CS" vm="1" name="Tube"/><!--  -->
+<entry group="0019" element="1142" vr="US" vm="1" name="Detector Size Rows"/><!--  -->
+<entry group="0019" element="1143" vr="US" vm="1" name="Detector Size Columns"/><!--  -->
+<entry group="0019" element="1144" vr="DS" vm="1" name="Min Object Size"/><!--  -->
+<entry group="0019" element="1145" vr="DS" vm="1" name="Max Object Size"/><!--  -->
+<entry group="0019" element="1146" vr="DS" vm="1" name="Max Object Speed"/><!--  -->
+<entry group="0019" element="1147" vr="CS" vm="1" name="Object Back Motion"/><!--  -->
+<entry group="0019" element="1148" vr="UL" vm="1" name="Exposure Trajectory Family"/><!--  -->
+<entry group="0019" element="1149" vr="DS" vm="1" name="Window Time Duration"/><!--  -->
+<entry group="0019" element="114A" vr="CS" vm="1" name="Positioner Angle Display Mode"/><!--  -->
+<entry group="0019" element="114B" vr="IS" vm="1" name="Detector Origin"/><!--  -->
+<entry group="0019" element="114E" vr="DS" vm="1" name="Default Brightness Contrast"/><!--  -->
+<entry group="0019" element="114F" vr="DS" vm="1" name="User Brightness Contrast"/><!--  -->
+<entry group="0019" element="1150" vr="IS" vm="1" name="Source Series Number"/><!--  -->
+<entry group="0019" element="1151" vr="IS" vm="1" name="Source Image Number"/><!--  -->
+<entry group="0019" element="1152" vr="IS" vm="1" name="Source Frame Number"/><!--  -->
+<entry group="0019" element="1153" vr="UI" vm="1" name="Source Series Item Id"/><!--  -->
+<entry group="0019" element="1154" vr="UI" vm="1" name="Source Image Item Id"/><!--  -->
+<entry group="0019" element="1155" vr="UI" vm="1" name="Source Frame Item Id"/><!--  -->
+<entry group="0019" element="1180" vr="DS" vm="1" name="Image Dose"/><!--  -->
+<entry group="0019" element="1181" vr="US" vm="1" name="Calibration Frame"/><!--  -->
+<entry group="0019" element="1182" vr="CS" vm="1" name="Calibration Object"/><!--  -->
+<entry group="0019" element="1183" vr="DS" vm="1" name="Calibration Object Size mm"/><!--  -->
+<entry group="0019" element="1184" vr="FL" vm="1" name="Calibration Factor"/><!--  -->
+<entry group="0019" element="1185" vr="DA" vm="1" name="Calibration Date"/><!--  -->
+<entry group="0019" element="1186" vr="TM" vm="1" name="Calibration Time"/><!--  -->
+<entry group="0019" element="1187" vr="US" vm="1" name="Calibration Accuracy"/><!--  -->
+<entry group="0019" element="1188" vr="CS" vm="1" name="Calibration Extended"/><!--  -->
+<entry group="0019" element="1189" vr="US" vm="1" name="Calibration Image Original"/><!--  -->
+<entry group="0019" element="118A" vr="US" vm="1" name="Calibration Frame Original"/><!--  -->
+<entry group="0019" element="118B" vr="US" vm="1" name="Calibration Number Of Points Uif"/><!--  -->
+<entry group="0019" element="118C" vr="US" vm="1" name="Calibration Points Row"/><!--  -->
+<entry group="0019" element="118D" vr="US" vm="1" name="Calibration Points Column"/><!--  -->
+<entry group="0019" element="118E" vr="FL" vm="1" name="Calibration Magnification Ratio"/><!--  -->
+<entry group="0019" element="118F" vr="LO" vm="1" name="Calibration Sw Version"/><!--  -->
+<entry group="0019" element="1190" vr="LO" vm="1" name="Extend Calibration Sw Version"/><!--  -->
+<entry group="0019" element="1191" vr="IS" vm="1" name="Calibration Return Code"/><!--  -->
+<entry group="0019" element="1192" vr="DS" vm="1" name="Detector Rotation Angle"/><!--  -->
+<entry group="0019" element="1193" vr="CS" vm="1" name="Spatial Change"/><!--  -->
+<entry group="0019" element="1194" vr="CS" vm="1" name="Inconsistent Flag"/><!--  -->
+<entry group="0019" element="1195" vr="CS" vm="1" name="Image Sweep"/><!--  -->
+<entry group="0019" element="1196" vr="CS" vm="1" name="Internal Label Image"/><!--  -->
+<entry group="0019" element="1197" vr="DS" vm="1" name="Angle 1 Increment"/><!--  -->
+<entry group="0019" element="1198" vr="DS" vm="1" name="Angle 2 Increment"/><!--  -->
+<entry group="0019" element="1199" vr="DS" vm="1" name="Angle 3 Increment"/><!--  -->
+<entry group="0019" element="119A" vr="DS" vm="1" name="Sensor Feedback"/><!--  -->
+<entry group="0019" element="119B" vr="CS" vm="1" name="Grid"/><!--  -->
+<entry group="0019" element="119C" vr="FL" vm="1" name="Default Mask Pixel Shift"/><!--  -->
+<entry group="0019" element="119D" vr="CS" vm="1" name="Applicable Review Mode"/><!--  -->
+<entry group="0019" element="119E" vr="DS" vm="1" name="Log Lut Control Points"/><!--  -->
+<entry group="0019" element="119F" vr="DS" vm="1" name="Exp Lut Control Points"/><!--  -->
+<entry group="0019" element="11A0" vr="DS" vm="1" name="ABD Value"/><!--  -->
+<entry group="0019" element="11A1" vr="DS" vm="1" name="Sub Window Center"/><!--  -->
+<entry group="0019" element="11A2" vr="DS" vm="1" name="Sub Window Width"/><!--  -->
+<entry group="0019" element="11A3" vr="DS" vm="1" name="Image Rotation"/><!--  -->
+<entry group="0019" element="11A4" vr="CS" vm="1" name="Auto Injection Enabled"/><!--  -->
+<entry group="0019" element="11A5" vr="CS" vm="1" name="Injection Phase"/><!--  -->
+<entry group="0019" element="11A6" vr="DS" vm="1" name="Injection Delay"/><!--  -->
+<entry group="0019" element="11A7" vr="IS" vm="1" name="Reference Injection Frame Number"/><!--  -->
+<entry group="0019" element="11A8" vr="DS" vm="1" name="Injection Duration"/><!--  -->
+<entry group="0019" element="11A9" vr="DS" vm="1" name="EPT"/><!--  -->
+<entry group="0019" element="11AA" vr="CS" vm="1" name="Can Downscan 512"/><!--  -->
+<entry group="0019" element="11AB" vr="IS" vm="1" name="Current Spatial Filter Strength"/><!--  -->
+<entry group="0019" element="11AC" vr="DS" vm="1" name="Brightness Sensitivity"/><!--  -->
+<entry group="0019" element="11AD" vr="DS" vm="1" name="Exp Lut NOSUB Control Points"/><!--  -->
+<!--   GE DL (Innova) series attributes -->
+</dict><dict owner="GEMS_DL_SERIES_01">
+<entry group="0019" element="124C" vr="CS" vm="1" name="internal label"/><!--  -->
+<entry group="0019" element="124D" vr="CS" vm="1" name="browser hide"/><!--  -->
+<!--   GE DL (Innova) image frame attributes -->
+</dict><dict owner="GEMS_DL_FRAME_01">
+<entry group="0025" element="1002" vr="IS" vm="1" name="Frame Id"/><!--  -->
+<entry group="0025" element="1003" vr="DS" vm="1" name="Distance Source To Detector"/><!--  -->
+<entry group="0025" element="1004" vr="DS" vm="1" name="Distance Source To Patient"/><!--  -->
+<entry group="0025" element="1005" vr="DS" vm="1" name="Distance Source To Skin"/><!--  -->
+<entry group="0025" element="1006" vr="DS" vm="1" name="Positioner Primary Angle"/><!--  -->
+<entry group="0025" element="1007" vr="DS" vm="1" name="Positioner Secondary Angle"/><!--  -->
+<entry group="0025" element="1008" vr="IS" vm="1" name="Beam Orientation"/><!--  -->
+<entry group="0025" element="1009" vr="DS" vm="1" name="Larm Angle"/><!--  -->
+<entry group="0025" element="100A" vr="SQ" vm="1" name="Frame Sequence"/><!--  -->
+<entry group="0025" element="100B" vr="DS" vm="1" name="Target Cnr"/><!--  -->
+<entry group="0025" element="1010" vr="DS" vm="1" name="Pivot Angle"/><!--  -->
+<entry group="0025" element="101A" vr="DS" vm="1" name="Arc Angle"/><!--  -->
+<entry group="0025" element="101B" vr="DS" vm="1" name="Table Vertical Position"/><!--  -->
+<entry group="0025" element="101C" vr="DS" vm="1" name="Table Longitudinal Position"/><!--  -->
+<entry group="0025" element="101D" vr="DS" vm="1" name="Table Lateral Position"/><!--  -->
+<entry group="0025" element="101E" vr="IS" vm="1" name="Beam Cover Area"/><!--  -->
+<entry group="0025" element="101F" vr="DS" vm="1" name="Kvp Actual"/><!--  -->
+<entry group="0025" element="1020" vr="DS" vm="1" name="Mas Actual"/><!--  -->
+<entry group="0025" element="1021" vr="DS" vm="1" name="Pw Actual"/><!--  -->
+<entry group="0025" element="1022" vr="DS" vm="1" name="Kvp Commanded"/><!--  -->
+<entry group="0025" element="1023" vr="DS" vm="1" name="Mas Commanded"/><!--  -->
+<entry group="0025" element="1024" vr="DS" vm="1" name="Pw Commanded"/><!--  -->
+<entry group="0025" element="1025" vr="CS" vm="1" name="Grid"/><!--  -->
+<entry group="0025" element="1026" vr="DS" vm="1" name="Sensor Feedback"/><!--  -->
+<entry group="0025" element="1027" vr="DS" vm="1" name="Target Entrance Dose"/><!--  -->
+<entry group="0025" element="1028" vr="DS" vm="1" name="Cnr Commanded"/><!--  -->
+<entry group="0025" element="1029" vr="DS" vm="1" name="Contrast Commanded"/><!--  -->
+<entry group="0025" element="102A" vr="DS" vm="1" name="Ept Actual"/><!--  -->
+<entry group="0025" element="102B" vr="IS" vm="1" name="Spectral Filter Znb"/><!--  -->
+<entry group="0025" element="102C" vr="DS" vm="1" name="Spectral Filter Weight"/><!--  -->
+<entry group="0025" element="102D" vr="DS" vm="1" name="Spectral Filter Density"/><!--  -->
+<entry group="0025" element="102E" vr="IS" vm="1" name="Spectral Filter Thickness"/><!--  -->
+<entry group="0025" element="102F" vr="IS" vm="1" name="Spectral Filter Status"/><!--  -->
+<entry group="0025" element="1030" vr="IS" vm="1" name="Fov Dimension"/><!--  -->
+<entry group="0025" element="1033" vr="IS" vm="1" name="Fov Origin"/><!--  -->
+<entry group="0025" element="1034" vr="IS" vm="1" name="Collimator Left Vertical Edge"/><!--  -->
+<entry group="0025" element="1035" vr="IS" vm="1" name="Collimator Right Vertical Edge"/><!--  -->
+<entry group="0025" element="1036" vr="IS" vm="1" name="Collimator Up Horizontal Edge"/><!--  -->
+<entry group="0025" element="1037" vr="IS" vm="1" name="Collimator Low Horizontal Edge"/><!--  -->
+<entry group="0025" element="1038" vr="IS" vm="1" name="Vertices Polygonal Collimator"/><!--  -->
+<entry group="0025" element="1039" vr="IS" vm="1" name="Contour Filter Distance"/><!--  -->
+<entry group="0025" element="103A" vr="UL" vm="1" name="Contour Filter Angle"/><!--  -->
+<entry group="0025" element="103B" vr="CS" vm="1" name="Table Rotation Status"/><!--  -->
+<entry group="0025" element="103C" vr="CS" vm="1" name="Internal Label Frame"/><!--  -->
+<!--   GEMnet Image Vault 3.0 fields indicating wrapped nonDICOM data files -->
+</dict><dict owner="GEMS_IT_US_REPORT">
+<entry group="0045" element="1111" vr="OW" vm="1" name="Vivid excel file"/><!--  -->
+<entry group="0045" element="1112" vr="OW" vm="1" name="Vivid CHM file"/><!--  -->
+<entry group="0045" element="1113" vr="OW" vm="1" name="Vivid PDF file"/><!--  -->
+<!--   Centricity Cardiology Image Management System 3.0 -->
+</dict><dict owner="1.2.840.113708.794.1.1.2.0">
+<entry group="0087" element="1010" vr="CS" vm="1" name="Media Type"/><!--  -->
+<entry group="0087" element="1020" vr="CS" vm="1" name="Media Location"/><!--  -->
+<entry group="0087" element="1030" vr="ST" vm="1" name="Storage File ID"/><!--  -->
+<entry group="0087" element="1040" vr="DS" vm="1" name="Study or Image Size in MB"/><!--  -->
+<entry group="0087" element="1050" vr="IS" vm="1" name="Estimated Retrieve Time"/><!--  -->
+</dict>
+</dicts>

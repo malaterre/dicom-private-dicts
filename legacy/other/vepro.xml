@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2010 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<!--
+VIM/VIMSYS/dcmdictpriv.dat
+-->
+<dicts edition="2010">
+
+  <dict owner="VEPRO VIF 3.0 DATA">
+<entry group="0055" element="xx30" vr="OB" vm="1" name="Icon data" />
+<entry group="0055" element="xx65" vr="OB" vm="1" name="Image hash value" />
+  </dict>
+
+  <dict owner="VEPRO DICOM TRANSFER 1.0">
+<entry group="0059" element="xx10" vr="SQ" vm="1" name="Dicom Transfer Info" />
+  </dict>
+
+  <dict owner="VEPRO DICOM RECEIVE DATA 1.0">
+<entry group="0059" element="xx40" vr="DA" vm="1" name="Receive date"/>
+<entry group="0059" element="xx41" vr="TM" vm="1" name="Receive time"/>
+<entry group="0059" element="xx42" vr="ST" vm="1" name="Receive node"/>
+<entry group="0059" element="xx43" vr="ST" vm="1" name="Receive application"/>
+<entry group="0059" element="xx50" vr="ST" vm="1" name="Receive local computer"/>
+<entry group="0059" element="xx51" vr="ST" vm="1" name="Receive local ae title"/>
+<entry group="0059" element="xx60" vr="ST" vm="1" name="Receive remote computer"/>
+<entry group="0059" element="xx61" vr="ST" vm="1" name="Receive remote ae title"/>
+<entry group="0059" element="xx70" vr="UI" vm="1" name="Receive original transfer syntax"/>
+  </dict>
+
+  <dict owner="VEPRO BROKER 1.0">
+<entry group="0057" element="xx10" vr="SQ" vm="1" name="VEPRO Data replace sequence" />
+  </dict>
+
+  <dict owner="VEPRO BROKER 1.0 DATA REPLACE">
+<entry group="0057" element="00xx" vr="LO" vm="1" name="" />
+<entry group="0057" element="xx20" vr="SQ" vm="1" name="Original data sequence" />
+<entry group="0057" element="xx30" vr="SQ" vm="1" name="Replaced data sequence" />
+<entry group="0057" element="xx40" vr="DA" vm="1" name="Date of data replacement" />
+<entry group="0057" element="xx41" vr="TM" vm="1" name="Time of data replacement" />
+<entry group="0057" element="xx42" vr="LO" vm="1" name="Dicom receive node" />
+<entry group="0057" element="xx43" vr="LO" vm="1" name="Application name" />
+<entry group="0057" element="xx44" vr="LO" vm="1" name="Computer name" />
+  </dict>
+
+  <dict owner="AGFA">
+<entry group="0019" element="xx10" vr="LO" vm="1" name="Image processing parameters" />
+<entry group="0019" element="xx11" vr="LO" vm="1" name="Identification data" />
+<entry group="0019" element="xx13" vr="LO" vm="1" name="Sensitometry name" />
+<entry group="0019" element="xx14" vr="ST" vm="1" name="Window/Level list" />
+<entry group="0019" element="xx15" vr="LO" vm="1" name="Dose monitoring list" />
+<entry group="0019" element="xx16" vr="LO" vm="1" name="Other Info" />
+  </dict>
+
+
+</dicts>

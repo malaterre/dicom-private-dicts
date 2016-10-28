@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.medical.toshiba.com/dicom/pdf/miict0038ea.pdf
+ $ pdftotext -nopgbrk -layout 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+NOTE:
+
+  I manually added a VM of 1 hopefully this is correct...
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.medical.toshiba.com/dicom/pdf/miict0038ea.pdf">
+<dict ref="Table 8.5-4" name="PRIVATE APPLICATION MODULE OF CREATED TOSHIBA CT NON-IMAGE SOP INSTANCES" owner="TOSHIBA_MEC_CT3">
+  <entry group="7005" element="00xx" vr="LO" vm="1" name="Private Creator Code"/>
+  <entry group="7005" element="xx00" vr="OB" vm="1" name="Black Box 1"/>
+  <entry group="7005" element="xx03" vr="SH" vm="1" name="Cardiac R-R Mean Time"/>
+  <entry group="7005" element="xx04" vr="SH" vm="1" name="Cardiac Reconstruction Getting Phase in Percent"/>
+  <entry group="7005" element="xx05" vr="SH" vm="1" name="Cardiac Reconstruction Getting Phase in ms"/>
+  <entry group="7005" element="xx06" vr="SH" vm="1" name="Cardiac Reconstruction Mode"/>
+  <entry group="7005" element="xx07" vr="DS" vm="1" name="Reconstruction Center"/>
+  <entry group="7005" element="xx08" vr="DS" vm="1" name="Detector Slice Thickness in mm"/>
+  <entry group="7005" element="xx09" vr="LO" vm="1" name="Number of Detector rows to Reconstruct"/>
+  <entry group="7005" element="xx0A" vr="DS" vm="1" name="Table Speed in mm/rot"/>
+  <entry group="7005" element="xx0B" vr="SH" vm="1" name="Filter"/>
+  <entry group="7005" element="xx0C" vr="SH" vm="1" name="Reconstruction Correction Type"/>
+  <entry group="7005" element="xx0D" vr="CS" vm="1" name="Organ"/>
+  <entry group="7005" element="xx0E" vr="SH" vm="1" name="File Type Remarks"/>
+  <entry group="7005" element="xx0F" vr="SH" vm="1" name="Direction"/>
+  <entry group="7005" element="xx10" vr="OB" vm="1" name="Black Box 2"/>
+  <entry group="7005" element="xx11" vr="LT" vm="1" name="Series Comment"/>
+  <entry group="7005" element="xx12" vr="SH" vm="1" name="Position"/>
+  <entry group="7005" element="xx13" vr="US" vm="1" name="Expert Plan No."/>
+  <entry group="7005" element="xx14" vr="US" vm="1" name="Reconstruction ROI No."/>
+  <entry group="7005" element="xx15" vr="US" vm="1" name="Special Helical ACQ No."/>
+  <entry group="7005" element="xx16" vr="UI" vm="1" name="Volume UID"/>
+  <entry group="7005" element="xx17" vr="US" vm="1" name="Total Frame Count in the Volume"/>
+  <entry group="7005" element="xx18" vr="US" vm="1" name="Frame No."/>
+  <entry group="7005" element="xx19" vr="UL" vm="1" name="Frame Sort Key"/>
+  <entry group="7005" element="xx1A" vr="US" vm="1" name="Frame Sort Order"/>
+  <entry group="7005" element="xx1B" vr="SH" vm="1" name="Convolution Kernel for Series Record"/>
+  <entry group="7005" element="xx1C" vr="LO" vm="1" name="Contrast/Bolus Agent for Series Record"/>
+  <entry group="7005" element="xx1D" vr="UL" vm="1" name="Reconstruction Number"/>
+  <entry group="7005" element="xx1E" vr="UL" vm="1" name="Raw Data Number"/>
+  <entry group="7005" element="xx1F" vr="LO" vm="1" name="Volume Number"/>
+  <entry group="7005" element="xx20" vr="UL" vm="1" name="Local Series Number"/>
+</dict>
+</dicts>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<!--
+the documentation is completely busted -as usual-
+
+0021,xx05 is wrong (written as xx01)
+
+All "Siemens: Thorax/Multix FD Post Processing" are declared as "Lab Settings", changed all 0021 elements to point to proper ones.
+
+See: 1.3.12.2.1107.5.4.4.2042.30000008090911393145300000102.dcm
+-->
+<dicts edition="2008" url="http://www.medical.siemens.com/siemens/en_US/rg_marcom_FBAs/files/brochures/DICOM/ax/Aristos_DicomConformanceStatement.pdf">
+  <dict ref="A.2.5" name="Aristos Version Module">
+    <entry group="0017" element="xx00" vr="LO" vm="1" owner="Siemens: Thorax/Multix FD Version" name="Build Date"/>
+    <entry group="0017" element="xx01" vr="LO" vm="1" owner="Siemens: Thorax/Multix FD Version" name="IOD Version"/>
+  </dict>
+  <dict ref="A.2.6" name="Aristos FD Lab Settings">
+    <entry group="0019" element="xx00" vr="LT" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Internal Value"/>
+    <entry group="0019" element="xx02" vr="LO" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Total Area Dose Product"/>
+    <entry group="0019" element="xx05" vr="US" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Cassette Image"/>
+    <entry group="0019" element="xx06" vr="FD" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Table Object Distance"/>
+    <entry group="0019" element="xx07" vr="FD" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Table Detector Distance"/>
+    <entry group="0019" element="xx08" vr="US" vm="1" owner="Siemens: Thorax/Multix FD Lab Settings" name="Ortho Step Distance"/>
+  </dict>
+  <dict ref="A.2.7" name="Aristos FD Processing Settings" owner="Siemens: Thorax/Multix FD Post Processing">
+    <entry group="0021" element="xx00" vr="US" vm="1" name="Label Left"/>
+    <entry group="0021" element="xx01" vr="SS" vm="1" name="Label Left Orientation"/>
+    <entry group="0021" element="xx02" vr="FL" vm="1" name="Label Left Percentage X"/>
+    <entry group="0021" element="xx03" vr="FL" vm="1" name="Label Left Percentage X"/>
+    <entry group="0021" element="xx04" vr="US" vm="1" name="Label Right"/>
+    <entry group="0021" element="xx05" vr="SS" vm="1" name="Label Right Orientation"/>
+    <entry group="0021" element="xx06" vr="FL" vm="1" name="Label Right Percentage X"/>
+    <entry group="0021" element="xx07" vr="FL" vm="1" name="Label Right Percentage X"/>
+    <entry group="0021" element="xx08" vr="US" vm="1" name="Auto Window Flag"/>
+    <entry group="0021" element="xx09" vr="SL" vm="1" name="Auto Window Center"/>
+    <entry group="0021" element="xx0a" vr="SL" vm="1" name="Auto Window Width"/>
+    <entry group="0021" element="xx0b" vr="SS" vm="1" name="Filter ID"/>
+    <entry group="0021" element="xx0c" vr="FL" vm="1" name="Degree of Edge Enhancement"/>
+    <entry group="0021" element="xx0d" vr="SS" vm="1" name="Half Kernel Size"/>
+    <entry group="0021" element="xx0e" vr="US" vm="1" name="Dose Control Value"/>
+    <entry group="0021" element="xx0f" vr="US" vm="1" name="Deleted Image Flag"/>
+    <entry group="0021" element="xx10" vr="US" vm="1" name="Same Size Support"/>
+    <entry group="0021" element="xx11" vr="SS" vm="1" name="Label Left Init Position"/>
+    <entry group="0021" element="xx12" vr="SS" vm="1" name="Label Right Init Position"/>
+    <entry group="0021" element="xx13" vr="SS" vm="1" name="Patient Rotation"/>
+    <entry group="0021" element="xx14" vr="US" vm="1" name="Anatomic Correct View Flag"/>
+    <entry group="0021" element="xx15" vr="SS" vm="1" name="Auto Window Shift"/>
+    <entry group="0021" element="xx16" vr="DS" vm="1" name="Auto Window Expansion"/>
+  </dict>
+  <dict ref="A.2.8" name="Aristos FD Raw Image Settings Module">
+    <entry group="0025" element="xx00" vr="SS" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Raw Image Amplification"/>
+    <entry group="0025" element="xx01" vr="SS" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Gamma LUT"/>
+    <entry group="0025" element="xx02" vr="US" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Collimator Manual"/>
+    <entry group="0025" element="xx03" vr="FL" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Collimator Up Left X Percentage"/>
+    <entry group="0025" element="xx04" vr="FL" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Collimator Up Right X Percentage"/>
+    <entry group="0025" element="xx05" vr="FL" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Collimator Low Left X Percentage"/>
+    <entry group="0025" element="xx06" vr="FL" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Collimator Low Right X Percentage"/>
+    <entry group="0025" element="xx07" vr="FL" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Collimator Up Left Y Percentage"/>
+    <entry group="0025" element="xx08" vr="FL" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Collimator Up Right Y Percentage"/>
+    <entry group="0025" element="xx09" vr="FL" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Collimator Low Left Y Percentage"/>
+    <entry group="0025" element="xx0a" vr="FL" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Collimator Low Right Y Percentage"/>
+    <entry group="0025" element="xx0b" vr="US" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Set Gray"/>
+    <entry group="0025" element="xx0c" vr="SS" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Harmonization Kernel"/>
+    <entry group="0025" element="xx0d" vr="FL" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Harmonization Gain"/>
+    <entry group="0025" element="xx0e" vr="SS" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Edge Enhancement Kernel"/>
+    <entry group="0025" element="xx0f" vr="FL" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Edge Enhancement Gain"/>
+    <entry group="0025" element="xx10" vr="LT" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Raw Image File Name"/>
+    <entry group="0025" element="xx11" vr="SS" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Global Offset"/>
+    <entry group="0025" element="xx12" vr="SS" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Image Columns"/>
+    <entry group="0025" element="xx13" vr="SS" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Image Rows"/>
+    <entry group="0025" element="xx14" vr="SS" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Image Alignment"/>
+    <entry group="0025" element="xx15" vr="SS" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Active Image Columns"/>
+    <entry group="0025" element="xx16" vr="SS" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Active Image Rows"/>
+    <entry group="0025" element="xx17" vr="LO" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="System Type"/>
+    <entry group="0025" element="xx18" vr="US" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Auto Gain"/>
+    <entry group="0025" element="xx19" vr="US" vm="1" owner="Siemens: Thorax/Multix FD Raw Image Settings" name="Ortho Sub Sampling"/>
+  </dict>
+  <dict>
+    <entry group="0029" element="xx08" vr="CS" vm="1" owner="SIEMENS CSA NON-IMAGE" name="CSA Data Type"/>
+    <entry group="0029" element="xx09" vr="LO" vm="1" owner="SIEMENS CSA NON-IMAGE" name="CSA Data Version"/>
+    <entry group="0029" element="xx10" vr="OB" vm="1" owner="SIEMENS CSA NON-IMAGE" name="CSA Data Info"/>
+    <entry group="0029" element="xx08" vr="CS" vm="1" owner="SIEMENS CSA HEADER" name="CSA Image Header Type"/>
+    <entry group="0029" element="xx09" vr="LO" vm="1" owner="SIEMENS CSA HEADER" name="CSA Image Header Version"/>
+    <entry group="0029" element="xx10" vr="OB" vm="1" owner="SIEMENS CSA HEADER" name="CSA Image Header Info"/>
+    <entry group="0029" element="xx18" vr="CS" vm="1" owner="SIEMENS CSA HEADER" name="CSA Series Header Type"/>
+    <entry group="0029" element="xx19" vr="LO" vm="1" owner="SIEMENS CSA HEADER" name="CSA Series Header Version"/>
+    <entry group="0029" element="xx20" vr="OB" vm="1" owner="SIEMENS CSA HEADER" name="CSA Series Header Info"/>
+    <entry group="0029" element="xx08" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="MedCom Header Type"/>
+    <entry group="0029" element="xx09" vr="LO" vm="1" owner="SIEMENS MEDCOM HEADER" name="MedCom Header Version"/>
+    <entry group="0029" element="xx10" vr="OB" vm="1" owner="SIEMENS MEDCOM HEADER" name="MedCom Header Info"/>
+    <entry group="0029" element="xx20" vr="OB" vm="1" owner="SIEMENS MEDCOM HEADER" name="MedCom History Information"/>
+    <entry group="0029" element="xx31" vr="LO" vm="1" owner="SIEMENS MEDCOM HEADER" name="PMTF Information 1"/>
+    <entry group="0029" element="xx32" vr="UL" vm="1" owner="SIEMENS MEDCOM HEADER" name="PMTF Information 2"/>
+    <entry group="0029" element="xx33" vr="UL" vm="1" owner="SIEMENS MEDCOM HEADER" name="PMTF Information 3"/>
+    <entry group="0029" element="xx34" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="PMTF Information 4"/>
+    <entry group="0029" element="xx35" vr="UL" vm="1" owner="SIEMENS MEDCOM HEADER" name="PMTF Information 5"/>
+    <entry group="0029" element="xx40" vr="SQ" vm="1" owner="SIEMENS MEDCOM HEADER" name="Application Header Sequence"/>
+    <entry group="0029" element="xx41" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Application Header Type"/>
+    <entry group="0029" element="xx42" vr="LO" vm="1" owner="SIEMENS MEDCOM HEADER" name="Application Header ID"/>
+    <entry group="0029" element="xx43" vr="LO" vm="1" owner="SIEMENS MEDCOM HEADER" name="Application Header Version"/>
+    <entry group="0029" element="xx44" vr="OB" vm="1" owner="SIEMENS MEDCOM HEADER" name="Application Header Info"/>
+    <entry group="0029" element="xx50" vr="LO" vm="8" owner="SIEMENS MEDCOM HEADER" name="Workflow Control Flags"/>
+    <entry group="0029" element="xx51" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Arch. Management Flag Keep Online"/>
+    <entry group="0029" element="xx52" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Arch. Mgmnt Flag Do Not Archive"/>
+    <entry group="0029" element="xx53" vr="CS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Image Location Status"/>
+    <entry group="0029" element="xx54" vr="DS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Estimated Retrieve Time"/>
+    <entry group="0029" element="xx55" vr="DS" vm="1" owner="SIEMENS MEDCOM HEADER" name="Data Size of Retrieved Images"/>
+    <entry group="0029" element="xx60" vr="LO" vm="1" owner="SIEMENS MEDCOM HEADER2" name="Series Workflow Status"/>
+    <entry group="0029" element="xx08" vr="CS" vm="1" owner="SIEMENS MEDCOM OOG" name="MedCom OOG Type"/>
+    <entry group="0029" element="xx09" vr="LO" vm="1" owner="SIEMENS MEDCOM OOG" name="MedCom OOG Version"/>
+    <entry group="0029" element="xx10" vr="OB" vm="1" owner="SIEMENS MEDCOM OOG" name="MedCom OOG Info"/>
+    <entry group="7fe1" element="xx10" vr="OB" vm="1" owner="SIEMENS CSA NON-IMAGE" name="CSA Data"/>
+  </dict>
+</dicts>

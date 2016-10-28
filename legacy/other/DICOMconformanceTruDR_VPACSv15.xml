@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="">
+  <dict ref="8.2.2" name="VetPACS Private Block Summary Module">
+    <entry name="Private Creator block 1 reservation   " group="F001" element="00F1" vr="LO" type="1"/>
+    <entry name="Private Creator block 2 reservation   " group="F001" element="00F2" vr="LO" type="1"/>
+  </dict>
+  <dict ref="8.2.3" name="VetPACS Private Block 1 Module" owner="Sound Technologies">
+    <entry name="Patient Species                                " group="F001" element="F100" vr="CS" type="2"/>
+    <entry name="Patient Breed                                  " group="F001" element="F101" vr="CS" type="2"/>
+    <entry name="Patient Category Size                          " group="F001" element="F102" vr="CS" type="2"/>
+    <entry name="Patient Sex Extended (including spay/neuter)   " group="F001" element="F103" vr="CS" type="2"/>
+    <entry name="Image View                                     " group="F001" element="F104" vr="CS" type="2"/>
+    <entry name="Anatomy Imaged                                 " group="F001" element="F105" vr="CS" type="2"/>
+    <entry name="Image enhancements                             " group="F001" element="F106" vr="CS" type="2"/>
+    <entry name="Detector Settings                              " group="F001" element="F107" vr="CS" type="2"/>
+    <entry name="Application Version                            " group="F001" element="F108" vr="CS" type="2"/>
+    <entry name="Image Laterality 3Extended                     " group="F001" element="F109" vr="LO" type="3"/>
+    <entry name="Client Name                                    " group="F001" element="F10A" vr="PN" type="3"/>
+    <entry name="Reference Study Instance Uid                   " group="F001" element="F10B" vr="UI" type="3"/>
+    <entry name="Reference Series Instance Uid                  " group="F001" element="F10C" vr="UI" type="3"/>
+    <entry name="Exam Ref Id                                    " group="F001" element="F10D" vr="LO" type="3"/>
+    <entry name="Physician Of Record Address                    " group="F001" element="F10E" vr="ST" type="3"/>
+    <entry name="Physician Of Record Phone Numbers              " group="F001" element="F10F" vr="SH" type="3"/>
+    <entry name="Reason For Study                               " group="F001" element="F110" vr="LT" type="3"/>
+    <entry name="Protocol                                       " group="F001" element="F111" vr="LO" type="3"/>
+    <entry name="CaptureInputType                               " group="F001" element="F112" vr="LO" type="3"/>
+    <entry name="Exam Complaint                                 " group="F001" element="F113" vr="LT" type="3"/>
+    <entry name="Exam Web Code                                  " group="F001" element="F114" vr="LO" type="3"/>
+    <entry name="Exam Category                                  " group="F001" element="F115" vr="LO" type="3"/>
+    <entry name="Exam Diagnosis                                 " group="F001" element="F116" vr="SH" type="3"/>
+    <entry name="Exam Created By                                " group="F001" element="F117" vr="PN" type="3"/>
+    <entry name="Exam Created By Group                          " group="F001" element="F118" vr="LO" type="3"/>
+    <entry name="Exam Required By DateTime                      " group="F001" element="F119" vr="DT" type="3"/>
+    <entry name="Capture Type                                   " group="F001" element="F11A" vr="LO" type="3"/>
+    <entry name="Telemed Exam ID                                " group="F001" element="F11B" vr="IS" type="3"/>
+    <entry name="Exam Created By Guid                           " group="F001" element="F11C" vr="LO" type="3"/>
+    <entry name="Client Name Guid                               " group="F001" element="F11D" vr="LO" type="3"/>
+  </dict>
+  <dict ref="8.2.4" name="VetPACS Private Block 2 Module" owner="Sound Technologies">
+    <entry name="Private Creator tags" group="F001" element="00F2" vr="LO" type="3"/>
+  </dict>
+</dicts>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<!--
+http://www.dicom3dsdk.org/Download.asp
+-> ./bin/gdcmdump -xml-dict /tmp/337/1.2.840.113619.2.25.1.1762157631.873231884.123/1.2.840.113619.2.25.1.1762157631.873231884.162/1.2.840.113619.2.25.1.1762157631.873231884.167.dcm
+/tmp/337/1.2.840.113619.2.25.1.1762157631.873231884.123/1.2.840.113619.2.25.1.1762157631.873231884.126/1.2.840.113619.2.25.1.1762157631.873231884.127.dcm
+
+-->
+
+<dicts>
+<dict>
+  <entry owner="MEDIFACE" group="0029" element="xx01" vr="UL" vm="1" name="?"/>
+  <entry owner="MEDIFACE" group="0029" element="xx10" vr="DS" vm="1" name="Window Center"/>
+  <entry owner="MEDIFACE" group="0029" element="xx11" vr="DS" vm="1" name="Window Width"/>
+  <entry owner="MEDIFACE" group="0029" element="xx20" vr="DS" vm="1" name="?"/>
+  <entry owner="MEDIFACE" group="0029" element="xx21" vr="UL" vm="1" name="?"/>
+  <entry owner="MEDIFACE" group="0029" element="xx22" vr="DS" vm="2" name="?"/>
+  <entry owner="MEDIFACE" group="0029" element="xx30" vr="LT" vm="1" name="?"/>
+</dict>
+<dict>
+<entry group="0021" element="0001" vr="UN" vm="1" name="?" owner="MEDIFACE"/>
+<entry group="0021" element="0010" vr="UN" vm="1" name="?" owner="MEDIFACE"/>
+<entry group="0021" element="0011" vr="UN" vm="1" name="?" owner="MEDIFACE"/>
+<entry group="0021" element="0012" vr="UN" vm="1" name="?" owner="MEDIFACE"/>
+<entry group="0021" element="0021" vr="UN" vm="1" name="?" owner="MEDIFACE"/>
+<entry group="0021" element="0022" vr="UN" vm="1" name="?" owner="MEDIFACE"/>
+<entry group="0021" element="0030" vr="UN" vm="1" name="?" owner="MEDIFACE"/>
+<entry group="0021" element="0031" vr="UN" vm="1" name="?" owner="MEDIFACE"/>
+<entry group="0021" element="0040" vr="UN" vm="1" name="?" owner="MEDIFACE"/>
+<entry group="0021" element="0041" vr="UN" vm="1" name="?" owner="MEDIFACE"/>
+<entry group="0021" element="0042" vr="UN" vm="1" name="?" owner="MEDIFACE"/>
+<entry group="0021" element="0050" vr="UN" vm="1" name="?" owner="MEDIFACE"/>
+<entry group="0021" element="0051" vr="UN" vm="1" name="?" owner="MEDIFACE"/>
+<entry group="0021" element="0052" vr="UN" vm="1" name="?" owner="MEDIFACE"/>
+<entry group="0021" element="0060" vr="UN" vm="1" name="?" owner="MEDIFACE"/>
+<entry group="0021" element="00f1" vr="UN" vm="1" name="?" owner="MEDIFACE"/>
+<entry group="0021" element="00f2" vr="UN" vm="1" name="?" owner="MEDIFACE"/>
+
+</dict>
+</dicts>
+

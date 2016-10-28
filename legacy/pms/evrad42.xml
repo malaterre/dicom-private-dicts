@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/evrad42.pdf">
+  <dict ref="Table 8-17" name="Computed Radiography Image Storage SOP Class - EasyVision RAD Private Extensions Module" owner="SPI-P Release 1">
+    <entry name="Private Creator Group 0009" group="0009" element="00XX" vr="LO" vm="1"/>
+    <entry name="Image Data Consistency" group="0009" element="XX04" vr="LO" vm="n"/>
+    <entry name="Private Creator Group 0019" group="0019" element="00YY" vr="LO" vm="1"/>
+    <entry name="Original Pixel Data Quality" group="0019" element="YY25" vr="LO" vm="n"/>
+  </dict>
+  <dict ref="Table 8-17" name="Computed Radiography Image Storage SOP Class - EasyVision RAD Private Extensions Module" owner="SPI-P-PCR Release 2">
+    <entry name="Private Creator Group 0019" group="0019" element="00ZZ" vr="LO" vm="1"/>
+    <entry name="Reader Mode" group="0019" element="ZZ10" vr="US" vm="1">
+      <description>
+                                                                   Data Element indicating the mode used to read the image
+                                                                   plates. Always filled with one of the enumerated values:
+                                                                   0: Automatic, 1: Semi-Automatic, 2: Fixed, 3: Manual
+                                                                   (Automatic).</description>
+    </entry>
+    <entry name="MRM Code" group="0019" element="ZZ20" vr="ST" vm="1">
+      <description>
+                                                                   Data Element identifying the anatomical region and
+                                                                   view via a code. Always filled.</description>
+    </entry>
+    <entry name="Latitude" group="0019" element="ZZ40" vr="DS" vm="1">
+      <description>
+                                                                   PCR Reader analyses the signal histogram while reading
+                                                                   the image plate. The latitude describes the width of this
+                                                                   histogram. So it is a PCR Reader parameter like Sensi-
+                                                                   tivity.
+                                                                   Always filled.</description>
+    </entry>
+    <entry name="View Name" group="0019" element="ZZ60" vr="ST" vm="1">
+      <description>
+                                                                   Free text Data Element to describe the patient position.
+                                                                   Always filled.</description>
+    </entry>
+  </dict>
+</dicts>

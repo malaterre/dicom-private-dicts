@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget www.medical.siemens.com/siemens/en_AU/rg_marcom_FBAs/files/brochures/DICOM/us/acuson/aspen_V6-0b.pdf
+ $ pdftotext -nopgbrk -layout -f 17 -l 17
+ <some minor manual cleaning>
+
+NOTE:
+  I am pretty sure that ACUSON: 1.2.840.11386.0.1.0 is in fact ACUSON: 1.2.840.11386.1.0
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.medical.siemens.com/siemens/en_AU/rg_marcom_FBAs/files/brochures/DICOM/us/acuson/aspen_V6-0b.pdf">
+  <dict ref="TABLE 15" name="Acuson Private DICOM Elements" owner="ACUSON: 1.2.840.11386.1.0">
+    <entry name="Private Creator" group="7FDF" element="0010" vr="LO" vm="1">
+      <description>To reserve element tags 1000-10FF, value set to ACUSON: 1.2.840.11386.0.1.0</description>
+    </entry>
+    <entry name="Lossy Compression Ratio" group="7FDF" element="1000" vr="IS" vm="1">
+      <description> JPEG compression ratio</description>
+    </entry>
+    <entry name="Image Format" group="7FDF" element="1001" vr="US" vm="1">
+      <description>01H = STATIC
+05H = FULL SIZE CLIP
+06H = 1/4 SIZE CLIP
+07H = 1/4 SIZE ROI CLIP</description>
+    </entry>
+    <entry name="Acuson Region Type" group="7FDF" element="1002" vr="US" vm="1">
+      <description>01H = PATIENT IDENTIFIER
+02H = USEFUL DISPLAY
+03H = ACQ IMAGE NUMBER</description>
+    </entry>
+    <entry name="Acuson Image Apex X" group="7FDF" element="100B" vr="UL" vm="1">
+      <description>X coordinate of pair defining location of a virtual image apex</description>
+    </entry>
+    <entry name="Acuson Image Apex Y" group="7FDF" element="100C" vr="UL" vm="1">
+      <description>Y coordinate of pair defining location of a virtual image apex</description>
+    </entry>
+    <entry name="B-Color-On Flag" group="7FDF" element="100D" vr="IS" vm="1">
+      <description>0 = B-COLOR absent
+1 = B-COLOR present</description>
+    </entry>
+    <entry name="Data Padding" group="7FDF" element="FE00" vr="OB" vm="1">
+      <description>A padding element before the pixel data to allow the DICOM header elements to grow and shrink.</description>
+    </entry>
+  </dict>
+</dicts>

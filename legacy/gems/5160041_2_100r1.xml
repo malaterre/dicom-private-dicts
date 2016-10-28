@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.gehealthcare.com/usen/interoperability/dicom/docs/09610_0025rb.pdf">
+  <dict ref="TABLE 26" name="PRIVATE CREATOR IDENTIFICATION" owner="GEMS_SENO_02">
+    <entry name="Stereo angle                                                  " group="0045" element="yy06" vr="DS" vm="1"/>
+    <entry name="Clinical View                                                 " group="0045" element="yy1b" vr="LO" vm="1"/>
+    <entry name="Estimated Anat mean                                           " group="0045" element="yy20" vr="DS" vm="1"/>
+    <entry name="MAO Buffer                                                    " group="0045" element="yy26" vr="OB" vm="1"/>
+    <entry name="Windowing parameters                                          " group="0045" element="yy29" vr="DS" vm="2"/>
+    <entry name="2DLocX                                                        " group="0045" element="yy2a" vr="IS" vm="1"/>
+    <entry name="2DLocY                                                        " group="0045" element="yy2b" vr="IS" vm="1"/>
+    <entry name="Radiological Thickness                                        " group="0045" element="yy49" vr="DS" vm="1"/>
+    <entry name="SC Instance UID                                               " group="0045" element="yy50" vr="UI" vm="1"/>
+    <entry name="SC series UID                                                 " group="0045" element="yy51" vr="UI" vm="1"/>
+    <entry name="mu                                                            " group="0045" element="yy58" vr="DS" vm="1"/>
+    <entry name="Threshold                                                     " group="0045" element="yy59" vr="IS" vm="1"/>
+    <entry name="Breast ROI X                                                  " group="0045" element="yy60" vr="IS" vm="4"/>
+    <entry name="Breast ROI Y                                                  " group="0045" element="yy61" vr="IS" vm="4"/>
+    <entry name="Segm Threshold                                                " group="0045" element="yy64" vr="IS" vm="1"/>
+    <entry name="STX buffer                                                    " group="0045" element="yy71" vr="OB" vm="1"/>
+    <entry name="Image Crop point                                              " group="0045" element="yy72" vr="DS" vm="2"/>
+  </dict>
+</dicts>

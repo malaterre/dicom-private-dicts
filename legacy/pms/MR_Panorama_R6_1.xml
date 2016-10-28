@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts url="http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/MR_Panorama_R6_1.pdf">
+  <dict owner="Philips Imaging DD 001">
+    <entry name="Private Creator Group 2001                         " group="2001" element="0010" vr="LO"/>
+    <entry name="Diffusion B-Factor                                 " group="2001" element="1003" vr="FL"/>
+    <entry name="Diffusion Direction                                " group="2001" element="1004" vr="CS"/>
+    <entry name="Image Enhanced                                     " group="2001" element="1006" vr="CS"/>
+    <entry name="Phase Number                                       " group="2001" element="1008" vr="IS"/>
+    <entry name="Image Plane Number                                 " group="2001" element="100A" vr="IS"/>
+    <entry name="Cardiac Sync                                       " group="2001" element="1010" vr="CS"/>
+    <entry name="Diffusion Echo Time                                " group="2001" element="1011" vr="FL"/>
+    <entry name="Dynamic Series                                     " group="2001" element="1012" vr="CS"/>
+    <entry name="EPI Factor                                         " group="2001" element="1013" vr="SL"/>
+    <entry name="Number of Echoes                                   " group="2001" element="1014" vr="SL"/>
+    <entry name="Number of Locations                                " group="2001" element="1015" vr="SS"/>
+    <entry name="Number of PC Directions                            " group="2001" element="1016" vr="SS"/>
+    <entry name="Number of Phases                                   " group="2001" element="1017" vr="SL"/>
+    <entry name="Number of Slices                                   " group="2001" element="1018" vr="SL"/>
+    <entry name="Reconstruction Number                              " group="2001" element="101D" vr="IS"/>
+    <entry name="Scanning Technique Description                     " group="2001" element="1020" vr="LO"/>
+    <entry name="Water Fat Shift                                    " group="2001" element="1022" vr="FL"/>
+    <entry name="Flip Angle                                         " group="2001" element="1023" vr="DS"/>
+    <entry name="Interactive                                        " group="2001" element="1024" vr="CS"/>
+    <entry name="Number of Stacks                                   " group="2001" element="1060" vr="SL"/>
+    <entry name="Number of Dynamic Scans                            " group="2001" element="1081" vr="IS"/>
+    <entry name="Echo Train Length                                  " group="2001" element="1082" vr="IS"/>
+    <entry name="Imaging Frequency                                  " group="2001" element="1083" vr="DS"/>
+    <entry name="Inversion Time                                     " group="2001" element="1084" vr="DS"/>
+    <entry name="Magnetic Field Strength                            " group="2001" element="1085" vr="DS"/>
+    <entry name="Number of Averages                                 " group="2001" element="1088" vr="DS"/>
+    <entry name="Phase FOV Percent                                  " group="2001" element="1089" vr="DS"/>
+    <entry name="Sampling Percent                                   " group="2001" element="108A" vr="DS"/>
+    <entry name="Nucleus                                            " group="2001" element="1097" vr="SH"/>
+    <entry name="Respiration Sync                                   " group="2001" element="101F" vr="CS"/>
+    <entry name="Private Creator Group 2005                         " group="2005" element="0010" vr="LO"/>
+    <entry name="Diffusion                                          " group="2005" element="1014" vr="CS"/>
+    <entry name="Number of Chemical Shifts                          " group="2005" element="1020" vr="SL"/>
+    <entry name="Repetition Time                                    " group="2005" element="1030" vr="FL"/>
+    <entry name="Scan Duration                                      " group="2005" element="1033" vr="FL"/>
+    <entry name="Data Type                                          " group="2005" element="1035" vr="CS"/>
+    <entry name="Transmitting Coil                                  " group="2005" element="108B" vr="SH"/>
+    <entry name="Spectral Selective Excitation Pulse                " group="2005" element="109F" vr="CS"/>
+  </dict>
+  <dict owner="PHILIPS UNDOCUMENTED">
+    <entry name="&gt; Private Creator Group 5503                       " group="5503" element="0010" vr="LO"/>
+    <entry name="&gt; Slice Thickness                                  " group="5503" element="1012" vr="SL"/>
+    <entry name="&gt; Plane                                            " group="5503" element="1024" vr="UT"/>
+    <entry name="&gt; Number of Slices                                 " group="5503" element="1030" vr="SS"/>
+    <entry name="&gt; Contrast Agent Flag                              " group="5503" element="10AE" vr="SS"/>
+    <entry name="&gt; Anatomy                                          " group="5503" element="10C2" vr="UT"/>
+    <entry name="&gt; Indication                                       " group="5503" element="10C3" vr="UT"/>
+    <entry name="&gt; Coil ID                                          " group="5503" element="11BB" vr="SL"/>
+    <entry name="&gt; Prepulse                                         " group="5503" element="12A5" vr="UT"/>
+    <entry name="&gt; Modification Status                              " group="5503" element="12BB" vr="UT"/>
+  </dict>
+</dicts>

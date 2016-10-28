@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ grep -e " [0-9A-Fa-f][0-9A-Fa-f][0-9A-Fa-f][13579BDFbdf]," DiDi_1_4_dcs_1_5.txt > DiDi_1_4_dcs_1_5.xml 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007">
+  <dict owner="DIDI TO PCR 1.1">
+    <entry name="   Private Creator Group 0019 Block 12" group="0019" element="0012" vr="LO" vm="1"/>
+    <entry name="Private Creator Group 0019 Block 19   " group="0019" element="0019" vr="LO" vm="1"/>
+    <entry name="Post Mode String                      " group="0019" element="1200" vr="LT" vm="1"/>
+    <entry name="Post Data                             " group="0019" element="1201" vr="LT" vm="1"/>
+    <entry name="Image Header                          " group="0019" element="1210" vr="LT" vm="1"/>
+    <entry name="Route AET                             " group="0019" element="1922" vr="LO" vm="1"/>
+    <entry name="PCR Print Scale                       " group="0019" element="1923" vr="DS" vm="1"/>
+    <entry name="PCR Print Job End                     " group="0019" element="1924" vr="ST" vm="1"/>
+    <entry name="PCR No Film Copies                    " group="0019" element="1925" vr="IS" vm="1"/>
+    <entry name="PCR Film Layout Position              " group="0019" element="1926" vr="IS" vm="1"/>
+    <entry name="PCR Print Report Name                 " group="0019" element="1927" vr="ST" vm="1"/>
+    <entry name="RAD Protocol Printer                  " group="0019" element="1970" vr="ST" vm="1"/>
+    <entry name="RAD Protocol Medium                   " group="0019" element="1971" vr="ST" vm="1"/>
+    <entry name="Original Filename                     " group="0019" element="1980" vr="LO" vm="1"/>
+    <entry name="Exposure Index                        " group="0019" element="1989" vr="IS" vm="1"/>
+    <entry name="Collimator X                          " group="0019" element="198A" vr="IS" vm="1"/>
+    <entry name="Collimator Y                          " group="0019" element="198B" vr="IS" vm="1"/>
+    <entry name="Print Marker                          " group="0019" element="198C" vr="LO" vm="1"/>
+    <entry name="RGDV Name                             " group="0019" element="198D" vr="LO" vm="1"/>
+    <entry name="Acqd Sensitivity                      " group="0019" element="198E" vr="LO" vm="1"/>
+    <entry name="Processing Category                   " group="0019" element="198F" vr="LO" vm="1"/>
+    <entry name="Unprocessed Flag                      " group="0019" element="1990" vr="LO" vm="1"/>
+    <entry name="Key Values                            " group="0019" element="1991" vr="DS" vm="2"/>
+    <entry name="Destination Postprocessing Function   " group="0019" element="1992" vr="LO" vm="1"/>
+    <entry name="Version                               " group="0019" element="19A0" vr="LO" vm="1"/>
+    <entry name="Ranging Mode                          " group="0019" element="19A1" vr="LO" vm="1"/>
+    <entry name="Abdomen Brightness                    " group="0019" element="19A2" vr="DS" vm="1"/>
+    <entry name="Fixed Brightness                      " group="0019" element="19A3" vr="DS" vm="1"/>
+    <entry name="Detail Contrast                       " group="0019" element="19A4" vr="DS" vm="1"/>
+    <entry name="Contrast Balance                      " group="0019" element="19A5" vr="DA" vm="1"/>
+    <entry name="Structure Boost                       " group="0019" element="19A6" vr="DS" vm="1"/>
+    <entry name="Structure Preference                  " group="0019" element="19A7" vr="DS" vm="1"/>
+    <entry name="Noise Robustness                      " group="0019" element="19A8" vr="DS" vm="1"/>
+    <entry name="Noise Dose Limit                      " group="0019" element="19A9" vr="DS" vm="1"/>
+    <entry name="Noise Dose Step                       " group="0019" element="19AA" vr="DS" vm="1"/>
+    <entry name="Noise Frequency Limit                 " group="0019" element="19AB" vr="DS" vm="1"/>
+    <entry name="Weak Contrast Limit                   " group="0019" element="19AC" vr="DS" vm="1"/>
+    <entry name="Strong Contrast Limit                 " group="0019" element="19AD" vr="DS" vm="1"/>
+    <entry name="Structure Boost Offset                " group="0019" element="19AE" vr="DS" vm="1"/>
+    <entry name="Smooth Gain                           " group="0019" element="19AF" vr="LO" vm="1"/>
+    <entry name="Measure Field 1                       " group="0019" element="19B0" vr="LO" vm="1"/>
+    <entry name="Measure Field 2                       " group="0019" element="19B1" vr="LO" vm="1"/>
+    <entry name="Key Percentile 1                      " group="0019" element="19B2" vr="IS" vm="1"/>
+    <entry name="Key Percentile 2                      " group="0019" element="19B3" vr="IS" vm="1"/>
+    <entry name="Density LUT                           " group="0019" element="19B4" vr="IS" vm="1"/>
+    <entry name="Brightness                            " group="0019" element="19B5" vr="DS" vm="1"/>
+    <entry name="Gamma                                 " group="0019" element="19B6" vr="DS" vm="1"/>
+    <entry name="Private Creator Group 0089 Block 10   " group="0089" element="0010" vr="LO" vm="1"/>
+    <entry name="Stamp Image Sequence                  " group="0089" element="1010" vr="SQ" vm="1"/>
+  </dict>
+</dicts>

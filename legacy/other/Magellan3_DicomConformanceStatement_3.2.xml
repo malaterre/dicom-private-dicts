@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<!--
+(4321,0010) ?? (LO) [Imaging Dynamics Company Ltd. ]         # 30,1 Private Creator
+(4321,1041) ?? [Y ]                                       # 2,? (1)  UNKNOWN
+(4321,1042) ?? 00\00                                      # 2,? (1)  UNKNOWN
+(4321,1064) ?? [High Resolution ]                         # 16,? (1)  UNKNOWN
+-->
+<dicts edition="2008" url="http://www.mikrondigital.com/uploads/media/Magellan3_DicomConformanceStatement_3.2.pdf">
+<dict ref="Table 16" name="Attributes in Sent Images" owner="Imaging Dynamics Company Ltd.">
+     <entry name="Custom Tag"                    group="4321" element="0010"  /> <!-- Custom Group Header (Used when the f# is sent, but may also be present for reasons other than the f#). -->
+     <entry name="Custom Tag"                    group="4321" element="1005"  /> <!-- Present if the f# is sent in a custom tag (Send Manager Option). -->
+     <entry name="Custom Tag"                    group="4321" element="1050" vr="DS" vm="1" /> <!-- This tag is related to the custom LUT and should be ignored. -->
+     <entry name="Custom Tag"                    group="4321" element="1051" vr="DS" vm="1" /> <!-- This tag is related to the custom LUT and should be ignored. -->
+     <entry name="Custom Tag"                    group="4321" element="1064" vr="LO" vm="1" /> <!-- The POD mode of the image. -->
+<!-- manually added -->
+<entry group="4321" element="0041" vr="CS" vm="1" name="?" owner="Imaging Dynamics Company Ltd."/>
+<entry group="4321" element="0042" vr="US" vm="1" name="?" owner="Imaging Dynamics Company Ltd."/>
+<entry group="4321" element="0064" vr="LO" vm="1" name="?" owner="Imaging Dynamics Company Ltd."/>
+<!--
+<entry group="4321" element="0050" vr="DS" vm="1" name="?" owner="Imaging Dynamics Company Ltd."/>
+<entry group="4321" element="0051" vr="DS" vm="1" name="?" owner="Imaging Dynamics Company Ltd."/>
+<entry group="4321" element="0064" vr="LO" vm="1" name="?" owner="Imaging Dynamics Company Ltd."/>
+-->
+
+</dict>
+</dicts>
+

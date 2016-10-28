@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/ELEVA_EDI_DITTO_R2_DICOMCS_VF41_02.pdf
+ $ pdftotext -nopgbrk -layout 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+NOTE:
+
+  Tons of manual fix...this file is surely buggy, sorry !
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/ELEVA_EDI_DITTO_R2_DICOMCS_VF41_02.pdf">
+  <dict ref="Table 80" name="Grayscale Softcopy Presentation State Storage SOP Class - Softcopy VOI LUT Module (M)" owner="Philips Imaging DD 001">
+                    <entry name="&gt; Window Center Sub"                   group="2001" element="1074"    vr="DS"       vm="1-n"/>
+                    <entry name="&gt; Window Width Sub"                     group="2001" element="1075"    vr="DS"       vm="1-n"/>
+  </dict>
+  <dict ref="Table 87"  name="Grayscale Softcopy Presentation State Storage SOP Class - Graphic Annotation Module ( C )" owner="Philips Imaging DD 001" >
+    <entry group="2001" element="1064" vr="SH" name="&gt;&gt; Text Type"/>
+  </dict>
+  <dict ref="Table 102" name="Secondary Capture Image Storage SOP Class - Private Module" owner="Philips Imaging DD 001">
+    <entry group="2001" element="0010" vr="LO" name="Private Creator Group 2001"/>
+    <entry group="2001" element="106E" vr="SH" name="Series Type"/>
+  </dict>
+  <dict owner="Philips EV Imaging DD 022">
+    <entry group="2007" element="0025" vr="LO" name="Private Creator Group 2007"/>
+    <entry group="2007" element="2512" vr="LO" name="Series Type"/>
+  </dict>
+  <dict ref="Table 110" name="Grayscale Softcopy Presentation State Storage SOP Class - Softcopy VOI LUT Module ( C )" owner="Philips Imaging DD 001">
+    <entry group="2001" element="0010" vr="LO" name="&gt; Private Creator Group 2001"/>
+    <entry group="2001" element="104E" vr="CS" name="&gt; Window Smoothing Taste"/>
+    <entry group="2001" element="1077" vr="CS" name="&gt; GL TrafoType"/>
+    <entry group="2001" element="10C1" vr="LO" name="&gt; Nested Object Type Name"/>
+  </dict>
+  <dict ref="Table 113" name="Grayscale Softcopy Presentation State Storage SOP Class - Presentation State Module (M)" owner="Philips Imaging DD 001">
+    <entry group="2001" element="0010" vr="LO" name="Private Creator Group 2001"/>
+    <entry group="2001" element="103F" vr="CS" name="Interpolation Method"/>
+  </dict>
+  <dict ref="Table 119" name="Grayscale Softcopy Presentation State Storage SOP Class - Graphic Annotation Module (C )"  owner="Philips Imaging DD 001">
+    <entry group="2001" element="0010" vr="LO" name="&gt;&gt; Private Creator Group 2001"/>
+    <entry group="2001" element="105D" vr="ST" name="&gt;&gt; Measurement Text Units"/>
+    <entry group="2001" element="105E" vr="ST" name="&gt;&gt; Measurement Text Type"/>
+    <entry group="2001" element="1080" vr="LO" type="1" name="&gt;&gt; Text Anchor Point Alignment"/>
+    <entry group="2001" element="10A3" vr="UL" type="1" name="&gt;&gt; Text Color Foreground"/>
+    <entry group="2001" element="10A4" vr="UL" type="1" name="&gt;&gt; Text Color Background"/>
+    <entry group="2001" element="106D" vr="LO" type="1" name="&gt;&gt; Text Font"/>
+    <entry group="2001" element="1093" vr="LO" type="1" name="&gt;&gt; Text Style"/>
+    <entry group="2001" element="10A5" vr="UL" type="1" name="&gt;&gt; Text Color Shadow"/>
+    <entry group="2001" element="10C1" vr="LO" type="1" name="&gt;&gt; Nested Object Type Name"/>
+    <entry group="2001" element="0010" vr="LO" type="1" name="&gt;&gt; Private Creator Group 2001"/>
+    <entry group="2001" element="1046" vr="CS" type="1" name="&gt;&gt; Graphic Line Style"/>
+    <entry group="2001" element="104B" vr="CS" type="1" name="&gt;&gt; Poly Line Interpolation Method"/>
+    <entry group="2001" element="104C" vr="CS" type="1" name="&gt;&gt; Poly Line Begin Point Style"/>
+    <entry group="2001" element="104D" vr="CS" type="1" name="&gt;&gt; Poly Line End Point Style"/>
+    <entry group="2001" element="1055" vr="CS" type="1" name="&gt;&gt; Graphic Line Color"/>
+    <entry group="2001" element="1056" vr="CS" type="1" name="&gt;&gt; Graphic Type (Private)"/>
+    <entry group="2001" element="105A" vr="ST" type="1" name="&gt;&gt; Graphic Annotation Model"/>
+    <entry group="2001" element="109B" vr="UL" type="1" name="&gt;&gt; Graphic Number"/>
+    <entry group="2001" element="1047" vr="FL" type="1" name="&gt;&gt; Graphic Line Width"/>
+    <entry group="2001" element="10C1" vr="LO" type="1" name="&gt;&gt; Nested Object Type Name"/>
+    <entry group="2007" element="00FF" vr="LO" type="1" owner="Philips EV Imaging DD 022" name="&gt;&gt; Private Creator Group"/>
+    <entry group="2007" element="FF34" vr="CS" type="1" owner="Philips EV Imaging DD 022" name="&gt;&gt;"/>
+    <entry group="2001" element="0010" vr="LO" type="1" name="&gt; Private Creator Group 2001"/>
+    <entry group="2001" element="105A" vr="ST" type="1" name="&gt; Graphic Annotation Model"/>
+    <entry group="2001" element="1048" vr="SS" type="1" name="&gt; Graphic Annotation ID"/>
+    <entry group="2007" element="00FF" vr="LO" type="1" owner="Philips EV Imaging DD 022" name="&gt; Private Creator Group"/>
+    <entry group="2007" element="FF00" vr="ST" type="1" owner="Philips EV Imaging DD 022" name="&gt;"/>
+    <entry group="2007" element="FF33" vr="LO" type="1" owner="Philips EV Imaging DD 022" name="&gt;"/>
+  </dict>
+  <dict ref="Table 121" name="Grayscale Softcopy Presentation State Storage SOP Class" owner="Philips Imaging DD 001">
+    <entry group="2001" element="0010" vr="LO" name="Private Creator Group 2001"/>
+    <entry group="2001" element="1053" vr="CS" name="Window Invert"/>
+    <entry group="2001" element="1063" vr="CS" name="Examination Source"/>
+    <entry group="2001" element="106E" vr="SH" name="Series Type"/>
+    <entry group="2001" element="104E" vr="CS" name="Window Smoothing Taste"/>
+    <entry group="2001" element="1077" vr="CS" name="GL TrafoType"/>
+    <entry group="2001" element="1094" vr="LO" name="Processing Order Specialization"/>
+  </dict>
+  <dict ref="Table 127" name="Grayscale Softcopy Presentation State Storage SOP Class - Shutter Module( C )" owner="Philips Imaging DD 001">
+    <entry group="2001" element="1069" vr="SQ" name="Display Shutter Sequence"/>
+  </dict>
+  <dict ref="Table 134" name="Softcopy PS Storage SOP Class - C-STORE-RQ - Private Group (M)" owner="Philips Imaging DD 001">
+    <entry group="2001" element="0010" vr="CS" type="1" name="Private Creator Group 2001"/>
+    <entry group="2001" element="1094" vr="LO" type="1" name="Processing Order Specialization"/>
+  </dict>
+  <dict ref="Table 135" name="Grayscale Softcopy Presentation State Storage SOP Class - Additional Attribute Module (O)" owner="Philips Imaging DD 001">
+    <entry group="2001" element="1063" vr="CS" type="1" name="Examination Source"/>
+    <entry group="2001" element="106B" vr="SQ" type="1" name="Has Edge Enhancement Sequence"/>
+    <entry group="2001" element="1029" vr="FL" type="1" name="&gt; Edge Enhancement Gain Factor Non Sub"/>
+    <entry group="2001" element="102B" vr="CS" type="1" name="&gt; Edge Enhancement Taste Non Sub"/>
+    <entry group="2001" element="107E" vr="US" type="1" name="&gt; Edge Enhancement Gain Taste"/>
+    <entry group="2001" element="109F" vr="US" type="1" name="&gt; Pixel Processing Kernel Size" vm="2"/>
+    <entry group="2001" element="106E" vr="SH" type="1" name="Series Type"/>
+    <entry group="2001" element="106F" vr="SQ" type="1" name="Mixing Sequence"/>
+    <entry group="2001" element="0010" vr="LO" type="1" name="&gt; Private Creator Group 2001"/>
+    <entry group="2001" element="1026" vr="CS" type="1" name="&gt; Presentation State Subtraction Active"/>
+    <entry group="2001" element="1028" vr="FL" type="1" name="&gt; Edge Enhancement Gain Factor Sub"/>
+    <entry group="2001" element="1030" vr="UL" type="1" name="&gt; Log Subtraction Gain Step"/>
+    <entry group="2001" element="1031" vr="US" type="1" name="&gt; Mixing NR of Mask Image Numbers"/>
+    <entry group="2001" element="1034" vr="CS" type="1" name="&gt; Mixing Mask Operation"/>
+    <entry group="2001" element="1037" vr="CS" type="1" name="&gt; Mixing Operation Type"/>
+    <entry group="2001" element="103A" vr="CS" type="1" name="&gt; Pixel Shift"/>
+    <entry group="2001" element="1042" vr="CS" type="1" name="&gt; Substraction Land Marking Active"/>
+    <entry group="2001" element="1073" vr="SQ" type="1" name="&gt; Referenced Mask Image Sequence"/>
+    <entry group="2001" element="109D" vr="LO" type="1" name="&gt; PIIM Substraction Type"/>
+    <entry group="2001" element="10A2" vr="US" type="1" name="&gt; LOG Substraction Curve Taste"/>
+    <entry group="2001" element="1079" vr="SQ" type="1" name="Harmonisation Sequence"/>
+    <entry group="2001" element="0010" vr="LO" type="1" name="&gt; Private Creator Group 2001"/>
+    <entry group="2001" element="102A" vr="CS" type="1" name="&gt; Edge Enhancement Taste Adapt Sub"/>
+    <entry group="2001" element="102C" vr="FL" type="1" name="&gt; Harmonization Factor"/>
+    <entry group="2001" element="102F" vr="FL" type="1" name="&gt; Harmonization Gain"/>
+    <entry group="2001" element="104F" vr="FD" type="1" name="&gt; Harmonization Offset"/>
+    <entry group="2001" element="107F" vr="US" type="1" name="&gt; Edge Enhancement Gain Taste Sub"/>
+    <entry group="2001" element="109F" vr="US" type="1" name="&gt; Pixel Processing Kernel Size"/>
+  </dict>
+  <dict ref="Table 150" name="XRF Image Storage SOP Class - Additional Attributes Module ( O )" owner="Philips Imaging DD 001">
+    <entry group="2001" element="0010" vr="LO" type="1" name="Private Creator Group 2001"/>
+    <entry group="2001" element="1063" vr="CS" type="1" name="Examination Source"/>
+    <entry group="2001" element="106E" vr="SH" type="1" name="Series Type"/>
+    <entry group="2001" element="10A1" vr="CS" type="1" name="Is Raw Image"/>
+    <entry group="2001" element="10C1" vr="LO" type="1" name="Nested Object Type Name"/>
+  </dict>
+  <table ref="Table 156" name="Private SOP classes of ELEVA EDI ViewForum System">
+    <uid name="3D Volume Storage (Private class)" value="1.3.46.670589.5.0.1.1"/>
+    <uid name="3D Volume Object Storage (Private class)" value="1.3.46.670589.5.0.2.1"/>
+    <uid name="Surface Storage (Private class)" value="1.3.46.670589.5.0.3.1"/>
+    <uid name="CT Synthetic Image (Private class)" value="1.3.46.670589.5.0.9"/>
+    <uid name="MR Synthetic Image (Private class)" value="1.3.46.670589.5.0.10"/>
+    <uid name="MR Cardio Storage (Private class)" value="1.3.46.670589.5.0.8.1"/>
+    <uid name="MR Cardio Analysis Storage (Private class)" value="1.3.46.670589.5.0.11.1"/>
+    <uid name="Specialized X-ray (Private class)" value="1.3.46.670589.2.3.1.1"/>
+    <uid name="CX Image (Private class)" value="1.3.46.670589.2.4.1.1"/>
+    <uid name="CX Synthetic Image (Private class)" value="1.3.46.670589.5.0.12"/>
+    <uid name="Perfusion (Private class)" value="1.3.46.670589.5.0.13"/>
+    <uid name="Perfusion Analysis (Private class)" value="1.3.46.670589.5.0.14"/>
+  </table>
+</dicts>

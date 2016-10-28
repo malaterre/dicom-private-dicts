@@ -1,0 +1,12 @@
+http://www.agfa.com/france/fr/binaries/000108_tcm224-21761.pdf
+http://www.agfa.com/germany/de/binaries/000108_tcm181-21761.pdf
+http://www.agfa.com/germany/de/binaries/000114_tcm181-21760.pdf
+http://www.agfa.com/germany/de/binaries/000519_tcm181-21753.pdf
+http://www.agfa.com/germany/de/binaries/000946_tcm181-21755.pdf
+http://www.agfa.com/germany/de/binaries/000978%20DICOM%20Conformance%20Statement%20CR%20QS%20v%203.0_tcm181-26665.PDF
+http://www.agfa.com/germany/de/binaries/001126_IMPAX_6.2_Solution_tcm181-29471.pdf
+www.agfa.com/germany/de/binaries/000913_tcm181-21792.pdf
+www.agfa.com/en/he/binaries/000978_tcm220-21764.pdf
+www.agfa.com/en/he/binaries/000405_tcm220-21758.pdf
+www.agfa.com/en/he/binaries/000946_tcm220-21755.pdf
+ftp.agfa.com/pub/med/pdf/dicom_canon_cxdi.pdf

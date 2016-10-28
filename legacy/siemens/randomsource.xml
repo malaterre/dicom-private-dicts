@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<!--
+
+
+Let's do some reverse engineering on some MOCO files:
+
+$ ./bin/gdcmdump -csa SIEMENS_MONOCHROME2_LUT_MOCO.dcm | grep 25 | grep US
+20 - 'NumberOfImagesInMosaic' VM 1, VR US, SyngoDT 10, NoOfItems 6, Data '25      '
+
+(0019,100a) US 25                                       #   2, 1 Unknown Tag & Data
+
+$ ./bin/gdcmdump -csa SIEMENS_MONOCHROME2_LUT_MOCO.dcm | grep 25 | grep DS
+13 - 'SliceMeasurementDuration' VM 1, VR DS, SyngoDT 3, NoOfItems 6, Data '25.00000000'
+
+(0019,100b) DS [25]                                     #   2, 1 Unknown Tag & Data
+
+$ ./bin/gdcmdump -csa SIEMENS_MONOCHROME2_LUT_MOCO.dcm | grep Fast | grep SH
+46 - 'GradientMode' VM 1, VR SH, SyngoDT 22, NoOfItems 6, Data 'Fast'
+
+(0019,100f) SH [Fast]                                   #   4, 1 Unknown Tag & Data
+
+
+$ ./bin/gdcmdump -csa SIEMENS_MONOCHROME2_LUT_MOCO.dcm  | grep SH | grep "'No"
+47 - 'FlowCompensation' VM 1, VR SH, SyngoDT 22, NoOfItems 6, Data 'No'
+
+(0019,1011) SH [No]                                     #   2, 1 Unknown Tag & Data
+
+
+$ ./bin/gdcmdump -csa SIEMENS_MONOCHROME2_LUT_MOCO.dcm  | grep SL | grep 1278
+63 - 'ImaAbsTablePosition' VM 3, VR SL, SyngoDT 7, NoOfItems 6, Data '0       '\'0       '\'-1278   '
+52 - 'TablePositionOrigin' VM 3, VR SL, SyngoDT 7, NoOfItems 6, Data '0       '\'0       '\'-1278   '
+
+(0019,1012) SL 0\0\-1278                                #  12, 3 Unknown Tag & Data
+(0019,1013) SL 0\0\-1278                                #  12, 3 Unknown Tag & Data
+
+$ ./bin/gdcmdump -csa SIEMENS_MONOCHROME2_LUT_MOCO.dcm  | grep IS | grep "VM 3," | grep 0
+71 - 'ImaRelTablePosition' VM 3, VR IS, SyngoDT 6, NoOfItems 6, Data '0       '\'0       '\'0       '
+32 - 'RelTablePosition' VM 3, VR IS, SyngoDT 6, NoOfItems 6, Data '0       '\'0       '\'0       '
+
+(0019,1014) IS [0\0\0]                                  #   6, 3 Unknown Tag & Data
+
+$ ./bin/gdcmdump -csa SIEMENS_MONOCHROME2_LUT_MOCO.dcm  | grep FD | grep "VM 3" | grep 27
+67 - 'SlicePosition_PCS' VM 3, VR FD, SyngoDT 4, NoOfItems 6, Data '-469.15217535'\'-495.94500945'\'-27.55295166'
+
+(0019,1015) FD -469.152\-495.945\-27.553                #  24, 3 Unknown Tag & Data
+
+$ ./bin/gdcmdump -csa SIEMENS_MONOCHROME2_LUT_MOCO.dcm  | grep 276 | grep DS
+25 - 'TimeAfterStart' VM 1, VR DS, SyngoDT 3, NoOfItems 6, Data '276.50500000'
+
+(0019,1016) DS [276.505]                                #   8, 1 Unknown Tag & Data
+
+$ ./bin/gdcmdump -csa SIEMENS_MONOCHROME2_LUT_MOCO.dcm  | grep DS | grep "VM 1" | grep "'1"
+18 - 'SW_korr_faktor' VM 1, VR DS, SyngoDT 3, NoOfItems 6, Data '1.00000000'
+22 - 'Stim_faktor' VM 1, VR DS, SyngoDT 3, NoOfItems 6, Data '1.00000000'
+36 - 'SliceResolution' VM 1, VR DS, SyngoDT 3, NoOfItems 6, Data '1.00000000'
+
+(0019,1017) DS [1]                                      #   2, 1 Unknown Tag & Data
+
+$ ./bin/gdcmdump -csa SIEMENS_MONOCHROME2_LUT_MOCO.dcm  | grep 3500
+10 - 'RealDwellTime' VM 1, VR IS, SyngoDT 6, NoOfItems 6, Data '3500    '
+
+(0019,1018) IS [3500]                                   #   4, 1 Unknown Tag & Data
+
+$ ./bin/gdcmdump -csa SIEMENS_MONOCHROME2_LUT_MOCO.dcm  | grep 0624148
+68 - 'RBMoCoTrans' VM 3, VR FD, SyngoDT 4, NoOfItems 6, Data '0.24417482'\'0.00711406'\'-0.06241481'
+
+(0019,1025) FD 0.244175\0.00711406\-0.0624148           #  24, 3 Unknown Tag & Data
+
+$ ./bin/gdcmdump -csa SIEMENS_MONOCHROME2_LUT_MOCO.dcm | grep 0764895
+69 - 'RBMoCoRot' VM 3, VR FD, SyngoDT 4, NoOfItems 6, Data '-0.03872199'\'0.42938324'\'-0.07648952'
+
+(0019,1026) FD -0.038722\0.429383\-0.0764895            #  24, 3 Unknown Tag & Data
+
+$ ./bin/gdcmdump -csa SIEMENS_MONOCHROME2_LUT_MOCO.dcm  | grep 637
+78 - 'BandwidthPerPixelPhaseEncode' VM 1, VR FD, SyngoDT 4, NoOfItems 6, Data '30.63700000'
+
+(0019,1028) FD 30.637                                   #   8, 1 Unknown Tag & Data
+
+$ ./bin/gdcmdump -csa ~/Creatis/gdcmData/SIEMENS_MONOCHROME2_LUT_MOCO.dcm | grep 64p
+15 - 'AcquisitionMatrixText' VM 1, VR SH, SyngoDT 22, NoOfItems 6, Data '64p*64'
+
+(0051,100b) SH [64p*64]                                 #   6, 1 Unknown Tag & Data
+
+$ ./bin/gdcmdump -csa SIEMENS_MONOCHROME2_LUT_MOCO.dcm | grep LO | grep "C:HEA;HEP"
+72 - 'ImaCoilString' VM 1, VR LO, SyngoDT 19, NoOfItems 6, Data 'C:HEA;HEP'
+40 - 'CoilString' VM 1, VR LO, SyngoDT 19, NoOfItems 6, Data 'C:HEA;HEP'
+
+(0051,100f) LO [C:HEA;HEP]                              #  10, 1 Unknown Tag & Data
+
+$ ./bin/gdcmdump -csa SIEMENS_MONOCHROME2_LUT_MOCO.dcm | grep LPH
+31 - 'PositivePCSDirections' VM 1, VR SH, SyngoDT 22, NoOfItems 6, Data '+LPH'
+
+(0051,1013) SH [+LPH]                                   #   4, 1 Unknown Tag & Data
+
+
+
+More RE:
+
+$ ./bin/gdcmdump -csa siemens.com/29626325.ima | grep 0.826389
+36 - 'SliceResolution' VM 1, VR DS, SyngoDT 3, NoOfItems 6, Data '0.82638900'
+
+(0019,1017) DS [0.826389]                               #   8, 1 Unknown Tag & Data
+
+$ ./bin/gdcmdump -csa siemens.com/29634095.ima | grep 1966
+52 - 'TablePositionOrigin' VM 3, VR SL, SyngoDT 7, NoOfItems 6, Data '0       '\'0       '\'-1966   '
+
+(0019,1012) SL 0\0\-1966                                #  12, 3 Unknown Tag & Data
+
+$ ./bin/gdcmdump -csa siemens.com/29634095.ima | grep 1993
+63 - 'ImaAbsTablePosition' VM 3, VR SL, SyngoDT 7, NoOfItems 6, Data '0       '\'0       '\'-1993   '
+37 - 'AbsTablePosition' VM 1, VR IS, SyngoDT 6, NoOfItems 6, Data '-1993   '
+
+(0019,1013) SL 0\0\-1993                                #  12, 3 Unknown Tag & Data
+
+Question: is 0019,1014 really ImaRelTablePosition ?
+Answer: Yes because all files that only have RelTablePosition in the CSA header DO NOT have a 0019,1014 element
+
+$ ./bin/gdcmdump -csa siemens.com/42176749.ima | grep CoilString
+41 - 'CoilString' VM 1, VR LO, SyngoDT 19, NoOfItems 6, Data 'd:BO1,2;SP2-5;BO1,2'
+
+(0051,100f) LO [d:BO1,2;SP2-5;BO1,2]                    #  20, 1 Unknown Tag & Data
+
+Random thoughts:
+
+$ dcmdump SIEMENS_MONOCHROME2_LUT_MOCO.dcm | grep "IMAGE NUM 4"
+(0019,1008) CS [IMAGE NUM 4]                            #  12, 1 Unknown Tag & Data
+(0029,1008) CS [IMAGE NUM 4]                            #  12, 1 CSAImageHeaderType
+(0051,1008) CS [IMAGE NUM 4]                            #  12, 1 Unknown Tag & Data
+
+for i in `ls /siemens.com/*.ima`; do dcmdump  $i | grep "00[159]\{2\},1009" && echo $i ; done  >& log 
+Looks like it's the version...
+
+(0008,0008) CS [ORIGINAL\PRIMARY\M\ND\FILTERED\MOCO\SUB\TTEST\MOSAIC] # 52,2-n Image Type
+(0051,1016) LO (??) [M/ND/FILTERED/MOCO/SUB]             # 22,? (1)  UNKNOWN
+
+
+
+$ ./bin/gdcmdump  siemens.com/29504352.ima | grep ND
+(0008,0008) CS [ORIGINAL\PRIMARY\M\ND ]                   # 22,2-n Image Type
+(0051,1011) LO (??) [p2]                                 # 2,? (1)  UNKNOWN
+(0051,1016) LO (??) [p2 M/ND ]                           # 8,? (1)  UNKNOWN
+
+
+$ ./bin/gdcmdump -csa siemens.com/29504352.ima | grep p2
+76 - 'ImaPATModeText' VM 1, VR LO, SyngoDT 19, NoOfItems 6, Data 'p2'
+41 - 'PATModeText' VM 1, VR LO, SyngoDT 19, NoOfItems 6, Data 'p2'
+
+$ ./bin/gdcmdump  siemens.com/29599016.ima | grep 5555
+(0019,1023) IS (??) [-5555 ]                             # 6,? (1)  UNKNOWN
+53 - 'FMRIStimulInfo' VM 1, VR IS, SyngoDT 6, NoOfItems 6, Data '-5555   '
+
+
+$ ./bin/gdcmdump -csa siemens.com/42347737.ima | grep B_v
+6 - 'B_value' VM 1, VR IS, SyngoDT 6, NoOfItems 6, Data '0       '
+(0019,100c) IS [0 ]                                       # 2,1 B_value
+
+$ ./bin/gdcmdump -csa siemens.com/42347758.ima | grep DIRE
+24 - 'DiffusionDirectionality' VM 1, VR CS, SyngoDT 16, NoOfItems 6, Data 'DIRECTIONAL'
+(0019,100d) CS [DIRECTIONAL ]                             # 12,1 DiffusionDirectionality
+
+$ ./bin/gdcmdump -csa  siemens.com/42347758.ima |  grep 4.8216
+21 - 'DiffusionGradientDirection' VM 3, VR FD, SyngoDT 4, NoOfItems 6, Data '4.82160000'\'1.22470000'\'2.12130000'
+(0019,100e) FD 4.8216\1.2247\2.1213                       # 24,3 DiffusionGradientDirection
+
+
+
+-->
+<dicts url="http://wiki.na-mic.org/Wiki/index.php/NAMIC_Wiki:DTI:DICOM_for_DWI_and_DTI">
+  <dict name="SIEMENS_MONOCHROME2_LUT_MOCO" owner="SIEMENS MR HEADER">
+    <entry group="0019" element="1008" vr="CS" vm="1" name="CSA Image Header Type"/>
+    <entry group="0019" element="1009" vr="LO" vm="1" name="CSA Image Header Version ??"/>
+    <entry group="0019" element="100a" name="NumberOfImagesInMosaic" vr="US" vm="1"/>
+    <entry group="0019" element="100b" name="SliceMeasurementDuration" vr="DS" vm="1"/>
+    <entry group="0019" element="100c" name="B_value" vr="IS" vm="1"/>
+    <entry group="0019" element="100d" name="DiffusionDirectionality" vr="CS" vm="1"/>
+    <entry group="0019" element="100e" name="DiffusionGradientDirection" vr="FD" vm="3"/>
+    <entry group="0019" element="100f" name="GradientMode" vr="SH" vm="1"/>
+    <entry group="0019" element="1011" name="FlowCompensation" vr="SH" vm="1"/>
+    <entry group="0019" element="1012" name="TablePositionOrigin" vr="SL" vm="3"/>
+    <entry group="0019" element="1013" name="ImaAbsTablePosition" vr="SL" vm="3"/>
+    <entry group="0019" element="1014" name="ImaRelTablePosition" vr="IS" vm="3"/>
+    <entry group="0019" element="1015" name="SlicePosition_PCS" vr="FD" vm="3"/>
+    <entry group="0019" element="1016" name="TimeAfterStart" vr="DS" vm="1"/>
+    <entry group="0019" element="1017" name="SliceResolution" vr="DS" vm="1"/>
+    <entry group="0019" element="1018" name="RealDwellTime" vr="IS" vm="1"/>
+    <entry group="0019" element="1023" name="FMRIStimulInfo" vr="IS" vm="1"/>
+    <entry group="0019" element="1025" name="RBMoCoTrans" vr="FD" vm="3"/>
+    <entry group="0019" element="1026" name="RBMoCoRot" vr="FD" vm="3"/>
+    <entry group="0019" element="1028" name="BandwidthPerPixelPhaseEncode" vr="FD" vm="1"/>
+    <entry group="0019" element="1029" name="MosaicRefAcqTimes" vr="FD" vm="1"/>
+    <!-- 0051 -->
+    <entry group="0051" element="1008" vr="CS" vm="1" name="CSA Image Header Type"/>
+    <entry group="0051" element="1009" vr="LO" vm="1" name="CSA Image Header Version ??"/>
+    <entry group="0051" element="100b" name="AcquisitionMatrixText" vr="SH" vm="1"/>
+    <entry group="0051" element="100f" name="CoilString" vr="LO" vm="1"/>
+    <entry group="0051" element="1011" name="PATModeText" vr="LO" vm="1"/>
+    <!--entry group="0051" element="1011" name="ImaPATModeText" vr="LO" vm="1"/-->
+    <entry group="0051" element="1013" name="PositivePCSDirections" vr="SH" vm="1"/>
+    <!-- collected from files -->
+    <!-- Typically : health.siemens.com/magnetom/phoenix-gallery/orthopedics/images/phoenix/29633224.ima 
+     a stupid DICOM implementation replaced the VR:SH with LO . I am keeping the SH since they actually match
+     the VR found in the CSA header  -->
+    <entry group="0051" element="100a" name="?" vr="SH" vm="1"/>
+    <entry group="0051" element="100c" name="?" vr="SH" vm="1"/>
+    <entry group="0051" element="100d" name="?" vr="SH" vm="1"/>
+    <entry group="0051" element="100e" name="?" vr="SH" vm="1"/>
+    <entry group="0051" element="1012" name="?" vr="SH" vm="1"/>
+    <entry group="0051" element="1015" name="?" vr="SH" vm="1"/>
+    <entry group="0051" element="1016" name="?" vr="LO" vm="1"/>
+    <entry group="0051" element="1017" name="?" vr="SH" vm="1"/>
+    <entry group="0051" element="1018" name="?" vr="SH" vm="1"/>
+    <entry group="0051" element="1019" name="?" vr="LO" vm="1"/>
+  </dict>
+  <dict name="DTI/DWI">
+    <entry group="0019" element="000A" owner="SIEMENS MR HEADER" name="NumberOfImagesInMosaic          " type="1" vr="US" vm="1"/>
+    <entry group="0019" element="000B" owner="SIEMENS MR HEADER" name="SliceMeasurementDuration        " type="1" vr="DS" vm="1"/>
+    <entry group="0019" element="000C" owner="SIEMENS MR HEADER" name="B_value                         " type="1" vr="CS" vm="1"/>
+    <entry group="0019" element="000D" owner="SIEMENS MR HEADER" name="DiffusionDirectionality         " type="1" vr="CS" vm="1"/>
+    <entry group="0019" element="000E" owner="SIEMENS MR HEADER" name="DiffusionGradientDirection      " type="1" vr="FD" vm="3"/>
+    <entry group="0019" element="000F" owner="SIEMENS MR HEADER" name="GradientMode                    " type="1" vr="SH" vm="1"/>
+    <entry group="0019" element="0027" owner="SIEMENS MR HEADER" name="B_matrix                        " type="1" vr="FD" vm="6"/>
+    <entry group="0019" element="0028" owner="SIEMENS MR HEADER" name="BandwidthPerPixelPhaseEncode    " type="1" vr="FD" vm="1"/>
+  </dict>
+  <dict url="http://www.dicmswt.net/incoming/SMS450102/study_1/series_1/1_3_12_2_1107_5_8_1_123456789_199507271807160009128.dic" owner="SIEMENS MED DISPLAY">
+    <entry group="0029" element="0010" vr="LO" name="Private Creator"/>
+    <entry group="0029" element="0004" vr="CS" vm="1" name="Photometric Interpretation"/>
+    <entry group="0029" element="0010" vr="US" vm="1" name="Rows"/>
+    <entry group="0029" element="0011" vr="US" vm="1" name="Columns"/>
+    <entry group="0029" element="0050" vr="US" vm="2" name="Origin"/>
+  </dict>
+</dicts>

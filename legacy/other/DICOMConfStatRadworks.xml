@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="">
+  <dict ref="Table 8.1.1" name="Annotations module attributes" owner="AMI Annotations_01">
+    <entry name="Annotations Sequence                   " group="3101" element="xx10" type="3" vr="SQ" vm="1"/>
+  </dict>
+  <dict owner="AMI Sequence Annotations_01">
+    <entry name="&gt; Type                                 " group="3103" element="xx10" type="1" vr="CS" vm="1"/>
+    <entry name="&gt; UID                                  " group="3103" element="xx20" type="1" vr="UI" vm="1"/>
+    <entry name="&gt; Color                                " group="3103" element="xx30" type="3" vr="US" vm="3"/>
+    <entry name="&gt; FontSize                             " group="3103" element="xx40" type="3" vr="FD" vm="1"/>
+    <entry name="&gt; LineStyle                            " group="3103" element="xx50" type="3" vr="CS" vm="1"/>
+    <entry name="&gt; Elements                             " group="3103" element="xx60" type="1" vr="SQ" vm="1"/>
+    <entry name="&gt; Label                                " group="3103" element="xx70" type="3" vr="SH" vm="1"/>
+    <entry name="&gt; Creator                              " group="3103" element="xx80" type="3" vr="PN" vm="1"/>
+    <entry name="&gt; Modifiers                            " group="3103" element="xx90" type="3" vr="PN" vm="1-n"/>
+    <entry name="&gt; CreationDate                         " group="3103" element="xxA0" type="3" vr="DA" vm="1"/>
+    <entry name="&gt; CreationTime                         " group="3103" element="xxB0" type="3" vr="TM" vm="1"/>
+    <entry name="&gt; ModificationDates                    " group="3103" element="xxC0" type="3" vr="DA" vm="1-n"/>
+    <entry name="&gt; ModificationTimes                    " group="3103" element="xxD0" type="3" vr="TM" vm="1-n"/>
+    <entry name="&gt; FrameNo                              " group="3103" element="xxE0" type="3" vr="US" vm="1"/>
+  </dict>
+  <dict owner="AMI Sequence AnnotElements_01">
+    <entry name="&gt; &gt; Position                           " group="3105" element="xx10" type="1" vr="DS" vm="6"/>
+    <entry name="&gt; &gt; Text                               " group="3105" element="xx20" type="3" vr="LT" vm="1"/>
+  </dict>
+  <dict owner="AMI ImageTransform_01">
+    <entry name="Transformation matrix                  " group="3107" element="xx10" type="1" vr="DS" vm="6"/>
+    <entry name="Center offset                          " group="3107" element="xx20" type="3" vr="DS" vm="3"/>
+    <entry name="Magnification                          " group="3107" element="xx30" type="3" vr="DS" vm="1"/>
+    <entry name="Magnification Type                     " group="3107" element="xx40" type="3" vr="CS" vm="1"/>
+    <entry name="DisplayArea                            " group="3107" element="xx50" type="3" vr="DS" vm="2"/>
+    <entry name="CalibrationFactor                      " group="3107" element="xx60" type="3" vr="DS" vm="1"/>
+  </dict>
+</dicts>

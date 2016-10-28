@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?><!-- The whole file was generated using :
+
+ $ wget http://www.medical.toshiba.com/dicom/pdf/MIIXR00010EAB\ \(V3.10\).xml
+ $ pdftotext -nopgbrk -layout 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+NOTE:
+
+  The file is copy protected, only old version of pdftotext works
+  The text description is pretty vague, so I just duplicated the dict twice once for each owner
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www.medical.toshiba.com/dicom/pdf/MIIXR00010EAB (V3.10).xml">
+  <dict ref="6.2" name="Private Elements for Storage SOP Class" owner="TOSHIBA COMAPL HEADER">
+    <entry group="0029" element="0010" vr="LO" vm="1" name=""/>
+    <entry group="0029" element="1031" vr="LO" vm="1-n" name=""/>
+    <entry group="0029" element="1032" vr="UL" vm="1-n" name=""/>
+    <entry group="0029" element="1033" vr="UL" vm="1-n" name=""/>
+    <entry group="0029" element="1034" vr="CS" vm="1-n" name=""/>
+  </dict>
+  <dict ref="6.2" name="Private Elements for Storage SOP Class" owner="TOSHIBA COMAPL OOG">
+    <entry group="0029" element="0010" vr="LO" vm="1" name=""/>
+    <entry group="0029" element="1031" vr="LO" vm="1-n" name=""/>
+    <entry group="0029" element="1032" vr="UL" vm="1-n" name=""/>
+    <entry group="0029" element="1033" vr="UL" vm="1-n" name=""/>
+    <entry group="0029" element="1034" vr="CS" vm="1-n" name=""/>
+  </dict>
+  <dict ref="6.2" name="Private Elements for Storage SOP Class" owner="TOSHIBA_MEC_XA3">
+    <entry group="7079" element="0010" vr="LO" vm="1" name=""/>
+    <entry group="7079" element="1021" vr="SH" vm="5" name=""/>
+    <entry group="7079" element="1022" vr="IS" vm="2" name=""/>
+    <entry group="7079" element="1023" vr="IS" vm="2" name=""/>
+    <entry group="7079" element="1024" vr="DS" vm="1" name=""/>
+    <entry group="7079" element="1025" vr="SH" vm="1" name=""/>
+    <entry group="7079" element="1026" vr="DS" vm="2" name=""/>
+    <entry group="7079" element="1027" vr="US" vm="2" name=""/>
+    <entry group="7079" element="1028" vr="US" vm="1" name=""/>
+    <entry group="7079" element="1029" vr="US" vm="10" name=""/>
+    <entry group="7079" element="102A" vr="US" vm="5" name=""/>
+    <entry group="7079" element="102C" vr="SH" vm="3" name=""/>
+    <entry group="7079" element="102D" vr="SS" vm="2" name=""/>
+    <entry group="7079" element="102E" vr="SH" vm="1" name=""/>
+    <entry group="7079" element="102F" vr="SH" vm="1" name=""/>
+    <entry group="7079" element="1030" vr="US" vm="1" name=""/>
+    <entry group="7079" element="1031" vr="US" vm="1-n" name=""/>
+    <entry group="7079" element="1032" vr="SH" vm="2" name=""/>
+    <entry group="7079" element="1033" vr="US" vm="1-n" name=""/>
+    <entry group="7079" element="1034" vr="SH" vm="1" name=""/>
+    <entry group="7079" element="1035" vr="SH" vm="1" name=""/>
+    <entry group="7079" element="1036" vr="SH" vm="1" name=""/>
+    <entry group="7079" element="1037" vr="US" vm="4" name=""/>
+    <entry group="7079" element="1038" vr="SS" vm="1-n" name=""/>
+    <entry group="7079" element="1039" vr="SS" vm="1-n" name=""/>
+    <entry group="7079" element="103A" vr="US" vm="2" name=""/>
+    <entry group="7079" element="103B" vr="SH" vm="1" name=""/>
+    <entry group="7079" element="103C" vr="DS" vm="2" name=""/>
+    <entry group="7079" element="103D" vr="SS" vm="2" name=""/>
+    <entry group="7079" element="103E" vr="SH" vm="1" name=""/>
+    <entry group="7079" element="103F" vr="US" vm="2" name=""/>
+    <entry group="7079" element="1040" vr="SH" vm="2" name=""/>
+    <entry group="7079" element="1041" vr="SS" vm="2" name=""/>
+    <entry group="7079" element="1042" vr="SH" vm="1" name=""/>
+    <entry group="7079" element="1043" vr="SH" vm="1" name=""/>
+    <entry group="7079" element="1044" vr="US" vm="1" name=""/>
+    <entry group="7079" element="1045" vr="SH" vm="1" name=""/>
+    <entry group="7079" element="1046" vr="SS" vm="1" name=""/>
+    <entry group="7079" element="1047" vr="SS" vm="18" name=""/>
+    <entry group="7079" element="1048" vr="US" vm="12" name=""/>
+    <entry group="7079" element="1049" vr="US" vm="3" name=""/>
+    <entry group="7079" element="104A" vr="US" vm="1" name=""/>
+    <entry group="7079" element="104B" vr="LO" vm="3" name=""/>
+    <entry group="7079" element="104C" vr="OB" vm="1" name=""/>
+    <entry group="7079" element="104D" vr="LO" vm="3" name=""/>
+    <entry group="7079" element="104E" vr="SL" vm="35" name=""/>
+    <entry group="7079" element="104F" vr="SH" vm="3" name=""/>
+    <entry group="7079" element="1050" vr="US" vm="1-n" name=""/>
+    <entry group="7079" element="1051" vr="US" vm="1-n" name=""/>
+    <entry group="7079" element="1052" vr="US" vm="1" name=""/>
+    <entry group="7079" element="1053" vr="SH" vm="1" name=""/>
+    <entry group="7079" element="1054" vr="US" vm="5" name=""/>
+    <entry group="7079" element="1055" vr="UL" vm="47-47n" name=""/>
+    <entry group="7079" element="1056" vr="US" vm="1" name=""/>
+    <entry group="7079" element="1057" vr="US" vm="1-n" name=""/>
+    <entry group="7079" element="1058" vr="US" vm="1" name=""/>
+    <entry group="7079" element="1059" vr="US" vm="2-2n" name=""/>
+    <entry group="7079" element="105A" vr="US" vm="1" name=""/>
+    <entry group="7079" element="105B" vr="US" vm="2" name=""/>
+    <entry group="7079" element="105C" vr="US" vm="2-2n" name=""/>
+    <entry group="7079" element="105D" vr="SH" vm="1" name=""/>
+    <entry group="7079" element="105E" vr="US" vm="2" name=""/>
+    <entry group="7079" element="105F" vr="SS" vm="4-4n" name=""/>
+    <entry group="7079" element="1060" vr="US" vm="1-n" name=""/>
+    <entry group="7079" element="1061" vr="SS" vm="30-30n" name=""/>
+    <entry group="7079" element="1062" vr="US" vm="4" name=""/>
+    <entry group="7079" element="1063" vr="US" vm="1-n" name=""/>
+    <entry group="7079" element="1064" vr="US" vm="1-n" name=""/>
+    <entry group="7079" element="1065" vr="US" vm="1-n" name=""/>
+    <entry group="7079" element="1066" vr="US" vm="1-n" name=""/>
+    <entry group="7079" element="1067" vr="US" vm="1-n" name=""/>
+    <entry group="7079" element="1068" vr="US" vm="1-n" name=""/>
+    <entry group="7079" element="1069" vr="US" vm="1-n" name=""/>
+    <entry group="7079" element="106A" vr="US" vm="1-n" name=""/>
+    <entry group="7079" element="106B" vr="US" vm="1-n" name=""/>
+    <entry group="7079" element="106C" vr="US" vm="1" name=""/>
+    <entry group="7079" element="106D" vr="DS" vm="1" name=""/>
+    <entry group="7079" element="106E" vr="LO" vm="1" name=""/>
+    <entry group="7079" element="106F" vr="DS" vm="1" name=""/>
+    <entry group="7079" element="1070" vr="DS" vm="1" name=""/>
+    <entry group="7079" element="1071" vr="DS" vm="1-n" name=""/>
+    <entry group="7079" element="1072" vr="DS" vm="1-n" name=""/>
+    <entry group="7079" element="1073" vr="SL" vm="4" name=""/>
+    <entry group="7079" element="1074" vr="SL" vm="28" name=""/>
+    <entry group="7079" element="1075" vr="SH" vm="1" name=""/>
+    <entry group="7079" element="1076" vr="US" vm="1" name=""/>
+    <entry group="7079" element="1077" vr="SL" vm="1" name=""/>
+  </dict>
+</dicts>

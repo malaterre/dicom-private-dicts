@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="www.gehealthcare.com/usen/interoperability/dicom/docs/2274762r2_1.pdf">
+  <dict ref="A.1" name="CT IMAGE IOD PRIVATE DATA ELEMENTS DEFINITION" owner="GEMS_HINO_CT_01">
+    <entry name="Private Creator ID             " group="004B" element="00xx" type="1C" vr="LO" vm="1"/>
+    <entry name="Beam Thickness                 " group="004B" element="xx01" type="3" vr="DS" vm="1-n"/>
+    <entry name="R Time                         " group="004B" element="xx02" type="3" vr="DS" vm="1-n"/>
+    <entry name="HBC number                     " group="004B" element="xx03" type="3" vr="IS" vm="1"/>
+  </dict>
+</dicts>
