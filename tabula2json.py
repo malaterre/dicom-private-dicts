@@ -1,10 +1,18 @@
+#!/usr/bin/env python
 import json
+import argparse
 
 # need to use json output in tabula until:
 # https://github.com/tabulapdf/tabula/issues/570
 
+parser = argparse.ArgumentParser()
+parser.add_argument('--files', help='dir help')
+parser.add_argument('--output', help='dir help')
+args = parser.parse_args()
+
 #files = [ 'data1.json', 'data2.json', 'data3.json']
-files = [ '/tmp/foo.json']
+#files = [ '/tmp/foo.json']
+files = args.files.split(',')
 
 d=[]
 for f in files:
@@ -38,4 +46,6 @@ for f in files:
   #        #print attribute, value # example usage
   
   #print d
-print json.dumps(d)
+ojson = args.output
+with open(ojson,'w') as out_file:
+  out_file.write( json.dumps(d, sort_keys=True, indent=4) )
