@@ -57,6 +57,7 @@ for f in files:
 
 # now that dict is complete, save as json:
 oxml = args.output
+order=['group','element','vr','vm','name']
 with open(oxml,'w') as out_file:
   #out_file.write( json.dumps(d, sort_keys=True, indent=4) )
   out_file.write( "<dicts>" )
@@ -64,8 +65,11 @@ with open(oxml,'w') as out_file:
   for it in d:
     entry='<entry'
     #print it.items()
-    for key, value in it.items():
-      entry += ' %s="%s"' % (key,value)
+    #for key, value in it.items():
+    #  entry += ' %s="%s"' % (key,value)
+    for o in order:
+      #val = '%('+o+')s'
+      entry += ' %s="%s"' % (o,it[o])
     entry += '>\n'
     #print entry
     out_file.write( entry )
