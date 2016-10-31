@@ -45,4 +45,7 @@ with open(f) as data_file:
           out_file2.write( '\n' )
         # now convert:
         fstr = ','.join(files)
-        out_file2.write( "./tabula2json.py --files '%s' --output %s\n" % (fstr, outjson) )
+        opts = ""
+        if it.has_key( "opts" ):
+          opts = it['opts']
+        out_file2.write( "./tabula2json.py %s --files '%s' --output %s\n" % (opts, fstr, outjson) )

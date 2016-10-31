@@ -8,11 +8,13 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--files', help='dir help')
 parser.add_argument('--output', help='dir help')
-parser.add_argument('--use_table_header', help='dir help')
+parser.add_argument('--use_table_header', help='dir help', action='store_true')
+parser.add_argument('--header', help='dir help')
 args = parser.parse_args()
 
 # we are given a list of files that contains tables to be merged in single dict
 files = args.files.split(',')
+use_table_header = args.use_table_header
 
 def normalize_header( header ):
   ret = [None] * len(header)
@@ -30,17 +32,13 @@ for f in files:
     pages = json.load(data_file)
     for page in pages:
       data = page['data']
-      numcol = len( data[0] )
-      k = normalize_header( data[0] )
-      for j in data[1:]:
-        elem={}
-        for index,col in enumerate(k):
-          elem[ col ] = j[index]['text'].replace('\r',' ')
-        #elem[ k[0] ] = j[0]['text']
-        #elem[ k[1] ] = j[1]['text']
-        #elem[ k[2] ] = j[2]['text']
-        #elem[ k[3] ] = j[3]['text'].replace('\r',' ')
-        d.append(elem)
+      if use_table_header:
+        k = normalize_header( data[0] )
+        for j in data[1:]:
+          elem={}
+          for index,col in enumerate(k):
+            elem[ col ] = j[index]['text'].replace('\r',' ')
+          d.append(elem)
 
 # now that dict is complete, save as json:
 ojson = args.output
