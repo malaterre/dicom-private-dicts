@@ -1,9 +1,4 @@
-#try:
-#    import simplejson as json
-#except ImportError:
-#    import json
 import json
-#from pprint import pprint
 
 # need to use json output in tabula until:
 # https://github.com/tabulapdf/tabula/issues/570

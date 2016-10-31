@@ -1,6 +1,19 @@
 [
    {
       "url" : "http://www.hitachimed.com/idc/groups/hitachimedical/documents/supportingdocumentpdf/poc_013216.pdf",
+      "table" : [
+         {
+            "area" : "234.647,38.317,794.898,578.479",
+            "page" : 57
+         },
+         {
+            "pages" : "58,64"
+         },
+         {
+            "page" : 65,
+            "area" : "54.686,44.269,123.88,568.807"
+         }
+      ],
       "md5" : "01df924b002f764933bc6566c57fe3ce"
    }
 ]
