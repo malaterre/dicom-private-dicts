@@ -2,6 +2,8 @@
 import json
 import sys
 import argparse
+#from xml.sax.saxutils import quoteattr
+from xml.sax.saxutils import escape
 
 # need to use json output in tabula until:
 # https://github.com/tabulapdf/tabula/issues/570
@@ -80,6 +82,12 @@ def normalize_entry( entry ):
     elif key == 'DefaultValue':
       if value != None and value != '':
         ret['default_value'] = value
+    elif key == 'Type':
+      if value != None and value != '':
+        ret['type'] = value
+    elif key == 'UNK':
+      # reserved keyword to indicate skipping of columns
+      pass
     else:
       raise ValueError, "impossible key: %s" % key
   return ret
@@ -131,7 +139,9 @@ with open(oxml,'w') as out_file:
     #  entry += ' %s="%s"' % (key,value)
     for o in order:
       #val = '%('+o+')s'
-      entry += ' %s="%s"' % (o,it[o])
+      entry += ' %s="%s"' % (o,escape(it[o]))
+    if it.has_key('type'):
+      entry += ' type="%s"' % escape(it['type'])
     entry += '>\n'
     if it.has_key('definition'):
       entry += '<definition>'

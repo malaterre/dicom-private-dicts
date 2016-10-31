@@ -1,22 +1,28 @@
 [
    {
-      "url" : "http://www.agfahealthcare.com/he/france/fr/binaries/000510 DICOM Conformance Statement ADC-QS rev 5.0_tcm583-21763.PDF",
+      "url" : "http://www.agfahealthcare.com/he/france/fr/binaries/000978_tcm583-21764.pdf",
       "header" : [ "AttributeName","Tag","VR","DefaultValue" ],
+      "owner" : "AGFA",
       "tables" : [
          {
-            "area" : "30,144,370,700",
-            "page" : 24
+            "area" : "400,173,650,1000",
+            "page" : 15
          }
       ],
       "md5" : "01df924b002f764933bc6566c57fe3ce"
    },
    {
-      "url" : "http://www.agfahealthcare.com/he/france/fr/binaries/000978_tcm583-21764.pdf",
-      "header" : [ "AttributeName","Tag","VR","DefaultValue" ],
+      "url" : "http://www.agfahealthcare.com/he/france/fr/binaries/000946_tcm583-21755.pdf",
+      "header" : [ "AttributeName","Tag","VR","Type","DefaultValue","UNK" ],
+      "owner" : "AGFA_ADC_Compact",
       "tables" : [
          {
-            "area" : "400,173,650,1000",
-            "page" : 15
+            "area" : "50,61,400,1000",
+            "page" : 25
+         },
+         {
+            "area" : "50,61,400,1000",
+            "page" : 25
          }
       ],
       "md5" : "01df924b002f764933bc6566c57fe3ce"
