@@ -1,822 +1,822 @@
 [
     {
-        "Attribute Name": "Private Creator", 
+        "AttributeName": "Private Creator", 
         "Tag": "(0009,00xx)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "Technologist", 
+        "AttributeName": "Technologist", 
         "Tag": "(0009,xx01)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "ScheduledStudyDateTime", 
+        "AttributeName": "ScheduledStudyDateTime", 
         "Tag": "(0009,xx02)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "StudyAppData", 
+        "AttributeName": "StudyAppData", 
         "Tag": "(0009,xx03)", 
         "VR": "OB", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "ProtocolName", 
+        "AttributeName": "ProtocolName", 
         "Tag": "(0009,xx48)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "Cms_BodyPartExamined", 
+        "AttributeName": "Cms_BodyPartExamined", 
         "Tag": "(0009,xx4e)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsProtected", 
+        "AttributeName": "IsProtected", 
         "Tag": "(0009,xx4f)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "Cms_PatientPosition", 
+        "AttributeName": "Cms_PatientPosition", 
         "Tag": "(0009,xx50)", 
         "VR": "CS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "Cmi_contrastBolusAgent", 
+        "AttributeName": "Cmi_contrastBolusAgent", 
         "Tag": "(0009,xx51)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "Cms_institutionName", 
+        "AttributeName": "Cms_institutionName", 
         "Tag": "(0009,xx52)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "Cms_institutionalDepartmentName", 
+        "AttributeName": "Cms_institutionalDepartmentName", 
         "Tag": "(0009,xx53)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "Cms_seriesDescription", 
+        "AttributeName": "Cms_seriesDescription", 
         "Tag": "(0009,xx54)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "Cms_operatorsName", 
+        "AttributeName": "Cms_operatorsName", 
         "Tag": "(0009,xx55)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "Cms_PerformingPhysiciansName", 
+        "AttributeName": "Cms_PerformingPhysiciansName", 
         "Tag": "(0009,xx56)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "Cms_institutionAddress", 
+        "AttributeName": "Cms_institutionAddress", 
         "Tag": "(0009,xx57)", 
         "VR": "ST", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "Cmi_imageComments", 
+        "AttributeName": "Cmi_imageComments", 
         "Tag": "(0009,xx58)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "Cmi_instanceCreationDateTime", 
+        "AttributeName": "Cmi_instanceCreationDateTime", 
         "Tag": "(0009,xx59)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "MppsStepStatus", 
+        "AttributeName": "MppsStepStatus", 
         "Tag": "(0009,xx5A)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "FilmedCount", 
+        "AttributeName": "FilmedCount", 
         "Tag": "(0009,xx5B)", 
         "VR": "IS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsAllowCascadeSave", 
+        "AttributeName": "IsAllowCascadeSave", 
         "Tag": "(0009,xx5C)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsAllowCascadeProtect", 
+        "AttributeName": "IsAllowCascadeProtect", 
         "Tag": "(0009,xx5D)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsDeleted", 
+        "AttributeName": "IsDeleted", 
         "Tag": "(0009,xx5E)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "Private Creator", 
+        "AttributeName": "Private Creator", 
         "Tag": "(0011,00xx)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsRapidRegistration", 
+        "AttributeName": "IsRapidRegistration", 
         "Tag": "(0011,xx01)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsProtected", 
+        "AttributeName": "IsProtected", 
         "Tag": "(0011,xx02)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "FilmedCount", 
+        "AttributeName": "FilmedCount", 
         "Tag": "(0011,xx03)", 
         "VR": "IS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "ApplicationData", 
+        "AttributeName": "ApplicationData", 
         "Tag": "(0011,xx04)", 
         "VR": "OB", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsAllowCascadeSave", 
+        "AttributeName": "IsAllowCascadeSave", 
         "Tag": "(0011,xx05)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsAllowCascadeProtect", 
+        "AttributeName": "IsAllowCascadeProtect", 
         "Tag": "(0011,xx06)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsDeleted", 
+        "AttributeName": "IsDeleted", 
         "Tag": "(0011,xx07)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "Private Creator", 
+        "AttributeName": "Private Creator", 
         "Tag": "(0019,00xx)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "ProcType", 
+        "AttributeName": "ProcType", 
         "Tag": "(0019,xx01)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "Plane", 
+        "AttributeName": "Plane", 
         "Tag": "(0019,xx02)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsSnapShotSeries", 
+        "AttributeName": "IsSnapShotSeries", 
         "Tag": "(0019,xx03)", 
         "VR": "SH", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "MaxFscalor", 
+        "AttributeName": "MaxFscalor", 
         "Tag": "(0019,xx04)", 
         "VR": "DS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "SeriesCategoryType", 
+        "AttributeName": "SeriesCategoryType", 
         "Tag": "(0019,xx05)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "ImageContrastBolusAgent", 
+        "AttributeName": "ImageContrastBolusAgent", 
         "Tag": "(0019,xx07)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "ImageSliceThickness", 
+        "AttributeName": "ImageSliceThickness", 
         "Tag": "(0019,xx08)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "ImageReconstructionDiameter", 
+        "AttributeName": "ImageReconstructionDiameter", 
         "Tag": "(0019,xx09)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "ImageEchoTime", 
+        "AttributeName": "ImageEchoTime", 
         "Tag": "(0019,xx0a)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "ImageRepetitionTime", 
+        "AttributeName": "ImageRepetitionTime", 
         "Tag": "(0019,xx0b)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "SequenceType", 
+        "AttributeName": "SequenceType", 
         "Tag": "(0019,xx0c)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "TaskUid", 
+        "AttributeName": "TaskUid", 
         "Tag": "(0019,xx0d)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "SeriesAppData", 
+        "AttributeName": "SeriesAppData", 
         "Tag": "(0019,xx0e)", 
         "VR": "OB", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "MultiSliceNumber", 
+        "AttributeName": "MultiSliceNumber", 
         "Tag": "(0019,xx0f)", 
         "VR": "IS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "ImageScanTime", 
+        "AttributeName": "ImageScanTime", 
         "Tag": "(0019,0x10)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsProtected", 
+        "AttributeName": "IsProtected", 
         "Tag": "(0019,xx11)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "ImageIncrement", 
+        "AttributeName": "ImageIncrement", 
         "Tag": "(0019,xx12)", 
         "VR": "IS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "MppsStepStatus", 
+        "AttributeName": "MppsStepStatus", 
         "Tag": "(0019,xx13)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "StorageCommittedCount", 
+        "AttributeName": "StorageCommittedCount", 
         "Tag": "(0019,xx14)", 
         "VR": "IS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "ArchivedCount", 
+        "AttributeName": "ArchivedCount", 
         "Tag": "(0019,xx15)", 
         "VR": "IS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "TransferredCount", 
+        "AttributeName": "TransferredCount", 
         "Tag": "(0019,xx16)", 
         "VR": "IS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsAllowCascadeSave", 
+        "AttributeName": "IsAllowCascadeSave", 
         "Tag": "(0019,xx17)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsAllowCascadeProtect", 
+        "AttributeName": "IsAllowCascadeProtect", 
         "Tag": "(0019,xx18)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsDeleted", 
+        "AttributeName": "IsDeleted", 
         "Tag": "(0019,xx19)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "CharacterizedImageInstanceUid", 
+        "AttributeName": "CharacterizedImageInstanceUid", 
         "Tag": "(0019,xx1A)", 
         "VR": "UI", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "CharacterizedImageCount", 
+        "AttributeName": "CharacterizedImageCount", 
         "Tag": "(0019,xx1B)", 
         "VR": "IS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "InternalWindowWidth", 
+        "AttributeName": "InternalWindowWidth", 
         "Tag": "(0019,xx1C)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "InternalWindowLevel", 
+        "AttributeName": "InternalWindowLevel", 
         "Tag": "(0019,xx1D)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "Private Creator", 
+        "AttributeName": "Private Creator", 
         "Tag": "(0029,00xx)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "SliceNumber", 
+        "AttributeName": "SliceNumber", 
         "Tag": "(0029,xx01)", 
         "VR": "IS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "PhaseNumber", 
+        "AttributeName": "PhaseNumber", 
         "Tag": "(0029,xx02)", 
         "VR": "IS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "ProcType", 
+        "AttributeName": "ProcType", 
         "Tag": "(0029,xx03)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "StopwatchTime", 
+        "AttributeName": "StopwatchTime", 
         "Tag": "(0029,xx04)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "Plane", 
+        "AttributeName": "Plane", 
         "Tag": "(0029,xx05)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "ScanTime", 
+        "AttributeName": "ScanTime", 
         "Tag": "(0029,xx06)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "DualSliceFlag", 
+        "AttributeName": "DualSliceFlag", 
         "Tag": "(0029,xx08)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "SspRatio", 
+        "AttributeName": "SspRatio", 
         "Tag": "(0029,xx09)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "GatingSignalSource", 
+        "AttributeName": "GatingSignalSource", 
         "Tag": "(0029,xx0a)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "Rephase", 
+        "AttributeName": "Rephase", 
         "Tag": "(0029,xx0b)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "HalfEcho", 
+        "AttributeName": "HalfEcho", 
         "Tag": "(0029,xx0c)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "RectFOVRatio", 
+        "AttributeName": "RectFOVRatio", 
         "Tag": "(0029,xx0d)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "HalfScan", 
+        "AttributeName": "HalfScan", 
         "Tag": "(0029,xx0e)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "NumShots", 
+        "AttributeName": "NumShots", 
         "Tag": "(0029,xx0f)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "ContrastAgent", 
+        "AttributeName": "ContrastAgent", 
         "Tag": "(0029,xx10)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "EchoAllocation", 
+        "AttributeName": "EchoAllocation", 
         "Tag": "(0029,xx11)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "NumEchoShift", 
+        "AttributeName": "NumEchoShift", 
         "Tag": "(0029,xx12)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "FatSat", 
+        "AttributeName": "FatSat", 
         "Tag": "(0029,xx13)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "MTC", 
+        "AttributeName": "MTC", 
         "Tag": "(0029,xx14)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "NumPreSat", 
+        "AttributeName": "NumPreSat", 
         "Tag": "(0029,xx15)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "TargetVelocity", 
+        "AttributeName": "TargetVelocity", 
         "Tag": "(0029,xx16)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "VENCAxis", 
+        "AttributeName": "VENCAxis", 
         "Tag": "(0029,xx17)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "NumVENCDirection", 
+        "AttributeName": "NumVENCDirection", 
         "Tag": "(0029,xx18)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsScalableWindowLevel", 
+        "AttributeName": "IsScalableWindowLevel", 
         "Tag": "(0029,xx1c)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "ThreeDSettingLineAngle", 
+        "AttributeName": "ThreeDSettingLineAngle", 
         "Tag": "(0029,xx1d)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "MPGTotalAxis", 
+        "AttributeName": "MPGTotalAxis", 
         "Tag": "(0029,xx1e)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "MPGAxisNumber", 
+        "AttributeName": "MPGAxisNumber", 
         "Tag": "(0029,xx1f)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "MultiEchoNumber", 
+        "AttributeName": "MultiEchoNumber", 
         "Tag": "(0029,xx20)", 
         "VR": "IS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "NaviAverageGateWidth", 
+        "AttributeName": "NaviAverageGateWidth", 
         "Tag": "(0029,xx21)", 
         "VR": "DS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "ShimCompensateValue", 
+        "AttributeName": "ShimCompensateValue", 
         "Tag": "(0029,xx22)", 
         "VR": "ST", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "GCOffset", 
+        "AttributeName": "GCOffset", 
         "Tag": "(0029,xx23)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "NaviMaxGateWidth", 
+        "AttributeName": "NaviMaxGateWidth", 
         "Tag": "(0029,xx24)", 
         "VR": "DS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "NaviMinGateWidth", 
+        "AttributeName": "NaviMinGateWidth", 
         "Tag": "(0029,xx25)", 
         "VR": "DS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "NaviMaxGatePosition", 
+        "AttributeName": "NaviMaxGatePosition", 
         "Tag": "(0029,xx26)", 
         "VR": "DS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "NaviMinGatePosition", 
+        "AttributeName": "NaviMinGatePosition", 
         "Tag": "(0029,xx27)", 
         "VR": "DS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "TimeDuration", 
+        "AttributeName": "TimeDuration", 
         "Tag": "(0029,xx28)", 
         "VR": "DS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "TablePosition", 
+        "AttributeName": "TablePosition", 
         "Tag": "(0029,xx29)", 
         "VR": "DS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "NaviInitialGateWidth", 
+        "AttributeName": "NaviInitialGateWidth", 
         "Tag": "(0029,xx2a)", 
         "VR": "DS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "NaviFinalGateWidth", 
+        "AttributeName": "NaviFinalGateWidth", 
         "Tag": "(0029,xx2b)", 
         "VR": "DS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "TagThickness", 
+        "AttributeName": "TagThickness", 
         "Tag": "(0029,xxa0)", 
         "VR": "FD", 
         "Value": "The value is same as Tag Thickness of MR Imaging Modifier Macro"
     }, 
     {
-        "Attribute Name": "TaggingDelay", 
+        "AttributeName": "TaggingDelay", 
         "Tag": "(0029,xxa1)", 
         "VR": "FD", 
         "Value": "The value is same as Tagging Delay of MR Imaging Modifier Macro"
     }, 
     {
-        "Attribute Name": "TransmitterFrequency", 
+        "AttributeName": "TransmitterFrequency", 
         "Tag": "(0029,xxa2)", 
         "VR": "FD", 
         "Value": "The value is same as Transmitter Frequency of MR Imaging Modifier Macro"
     }, 
     {
-        "Attribute Name": "PixelBandwidth", 
+        "AttributeName": "PixelBandwidth", 
         "Tag": "(0029,xxa3)", 
         "VR": "DS", 
         "Value": "The value is same as Pixel Band width of MR Imaging Modifier Macro"
     }, 
     {
-        "Attribute Name": "MRVelocityEncodingSequence", 
+        "AttributeName": "MRVelocityEncodingSequence", 
         "Tag": "(0029,xxa4)", 
         "VR": "SQ", 
         "Value": "The value is same as MR Velocity Encoding Sequence of MR Velocity Encoding Macro"
     }, 
     {
-        "Attribute Name": "VelocityEncodingDirection", 
+        "AttributeName": "VelocityEncodingDirection", 
         "Tag": "(0029,xxa5)", 
         "VR": "FD", 
         "Value": "The value is same as Velocity Encoding Direction of MR Velocity Encoding Macro"
     }, 
     {
-        "Attribute Name": "VelocityEncodingMinimumValue", 
+        "AttributeName": "VelocityEncodingMinimumValue", 
         "Tag": "(0029,xxa6)", 
         "VR": "FD", 
         "Value": "The value is same as Velocity Encoding Minimum Value of MR Velocity Encoding Macro"
     }, 
     {
-        "Attribute Name": "VelocityEncodingMaximumValue", 
+        "AttributeName": "VelocityEncodingMaximumValue", 
         "Tag": "(0029,xxa7)", 
         "VR": "FD", 
         "Value": "The value is same as Velocity Encoding Maximum Value of MR Velocity Encoding Macro"
     }, 
     {
-        "Attribute Name": "MRImageFrameTypeSequence", 
+        "AttributeName": "MRImageFrameTypeSequence", 
         "Tag": "(0029,xxa8)", 
         "VR": "SQ", 
         "Value": "The value is same as MR Image Frame Type Sequence of MR Image Frame Type Macro"
     }, 
     {
-        "Attribute Name": "FrameType", 
+        "AttributeName": "FrameType", 
         "Tag": "(0029,xxa9)", 
         "VR": "CS", 
         "Value": "The value is same as Frame Type of MR Image Frame Type Macro"
     }, 
     {
-        "Attribute Name": "PixelPresentation", 
+        "AttributeName": "PixelPresentation", 
         "Tag": "(0029,xxaa)", 
         "VR": "CS", 
         "Value": "The value is same as Pixel Presentation of Common CT/MR Image Description Macro"
     }, 
     {
-        "Attribute Name": "VolumetricProperties", 
+        "AttributeName": "VolumetricProperties", 
         "Tag": "(0029,xxab)", 
         "VR": "CS", 
         "Value": "The value is same as Volumetric Properties of Common CT/MR Image Description Macro"
     }, 
     {
-        "Attribute Name": "VolumeBasedCalculationTechnique", 
+        "AttributeName": "VolumeBasedCalculationTechnique", 
         "Tag": "(0029,xxac)", 
         "VR": "CS", 
         "Value": "The value is same as Volume Based Calculation Technique of Common CT/MR Image Description Macro"
     }, 
     {
-        "Attribute Name": "FilmedCount", 
+        "AttributeName": "FilmedCount", 
         "Tag": "(0029,xxad)", 
         "VR": "IS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsTransferred", 
+        "AttributeName": "IsTransferred", 
         "Tag": "(0029,xxae)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsArchived", 
+        "AttributeName": "IsArchived", 
         "Tag": "(0029,xxaf)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "MppsStepStatus", 
+        "AttributeName": "MppsStepStatus", 
         "Tag": "(0029,xxb0)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "CommitmentStatus", 
+        "AttributeName": "CommitmentStatus", 
         "Tag": "(0029,xxb1)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsStorageCommitted", 
+        "AttributeName": "IsStorageCommitted", 
         "Tag": "(0029,xxb2)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsDicom", 
+        "AttributeName": "IsDicom", 
         "Tag": "(0029,xxb3)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsAllowCascadeSave", 
+        "AttributeName": "IsAllowCascadeSave", 
         "Tag": "(0029,xxb4)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsAllowCascadeProtect", 
+        "AttributeName": "IsAllowCascadeProtect", 
         "Tag": "(0029,xxb5)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsDeleted", 
+        "AttributeName": "IsDeleted", 
         "Tag": "(0029,xxb6)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "ApplicationData", 
+        "AttributeName": "ApplicationData", 
         "Tag": "(0029,xxb7)", 
         "VR": "OB", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsAllowCascadeSave", 
+        "AttributeName": "IsAllowCascadeSave", 
         "Tag": "(0029,xxb8)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsAllowCascadeProtect", 
+        "AttributeName": "IsAllowCascadeProtect", 
         "Tag": "(0029,xxb9)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "IsDeleted", 
+        "AttributeName": "IsDeleted", 
         "Tag": "(0029,xxba)", 
         "VR": "LO", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "VOI1", 
+        "AttributeName": "VOI1", 
         "Tag": "(0029,xxbb)", 
         "VR": "IS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "VOI2", 
+        "AttributeName": "VOI2", 
         "Tag": "(0029,xxbc)", 
         "VR": "IS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "MixingTime", 
+        "AttributeName": "MixingTime", 
         "Tag": "(0029,xxbd)", 
         "VR": "DS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "SelectiveIRPosition", 
+        "AttributeName": "SelectiveIRPosition", 
         "Tag": "(0029,xxbe)", 
         "VR": "FD", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "SelectiveIRRow", 
+        "AttributeName": "SelectiveIRRow", 
         "Tag": "(0029,xxbf)", 
         "VR": "FD", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "SelectiveIRColumn", 
+        "AttributeName": "SelectiveIRColumn", 
         "Tag": "(0029,xxc0)", 
         "VR": "FD", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "SelectiveIROrientation", 
+        "AttributeName": "SelectiveIROrientation", 
         "Tag": "(0029,xxc1)", 
         "VR": "FD", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "SelectiveIRThickness", 
+        "AttributeName": "SelectiveIRThickness", 
         "Tag": "(0029,xxc2)", 
         "VR": "DS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "RephaseOrderSlice", 
+        "AttributeName": "RephaseOrderSlice", 
         "Tag": "(0029,xxc3)", 
         "VR": "CS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "RephaseOrderPhase", 
+        "AttributeName": "RephaseOrderPhase", 
         "Tag": "(0029,xxc4)", 
         "VR": "CS", 
         "Value": "From Application"
     }, 
     {
-        "Attribute Name": "RephaseOrderFreq", 
+        "AttributeName": "RephaseOrderFreq", 
         "Tag": "(0029,xxc5)", 
         "VR": "CS", 
         "Value": "From Application"
