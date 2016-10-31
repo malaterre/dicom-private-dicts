@@ -22,8 +22,6 @@ www.dominator.com/assets/007/5836.pdf
 www.pmod.com/technologies/pdf/dicomconformance/PMOD_v2.75_DICOM_Conformance.pdf
 http://www.pmod.com/technologies/pdf/dicomconformance/PMOD_v2.90_DICOM_Conformance.pdf
 www.radinfosystems.com/pdf/PowerPACS_ImageImporter-DicomConform.pdf
-http://www.nucletron.com/content/download.aspx?fn=/555%5B1%5D.00015cib-00-masterplan_dicom_conf_statement.pdf
-
 http://www.varian.com/media/oncology/services_and_support/pdf/dicom/dicom_4d.pdf
 http://www.mortara.com/assets/client_files/File/conformance/DICOM%20Conformance%20Statement.pdf
 
