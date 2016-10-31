@@ -1,138 +1,412 @@
-<dicts><dict owner="MMCPrivate"><entry group="0009" element="00" vr="LO" vm="1" name="Private Creator"/>
-<entry group="0009" element="01" vr="LO" vm="1" name="Technologist"/>
-<entry group="0009" element="02" vr="LO" vm="1" name="ScheduledStudyDateTime"/>
-<entry group="0009" element="03" vr="OB" vm="1" name="StudyAppData"/>
-<entry group="0009" element="48" vr="LO" vm="1" name="ProtocolName"/>
-<entry group="0009" element="4e" vr="LO" vm="1" name="Cms_BodyPartExamined"/>
-<entry group="0009" element="4f" vr="LO" vm="1" name="IsProtected"/>
-<entry group="0009" element="50" vr="CS" vm="1" name="Cms_PatientPosition"/>
-<entry group="0009" element="51" vr="LO" vm="1" name="Cmi_contrastBolusAgent"/>
-<entry group="0009" element="52" vr="LO" vm="1" name="Cms_institutionName"/>
-<entry group="0009" element="53" vr="LO" vm="1" name="Cms_institutionalDepartmentName"/>
-<entry group="0009" element="54" vr="LO" vm="1" name="Cms_seriesDescription"/>
-<entry group="0009" element="55" vr="LO" vm="1" name="Cms_operatorsName"/>
-<entry group="0009" element="56" vr="LO" vm="1" name="Cms_PerformingPhysiciansName"/>
-<entry group="0009" element="57" vr="ST" vm="1" name="Cms_institutionAddress"/>
-<entry group="0009" element="58" vr="LO" vm="1" name="Cmi_imageComments"/>
-<entry group="0009" element="59" vr="LO" vm="1" name="Cmi_instanceCreationDateTime"/>
-<entry group="0009" element="5a" vr="LO" vm="1" name="MppsStepStatus"/>
-<entry group="0009" element="5b" vr="IS" vm="1" name="FilmedCount"/>
-<entry group="0009" element="5c" vr="LO" vm="1" name="IsAllowCascadeSave"/>
-<entry group="0009" element="5d" vr="LO" vm="1" name="IsAllowCascadeProtect"/>
-<entry group="0009" element="5e" vr="LO" vm="1" name="IsDeleted"/>
-<entry group="0011" element="00" vr="LO" vm="1" name="Private Creator"/>
-<entry group="0011" element="01" vr="LO" vm="1" name="IsRapidRegistration"/>
-<entry group="0011" element="02" vr="LO" vm="1" name="IsProtected"/>
-<entry group="0011" element="03" vr="IS" vm="1" name="FilmedCount"/>
-<entry group="0011" element="04" vr="OB" vm="1" name="ApplicationData"/>
-<entry group="0011" element="05" vr="LO" vm="1" name="IsAllowCascadeSave"/>
-<entry group="0011" element="06" vr="LO" vm="1" name="IsAllowCascadeProtect"/>
-<entry group="0011" element="07" vr="LO" vm="1" name="IsDeleted"/>
-<entry group="0019" element="00" vr="LO" vm="1" name="Private Creator"/>
-<entry group="0019" element="01" vr="LO" vm="1" name="ProcType"/>
-<entry group="0019" element="02" vr="LO" vm="1" name="Plane"/>
-<entry group="0019" element="03" vr="SH" vm="1" name="IsSnapShotSeries"/>
-<entry group="0019" element="04" vr="DS" vm="1" name="MaxFscalor"/>
-<entry group="0019" element="05" vr="LO" vm="1" name="SeriesCategoryType"/>
-<entry group="0019" element="07" vr="LO" vm="1" name="ImageContrastBolusAgent"/>
-<entry group="0019" element="08" vr="LO" vm="1" name="ImageSliceThickness"/>
-<entry group="0019" element="09" vr="LO" vm="1" name="ImageReconstructionDiameter"/>
-<entry group="0019" element="0a" vr="LO" vm="1" name="ImageEchoTime"/>
-<entry group="0019" element="0b" vr="LO" vm="1" name="ImageRepetitionTime"/>
-<entry group="0019" element="0c" vr="LO" vm="1" name="SequenceType"/>
-<entry group="0019" element="0d" vr="LO" vm="1" name="TaskUid"/>
-<entry group="0019" element="0e" vr="OB" vm="1" name="SeriesAppData"/>
-<entry group="0019" element="0f" vr="IS" vm="1" name="MultiSliceNumber"/>
-<entry group="0019" element="10" vr="LO" vm="1" name="ImageScanTime"/>
-<entry group="0019" element="11" vr="LO" vm="1" name="IsProtected"/>
-<entry group="0019" element="12" vr="IS" vm="1" name="ImageIncrement"/>
-<entry group="0019" element="13" vr="LO" vm="1" name="MppsStepStatus"/>
-<entry group="0019" element="14" vr="IS" vm="1" name="StorageCommittedCount"/>
-<entry group="0019" element="15" vr="IS" vm="1" name="ArchivedCount"/>
-<entry group="0019" element="16" vr="IS" vm="1" name="TransferredCount"/>
-<entry group="0019" element="17" vr="LO" vm="1" name="IsAllowCascadeSave"/>
-<entry group="0019" element="18" vr="LO" vm="1" name="IsAllowCascadeProtect"/>
-<entry group="0019" element="19" vr="LO" vm="1" name="IsDeleted"/>
-<entry group="0019" element="1a" vr="UI" vm="1" name="CharacterizedImageInstanceUid"/>
-<entry group="0019" element="1b" vr="IS" vm="1" name="CharacterizedImageCount"/>
-<entry group="0019" element="1c" vr="LO" vm="1" name="InternalWindowWidth"/>
-<entry group="0019" element="1d" vr="LO" vm="1" name="InternalWindowLevel"/>
-<entry group="0029" element="00" vr="LO" vm="1" name="Private Creator"/>
-<entry group="0029" element="01" vr="IS" vm="1" name="SliceNumber"/>
-<entry group="0029" element="02" vr="IS" vm="1" name="PhaseNumber"/>
-<entry group="0029" element="03" vr="LO" vm="1" name="ProcType"/>
-<entry group="0029" element="04" vr="LO" vm="1" name="StopwatchTime"/>
-<entry group="0029" element="05" vr="LO" vm="1" name="Plane"/>
-<entry group="0029" element="06" vr="LO" vm="1" name="ScanTime"/>
-<entry group="0029" element="08" vr="LO" vm="1" name="DualSliceFlag"/>
-<entry group="0029" element="09" vr="LO" vm="1" name="SspRatio"/>
-<entry group="0029" element="0a" vr="LO" vm="1" name="GatingSignalSource"/>
-<entry group="0029" element="0b" vr="LO" vm="1" name="Rephase"/>
-<entry group="0029" element="0c" vr="LO" vm="1" name="HalfEcho"/>
-<entry group="0029" element="0d" vr="LO" vm="1" name="RectFOVRatio"/>
-<entry group="0029" element="0e" vr="LO" vm="1" name="HalfScan"/>
-<entry group="0029" element="0f" vr="LO" vm="1" name="NumShots"/>
-<entry group="0029" element="10" vr="LO" vm="1" name="ContrastAgent"/>
-<entry group="0029" element="11" vr="LO" vm="1" name="EchoAllocation"/>
-<entry group="0029" element="12" vr="LO" vm="1" name="NumEchoShift"/>
-<entry group="0029" element="13" vr="LO" vm="1" name="FatSat"/>
-<entry group="0029" element="14" vr="LO" vm="1" name="MTC"/>
-<entry group="0029" element="15" vr="LO" vm="1" name="NumPreSat"/>
-<entry group="0029" element="16" vr="LO" vm="1" name="TargetVelocity"/>
-<entry group="0029" element="17" vr="LO" vm="1" name="VENCAxis"/>
-<entry group="0029" element="18" vr="LO" vm="1" name="NumVENCDirection"/>
-<entry group="0029" element="1c" vr="LO" vm="1" name="IsScalableWindowLevel"/>
-<entry group="0029" element="1d" vr="LO" vm="1" name="ThreeDSettingLineAngle"/>
-<entry group="0029" element="1e" vr="LO" vm="1" name="MPGTotalAxis"/>
-<entry group="0029" element="1f" vr="LO" vm="1" name="MPGAxisNumber"/>
-<entry group="0029" element="20" vr="IS" vm="1" name="MultiEchoNumber"/>
-<entry group="0029" element="21" vr="DS" vm="1" name="NaviAverageGateWidth"/>
-<entry group="0029" element="22" vr="ST" vm="1" name="ShimCompensateValue"/>
-<entry group="0029" element="23" vr="LO" vm="1" name="GCOffset"/>
-<entry group="0029" element="24" vr="DS" vm="1" name="NaviMaxGateWidth"/>
-<entry group="0029" element="25" vr="DS" vm="1" name="NaviMinGateWidth"/>
-<entry group="0029" element="26" vr="DS" vm="1" name="NaviMaxGatePosition"/>
-<entry group="0029" element="27" vr="DS" vm="1" name="NaviMinGatePosition"/>
-<entry group="0029" element="28" vr="DS" vm="1" name="TimeDuration"/>
-<entry group="0029" element="29" vr="DS" vm="1" name="TablePosition"/>
-<entry group="0029" element="2a" vr="DS" vm="1" name="NaviInitialGateWidth"/>
-<entry group="0029" element="2b" vr="DS" vm="1" name="NaviFinalGateWidth"/>
-<entry group="0029" element="a0" vr="FD" vm="1" name="TagThickness"/>
-<entry group="0029" element="a1" vr="FD" vm="1" name="TaggingDelay"/>
-<entry group="0029" element="a2" vr="FD" vm="1" name="TransmitterFrequency"/>
-<entry group="0029" element="a3" vr="DS" vm="1" name="PixelBandwidth"/>
-<entry group="0029" element="a4" vr="SQ" vm="1" name="MRVelocityEncodingSequence"/>
-<entry group="0029" element="a5" vr="FD" vm="1" name="VelocityEncodingDirection"/>
-<entry group="0029" element="a6" vr="FD" vm="1" name="VelocityEncodingMinimumValue"/>
-<entry group="0029" element="a7" vr="FD" vm="1" name="VelocityEncodingMaximumValue"/>
-<entry group="0029" element="a8" vr="SQ" vm="1" name="MRImageFrameTypeSequence"/>
-<entry group="0029" element="a9" vr="CS" vm="1" name="FrameType"/>
-<entry group="0029" element="aa" vr="CS" vm="1" name="PixelPresentation"/>
-<entry group="0029" element="ab" vr="CS" vm="1" name="VolumetricProperties"/>
-<entry group="0029" element="ac" vr="CS" vm="1" name="VolumeBasedCalculationTechnique"/>
-<entry group="0029" element="ad" vr="IS" vm="1" name="FilmedCount"/>
-<entry group="0029" element="ae" vr="LO" vm="1" name="IsTransferred"/>
-<entry group="0029" element="af" vr="LO" vm="1" name="IsArchived"/>
-<entry group="0029" element="b0" vr="LO" vm="1" name="MppsStepStatus"/>
-<entry group="0029" element="b1" vr="LO" vm="1" name="CommitmentStatus"/>
-<entry group="0029" element="b2" vr="LO" vm="1" name="IsStorageCommitted"/>
-<entry group="0029" element="b3" vr="LO" vm="1" name="IsDicom"/>
-<entry group="0029" element="b4" vr="LO" vm="1" name="IsAllowCascadeSave"/>
-<entry group="0029" element="b5" vr="LO" vm="1" name="IsAllowCascadeProtect"/>
-<entry group="0029" element="b6" vr="LO" vm="1" name="IsDeleted"/>
-<entry group="0029" element="b7" vr="OB" vm="1" name="ApplicationData"/>
-<entry group="0029" element="b8" vr="LO" vm="1" name="IsAllowCascadeSave"/>
-<entry group="0029" element="b9" vr="LO" vm="1" name="IsAllowCascadeProtect"/>
-<entry group="0029" element="ba" vr="LO" vm="1" name="IsDeleted"/>
-<entry group="0029" element="bb" vr="IS" vm="1" name="VOI1"/>
-<entry group="0029" element="bc" vr="IS" vm="1" name="VOI2"/>
-<entry group="0029" element="bd" vr="DS" vm="1" name="MixingTime"/>
-<entry group="0029" element="be" vr="FD" vm="1" name="SelectiveIRPosition"/>
-<entry group="0029" element="bf" vr="FD" vm="1" name="SelectiveIRRow"/>
-<entry group="0029" element="c0" vr="FD" vm="1" name="SelectiveIRColumn"/>
-<entry group="0029" element="c1" vr="FD" vm="1" name="SelectiveIROrientation"/>
-<entry group="0029" element="c2" vr="DS" vm="1" name="SelectiveIRThickness"/>
-<entry group="0029" element="c3" vr="CS" vm="1" name="RephaseOrderSlice"/>
-<entry group="0029" element="c4" vr="CS" vm="1" name="RephaseOrderPhase"/>
-<entry group="0029" element="c5" vr="CS" vm="1" name="RephaseOrderFreq"/>
+<dicts><dict owner="MMCPrivate"><entry group="0009" element="00" vr="LO" vm="1" name="Private Creator">
+<definition>From Application</definition>
+</entry>
+<entry group="0009" element="01" vr="LO" vm="1" name="Technologist">
+<definition>From Application</definition>
+</entry>
+<entry group="0009" element="02" vr="LO" vm="1" name="ScheduledStudyDateTime">
+<definition>From Application</definition>
+</entry>
+<entry group="0009" element="03" vr="OB" vm="1" name="StudyAppData">
+<definition>From Application</definition>
+</entry>
+<entry group="0009" element="48" vr="LO" vm="1" name="ProtocolName">
+<definition>From Application</definition>
+</entry>
+<entry group="0009" element="4e" vr="LO" vm="1" name="Cms_BodyPartExamined">
+<definition>From Application</definition>
+</entry>
+<entry group="0009" element="4f" vr="LO" vm="1" name="IsProtected">
+<definition>From Application</definition>
+</entry>
+<entry group="0009" element="50" vr="CS" vm="1" name="Cms_PatientPosition">
+<definition>From Application</definition>
+</entry>
+<entry group="0009" element="51" vr="LO" vm="1" name="Cmi_contrastBolusAgent">
+<definition>From Application</definition>
+</entry>
+<entry group="0009" element="52" vr="LO" vm="1" name="Cms_institutionName">
+<definition>From Application</definition>
+</entry>
+<entry group="0009" element="53" vr="LO" vm="1" name="Cms_institutionalDepartmentName">
+<definition>From Application</definition>
+</entry>
+<entry group="0009" element="54" vr="LO" vm="1" name="Cms_seriesDescription">
+<definition>From Application</definition>
+</entry>
+<entry group="0009" element="55" vr="LO" vm="1" name="Cms_operatorsName">
+<definition>From Application</definition>
+</entry>
+<entry group="0009" element="56" vr="LO" vm="1" name="Cms_PerformingPhysiciansName">
+<definition>From Application</definition>
+</entry>
+<entry group="0009" element="57" vr="ST" vm="1" name="Cms_institutionAddress">
+<definition>From Application</definition>
+</entry>
+<entry group="0009" element="58" vr="LO" vm="1" name="Cmi_imageComments">
+<definition>From Application</definition>
+</entry>
+<entry group="0009" element="59" vr="LO" vm="1" name="Cmi_instanceCreationDateTime">
+<definition>From Application</definition>
+</entry>
+<entry group="0009" element="5a" vr="LO" vm="1" name="MppsStepStatus">
+<definition>From Application</definition>
+</entry>
+<entry group="0009" element="5b" vr="IS" vm="1" name="FilmedCount">
+<definition>From Application</definition>
+</entry>
+<entry group="0009" element="5c" vr="LO" vm="1" name="IsAllowCascadeSave">
+<definition>From Application</definition>
+</entry>
+<entry group="0009" element="5d" vr="LO" vm="1" name="IsAllowCascadeProtect">
+<definition>From Application</definition>
+</entry>
+<entry group="0009" element="5e" vr="LO" vm="1" name="IsDeleted">
+<definition>From Application</definition>
+</entry>
+<entry group="0011" element="00" vr="LO" vm="1" name="Private Creator">
+<definition>From Application</definition>
+</entry>
+<entry group="0011" element="01" vr="LO" vm="1" name="IsRapidRegistration">
+<definition>From Application</definition>
+</entry>
+<entry group="0011" element="02" vr="LO" vm="1" name="IsProtected">
+<definition>From Application</definition>
+</entry>
+<entry group="0011" element="03" vr="IS" vm="1" name="FilmedCount">
+<definition>From Application</definition>
+</entry>
+<entry group="0011" element="04" vr="OB" vm="1" name="ApplicationData">
+<definition>From Application</definition>
+</entry>
+<entry group="0011" element="05" vr="LO" vm="1" name="IsAllowCascadeSave">
+<definition>From Application</definition>
+</entry>
+<entry group="0011" element="06" vr="LO" vm="1" name="IsAllowCascadeProtect">
+<definition>From Application</definition>
+</entry>
+<entry group="0011" element="07" vr="LO" vm="1" name="IsDeleted">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="00" vr="LO" vm="1" name="Private Creator">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="01" vr="LO" vm="1" name="ProcType">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="02" vr="LO" vm="1" name="Plane">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="03" vr="SH" vm="1" name="IsSnapShotSeries">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="04" vr="DS" vm="1" name="MaxFscalor">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="05" vr="LO" vm="1" name="SeriesCategoryType">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="07" vr="LO" vm="1" name="ImageContrastBolusAgent">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="08" vr="LO" vm="1" name="ImageSliceThickness">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="09" vr="LO" vm="1" name="ImageReconstructionDiameter">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="0a" vr="LO" vm="1" name="ImageEchoTime">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="0b" vr="LO" vm="1" name="ImageRepetitionTime">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="0c" vr="LO" vm="1" name="SequenceType">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="0d" vr="LO" vm="1" name="TaskUid">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="0e" vr="OB" vm="1" name="SeriesAppData">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="0f" vr="IS" vm="1" name="MultiSliceNumber">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="10" vr="LO" vm="1" name="ImageScanTime">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="11" vr="LO" vm="1" name="IsProtected">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="12" vr="IS" vm="1" name="ImageIncrement">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="13" vr="LO" vm="1" name="MppsStepStatus">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="14" vr="IS" vm="1" name="StorageCommittedCount">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="15" vr="IS" vm="1" name="ArchivedCount">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="16" vr="IS" vm="1" name="TransferredCount">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="17" vr="LO" vm="1" name="IsAllowCascadeSave">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="18" vr="LO" vm="1" name="IsAllowCascadeProtect">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="19" vr="LO" vm="1" name="IsDeleted">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="1a" vr="UI" vm="1" name="CharacterizedImageInstanceUid">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="1b" vr="IS" vm="1" name="CharacterizedImageCount">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="1c" vr="LO" vm="1" name="InternalWindowWidth">
+<definition>From Application</definition>
+</entry>
+<entry group="0019" element="1d" vr="LO" vm="1" name="InternalWindowLevel">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="00" vr="LO" vm="1" name="Private Creator">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="01" vr="IS" vm="1" name="SliceNumber">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="02" vr="IS" vm="1" name="PhaseNumber">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="03" vr="LO" vm="1" name="ProcType">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="04" vr="LO" vm="1" name="StopwatchTime">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="05" vr="LO" vm="1" name="Plane">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="06" vr="LO" vm="1" name="ScanTime">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="08" vr="LO" vm="1" name="DualSliceFlag">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="09" vr="LO" vm="1" name="SspRatio">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="0a" vr="LO" vm="1" name="GatingSignalSource">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="0b" vr="LO" vm="1" name="Rephase">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="0c" vr="LO" vm="1" name="HalfEcho">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="0d" vr="LO" vm="1" name="RectFOVRatio">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="0e" vr="LO" vm="1" name="HalfScan">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="0f" vr="LO" vm="1" name="NumShots">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="10" vr="LO" vm="1" name="ContrastAgent">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="11" vr="LO" vm="1" name="EchoAllocation">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="12" vr="LO" vm="1" name="NumEchoShift">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="13" vr="LO" vm="1" name="FatSat">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="14" vr="LO" vm="1" name="MTC">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="15" vr="LO" vm="1" name="NumPreSat">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="16" vr="LO" vm="1" name="TargetVelocity">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="17" vr="LO" vm="1" name="VENCAxis">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="18" vr="LO" vm="1" name="NumVENCDirection">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="1c" vr="LO" vm="1" name="IsScalableWindowLevel">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="1d" vr="LO" vm="1" name="ThreeDSettingLineAngle">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="1e" vr="LO" vm="1" name="MPGTotalAxis">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="1f" vr="LO" vm="1" name="MPGAxisNumber">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="20" vr="IS" vm="1" name="MultiEchoNumber">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="21" vr="DS" vm="1" name="NaviAverageGateWidth">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="22" vr="ST" vm="1" name="ShimCompensateValue">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="23" vr="LO" vm="1" name="GCOffset">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="24" vr="DS" vm="1" name="NaviMaxGateWidth">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="25" vr="DS" vm="1" name="NaviMinGateWidth">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="26" vr="DS" vm="1" name="NaviMaxGatePosition">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="27" vr="DS" vm="1" name="NaviMinGatePosition">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="28" vr="DS" vm="1" name="TimeDuration">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="29" vr="DS" vm="1" name="TablePosition">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="2a" vr="DS" vm="1" name="NaviInitialGateWidth">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="2b" vr="DS" vm="1" name="NaviFinalGateWidth">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="a0" vr="FD" vm="1" name="TagThickness">
+<definition>The value is same as Tag Thickness of MR Imaging Modifier Macro</definition>
+</entry>
+<entry group="0029" element="a1" vr="FD" vm="1" name="TaggingDelay">
+<definition>The value is same as Tagging Delay of MR Imaging Modifier Macro</definition>
+</entry>
+<entry group="0029" element="a2" vr="FD" vm="1" name="TransmitterFrequency">
+<definition>The value is same as Transmitter Frequency of MR Imaging Modifier Macro</definition>
+</entry>
+<entry group="0029" element="a3" vr="DS" vm="1" name="PixelBandwidth">
+<definition>The value is same as Pixel Band width of MR Imaging Modifier Macro</definition>
+</entry>
+<entry group="0029" element="a4" vr="SQ" vm="1" name="MRVelocityEncodingSequence">
+<definition>The value is same as MR Velocity Encoding Sequence of MR Velocity Encoding Macro</definition>
+</entry>
+<entry group="0029" element="a5" vr="FD" vm="1" name="VelocityEncodingDirection">
+<definition>The value is same as Velocity Encoding Direction of MR Velocity Encoding Macro</definition>
+</entry>
+<entry group="0029" element="a6" vr="FD" vm="1" name="VelocityEncodingMinimumValue">
+<definition>The value is same as Velocity Encoding Minimum Value of MR Velocity Encoding Macro</definition>
+</entry>
+<entry group="0029" element="a7" vr="FD" vm="1" name="VelocityEncodingMaximumValue">
+<definition>The value is same as Velocity Encoding Maximum Value of MR Velocity Encoding Macro</definition>
+</entry>
+<entry group="0029" element="a8" vr="SQ" vm="1" name="MRImageFrameTypeSequence">
+<definition>The value is same as MR Image Frame Type Sequence of MR Image Frame Type Macro</definition>
+</entry>
+<entry group="0029" element="a9" vr="CS" vm="1" name="FrameType">
+<definition>The value is same as Frame Type of MR Image Frame Type Macro</definition>
+</entry>
+<entry group="0029" element="aa" vr="CS" vm="1" name="PixelPresentation">
+<definition>The value is same as Pixel Presentation of Common CT/MR Image Description Macro</definition>
+</entry>
+<entry group="0029" element="ab" vr="CS" vm="1" name="VolumetricProperties">
+<definition>The value is same as Volumetric Properties of Common CT/MR Image Description Macro</definition>
+</entry>
+<entry group="0029" element="ac" vr="CS" vm="1" name="VolumeBasedCalculationTechnique">
+<definition>The value is same as Volume Based Calculation Technique of Common CT/MR Image Description Macro</definition>
+</entry>
+<entry group="0029" element="ad" vr="IS" vm="1" name="FilmedCount">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="ae" vr="LO" vm="1" name="IsTransferred">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="af" vr="LO" vm="1" name="IsArchived">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="b0" vr="LO" vm="1" name="MppsStepStatus">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="b1" vr="LO" vm="1" name="CommitmentStatus">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="b2" vr="LO" vm="1" name="IsStorageCommitted">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="b3" vr="LO" vm="1" name="IsDicom">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="b4" vr="LO" vm="1" name="IsAllowCascadeSave">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="b5" vr="LO" vm="1" name="IsAllowCascadeProtect">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="b6" vr="LO" vm="1" name="IsDeleted">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="b7" vr="OB" vm="1" name="ApplicationData">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="b8" vr="LO" vm="1" name="IsAllowCascadeSave">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="b9" vr="LO" vm="1" name="IsAllowCascadeProtect">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="ba" vr="LO" vm="1" name="IsDeleted">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="bb" vr="IS" vm="1" name="VOI1">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="bc" vr="IS" vm="1" name="VOI2">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="bd" vr="DS" vm="1" name="MixingTime">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="be" vr="FD" vm="1" name="SelectiveIRPosition">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="bf" vr="FD" vm="1" name="SelectiveIRRow">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="c0" vr="FD" vm="1" name="SelectiveIRColumn">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="c1" vr="FD" vm="1" name="SelectiveIROrientation">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="c2" vr="DS" vm="1" name="SelectiveIRThickness">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="c3" vr="CS" vm="1" name="RephaseOrderSlice">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="c4" vr="CS" vm="1" name="RephaseOrderPhase">
+<definition>From Application</definition>
+</entry>
+<entry group="0029" element="c5" vr="CS" vm="1" name="RephaseOrderFreq">
+<definition>From Application</definition>
+</entry>
 </dict></dicts>

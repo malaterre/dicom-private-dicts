@@ -1,7 +1,7 @@
 #!/bin/bash
-#set -x
+set -x
 set -e
-dirs="hitachi"
+dirs="hitachi agfa"
 for d in $(ls -d $dirs)
 do
   #echo $d
@@ -12,6 +12,11 @@ done
 for d in $(ls -d $dirs)
 do
   md5sum ${d}/*.pdf > ${d}/lists.md5
+  pdffiles=(${d}/*.PDF)
+  if [ -e "${pdffiles[0]}" ];
+  then
+    md5sum ${d}/*.PDF >> ${d}/lists.md5
+  fi
 done
 
 for d in $(ls -d $dirs)

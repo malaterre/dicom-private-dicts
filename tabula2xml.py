@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import json
+import sys
 import argparse
 
 # need to use json output in tabula until:
@@ -13,37 +14,51 @@ parser.add_argument('--header', help='dir help')
 parser.add_argument('--owner', help='dir help')
 args = parser.parse_args()
 
+debug=False
 # we are given a list of files that contains tables to be merged in single dict
 files = args.files.split(',')
 use_table_header = args.use_table_header
+if args.header:
+  header = args.header.split(',')
 
 def normalize_header( header ):
   ret = [None] * len(header)
+  debug = []
   for index,it in enumerate(header):
     txt = it['text']
+    debug.append( txt )
     if txt == 'Attribute Name':
       ret[ index ] = u'AttributeName'
+    elif txt == 'Group, Tag':
+      ret[ index ] = u'Tag'
+    elif txt == 'Default Value':
+      ret[ index ] = u'DefaultValue'
     else:
       ret[ index ] = txt
+  if(debug): print >> sys.stderr, "debug header:", debug
   return ret
 
 def normalize_entry( entry ):
   ret = {}
   ret['vm'] = '1'
+  #if(debug): print entry
   for key,value in entry.items():
     if key == 'VR':
       ret['vr'] = value
     elif key == 'VM':
       ret['vm'] = value
     elif key == 'Tag':
+      if(debug): print >> sys.stderr, "debug tag:", value
       group = "0x%s" % value.split(',')[0].replace('(','')
       group = eval(group)
       if( group > 0xffff or group < 0 ):
         raise ValueError, "group issue with %s" % value
       ret['group'] = "%04x" % group
       element = value.split(',')[1].replace(')','')
-      if element.startswith( 'xx' ):
-        element = element.replace( 'xx', '' )
+      if element.startswith( 'xx' ) and len(element) == 4:
+        element = element[2:4]
+      elif element.startswith( '10' ) and len(element) == 4:
+        element = element[2:4]
       elif element.startswith( '0x' ): # usual copy/paste error from editor
         element = element.replace( '0x', '' )
       if element == '00xx' :
@@ -59,6 +74,14 @@ def normalize_entry( entry ):
       ret['element'] = "%02x" % element
     elif key == 'AttributeName':
       ret['name'] = value
+    elif key == 'Value':
+      if value != None and value != '':
+        ret['definition'] = value
+    elif key == 'DefaultValue':
+      if value != None and value != '':
+        ret['default_value'] = value
+    else:
+      raise ValueError, "impossible key: %s" % key
   return ret
 
 d=[]
@@ -71,6 +94,22 @@ for f in files:
         k = normalize_header( data[0] )
         for j in data[1:]:
           elem={}
+          elstr=[]
+          for el in j:
+            elstr.append(el['text'])
+          if(debug): print >> sys.stderr, "debug el: %s" % ",".join(elstr)
+          for index,col in enumerate(k):
+            elem[ col ] = j[index]['text'].replace('\r',' ')
+          d.append(normalize_entry(elem))
+      elif header:
+        k = header
+        if(debug): print >> sys.stderr, "debug header:", k
+        for j in data[1:]:
+          elem={}
+          elstr=[]
+          for el in j:
+            elstr.append(el['text'])
+          if(debug): print >> sys.stderr, "debug el: %d/%d -> %s" % (len(k),len(j),",".join(elstr))
           for index,col in enumerate(k):
             elem[ col ] = j[index]['text'].replace('\r',' ')
           d.append(normalize_entry(elem))
@@ -93,7 +132,16 @@ with open(oxml,'w') as out_file:
     for o in order:
       #val = '%('+o+')s'
       entry += ' %s="%s"' % (o,it[o])
-    entry += '/>\n'
+    entry += '>\n'
+    if it.has_key('definition'):
+      entry += '<definition>'
+      entry += it['definition']
+      entry += '</definition>\n'
+    if it.has_key('default_value'):
+      entry += '<default_value>'
+      entry += it['default_value']
+      entry += '</default_value>\n'
+    entry += '</entry>\n'
     #print entry
     out_file.write( entry )
   out_file.write( "</dict>" )

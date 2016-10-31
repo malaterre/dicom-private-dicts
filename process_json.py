@@ -2,6 +2,7 @@
 import json
 import argparse
 import os
+import urllib
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--dir', help='dir help')
@@ -28,7 +29,10 @@ with open(f) as data_file:
         for index, table in enumerate(tables):
           fil = "%s/page%d.json" % (dirpath,index)
           files.append( fil )
-          out_file2.write( "./tabula.sh -o %s " % fil )
+          out_file2.write( '#!/bin/sh\n' )
+          out_file2.write( 'set -e\n' )
+          out_file2.write( 'set -x\n' )
+          out_file2.write( './tabula.sh -o "%s" ' % fil )
           if table.has_key('pages'):
             out_file2.write( "-p " )
             out_file2.write( table['pages'] )
@@ -41,13 +45,16 @@ with open(f) as data_file:
           inpdf = "%s/%s" % (dirpath, os.path.basename( it['url']))
           filename, file_extension = os.path.splitext(inpdf)
           outxml = "%s.xml" % filename
-          out_file2.write( " %s" % inpdf )
+          out_file2.write( ' "%s"' % inpdf )
           out_file2.write( '\n' )
         # now convert:
         fstr = ','.join(files)
         opts = ""
+        if it.has_key( "header" ):
+          assert( not it.has_key( "opts" ) )
+          opts += ' --header "%s" ' % ",".join(it['header'])
         if it.has_key( "owner" ):
           opts += ' --owner "%s" ' % it['owner']
         if it.has_key( "opts" ):
           opts += it['opts']
-        out_file2.write( "./tabula2xml.py %s --files '%s' --output %s\n" % (opts, fstr, outxml) )
+        out_file2.write( './tabula2xml.py %s --files "%s" --output "%s"\n' % (opts, fstr, outxml) )
