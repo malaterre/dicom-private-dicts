@@ -1,0 +1,37 @@
+<dicts><dict owner="None"><entry group="0019" element="10" vr="SH" vm="1" name="Private Identification Code">
+</entry>
+<entry group="0019" element="05" vr="ST" vm="1" name="Data stream from cassette">
+</entry>
+<entry group="0019" element="30" vr="ST" vm="1" name="Set of destination types (Note 1)">
+</entry>
+<entry group="0019" element="40" vr="ST" vm="1" name="Set of destination Ids (Note 1)">
+</entry>
+<entry group="0019" element="50" vr="ST" vm="1" name="Set of processing codes (Note 1, 2)">
+</entry>
+<entry group="0019" element="60" vr="US" vm="1" name="Number of series in study">
+<default_value>1</default_value>
+</entry>
+<entry group="0019" element="61" vr="DS" vm="1" name="Session No.">
+<default_value>0</default_value>
+</entry>
+<entry group="0019" element="62" vr="SH" vm="1" name="ID station name">
+</entry>
+<entry group="0019" element="70" vr="US" vm="1" name="Number of images in series">
+<default_value>1</default_value>
+</entry>
+<entry group="0019" element="71" vr="US" vm="1" name="Break condition">
+<default_value>0</default_value>
+</entry>
+<entry group="0019" element="72" vr="US" vm="1" name="Wait (or Hold) flag">
+<default_value>0</default_value>
+</entry>
+<entry group="0019" element="73" vr="US" vm="1" name="ScanRes flag">
+<default_value>1</default_value>
+</entry>
+<entry group="0019" element="74" vr="SH" vm="1" name="Operation code">
+<default_value>NO</default_value>
+</entry>
+<entry group="0019" element="95" vr="CS" vm="1" name="Image quality">
+<default_value>0</default_value>
+</entry>
+</dict></dicts>
