@@ -8,7 +8,8 @@ import json
 # need to use json output in tabula until:
 # https://github.com/tabulapdf/tabula/issues/570
 
-files = [ 'data1.json', 'data2.json', 'data3.json']
+#files = [ 'data1.json', 'data2.json', 'data3.json']
+files = [ '/tmp/foo.json']
 
 d=[]
 for f in files:
