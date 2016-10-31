@@ -26,6 +26,21 @@ def normalize_header( header ):
       ret[ index ] = txt
   return ret
 
+def normalize_entry( entry ):
+  ret = {}
+  ret['vm'] = 1
+  for key,value in entry.items():
+    if key == 'VR':
+      ret['vr'] = value
+    elif key == 'VM':
+      ret['vm'] = value
+    elif key == 'Tag':
+      ret['group'] = value.split(',')[0].replace('(','')
+      ret['element'] = value.split(',')[1].replace(')','').replace('xx','')
+    elif key == 'AttributeName':
+      ret['name'] = value
+  return ret
+
 d=[]
 for f in files:
   with open(f) as data_file:    
@@ -38,9 +53,21 @@ for f in files:
           elem={}
           for index,col in enumerate(k):
             elem[ col ] = j[index]['text'].replace('\r',' ')
-          d.append(elem)
+          d.append(normalize_entry(elem))
 
 # now that dict is complete, save as json:
-ojson = args.output
-with open(ojson,'w') as out_file:
-  out_file.write( json.dumps(d, sort_keys=True, indent=4) )
+oxml = args.output
+with open(oxml,'w') as out_file:
+  #out_file.write( json.dumps(d, sort_keys=True, indent=4) )
+  out_file.write( "<dicts>" )
+  out_file.write( "<dict>" )
+  for it in d:
+    entry='<entry'
+    #print it.items()
+    for key, value in it.items():
+      entry += ' %s="%s"' % (key,value)
+    entry += '>\n'
+    #print entry
+    out_file.write( entry )
+  out_file.write( "</dict>" )
+  out_file.write( "</dicts>" )

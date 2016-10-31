@@ -40,7 +40,7 @@ with open(f) as data_file:
               out_file2.write( table['area'] )
           inpdf = "%s/%s" % (dirpath, os.path.basename( it['url']))
           filename, file_extension = os.path.splitext(inpdf)
-          outjson = "%s.json" % filename
+          outxml = "%s.xml" % filename
           out_file2.write( " %s" % inpdf )
           out_file2.write( '\n' )
         # now convert:
@@ -48,4 +48,4 @@ with open(f) as data_file:
         opts = ""
         if it.has_key( "opts" ):
           opts = it['opts']
-        out_file2.write( "./tabula2json.py %s --files '%s' --output %s\n" % (opts, fstr, outjson) )
+        out_file2.write( "./tabula2xml.py %s --files '%s' --output %s\n" % (opts, fstr, outxml) )
