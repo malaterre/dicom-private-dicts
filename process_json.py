@@ -20,6 +20,9 @@ with open(f) as data_file:
   with open(olists,'w') as out_file:
     with open(orun,'w') as out_file2:
       data = json.load(data_file)
+      out_file2.write( '#!/bin/sh\n' )
+      out_file2.write( 'set -e\n' )
+      out_file2.write( 'set -x\n' )
       for it in data:
         url = it['url']
         out_file.write( url )
@@ -29,9 +32,6 @@ with open(f) as data_file:
         for index, table in enumerate(tables):
           fil = "%s/page%d.json" % (dirpath,index)
           files.append( fil )
-          out_file2.write( '#!/bin/sh\n' )
-          out_file2.write( 'set -e\n' )
-          out_file2.write( 'set -x\n' )
           out_file2.write( './tabula.sh -o "%s" ' % fil )
           if table.has_key('pages'):
             out_file2.write( "-p " )
