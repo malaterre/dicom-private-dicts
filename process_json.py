@@ -46,6 +46,8 @@ with open(f) as data_file:
         # now convert:
         fstr = ','.join(files)
         opts = ""
+        if it.has_key( "owner" ):
+          opts += ' --owner "%s" ' % it['owner']
         if it.has_key( "opts" ):
-          opts = it['opts']
+          opts += it['opts']
         out_file2.write( "./tabula2xml.py %s --files '%s' --output %s\n" % (opts, fstr, outxml) )

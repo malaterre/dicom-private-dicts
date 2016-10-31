@@ -10,6 +10,7 @@ parser.add_argument('--files', help='dir help')
 parser.add_argument('--output', help='dir help')
 parser.add_argument('--use_table_header', help='dir help', action='store_true')
 parser.add_argument('--header', help='dir help')
+parser.add_argument('--owner', help='dir help')
 args = parser.parse_args()
 
 # we are given a list of files that contains tables to be merged in single dict
@@ -28,15 +29,34 @@ def normalize_header( header ):
 
 def normalize_entry( entry ):
   ret = {}
-  ret['vm'] = 1
+  ret['vm'] = '1'
   for key,value in entry.items():
     if key == 'VR':
       ret['vr'] = value
     elif key == 'VM':
       ret['vm'] = value
     elif key == 'Tag':
-      ret['group'] = value.split(',')[0].replace('(','')
-      ret['element'] = value.split(',')[1].replace(')','').replace('xx','')
+      group = "0x%s" % value.split(',')[0].replace('(','')
+      group = eval(group)
+      if( group > 0xffff or group < 0 ):
+        raise ValueError, "group issue with %s" % value
+      ret['group'] = "%04x" % group
+      element = value.split(',')[1].replace(')','')
+      if element.startswith( 'xx' ):
+        element = element.replace( 'xx', '' )
+      elif element.startswith( '0x' ): # usual copy/paste error from editor
+        element = element.replace( '0x', '' )
+      if element == '00xx' :
+        element = '0'
+      element = "0x%s" % element
+      try:
+        element = eval(element)
+      except TypeError:
+        print "TypeError from input %s" % element
+        raise
+      if(element > 0xff or element < 0):
+        raise ValueError, "element issue with %s" % value
+      ret['element'] = "%02x" % element
     elif key == 'AttributeName':
       ret['name'] = value
   return ret
@@ -57,11 +77,14 @@ for f in files:
 
 # now that dict is complete, save as json:
 oxml = args.output
+owner = args.owner
 order=['group','element','vr','vm','name']
 with open(oxml,'w') as out_file:
   #out_file.write( json.dumps(d, sort_keys=True, indent=4) )
   out_file.write( "<dicts>" )
-  out_file.write( "<dict>" )
+  out_file.write( "<dict " )
+  out_file.write( 'owner="%s"' % owner )
+  out_file.write( ">" )
   for it in d:
     entry='<entry'
     #print it.items()
@@ -70,7 +93,7 @@ with open(oxml,'w') as out_file:
     for o in order:
       #val = '%('+o+')s'
       entry += ' %s="%s"' % (o,it[o])
-    entry += '>\n'
+    entry += '/>\n'
     #print entry
     out_file.write( entry )
   out_file.write( "</dict>" )
