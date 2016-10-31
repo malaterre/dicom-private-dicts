@@ -1,8 +1,10 @@
 #!/bin/sh
-set -x
+#set -x
 set -e
 
-#python process_json.py --input hitachi/lists.json --lists hitachi/lists.txt --run hitachi/run.sh
-python process_json.py --dir hitachi
-#python process_json.py --input hitachi/lists.json --lists hitachi/lists.txt
-python process_json.py --dir agfa
+dirs="agfa hitachi"
+
+for dir in $dirs
+do
+  python process_json.py --dir $dir
+done

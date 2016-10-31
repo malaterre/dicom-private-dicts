@@ -1,15 +1,6 @@
 <?xml version="1.0"?>
 <!--
-  Program: GDCM (Grassroots DICOM). A DICOM library
-  Module:  $URL$
-
-  Copyright (c) 2006-2008 Mathieu Malaterre
-  All rights reserved.
-  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
-
-     This software is distributed WITHOUT ANY WARRANTY; without even
-     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
-     PURPOSE.  See the above copyright notice for more information.
+  Copyright (c) 2016 Mathieu Malaterre
 -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   <xsl:output method="xml"/>
@@ -18,17 +9,11 @@
       <xsl:apply-templates/>
     </dict>
   </xsl:template>
-<!--xsl:template match="directory">
-    <xsl:apply-templates select="document(concat(.,'/index.xml'))">
-      <xsl:with-param name="parent" select="."/>
-    </xsl:apply-templates>
-  </xsl:template-->
   <xsl:template match="file">
     <xsl:apply-templates select="document(string(.))"/>
   </xsl:template>
   <xsl:template name="process-group">
     <xsl:param name="group"/>
-<!-- DLX_ANNOT_01 has 70nn -> 70xx -->
     <xsl:value-of select="translate($group,'ABCDEFnyzXYZ','abcdefxxxxxx')"/>
   </xsl:template>
   <xsl:template name="process-element">
@@ -41,9 +26,6 @@
       <xsl:when test="string-length($lcel) = 4">
 <!-- Need to check if string contains xx in case of LO Private Creator -->
         <xsl:choose>
-<!--xsl:when test="substring($lcel,1,2) = '00'">
-          <xsl:value-of select="concat('xx',substring($lcel,3,4))"/>
-        </xsl:when-->
           <xsl:when test="substring($lcel,1,2) = 'xx'">
             <xsl:value-of select="$lcel"/>
           </xsl:when>
@@ -84,12 +66,11 @@
   <xsl:template name="process-vr">
     <xsl:param name="vr"/>
     <xsl:choose>
-      <xsl:when test="$vr = 'AE' or                     $vr = 'AS' or                     $vr = 'AT' or                     $vr = 'CS' or                     $vr = 'DA' or                     $vr = 'DS' or                     $vr = 'DT' or                     $vr = 'FD' or                     $vr = 'FL' or                     $vr = 'IS' or                     $vr = 'LO' or                     $vr = 'LT' or                     $vr = 'OB' or                     $vr = 'OF' or                     $vr = 'OW' or                     $vr = 'PN' or                     $vr = 'SH' or                     $vr = 'SL' or                     $vr = 'SQ' or                     $vr = 'SS' or                     $vr = 'ST' or                     $vr = 'TM' or                     $vr = 'UI' or                     $vr = 'UL' or                     $vr = 'UN' or                     $vr = 'US' or                     $vr = 'UT' or                     $vr = 'OB_OW'">
+      <xsl:when test="$vr = 'AE' or $vr = 'AS' or $vr = 'AT' or $vr = 'CS' or $vr = 'DA' or $vr = 'DS' or $vr = 'DT' or $vr = 'FD' or $vr = 'FL' or $vr = 'IS' or $vr = 'LO' or $vr = 'LT' or $vr = 'OB' or $vr = 'OF' or $vr = 'OW' or $vr = 'PN' or $vr = 'SH' or $vr = 'SL' or $vr = 'SQ' or $vr = 'SS' or $vr = 'ST' or $vr = 'TM' or $vr = 'UI' or $vr = 'UL' or $vr = 'UN' or $vr = 'US' or $vr = 'UT' or $vr = 'OB_OW'">
         <xsl:value-of select="$vr"/>
       </xsl:when>
       <xsl:otherwise>
         <xsl:message>Unknown VR:<xsl:value-of select="$vr"/></xsl:message>
-<!--xsl:value-of select="$vr"/-->
         <xsl:value-of select="'UN'"/>
       </xsl:otherwise>
     </xsl:choose>
@@ -185,7 +166,6 @@
             <xsl:with-param name="name" select="@name"/>
           </xsl:call-template>
         </xsl:attribute>
-<!--xsl:copy-of select="@*"/-->
       </xsl:element>
     </xsl:if>
   </xsl:template>
