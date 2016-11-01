@@ -1,0 +1,73 @@
+[
+   {
+      "_url" : "http://www.fujifilm.de/media/DICOM_CRConsole.pdf",
+      "url" : "https://www.fujifilmusa.com/products/medical/technical-documents/product-bulletins/pdf/index/FCR-Go-Flash-IIP.pdf",
+      "tables" : [
+{
+      "opts" : "--use_table_header",
+      "owner" : "MMCPrivate",
+      "chunks" : [
+         {
+            "area" : "234.647,38.317,794.898,578.479",
+            "page" : 57
+         },
+         {
+            "pages" : "58,64"
+         },
+         {
+            "page" : 65,
+            "area" : "54.686,44.269,123.88,568.807"
+         }
+      ]
+}
+],
+      "md5" : "d31bc8d4526b877bc4e117a91d928dfc"
+   },
+   {
+      "_url" : "http://www.fujifilmmedical.fr/up/File/DICOM/fcr_dicom-Flash IIP_CR Console.pdf",
+      "url" : "http://www.umgxray.com/pdf/fujifilmfcrxl2dicom.pdf",
+      "tables" : [
+{
+      "opts" : "--use_table_header",
+      "owner" : "MMCPrivate",
+      "chunks" : [
+         {
+            "area" : "234.647,38.317,794.898,578.479",
+            "page" : 57
+         },
+         {
+            "pages" : "58,64"
+         },
+         {
+            "page" : 65,
+            "area" : "54.686,44.269,123.88,568.807"
+         }
+      ]
+}
+],
+      "md5" : "62bd81d61720271b8084d8fa7fab2032"
+   },
+{
+      "url" : "http://www.fujimed.com/resources/dicom-ihe-statements/doc/qa-ws771_dcs.pdf",
+      "tables" : [
+{
+      "opts" : "--use_table_header",
+      "owner" : "MMCPrivate",
+      "chunks" : [
+         {
+            "area" : "234.647,38.317,794.898,578.479",
+            "page" : 57
+         },
+         {
+            "pages" : "58,64"
+         },
+         {
+            "page" : 65,
+            "area" : "54.686,44.269,123.88,568.807"
+         }
+      ]
+}
+],
+      "md5" : "ffe64d981344b2895d8a2c405d74ae2a"
+   }
+]
