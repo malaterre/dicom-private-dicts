@@ -30,13 +30,18 @@ with open(f) as data_file:
           # let's write the series of files for this manufacturer in an index file
           out_file3.write( '<index>\n' )
           for it in data:
-            md5 = it['md5']
-            out_file4.write( md5 )
-            out_file4.write( '\n' )
             url = it['url']
             out_file.write( url )
             out_file.write( '\n' )
             tables = it['tables']
+            # compute the PDF local path:
+            inpdf = "%s/%s" % (dirpath, os.path.basename( it['url']))
+            filename, file_extension = os.path.splitext(inpdf)
+            md5 = it['md5']
+            out_file4.write( md5 )
+            out_file4.write( '  ' )
+            out_file4.write( inpdf )
+            out_file4.write( '\n' )
             # loop over each table from this PDF doc:
             # a table has only a single owner for now
             for indext, table in enumerate(tables):
@@ -61,9 +66,6 @@ with open(f) as data_file:
                     out_file2.write( chunk['area'] )
                 else:
                   assert(False)
-                # compute the PDF local path:
-                inpdf = "%s/%s" % (dirpath, os.path.basename( it['url']))
-                filename, file_extension = os.path.splitext(inpdf)
                 # compute the target XML file (one per table)
                 outxml = "%s_%d.xml" % (filename, indext)
                 out_file2.write( ' "%s"' % inpdf )
