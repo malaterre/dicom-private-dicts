@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dict>
+  <entry owner="AGFA" group="0019" element="xx10" vr="SH" vm="1" name="Private Identification Code"/>
+  <entry owner="AGFA" group="0019" element="xx11" vr="UN" vm="1" name="Identification data (Note 2)"/>
+  <entry owner="AGFA" group="0019" element="xx13" vr="LO" vm="1" name="Sensitometry Name"/>
+  <entry owner="AGFA" group="0019" element="xx14" vr="UN" vm="1" name="Window/Level list (Note 3)"/>
+  <entry owner="AGFA" group="0019" element="xx15" vr="LO" vm="1" name="Dose Monitoring List"/>
+  <entry owner="AGFA" group="0019" element="xx1a" vr="LO" vm="1" name="Clipped Exposure Deviation"/>
+  <entry owner="AGFA" group="0019" element="xx1b" vr="LO" vm="1" name="Logarithmic PLT Full Scale"/>
+  <entry owner="AGFA" group="0019" element="xx60" vr="US" vm="1" name="Total number of series"/>
+  <entry owner="AGFA" group="0019" element="xx62" vr="SH" vm="1" name="ID Station name"/>
+  <entry owner="AGFA" group="0019" element="xx65" vr="US" vm="1" name="Number of images in study to be transmitted (only sent with autoverify: on)"/>
+  <entry owner="AGFA" group="0019" element="xx70" vr="US" vm="1" name="Total number of images"/>
+  <entry owner="AGFA" group="0019" element="xx80" vr="ST" vm="1" name="Geometrical Transformations"/>
+  <entry owner="AGFA" group="0019" element="xx81" vr="ST" vm="1" name="Roam Origin"/>
+  <entry owner="AGFA" group="0019" element="xx82" vr="US" vm="1" name="Zoom factor"/>
+  <entry owner="AGFA" group="0019" element="xx93" vr="CS" vm="1" name="Status"/>
+  <entry owner="AGFA_ADC_Compact" group="0019" element="xx05" vr="ST" vm="1" name="Data stream from cassette"/>
+  <entry owner="AGFA_ADC_Compact" group="0019" element="xx10" vr="LO" vm="1" name="Private Identification Code"/>
+  <entry owner="AGFA_ADC_Compact" group="0019" element="xx30" vr="ST" vm="1" name="Set of destination types (Note 1)"/>
+  <entry owner="AGFA_ADC_Compact" group="0019" element="xx40" vr="ST" vm="1" name="Set of destination Ids (Note 1)"/>
+  <entry owner="AGFA_ADC_Compact" group="0019" element="xx50" vr="ST" vm="1" name="Set of processing codes (Notes 1 &amp; 2)"/>
+  <entry owner="AGFA_ADC_Compact" group="0019" element="xx60" vr="US" vm="1" name="Number of series in study"/>
+  <entry owner="AGFA_ADC_Compact" group="0019" element="xx61" vr="US" vm="1" name="Session No."/>
+  <entry owner="AGFA_ADC_Compact" group="0019" element="xx62" vr="SH" vm="1" name="ID station name"/>
+  <entry owner="AGFA_ADC_Compact" group="0019" element="xx70" vr="US" vm="1" name="Number of images in series"/>
+  <entry owner="AGFA_ADC_Compact" group="0019" element="xx71" vr="US" vm="1" name="Break condition"/>
+  <entry owner="AGFA_ADC_Compact" group="0019" element="xx72" vr="US" vm="1" name="Wait (or Hold) flag"/>
+  <entry owner="AGFA_ADC_Compact" group="0019" element="xx73" vr="US" vm="1" name="ScanRes flag;"/>
+  <entry owner="AGFA_ADC_Compact" group="0019" element="xx74" vr="SH" vm="1" name="Operation code"/>
+  <entry owner="AGFA_ADC_Compact" group="0019" element="xx95" vr="CS" vm="1" name="Image quality"/>
+  <entry owner="MMCPrivate" group="0009" element="xx00" vr="LO" vm="1" name="Private Creator"/>
+  <entry owner="MMCPrivate" group="0009" element="xx01" vr="LO" vm="1" name="Technologist"/>
+  <entry owner="MMCPrivate" group="0009" element="xx02" vr="LO" vm="1" name="ScheduledStudyDateTime"/>
+  <entry owner="MMCPrivate" group="0009" element="xx03" vr="OB" vm="1" name="StudyAppData"/>
+  <entry owner="MMCPrivate" group="0009" element="xx48" vr="LO" vm="1" name="ProtocolName"/>
+  <entry owner="MMCPrivate" group="0009" element="xx4e" vr="LO" vm="1" name="Cms_BodyPartExamined"/>
+  <entry owner="MMCPrivate" group="0009" element="xx4f" vr="LO" vm="1" name="IsProtected"/>
+  <entry owner="MMCPrivate" group="0009" element="xx50" vr="CS" vm="1" name="Cms_PatientPosition"/>
+  <entry owner="MMCPrivate" group="0009" element="xx51" vr="LO" vm="1" name="Cmi_contrastBolusAgent"/>
+  <entry owner="MMCPrivate" group="0009" element="xx52" vr="LO" vm="1" name="Cms_institutionName"/>
+  <entry owner="MMCPrivate" group="0009" element="xx53" vr="LO" vm="1" name="Cms_institutionalDepartmentName"/>
+  <entry owner="MMCPrivate" group="0009" element="xx54" vr="LO" vm="1" name="Cms_seriesDescription"/>
+  <entry owner="MMCPrivate" group="0009" element="xx55" vr="LO" vm="1" name="Cms_operatorsName"/>
+  <entry owner="MMCPrivate" group="0009" element="xx56" vr="LO" vm="1" name="Cms_PerformingPhysiciansName"/>
+  <entry owner="MMCPrivate" group="0009" element="xx57" vr="ST" vm="1" name="Cms_institutionAddress"/>
+  <entry owner="MMCPrivate" group="0009" element="xx58" vr="LO" vm="1" name="Cmi_imageComments"/>
+  <entry owner="MMCPrivate" group="0009" element="xx59" vr="LO" vm="1" name="Cmi_instanceCreationDateTime"/>
+  <entry owner="MMCPrivate" group="0009" element="xx5a" vr="LO" vm="1" name="MppsStepStatus"/>
+  <entry owner="MMCPrivate" group="0009" element="xx5b" vr="IS" vm="1" name="FilmedCount"/>
+  <entry owner="MMCPrivate" group="0009" element="xx5c" vr="LO" vm="1" name="IsAllowCascadeSave"/>
+  <entry owner="MMCPrivate" group="0009" element="xx5d" vr="LO" vm="1" name="IsAllowCascadeProtect"/>
+  <entry owner="MMCPrivate" group="0009" element="xx5e" vr="LO" vm="1" name="IsDeleted"/>
+  <entry owner="MMCPrivate" group="0011" element="xx00" vr="LO" vm="1" name="Private Creator"/>
+  <entry owner="MMCPrivate" group="0011" element="xx01" vr="LO" vm="1" name="IsRapidRegistration"/>
+  <entry owner="MMCPrivate" group="0011" element="xx02" vr="LO" vm="1" name="IsProtected"/>
+  <entry owner="MMCPrivate" group="0011" element="xx03" vr="IS" vm="1" name="FilmedCount"/>
+  <entry owner="MMCPrivate" group="0011" element="xx04" vr="OB" vm="1" name="ApplicationData"/>
+  <entry owner="MMCPrivate" group="0011" element="xx05" vr="LO" vm="1" name="IsAllowCascadeSave"/>
+  <entry owner="MMCPrivate" group="0011" element="xx06" vr="LO" vm="1" name="IsAllowCascadeProtect"/>
+  <entry owner="MMCPrivate" group="0011" element="xx07" vr="LO" vm="1" name="IsDeleted"/>
+  <entry owner="MMCPrivate" group="0019" element="xx00" vr="LO" vm="1" name="Private Creator"/>
+  <entry owner="MMCPrivate" group="0019" element="xx01" vr="LO" vm="1" name="ProcType"/>
+  <entry owner="MMCPrivate" group="0019" element="xx02" vr="LO" vm="1" name="Plane"/>
+  <entry owner="MMCPrivate" group="0019" element="xx03" vr="SH" vm="1" name="IsSnapShotSeries"/>
+  <entry owner="MMCPrivate" group="0019" element="xx04" vr="DS" vm="1" name="MaxFscalor"/>
+  <entry owner="MMCPrivate" group="0019" element="xx05" vr="LO" vm="1" name="SeriesCategoryType"/>
+  <entry owner="MMCPrivate" group="0019" element="xx07" vr="LO" vm="1" name="ImageContrastBolusAgent"/>
+  <entry owner="MMCPrivate" group="0019" element="xx08" vr="LO" vm="1" name="ImageSliceThickness"/>
+  <entry owner="MMCPrivate" group="0019" element="xx09" vr="LO" vm="1" name="ImageReconstructionDiameter"/>
+  <entry owner="MMCPrivate" group="0019" element="xx0a" vr="LO" vm="1" name="ImageEchoTime"/>
+  <entry owner="MMCPrivate" group="0019" element="xx0b" vr="LO" vm="1" name="ImageRepetitionTime"/>
+  <entry owner="MMCPrivate" group="0019" element="xx0c" vr="LO" vm="1" name="SequenceType"/>
+  <entry owner="MMCPrivate" group="0019" element="xx0d" vr="LO" vm="1" name="TaskUid"/>
+  <entry owner="MMCPrivate" group="0019" element="xx0e" vr="OB" vm="1" name="SeriesAppData"/>
+  <entry owner="MMCPrivate" group="0019" element="xx0f" vr="IS" vm="1" name="MultiSliceNumber"/>
+  <entry owner="MMCPrivate" group="0019" element="xx10" vr="LO" vm="1" name="ImageScanTime"/>
+  <entry owner="MMCPrivate" group="0019" element="xx11" vr="LO" vm="1" name="IsProtected"/>
+  <entry owner="MMCPrivate" group="0019" element="xx12" vr="IS" vm="1" name="ImageIncrement"/>
+  <entry owner="MMCPrivate" group="0019" element="xx13" vr="LO" vm="1" name="MppsStepStatus"/>
+  <entry owner="MMCPrivate" group="0019" element="xx14" vr="IS" vm="1" name="StorageCommittedCount"/>
+  <entry owner="MMCPrivate" group="0019" element="xx15" vr="IS" vm="1" name="ArchivedCount"/>
+  <entry owner="MMCPrivate" group="0019" element="xx16" vr="IS" vm="1" name="TransferredCount"/>
+  <entry owner="MMCPrivate" group="0019" element="xx17" vr="LO" vm="1" name="IsAllowCascadeSave"/>
+  <entry owner="MMCPrivate" group="0019" element="xx18" vr="LO" vm="1" name="IsAllowCascadeProtect"/>
+  <entry owner="MMCPrivate" group="0019" element="xx19" vr="LO" vm="1" name="IsDeleted"/>
+  <entry owner="MMCPrivate" group="0019" element="xx1a" vr="UI" vm="1" name="CharacterizedImageInstanceUid"/>
+  <entry owner="MMCPrivate" group="0019" element="xx1b" vr="IS" vm="1" name="CharacterizedImageCount"/>
+  <entry owner="MMCPrivate" group="0019" element="xx1c" vr="LO" vm="1" name="InternalWindowWidth"/>
+  <entry owner="MMCPrivate" group="0019" element="xx1d" vr="LO" vm="1" name="InternalWindowLevel"/>
+  <entry owner="MMCPrivate" group="0029" element="xx00" vr="LO" vm="1" name="Private Creator"/>
+  <entry owner="MMCPrivate" group="0029" element="xx01" vr="IS" vm="1" name="SliceNumber"/>
+  <entry owner="MMCPrivate" group="0029" element="xx02" vr="IS" vm="1" name="PhaseNumber"/>
+  <entry owner="MMCPrivate" group="0029" element="xx03" vr="LO" vm="1" name="ProcType"/>
+  <entry owner="MMCPrivate" group="0029" element="xx04" vr="LO" vm="1" name="StopwatchTime"/>
+  <entry owner="MMCPrivate" group="0029" element="xx05" vr="LO" vm="1" name="Plane"/>
+  <entry owner="MMCPrivate" group="0029" element="xx06" vr="LO" vm="1" name="ScanTime"/>
+  <entry owner="MMCPrivate" group="0029" element="xx08" vr="LO" vm="1" name="DualSliceFlag"/>
+  <entry owner="MMCPrivate" group="0029" element="xx09" vr="LO" vm="1" name="SspRatio"/>
+  <entry owner="MMCPrivate" group="0029" element="xx0a" vr="LO" vm="1" name="GatingSignalSource"/>
+  <entry owner="MMCPrivate" group="0029" element="xx0b" vr="LO" vm="1" name="Rephase"/>
+  <entry owner="MMCPrivate" group="0029" element="xx0c" vr="LO" vm="1" name="HalfEcho"/>
+  <entry owner="MMCPrivate" group="0029" element="xx0d" vr="LO" vm="1" name="RectFOVRatio"/>
+  <entry owner="MMCPrivate" group="0029" element="xx0e" vr="LO" vm="1" name="HalfScan"/>
+  <entry owner="MMCPrivate" group="0029" element="xx0f" vr="LO" vm="1" name="NumShots"/>
+  <entry owner="MMCPrivate" group="0029" element="xx10" vr="LO" vm="1" name="ContrastAgent"/>
+  <entry owner="MMCPrivate" group="0029" element="xx11" vr="LO" vm="1" name="EchoAllocation"/>
+  <entry owner="MMCPrivate" group="0029" element="xx12" vr="LO" vm="1" name="NumEchoShift"/>
+  <entry owner="MMCPrivate" group="0029" element="xx13" vr="LO" vm="1" name="FatSat"/>
+  <entry owner="MMCPrivate" group="0029" element="xx14" vr="LO" vm="1" name="MTC"/>
+  <entry owner="MMCPrivate" group="0029" element="xx15" vr="LO" vm="1" name="NumPreSat"/>
+  <entry owner="MMCPrivate" group="0029" element="xx16" vr="LO" vm="1" name="TargetVelocity"/>
+  <entry owner="MMCPrivate" group="0029" element="xx17" vr="LO" vm="1" name="VENCAxis"/>
+  <entry owner="MMCPrivate" group="0029" element="xx18" vr="LO" vm="1" name="NumVENCDirection"/>
+  <entry owner="MMCPrivate" group="0029" element="xx1c" vr="LO" vm="1" name="IsScalableWindowLevel"/>
+  <entry owner="MMCPrivate" group="0029" element="xx1d" vr="LO" vm="1" name="ThreeDSettingLineAngle"/>
+  <entry owner="MMCPrivate" group="0029" element="xx1e" vr="LO" vm="1" name="MPGTotalAxis"/>
+  <entry owner="MMCPrivate" group="0029" element="xx1f" vr="LO" vm="1" name="MPGAxisNumber"/>
+  <entry owner="MMCPrivate" group="0029" element="xx20" vr="IS" vm="1" name="MultiEchoNumber"/>
+  <entry owner="MMCPrivate" group="0029" element="xx21" vr="DS" vm="1" name="NaviAverageGateWidth"/>
+  <entry owner="MMCPrivate" group="0029" element="xx22" vr="ST" vm="1" name="ShimCompensateValue"/>
+  <entry owner="MMCPrivate" group="0029" element="xx23" vr="LO" vm="1" name="GCOffset"/>
+  <entry owner="MMCPrivate" group="0029" element="xx24" vr="DS" vm="1" name="NaviMaxGateWidth"/>
+  <entry owner="MMCPrivate" group="0029" element="xx25" vr="DS" vm="1" name="NaviMinGateWidth"/>
+  <entry owner="MMCPrivate" group="0029" element="xx26" vr="DS" vm="1" name="NaviMaxGatePosition"/>
+  <entry owner="MMCPrivate" group="0029" element="xx27" vr="DS" vm="1" name="NaviMinGatePosition"/>
+  <entry owner="MMCPrivate" group="0029" element="xx28" vr="DS" vm="1" name="TimeDuration"/>
+  <entry owner="MMCPrivate" group="0029" element="xx29" vr="DS" vm="1" name="TablePosition"/>
+  <entry owner="MMCPrivate" group="0029" element="xx2a" vr="DS" vm="1" name="NaviInitialGateWidth"/>
+  <entry owner="MMCPrivate" group="0029" element="xx2b" vr="DS" vm="1" name="NaviFinalGateWidth"/>
+  <entry owner="MMCPrivate" group="0029" element="xxa0" vr="FD" vm="1" name="TagThickness"/>
+  <entry owner="MMCPrivate" group="0029" element="xxa1" vr="FD" vm="1" name="TaggingDelay"/>
+  <entry owner="MMCPrivate" group="0029" element="xxa2" vr="FD" vm="1" name="TransmitterFrequency"/>
+  <entry owner="MMCPrivate" group="0029" element="xxa3" vr="DS" vm="1" name="PixelBandwidth"/>
+  <entry owner="MMCPrivate" group="0029" element="xxa4" vr="SQ" vm="1" name="MRVelocityEncodingSequence"/>
+  <entry owner="MMCPrivate" group="0029" element="xxa5" vr="FD" vm="1" name="VelocityEncodingDirection"/>
+  <entry owner="MMCPrivate" group="0029" element="xxa6" vr="FD" vm="1" name="VelocityEncodingMinimumValue"/>
+  <entry owner="MMCPrivate" group="0029" element="xxa7" vr="FD" vm="1" name="VelocityEncodingMaximumValue"/>
+  <entry owner="MMCPrivate" group="0029" element="xxa8" vr="SQ" vm="1" name="MRImageFrameTypeSequence"/>
+  <entry owner="MMCPrivate" group="0029" element="xxa9" vr="CS" vm="1" name="FrameType"/>
+  <entry owner="MMCPrivate" group="0029" element="xxaa" vr="CS" vm="1" name="PixelPresentation"/>
+  <entry owner="MMCPrivate" group="0029" element="xxab" vr="CS" vm="1" name="VolumetricProperties"/>
+  <entry owner="MMCPrivate" group="0029" element="xxac" vr="CS" vm="1" name="VolumeBasedCalculationTechnique"/>
+  <entry owner="MMCPrivate" group="0029" element="xxad" vr="IS" vm="1" name="FilmedCount"/>
+  <entry owner="MMCPrivate" group="0029" element="xxae" vr="LO" vm="1" name="IsTransferred"/>
+  <entry owner="MMCPrivate" group="0029" element="xxaf" vr="LO" vm="1" name="IsArchived"/>
+  <entry owner="MMCPrivate" group="0029" element="xxb0" vr="LO" vm="1" name="MppsStepStatus"/>
+  <entry owner="MMCPrivate" group="0029" element="xxb1" vr="LO" vm="1" name="CommitmentStatus"/>
+  <entry owner="MMCPrivate" group="0029" element="xxb2" vr="LO" vm="1" name="IsStorageCommitted"/>
+  <entry owner="MMCPrivate" group="0029" element="xxb3" vr="LO" vm="1" name="IsDicom"/>
+  <entry owner="MMCPrivate" group="0029" element="xxb4" vr="LO" vm="1" name="IsAllowCascadeSave"/>
+  <entry owner="MMCPrivate" group="0029" element="xxb5" vr="LO" vm="1" name="IsAllowCascadeProtect"/>
+  <entry owner="MMCPrivate" group="0029" element="xxb6" vr="LO" vm="1" name="IsDeleted"/>
+  <entry owner="MMCPrivate" group="0029" element="xxb7" vr="OB" vm="1" name="ApplicationData"/>
+  <entry owner="MMCPrivate" group="0029" element="xxb8" vr="LO" vm="1" name="IsAllowCascadeSave"/>
+  <entry owner="MMCPrivate" group="0029" element="xxb9" vr="LO" vm="1" name="IsAllowCascadeProtect"/>
+  <entry owner="MMCPrivate" group="0029" element="xxba" vr="LO" vm="1" name="IsDeleted"/>
+  <entry owner="MMCPrivate" group="0029" element="xxbb" vr="IS" vm="1" name="VOI1"/>
+  <entry owner="MMCPrivate" group="0029" element="xxbc" vr="IS" vm="1" name="VOI2"/>
+  <entry owner="MMCPrivate" group="0029" element="xxbd" vr="DS" vm="1" name="MixingTime"/>
+  <entry owner="MMCPrivate" group="0029" element="xxbe" vr="FD" vm="1" name="SelectiveIRPosition"/>
+  <entry owner="MMCPrivate" group="0029" element="xxbf" vr="FD" vm="1" name="SelectiveIRRow"/>
+  <entry owner="MMCPrivate" group="0029" element="xxc0" vr="FD" vm="1" name="SelectiveIRColumn"/>
+  <entry owner="MMCPrivate" group="0029" element="xxc1" vr="FD" vm="1" name="SelectiveIROrientation"/>
+  <entry owner="MMCPrivate" group="0029" element="xxc2" vr="DS" vm="1" name="SelectiveIRThickness"/>
+  <entry owner="MMCPrivate" group="0029" element="xxc3" vr="CS" vm="1" name="RephaseOrderSlice"/>
+  <entry owner="MMCPrivate" group="0029" element="xxc4" vr="CS" vm="1" name="RephaseOrderPhase"/>
+  <entry owner="MMCPrivate" group="0029" element="xxc5" vr="CS" vm="1" name="RephaseOrderFreq"/>
+</dict>
