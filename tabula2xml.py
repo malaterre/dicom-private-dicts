@@ -20,15 +20,14 @@ debug=False
 # we are given a list of files that contains tables to be merged in single dict
 files = args.files.split(',')
 use_table_header = args.use_table_header
+header = None
 if args.header:
   header = args.header.split(',')
 
 def normalize_header( header ):
   ret = [None] * len(header)
-  debug = []
   for index,it in enumerate(header):
     txt = it['text']
-    debug.append( txt )
     if txt == 'Attribute Name':
       ret[ index ] = u'AttributeName'
     elif txt == 'Group, Tag':
@@ -43,6 +42,7 @@ def normalize_header( header ):
 def normalize_entry( entry ):
   ret = {}
   ret['vm'] = '1'
+  ret['vr'] = 'UN'
   #if(debug): print entry
   for key,value in entry.items():
     if key == 'VR':
@@ -109,7 +109,7 @@ for f in files:
           for index,col in enumerate(k):
             elem[ col ] = j[index]['text'].replace('\r',' ')
           d.append(normalize_entry(elem))
-      elif header:
+      elif header != None:
         k = header
         if(debug): print >> sys.stderr, "debug header:", k
         for j in data[1:]:
@@ -121,6 +121,8 @@ for f in files:
           for index,col in enumerate(k):
             elem[ col ] = j[index]['text'].replace('\r',' ')
           d.append(normalize_entry(elem))
+      else:
+        assert(False)
 
 # now that dict is complete, save as json:
 oxml = args.output

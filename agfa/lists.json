@@ -1,54 +1,43 @@
 [
    {
       "url" : "http://www.agfahealthcare.com/he/france/fr/binaries/000978_tcm583-21764.pdf",
+      "tables" : [
+ {
       "header" : [ "AttributeName","Tag","VR","DefaultValue" ],
       "owner" : "AGFA",
-      "tables" : [
+      "chunks" : [
          {
             "area" : "400,173,650,1000",
             "page" : 15
          }
+       ]
+       }
       ],
       "md5" : "01df924b002f764933bc6566c57fe3ce"
    },
    {
       "url" : "http://www.agfahealthcare.com/he/france/fr/binaries/000946_tcm583-21755.pdf",
+      "tables" : [
+   {
       "header" : [ "AttributeName","Tag","VR","Type","DefaultValue","UNK" ],
       "owner" : "AGFA_ADC_Compact",
-      "tables" : [
-         {
-            "area" : "50,61,400,1000",
-            "page" : 25
-         },
+      "chunks" : [
          {
             "area" : "50,61,400,1000",
             "page" : 25
          }
-      ],
-      "md5" : "01df924b002f764933bc6566c57fe3ce"
+      ]
    },
-    {
-       "url" : "http://www.agfahealthcare.com/he/france/fr/binaries/000510 DICOM Conformance Statement ADC-QS rev 5.0_tcm583-21763.PDF",
-       "header" : [ "AttributeName","Tag","VR","DefaultValue" ],
-       "owner" : "AGFA_ADC_Compact",
-       "tables" : [
-          {
-             "area" : "30,144,370,700",
-             "page" : 24
-          }
-       ],
-       "md5" : "01df924b002f764933bc6566c57fe3ce"
-    },
-    {
-       "url" : "http://www.agfahealthcare.com/he/france/fr/binaries/000510 DICOM Conformance Statement ADC-QS rev 5.0_tcm583-21763.PDF",
-       "header" : [ "AttributeName","Tag","VR","DefaultValue" ],
-       "owner" : "AGFA",
-       "tables" : [
-          {
-             "area" : "100,189,320,1000",
-             "page" : 20
-          }
-       ],
-       "md5" : "01df924b002f764933bc6566c57fe3ce"
-    }
+   {
+      "header" : [ "AttributeName","Tag","DefaultValue" ],
+      "owner" : "AGFA",
+      "chunks" : [
+         {
+            "area" : "100,50,250,1000",
+            "page" : 16
+         }
+      ]
+   }
+   ]
+   }
 ]

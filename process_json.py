@@ -31,35 +31,37 @@ with open(f) as data_file:
           out_file.write( url )
           out_file.write( '\n' )
           tables = it['tables']
-          files=[]
-          for index, table in enumerate(tables):
-            fil = "%s/page%d.json" % (dirpath,index)
-            files.append( fil )
-            out_file2.write( './tabula.sh -o "%s" ' % fil )
-            if table.has_key('pages'):
-              out_file2.write( "-p " )
-              out_file2.write( table['pages'] )
-            elif table.has_key('page'):
-              out_file2.write( "-p " )
-              out_file2.write( str(table['page']) )
-              if table.has_key('area'):
-                out_file2.write( " -a " )
-                out_file2.write( table['area'] )
-            inpdf = "%s/%s" % (dirpath, os.path.basename( it['url']))
-            filename, file_extension = os.path.splitext(inpdf)
-            outxml = "%s.xml" % filename
-            out_file2.write( ' "%s"' % inpdf )
-            out_file2.write( '\n' )
-          # now convert:
-          fstr = ','.join(files)
-          opts = ""
-          if it.has_key( "header" ):
-            assert( not it.has_key( "opts" ) )
-            opts += ' --header "%s" ' % ",".join(it['header'])
-          if it.has_key( "owner" ):
-            opts += ' --owner "%s" ' % it['owner']
-          if it.has_key( "opts" ):
-            opts += it['opts']
-          out_file2.write( './tabula2xml.py %s --files "%s" --output "%s"\n' % (opts, fstr, outxml) )
-          out_file3.write( '<file>%s</file>\n' % urllib.quote(outxml)  )
+          for indexold, table in enumerate(tables):
+            files=[]
+            chunks = table['chunks']
+            for index, chunk in enumerate(chunks):
+              fil = "%s/table%d.json" % (dirpath,index)
+              files.append( fil )
+              out_file2.write( './tabula.sh -o "%s" ' % fil )
+              if chunk.has_key('pages'):
+                out_file2.write( "-p " )
+                out_file2.write( chunk['pages'] )
+              elif chunk.has_key('page'):
+                out_file2.write( "-p " )
+                out_file2.write( str(chunk['page']) )
+                if chunk.has_key('area'):
+                  out_file2.write( " -a " )
+                  out_file2.write( chunk['area'] )
+              inpdf = "%s/%s" % (dirpath, os.path.basename( it['url']))
+              filename, file_extension = os.path.splitext(inpdf)
+              outxml = "%s_%d.xml" % (filename, indexold)
+              out_file2.write( ' "%s"' % inpdf )
+              out_file2.write( '\n' )
+            # now convert:
+            fstr = ','.join(files)
+            opts = ""
+            if table.has_key( "header" ):
+              assert( not table.has_key( "opts" ) )
+              opts += ' --header "%s" ' % ",".join(table['header'])
+            if table.has_key( "owner" ):
+              opts += ' --owner "%s" ' % table['owner']
+            if table.has_key( "opts" ):
+              opts += table['opts']
+            out_file2.write( './tabula2xml.py %s --files "%s" --output "%s"\n' % (opts, fstr, outxml) )
+            out_file3.write( '<file>%s</file>\n' % urllib.quote(outxml)  )
         out_file3.write( '</index>\n' )
