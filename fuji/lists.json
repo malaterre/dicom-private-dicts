@@ -1,10 +1,17 @@
 [
    {
-      "md5" : "d31bc8d4526b877bc4e117a91d928dfc",
       "url" : "https://www.fujifilmusa.com/products/medical/technical-documents/product-bulletins/pdf/index/FCR-Go-Flash-IIP.pdf",
       "_url" : "http://www.fujifilm.de/media/DICOM_CRConsole.pdf",
+      "md5" : "d31bc8d4526b877bc4e117a91d928dfc",
       "tables" : [
          {
+            "header" : [
+               "AttributeName",
+               "Tag",
+               "VR",
+               "Type",
+               "Definition"
+            ],
             "owner" : "FDMS 1.0",
             "chunks" : [
                {
@@ -14,53 +21,38 @@
                   "area" : "0,0,450,1000",
                   "page" : 31
                }
-            ],
-            "header" : [
-               "AttributeName",
-               "Tag",
-               "VR",
-               "Type",
-               "Definition"
             ]
          }
       ]
    },
    {
+      "tables" : [],
+      "md5" : "62bd81d61720271b8084d8fa7fab2032",
       "_tables" : [
          {
             "chunks" : [
                {
-                  "page" : 57,
-                  "area" : "234.647,38.317,794.898,578.479"
+                  "area" : "234.647,38.317,794.898,578.479",
+                  "page" : 57
                },
                {
                   "pages" : "58,64"
                },
                {
-                  "page" : 65,
-                  "area" : "54.686,44.269,123.88,568.807"
+                  "area" : "54.686,44.269,123.88,568.807",
+                  "page" : 65
                }
             ],
-            "opts" : "--use_table_header",
-            "owner" : "MMCPrivate"
+            "owner" : "MMCPrivate",
+            "opts" : "--use_table_header"
          }
       ],
-      "tables" : [],
-      "url" : "http://www.umgxray.com/pdf/fujifilmfcrxl2dicom.pdf",
-      "md5" : "62bd81d61720271b8084d8fa7fab2032",
-      "_url" : "http://www.fujifilmmedical.fr/up/File/DICOM/fcr_dicom-Flash IIP_CR Console.pdf"
+      "_url" : "http://www.fujifilmmedical.fr/up/File/DICOM/fcr_dicom-Flash IIP_CR Console.pdf",
+      "url" : "http://www.umgxray.com/pdf/fujifilmfcrxl2dicom.pdf"
    },
    {
-      "md5" : "ffe64d981344b2895d8a2c405d74ae2a",
-      "url" : "http://www.fujimed.com/resources/dicom-ihe-statements/doc/qa-ws771_dcs.pdf",
       "tables" : [
          {
-            "header" : [
-               "Group",
-               "Element",
-               "AttributeName",
-               "VR"
-            ],
             "chunks" : [
                {
                   "area" : "161.033,130.433,262.013,498.398",
@@ -71,21 +63,33 @@
                   "page" : 24
                },
                {
-                  "area" : "450.203,94.478,643.748,500.693",
-                  "page" : 24
+                  "page" : 24,
+                  "area" : "450.203,94.478,643.748,500.693"
                },
                {
-                  "area" : "645.278,117.428,716.423,520.583",
-                  "page" : 24
+                  "page" : 24,
+                  "area" : "645.278,117.428,716.423,520.583"
                },
                {
                   "area" : "86.828,119.723,200.813,515.227",
-                  "_area" : "54.686,44.269,123.88,568.807",
-                  "page" : 25
+                  "page" : 25,
+                  "_area" : "54.686,44.269,123.88,568.807"
                }
             ],
-            "owner" : "FDMS 1.0"
+            "owner" : "FDMS 1.0",
+            "header" : [
+               "Group",
+               "Element",
+               "AttributeName",
+               "VR"
+            ]
          }
-      ]
+      ],
+      "url" : "http://www.fujimed.com/resources/dicom-ihe-statements/doc/qa-ws771_dcs.pdf",
+      "md5" : "ffe64d981344b2895d8a2c405d74ae2a"
+   },
+   {
+      "url" : "https://www.fujifilmusa.com/products/medical/technical-documents/product-bulletins/pdf/index/HI-C655.pdf",
+      "md5" : "90fe6f0ec69a1caa154858b36a04453a"
    }
 ]
