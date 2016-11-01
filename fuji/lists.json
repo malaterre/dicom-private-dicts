@@ -7,19 +7,15 @@
          {
             "chunks" : [
                {
-                  "area" : "234.647,38.317,794.898,578.479",
-                  "page" : 57
+                  "pages" : "27,30"
                },
                {
-                  "pages" : "58,64"
-               },
-               {
-                  "page" : 65,
-                  "area" : "54.686,44.269,123.88,568.807"
+                  "area" : "0,0,450,1000",
+                  "page" : 31
                }
             ],
-            "owner" : "MMCPrivate",
-            "opts" : "--use_table_header"
+            "owner" : "FDMS 1.0",
+            "header" : [ "AttributeName","Tag","VR","Type","Definition" ]
          }
       ]
    },

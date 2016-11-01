@@ -4,6 +4,7 @@ import sys
 import argparse
 #from xml.sax.saxutils import quoteattr
 from xml.sax.saxutils import escape
+import codecs
 
 # need to use json output in tabula until:
 # https://github.com/tabulapdf/tabula/issues/570
@@ -16,7 +17,8 @@ parser.add_argument('--header', help='dir help')
 parser.add_argument('--owner', help='dir help')
 args = parser.parse_args()
 
-debug=False
+debug=True
+#debug=False
 # we are given a list of files that contains tables to be merged in single dict
 files = args.files.split(',')
 use_table_header = args.use_table_header
@@ -55,6 +57,8 @@ def normalize_entry( entry ):
       group = eval(group)
       if( group > 0xffff or group < 0 ):
         raise ValueError, "group issue with %s" % value
+      if( group % 2 == 0 ):
+        return None
       ret['group'] = "%04x" % group
       element = value.split(',')[1].replace(')','')
       if element.startswith( 'xx' ) and len(element) == 4:
@@ -76,7 +80,7 @@ def normalize_entry( entry ):
       ret['element'] = "%02x" % element
     elif key == 'AttributeName':
       ret['name'] = value
-    elif key == 'Value':
+    elif key == 'Value' or key == 'Definition':
       if value != None and value != '':
         ret['definition'] = value
     elif key == 'DefaultValue':
@@ -108,7 +112,8 @@ for f in files:
           if(debug): print >> sys.stderr, "debug el: %s" % ",".join(elstr)
           for index,col in enumerate(k):
             elem[ col ] = j[index]['text'].replace('\r',' ')
-          d.append(normalize_entry(elem))
+          norm = normalize_entry(elem)
+          if norm != None: d.append(norm)
       elif header != None:
         k = header
         if(debug): print >> sys.stderr, "debug header:", k
@@ -120,7 +125,8 @@ for f in files:
           if(debug): print >> sys.stderr, "debug el: %d/%d -> %s" % (len(k),len(j),",".join(elstr))
           for index,col in enumerate(k):
             elem[ col ] = j[index]['text'].replace('\r',' ')
-          d.append(normalize_entry(elem))
+          norm = normalize_entry(elem)
+          if norm != None: d.append(norm)
       else:
         assert(False)
 
@@ -128,7 +134,8 @@ for f in files:
 oxml = args.output
 owner = args.owner
 order=['group','element','vr','vm','name']
-with open(oxml,'w') as out_file:
+#with open(oxml,'w') as out_file:
+with codecs.open(oxml, "w", "utf-8-sig") as out_file:
   #out_file.write( json.dumps(d, sort_keys=True, indent=4) )
   out_file.write( "<dicts>" )
   out_file.write( "<dict " )
