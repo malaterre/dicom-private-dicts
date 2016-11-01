@@ -18,7 +18,7 @@ parser.add_argument('--owner', help='dir help')
 args = parser.parse_args()
 
 debug=True
-#debug=False
+debug=False
 # we are given a list of files that contains tables to be merged in single dict
 files = args.files.split(',')
 use_table_header = args.use_table_header
@@ -41,6 +41,37 @@ def normalize_header( header ):
   if(debug): print >> sys.stderr, "debug header:", debug
   return ret
 
+def read_group( value ):
+  group = "0x%s" % value.lower()
+  try:
+    group = eval(group)
+  except SyntaxError:
+    print "Could not eval: [%s]" % value
+    return 0
+  if( group > 0xffff or group < 0 ):
+    raise ValueError, "group issue with %s" % value
+  return group
+
+def read_element( value ):
+  element = value.lower();
+  if element.startswith( 'xx' ) and len(element) == 4:
+    element = element[2:4]
+  elif element.startswith( '10' ) and len(element) == 4:
+    element = element[2:4]
+  elif element.startswith( '0x' ): # usual copy/paste error from editor
+    element = element.replace( '0x', '' )
+  if element == '00xx' :
+    element = '0'
+  element = "0x%s" % element
+  try:
+    element = eval(element)
+  except TypeError:
+    print "TypeError from input %s" % element
+    raise
+  if(element > 0xff or element < 0):
+    raise ValueError, "element issue with %s" % value
+  return element
+
 def normalize_entry( entry ):
   ret = {}
   ret['vm'] = '1'
@@ -53,30 +84,11 @@ def normalize_entry( entry ):
       ret['vm'] = value
     elif key == 'Tag':
       if(debug): print >> sys.stderr, "debug tag:", value
-      group = "0x%s" % value.split(',')[0].replace('(','')
-      group = eval(group)
-      if( group > 0xffff or group < 0 ):
-        raise ValueError, "group issue with %s" % value
+      group = read_group( value.split(',')[0].replace('(','') )
       if( group % 2 == 0 ):
         return None
       ret['group'] = "%04x" % group
-      element = value.split(',')[1].replace(')','')
-      if element.startswith( 'xx' ) and len(element) == 4:
-        element = element[2:4]
-      elif element.startswith( '10' ) and len(element) == 4:
-        element = element[2:4]
-      elif element.startswith( '0x' ): # usual copy/paste error from editor
-        element = element.replace( '0x', '' )
-      if element == '00xx' :
-        element = '0'
-      element = "0x%s" % element
-      try:
-        element = eval(element)
-      except TypeError:
-        print "TypeError from input %s" % element
-        raise
-      if(element > 0xff or element < 0):
-        raise ValueError, "element issue with %s" % value
+      element = read_element( value.split(',')[1].replace(')','') )
       ret['element'] = "%02x" % element
     elif key == 'AttributeName':
       ret['name'] = value
@@ -89,6 +101,14 @@ def normalize_entry( entry ):
     elif key == 'Type':
       if value != None and value != '':
         ret['type'] = value
+    elif key == 'Group':
+      group = read_group( value )
+      if( group % 2 == 0 ):
+        return None
+      ret['group'] = "%04x" % group
+    elif key == 'Element':
+      element = read_element( value )
+      ret['element'] = "%02x" % element
     elif key == 'UNK':
       # reserved keyword to indicate skipping of columns
       pass
@@ -104,7 +124,7 @@ for f in files:
       data = page['data']
       if use_table_header:
         k = normalize_header( data[0] )
-        for j in data[1:]:
+        for j in data[1:]: # skip first line
           elem={}
           elstr=[]
           for el in j:
@@ -117,16 +137,22 @@ for f in files:
       elif header != None:
         k = header
         if(debug): print >> sys.stderr, "debug header:", k
-        for j in data[1:]:
+        for line,j in enumerate(data[0:]): # should I skip the first line ?
           elem={}
           elstr=[]
           for el in j:
             elstr.append(el['text'])
           if(debug): print >> sys.stderr, "debug el: %d/%d -> %s" % (len(k),len(j),",".join(elstr))
-          for index,col in enumerate(k):
-            elem[ col ] = j[index]['text'].replace('\r',' ')
-          norm = normalize_entry(elem)
-          if norm != None: d.append(norm)
+          try:
+            for index,col in enumerate(k):
+              elem[ col ] = j[index]['text'].replace('\r',' ')
+            norm = normalize_entry(elem)
+            if norm != None: d.append(norm)
+          except IndexError:
+            if line == 0:
+              print "Pb with header: %s" % ",".join(elstr)
+            else:
+              raise
       else:
         assert(False)
 
@@ -154,11 +180,11 @@ with codecs.open(oxml, "w", "utf-8-sig") as out_file:
     entry += '>\n'
     if it.has_key('definition'):
       entry += '<definition>'
-      entry += it['definition']
+      entry += escape(it['definition'])
       entry += '</definition>\n'
     if it.has_key('default_value'):
       entry += '<default_value>'
-      entry += it['default_value']
+      entry += escape(it['default_value'])
       entry += '</default_value>\n'
     entry += '</entry>\n'
     #print entry

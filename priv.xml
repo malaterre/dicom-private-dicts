@@ -37,6 +37,92 @@
     <entry owner="AGFA" group="0019" element="xx15" vr="UN" vm="1" name="Dose monitoring list (Note 4)"/>
     <entry owner="AGFA" group="0019" element="xx1a" vr="UN" vm="1" name="Clipped exposure deviation"/>
     <entry owner="AGFA" group="0019" element="xx1b" vr="UN" vm="1" name="Logarithmic plt_full_scale"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx04" vr="SH" vm="1" name="Image Control Unit"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx05" vr="OW" vm="1" name="Image UID"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx06" vr="OW" vm="1" name="Route Image UID"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx08" vr="UL" vm="1" name="Image Display Information Version No."/>
+    <entry owner="FDMS 1.0" group="0009" element="xx09" vr="UL" vm="1" name="Patient Information Version No."/>
+    <entry owner="FDMS 1.0" group="0009" element="xx0c" vr="OW" vm="1" name="Film UID"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx10" vr="CS" vm="1" name="Exposure Unit Type Code"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx80" vr="LO" vm="1" name="Kanji Hospital Name"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx90" vr="ST" vm="1" name="Distribution Code"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx92" vr="SH" vm="1" name="Kanji Department Name"/>
+    <entry owner="FDMS 1.0" group="0009" element="xxf0" vr="CS" vm="1" name="Blackening Process Flag"/>
+    <entry owner="FDMS 1.0" group="0009" element="xxf1" vr="ST" vm="1" name="Processing Information Flag"/>
+    <entry owner="FDMS 1.0" group="0021" element="xx10" vr="CS" vm="1" name="FCR Image ID"/>
+    <entry owner="FDMS 1.0" group="50f1" element="xx20" vr="CS" vm="1" name="Image Processing Modification Flag"/>
+    <entry owner="FDMS 1.0" group="0029" element="xx50" vr="CS" vm="1" name="Data Compression Code"/>
+    <entry owner="FDMS 1.0" group="0025" element="xx10" vr="US" vm="1" name="Relative Light Emission Amount Sk"/>
+    <entry owner="FDMS 1.0" group="0025" element="xx11" vr="US" vm="1" name="Term of Correction for Each IP Type St"/>
+    <entry owner="FDMS 1.0" group="0025" element="xx12" vr="US" vm="1" name="Reading Gain Gp"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx15" vr="LO" vm="1" name="Kanji Body Part for Exposure"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx32" vr="LO" vm="1" name="Kanji Menu Name"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx40" vr="CS" vm="1" name="Image Processing Type"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx50" vr="CS" vm="1" name="EDR Mode"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx60" vr="SH" vm="1" name="Radiographer&#x2019;s Code"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx70" vr="IS" vm="1" name="Split Exposure Format"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx71" vr="IS" vm="1" name="No. of Split Exposure Frames"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx80" vr="IS" vm="1" name="Reading Position Specification"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx81" vr="IS" vm="1" name="Reading Sensitivity Center"/>
+    <entry owner="FDMS 1.0" group="0021" element="xx30" vr="CS" vm="1" name="Set No."/>
+    <entry owner="FDMS 1.0" group="0021" element="xx40" vr="IS" vm="1" name="Image No. in the Set"/>
+    <entry owner="FDMS 1.0" group="0021" element="xx50" vr="CS" vm="1" name="Pair Processing Information"/>
+    <entry owner="FDMS 1.0" group="0021" element="xx80" vr="OB" vm="1" name="Equipment Type-Specific Information"/>
+    <entry owner="FDMS 1.0" group="50f1" element="xx06" vr="CS" vm="1" name="Energy Subtraction Param."/>
+    <entry owner="FDMS 1.0" group="50f1" element="xx07" vr="CS" vm="1" name="Subtraction Registration Result"/>
+    <entry owner="FDMS 1.0" group="50f1" element="xx08" vr="CS" vm="1" name="Energy Subtraction Param. 2"/>
+    <entry owner="FDMS 1.0" group="50f1" element="xx09" vr="SL" vm="1" name="Afin Conversion Coefficient"/>
+    <entry owner="FDMS 1.0" group="50f1" element="xx0a" vr="SH" vm="1" name="FNC Parameters"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx90" vr="SH" vm="1" name="Film Annotation Character String 1"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx91" vr="SH" vm="1" name="Film Annotation Character String 2"/>
+    <entry owner="FDMS 1.0" group="2011" element="xx11" vr="CS" vm="1" name="Image Position Specifying Flag"/>
+    <entry owner="FDMS 1.0" group="50f1" element="xx10" vr="CS" vm="1" name="Film Output Format"/>
+    <entry owner="FDMS 1.0" group="0029" element="xx20" vr="CS" vm="1" name="Image Scanning Direction"/>
+    <entry owner="FDMS 1.0" group="0029" element="xx30" vr="CS" vm="1" name="Extended Reading Size Value"/>
+    <entry owner="FDMS 1.0" group="0029" element="xx34" vr="US" vm="1" name="Mag./Reduc. Ratio"/>
+    <entry owner="FDMS 1.0" group="0029" element="xx44" vr="CS" vm="1" name="Line Density Code"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx04" vr="SH" vm="1" name="Image Control Unit"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx05" vr="OW" vm="1" name="Image UID"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx06" vr="OW" vm="1" name="Route Image UID"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx08" vr="UL" vm="1" name="Image Display Information Version No."/>
+    <entry owner="FDMS 1.0" group="0009" element="xx09" vr="UL" vm="1" name="Patient Information Version No."/>
+    <entry owner="FDMS 1.0" group="0009" element="xx0c" vr="OW" vm="1" name="Fil? UID"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx10" vr="CS" vm="1" name="Exposure Unit Type Code"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx90" vr="ST" vm="1" name="Distribution Code"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx92" vr="SH" vm="1" name="Kanji Department Name"/>
+    <entry owner="FDMS 1.0" group="0009" element="xxf0" vr="CS" vm="1" name="Blackening Process Flag"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx15" vr="LO" vm="1" name="Kanji Body Part for Exposure"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx30" vr="LO" vm="1" name="Menu Character String"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx32" vr="LO" vm="1" name="Kanji Menu Name"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx40" vr="CS" vm="1" name="Image Processing Type"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx50" vr="CS" vm="1" name="EDR Mode"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx60" vr="SH" vm="1" name="Radiographer&#x2019;s Code"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx70" vr="IS" vm="1" name="Split Exposure Format"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx71" vr="IS" vm="1" name="No. of Split Exposure Frames"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx80" vr="IS" vm="1" name="Reading Position Specification"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx81" vr="IS" vm="1" name="Reading Sensitivi ty Center"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx90" vr="SH" vm="1" name="Film Annotation Character String 1"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx91" vr="SH" vm="1" name="Film Annotation Character String 2"/>
+    <entry owner="FDMS 1.0" group="0021" element="xx30" vr="CS" vm="1" name="Set No."/>
+    <entry owner="FDMS 1.0" group="0021" element="xx40" vr="IS" vm="1" name="Image No. in the Set"/>
+    <entry owner="FDMS 1.0" group="0021" element="xx50" vr="CS" vm="1" name="Pair Processing Information"/>
+    <entry owner="FDMS 1.0" group="0021" element="xx80" vr="CS" vm="1" name="Equipment Type-Specific Information"/>
+    <entry owner="FDMS 1.0" group="0025" element="xx10" vr="US" vm="1" name="Relative Light Emission Amount Sk"/>
+    <entry owner="FDMS 1.0" group="0025" element="xx11" vr="US" vm="1" name="Term of Correction for Each IP Type St"/>
+    <entry owner="FDMS 1.0" group="0025" element="xx12" vr="US" vm="1" name="Reading Gain Gp"/>
+    <entry owner="FDMS 1.0" group="0029" element="xx20" vr="CS" vm="1" name="Image Scanning Direction"/>
+    <entry owner="FDMS 1.0" group="0029" element="xx25" vr="CS" vm="1" name="Image Rotation/Reversal Information"/>
+    <entry owner="FDMS 1.0" group="0029" element="xx30" vr="CS" vm="1" name="Extended Reading Size Value"/>
+    <entry owner="FDMS 1.0" group="0029" element="xx34" vr="US" vm="1" name="Mag./Reduc. Ratio"/>
+    <entry owner="FDMS 1.0" group="0029" element="xx44" vr="CS" vm="1" name="Line Density Code"/>
+    <entry owner="FDMS 1.0" group="0029" element="xx50" vr="CS" vm="1" name="Data Compression Code"/>
+    <entry owner="FDMS 1.0" group="2011" element="xx11" vr="CS" vm="1" name="Image Position Specifying Flag"/>
+    <entry owner="FDMS 1.0" group="50f1" element="xx06" vr="CS" vm="1" name="Energy Subtraction Param."/>
+    <entry owner="FDMS 1.0" group="50f1" element="xx07" vr="CS" vm="1" name="Subtraction Registration Result"/>
+    <entry owner="FDMS 1.0" group="50f1" element="xx08" vr="CS" vm="1" name="Energy Subtraction Param. 2"/>
+    <entry owner="FDMS 1.0" group="50f1" element="xx09" vr="SL" vm="1" name="Afin Conversion Coefficient"/>
+    <entry owner="FDMS 1.0" group="50f1" element="xx10" vr="CS" vm="1" name="Film Output Format"/>
+    <entry owner="FDMS 1.0" group="50f1" element="xx20" vr="CS" vm="1" name="Image Processing Modification Flag"/>
     <entry owner="MMCPrivate" group="0009" element="xx00" vr="LO" vm="1" name="Private Creator"/>
     <entry owner="MMCPrivate" group="0009" element="xx01" vr="LO" vm="1" name="Technologist"/>
     <entry owner="MMCPrivate" group="0009" element="xx02" vr="LO" vm="1" name="ScheduledStudyDateTime"/>
@@ -136,6 +222,116 @@
     <entry owner="MMCPrivate" group="0029" element="xx29" vr="DS" vm="1" name="TablePosition"/>
     <entry owner="MMCPrivate" group="0029" element="xx2a" vr="DS" vm="1" name="NaviInitialGateWidth"/>
     <entry owner="MMCPrivate" group="0029" element="xx2b" vr="DS" vm="1" name="NaviFinalGateWidth"/>
+    <entry owner="MMCPrivate" group="0029" element="xx2c" vr="DS" vm="1" name="NaviInitialGatePosition"/>
+    <entry owner="MMCPrivate" group="0029" element="xx2d" vr="DS" vm="1" name="NaviFinalGatePosition"/>
+    <entry owner="MMCPrivate" group="0029" element="xx2e" vr="DS" vm="1" name="NaviAverageGatePosition"/>
+    <entry owner="MMCPrivate" group="0029" element="xx2f" vr="OB" vm="1" name="ImageAppData"/>
+    <entry owner="MMCPrivate" group="0029" element="xx30" vr="FD" vm="1" name="DiffusionBValue"/>
+    <entry owner="MMCPrivate" group="0029" element="xx31" vr="SQ" vm="1" name="SharedFunctionalGroupsSequence"/>
+    <entry owner="MMCPrivate" group="0029" element="xx32" vr="SQ" vm="1" name="PerFrameFunctionalGroupsSequence"/>
+    <entry owner="MMCPrivate" group="0029" element="xx33" vr="DS" vm="1" name="LossyImageCompressionRatio"/>
+    <entry owner="MMCPrivate" group="0029" element="xx34" vr="UI" vm="1" name="InstanceCreatorUID"/>
+    <entry owner="MMCPrivate" group="0029" element="xx35" vr="UI" vm="1" name="RelatedGeneralSOPClassUID"/>
+    <entry owner="MMCPrivate" group="0029" element="xx36" vr="UI" vm="1" name="OriginalSpecializedSOPClassUID"/>
+    <entry owner="MMCPrivate" group="0029" element="xx37" vr="SH" vm="1" name="TimezoneOffsetFromUTC"/>
+    <entry owner="MMCPrivate" group="0029" element="xx38" vr="CS" vm="1" name="SOPInstanceStatus"/>
+    <entry owner="MMCPrivate" group="0029" element="xx39" vr="DT" vm="1" name="SOPAuthorizationDateandTime"/>
+    <entry owner="MMCPrivate" group="0029" element="xx3a" vr="LT" vm="1" name="SOPAuthorizationComment"/>
+    <entry owner="MMCPrivate" group="0029" element="xx3b" vr="LO" vm="1" name="AuthorizationEquipmentCertificationNumber"/>
+    <entry owner="MMCPrivate" group="0029" element="xx3c" vr="UL" vm="1" name="ConcatenationFrameOffsetNumber"/>
+    <entry owner="MMCPrivate" group="0029" element="xx3d" vr="CS" vm="1" name="RepresentativeFrameNumber"/>
+    <entry owner="MMCPrivate" group="0029" element="xx3e" vr="UI" vm="1" name="ConcatenationUID"/>
+    <entry owner="MMCPrivate" group="0029" element="xx3f" vr="US" vm="1" name="InConcatenationNumber"/>
+    <entry owner="MMCPrivate" group="0029" element="xx40" vr="CS" vm="1" name="CardiacSynchronizationTechnique"/>
+    <entry owner="MMCPrivate" group="0029" element="xx41" vr="CS" vm="1" name="CardiacSignalSource"/>
+    <entry owner="MMCPrivate" group="0029" element="xx42" vr="FD" vm="1" name="CardiacRRIntervalSpecified"/>
+    <entry owner="MMCPrivate" group="0029" element="xx43" vr="CS" vm="1" name="CardiacBeatRejectionTechnique"/>
+    <entry owner="MMCPrivate" group="0029" element="xx44" vr="IS" vm="1" name="LowRRValue"/>
+    <entry owner="MMCPrivate" group="0029" element="xx45" vr="IS" vm="1" name="HighRRValue"/>
+    <entry owner="MMCPrivate" group="0029" element="xx46" vr="IS" vm="1" name="IntervalsAcquired"/>
+    <entry owner="MMCPrivate" group="0029" element="xx47" vr="IS" vm="1" name="IntervalsRejected"/>
+    <entry owner="MMCPrivate" group="0029" element="xx48" vr="CS" vm="1" name="RespiratoryMotionCompensationTechnique"/>
+    <entry owner="MMCPrivate" group="0029" element="xx49" vr="CS" vm="1" name="RespiratorySignalSource"/>
+    <entry owner="MMCPrivate" group="0029" element="xx4a" vr="CS" vm="1" name="BulkMotionCompensationTechnique"/>
+    <entry owner="MMCPrivate" group="0029" element="xx4b" vr="CS" vm="1" name="BulkMotionSignalSource"/>
+    <entry owner="MMCPrivate" group="0029" element="xx4c" vr="CS" vm="1" name="PixelPresentation"/>
+    <entry owner="MMCPrivate" group="0029" element="xx4d" vr="CS" vm="1" name="VolumetricProperties"/>
+    <entry owner="MMCPrivate" group="0029" element="xx4e" vr="CS" vm="1" name="VolumeBasedCalculationTechnique"/>
+    <entry owner="MMCPrivate" group="0029" element="xx4f" vr="ST" vm="1" name="AcquisitionContextDescription"/>
+    <entry owner="MMCPrivate" group="0029" element="xx51" vr="LO" vm="1" name="LUTDescriptor"/>
+    <entry owner="MMCPrivate" group="0029" element="xx52" vr="LO" vm="1" name="LUTExplanation"/>
+    <entry owner="MMCPrivate" group="0029" element="xx53" vr="LO" vm="1" name="LUTData"/>
+    <entry owner="MMCPrivate" group="0029" element="xx54" vr="CS" vm="1" name="PresentationLUTShape"/>
+    <entry owner="MMCPrivate" group="0029" element="xx55" vr="SQ" vm="1" name="FrameAnatomySequence"/>
+    <entry owner="MMCPrivate" group="0029" element="xx56" vr="CS" vm="1" name="FrameLaterality"/>
+    <entry owner="MMCPrivate" group="0029" element="xx57" vr="SQ" vm="1" name="AnatomicRegionSequence"/>
+    <entry owner="MMCPrivate" group="0029" element="xx58" vr="SH" vm="1" name="AnatomicRegionCodeValue"/>
+    <entry owner="MMCPrivate" group="0029" element="xx59" vr="SH" vm="1" name="AnatomicRegionCodingSchemeDesignator"/>
+    <entry owner="MMCPrivate" group="0029" element="xx5a" vr="SH" vm="1" name="AnatomicRegionCodingSchemeVersion"/>
+    <entry owner="MMCPrivate" group="0029" element="xx5b" vr="LO" vm="1" name="AnatomicRegionCodeMeaning"/>
+    <entry owner="MMCPrivate" group="0029" element="xx5c" vr="SQ" vm="1" name="PixelValueTransformationSequence"/>
+    <entry owner="MMCPrivate" group="0029" element="xx5d" vr="LO" vm="1" name="RescaleType"/>
+    <entry owner="MMCPrivate" group="0029" element="xx5e" vr="SQ" vm="1" name="CardiacSynchronizationSequence"/>
+    <entry owner="MMCPrivate" group="0029" element="xx5f" vr="FD" vm="1" name="TriggerDelayTime"/>
+    <entry owner="MMCPrivate" group="0029" element="xx60" vr="SQ" vm="1" name="FrameVOILUTSequence"/>
+    <entry owner="MMCPrivate" group="0029" element="xx61" vr="LO" vm="1" name="WindowCenterAndWidthExplanation"/>
+    <entry owner="MMCPrivate" group="0029" element="xx63" vr="SQ" vm="1" name="MRModifierSequence"/>
+    <entry owner="MMCPrivate" group="0029" element="xx64" vr="CS" vm="1" name="ParallelAcquisitionTechnique"/>
+    <entry owner="MMCPrivate" group="0029" element="xx65" vr="FD" vm="1" name="ParallelReductionFactorSecIn"/>
+    <entry owner="MMCPrivate" group="0029" element="xx66" vr="CS" vm="1" name="InversionRecovery"/>
+    <entry owner="MMCPrivate" group="0029" element="xx67" vr="CS" vm="1" name="FlowCompensation"/>
+    <entry owner="MMCPrivate" group="0029" element="xx68" vr="CS" vm="1" name="FlowCompensationDirection"/>
+    <entry owner="MMCPrivate" group="0029" element="xx69" vr="CS" vm="1" name="SpatialPreSaturation"/>
+    <entry owner="MMCPrivate" group="0029" element="xx6a" vr="CS" vm="1" name="PartialFourier"/>
+    <entry owner="MMCPrivate" group="0029" element="xx6b" vr="CS" vm="1" name="PartialFourierDirection"/>
+    <entry owner="MMCPrivate" group="0029" element="xx70" vr="SQ" vm="1" name="MRReceiveCoilSequence"/>
+    <entry owner="MMCPrivate" group="0029" element="xx71" vr="LO" vm="1" name="ReceiveCoilManufacturerName"/>
+    <entry owner="MMCPrivate" group="0029" element="xx72" vr="CS" vm="1" name="ReceiveCoilType"/>
+    <entry owner="MMCPrivate" group="0029" element="xx73" vr="CS" vm="1" name="QuadratureReceiveCoil"/>
+    <entry owner="MMCPrivate" group="0029" element="xx74" vr="LO" vm="1" name="MultiCoilConfiguration"/>
+    <entry owner="MMCPrivate" group="0029" element="xx75" vr="CS" vm="1" name="ComplexImageComponent"/>
+    <entry owner="MMCPrivate" group="0029" element="xx76" vr="SH" vm="1" name="PulseSequenceName"/>
+    <entry owner="MMCPrivate" group="0029" element="xx77" vr="CS" vm="1" name="EchoPulseSequence"/>
+    <entry owner="MMCPrivate" group="0029" element="xx78" vr="CS" vm="1" name="MultipleSpinEcho"/>
+    <entry owner="MMCPrivate" group="0029" element="xx79" vr="CS" vm="1" name="MultiPlanarExcitation"/>
+    <entry owner="MMCPrivate" group="0029" element="xx7a" vr="CS" vm="1" name="PhaseContrast"/>
+    <entry owner="MMCPrivate" group="0029" element="xx7b" vr="CS" vm="1" name="TimeOfFlightContrast"/>
+    <entry owner="MMCPrivate" group="0029" element="xx7c" vr="CS" vm="1" name="SteadyStatePulseSequence"/>
+    <entry owner="MMCPrivate" group="0029" element="xx7d" vr="CS" vm="1" name="EchoPlanarPulseSequence"/>
+    <entry owner="MMCPrivate" group="0029" element="xx7e" vr="CS" vm="1" name="SpectrallySelectedSuppression"/>
+    <entry owner="MMCPrivate" group="0029" element="xx7f" vr="CS" vm="1" name="OversamplingPhase"/>
+    <entry owner="MMCPrivate" group="0029" element="xx80" vr="CS" vm="1" name="SegmentedKSpaceTraversal"/>
+    <entry owner="MMCPrivate" group="0029" element="xx81" vr="CS" vm="1" name="CoverageOfKSpace"/>
+    <entry owner="MMCPrivate" group="0029" element="xx82" vr="SQ" vm="1" name="MRTimingAndRelatedParametersSequence"/>
+    <entry owner="MMCPrivate" group="0029" element="xx83" vr="US" vm="1" name="RFEchoTrainLength"/>
+    <entry owner="MMCPrivate" group="0029" element="xx84" vr="US" vm="1" name="GradientEchoTrainLength"/>
+    <entry owner="MMCPrivate" group="0029" element="xx85" vr="CS" vm="1" name="GradientOutputType"/>
+    <entry owner="MMCPrivate" group="0029" element="xx86" vr="FD" vm="1" name="GradientOutput"/>
+    <entry owner="MMCPrivate" group="0029" element="xx87" vr="SQ" vm="1" name="MRFOVGeometrySequence"/>
+    <entry owner="MMCPrivate" group="0029" element="xx88" vr="US" vm="1" name="MRAcquisitionFrequencyEncodingSteps"/>
+    <entry owner="MMCPrivate" group="0029" element="xx89" vr="US" vm="1" name="MRAcquisitionPhaseEncodingStepsInPlane"/>
+    <entry owner="MMCPrivate" group="0029" element="xx8a" vr="US" vm="1" name="MRAcquisitionPhaseEncodingStepsOutOfPlane"/>
+    <entry owner="MMCPrivate" group="0029" element="xx8b" vr="SQ" vm="1" name="MRTransmitCoilSequence"/>
+    <entry owner="MMCPrivate" group="0029" element="xx8c" vr="SH" vm="1" name="TransmitCoilName"/>
+    <entry owner="MMCPrivate" group="0029" element="xx8d" vr="LO" vm="1" name="TransmitCoilManufacturerName"/>
+    <entry owner="MMCPrivate" group="0029" element="xx8e" vr="CS" vm="1" name="TransmitCoilType"/>
+    <entry owner="MMCPrivate" group="0029" element="xx8f" vr="SQ" vm="1" name="MREchoSequence"/>
+    <entry owner="MMCPrivate" group="0029" element="xx90" vr="FD" vm="1" name="EffectiveEchoTime"/>
+    <entry owner="MMCPrivate" group="0029" element="xx91" vr="SQ" vm="1" name="MRMetaboliteMapSequence"/>
+    <entry owner="MMCPrivate" group="0029" element="xx92" vr="ST" vm="1" name="MetaboliteMapDescription"/>
+    <entry owner="MMCPrivate" group="0029" element="xx93" vr="SQ" vm="1" name="MetaboliteMapCodeSequence"/>
+    <entry owner="MMCPrivate" group="0029" element="xx94" vr="SH" vm="1" name="MetaboliteMapCodeValue"/>
+    <entry owner="MMCPrivate" group="0029" element="xx95" vr="SH" vm="1" name="MetaboliteMapCodingSchemeDesignator"/>
+    <entry owner="MMCPrivate" group="0029" element="xx96" vr="SH" vm="1" name="MetaboliteMapCodingSchemeVersion"/>
+    <entry owner="MMCPrivate" group="0029" element="xx97" vr="LO" vm="1" name="MetaboliteMapCodeMeaning"/>
+    <entry owner="MMCPrivate" group="0029" element="xx98" vr="SQ" vm="1" name="MRImagingModifierSequence"/>
+    <entry owner="MMCPrivate" group="0029" element="xx99" vr="CS" vm="1" name="MagnetizationTransfer"/>
+    <entry owner="MMCPrivate" group="0029" element="xx9a" vr="CS" vm="1" name="BloodSignalNulling"/>
+    <entry owner="MMCPrivate" group="0029" element="xx9b" vr="CS" vm="1" name="Tagging"/>
+    <entry owner="MMCPrivate" group="0029" element="xx9c" vr="FD" vm="1" name="TagSpacingFirstDimension"/>
+    <entry owner="MMCPrivate" group="0029" element="xx9d" vr="FD" vm="1" name="TagSpacingSecondDimension"/>
+    <entry owner="MMCPrivate" group="0029" element="xx9e" vr="FD" vm="1" name="TagAngleFirstAxis"/>
+    <entry owner="MMCPrivate" group="0029" element="xx9f" vr="SS" vm="1" name="TagAngleSecondAxis"/>
     <entry owner="MMCPrivate" group="0029" element="xxa0" vr="FD" vm="1" name="TagThickness"/>
     <entry owner="MMCPrivate" group="0029" element="xxa1" vr="FD" vm="1" name="TaggingDelay"/>
     <entry owner="MMCPrivate" group="0029" element="xxa2" vr="FD" vm="1" name="TransmitterFrequency"/>

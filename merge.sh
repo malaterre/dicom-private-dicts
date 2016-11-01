@@ -1,8 +1,12 @@
 #!/bin/sh
 set -x
 set -e
-xsltproc -o agfa.xml    merge.xsl agfa/index.xml
-xsltproc -o hitachi.xml merge.xsl hitachi/index.xml
+
+dirs="agfa hitachi fuji"
+for dir in $dirs
+do
+  xsltproc -o $dir.xml    merge.xsl $dir/index.xml
+done
 
 xsltproc -o priv.xml m.xsl empty.xml
 xsltproc -o private.xml uniq.xsl priv.xml 

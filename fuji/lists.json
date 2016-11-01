@@ -7,7 +7,7 @@
          {
             "chunks" : [
                {
-                  "pages" : "27,30"
+                  "pages" : "27-30"
                },
                {
                   "area" : "0,0,450,1000",
@@ -21,7 +21,8 @@
    },
    {
       "_url" : "http://www.fujifilmmedical.fr/up/File/DICOM/fcr_dicom-Flash IIP_CR Console.pdf",
-      "tables" : [
+      "tables" : [],
+      "_tables" : [
          {
             "owner" : "MMCPrivate",
             "opts" : "--use_table_header",
@@ -48,19 +49,29 @@
       "md5" : "ffe64d981344b2895d8a2c405d74ae2a",
       "tables" : [
          {
-            "opts" : "--use_table_header",
-            "owner" : "MMCPrivate",
+            "header" : [ "Group","Element","AttributeName","VR" ],
+            "owner" : "FDMS 1.0",
             "chunks" : [
                {
-                  "page" : 57,
-                  "area" : "234.647,38.317,794.898,578.479"
+ "area" : "161.033,130.433,262.013,498.398",
+                  "page" : 24
+               },
+              {
+ "area" : "263.543,116.663,449.438,506.813",
+                  "page" : 24
+               },
+              {
+ "area" : "450.203,94.478,643.748,500.693",
+                  "page" : 24
                },
                {
-                  "pages" : "58,64"
+ "area" : "645.278,117.428,716.423,520.583",
+                  "page" : 24
                },
                {
-                  "area" : "54.686,44.269,123.88,568.807",
-                  "page" : 65
+                  "_area" : "54.686,44.269,123.88,568.807",
+                  "area" : "86.828,119.723,200.813,515.227",
+                  "page" : 25
                }
             ]
          }
