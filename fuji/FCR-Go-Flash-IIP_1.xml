@@ -1,0 +1,13 @@
+﻿<dicts><dict owner="FDMS 1.0"><entry group="0019" element="a0" vr="SQ" vm="1" name="Exposure Status Sequence">
+<definition>Sequence that indicates exposure status.</definition>
+</entry>
+<entry group="0019" element="71" vr="IS" vm="1" name="&gt;Exposure Division Count">
+<definition>Number of exposures by split exposure process (1 to n).</definition>
+</entry>
+<entry group="0019" element="a1" vr="CS" vm="1" name="&gt;Exposure Status">
+<definition>Identifies exposure status. “NORMAL”: Normal/“MIS”: Mis-exposure</definition>
+</entry>
+<entry group="0019" element="a2" vr="CS" vm="1" name="&gt;Exposure Kind">
+<definition>Identifies whether added exposure or re-exposure. “NORMAL”: Normal/“ADD”: Added exposure/“AGAIN”: Re-exposure</definition>
+</entry>
+</dict></dicts>

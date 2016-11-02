@@ -81,6 +81,10 @@
     <entry owner="FDMS 1.0" group="0029" element="xx30" vr="CS" vm="1" name="Extended Reading Size Value"/>
     <entry owner="FDMS 1.0" group="0029" element="xx34" vr="US" vm="1" name="Mag./Reduc. Ratio"/>
     <entry owner="FDMS 1.0" group="0029" element="xx44" vr="CS" vm="1" name="Line Density Code"/>
+    <entry owner="FDMS 1.0" group="0019" element="xxa0" vr="SQ" vm="1" name="Exposure Status Sequence"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx71" vr="IS" vm="1" name="Exposure Division Count"/>
+    <entry owner="FDMS 1.0" group="0019" element="xxa1" vr="CS" vm="1" name="Exposure Status"/>
+    <entry owner="FDMS 1.0" group="0019" element="xxa2" vr="CS" vm="1" name="Exposure Kind"/>
     <entry owner="FDMS 1.0" group="0009" element="xx04" vr="SH" vm="1" name="Image Control Unit"/>
     <entry owner="FDMS 1.0" group="0009" element="xx05" vr="OW" vm="1" name="Image UID"/>
     <entry owner="FDMS 1.0" group="0009" element="xx06" vr="OW" vm="1" name="Route Image UID"/>
@@ -121,6 +125,75 @@
     <entry owner="FDMS 1.0" group="50f1" element="xx07" vr="CS" vm="1" name="Subtraction Registration Result"/>
     <entry owner="FDMS 1.0" group="50f1" element="xx08" vr="CS" vm="1" name="Energy Subtraction Param. 2"/>
     <entry owner="FDMS 1.0" group="50f1" element="xx09" vr="SL" vm="1" name="Afin Conversion Coefficient"/>
+    <entry owner="FDMS 1.0" group="50f1" element="xx10" vr="CS" vm="1" name="Film Output Format"/>
+    <entry owner="FDMS 1.0" group="50f1" element="xx20" vr="CS" vm="1" name="Image Processing Modification Flag"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx04" vr="SH" vm="1" name="Image Control Unit"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx05" vr="OW" vm="1" name="Image UID"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx06" vr="OW" vm="1" name="Route Image UID"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx08" vr="UL" vm="1" name="Image Display Information Version No."/>
+    <entry owner="FDMS 1.0" group="0009" element="xx09" vr="UL" vm="1" name="Patient Information Version No."/>
+    <entry owner="FDMS 1.0" group="0009" element="xx0c" vr="OW" vm="1" name="Fil m UID"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx10" vr="CS" vm="1" name="Exposure Unit Type Code"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx80" vr="LO" vm="1" name="Kanji Hospital Name"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx90" vr="ST" vm="1" name="Distribution Code"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx92" vr="SH" vm="1" name="Kanji Department Name"/>
+    <entry owner="FDMS 1.0" group="0009" element="xxf0" vr="CS" vm="1" name="Blackening Process Flag"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx15" vr="LO" vm="1" name="Kanji Body Part for Exposure"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx30" vr="LO" vm="1" name="Menu Character String"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx32" vr="LO" vm="1" name="Kanji Menu Name"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx40" vr="CS" vm="1" name="Image Processing Type"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx50" vr="CS" vm="1" name="EDR Mode"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx60" vr="SH" vm="1" name="Radiographer&#x2019;s Code"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx70" vr="IS" vm="1" name="Split Exposure Format"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx71" vr="IS" vm="1" name="No. of Split Exposure Frames"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx80" vr="IS" vm="1" name="Reading Position Specification"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx81" vr="IS" vm="1" name="Reading Sensitivity Center"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx90" vr="SH" vm="1" name="Film Annotation Character String 1"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx91" vr="SH" vm="1" name="Film Annotation Character String 2"/>
+    <entry owner="FDMS 1.0" group="0021" element="xx10" vr="CS" vm="1" name="FCR Image ID"/>
+    <entry owner="FDMS 1.0" group="0021" element="xx30" vr="CS" vm="1" name="Set No."/>
+    <entry owner="FDMS 1.0" group="0021" element="xx40" vr="IS" vm="1" name="Image No. in the Set"/>
+    <entry owner="FDMS 1.0" group="0021" element="xx50" vr="CS" vm="1" name="Pair Processing Information"/>
+    <entry owner="FDMS 1.0" group="0021" element="xx80" vr="CS" vm="1" name="Equipment Type-Specific Information"/>
+    <entry owner="FDMS 1.0" group="0025" element="xx10" vr="US" vm="1" name="Relative Light Emission Amount Sk"/>
+    <entry owner="FDMS 1.0" group="0025" element="xx11" vr="US" vm="1" name="Term of Correction for Each IP Type St"/>
+    <entry owner="FDMS 1.0" group="0025" element="xx12" vr="US" vm="1" name="Reading Gain Gp"/>
+    <entry owner="FDMS 1.0" group="0029" element="xx20" vr="CS" vm="1" name="Image Scanning Direction"/>
+    <entry owner="FDMS 1.0" group="0029" element="xx25" vr="CS" vm="1" name="Image Rotation Information"/>
+    <entry owner="FDMS 1.0" group="0029" element="xx30" vr="CS" vm="1" name="Extended Reading Size Value"/>
+    <entry owner="FDMS 1.0" group="0029" element="xx34" vr="US" vm="1" name="Mag./Reduc. Ratio"/>
+    <entry owner="FDMS 1.0" group="0029" element="xx44" vr="CS" vm="1" name="Line Density Code"/>
+    <entry owner="FDMS 1.0" group="0029" element="xx50" vr="CS" vm="1" name="Data Compression Code"/>
+    <entry owner="FDMS 1.0" group="2011" element="xx11" vr="CS" vm="1" name="Image Posit ion Specifying Flag"/>
+    <entry owner="FDMS 1.0" group="50f1" element="xx06" vr="CS" vm="1" name="Energy Subtraction Param."/>
+    <entry owner="FDMS 1.0" group="50f1" element="xx07" vr="CS" vm="1" name="Subtraction Registration Result"/>
+    <entry owner="FDMS 1.0" group="50f1" element="xx08" vr="CS" vm="1" name="Energy Subtraction Param. 2"/>
+    <entry owner="FDMS 1.0" group="50f1" element="xx09" vr="SL" vm="1" name="Afin Conversion Coefficient"/>
+    <entry owner="FDMS 1.0" group="50f1" element="xx10" vr="CS" vm="1" name="Film Output Format"/>
+    <entry owner="FDMS 1.0" group="50f1" element="xx20" vr="CS" vm="1" name="Image Processing Modification Flag"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx04" vr="SH" vm="1" name="Image Control Unit"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx06" vr="OW" vm="1" name="Route Image UID"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx08" vr="UL" vm="1" name="Image Display Information Version No."/>
+    <entry owner="FDMS 1.0" group="0009" element="xx09" vr="UL" vm="1" name="Patient Information Version No."/>
+    <entry owner="FDMS 1.0" group="0009" element="xx0c" vr="OW" vm="1" name="Fil m UID"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx10" vr="CS" vm="1" name="Exposure Unit Type Code"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx80" vr="LO" vm="1" name="Kanji Hospital Name"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx90" vr="ST" vm="1" name="Distribution Code"/>
+    <entry owner="FDMS 1.0" group="0009" element="xx92" vr="SH" vm="1" name="Kanji Department Name"/>
+    <entry owner="FDMS 1.0" group="0019" element="xx15" vr="LO" vm="1" name="Kanji Body Part for Exposure"/>
+    <entry owner="FDMS 1.0" group="0021" element="xx70" vr="IS" vm="1" name="Film No. within the Series"/>
+    <entry owner="FDMS 1.0" group="0021" element="xx90" vr="CS" vm="1" name="LUT No."/>
+    <entry owner="FDMS 1.0" group="0025" element="xx10" vr="US" vm="1" name="Relative Light Emission Amount Sk"/>
+    <entry owner="FDMS 1.0" group="0025" element="xx11" vr="US" vm="1" name="Term of Correction for Each IP Type St"/>
+    <entry owner="FDMS 1.0" group="0025" element="xx12" vr="US" vm="1" name="Reading Gain Gp"/>
+    <entry owner="FDMS 1.0" group="0029" element="xx25" vr="CS" vm="1" name="Image Rotation/Reversal Information"/>
+    <entry owner="FDMS 1.0" group="0029" element="xx34" vr="US" vm="1" name="Mag./Reduc. Ratio"/>
+    <entry owner="FDMS 1.0" group="0029" element="xx50" vr="CS" vm="1" name="Data Compression Code"/>
+    <entry owner="FDMS 1.0" group="2011" element="xx00" vr="CS" vm="1" name="Trim Density"/>
+    <entry owner="FDMS 1.0" group="2011" element="xx01" vr="IS" vm="1" name="Trim Width"/>
+    <entry owner="FDMS 1.0" group="2011" element="xx02" vr="CS" vm="1" name="Image Mag./Reduc. Range"/>
+    <entry owner="FDMS 1.0" group="2011" element="xx10" vr="CS" vm="1" name="Image Display Format"/>
+    <entry owner="FDMS 1.0" group="2011" element="xx20" vr="OW" vm="1" name="Interpolation A-VRS System Format"/>
     <entry owner="FDMS 1.0" group="50f1" element="xx10" vr="CS" vm="1" name="Film Output Format"/>
     <entry owner="FDMS 1.0" group="50f1" element="xx20" vr="CS" vm="1" name="Image Processing Modification Flag"/>
     <entry owner="MMCPrivate" group="0009" element="xx00" vr="LO" vm="1" name="Private Creator"/>

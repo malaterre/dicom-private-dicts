@@ -1,0 +1,18 @@
+﻿<dicts><dict owner="AGFA"><entry group="0019" element="10" vr="UN" vm="1" name="Private Identification Code">
+<default_value>Fixed AGFA</default_value>
+</entry>
+<entry group="0019" element="10" vr="UN" vm="1" name="Image processing parameters (Note 1)">
+</entry>
+<entry group="0019" element="11" vr="UN" vm="1" name="Identification data (Note 2)">
+</entry>
+<entry group="0019" element="13" vr="UN" vm="1" name="Sensitometry name">
+</entry>
+<entry group="0019" element="14" vr="UN" vm="1" name="Window/Level list (Note 3)">
+</entry>
+<entry group="0019" element="15" vr="UN" vm="1" name="Dose monitoring list (Note 4)">
+</entry>
+<entry group="0019" element="1a" vr="UN" vm="1" name="Clipped exposure deviation">
+</entry>
+<entry group="0019" element="1b" vr="UN" vm="1" name="Logarithmic plt_full_scale">
+</entry>
+</dict></dicts>

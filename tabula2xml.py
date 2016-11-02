@@ -56,6 +56,8 @@ def read_element( value ):
   element = value.lower();
   if element.startswith( 'xx' ) and len(element) == 4:
     element = element[2:4]
+  elif element.startswith( 'yy' ) and len(element) == 4: # sigh
+    element = element[2:4]
   elif element.startswith( '10' ) and len(element) == 4:
     element = element[2:4]
   elif element.startswith( '0x' ): # usual copy/paste error from editor

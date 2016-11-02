@@ -1127,8 +1127,6 @@
   <entry owner="FDMS 1.0" group="0029" element="xx34" vr="US" vm="1" name="Mag./Reduc. Ratio"/>
   <entry owner="FDMS 1.0" group="0029" element="xx44" vr="CS" vm="1" name="Line Density Code"/>
   <entry owner="FDMS 1.0" group="0029" element="xx50" vr="CS" vm="1" name="Data Compression Code"/>
-  <entry owner="FDMS 1.0" group="0032" element="xx32" vr="PN" vm="1" name="Requesting Physician"/>
-  <entry owner="FDMS 1.0" group="0032" element="xx33" vr="LO" vm="1" name="Requesting Service"/>
   <entry owner="FDMS 1.0" group="2011" element="xx00" vr="CS" vm="1" name="Trim Density"/>
   <entry owner="FDMS 1.0" group="2011" element="xx01" vr="IS" vm="1" name="Trim Width"/>
   <entry owner="FDMS 1.0" group="2011" element="xx02" vr="CS" vm="1" name="Image Mag./Reduc. Range"/>
