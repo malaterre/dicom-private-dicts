@@ -30,12 +30,14 @@ def normalize_header( header ):
   ret = [None] * len(header)
   for index,it in enumerate(header):
     txt = it['text']
-    if txt == 'Attribute Name':
+    if txt == 'Attribute Name' or txt == 'Name':
       ret[ index ] = u'AttributeName'
     elif txt == 'Group, Tag':
       ret[ index ] = u'Tag'
     elif txt == 'Default Value':
       ret[ index ] = u'DefaultValue'
+    elif txt == 'Description':
+      ret[ index ] = u'Definition'
     else:
       ret[ index ] = txt
   if(debug): print >> sys.stderr, "debug header:", debug
@@ -94,7 +96,7 @@ def normalize_entry( entry ):
       ret['element'] = "%02x" % element
     elif key == 'AttributeName':
       ret['name'] = value
-    elif key == 'Value' or key == 'Definition':
+    elif key == 'Definition':
       if value != None and value != '':
         ret['definition'] = value
     elif key == 'DefaultValue':

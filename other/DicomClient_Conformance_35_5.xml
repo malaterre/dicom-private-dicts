@@ -1,0 +1,13 @@
+﻿<dicts><dict owner="SCHICK TECHNOLOGIES - Note Item Creator ID"><entry group="0021" element="01" vr="ST" vm="1" name="Text">
+<definition>Text of the note</definition>
+</entry>
+<entry group="0021" element="02" vr="DT" vm="1" name="Date">
+<definition>Date the note was created</definition>
+</entry>
+<entry group="0021" element="03" vr="PN" vm="1" name="User Name">
+<definition>Name of user creating the note</definition>
+</entry>
+<entry group="0021" element="04" vr="US (Multiplicity of 2)" vm="1" name="Coordinates (X, Y)">
+<definition>Image coordinates of location of note</definition>
+</entry>
+</dict></dicts>

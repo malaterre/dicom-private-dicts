@@ -1,0 +1,71 @@
+[
+   {
+      "tables" : [
+         {
+            "owner" : "SCHICK TECHNOLOGIES - Viewset Creator ID",
+            "opts" : "--use_table_header",
+            "chunks" : [
+               {
+                  "page" : 24,
+"area" : " 274.253,76.118,373.703,538.178" 
+               }]
+         },
+          {
+            "owner" : "SCHICK TECHNOLOGIES - Viewset Item Creator ID",
+            "opts" : "--use_table_header",
+            "chunks" : [
+               {
+                  "page" : 24,
+"area" : " 400.478,80.708,675.113,536.648" 
+               }]
+          },
+          {
+            "owner" : "SCHICK TECHNOLOGIES - Change List Creator ID",
+            "opts" : "--use_table_header",
+            "chunks" : [
+               {
+                  "page" : 25,
+"area" : " 179.393,79.178,242.123,536.648" 
+               }]
+          },
+          {
+            "owner" : "SCHICK TECHNOLOGIES - Change Item Creator ID",
+            "opts" : "--use_table_header",
+            "chunks" : [
+               {
+                  "page" : 25,
+"area" : " 271.193,79.943,366.053,537.413" 
+               }]
+          },
+          {
+            "owner" : "SCHICK TECHNOLOGIES - Note List Creator ID",
+            "opts" : "--use_table_header",
+            "chunks" : [
+               {
+                  "page" : 25,
+"area" : " 490.748,77.648,555.008,539.708" 
+               }]
+          },
+          {
+            "owner" : "SCHICK TECHNOLOGIES - Note Item Creator ID",
+            "opts" : "--use_table_header",
+            "chunks" : [
+               {
+                  "page" : 25,
+"area" : " 580.253,74.588,680.468,536.648" 
+               }]
+          },
+          {
+            "owner" : "SCHICK TECHNOLOGIES - Image Security Creator ID",
+            "opts" : "--use_table_header",
+            "chunks" : [
+               {
+                  "page" : 26,
+"area" : " 175.568,79.178,221.468,534.353" 
+               }]
+         }
+      ],
+      "url" : "http://www.schicktech.com/uploads/downloads/DicomClient_Conformance_35.pdf",
+      "md5" : "1fe9c48e9060577dc44baee016409739"
+   }
+]

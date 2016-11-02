@@ -16,7 +16,12 @@
                   "area" : "54.686,44.269,123.88,568.807"
                }
             ],
-            "opts" : "--use_table_header"
+            "header" : [
+               "AttributeName",
+               "Tag",
+               "VR",
+               "Definition"
+            ]
          }
       ],
       "url" : "http://www.hitachimed.com/idc/groups/hitachimedical/documents/supportingdocumentpdf/poc_013216.pdf",

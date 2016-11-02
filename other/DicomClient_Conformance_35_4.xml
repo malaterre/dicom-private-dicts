@@ -1,0 +1,7 @@
+﻿<dicts><dict owner="SCHICK TECHNOLOGIES - Note List Creator ID"><entry group="0021" element="01" vr="UI" vm="1" name="Reference Image Instance UID">
+<definition>Reference to Image SOP Instance UID</definition>
+</entry>
+<entry group="0021" element="02" vr="SQ" vm="1" name="Item">
+<definition>Sequence of Note Items</definition>
+</entry>
+</dict></dicts>

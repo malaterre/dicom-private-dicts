@@ -1,0 +1,4 @@
+﻿<dicts><dict owner="SCHICK TECHNOLOGIES - Image Security Creator ID"><entry group="0029" element="01" vr="UL" vm="1" name="Image Checksum">
+<definition>Unique CRC Checksum used to validate image integrity.</definition>
+</entry>
+</dict></dicts>

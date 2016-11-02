@@ -1,0 +1,7 @@
+﻿<dicts><dict owner="SCHICK TECHNOLOGIES - Change List Creator ID"><entry group="0021" element="01" vr="UI" vm="1" name="Reference Image Instance UID">
+<definition>Reference to Image SOP Instance UID</definition>
+</entry>
+<entry group="0021" element="02" vr="SQ" vm="1" name="Sequence">
+<definition>Sequence of Change List Items</definition>
+</entry>
+</dict></dicts>

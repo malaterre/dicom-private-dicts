@@ -1,0 +1,16 @@
+﻿<dicts><dict owner="SCHICK TECHNOLOGIES - Change Item Creator ID"><entry group="0021" element="01" vr="UI" vm="1" name="Change List Item UID">
+<definition>Unique Instance UID for this change</definition>
+</entry>
+<entry group="0021" element="02" vr="US" vm="1" name="Operation">
+<definition>Number describing the change operation</definition>
+</entry>
+<entry group="0021" element="03" vr="DT" vm="1" name="Date">
+<definition>Date of the Change</definition>
+</entry>
+<entry group="0021" element="04" vr="PN" vm="1" name="User Name">
+<definition>User who applied the change</definition>
+</entry>
+<entry group="0021" element="05" vr="OB" vm="1" name="Additional Change Data">
+<definition>Additional binary data used as parameters for the change operation</definition>
+</entry>
+</dict></dicts>

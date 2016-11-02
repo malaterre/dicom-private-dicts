@@ -2,7 +2,7 @@
 #set -x
 set -e
 
-dirs="agfa fuji hitachi"
+dirs="agfa fuji hitachi other"
 
 for dir in $dirs
 do

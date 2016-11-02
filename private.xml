@@ -344,4 +344,33 @@
   <entry owner="MMCPrivate" group="0029" element="xxc3" vr="CS" vm="1" name="RephaseOrderSlice"/>
   <entry owner="MMCPrivate" group="0029" element="xxc4" vr="CS" vm="1" name="RephaseOrderPhase"/>
   <entry owner="MMCPrivate" group="0029" element="xxc5" vr="CS" vm="1" name="RephaseOrderFreq"/>
+  <entry owner="SCHICK TECHNOLOGIES - Change Item Creator ID" group="0021" element="xx01" vr="UI" vm="1" name="Change List Item UID"/>
+  <entry owner="SCHICK TECHNOLOGIES - Change Item Creator ID" group="0021" element="xx02" vr="US" vm="1" name="Operation"/>
+  <entry owner="SCHICK TECHNOLOGIES - Change Item Creator ID" group="0021" element="xx03" vr="DT" vm="1" name="Date"/>
+  <entry owner="SCHICK TECHNOLOGIES - Change Item Creator ID" group="0021" element="xx04" vr="PN" vm="1" name="User Name"/>
+  <entry owner="SCHICK TECHNOLOGIES - Change Item Creator ID" group="0021" element="xx05" vr="OB" vm="1" name="Additional Change Data"/>
+  <entry owner="SCHICK TECHNOLOGIES - Change List Creator ID" group="0021" element="xx01" vr="UI" vm="1" name="Reference Image Instance UID"/>
+  <entry owner="SCHICK TECHNOLOGIES - Change List Creator ID" group="0021" element="xx02" vr="SQ" vm="1" name="Sequence"/>
+  <entry owner="SCHICK TECHNOLOGIES - Image Security Creator ID" group="0029" element="xx01" vr="UL" vm="1" name="Image Checksum"/>
+  <entry owner="SCHICK TECHNOLOGIES - Note Item Creator ID" group="0021" element="xx01" vr="ST" vm="1" name="Text"/>
+  <entry owner="SCHICK TECHNOLOGIES - Note Item Creator ID" group="0021" element="xx02" vr="DT" vm="1" name="Date"/>
+  <entry owner="SCHICK TECHNOLOGIES - Note Item Creator ID" group="0021" element="xx03" vr="PN" vm="1" name="User Name"/>
+  <entry owner="SCHICK TECHNOLOGIES - Note Item Creator ID" group="0021" element="xx04" vr="UN" vm="1" name="Coordinates (X, Y)"/>
+  <entry owner="SCHICK TECHNOLOGIES - Note List Creator ID" group="0021" element="xx01" vr="UI" vm="1" name="Reference Image Instance UID"/>
+  <entry owner="SCHICK TECHNOLOGIES - Note List Creator ID" group="0021" element="xx02" vr="SQ" vm="1" name="Item"/>
+  <entry owner="SCHICK TECHNOLOGIES - Viewset Creator ID" group="0009" element="xx01" vr="UI" vm="1" name="Instance UID"/>
+  <entry owner="SCHICK TECHNOLOGIES - Viewset Creator ID" group="0009" element="xx02" vr="LO" vm="1" name="Name"/>
+  <entry owner="SCHICK TECHNOLOGIES - Viewset Creator ID" group="0009" element="xx03" vr="SQ" vm="1" name="Sequence"/>
+  <entry owner="SCHICK TECHNOLOGIES - Viewset Creator ID" group="0009" element="xx04" vr="UL" vm="1" name="Mode"/>
+  <entry owner="SCHICK TECHNOLOGIES - Viewset Creator ID" group="0009" element="xx05" vr="UL" vm="1" name="Type"/>
+  <entry owner="SCHICK TECHNOLOGIES - Viewset Item Creator ID" group="0009" element="xx01" vr="UI" vm="1" name="Image Instance UID"/>
+  <entry owner="SCHICK TECHNOLOGIES - Viewset Item Creator ID" group="0009" element="xx02" vr="US" vm="1" name="Number"/>
+  <entry owner="SCHICK TECHNOLOGIES - Viewset Item Creator ID" group="0009" element="xx03" vr="US" vm="1" name="Order"/>
+  <entry owner="SCHICK TECHNOLOGIES - Viewset Item Creator ID" group="0009" element="xx04" vr="US" vm="1" name="Type"/>
+  <entry owner="SCHICK TECHNOLOGIES - Viewset Item Creator ID" group="0009" element="xx05" vr="US" vm="1" name="Orientation"/>
+  <entry owner="SCHICK TECHNOLOGIES - Viewset Item Creator ID" group="0009" element="xx06" vr="UN" vm="1" name="Rect (Left, Top, Width, Height)"/>
+  <entry owner="SCHICK TECHNOLOGIES - Viewset Item Creator ID" group="0009" element="xx07" vr="US" vm="1" name="Caption Height"/>
+  <entry owner="SCHICK TECHNOLOGIES - Viewset Item Creator ID" group="0009" element="xx08" vr="US" vm="1" name="Source"/>
+  <entry owner="SCHICK TECHNOLOGIES - Viewset Item Creator ID" group="0009" element="xx09" vr="US" vm="1" name="Default Width"/>
+  <entry owner="SCHICK TECHNOLOGIES - Viewset Item Creator ID" group="0009" element="xx0a" vr="US" vm="1" name="Default Height"/>
 </dict>

@@ -1,7 +1,7 @@
 #!/bin/bash
 set -x
 set -e
-dirs="hitachi agfa fuji"
+dirs="hitachi agfa fuji other"
 for d in $(ls -d $dirs)
 do
   #echo $d
