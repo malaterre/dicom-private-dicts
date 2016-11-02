@@ -64,7 +64,7 @@
                }
             ],
             "owner" : "MMCPrivate",
-            "opts" : "--use_table_header"
+            "use_table_header" : true
          }
       ],
       "_url" : "http://www.fujifilmmedical.fr/up/File/DICOM/fcr_dicom-Flash IIP_CR Console.pdf",

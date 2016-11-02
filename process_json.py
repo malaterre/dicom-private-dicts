@@ -78,14 +78,15 @@ with open(f) as data_file:
               opts = ""
               # pass the table header (defined manually, generally because JSON output is bogus)
               if table.has_key( "header" ):
-                assert( not table.has_key( "opts" ) )
+                assert( not table.has_key( "use_table_header" ) )
                 opts += ' --header "%s" ' % ",".join(table['header'])
               # pass the table owner
               if table.has_key( "owner" ):
                 opts += ' --owner "%s" ' % table['owner']
               # special option to use the table header directly from the JSON generated output
-              if table.has_key( "opts" ):
-                opts += table['opts']
+              if table.has_key( "use_table_header" ) and table["use_table_header"]:
+                assert( not table.has_key( "header" ) )
+                opts += '--use_table_header'
               out_file2.write( './tabula2xml.py %s --files "%s" --output "%s"\n' % (opts, fstr, outxml) )
               out_file3.write( '<file>%s</file>\n' % urllib.quote(outxml)  )
           out_file3.write( '</index>\n' )

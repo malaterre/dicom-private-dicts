@@ -3,7 +3,7 @@
       "tables" : [
          {
             "owner" : "SCHICK TECHNOLOGIES - Viewset Creator ID",
-            "opts" : "--use_table_header",
+            "use_table_header" : true,
             "chunks" : [
                {
                   "page" : 24,
@@ -12,7 +12,7 @@
          },
           {
             "owner" : "SCHICK TECHNOLOGIES - Viewset Item Creator ID",
-            "opts" : "--use_table_header",
+            "use_table_header" : true,
             "chunks" : [
                {
                   "page" : 24,
@@ -21,7 +21,7 @@
           },
           {
             "owner" : "SCHICK TECHNOLOGIES - Change List Creator ID",
-            "opts" : "--use_table_header",
+            "use_table_header" : true,
             "chunks" : [
                {
                   "page" : 25,
@@ -30,7 +30,7 @@
           },
           {
             "owner" : "SCHICK TECHNOLOGIES - Change Item Creator ID",
-            "opts" : "--use_table_header",
+            "use_table_header" : true,
             "chunks" : [
                {
                   "page" : 25,
@@ -39,7 +39,7 @@
           },
           {
             "owner" : "SCHICK TECHNOLOGIES - Note List Creator ID",
-            "opts" : "--use_table_header",
+            "use_table_header" : true,
             "chunks" : [
                {
                   "page" : 25,
@@ -48,7 +48,7 @@
           },
           {
             "owner" : "SCHICK TECHNOLOGIES - Note Item Creator ID",
-            "opts" : "--use_table_header",
+            "use_table_header" : true,
             "chunks" : [
                {
                   "page" : 25,
@@ -57,7 +57,7 @@
           },
           {
             "owner" : "SCHICK TECHNOLOGIES - Image Security Creator ID",
-            "opts" : "--use_table_header",
+            "use_table_header" : true,
             "chunks" : [
                {
                   "page" : 26,
