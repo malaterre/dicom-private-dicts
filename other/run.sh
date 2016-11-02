@@ -15,3 +15,6 @@ set -x
 ./tabula2xml.py  --owner "SCHICK TECHNOLOGIES - Note Item Creator ID" --use_table_header --files "other/chunk0.json" --output "other/DicomClient_Conformance_35_5.xml"
 ./tabula.sh -o "other/chunk0.json" --spreadsheet -p 26 -a  175.568,79.178,221.468,534.353 "other/DicomClient_Conformance_35.pdf"
 ./tabula2xml.py  --owner "SCHICK TECHNOLOGIES - Image Security Creator ID" --use_table_header --files "other/chunk0.json" --output "other/DicomClient_Conformance_35_6.xml"
+./tabula.sh -o "other/chunk0.json" --spreadsheet -p 15 -a 198.518,53.168,708.773,568.778 "other/DICOMconformanceTruDR_VPACSv15.pdf"
+./tabula.sh -o "other/chunk1.json" --spreadsheet -p 16 -a 63.878,53.168,386.708,558.068 "other/DICOMconformanceTruDR_VPACSv15.pdf"
+./tabula2xml.py  --header "AttributeName,Tag,VR,Type,Definition"  --owner "Sound Technologies"  --files "other/chunk0.json,other/chunk1.json" --output "other/DICOMconformanceTruDR_VPACSv15_0.xml"

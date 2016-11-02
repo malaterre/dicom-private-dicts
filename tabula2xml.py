@@ -64,8 +64,11 @@ def read_element( value ):
     element = element[2:4]
   elif element.startswith( '0x' ): # usual copy/paste error from editor
     element = element.replace( '0x', '' )
-  if element == '00xx' :
+  if element == '00xx':
     element = '0'
+  if len(element) == 4: # typically people use group number, eg: F100
+    element = element[2:4]
+  #if(debug): print >> sys.stderr, "debug element: [%s]/%d"% (element,len(element))
   element = "0x%s" % element
   try:
     element = eval(element)
@@ -73,7 +76,7 @@ def read_element( value ):
     print "TypeError from input %s" % element
     raise
   if(element > 0xff or element < 0):
-    raise ValueError, "element issue with %s" % value
+    raise ValueError, "element issue with %s (%d) : %d" % (value, len(value), element)
   return element
 
 def normalize_entry( entry ):
@@ -88,11 +91,25 @@ def normalize_entry( entry ):
       ret['vm'] = value
     elif key == 'Tag':
       if(debug): print >> sys.stderr, "debug tag:", value
-      group = read_group( value.split(',')[0].replace('(','') )
+      sep = '|'
+      if ',' in value:
+        sep = ','
+      elif ':' in value:
+        sep = ':'
+      bracko='|'
+      brackc='|'
+      if '(' in value:
+        bracko = '('
+        brackc = ')'
+      elif '[' in value:
+        bracko = '['
+        brackc = ']'
+      if(debug): print >> sys.stderr, "sep/brack(s) are: [%s]/[%s]/[%s]"% (sep,bracko,brackc)
+      group = read_group( value.split(sep)[0].replace(bracko,'') )
       if( group % 2 == 0 ):
         return None
       ret['group'] = "%04x" % group
-      element = read_element( value.split(',')[1].replace(')','') )
+      element = read_element( value.split(sep)[1].replace(brackc,'') )
       ret['element'] = "%02x" % element
     elif key == 'AttributeName':
       ret['name'] = value

@@ -373,4 +373,34 @@
   <entry owner="SCHICK TECHNOLOGIES - Viewset Item Creator ID" group="0009" element="xx08" vr="US" vm="1" name="Source"/>
   <entry owner="SCHICK TECHNOLOGIES - Viewset Item Creator ID" group="0009" element="xx09" vr="US" vm="1" name="Default Width"/>
   <entry owner="SCHICK TECHNOLOGIES - Viewset Item Creator ID" group="0009" element="xx0a" vr="US" vm="1" name="Default Height"/>
+  <entry owner="Sound Technologies" group="f001" element="xx00" vr="CS" vm="1" name="Patient Species"/>
+  <entry owner="Sound Technologies" group="f001" element="xx01" vr="CS" vm="1" name="Patient Breed"/>
+  <entry owner="Sound Technologies" group="f001" element="xx02" vr="CS" vm="1" name="Patient Category Size"/>
+  <entry owner="Sound Technologies" group="f001" element="xx03" vr="CS" vm="1" name="Patient Sex Extended (including spay/neuter)"/>
+  <entry owner="Sound Technologies" group="f001" element="xx04" vr="CS" vm="1" name="Image View"/>
+  <entry owner="Sound Technologies" group="f001" element="xx05" vr="CS" vm="1" name="Anatomy Imaged"/>
+  <entry owner="Sound Technologies" group="f001" element="xx06" vr="CS" vm="1" name="Image enhancements"/>
+  <entry owner="Sound Technologies" group="f001" element="xx07" vr="CS" vm="1" name="Detector Settings"/>
+  <entry owner="Sound Technologies" group="f001" element="xx08" vr="CS" vm="1" name="Application Version"/>
+  <entry owner="Sound Technologies" group="f001" element="xx09" vr="LO" vm="1" name="Image Laterality Extended"/>
+  <entry owner="Sound Technologies" group="f001" element="xx0a" vr="PN" vm="1" name="Client Name"/>
+  <entry owner="Sound Technologies" group="f001" element="xx0b" vr="UI" vm="1" name="Reference Study Instance Uid"/>
+  <entry owner="Sound Technologies" group="f001" element="xx0c" vr="UI" vm="1" name="Reference Series Instance Uid"/>
+  <entry owner="Sound Technologies" group="f001" element="xx0d" vr="LO" vm="1" name="Exam Ref Id"/>
+  <entry owner="Sound Technologies" group="f001" element="xx0e" vr="ST" vm="1" name="Physician Of Record Address"/>
+  <entry owner="Sound Technologies" group="f001" element="xx0f" vr="SH" vm="1" name="Physician Of Record Phone Numbers"/>
+  <entry owner="Sound Technologies" group="f001" element="xx10" vr="LT" vm="1" name="Reason For Study"/>
+  <entry owner="Sound Technologies" group="f001" element="xx11" vr="LO" vm="1" name="Protocol"/>
+  <entry owner="Sound Technologies" group="f001" element="xx12" vr="LO" vm="1" name="CaptureInputType"/>
+  <entry owner="Sound Technologies" group="f001" element="xx13" vr="LT" vm="1" name="Exam Complaint"/>
+  <entry owner="Sound Technologies" group="f001" element="xx14" vr="LO" vm="1" name="Exam Web Code"/>
+  <entry owner="Sound Technologies" group="f001" element="xx15" vr="LO" vm="1" name="Exam Category"/>
+  <entry owner="Sound Technologies" group="f001" element="xx16" vr="SH" vm="1" name="Exam Diagnosis"/>
+  <entry owner="Sound Technologies" group="f001" element="xx17" vr="PN" vm="1" name="Exam Created By"/>
+  <entry owner="Sound Technologies" group="f001" element="xx18" vr="LO" vm="1" name="Exam Created By Group"/>
+  <entry owner="Sound Technologies" group="f001" element="xx19" vr="DT" vm="1" name="Exam Required By DateTime"/>
+  <entry owner="Sound Technologies" group="f001" element="xx1a" vr="LO" vm="1" name="Capture Type"/>
+  <entry owner="Sound Technologies" group="f001" element="xx1b" vr="IS" vm="1" name="Telemed Exam ID"/>
+  <entry owner="Sound Technologies" group="f001" element="xx1c" vr="LO" vm="1" name="Exam Created By Guid"/>
+  <entry owner="Sound Technologies" group="f001" element="xx1d" vr="LO" vm="1" name="Client Name Guid"/>
 </dict>

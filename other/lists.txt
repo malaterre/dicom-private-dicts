@@ -1,1 +1,2 @@
 http://www.schicktech.com/uploads/downloads/DicomClient_Conformance_35.pdf
+http://www.soundvet.com/library/media/pdf/DICOMconformanceTruDR_VPACSv15.pdf

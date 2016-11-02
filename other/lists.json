@@ -67,5 +67,30 @@
       ],
       "url" : "http://www.schicktech.com/uploads/downloads/DicomClient_Conformance_35.pdf",
       "md5" : "1fe9c48e9060577dc44baee016409739"
+   },
+   {
+      "url" : "http://www.soundvet.com/library/media/pdf/DICOMconformanceTruDR_VPACSv15.pdf",
+      "md5" : "b9977a8fe336aa8721bf6d1d9cfad8af",
+      "tables" : [
+         {
+            "owner" : "Sound Technologies",
+            "header" : [
+               "AttributeName",
+               "Tag",
+               "VR",
+               "Type",
+               "Definition"
+            ],
+            "chunks" : [
+               {
+                  "page" : 15,
+"area" : "198.518,53.168,708.773,568.778" 
+               },
+               {
+                  "page" : 16,
+"area" : "63.878,53.168,386.708,558.068" 
+               }]
+         }
+      ]
    }
 ]

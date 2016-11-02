@@ -1,0 +1,70 @@
+﻿<dicts><dict owner="Sound Technologies"><entry group="f001" element="00" vr="CS" vm="1" name="Patient Species" type="2">
+<definition>Patient species (e.g. CANINE, FELINE, EQUINE)</definition>
+</entry>
+<entry group="f001" element="01" vr="CS" vm="1" name="Patient Breed" type="2">
+<definition>Patient breed (e.g. BOXER, DALMATION, TABY)</definition>
+</entry>
+<entry group="f001" element="02" vr="CS" vm="1" name="Patient Category Size" type="2">
+<definition>Patient category size (SMALL, LARGE, EQUINE)</definition>
+</entry>
+<entry group="f001" element="03" vr="CS" vm="1" name="Patient Sex Extended (including spay/neuter)" type="2">
+<definition>Patient sex extended: &lt;null&gt;=unknown, M=male, F=female, N=neutered, S=spayed</definition>
+</entry>
+<entry group="f001" element="04" vr="CS" vm="1" name="Image View" type="2">
+<definition>Image view: UNKNOWN, LAT LEFT, LAT RIGHT, VD, DV, PA, AP, DP, MEDIAL LAT, MEDIAL OBL, SKYLINE LAT, SKYLINE OBL, FRONT, HIND</definition>
+</entry>
+<entry group="f001" element="05" vr="CS" vm="1" name="Anatomy Imaged" type="2">
+<definition>Anatomy imaged: UNKNOWN, THORAX, ABDOMEN, HIP, SPINE, EXTREMITY, SKULL, HOOF, STIFLE, FETLOCK, PASTERN, TARSUS</definition>
+</entry>
+<entry group="f001" element="06" vr="CS" vm="1" name="Image enhancements" type="2">
+<definition>Image enhancements applied in sequence (e.g. “SLUT='PseudoFilm', SLUT='S-Curve100.lut’, GOPXR=’s10-c10-l20.par’”)</definition>
+</entry>
+<entry group="f001" element="07" vr="CS" vm="1" name="Detector Settings" type="2">
+<definition>Detector settings (e.g. “"Serialnumber:1234-56, Offset correction: True, Gain correction: True, Defect correction: True, Line noise correction: True”)</definition>
+</entry>
+<entry group="f001" element="08" vr="CS" vm="1" name="Application Version" type="2">
+<definition>Application version: (e.g. "App=3.0.50 (Vp3_Acquisition.exe), Dll=3.0.50”)</definition>
+</entry>
+<entry group="f001" element="09" vr="LO" vm="1" name="Image Laterality Extended" type="3">
+</entry>
+<entry group="f001" element="0a" vr="PN" vm="1" name="Client Name" type="3">
+</entry>
+<entry group="f001" element="0b" vr="UI" vm="1" name="Reference Study Instance Uid" type="3">
+</entry>
+<entry group="f001" element="0c" vr="UI" vm="1" name="Reference Series Instance Uid" type="3">
+</entry>
+<entry group="f001" element="0d" vr="LO" vm="1" name="Exam Ref Id" type="3">
+</entry>
+<entry group="f001" element="0e" vr="ST" vm="1" name="Physician Of Record Address" type="3">
+</entry>
+<entry group="f001" element="0f" vr="SH" vm="1" name="Physician Of Record Phone Numbers" type="3">
+</entry>
+<entry group="f001" element="10" vr="LT" vm="1" name="Reason For Study" type="3">
+</entry>
+<entry group="f001" element="11" vr="LO" vm="1" name="Protocol" type="3">
+</entry>
+<entry group="f001" element="12" vr="LO" vm="1" name="CaptureInputType" type="3">
+</entry>
+<entry group="f001" element="13" vr="LT" vm="1" name="Exam Complaint" type="3">
+</entry>
+<entry group="f001" element="14" vr="LO" vm="1" name="Exam Web Code" type="3">
+</entry>
+<entry group="f001" element="15" vr="LO" vm="1" name="Exam Category" type="3">
+</entry>
+<entry group="f001" element="16" vr="SH" vm="1" name="Exam Diagnosis" type="3">
+</entry>
+<entry group="f001" element="17" vr="PN" vm="1" name="Exam Created By" type="3">
+</entry>
+<entry group="f001" element="18" vr="LO" vm="1" name="Exam Created By Group" type="3">
+</entry>
+<entry group="f001" element="19" vr="DT" vm="1" name="Exam Required By DateTime" type="3">
+</entry>
+<entry group="f001" element="1a" vr="LO" vm="1" name="Capture Type" type="3">
+</entry>
+<entry group="f001" element="1b" vr="IS" vm="1" name="Telemed Exam ID" type="3">
+</entry>
+<entry group="f001" element="1c" vr="LO" vm="1" name="Exam Created By Guid" type="3">
+</entry>
+<entry group="f001" element="1d" vr="LO" vm="1" name="Client Name Guid" type="3">
+</entry>
+</dict></dicts>
