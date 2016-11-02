@@ -89,6 +89,36 @@
       "md5" : "ffe64d981344b2895d8a2c405d74ae2a"
    },
    {
+      "tables" : [
+         {
+            "chunks" : [
+               {
+                  "page" : 27,
+                  "area" : "433.373,111.308,722.543,530.528"
+               },
+               {
+                  "page" : 28,
+"area" : "83.768,123.548,470.858,512.933"
+               },
+               {
+                  "page" : 28,
+"area" : "521.347,126.608,714.128,521.347"
+               },
+               {
+                  "page" : 29,
+"area" : "81.473,128.903,394.358,499.928"
+               }
+            ],
+            "owner" : "FDMS 1.0",
+            "header" : [
+               "Group",
+               "Element",
+               "AttributeName",
+               "VR"
+            ]
+         }
+      ],
+
       "url" : "https://www.fujifilmusa.com/products/medical/technical-documents/product-bulletins/pdf/index/HI-C655.pdf",
       "md5" : "90fe6f0ec69a1caa154858b36a04453a"
    }
