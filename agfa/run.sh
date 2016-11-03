@@ -7,3 +7,4 @@ set -e
 ./tabula2xml.py  --header "AttributeName,Tag,VR,Type,DefaultValue,UNK"  --owner "AGFA_ADC_Compact"  --files "agfa/chunk0.json" --output "agfa/000946_tcm583-21755_0.xml"
 ./tabula.sh -o "agfa/chunk0.json" --spreadsheet -p 16 -a 100,50,250,1000 "agfa/000946_tcm583-21755.pdf"
 ./tabula2xml.py  --header "AttributeName,Tag,DefaultValue"  --owner "AGFA"  --files "agfa/chunk0.json" --output "agfa/000946_tcm583-21755_1.xml"
+rm agfa/chunk?.json

@@ -24,3 +24,4 @@ set -e
 ./tabula.sh -o "fuji/chunk8.json" -p 29 -a 294.908,133.493,304.853,512.168 "fuji/HI-C655.pdf"
 ./tabula.sh -o "fuji/chunk9.json" --spreadsheet -p 29 -a 306.383,127.373,396.653,498.398 "fuji/HI-C655.pdf"
 ./tabula2xml.py  --header "Group,Element,AttributeName,VR"  --owner "FDMS 1.0"  --files "fuji/chunk0.json,fuji/chunk1.json,fuji/chunk2.json,fuji/chunk3.json,fuji/chunk4.json,fuji/chunk5.json,fuji/chunk6.json,fuji/chunk7.json,fuji/chunk8.json,fuji/chunk9.json" --output "fuji/HI-C655_0.xml"
+rm fuji/chunk?.json
