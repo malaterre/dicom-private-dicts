@@ -26,7 +26,7 @@ with open(f) as data_file:
           data = json.load(data_file)
           out_file2.write( '#!/bin/sh\n' )
           out_file2.write( 'set -e\n' )
-          out_file2.write( 'set -x\n' )
+          out_file2.write( '#set -x\n' )
           # let's write the series of files for this manufacturer in an index file
           out_file3.write( '<index>\n' )
           for it in data:

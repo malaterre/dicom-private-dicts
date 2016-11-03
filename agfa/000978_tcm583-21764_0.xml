@@ -1,31 +1,34 @@
-﻿<dicts><dict owner="AGFA"><entry group="0019" element="10" vr="SH" vm="1" name="Private Identification Code">
+﻿<dicts>
+  <dict owner="AGFA">
+    <entry group="0019" element="10" vr="SH" vm="1" name="Private Identification Code">
 <default_value>AGFA</default_value>
 </entry>
-<entry group="0019" element="10" vr="ST" vm="1" name="Image Processing Parameters">
+    <entry group="0019" element="10" vr="ST" vm="1" name="Image Processing Parameters">
 <default_value>(Note 1)</default_value>
 </entry>
-<entry group="0019" element="13" vr="LO" vm="1" name="Sensitometry Name">
+    <entry group="0019" element="13" vr="LO" vm="1" name="Sensitometry Name">
 </entry>
-<entry group="0019" element="15" vr="LO" vm="1" name="Dose Monitoring List">
+    <entry group="0019" element="15" vr="LO" vm="1" name="Dose Monitoring List">
 </entry>
-<entry group="0019" element="1a" vr="LO" vm="1" name="Clipped Exposure Deviation">
+    <entry group="0019" element="1a" vr="LO" vm="1" name="Clipped Exposure Deviation">
 </entry>
-<entry group="0019" element="1b" vr="LO" vm="1" name="Logarithmic PLT Full Scale">
+    <entry group="0019" element="1b" vr="LO" vm="1" name="Logarithmic PLT Full Scale">
 </entry>
-<entry group="0019" element="60" vr="US" vm="1" name="Total number of series">
+    <entry group="0019" element="60" vr="US" vm="1" name="Total number of series">
 </entry>
-<entry group="0019" element="62" vr="SH" vm="1" name="ID Station name">
+    <entry group="0019" element="62" vr="SH" vm="1" name="ID Station name">
 </entry>
-<entry group="0019" element="65" vr="US" vm="1" name="Number of images in study to be transmitted (only sent with autoverify: on)">
+    <entry group="0019" element="65" vr="US" vm="1" name="Number of images in study to be transmitted (only sent with autoverify: on)">
 </entry>
-<entry group="0019" element="70" vr="US" vm="1" name="Total number of images">
+    <entry group="0019" element="70" vr="US" vm="1" name="Total number of images">
 </entry>
-<entry group="0019" element="80" vr="ST" vm="1" name="Geometrical Transformations">
+    <entry group="0019" element="80" vr="ST" vm="1" name="Geometrical Transformations">
 </entry>
-<entry group="0019" element="81" vr="ST" vm="1" name="Roam Origin">
+    <entry group="0019" element="81" vr="ST" vm="1" name="Roam Origin">
 </entry>
-<entry group="0019" element="82" vr="US" vm="1" name="Zoom factor">
+    <entry group="0019" element="82" vr="US" vm="1" name="Zoom factor">
 </entry>
-<entry group="0019" element="93" vr="CS" vm="1" name="Status">
+    <entry group="0019" element="93" vr="CS" vm="1" name="Status">
 </entry>
-</dict></dicts>
+</dict>
+</dicts>

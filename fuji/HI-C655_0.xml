@@ -1,139 +1,142 @@
-﻿<dicts><dict owner="FDMS 1.0"><entry group="0009" element="04" vr="SH" vm="1" name="Image Control Unit">
+﻿<dicts>
+  <dict owner="FDMS 1.0">
+    <entry group="0009" element="04" vr="SH" vm="1" name="Image Control Unit">
 </entry>
-<entry group="0009" element="05" vr="OW" vm="1" name="Image UID">
+    <entry group="0009" element="05" vr="OW" vm="1" name="Image UID">
 </entry>
-<entry group="0009" element="06" vr="OW" vm="1" name="Route Image UID">
+    <entry group="0009" element="06" vr="OW" vm="1" name="Route Image UID">
 </entry>
-<entry group="0009" element="08" vr="UL" vm="1" name="Image Display Information Version No.">
+    <entry group="0009" element="08" vr="UL" vm="1" name="Image Display Information Version No.">
 </entry>
-<entry group="0009" element="09" vr="UL" vm="1" name="Patient Information Version No.">
+    <entry group="0009" element="09" vr="UL" vm="1" name="Patient Information Version No.">
 </entry>
-<entry group="0009" element="0c" vr="OW" vm="1" name="Fil m UID">
+    <entry group="0009" element="0c" vr="OW" vm="1" name="Fil m UID">
 </entry>
-<entry group="0009" element="10" vr="CS" vm="1" name="Exposure Unit Type Code">
+    <entry group="0009" element="10" vr="CS" vm="1" name="Exposure Unit Type Code">
 </entry>
-<entry group="0009" element="80" vr="LO" vm="1" name="Kanji Hospital Name">
+    <entry group="0009" element="80" vr="LO" vm="1" name="Kanji Hospital Name">
 </entry>
-<entry group="0009" element="90" vr="ST" vm="1" name="Distribution Code">
+    <entry group="0009" element="90" vr="ST" vm="1" name="Distribution Code">
 </entry>
-<entry group="0009" element="92" vr="SH" vm="1" name="Kanji Department Name">
+    <entry group="0009" element="92" vr="SH" vm="1" name="Kanji Department Name">
 </entry>
-<entry group="0009" element="f0" vr="CS" vm="1" name="Blackening Process Flag">
+    <entry group="0009" element="f0" vr="CS" vm="1" name="Blackening Process Flag">
 </entry>
-<entry group="0019" element="15" vr="LO" vm="1" name="Kanji Body Part for Exposure">
+    <entry group="0019" element="15" vr="LO" vm="1" name="Kanji Body Part for Exposure">
 </entry>
-<entry group="0019" element="30" vr="LO" vm="1" name="Menu Character String">
+    <entry group="0019" element="30" vr="LO" vm="1" name="Menu Character String">
 </entry>
-<entry group="0019" element="32" vr="LO" vm="1" name="Kanji Menu Name">
+    <entry group="0019" element="32" vr="LO" vm="1" name="Kanji Menu Name">
 </entry>
-<entry group="0019" element="40" vr="CS" vm="1" name="Image Processing Type">
+    <entry group="0019" element="40" vr="CS" vm="1" name="Image Processing Type">
 </entry>
-<entry group="0019" element="50" vr="CS" vm="1" name="EDR Mode">
+    <entry group="0019" element="50" vr="CS" vm="1" name="EDR Mode">
 </entry>
-<entry group="0019" element="60" vr="SH" vm="1" name="Radiographer’s Code">
+    <entry group="0019" element="60" vr="SH" vm="1" name="Radiographer’s Code">
 </entry>
-<entry group="0019" element="70" vr="IS" vm="1" name="Split Exposure Format">
+    <entry group="0019" element="70" vr="IS" vm="1" name="Split Exposure Format">
 </entry>
-<entry group="0019" element="71" vr="IS" vm="1" name="No. of  Split Exposure Frames">
+    <entry group="0019" element="71" vr="IS" vm="1" name="No. of  Split Exposure Frames">
 </entry>
-<entry group="0019" element="80" vr="IS" vm="1" name="Reading Position Specification">
+    <entry group="0019" element="80" vr="IS" vm="1" name="Reading Position Specification">
 </entry>
-<entry group="0019" element="81" vr="IS" vm="1" name="Reading Sensitivity Center">
+    <entry group="0019" element="81" vr="IS" vm="1" name="Reading Sensitivity Center">
 </entry>
-<entry group="0019" element="90" vr="SH" vm="1" name="Film Annotation Character String 1">
+    <entry group="0019" element="90" vr="SH" vm="1" name="Film Annotation Character String 1">
 </entry>
-<entry group="0019" element="91" vr="SH" vm="1" name="Film Annotation Character String 2">
+    <entry group="0019" element="91" vr="SH" vm="1" name="Film Annotation Character String 2">
 </entry>
-<entry group="0021" element="10" vr="CS" vm="1" name="FCR Image ID">
+    <entry group="0021" element="10" vr="CS" vm="1" name="FCR Image ID">
 </entry>
-<entry group="0021" element="30" vr="CS" vm="1" name="Set No.">
+    <entry group="0021" element="30" vr="CS" vm="1" name="Set No.">
 </entry>
-<entry group="0021" element="40" vr="IS" vm="1" name="Image No. in the Set">
+    <entry group="0021" element="40" vr="IS" vm="1" name="Image No. in the Set">
 </entry>
-<entry group="0021" element="50" vr="CS" vm="1" name="Pair Processing Information">
+    <entry group="0021" element="50" vr="CS" vm="1" name="Pair Processing Information">
 </entry>
-<entry group="0021" element="80" vr="CS" vm="1" name="Equipment Type-Specific Information">
+    <entry group="0021" element="80" vr="CS" vm="1" name="Equipment Type-Specific Information">
 </entry>
-<entry group="0025" element="10" vr="US" vm="1" name="Relative Light Emission Amount Sk">
+    <entry group="0025" element="10" vr="US" vm="1" name="Relative Light Emission Amount Sk">
 </entry>
-<entry group="0025" element="11" vr="US" vm="1" name="Term of Correction for Each IP Type St">
+    <entry group="0025" element="11" vr="US" vm="1" name="Term of Correction for Each IP Type St">
 </entry>
-<entry group="0025" element="12" vr="US" vm="1" name="Reading Gain Gp">
+    <entry group="0025" element="12" vr="US" vm="1" name="Reading Gain Gp">
 </entry>
-<entry group="0029" element="20" vr="CS" vm="1" name="Image Scanning Direction">
+    <entry group="0029" element="20" vr="CS" vm="1" name="Image Scanning Direction">
 </entry>
-<entry group="0029" element="25" vr="CS" vm="1" name="Image Rotation Information">
+    <entry group="0029" element="25" vr="CS" vm="1" name="Image Rotation Information">
 </entry>
-<entry group="0029" element="30" vr="CS" vm="1" name="Extended Reading Size Value">
+    <entry group="0029" element="30" vr="CS" vm="1" name="Extended Reading Size Value">
 </entry>
-<entry group="0029" element="34" vr="US" vm="1" name="Mag./Reduc. Ratio">
+    <entry group="0029" element="34" vr="US" vm="1" name="Mag./Reduc. Ratio">
 </entry>
-<entry group="0029" element="44" vr="CS" vm="1" name="Line Density Code">
+    <entry group="0029" element="44" vr="CS" vm="1" name="Line Density Code">
 </entry>
-<entry group="0029" element="50" vr="CS" vm="1" name="Data Compression Code">
+    <entry group="0029" element="50" vr="CS" vm="1" name="Data Compression Code">
 </entry>
-<entry group="2011" element="11" vr="CS" vm="1" name="Image Posit ion Specifying Flag">
+    <entry group="2011" element="11" vr="CS" vm="1" name="Image Posit ion Specifying Flag">
 </entry>
-<entry group="50f1" element="06" vr="CS" vm="1" name="Energy Subtraction Param.">
+    <entry group="50f1" element="06" vr="CS" vm="1" name="Energy Subtraction Param.">
 </entry>
-<entry group="50f1" element="07" vr="CS" vm="1" name="Subtraction Registration Result">
+    <entry group="50f1" element="07" vr="CS" vm="1" name="Subtraction Registration Result">
 </entry>
-<entry group="50f1" element="08" vr="CS" vm="1" name="Energy Subtraction Param. 2">
+    <entry group="50f1" element="08" vr="CS" vm="1" name="Energy Subtraction Param. 2">
 </entry>
-<entry group="50f1" element="09" vr="SL" vm="1" name="Afin Conversion Coefficient">
+    <entry group="50f1" element="09" vr="SL" vm="1" name="Afin Conversion Coefficient">
 </entry>
-<entry group="50f1" element="10" vr="CS" vm="1" name="Film Output Format">
+    <entry group="50f1" element="10" vr="CS" vm="1" name="Film Output Format">
 </entry>
-<entry group="50f1" element="20" vr="CS" vm="1" name="Image Processing Modification Flag">
+    <entry group="50f1" element="20" vr="CS" vm="1" name="Image Processing Modification Flag">
 </entry>
-<entry group="0009" element="04" vr="SH" vm="1" name="Image Control Unit">
+    <entry group="0009" element="04" vr="SH" vm="1" name="Image Control Unit">
 </entry>
-<entry group="0009" element="06" vr="OW" vm="1" name="Route Image UID">
+    <entry group="0009" element="06" vr="OW" vm="1" name="Route Image UID">
 </entry>
-<entry group="0009" element="08" vr="UL" vm="1" name="Image Display Information Version No.">
+    <entry group="0009" element="08" vr="UL" vm="1" name="Image Display Information Version No.">
 </entry>
-<entry group="0009" element="09" vr="UL" vm="1" name="Patient Information Version No.">
+    <entry group="0009" element="09" vr="UL" vm="1" name="Patient Information Version No.">
 </entry>
-<entry group="0009" element="0c" vr="OW" vm="1" name="Fil m UID">
+    <entry group="0009" element="0c" vr="OW" vm="1" name="Fil m UID">
 </entry>
-<entry group="0009" element="10" vr="CS" vm="1" name="Exposure Unit Type Code">
+    <entry group="0009" element="10" vr="CS" vm="1" name="Exposure Unit Type Code">
 </entry>
-<entry group="0009" element="80" vr="LO" vm="1" name="Kanji Hospital Name">
+    <entry group="0009" element="80" vr="LO" vm="1" name="Kanji Hospital Name">
 </entry>
-<entry group="0009" element="90" vr="ST" vm="1" name="Distribution Code">
+    <entry group="0009" element="90" vr="ST" vm="1" name="Distribution Code">
 </entry>
-<entry group="0009" element="92" vr="SH" vm="1" name="Kanji Department Name">
+    <entry group="0009" element="92" vr="SH" vm="1" name="Kanji Department Name">
 </entry>
-<entry group="0019" element="15" vr="LO" vm="1" name="Kanji Body Part for Exposure">
+    <entry group="0019" element="15" vr="LO" vm="1" name="Kanji Body Part for Exposure">
 </entry>
-<entry group="0021" element="70" vr="IS" vm="1" name="Film No. within the Series">
+    <entry group="0021" element="70" vr="IS" vm="1" name="Film No. within the Series">
 </entry>
-<entry group="0021" element="90" vr="CS" vm="1" name="LUT No.">
+    <entry group="0021" element="90" vr="CS" vm="1" name="LUT No.">
 </entry>
-<entry group="0025" element="10" vr="US" vm="1" name="Relative Light Emission Amount Sk">
+    <entry group="0025" element="10" vr="US" vm="1" name="Relative Light Emission Amount Sk">
 </entry>
-<entry group="0025" element="11" vr="US" vm="1" name="Term of Correction for Each IP Type St">
+    <entry group="0025" element="11" vr="US" vm="1" name="Term of Correction for Each IP Type St">
 </entry>
-<entry group="0025" element="12" vr="US" vm="1" name="Reading Gain Gp">
+    <entry group="0025" element="12" vr="US" vm="1" name="Reading Gain Gp">
 </entry>
-<entry group="0029" element="25" vr="CS" vm="1" name="Image Rotation/Reversal Information">
+    <entry group="0029" element="25" vr="CS" vm="1" name="Image Rotation/Reversal Information">
 </entry>
-<entry group="0029" element="34" vr="US" vm="1" name="Mag./Reduc. Ratio">
+    <entry group="0029" element="34" vr="US" vm="1" name="Mag./Reduc. Ratio">
 </entry>
-<entry group="0029" element="50" vr="CS" vm="1" name="Data Compression Code">
+    <entry group="0029" element="50" vr="CS" vm="1" name="Data Compression Code">
 </entry>
-<entry group="2011" element="00" vr="CS" vm="1" name="Trim Density">
+    <entry group="2011" element="00" vr="CS" vm="1" name="Trim Density">
 </entry>
-<entry group="2011" element="01" vr="IS" vm="1" name="Trim Width">
+    <entry group="2011" element="01" vr="IS" vm="1" name="Trim Width">
 </entry>
-<entry group="2011" element="02" vr="CS" vm="1" name="Image Mag./Reduc. Range">
+    <entry group="2011" element="02" vr="CS" vm="1" name="Image Mag./Reduc. Range">
 </entry>
-<entry group="2011" element="10" vr="CS" vm="1" name="Image Display Format">
+    <entry group="2011" element="10" vr="CS" vm="1" name="Image Display Format">
 </entry>
-<entry group="2011" element="20" vr="OW" vm="1" name="Interpolation A-VRS System Format">
+    <entry group="2011" element="20" vr="OW" vm="1" name="Interpolation A-VRS System Format">
 </entry>
-<entry group="50f1" element="10" vr="CS" vm="1" name="Film Output Format">
+    <entry group="50f1" element="10" vr="CS" vm="1" name="Film Output Format">
 </entry>
-<entry group="50f1" element="20" vr="CS" vm="1" name="Image Processing Modification Flag">
+    <entry group="50f1" element="20" vr="CS" vm="1" name="Image Processing Modification Flag">
 </entry>
-</dict></dicts>
+</dict>
+</dicts>

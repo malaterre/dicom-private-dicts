@@ -1,4 +1,4 @@
-#!/bin/sh -x
+#!/bin/sh
 set -e
 
 TABULA=tabula-0.9.1-jar-with-dependencies.jar

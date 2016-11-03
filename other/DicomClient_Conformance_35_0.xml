@@ -1,16 +1,19 @@
-﻿<dicts><dict owner="SCHICK TECHNOLOGIES - Viewset Creator ID"><entry group="0009" element="01" vr="UI" vm="1" name="Instance UID">
+﻿<dicts>
+  <dict owner="SCHICK TECHNOLOGIES - Viewset Creator ID">
+    <entry group="0009" element="01" vr="UI" vm="1" name="Instance UID">
 <definition>Unique instance UID (same as SOP Inst)</definition>
 </entry>
-<entry group="0009" element="02" vr="LO" vm="1" name="Name">
+    <entry group="0009" element="02" vr="LO" vm="1" name="Name">
 <definition>Name of the Viewset</definition>
 </entry>
-<entry group="0009" element="03" vr="SQ" vm="1" name="Sequence">
+    <entry group="0009" element="03" vr="SQ" vm="1" name="Sequence">
 <definition>A sequence of ViewSet Items</definition>
 </entry>
-<entry group="0009" element="04" vr="UL" vm="1" name="Mode">
+    <entry group="0009" element="04" vr="UL" vm="1" name="Mode">
 <definition>Primary Acquisition Mode</definition>
 </entry>
-<entry group="0009" element="05" vr="UL" vm="1" name="Type">
+    <entry group="0009" element="05" vr="UL" vm="1" name="Type">
 <definition>Viewset Type (0 – Standard, 1 – Grid...)</definition>
 </entry>
-</dict></dicts>
+</dict>
+</dicts>

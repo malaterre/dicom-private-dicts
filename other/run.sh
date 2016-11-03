@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-set -x
+#set -x
 ./tabula.sh -o "other/chunk0.json" --spreadsheet -p 24 -a  274.253,76.118,373.703,538.178 "other/DicomClient_Conformance_35.pdf"
 ./tabula2xml.py  --owner "SCHICK TECHNOLOGIES - Viewset Creator ID" --use_table_header --files "other/chunk0.json" --output "other/DicomClient_Conformance_35_0.xml"
 ./tabula.sh -o "other/chunk0.json" --spreadsheet -p 24 -a  400.478,80.708,675.113,536.648 "other/DicomClient_Conformance_35.pdf"
