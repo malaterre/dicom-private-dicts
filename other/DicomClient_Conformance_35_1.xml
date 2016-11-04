@@ -1,25 +1,36 @@
 ﻿<dicts>
   <dict owner="SCHICK TECHNOLOGIES - Viewset Item Creator ID">
     <entry group="0009" element="01" vr="UI" vm="1" name="Image Instance UID">
-<definition>The Instance UID of the Image that should be displayed in this Viewbox (may be blank).</definition>
+<definition>The Instance UID of the Image that should be displayed in this
+Viewbox (may be blank).</definition>
 </entry>
     <entry group="0009" element="02" vr="US" vm="1" name="Number">
 <definition>Sequential number representing the order it was created.</definition>
 </entry>
     <entry group="0009" element="03" vr="US" vm="1" name="Order">
-<definition>A number that represents the order in which the series should be taken.</definition>
+<definition>A number that represents the order in which the series should be
+taken.</definition>
 </entry>
     <entry group="0009" element="04" vr="US" vm="1" name="Type">
-<definition>A number describing anatomical position for this image. 1 = Upper Left5 = Right Bitewing 2 = Upper Center6 = Lower Left 3 = Upper Right7 = Lower Center 4 = Left Bitewing8 = Lower Right</definition>
+<definition>A number describing anatomical position for this image.
+1 = Upper Left5 = Right Bitewing
+2 = Upper Center6 = Lower Left
+3 = Upper Right7 = Lower Center
+4 = Left Bitewing8 = Lower Right</definition>
 </entry>
     <entry group="0009" element="05" vr="US" vm="1" name="Orientation">
-<definition>0 = Horizontal 1 = Vertical</definition>
+<definition>0 = Horizontal
+1 = Vertical</definition>
 </entry>
     <entry group="0009" element="06" vr="US (VM=4)" vm="1" name="Rect (Left, Top, Width, Height)">
-<definition>A rectangle of coordinates stored as (Left\Top\Width\Height) that describe the position and dimension of the Viewbox.  The coordinates are based on a 1024x768 window.</definition>
+<definition>A rectangle of coordinates stored as (Left\Top\Width\Height) that
+describe the position and dimension of the Viewbox.  The coordinates
+are based on a 1024x768 window.</definition>
 </entry>
     <entry group="0009" element="07" vr="US" vm="1" name="Caption Height">
-<definition>Height of the caption text in corrdinates displayed below the ViewBox. This height should be subtracted from the above Rect before displaying and image box.</definition>
+<definition>Height of the caption text in corrdinates displayed below the ViewBox.
+This height should be subtracted from the above Rect before
+displaying and image box.</definition>
 </entry>
     <entry group="0009" element="08" vr="US" vm="1" name="Source">
 <definition>The Acquisition Source for the image box.</definition>

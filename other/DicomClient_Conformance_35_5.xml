@@ -9,7 +9,9 @@
     <entry group="0021" element="03" vr="PN" vm="1" name="User Name">
 <definition>Name of user creating the note</definition>
 </entry>
-    <entry group="0021" element="04" vr="US (Multiplicity of 2)" vm="1" name="Coordinates (X, Y)">
+    <entry group="0021" element="04" vr="US
+(Multiplicity
+of 2)" vm="1" name="Coordinates (X, Y)">
 <definition>Image coordinates of location of note</definition>
 </entry>
 </dict>

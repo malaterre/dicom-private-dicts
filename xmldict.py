@@ -1,21 +1,26 @@
 import codecs
 from xml.sax.saxutils import escape
 
-def dumpxml(oxml, owner, d):
+class XMLDictWriter:
   # save as XML (legacy code)
   order=['group','element','vr','vm','name']
-  #with open(oxml,'w') as out_file:
-  with codecs.open(oxml, "w", "utf-8-sig") as out_file:
-    out_file.write( "<dicts>\n" )
-    out_file.write( "  <dict " )
-    out_file.write( 'owner="%s"' % owner )
-    out_file.write( ">\n" )
+  def open(self, filename):
+    #with open(oxml,'w') as out_file:
+    #with codecs.open(oxml, "w", "utf-8-sig") as out_file:
+    self.out_file = codecs.open(filename, "w", "utf-8-sig")
+    self.out_file.write( "<dicts>\n" )
+  def close(self):
+    self.out_file.write( "</dicts>\n" )
+  def writelines(self, owner, d):
+    self.out_file.write( "  <dict " )
+    self.out_file.write( 'owner="%s"' % owner )
+    self.out_file.write( ">\n" )
     for it in d:
       entry='    <entry'
       #print it.items()
       #for key, value in it.items():
       #  entry += ' %s="%s"' % (key,value)
-      for o in order:
+      for o in self.order:
         #val = '%('+o+')s'
         entry += ' %s="%s"' % (o,escape(it[o]))
       if it.has_key('type'):
@@ -31,6 +36,5 @@ def dumpxml(oxml, owner, d):
         entry += '</default_value>\n'
       entry += '</entry>\n'
       #print entry
-      out_file.write( entry )
-    out_file.write( "</dict>\n" )
-    out_file.write( "</dicts>\n" )
+      self.out_file.write( entry )
+    self.out_file.write( "</dict>\n" )

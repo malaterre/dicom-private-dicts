@@ -112,7 +112,7 @@ def normalize_entry( entry ):
       element = read_element( value.split(sep)[1].replace(brackc,'') )
       ret['element'] = "%02x" % element
     elif key == 'AttributeName':
-      ret['name'] = value
+      ret['name'] = value.replace('\n',' ')
     elif key == 'Definition':
       if value != None and value != '':
         ret['definition'] = value
@@ -152,7 +152,7 @@ for f in files:
             elstr.append(el['text'])
           if(debug): print >> sys.stderr, "debug el: %s" % ",".join(elstr)
           for index,col in enumerate(k):
-            elem[ col ] = j[index]['text'].replace('\r',' ')
+            elem[ col ] = j[index]['text'].replace('\r','\n')
           norm = normalize_entry(elem)
           if norm != None: d.append(norm)
       elif header != None:
@@ -180,4 +180,7 @@ for f in files:
 oxml = args.output
 owner = args.owner
 
-xmldict.dumpxml(oxml, owner, d)
+w = xmldict.XMLDictWriter()
+w.open(oxml)
+w.writelines(owner, d)
+w.close()

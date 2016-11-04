@@ -42,8 +42,12 @@ def merge( x, y ):
   return ret
 
 result = []
-for f in glob.glob("agfa/*.json"):
-    if f == "agfa/lists.json": continue
+#manu="agfa"
+#manu="hitachi"
+manu="fuji"
+#manu="other"
+for f in glob.glob("%s/*.json"%manu):
+    if f == "%s/lists.json"%manu: continue
     #print f
     with open(f, "rb") as infile:
         result.append(json.load(infile))
