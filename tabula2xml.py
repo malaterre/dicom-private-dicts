@@ -55,15 +55,17 @@ def read_group( value ):
 
 def read_element( value ):
   element = value.lower();
-#  if element.startswith( 'xx' ) and len(element) == 4:
-#    element = element[2:4]
-#  elif element.startswith( 'yy' ) and len(element) == 4: # sigh
-#    element = element[2:4]
-#  elif element.startswith( '10' ) and len(element) == 4:
-#    element = element[2:4]
+  if element.startswith( 'xx' ) and len(element) == 4:
+    element = element[2:4]
+  elif element.startswith( 'yy' ) and len(element) == 4: # sigh
+    element = element[2:4]
+  elif element.startswith( '10' ) and len(element) == 4:
+    element = element[2:4]
   if element.startswith( '0x' ): # usual copy/paste error from editor
     element = element.replace( '0x', '' )
   if element == '00xx':
+    element = '0'
+  if element == '0010':
     element = '0'
   if len(element) == 4: # typically people use group number, eg: F100
     element = element[2:4]

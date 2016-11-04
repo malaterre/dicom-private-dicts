@@ -1,6 +1,6 @@
 ﻿<dicts>
   <dict owner="AGFA">
-    <entry group="0019" element="10" vr="SH" vm="1" name="Private Identification Code">
+    <entry group="0019" element="00" vr="SH" vm="1" name="Private Identification Code">
 <default_value>AGFA</default_value>
 </entry>
     <entry group="0019" element="10" vr="ST" vm="1" name="Image Processing Parameters">

@@ -12,7 +12,8 @@
      PURPOSE.  See the above copyright notice for more information.
 -->
 <dict>
-  <entry owner="AGFA" group="0019" element="xx10" vr="SH" vm="1" name="Private Identification Code"/>
+  <entry owner="AGFA" group="0019" element="xx00" vr="SH" vm="1" name="Private Identification Code"/>
+  <entry owner="AGFA" group="0019" element="xx10" vr="ST" vm="1" name="Image Processing Parameters"/>
   <entry owner="AGFA" group="0019" element="xx11" vr="UN" vm="1" name="Identification data (Note 2)"/>
   <entry owner="AGFA" group="0019" element="xx13" vr="LO" vm="1" name="Sensitometry Name"/>
   <entry owner="AGFA" group="0019" element="xx14" vr="UN" vm="1" name="Window/Level list (Note 3)"/>
@@ -27,8 +28,8 @@
   <entry owner="AGFA" group="0019" element="xx81" vr="ST" vm="1" name="Roam Origin"/>
   <entry owner="AGFA" group="0019" element="xx82" vr="US" vm="1" name="Zoom factor"/>
   <entry owner="AGFA" group="0019" element="xx93" vr="CS" vm="1" name="Status"/>
+  <entry owner="AGFA_ADC_Compact" group="0019" element="xx00" vr="LO" vm="1" name="Private Identification Code"/>
   <entry owner="AGFA_ADC_Compact" group="0019" element="xx05" vr="ST" vm="1" name="Data stream from cassette"/>
-  <entry owner="AGFA_ADC_Compact" group="0019" element="xx10" vr="LO" vm="1" name="Private Identification Code"/>
   <entry owner="AGFA_ADC_Compact" group="0019" element="xx30" vr="ST" vm="1" name="Set of destination types (Note 1)"/>
   <entry owner="AGFA_ADC_Compact" group="0019" element="xx40" vr="ST" vm="1" name="Set of destination Ids (Note 1)"/>
   <entry owner="AGFA_ADC_Compact" group="0019" element="xx50" vr="ST" vm="1" name="Set of processing codes (Notes 1 &amp; 2)"/>

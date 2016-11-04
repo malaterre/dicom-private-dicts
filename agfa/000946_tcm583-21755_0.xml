@@ -1,6 +1,6 @@
 ﻿<dicts>
   <dict owner="AGFA_ADC_Compact">
-    <entry group="0019" element="10" vr="LO" vm="1" name="Private Identification Code" type="1">
+    <entry group="0019" element="00" vr="LO" vm="1" name="Private Identification Code" type="1">
 <default_value>Fixed AGFA_ADC_Compact</default_value>
 </entry>
     <entry group="0019" element="05" vr="ST" vm="1" name="Data stream from cassette" type="3">
