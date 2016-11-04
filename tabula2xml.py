@@ -176,13 +176,18 @@ for f in files:
       else:
         assert(False)
 
-# now that dict is complete, save as json:
-#with open(oxml,'w') as out_file:
-#  out_file.write( json.dumps(d, sort_keys=True, indent=4) )
-
-# save as XML (legacy code)
 oxml = args.output
 owner = args.owner
+
+# now that dict is complete, save as json:
+ojson = oxml.replace(".xml",".json")
+with open(ojson,'w') as out_file:
+  faketop = {}
+  faketop[ owner ] = d
+  #out_file.write( json.dumps(d, sort_keys=True, indent=4) )
+  out_file.write( json.dumps(faketop, sort_keys=True, indent=4) )
+
+# save as XML (legacy code)
 order=['group','element','vr','vm','name']
 #with open(oxml,'w') as out_file:
 with codecs.open(oxml, "w", "utf-8-sig") as out_file:
