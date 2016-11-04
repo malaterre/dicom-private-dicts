@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import json
 import glob
+import string
 
 # y will override what is in x
 def merge( x, y ):
@@ -19,14 +20,15 @@ def merge( x, y ):
           # easy case
           diff = False
       elif key == 'name':
-        if x[key].title() == y[key].title():
-          ret[key] = x[key].title()
+        # http://stackoverflow.com/questions/1549641/how-to-capitalize-the-first-letter-of-each-word-in-a-string-python
+        if string.capwords(x[key]) == string.capwords(y[key]):
+          ret[key] = string.capwords(x[key])
           diff = False
-        elif x[key].title() in y[key].title():
+        elif string.capwords(x[key]) in string.capwords(y[key]):
           # easy case
           diff = False
-        elif y[key].title() in x[key].title():
-          ret[key] = x[key].title()
+        elif string.capwords(y[key]) in string.capwords(x[key]):
+          ret[key] = string.capwords(x[key])
           diff = False
       elif key == 'default_value':
         if y[key] in x[key]:
