@@ -4,9 +4,11 @@ title: fuji
 
 <h1>fuji:</h1>
 <ul>
-{% for dict in site.data.merged_file %}
+{% for dict_hash in site.data.merged_file %}
+  {% for link in link_hash %}
   <li>
-      {{ dict[0] }}
+      {{ link[0] }}
   </li>
+  {% endfor %}
 {% endfor %}
 </ul>
