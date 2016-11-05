@@ -1,0 +1,2256 @@
+﻿<dicts>
+  <dict owner="SIEMENS MR VA0 GEN">
+    <entry group="0021" element="20" vr="IS" vm="1" name="Phase Corrections Rows sequence">
+</entry>
+    <entry group="0021" element="21" vr="IS" vm="1" name="Phase Corrections Columns sequence">
+</entry>
+    <entry group="0021" element="22" vr="IS" vm="1" name="Phase Corrections Rows reconstruction">
+</entry>
+    <entry group="0021" element="24" vr="IS" vm="1" name="Phase Corrections Columns reconstruction">
+</entry>
+    <entry group="0021" element="30" vr="IS" vm="1" name="Number of 3D Raw Partitions nominal">
+</entry>
+    <entry group="0021" element="31" vr="IS" vm="1" name="Number of 3D Raw Partitions current">
+</entry>
+    <entry group="0021" element="34" vr="IS" vm="1" name="Number of 3D Image Partitions">
+</entry>
+    <entry group="0021" element="36" vr="IS" vm="1" name="Actual 3D Image Partition Number">
+</entry>
+    <entry group="0021" element="39" vr="DS" vm="1" name="Slab Thickness">
+</entry>
+    <entry group="0021" element="40" vr="IS" vm="1" name="Number of Slices nominal">
+</entry>
+    <entry group="0021" element="41" vr="IS" vm="1" name="Number of Slices current">
+</entry>
+    <entry group="0021" element="42" vr="IS" vm="1" name="Current Slice Number">
+</entry>
+    <entry group="0021" element="43" vr="IS" vm="1" name="Current Group Number">
+</entry>
+    <entry group="0021" element="44" vr="DS" vm="1" name="Current Slice Distance Factor">
+</entry>
+    <entry group="0021" element="45" vr="IS" vm="1" name="MIP Start Row">
+</entry>
+    <entry group="0021" element="46" vr="IS" vm="1" name="MIP Stop Row">
+</entry>
+    <entry group="0021" element="47" vr="IS" vm="1" name="MIP Start Column">
+</entry>
+    <entry group="0021" element="48" vr="IS" vm="1" name="MIP Stop Column">
+</entry>
+    <entry group="0021" element="49" vr="IS" vm="1" name="MIP Start Slice">
+</entry>
+    <entry group="0021" element="4A" vr="IS" vm="1" name="MIP Stop Slice">
+</entry>
+    <entry group="0021" element="4F" vr="CS" vm="1" name="Order of Slices">
+</entry>
+    <entry group="0021" element="50" vr="UL" vm="1" name="Signal Mask">
+</entry>
+    <entry group="0021" element="52" vr="IS" vm="1" name="Delay after Trigger">
+</entry>
+    <entry group="0021" element="53" vr="IS" vm="1" name="RRInterval">
+</entry>
+    <entry group="0021" element="54" vr="DS" vm="1" name="Number of Trigger Pulses">
+</entry>
+    <entry group="0021" element="56" vr="DS" vm="1" name="Repetition Time effective">
+</entry>
+    <entry group="0021" element="57" vr="CS" vm="1" name="Gate Phase">
+</entry>
+    <entry group="0021" element="58" vr="DS" vm="1" name="Gate Threshold">
+</entry>
+    <entry group="0021" element="59" vr="DS" vm="1" name="Gated Ratio">
+</entry>
+    <entry group="0021" element="60" vr="IS" vm="1" name="Number of Interpolated Images">
+</entry>
+    <entry group="0021" element="70" vr="IS" vm="1" name="Number of Echoes">
+</entry>
+    <entry group="0021" element="72" vr="DS" vm="1" name="Second Echo Time">
+</entry>
+    <entry group="0021" element="73" vr="DS" vm="1" name="Second Repetition Time">
+</entry>
+    <entry group="0021" element="80" vr="IS" vm="1" name="Cardiac Code">
+</entry>
+    <entry group="0021" element="91" vr="DS" vm="1-N" name="Saturation Phase Encoding Vector Transversal Co...">
+</entry>
+    <entry group="0021" element="92" vr="DS" vm="1-N" name="Saturation Readout Vector Transversal Component">
+</entry>
+</dict>
+  <dict owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0">
+    <entry group="1135" element="00" vr="UI" vm="1" name="Private Voxar Capture UID">
+</entry>
+    <entry group="1135" element="01" vr="OB" vm="1" name="Private Voxar Saved State">
+</entry>
+    <entry group="1135" element="02" vr="SQ" vm="1" name="Private Voxar Icon Image Sequence">
+</entry>
+    <entry group="1135" element="03" vr="ST" vm="1" name="Private Voxar Top Right Display Demographics">
+</entry>
+    <entry group="1135" element="04" vr="ST" vm="1" name="Private Voxar Bottom Left Display Demographics">
+</entry>
+    <entry group="1135" element="05" vr="IS" vm="1" name="Private Voxar Span State Schema">
+</entry>
+    <entry group="1135" element="06" vr="UL" vm="1" name="Private Voxar Live Image Restored Size">
+</entry>
+    <entry group="1135" element="07" vr="UI" vm="1" name="Private Voxar CaptureType">
+</entry>
+    <entry group="1135" element="08" vr="SQ" vm="1" name="Private Voxar Capture Source Series UID Sequence">
+</entry>
+    <entry group="1135" element="09" vr="UI" vm="1" name="Private Voxar Capture Source Series UID">
+</entry>
+    <entry group="1135" element="10" vr="IS" vm="1" name="Private Voxar Background Gray For Capture">
+</entry>
+    <entry group="1135" element="11" vr="IS" vm="1" name="Private Voxar Calcium Scoring Report Schema">
+</entry>
+    <entry group="1135" element="12" vr="IS" vm="1" name="Private Voxar Source Series Number">
+</entry>
+    <entry group="1135" element="13" vr="LO" vm="1" name="Private Voxar Bottom Left Display Demographics">
+</entry>
+</dict>
+  <dict owner="SIEMENS RA GEN">
+    <entry group="0011" element="20" vr="UL" vm="1" name="Total Fluoro TimePatient">
+</entry>
+    <entry group="0011" element="25" vr="UL" vm="1" name="Dose Area ProductPatient">
+</entry>
+    <entry group="0011" element="30" vr="LO" vm="1" name="Patient DOB">
+</entry>
+    <entry group="0011" element="35" vr="LO" vm="1" name="Patient Initial Puck Counter">
+</entry>
+    <entry group="0011" element="40" vr="CS" vm="1" name="Patient Initial Position">
+</entry>
+    <entry group="0019" element="15" vr="CS" vm="1" name="Acquired Plane">
+</entry>
+    <entry group="0019" element="20" vr="UL" vm="1" name="Scene Flag">
+</entry>
+    <entry group="0019" element="22" vr="UL" vm="1" name="ReferencePhotofile Flag">
+</entry>
+    <entry group="0019" element="24" vr="LO" vm="1" name="Scene Name">
+</entry>
+    <entry group="0019" element="26" vr="US" vm="1" name="Acquisition Index">
+</entry>
+    <entry group="0019" element="28" vr="US" vm="1" name="Mixed Pulse Mode">
+</entry>
+    <entry group="0019" element="2A" vr="US" vm="1" name="Number of Positions">
+</entry>
+    <entry group="0019" element="2C" vr="US" vm="1" name="Number of Phases">
+</entry>
+    <entry group="0019" element="2E" vr="US" vm="N" name="Framerate for 8 Positions">
+</entry>
+    <entry group="0019" element="30" vr="US" vm="N" name="FramesPhase">
+</entry>
+    <entry group="0019" element="32" vr="US" vm="1" name="Stepping Direction">
+</entry>
+    <entry group="0019" element="44" vr="US" vm="1" name="Image Transfer Delay">
+</entry>
+    <entry group="0019" element="46" vr="UL" vm="1" name="InversNot Invers">
+</entry>
+    <entry group="0019" element="4C" vr="US" vm="1" name="Blanking Circle Diameter">
+</entry>
+    <entry group="0019" element="50" vr="US" vm="1" name="Stand Data Valid">
+</entry>
+    <entry group="0019" element="52" vr="US" vm="1" name="Table Tilt">
+</entry>
+    <entry group="0019" element="54" vr="US" vm="1" name="Table Axis Rotation">
+</entry>
+    <entry group="0019" element="56" vr="US" vm="1" name="Table Longitudinal Position">
+</entry>
+    <entry group="0019" element="58" vr="US" vm="1" name="Table Side Offset">
+</entry>
+    <entry group="0019" element="5A" vr="US" vm="1" name="Table Isocenter Height">
+</entry>
+    <entry group="0019" element="5E" vr="UL" vm="1" name="Collimation Data Valid">
+</entry>
+    <entry group="0019" element="60" vr="UL" vm="1" name="PERI Sequence Number">
+</entry>
+    <entry group="0019" element="62" vr="UL" vm="1" name="PERI Total Scenes">
+</entry>
+    <entry group="0019" element="64" vr="US" vm="1" name="PERI Overlap Top">
+</entry>
+    <entry group="0019" element="66" vr="UL" vm="1" name="PERI Overlap Bottom">
+</entry>
+    <entry group="0019" element="68" vr="UL" vm="1" name="Raw Image Number">
+</entry>
+    <entry group="0019" element="6A" vr="UL" vm="1" name="XRay Data Valid">
+</entry>
+    <entry group="0019" element="76" vr="UL" vm="1" name="Filling Average Factor">
+</entry>
+    <entry group="0019" element="9C" vr="UL" vm="1" name="II Level CalibrationFactor">
+</entry>
+    <entry group="0019" element="9E" vr="UL" vm="1" name="Nativ Review Flag">
+</entry>
+    <entry group="0021" element="15" vr="US" vm="1" name="Images in Study">
+</entry>
+    <entry group="0021" element="20" vr="US" vm="1" name="Scenes in Study">
+</entry>
+    <entry group="0021" element="25" vr="US" vm="1" name="Images in Photofile">
+</entry>
+    <entry group="0021" element="30" vr="US" vm="1" name="Images in All Scenes">
+</entry>
+</dict>
+  <dict owner="SIEMENS DFR.01 MANIPULATED">
+    <entry group="0017" element="11" vr="US" vm="1" name="Window Width Native Current">
+</entry>
+    <entry group="0017" element="12" vr="US" vm="1" name="Window Center Native">
+</entry>
+    <entry group="0017" element="14" vr="US" vm="1" name="Window Width Subtraction Current">
+</entry>
+    <entry group="0017" element="15" vr="US" vm="1" name="Window Center Subtraction Current">
+</entry>
+    <entry group="0017" element="25" vr="DS" vm="1" name="Edge Enhancement Native Current">
+</entry>
+    <entry group="0017" element="27" vr="DS" vm="1" name="Edge Enhancement Subtraction Current">
+</entry>
+    <entry group="0017" element="31" vr="US" vm="1" name="DSA Representation Current">
+</entry>
+    <entry group="0017" element="32" vr="US" vm="1" name="Number of Mask Current">
+</entry>
+    <entry group="0017" element="33" vr="US" vm="1" name="RightLeft Mark Current">
+</entry>
+    <entry group="0017" element="35" vr="US" vm="1" name="Number of Series Representative">
+</entry>
+    <entry group="0017" element="37" vr="US" vm="1" name="Rectangle Shutter Horizontal Current">
+</entry>
+    <entry group="0017" element="38" vr="US" vm="1" name="Rectangle Shutter Vertical Aktuell">
+</entry>
+    <entry group="0017" element="71" vr="LO" vm="1" name="Landmark Current">
+</entry>
+    <entry group="0017" element="72" vr="US" vm="1" name="Zoom Factor">
+</entry>
+    <entry group="0017" element="73" vr="US" vm="1" name="Roam Horizontal">
+</entry>
+    <entry group="0017" element="74" vr="US" vm="1" name="Roam Vertikal">
+</entry>
+    <entry group="0017" element="77" vr="IS" vm="1" name="Pixel Shift Horizontal">
+</entry>
+    <entry group="0017" element="78" vr="IS" vm="1" name="Pixel Shift Vertikal">
+</entry>
+    <entry group="0017" element="79" vr="US" vm="1" name="Image Flip">
+</entry>
+    <entry group="0017" element="7A" vr="US" vm="1" name="Invers Current">
+</entry>
+    <entry group="0017" element="83" vr="SH" vm="1" name="Documentation Flag">
+</entry>
+    <entry group="0017" element="91" vr="US" vm="1" name="Summation Count Filling">
+</entry>
+    <entry group="0017" element="92" vr="US" vm="1" name="Summation Count Mask">
+</entry>
+    <entry group="0017" element="93" vr="US" vm="1" name="PeakOp Start">
+</entry>
+    <entry group="0017" element="94" vr="US" vm="1" name="PeakOp End">
+</entry>
+    <entry group="0017" element="A0" vr="IS" vm="1" name="Cine Rate">
+</entry>
+    <entry group="0017" element="A1" vr="LO" vm="1" name="Image Name">
+</entry>
+    <entry group="0017" element="A2" vr="LO" vm="1" name="Image Name Extension 1">
+</entry>
+    <entry group="0017" element="A3" vr="LO" vm="1" name="Image Name Extension 2">
+</entry>
+</dict>
+  <dict owner="SIENET">
+    <entry group="0009" element="01" vr="US" vm="1" name="SIENET Command Field">
+</entry>
+    <entry group="0009" element="14" vr="LO" vm="1" name="Receiver PLA">
+</entry>
+    <entry group="0091" element="20" vr="PN" vm="1-N" name="Patient Name">
+</entry>
+    <entry group="0095" element="01" vr="LO" vm="1" name="Examination Folder ID">
+</entry>
+    <entry group="0095" element="04" vr="UL" vm="1" name="Folder Reported Status">
+</entry>
+    <entry group="0095" element="07" vr="LO" vm="1" name="SIENET ISA PLA">
+</entry>
+    <entry group="0095" element="0C" vr="UL" vm="1" name="Folder Rebuild Status">
+</entry>
+    <entry group="0095" element="26" vr="CS" vm="1" name="RIS Organ">
+</entry>
+    <entry group="0099" element="02" vr="UL" vm="1" name="Key Images">
+</entry>
+    <entry group="0099" element="05" vr="SL" vm="1" name="Image Number">
+</entry>
+</dict>
+  <dict owner="SIEMENS MED NM">
+    <entry group="0009" element="80" vr="LO" vm="1" name="Main Acquisition View">
+</entry>
+    <entry group="0011" element="10" vr="CS" vm="1" name="Organ System">
+</entry>
+    <entry group="0017" element="00" vr="ST" vm="1" name="Unknown 0017 0000">
+</entry>
+    <entry group="0017" element="20" vr="CS" vm="1" name="Scanning Sequence">
+</entry>
+    <entry group="0017" element="60" vr="DS" vm="1" name="KVP">
+</entry>
+    <entry group="0017" element="80" vr="ST" vm="N" name="Unknown 0017 0080">
+</entry>
+    <entry group="0019" element="01" vr="SS" vm="1" name="Number of detectors">
+</entry>
+    <entry group="0019" element="02" vr="SS" vm="1" name="Number of scalers">
+</entry>
+    <entry group="0019" element="03" vr="SS" vm="1" name="Scaler Index">
+</entry>
+    <entry group="0019" element="04" vr="DS" vm="1" name="Radionuclide Units">
+</entry>
+    <entry group="0019" element="05" vr="DS" vm="1" name="Radiopharmaceutical">
+</entry>
+    <entry group="0019" element="06" vr="FL" vm="1" name="Display Magnification">
+</entry>
+    <entry group="0019" element="07" vr="SL" vm="1" name="Scaler Counts">
+</entry>
+    <entry group="0019" element="08" vr="SS" vm="1" name="Processed Flag 0 Raw 1 Process">
+</entry>
+    <entry group="0019" element="09" vr="SS" vm="1" name="MicroDELTA Parameter Blocks">
+</entry>
+    <entry group="0019" element="0A" vr="LO" vm="1" name="MicroDELTA File Extension">
+</entry>
+    <entry group="0019" element="0B" vr="LO" vm="1" name="MicroDELTA Write ID">
+</entry>
+    <entry group="0019" element="0C" vr="SS" vm="1" name="MicroDELTA Write Version">
+</entry>
+    <entry group="0019" element="0D" vr="CS" vm="1" name="MicroDELTA Mode">
+</entry>
+    <entry group="0019" element="0E" vr="LO" vm="1" name="MicroDELTA ESFR">
+</entry>
+    <entry group="0019" element="0F" vr="SL" vm="1" name="Siemens ICON Data Type">
+</entry>
+    <entry group="0019" element="10" vr="OW" vm="1" name="MicroDELTA Expansion Blocks">
+</entry>
+    <entry group="0019" element="11" vr="CS" vm="1" name="MicroDELTA Version">
+</entry>
+    <entry group="0019" element="12" vr="LO" vm="1" name="MicroDELTA Trend">
+</entry>
+    <entry group="0019" element="13" vr="SS" vm="1" name="MicroDELTA Number of Overlays">
+</entry>
+    <entry group="0019" element="14" vr="SS" vm="1" name="MicroDELTA Overlay Block">
+</entry>
+    <entry group="0019" element="15" vr="SS" vm="1" name="MicroDELTA Color Table Extra">
+</entry>
+    <entry group="0019" element="16" vr="SS" vm="1" name="Number of Views">
+</entry>
+    <entry group="0019" element="17" vr="SS" vm="1" name="MicroDELTA Thyroid Markers">
+</entry>
+    <entry group="0019" element="18" vr="SS" vm="1" name="MicroDELTA Color Table Used">
+</entry>
+    <entry group="0019" element="19" vr="SS" vm="1" name="Save Screen Flag 1 SaveScreen">
+</entry>
+    <entry group="0019" element="1A" vr="SS" vm="1" name="MicroDELTA Overlay Map">
+</entry>
+    <entry group="0019" element="1B" vr="SS" vm="1" name="SGI Converted LookUp Table">
+</entry>
+    <entry group="0019" element="1C" vr="SS" vm="1" name="MicroDELTA Mystery1">
+</entry>
+    <entry group="0019" element="1D" vr="SS" vm="1" name="MicroDELTA Mystery2">
+</entry>
+    <entry group="0019" element="20" vr="FL" vm="1" name="Time of Lasix Administration">
+</entry>
+    <entry group="0019" element="21" vr="FL" vm="1" name="Lasix Dose mg">
+</entry>
+    <entry group="0019" element="22" vr="FL" vm="1" name="Bladder Esidual Volume cc">
+</entry>
+    <entry group="0019" element="23" vr="SS" vm="1" name="Bladder Image Extension">
+</entry>
+    <entry group="0019" element="24" vr="FL" vm="1" name="Serum Creatinine mg/dl">
+</entry>
+    <entry group="0019" element="25" vr="FL" vm="1" name="TER">
+</entry>
+    <entry group="0019" element="26" vr="FL" vm="1" name="TER Lower Limit">
+</entry>
+    <entry group="0019" element="27" vr="FL" vm="1" name="Body Surface Area m2">
+</entry>
+    <entry group="0019" element="30" vr="FL" vm="1" name="CTQ Normal Margin">
+</entry>
+    <entry group="0019" element="31" vr="FL" vm="1" name="CTQ Abnormal Sagittal Margin">
+</entry>
+    <entry group="0019" element="32" vr="FL" vm="1" name="CTQ Abnormal Oblique Margin">
+</entry>
+    <entry group="0019" element="41" vr="SS" vm="1" name="Accepted Beats">
+</entry>
+    <entry group="0019" element="42" vr="SS" vm="1" name="Rejected Beats">
+</entry>
+    <entry group="0019" element="43" vr="SS" vm="1" name="Percent of R-R Interval Framed">
+</entry>
+    <entry group="0019" element="44" vr="SS" vm="1" name="Beats Rejected Post PVC">
+</entry>
+    <entry group="0019" element="45" vr="FL" vm="1" name="Trigger Source">
+</entry>
+    <entry group="0019" element="47" vr="FL" vm="1" name="Beat Rejection Parameter">
+</entry>
+    <entry group="0019" element="48" vr="SH" vm="1" name="Rejection Scheme">
+</entry>
+    <entry group="0019" element="49" vr="FL" vm="1" name="PVC Threshold msec">
+</entry>
+    <entry group="0019" element="4A" vr="SS" vm="1" name="Framing Mode 1 Forward 2 F/B">
+</entry>
+    <entry group="0019" element="4B" vr="SS" vm="1" name="Autobeat Window 0 No 1 Yes">
+</entry>
+    <entry group="0019" element="4C" vr="FL" vm="1" name="MicroDELTA Acquisition Time per Window msec">
+</entry>
+    <entry group="0019" element="4E" vr="SS" vm="1" name="CTQ Unknown Entry Count">
+</entry>
+    <entry group="0019" element="4F" vr="SS" vm="1" name="CTQ Matrix Size">
+</entry>
+    <entry group="0019" element="50" vr="SS" vm="1" name="CTQ has been used">
+</entry>
+    <entry group="0019" element="51" vr="SS" vm="1" name="CTQ Male Entry Count">
+</entry>
+    <entry group="0019" element="52" vr="SS" vm="1" name="CTQ Female Entry Count">
+</entry>
+    <entry group="0019" element="53" vr="SS" vm="1" name="CTQ Stress/Rest Time Delay">
+</entry>
+    <entry group="0019" element="54" vr="CS" vm="1" name="CTQ Time Delay Units">
+</entry>
+    <entry group="0019" element="55" vr="SS" vm="1" name="CTQ Min Oblique Stack Count">
+</entry>
+    <entry group="0019" element="56" vr="SS" vm="1" name="CTQ Max Oblique Stack Count">
+</entry>
+    <entry group="0019" element="57" vr="SS" vm="1" name="CTQ Min Sagittal Stack Count">
+</entry>
+    <entry group="0019" element="58" vr="SS" vm="1" name="CTQ Max Sagittal Stack Count">
+</entry>
+    <entry group="0019" element="59" vr="SS" vm="1" name="CTQ Min Radius Percent">
+</entry>
+    <entry group="0019" element="5A" vr="UL" vm="1" name="CTQ Find Max or Average Flag">
+</entry>
+    <entry group="0019" element="5B" vr="SS" vm="1" name="CTQ Basal Slice Index Offset">
+</entry>
+    <entry group="0019" element="5C" vr="SS" vm="1" name="CTQ Starting Line Index">
+</entry>
+    <entry group="0019" element="5D" vr="SS" vm="1" name="CTQ Line Counts">
+</entry>
+    <entry group="0019" element="5E" vr="SS" vm="1" name="CTQ  Radii Counts">
+</entry>
+    <entry group="0019" element="5F" vr="SS" vm="1" name="CTQ Radial Angle Increment">
+</entry>
+    <entry group="0019" element="60" vr="SS" vm="1" name="Whole Body Processed Flag 0:Raw 1:Img1-Img2 2:Im">
+</entry>
+    <entry group="0019" element="61" vr="SS" vm="1" name="Whole Body View">
+</entry>
+    <entry group="0019" element="62" vr="SS" vm="1" name="WB Display Field Length in cm">
+</entry>
+    <entry group="0019" element="63" vr="SS" vm="1" name="WB Scan Length in cm">
+</entry>
+    <entry group="0019" element="64" vr="SS" vm="1" name="WB Scan Speed cm/min">
+</entry>
+    <entry group="0019" element="65" vr="SS" vm="1" name="WB Scan Speed Mode 0 Manual 1 Auto">
+</entry>
+    <entry group="0019" element="66" vr="SS" vm="1" name="WB Scan Start 0 Head 1 Feet">
+</entry>
+    <entry group="0019" element="67" vr="SS" vm="1" name="WB Scan Direction 0 Lt to Rt 1 Rt to Lt">
+</entry>
+    <entry group="0019" element="68" vr="FL" vm="1" name="WB Aperature Width in cm">
+</entry>
+    <entry group="0019" element="69" vr="SS" vm="1" name="WB Number of Passes">
+</entry>
+    <entry group="0019" element="6A" vr="SS" vm="1" name="WB Scan Time msec">
+</entry>
+    <entry group="0019" element="6B" vr="FL" vm="1" name="WB Anterior kCounts View 1">
+</entry>
+    <entry group="0019" element="6C" vr="FL" vm="1" name="WB Anterior kCounts View 2">
+</entry>
+    <entry group="0019" element="6D" vr="FL" vm="1" name="WB Count Density">
+</entry>
+    <entry group="0019" element="6E" vr="SS" vm="1" name="WB Reference View Flag 1 Ref">
+</entry>
+    <entry group="0019" element="6F" vr="FL" vm="1" name="WB Coun Density Speed cm/min">
+</entry>
+    <entry group="0019" element="70" vr="CS" vm="1" name="WB Scan Type">
+</entry>
+    <entry group="0019" element="71" vr="LO" vm="1" name="WB IRIS Corr. File Name">
+</entry>
+    <entry group="0019" element="72" vr="FL" vm="1" name="WB Posterior kCounts View 1">
+</entry>
+    <entry group="0019" element="73" vr="FL" vm="1" name="WB Posterior kCounts View 2">
+</entry>
+    <entry group="0019" element="74" vr="SS" vm="1" name="WB Ant View Status No Img 1 Complete 2 Aborted">
+</entry>
+    <entry group="0019" element="75" vr="SS" vm="1" name="WB Post View Status No Img 1 Complete 2 Aborted">
+</entry>
+    <entry group="0019" element="76" vr="SS" vm="1" name="WB Post Scan Time msec">
+</entry>
+    <entry group="0019" element="77" vr="SS" vm="1" name="WB Ant Pixel Overflow 1 Yes">
+</entry>
+    <entry group="0019" element="78" vr="SS" vm="1" name="WB Post Pixel Overflow 1 Yes">
+</entry>
+    <entry group="0019" element="7F" vr="SS" vm="1" name="Segment Type 0 Segments 2 Time/Segment">
+</entry>
+    <entry group="0019" element="80" vr="SS" vm="1" name="Number of Segments">
+</entry>
+    <entry group="0019" element="81" vr="SS" vm="1" name="PVC Rejection Flag 1 Reject">
+</entry>
+    <entry group="0019" element="82" vr="SL" vm="1" name="Total Counts Framed">
+</entry>
+    <entry group="0019" element="83" vr="SS" vm="1" name="Total Beats Framed">
+</entry>
+    <entry group="0019" element="84" vr="SS" vm="1" name="Present Time of Day">
+</entry>
+    <entry group="0019" element="85" vr="SS" vm="1" name="Framed Counts">
+</entry>
+    <entry group="0019" element="86" vr="SS" vm="1" name="Time per Segment msec">
+</entry>
+    <entry group="0019" element="87" vr="LT" vm="1" name="BBA Miscellaneous Info">
+</entry>
+    <entry group="0019" element="88" vr="SL" vm="1" name="Tolerance %">
+</entry>
+    <entry group="0019" element="89" vr="SS" vm="1" name="SWG">
+</entry>
+    <entry group="0019" element="8A" vr="SL" vm="1" name="R-R Interval msec">
+</entry>
+    <entry group="0019" element="8D" vr="SL" vm="1" name="Total Counts in Acquisition">
+</entry>
+    <entry group="0019" element="8E" vr="SL" vm="1" name="Rejection Type">
+</entry>
+    <entry group="0019" element="91" vr="FL" vm="1" name="Phase Total Counts">
+</entry>
+    <entry group="0019" element="92" vr="SL" vm="1" name="Phase Pause msec">
+</entry>
+    <entry group="0019" element="93" vr="SL" vm="1" name="Phase Start msec">
+</entry>
+    <entry group="0019" element="94" vr="SS" vm="1" name="Window Center Method 0 Avg 1 Peak">
+</entry>
+    <entry group="0019" element="95" vr="SS" vm="1" name="Number of Beats to Average">
+</entry>
+    <entry group="0019" element="96" vr="FL" vm="1" name="Histogram Bin Interval msec">
+</entry>
+    <entry group="0019" element="97" vr="SS" vm="1" name="Counts in Peak Bin">
+</entry>
+    <entry group="0019" element="A0" vr="SS" vm="1" name="VPDs Detected">
+</entry>
+    <entry group="0019" element="A1" vr="SS" vm="1" name="Number of Phases">
+</entry>
+    <entry group="0019" element="A2" vr="SL" vm="1" name="Requested Frame Duration msec">
+</entry>
+    <entry group="0019" element="A3" vr="SL" vm="1" name="Frames per Phase">
+</entry>
+    <entry group="0019" element="A4" vr="SL" vm="1" name="Frame Pause msec">
+</entry>
+    <entry group="0019" element="C0" vr="FL" vm="1" name="Head Tilt degrees">
+</entry>
+    <entry group="0019" element="C1" vr="SS" vm="1" name="Uniformity Correction Flag">
+</entry>
+    <entry group="0019" element="C2" vr="SS" vm="1" name="Overflow Flag">
+</entry>
+    <entry group="0019" element="F0" vr="FL" vm="1" name="Pixel Dimensions">
+</entry>
+    <entry group="001F" element="50" vr="DS" vm="1" name="Location RET">
+</entry>
+    <entry group="0031" element="01" vr="LO" vm="1" name="Camera Name">
+</entry>
+    <entry group="0031" element="02" vr="SS" vm="1" name="Unknown Element 0031 02">
+</entry>
+    <entry group="0031" element="03" vr="FL" vm="1" name="External Zoom">
+</entry>
+    <entry group="0031" element="04" vr="FL" vm="1" name="CCD Energy Level">
+</entry>
+    <entry group="0031" element="05" vr="SS" vm="1" name="CCD Window Width">
+</entry>
+    <entry group="0031" element="06" vr="FL" vm="1" name="CCD Window Offset">
+</entry>
+    <entry group="0031" element="07" vr="SS" vm="1" name="CCD Peaking Mode">
+</entry>
+    <entry group="0031" element="08" vr="LO" vm="1" name="CCD Autopeak Function">
+</entry>
+    <entry group="0031" element="09" vr="SS" vm="1" name="CCD Count Rate Mode">
+</entry>
+    <entry group="0031" element="0A" vr="SS" vm="1" name="Analog Output Device">
+</entry>
+    <entry group="0031" element="0B" vr="SS" vm="1" name="Communication Type">
+</entry>
+    <entry group="0031" element="0C" vr="SS" vm="1" name="Control Unit 1 ICON 2 DOT 3 ScintiView">
+</entry>
+    <entry group="0031" element="0D" vr="SS" vm="1" name="WAM Mode">
+</entry>
+    <entry group="0031" element="0E" vr="SS" vm="1" name="Event Control Mode">
+</entry>
+    <entry group="0031" element="0F" vr="FL" vm="1" name="Zoom X Offset 0.1 mm">
+</entry>
+    <entry group="0031" element="10" vr="FL" vm="1" name="Zoom Y Offset 0.1 mm">
+</entry>
+    <entry group="0031" element="11" vr="SS" vm="1" name="Gantry Zero Position">
+</entry>
+    <entry group="0041" element="21" vr="LO" vm="1" name="Text Relating to Data Object">
+</entry>
+    <entry group="0041" element="30" vr="DA" vm="1" name="Folder Creation Date">
+</entry>
+    <entry group="0041" element="32" vr="TM" vm="1" name="Folder Creation Time">
+</entry>
+    <entry group="0041" element="34" vr="DA" vm="1" name="Folder Modification Date">
+</entry>
+    <entry group="0041" element="36" vr="TM" vm="1" name="Folder Modification Time">
+</entry>
+    <entry group="0041" element="40" vr="LO" vm="1" name="Folder Owner Name">
+</entry>
+    <entry group="0041" element="50" vr="SS" vm="1" name="Folder Status">
+</entry>
+    <entry group="0041" element="70" vr="SL" vm="1" name="Number of Images in Folder">
+</entry>
+    <entry group="0041" element="71" vr="SL" vm="1" name="Number of Non-Image Objects">
+</entry>
+    <entry group="0051" element="10" vr="SS" vm="1" name="Number of Windows">
+</entry>
+    <entry group="0051" element="11" vr="SS" vm="1" name="Average Heart Rate BPM">
+</entry>
+    <entry group="0051" element="12" vr="SS" vm="1" name="Accepted Beats in Window">
+</entry>
+    <entry group="0051" element="13" vr="SS" vm="1" name="Average R-R Interval msec">
+</entry>
+    <entry group="0051" element="14" vr="SS" vm="1" name="Window Width %">
+</entry>
+    <entry group="0051" element="15" vr="SL" vm="1" name="Hottest Pixel in Window">
+</entry>
+    <entry group="0051" element="18" vr="SL" vm="1" name="Total Counts in Window">
+</entry>
+    <entry group="0053" element="01" vr="SS" vm="1" name="Terminate on Pixel Overflow Flag 1 Terminate">
+</entry>
+    <entry group="0053" element="02" vr="SS" vm="1" name="Terminate on List Buffer Overflow Flag">
+</entry>
+    <entry group="0053" element="03" vr="SS" vm="1" name="First Frame by Counts">
+</entry>
+    <entry group="0053" element="10" vr="SS" vm="1" name="Elapsed Time Start Condition 0 None 1 Any 2 All">
+</entry>
+    <entry group="0053" element="11" vr="SL" vm="1" name="Elapsed Time Start msec">
+</entry>
+    <entry group="0053" element="12" vr="SS" vm="1" name="Count Rate Start Condition 0 None 1 Any 2 All">
+</entry>
+    <entry group="0053" element="13" vr="SL" vm="1" name="Count Rate Start">
+</entry>
+    <entry group="0053" element="14" vr="SS" vm="1" name="Start Heart Beat Count Condition 0 None 1 Any 2 ">
+</entry>
+    <entry group="0053" element="15" vr="SL" vm="1" name="Start Heart Beat Count">
+</entry>
+    <entry group="0053" element="16" vr="SS" vm="1" name="Start Heart Rate Threshold Condition">
+</entry>
+    <entry group="0053" element="17" vr="SS" vm="1" name="Start Heart Rate Increasing Flag">
+</entry>
+    <entry group="0053" element="18" vr="SL" vm="1" name="Start Heart Rate">
+</entry>
+    <entry group="0053" element="19" vr="SL" vm="1" name="Manual Stop Flag 0 No 1 Yes">
+</entry>
+    <entry group="0053" element="1A" vr="SS" vm="1" name="Elapsed Time Stop Condition 0 None 1 Any 2 All">
+</entry>
+    <entry group="0053" element="1B" vr="SL" vm="1" name="Elapsed Time Stop">
+</entry>
+    <entry group="0053" element="1C" vr="SS" vm="1" name="Stop Heart Beat Count Condition 0 None 1 Any 2 A">
+</entry>
+    <entry group="0053" element="1D" vr="SL" vm="1" name="Stop Heart Beat Count">
+</entry>
+    <entry group="0053" element="30" vr="SS" vm="1" name="Info Density Stop Condition">
+</entry>
+    <entry group="0053" element="31" vr="SS" vm="1" name="Info Density Stop Scaler">
+</entry>
+    <entry group="0053" element="32" vr="SS" vm="1" name="Info Density Stop Region">
+</entry>
+    <entry group="0053" element="33" vr="SL" vm="1" name="Info Density Stop Count">
+</entry>
+    <entry group="0053" element="40" vr="SS" vm="1" name="Stop Condition Status 0 None 1 Any 2 All">
+</entry>
+    <entry group="0053" element="41" vr="SL" vm="1" name="Stop Count">
+</entry>
+    <entry group="0053" element="42" vr="SS" vm="1" name="Stop Count Condition Status 0 None 1 Any 2 All ">
+</entry>
+    <entry group="0053" element="43" vr="SL" vm="1" name="Stop Time">
+</entry>
+    <entry group="0053" element="44" vr="SS" vm="1" name="Stop Time Condition Status 0 None 1 Any 2 All ">
+</entry>
+    <entry group="0055" element="02" vr="SS" vm="1" name="Unknown 55-02">
+</entry>
+    <entry group="0055" element="20" vr="SS" vm="1" name="Flood Corr. Flag 1 Corr">
+</entry>
+    <entry group="0055" element="21" vr="DS" vm="1" name="Flood Acquisition Date">
+</entry>
+    <entry group="0055" element="30" vr="SS" vm="1" name="COR Corr. Flag 1 Corr">
+</entry>
+    <entry group="0055" element="31" vr="DA" vm="1" name="COR Acquisition Date">
+</entry>
+    <entry group="0055" element="38" vr="OW" vm="1" name="COR Data">
+</entry>
+    <entry group="0055" element="40" vr="SS" vm="1" name="Noncircular Orbit Flag 1 NCO">
+</entry>
+    <entry group="0055" element="48" vr="FL" vm="1" name="NCO Values">
+</entry>
+    <entry group="0055" element="50" vr="SS" vm="1" name="Prone Flag 0 Supine 1 Prone">
+</entry>
+    <entry group="0055" element="51" vr="SS" vm="1" name="Orbit 0 Circular 1 Elliptical">
+</entry>
+    <entry group="0055" element="52" vr="SS" vm="1" name="Total Rotation in Degrees">
+</entry>
+    <entry group="0055" element="53" vr="CS" vm="1" name="Zero Location (T=Top B=Bottom)">
+</entry>
+    <entry group="0055" element="54" vr="FL" vm="1" name="Angular Step">
+</entry>
+    <entry group="0055" element="55" vr="FL" vm="1" name="Start Angle">
+</entry>
+    <entry group="0055" element="56" vr="SS" vm="1" name="Decay Corr. Flag 1 Corr">
+</entry>
+    <entry group="0055" element="57" vr="SS" vm="1" name="Scatter Corr. Flag 1 Corr">
+</entry>
+    <entry group="0055" element="58" vr="FL" vm="1" name="Radial Map Info in 0.1 mm Inc.">
+</entry>
+    <entry group="0055" element="59" vr="CS" vm="1" name="Direction H HeadIn F FeetIn">
+</entry>
+    <entry group="0055" element="5A" vr="FL" vm="1" name="Table Traverse cm">
+</entry>
+    <entry group="0055" element="5B" vr="SS" vm="1" name="Multiplexor Flag 1 Multiplexed">
+</entry>
+    <entry group="0055" element="5C" vr="DS" vm="1" name="Pixel Acquisition Date">
+</entry>
+    <entry group="0055" element="5D" vr="SS" vm="1" name="Angle Type 1 360o 2 128 Steps">
+</entry>
+    <entry group="0055" element="5E" vr="SL" vm="1" name="Orbit Definition">
+</entry>
+    <entry group="0055" element="5F" vr="FL" vm="1" name="Arm Length in cm">
+</entry>
+    <entry group="0055" element="60" vr="SS" vm="1" name="Auto Window Beats">
+</entry>
+    <entry group="0055" element="61" vr="SS" vm="1" name="Non-gated File Extension">
+</entry>
+    <entry group="0055" element="64" vr="SS" vm="1" name="TIC Error Values">
+</entry>
+    <entry group="0055" element="65" vr="SS" vm="1" name="X1">
+</entry>
+    <entry group="0055" element="66" vr="SS" vm="1" name="Y1">
+</entry>
+    <entry group="0055" element="67" vr="SS" vm="1" name="X2">
+</entry>
+    <entry group="0055" element="68" vr="SS" vm="1" name="Y2">
+</entry>
+    <entry group="0055" element="69" vr="SS" vm="1" name="X3">
+</entry>
+    <entry group="0055" element="6A" vr="SS" vm="1" name="Y3">
+</entry>
+    <entry group="0055" element="6B" vr="SS" vm="1" name="X4">
+</entry>
+    <entry group="0055" element="6C" vr="SS" vm="1" name="Y4">
+</entry>
+    <entry group="0055" element="6D" vr="SS" vm="1" name="Pixel Size Flag 1 Valid Size">
+</entry>
+    <entry group="0055" element="70" vr="FL" vm="1" name="X Focal Length">
+</entry>
+    <entry group="0055" element="71" vr="FL" vm="1" name="Y Focal Length">
+</entry>
+    <entry group="0055" element="72" vr="FL" vm="1" name="X Gains">
+</entry>
+    <entry group="0055" element="73" vr="FL" vm="1" name="Y Gains">
+</entry>
+    <entry group="0055" element="74" vr="FL" vm="1" name="X Offset">
+</entry>
+    <entry group="0055" element="75" vr="FL" vm="1" name="Y Offset">
+</entry>
+    <entry group="0055" element="76" vr="FL" vm="1" name="X Principal Ray">
+</entry>
+    <entry group="0055" element="77" vr="FL" vm="1" name="Y Principal Ray">
+</entry>
+    <entry group="0055" element="78" vr="FL" vm="1" name="Total Flood Counts">
+</entry>
+    <entry group="0055" element="80" vr="SS" vm="1" name="File Altered Flag 1 Altered">
+</entry>
+    <entry group="0055" element="81" vr="SS" vm="1" name="Raw Data Extension">
+</entry>
+    <entry group="0055" element="82" vr="SS" vm="1" name="Sagittal Extension">
+</entry>
+    <entry group="0055" element="83" vr="SS" vm="1" name="Coronal Extension">
+</entry>
+    <entry group="0055" element="84" vr="SS" vm="1" name="Transverse Extension">
+</entry>
+    <entry group="0055" element="85" vr="SS" vm="1" name="Volume Rendered Extension">
+</entry>
+    <entry group="0055" element="86" vr="SL" vm="1" name="Plane of Transverse Bottom Slice">
+</entry>
+    <entry group="0055" element="87" vr="SL" vm="1" name="Plane of Transverse Top Slice">
+</entry>
+    <entry group="0055" element="88" vr="SL" vm="1" name="Slice Step in Pixels">
+</entry>
+    <entry group="0055" element="8A" vr="SL" vm="1" name="Y-Axis Smooth  Slice Weights">
+</entry>
+    <entry group="0055" element="8B" vr="SL" vm="1" name="Number of Transverse Slices">
+</entry>
+    <entry group="0055" element="8C" vr="SS" vm="1" name="Attenuation Flag 1 Chang 2 Sorenson">
+</entry>
+    <entry group="0055" element="8D" vr="SS" vm="1" name="Sagittal Right Limit">
+</entry>
+    <entry group="0055" element="8E" vr="SS" vm="1" name="Sagittal Left Limit">
+</entry>
+    <entry group="0055" element="8F" vr="SS" vm="1" name="Coronal Posterior Limit">
+</entry>
+    <entry group="0055" element="90" vr="SS" vm="1" name="Coronal Anterior Limit">
+</entry>
+    <entry group="0055" element="91" vr="SS" vm="1" name="Isotope Used in Reconstruction">
+</entry>
+    <entry group="0055" element="93" vr="FL" vm="1" name="Filter Cutoff Frequency">
+</entry>
+    <entry group="0055" element="94" vr="FL" vm="1" name="Filter Alpha Coefficient">
+</entry>
+    <entry group="0055" element="95" vr="FL" vm="1" name="Filter Order">
+</entry>
+    <entry group="0055" element="96" vr="FL" vm="1" name="Attenuation Cooefficient">
+</entry>
+    <entry group="0055" element="97" vr="SS" vm="1" name="Percent Ray">
+</entry>
+    <entry group="0055" element="98" vr="SS" vm="1" name="Astigmatic Collimator 1 Neuro 2 Cardiac">
+</entry>
+    <entry group="0055" element="99" vr="SS" vm="1" name="XP0">
+</entry>
+    <entry group="0055" element="9A" vr="SS" vm="1" name="ZP0">
+</entry>
+    <entry group="0055" element="9B" vr="SS" vm="1" name="XP1">
+</entry>
+    <entry group="0055" element="9C" vr="SS" vm="1" name="ZP1">
+</entry>
+    <entry group="0055" element="9D" vr="FL" vm="1" name="Rotation Matrix">
+</entry>
+    <entry group="0055" element="9E" vr="FL" vm="1" name="X0">
+</entry>
+    <entry group="0055" element="9F" vr="FL" vm="1" name="X1">
+</entry>
+    <entry group="0055" element="A0" vr="FL" vm="1" name="Y0">
+</entry>
+    <entry group="0055" element="A1" vr="FL" vm="1" name="Y1">
+</entry>
+    <entry group="0055" element="A2" vr="FL" vm="1" name="Z0">
+</entry>
+    <entry group="0055" element="A3" vr="FL" vm="1" name="Z1">
+</entry>
+    <entry group="0055" element="A4" vr="SS" vm="1" name="Transverse Scale">
+</entry>
+    <entry group="0055" element="A5" vr="FL" vm="1" name="Pixel Size  X Direction mm">
+</entry>
+    <entry group="0055" element="A6" vr="FL" vm="1" name="Pixel Size  Y Direction mm">
+</entry>
+    <entry group="0055" element="A7" vr="SS" vm="1" name="Regions File Extension">
+</entry>
+    <entry group="0055" element="A8" vr="SS" vm="1" name="Gated SPECT Bins Reconstructed">
+</entry>
+    <entry group="0055" element="A9" vr="SS" vm="1" name="Vertical Oblique Image">
+</entry>
+    <entry group="0055" element="B0" vr="SS" vm="1" name="Oblique Region  First Slice">
+</entry>
+    <entry group="0055" element="B1" vr="SS" vm="1" name="Oblique Region  Last Slice">
+</entry>
+    <entry group="0057" element="10" vr="SS" vm="1" name="Low Count">
+</entry>
+    <entry group="0057" element="20" vr="SS" vm="1" name="Vertical Oblique Image">
+</entry>
+    <entry group="5001" element="02" vr="SL" vm="1" name="Number of Points">
+</entry>
+    <entry group="5001" element="03" vr="FL" vm="1" name="Minimal Value on X-Axis">
+</entry>
+    <entry group="5001" element="04" vr="FL" vm="1" name="Maximal Value on X-Axis">
+</entry>
+    <entry group="5001" element="05" vr="FL" vm="1" name="Minimal Value on Y-Axis">
+</entry>
+    <entry group="5001" element="06" vr="FL" vm="1" name="Maximal Value on Y-Axis">
+</entry>
+    <entry group="5001" element="07" vr="LO" vm="1" name="Curve Name">
+</entry>
+    <entry group="5001" element="08" vr="LO" vm="1" name="Curve Function Label">
+</entry>
+    <entry group="5001" element="09" vr="SH" vm="1" name="X Axis Label">
+</entry>
+    <entry group="5001" element="0A" vr="SH" vm="1" name="Y Axis Label">
+</entry>
+    <entry group="5001" element="0B" vr="OW" vm="1" name="Curve Data">
+</entry>
+    <entry group="7FE1" element="10" vr="OW" vm="1" name="Compressed Pixel Data">
+</entry>
+    <entry group="7FE3" element="00" vr="UL" vm="1" name="Length of Group 0x7FE3">
+</entry>
+    <entry group="7FE3" element="14" vr="SL" vm="1" name="Lowest Pixel Value in THIS Frame">
+</entry>
+    <entry group="7FE3" element="15" vr="SL" vm="1" name="Highest Pixel Value in THIS Frame">
+</entry>
+    <entry group="7FE3" element="16" vr="SL" vm="1" name="Total Counts in THIS Frame">
+</entry>
+    <entry group="7FE3" element="17" vr="SL" vm="1" name="Duration of THIS Frame msec">
+</entry>
+    <entry group="7FE3" element="18" vr="FL" vm="1" name="Frame Angle">
+</entry>
+    <entry group="7FE3" element="19" vr="LO" vm="1" name="Frame Name">
+</entry>
+    <entry group="7FE3" element="1A" vr="FL" vm="1" name="View Number">
+</entry>
+    <entry group="7FE3" element="1B" vr="SS" vm="1" name="Pixel Overflow Flag 1 Pixel Overflow">
+</entry>
+    <entry group="7FE3" element="1C" vr="SS" vm="1" name="Buffer Overflow Flag 1 Buffer Overflow">
+</entry>
+    <entry group="7FE3" element="1E" vr="SL" vm="1" name="Start Time of THIS Frame From Start of Study">
+</entry>
+    <entry group="7FE3" element="1F" vr="SL" vm="1" name="ROI Maximum Pixel Value">
+</entry>
+    <entry group="7FE3" element="20" vr="SL" vm="1" name="ROI Average Pixel Value">
+</entry>
+    <entry group="7FE3" element="21" vr="SL" vm="1" name="ROI Total Counts">
+</entry>
+    <entry group="7FE3" element="22" vr="SL" vm="1" name="ROI Total Pixels">
+</entry>
+    <entry group="7FE3" element="23" vr="SL" vm="1" name="ROI Center Coordinates">
+</entry>
+    <entry group="7FE3" element="24" vr="LO" vm="1" name="ROI Name">
+</entry>
+    <entry group="7FE3" element="25" vr="SS" vm="1" name="ROI Data">
+</entry>
+</dict>
+  <dict owner="ISI">
+    <entry group="0009" element="01" vr="SQ" vm="1" name="SIENET General Purpose IMGF">
+</entry>
+</dict>
+  <dict owner="SPI RELEASE 1">
+    <entry group="0009" element="10" vr="LO" vm="1" name="Comments">
+</entry>
+    <entry group="0009" element="15" vr="LO" vm="1" name="Unique Identifier">
+</entry>
+    <entry group="0009" element="40" vr="US" vm="1" name="Data Object Type">
+</entry>
+    <entry group="0009" element="41" vr="SH" vm="1" name="Data Object Subtype">
+</entry>
+    <entry group="0011" element="10" vr="LO" vm="1" name="Organ">
+</entry>
+    <entry group="0011" element="15" vr="LO" vm="1" name="Allergy Indication">
+</entry>
+    <entry group="0011" element="20" vr="CS" vm="1" name="Pregnancy">
+</entry>
+</dict>
+  <dict owner="SIEMENS MR VA0 RAW">
+    <entry group="0021" element="00" vr="CS" vm="1" name="Sequence Type">
+</entry>
+    <entry group="0021" element="01" vr="IS" vm="1" name="Vector Size original">
+</entry>
+    <entry group="0021" element="02" vr="IS" vm="1" name="Vector Size extended">
+</entry>
+    <entry group="0021" element="03" vr="DS" vm="1" name="Acquired Spectral Range">
+</entry>
+    <entry group="0021" element="04" vr="DS" vm="N" name="VOI Position">
+</entry>
+    <entry group="0021" element="05" vr="DS" vm="N" name="VOI Size">
+</entry>
+    <entry group="0021" element="06" vr="IS" vm="N" name="CSI Matrix Size original">
+</entry>
+    <entry group="0021" element="07" vr="IS" vm="N" name="CSI Matrix Size extended">
+</entry>
+    <entry group="0021" element="08" vr="DS" vm="N" name="Spatial Grid Shift">
+</entry>
+    <entry group="0021" element="09" vr="DS" vm="1" name="Signal Limits Minimum">
+</entry>
+    <entry group="0021" element="10" vr="DS" vm="1" name="Signal Limits Maximum">
+</entry>
+    <entry group="0021" element="30" vr="DS" vm="1-N" name="AC ADC Offset">
+</entry>
+    <entry group="0021" element="31" vr="DS" vm="1-N" name="AC Preamplifier Gain">
+</entry>
+    <entry group="0021" element="50" vr="CS" vm="1" name="Saturation Type">
+</entry>
+    <entry group="0021" element="51" vr="DS" vm="N" name="Saturation Normal Vector">
+</entry>
+    <entry group="0021" element="52" vr="DS" vm="N" name="Saturation Position Vector">
+</entry>
+    <entry group="0021" element="53" vr="DS" vm="N" name="Saturation Thickness">
+</entry>
+    <entry group="0021" element="54" vr="DS" vm="N" name="Saturation Width">
+</entry>
+    <entry group="0021" element="55" vr="DS" vm="N" name="Saturation Distance">
+</entry>
+</dict>
+  <dict owner="SIEMENS CT VA0  GEN">
+    <entry group="0019" element="10" vr="DS" vm="1" name="Source Side Collimator Aperture">
+</entry>
+    <entry group="0019" element="11" vr="DS" vm="1" name="Detector Side Collimator Aperture">
+</entry>
+    <entry group="0019" element="20" vr="IS" vm="1" name="Exposure Time current">
+</entry>
+    <entry group="0019" element="21" vr="IS" vm="1" name="Exposure current">
+</entry>
+    <entry group="0019" element="25" vr="DS" vm="1" name="Generator Power current">
+</entry>
+    <entry group="0019" element="26" vr="DS" vm="1" name="Generator Voltage current">
+</entry>
+    <entry group="0019" element="40" vr="UL" vm="1" name="Master Control Mask">
+</entry>
+    <entry group="0019" element="42" vr="US" vm="N" name="Processing Mask">
+</entry>
+    <entry group="0019" element="44" vr="UL" vm="N" name="IRS Data Number">
+</entry>
+    <entry group="0019" element="45" vr="UL" vm="N" name="IRS Data Length">
+</entry>
+    <entry group="0019" element="62" vr="IS" vm="1" name="Number of Virtuell Channels">
+</entry>
+    <entry group="0019" element="70" vr="IS" vm="1" name="Number of Reading">
+</entry>
+    <entry group="0019" element="71" vr="CS" vm="1" name="Reading Code">
+</entry>
+    <entry group="0019" element="74" vr="IS" vm="1" name="Number of Projections">
+</entry>
+    <entry group="0019" element="75" vr="IS" vm="1" name="Number of Bytes">
+</entry>
+    <entry group="0019" element="80" vr="IS" vm="N" name="Reconstruction Algorithm Set">
+</entry>
+    <entry group="0019" element="81" vr="IS" vm="1" name="Reconstruction Algorithm Index">
+</entry>
+    <entry group="0019" element="82" vr="LO" vm="1" name="Regeneration Software Version">
+</entry>
+    <entry group="0019" element="84" vr="IS" vm="1" name="Multiscan Reconstruction Increment">
+</entry>
+    <entry group="0019" element="85" vr="IS" vm="1" name="Multiscan Reconstruction Width">
+</entry>
+    <entry group="0019" element="88" vr="IS" vm="1" name="Range Number">
+</entry>
+</dict>
+  <dict owner="SIEMENS CM VA0  COAD">
+    <entry group="0019" element="3D" vr="LO" vm="1" name="Reading Code RZ2 Comment 2">
+</entry>
+</dict>
+  <dict owner="SIEMENS CT VA0 RAW">
+    <entry group="0021" element="10" vr="UL" vm="N" name="Creation Mask service">
+</entry>
+    <entry group="0021" element="20" vr="UL" vm="N" name="Evaluation Mask service">
+</entry>
+    <entry group="0021" element="30" vr="US" vm="N" name="Extended Processing Mask">
+</entry>
+    <entry group="0021" element="40" vr="UL" vm="N" name="Manipulation Mask">
+</entry>
+    <entry group="0021" element="41" vr="UL" vm="N" name="Composition Mask">
+</entry>
+    <entry group="0021" element="42" vr="UL" vm="N" name="Alteration Mask">
+</entry>
+    <entry group="0021" element="43" vr="UL" vm="N" name="Generation Mask">
+</entry>
+    <entry group="0021" element="44" vr="UL" vm="N" name="Function Mask">
+</entry>
+    <entry group="0021" element="50" vr="CS" vm="1" name="Mode Mirroring Code">
+</entry>
+</dict>
+  <dict owner="SIEMENS MED">
+    <entry group="0009" element="10" vr="LO" vm="1" name="Recognition Code">
+</entry>
+    <entry group="0009" element="30" vr="US" vm="1" name="Byte Offset of Original Header">
+</entry>
+    <entry group="0009" element="31" vr="UL" vm="1" name="Length of Original Header">
+</entry>
+    <entry group="0009" element="40" vr="US" vm="1" name="Byte Offset of Pixel Matrix">
+</entry>
+    <entry group="0009" element="41" vr="UL" vm="1" name="Length of Pixel Matrix">
+</entry>
+    <entry group="0009" element="F5" vr="LO" vm="1" name="PDM EFID Placeholder">
+</entry>
+    <entry group="0009" element="F6" vr="LO" vm="1" name="PDM Data Object Type Extension">
+</entry>
+    <entry group="0021" element="10" vr="DS" vm="1" name="Zoom">
+</entry>
+    <entry group="0021" element="11" vr="DS" vm="N" name="Target">
+</entry>
+    <entry group="0021" element="12" vr="IS" vm="1" name="Tube Angle During Topogram">
+</entry>
+    <entry group="0021" element="20" vr="US" vm="1" name="ROI Mask">
+</entry>
+</dict>
+  <dict owner="SIEMENS RIS">
+    <entry group="0011" element="10" vr="LO" vm="1" name="Patient UID">
+</entry>
+    <entry group="0011" element="11" vr="LO" vm="1" name="Patient ID">
+</entry>
+    <entry group="0011" element="20" vr="DA" vm="1" name="Patient Registration Date">
+</entry>
+    <entry group="0011" element="21" vr="TM" vm="1" name="Patient Registration Time">
+</entry>
+    <entry group="0011" element="30" vr="PN" vm="1" name="Patient NameRIS">
+</entry>
+    <entry group="0011" element="31" vr="PN" vm="1" name="Patient Prename">
+</entry>
+    <entry group="0011" element="40" vr="LO" vm="1" name="Patient Hospital Status">
+</entry>
+    <entry group="0011" element="41" vr="LO" vm="1" name="Medical Alerts">
+</entry>
+    <entry group="0011" element="42" vr="LO" vm="1" name="Contrast Allergy">
+</entry>
+    <entry group="0031" element="10" vr="LO" vm="1" name="Request UID">
+</entry>
+    <entry group="0031" element="45" vr="LO" vm="1" name="Requesting Physician">
+</entry>
+    <entry group="0031" element="50" vr="LO" vm="1" name="Requested Physician">
+</entry>
+</dict>
+  <dict owner="SPI">
+    <entry group="0009" element="10" vr="LO" vm="1" name="Comments">
+</entry>
+    <entry group="0009" element="15" vr="LO" vm="1" name="Unique Identifier">
+</entry>
+    <entry group="0009" element="40" vr="US" vm="1" name="Data Object Type">
+</entry>
+    <entry group="0009" element="41" vr="SH" vm="1" name="Data Object Subtype">
+</entry>
+    <entry group="0011" element="10" vr="LO" vm="1" name="Organ">
+</entry>
+    <entry group="0011" element="15" vr="LO" vm="1" name="Allergy Indication">
+</entry>
+    <entry group="0011" element="20" vr="CS" vm="1" name="Pregnancy">
+</entry>
+</dict>
+  <dict owner="SIEMENS MR VA0  COAD">
+    <entry group="0019" element="12" vr="DS" vm="1" name="Magnetic Field Strength">
+</entry>
+    <entry group="0019" element="14" vr="DS" vm="1" name="ADC Voltage">
+</entry>
+    <entry group="0019" element="16" vr="DS" vm="N" name="ADC Offset">
+</entry>
+    <entry group="0019" element="20" vr="DS" vm="1" name="Transmitter Amplitude">
+</entry>
+    <entry group="0019" element="21" vr="IS" vm="1" name="Number of Transmitter Amplitudes">
+</entry>
+    <entry group="0019" element="22" vr="DS" vm="1" name="Transmitter Attenuator">
+</entry>
+    <entry group="0019" element="24" vr="DS" vm="1" name="Transmitter Calibration">
+</entry>
+    <entry group="0019" element="26" vr="DS" vm="1" name="Transmitter Reference">
+</entry>
+    <entry group="0019" element="50" vr="DS" vm="1" name="Receiver Total Gain">
+</entry>
+    <entry group="0019" element="51" vr="DS" vm="1" name="Receiver Amplifier Gain">
+</entry>
+    <entry group="0019" element="52" vr="DS" vm="1" name="Receiver Preamplifier Gain">
+</entry>
+    <entry group="0019" element="54" vr="DS" vm="1" name="Receiver Cable Attenuation">
+</entry>
+    <entry group="0019" element="55" vr="DS" vm="1" name="Receiver Reference Gain">
+</entry>
+    <entry group="0019" element="56" vr="IS" vm="1" name="Receiver Filter Frequency">
+</entry>
+    <entry group="0019" element="60" vr="DS" vm="1" name="Reconstruction Scale Factor">
+</entry>
+    <entry group="0019" element="62" vr="DS" vm="1" name="Reference Scale Factor">
+</entry>
+    <entry group="0019" element="70" vr="DS" vm="1" name="Phase Gradient Amplitude">
+</entry>
+    <entry group="0019" element="71" vr="DS" vm="1" name="Readout Gradient Amplitude">
+</entry>
+    <entry group="0019" element="72" vr="DS" vm="1" name="Selection Gradient Amplitude">
+</entry>
+    <entry group="0019" element="80" vr="DS" vm="N" name="Gradient Delay Time">
+</entry>
+    <entry group="0019" element="82" vr="DS" vm="1" name="Total Gradient Delay Time">
+</entry>
+    <entry group="0019" element="90" vr="LO" vm="1" name="Sensitivity Correction Label">
+</entry>
+    <entry group="0019" element="91" vr="DS" vm="1-5" name="Saturation Phase Encoding Vector Coronal Component">
+</entry>
+    <entry group="0019" element="92" vr="DS" vm="1-5" name="Saturation Readout Vector Coronal Component">
+</entry>
+    <entry group="0019" element="A0" vr="IS" vm="1" name="RF Watchdog Mask">
+</entry>
+    <entry group="0019" element="A2" vr="DS" vm="1" name="RF Power Error Indicator">
+</entry>
+    <entry group="0019" element="A5" vr="DS" vm="N" name="Specific Absorption Rate SAR">
+</entry>
+    <entry group="0019" element="A6" vr="DS" vm="N" name="Specific Energy Dose SED">
+</entry>
+    <entry group="0019" element="B0" vr="UL" vm="1" name="Adjustment Status Mask">
+</entry>
+    <entry group="0019" element="C1" vr="DS" vm="N" name="EPI Capacity">
+</entry>
+    <entry group="0019" element="C2" vr="DS" vm="N" name="EPI Inductance">
+</entry>
+    <entry group="0019" element="C3" vr="IS" vm="N" name="EPI Switch Configuration Code">
+</entry>
+    <entry group="0019" element="C4" vr="IS" vm="N" name="EPI Switch Hardware Code">
+</entry>
+    <entry group="0019" element="C5" vr="DS" vm="N" name="EPI Switch Delay Time">
+</entry>
+    <entry group="0019" element="D1" vr="DS" vm="1" name="Flow Sensitivity">
+</entry>
+    <entry group="0019" element="D2" vr="CS" vm="1" name="Calculation Submode">
+</entry>
+    <entry group="0019" element="D3" vr="DS" vm="1" name="Field of View Ratio">
+</entry>
+    <entry group="0019" element="D4" vr="IS" vm="1" name="Base Raw Matrix Size">
+</entry>
+    <entry group="0019" element="D5" vr="IS" vm="1" name="2D Phase Oversampling Lines">
+</entry>
+    <entry group="0019" element="D6" vr="IS" vm="1" name="3D Phase Oversampling Part">
+</entry>
+    <entry group="0019" element="D7" vr="IS" vm="1" name="Echo Line Position">
+</entry>
+    <entry group="0019" element="D8" vr="IS" vm="1" name="Echo Column Position">
+</entry>
+    <entry group="0019" element="D9" vr="IS" vm="1" name="Lines per Segment">
+</entry>
+    <entry group="0019" element="DA" vr="CS" vm="1" name="Phase Coding Direction">
+</entry>
+</dict>
+  <dict owner="SIEMENS CT VA0  IDE">
+    <entry group="0009" element="10" vr="LO" vm="1" name="SOMATOM Software Name">
+</entry>
+    <entry group="0009" element="30" vr="CS" vm="1" name="Data Set Subtype 1">
+</entry>
+    <entry group="0009" element="31" vr="SH" vm="1" name="Data Set Subtype 2">
+</entry>
+    <entry group="0009" element="32" vr="SH" vm="1" name="Data Set Subtype 3">
+</entry>
+    <entry group="0009" element="33" vr="SH" vm="1" name="Data Set Subtype 4">
+</entry>
+    <entry group="0009" element="34" vr="SH" vm="1" name="Data Set Subtype 5">
+</entry>
+    <entry group="0009" element="40" vr="LO" vm="1" name="Directory Text">
+</entry>
+    <entry group="0009" element="42" vr="LO" vm="1" name="Exposure Time Text">
+</entry>
+    <entry group="0009" element="50" vr="DA" vm="1" name="Scan Date">
+</entry>
+    <entry group="0009" element="51" vr="TM" vm="1" name="Scan Time">
+</entry>
+</dict>
+  <dict owner="SIEMENS CM VA0  OST">
+    <entry group="6023" element="00" vr="LO" vm="1" name="Osteo Contour Comment">
+</entry>
+    <entry group="6023" element="10" vr="SS" vm="1-N" name="Osteo Contour Buffer">
+</entry>
+</dict>
+  <dict owner="SIEMENS CT VA0 GEN">
+    <entry group="0021" element="10" vr="IS" vm="1" name="Rotation Angle">
+</entry>
+    <entry group="0021" element="11" vr="IS" vm="1" name="Start Angle">
+</entry>
+    <entry group="0021" element="20" vr="IS" vm="1" name="Scan">
+</entry>
+    <entry group="0021" element="30" vr="IS" vm="1" name="Tube Position">
+</entry>
+    <entry group="0021" element="32" vr="DS" vm="1" name="Length of Topogram">
+</entry>
+    <entry group="0021" element="34" vr="DS" vm="1" name="Correction Factor">
+</entry>
+    <entry group="0021" element="36" vr="DS" vm="1" name="Maximum Table Position">
+</entry>
+    <entry group="0021" element="40" vr="IS" vm="1" name="Table Move Direction Code">
+</entry>
+    <entry group="0021" element="45" vr="IS" vm="1" name="VOI Start Row">
+</entry>
+    <entry group="0021" element="46" vr="IS" vm="1" name="VOI Stop Row">
+</entry>
+    <entry group="0021" element="47" vr="IS" vm="1" name="VOI Start Column">
+</entry>
+    <entry group="0021" element="48" vr="IS" vm="1" name="VOI Stop Column">
+</entry>
+    <entry group="0021" element="49" vr="IS" vm="1" name="VOI Start Slice">
+</entry>
+    <entry group="0021" element="4A" vr="IS" vm="1" name="VOI Stop Slice">
+</entry>
+    <entry group="0021" element="50" vr="IS" vm="1" name="Vector Start Row">
+</entry>
+    <entry group="0021" element="51" vr="IS" vm="1" name="Vector Row Step">
+</entry>
+    <entry group="0021" element="52" vr="IS" vm="1" name="Vector Start Column">
+</entry>
+    <entry group="0021" element="53" vr="IS" vm="1" name="Vector Column Step">
+</entry>
+    <entry group="0021" element="60" vr="IS" vm="1" name="Range Type Code">
+</entry>
+    <entry group="0021" element="62" vr="IS" vm="1" name="Reference Type Code">
+</entry>
+    <entry group="0021" element="70" vr="DS" vm="N" name="Object Orientation">
+</entry>
+    <entry group="0021" element="72" vr="DS" vm="N" name="Light Orientation">
+</entry>
+    <entry group="0021" element="75" vr="DS" vm="1" name="Light Brightness">
+</entry>
+    <entry group="0021" element="76" vr="DS" vm="1" name="Light Contrast">
+</entry>
+    <entry group="0021" element="7A" vr="IS" vm="N" name="Overlay Threshold">
+</entry>
+    <entry group="0021" element="7B" vr="IS" vm="N" name="Surface Threshold">
+</entry>
+    <entry group="0021" element="7C" vr="IS" vm="N" name="Grey Scale Threshold">
+</entry>
+    <entry group="0021" element="A0" vr="IS" vm="N" name="Field of Interest">
+</entry>
+    <entry group="0021" element="A1" vr="CS" vm="1" name="Image Filter Label">
+</entry>
+    <entry group="0021" element="A2" vr="CS" vm="1" name="Exemplary Element 1">
+</entry>
+    <entry group="0021" element="A3" vr="IS" vm="N" name="Exemplary Element 2">
+</entry>
+    <entry group="0021" element="A4" vr="LO" vm="1" name="Exemplary Element 3">
+</entry>
+    <entry group="0021" element="A5" vr="IS" vm="1" name="Reference Data Set 1">
+</entry>
+    <entry group="0021" element="A6" vr="IS" vm="1" name="Reference Data Set 2">
+</entry>
+    <entry group="0021" element="A7" vr="LO" vm="1" name="Window Program Name">
+</entry>
+</dict>
+  <dict owner="SIEMENS CM VA0  LAB">
+    <entry group="0009" element="10" vr="LO" vm="1" name="Generator Identification Label">
+</entry>
+    <entry group="0009" element="11" vr="LO" vm="1" name="Gantry Identification Label">
+</entry>
+    <entry group="0009" element="12" vr="LO" vm="1" name="XRay Tube Identification Label">
+</entry>
+    <entry group="0009" element="13" vr="LO" vm="1" name="Detector Identification Label">
+</entry>
+    <entry group="0009" element="14" vr="LO" vm="1" name="DAS Identification Label">
+</entry>
+    <entry group="0009" element="15" vr="LO" vm="1" name="SMI Identification Label">
+</entry>
+    <entry group="0009" element="16" vr="LO" vm="1" name="CPU Identification Label">
+</entry>
+    <entry group="0009" element="20" vr="SH" vm="1" name="Header Version">
+</entry>
+</dict>
+  <dict owner="SIEMENS DFR.01 ORIGINAL">
+    <entry group="0017" element="10" vr="CS" vm="1" name="Image Type">
+</entry>
+    <entry group="0017" element="11" vr="US" vm="1" name="Window Width Native Original">
+</entry>
+    <entry group="0017" element="12" vr="US" vm="1" name="Window Center Native">
+</entry>
+    <entry group="0017" element="14" vr="US" vm="1" name="Window Width Subtraction Original">
+</entry>
+    <entry group="0017" element="15" vr="US" vm="1" name="Window Center Subtraction Original">
+</entry>
+    <entry group="0017" element="16" vr="US" vm="1" name="LUT Number for Autowindow">
+</entry>
+    <entry group="0017" element="21" vr="US" vm="1" name="Edge Enhancement Kernelsize Original">
+</entry>
+    <entry group="0017" element="22" vr="US" vm="1" name="Edge Enhancement Mode Original">
+</entry>
+    <entry group="0017" element="23" vr="US" vm="N" name="Edge Enhancement LUTs Original">
+</entry>
+    <entry group="0017" element="24" vr="US" vm="1" name="Filter Type Native Original">
+</entry>
+    <entry group="0017" element="25" vr="DS" vm="1" name="Edge Enhancement Native Original">
+</entry>
+    <entry group="0017" element="26" vr="US" vm="1" name="Filter Type Subtraction Original">
+</entry>
+    <entry group="0017" element="27" vr="DS" vm="1" name="Edge Enhancement Subtraction Original">
+</entry>
+    <entry group="0017" element="31" vr="US" vm="1" name="DSA Representation Original">
+</entry>
+    <entry group="0017" element="32" vr="US" vm="1" name="Number of Maske Original">
+</entry>
+    <entry group="0017" element="33" vr="US" vm="1" name="RightLeft Mark Original">
+</entry>
+    <entry group="0017" element="34" vr="DS" vm="1" name="Slice Position">
+</entry>
+    <entry group="0017" element="37" vr="US" vm="1" name="Rectangle Shutter Horizontal Original">
+</entry>
+    <entry group="0017" element="38" vr="US" vm="1" name="Rectangle Vertical Original">
+</entry>
+    <entry group="0017" element="41" vr="DS" vm="1" name="Dose">
+</entry>
+    <entry group="0017" element="42" vr="DS" vm="1" name="Dose Area Product">
+</entry>
+    <entry group="0017" element="43" vr="US" vm="1" name="Focus">
+</entry>
+    <entry group="0017" element="44" vr="US" vm="1" name="SDM">
+</entry>
+    <entry group="0017" element="45" vr="DS" vm="1" name="Image Intensifer Format">
+</entry>
+    <entry group="0017" element="46" vr="DS" vm="1" name="Density Correction">
+</entry>
+    <entry group="0017" element="47" vr="LO" vm="1" name="Exposure Curves">
+</entry>
+    <entry group="0017" element="49" vr="LO" vm="1" name="Organ Program Name">
+</entry>
+    <entry group="0017" element="4A" vr="IS" vm="1" name="Count of Images in Series">
+</entry>
+    <entry group="0017" element="51" vr="US" vm="1" name="Image Intensifier Zoom">
+</entry>
+    <entry group="0017" element="52" vr="UL" vm="1" name="ROSA Receiver ErrCount">
+</entry>
+    <entry group="0017" element="61" vr="US" vm="1" name="Table Position Peri">
+</entry>
+    <entry group="0017" element="62" vr="US" vm="N" name="Series Numbers of Petri">
+</entry>
+    <entry group="0017" element="71" vr="LO" vm="1" name="Landmark Original">
+</entry>
+    <entry group="0017" element="7A" vr="US" vm="1" name="Invers Original">
+</entry>
+    <entry group="0017" element="B1" vr="CS" vm="1" name="L2 Image">
+</entry>
+    <entry group="0017" element="B2" vr="IS" vm="1" name="L2 Acquisition Monitor">
+</entry>
+    <entry group="0017" element="C1" vr="LO" vm="1" name="Folder UID">
+</entry>
+    <entry group="0017" element="C2" vr="LO" vm="1" name="Series UID">
+</entry>
+    <entry group="0017" element="C3" vr="LO" vm="1" name="Subseries UID">
+</entry>
+</dict>
+  <dict owner="SIEMENS DLR.01">
+    <entry group="0019" element="10" vr="LO" vm="1" name="Measurement Mode">
+</entry>
+    <entry group="0019" element="11" vr="LO" vm="1" name="Image Type">
+</entry>
+    <entry group="0019" element="15" vr="LO" vm="1" name="Software Version">
+</entry>
+    <entry group="0019" element="20" vr="LO" vm="1" name="MPM Code">
+</entry>
+    <entry group="0019" element="21" vr="LO" vm="1" name="Latitude">
+</entry>
+    <entry group="0019" element="22" vr="LO" vm="1" name="Sensitivity">
+</entry>
+    <entry group="0019" element="23" vr="LO" vm="1" name="EDR">
+</entry>
+    <entry group="0019" element="24" vr="LO" vm="1" name="l fix">
+</entry>
+    <entry group="0019" element="25" vr="LO" vm="1" name="s fix">
+</entry>
+    <entry group="0019" element="26" vr="LO" vm="1" name="Preset Mode">
+</entry>
+    <entry group="0019" element="27" vr="LO" vm="1" name="Region">
+</entry>
+    <entry group="0019" element="28" vr="LO" vm="1" name="Subregion">
+</entry>
+    <entry group="0019" element="30" vr="LO" vm="1" name="Orientation">
+</entry>
+    <entry group="0019" element="31" vr="LO" vm="1" name="Mark on Film">
+</entry>
+    <entry group="0019" element="32" vr="LO" vm="1" name="Rotation on DRC">
+</entry>
+    <entry group="0019" element="40" vr="LO" vm="1" name="Reader Type">
+</entry>
+    <entry group="0019" element="41" vr="LO" vm="1" name="Sub Modality">
+</entry>
+    <entry group="0019" element="42" vr="LO" vm="1" name="Reader Serial Number">
+</entry>
+    <entry group="0019" element="50" vr="LO" vm="1" name="Cassette Scale">
+</entry>
+    <entry group="0019" element="51" vr="LO" vm="1" name="Cassette Matrix">
+</entry>
+    <entry group="0019" element="52" vr="LO" vm="1" name="Cassette Submatrix">
+</entry>
+    <entry group="0019" element="53" vr="LO" vm="1" name="Barcode">
+</entry>
+    <entry group="0019" element="60" vr="LO" vm="1" name="GT Contrast Type">
+</entry>
+    <entry group="0019" element="61" vr="LO" vm="1" name="GA Rotation Amount">
+</entry>
+    <entry group="0019" element="62" vr="LO" vm="1" name="GC Rotation Center">
+</entry>
+    <entry group="0019" element="63" vr="LO" vm="1" name="GS Density Shift">
+</entry>
+    <entry group="0019" element="64" vr="US" vm="1" name="RN Frequency Rank">
+</entry>
+    <entry group="0019" element="65" vr="LO" vm="1" name="RE Frequency Enhancement">
+</entry>
+    <entry group="0019" element="66" vr="LO" vm="1" name="RT Frequency Type">
+</entry>
+    <entry group="0019" element="67" vr="LO" vm="1" name="Kernel Length">
+</entry>
+    <entry group="0019" element="68" vr="UL" vm="1" name="Kernel Mode">
+</entry>
+    <entry group="0019" element="69" vr="UL" vm="1" name="Convulsion Mode">
+</entry>
+    <entry group="0019" element="70" vr="LO" vm="1" name="PLA Source">
+</entry>
+    <entry group="0019" element="71" vr="LO" vm="1" name="PLA Destination">
+</entry>
+    <entry group="0019" element="75" vr="LO" vm="1" name="UID Original Image">
+</entry>
+    <entry group="0019" element="76" vr="LO" vm="1" name="Filterset">
+</entry>
+    <entry group="0019" element="80" vr="LO" vm="1" name="Reader Header">
+</entry>
+    <entry group="0019" element="90" vr="LO" vm="1" name="PLA of Secondary Destination">
+</entry>
+    <entry group="0041" element="10" vr="US" vm="1" name="Number of Hardcopies">
+</entry>
+    <entry group="0041" element="20" vr="CS" vm="1" name="Film Format">
+</entry>
+    <entry group="0041" element="30" vr="LO" vm="1" name="Film Size">
+</entry>
+    <entry group="0041" element="31" vr="LO" vm="1" name="Full Film Format">
+</entry>
+</dict>
+  <dict owner="SIEMENS DFR.01 SERVICE">
+    <entry group="0021" element="10" vr="US" vm="1" name="1 Plot">
+</entry>
+    <entry group="0021" element="11" vr="US" vm="1" name="Width 1 Plot">
+</entry>
+    <entry group="0021" element="12" vr="US" vm="1" name="2 Plot">
+</entry>
+    <entry group="0021" element="13" vr="US" vm="1" name="Width 2 Plot">
+</entry>
+    <entry group="0021" element="20" vr="US" vm="1-5" name="xCoordinate Region of Interest">
+</entry>
+    <entry group="0021" element="21" vr="US" vm="1-5" name="yCoordinate Region of Interest">
+</entry>
+    <entry group="0021" element="22" vr="US" vm="1-5" name="Width Region of Interest">
+</entry>
+    <entry group="0021" element="23" vr="US" vm="1-5" name="Height Region of Interest">
+</entry>
+</dict>
+  <dict owner="SIEMENS MEDCOM HEADER">
+    <entry group="0029" element="08" vr="CS" vm="1" name="MEDCOM Header Type">
+</entry>
+    <entry group="0029" element="09" vr="LO" vm="1" name="MEDCOM Header Version">
+</entry>
+    <entry group="0029" element="10" vr="OB" vm="1" name="MEDCOM Header Info">
+</entry>
+</dict>
+  <dict owner="SIEMENS CT VA0 ORMR">
+    <entry group="0021" element="80" vr="DS" vm="1" name="Repetition Time">
+</entry>
+    <entry group="0021" element="81" vr="DS" vm="1" name="Echo Time">
+</entry>
+    <entry group="0021" element="82" vr="DS" vm="1" name="Inversion Time">
+</entry>
+    <entry group="0021" element="83" vr="IS" vm="1" name="Number of Averages">
+</entry>
+    <entry group="0021" element="84" vr="DS" vm="1" name="Imaging Frequency">
+</entry>
+    <entry group="0021" element="85" vr="LO" vm="1" name="Imaged Nucleus">
+</entry>
+    <entry group="0021" element="86" vr="IS" vm="1" name="Echo Number">
+</entry>
+    <entry group="0021" element="90" vr="DS" vm="1" name="Flip Angle">
+</entry>
+</dict>
+  <dict owner="SIEMENS ISI">
+    <entry group="0009" element="14" vr="SQ" vm="1" name="RIS Patient Info IMGEF">
+</entry>
+    <entry group="0011" element="03" vr="LO" vm="1" name="Patient UID">
+</entry>
+    <entry group="0011" element="04" vr="LO" vm="1" name="Patient ID">
+</entry>
+    <entry group="0011" element="0A" vr="LO" vm="1" name="Case ID">
+</entry>
+    <entry group="0011" element="22" vr="LO" vm="1" name="Request ID">
+</entry>
+    <entry group="0011" element="23" vr="LO" vm="1" name="Examination UID">
+</entry>
+    <entry group="0011" element="41" vr="LO" vm="1" name="Medical Alerts">
+</entry>
+    <entry group="0011" element="42" vr="LO" vm="1" name="Contrast Allergy">
+</entry>
+    <entry group="0011" element="A1" vr="DA" vm="1" name="Patient Registration Date">
+</entry>
+    <entry group="0011" element="A2" vr="TM" vm="1" name="Patient Registration Time">
+</entry>
+    <entry group="0011" element="B0" vr="LO" vm="1" name="Patient Last Name">
+</entry>
+    <entry group="0011" element="B2" vr="LO" vm="1" name="Patient First Name">
+</entry>
+    <entry group="0011" element="B4" vr="CS" vm="1" name="Patient Hospital Status">
+</entry>
+    <entry group="0011" element="BC" vr="LO" vm="1" name="Current Location Time">
+</entry>
+    <entry group="0011" element="C0" vr="CS" vm="1" name="Patient Insurance Status">
+</entry>
+    <entry group="0011" element="D0" vr="LO" vm="1" name="Patient Billing Type">
+</entry>
+    <entry group="0011" element="D2" vr="LO" vm="1" name="Patient Billing Address">
+</entry>
+    <entry group="0031" element="12" vr="LO" vm="1" name="Examination Reason">
+</entry>
+    <entry group="0031" element="30" vr="DA" vm="1" name="Requested Date">
+</entry>
+    <entry group="0031" element="32" vr="TM" vm="1" name="Worklist Request Start Time">
+</entry>
+    <entry group="0031" element="33" vr="TM" vm="1" name="Worklist Request End Time">
+</entry>
+    <entry group="0031" element="4A" vr="TM" vm="1" name="Requested Time">
+</entry>
+    <entry group="0031" element="80" vr="LO" vm="1" name="Requested Location">
+</entry>
+    <entry group="0055" element="46" vr="PN" vm="1" name="Current Ward">
+</entry>
+    <entry group="0193" element="02" vr="LO" vm="1" name="RIS Key">
+</entry>
+    <entry group="0307" element="01" vr="SQ" vm="1" name="RIS Worklist IMGEF">
+</entry>
+    <entry group="0309" element="01" vr="SQ" vm="1" name="RIS Report IMGEF">
+</entry>
+    <entry group="4009" element="01" vr="LO" vm="1" name="Report ID">
+</entry>
+    <entry group="4009" element="20" vr="CS" vm="1" name="Report Status">
+</entry>
+    <entry group="4009" element="30" vr="DA" vm="1" name="Report Creation Date">
+</entry>
+    <entry group="4009" element="70" vr="PN" vm="1" name="Report Approving Physician">
+</entry>
+    <entry group="4009" element="E0" vr="LO" vm="1" name="Report Text">
+</entry>
+    <entry group="4009" element="E2" vr="PN" vm="1" name="Report Transcriber">
+</entry>
+    <entry group="4009" element="E3" vr="PN" vm="1" name="Reporting Radiologist">
+</entry>
+</dict>
+  <dict owner="SIEMENS CM VA0  CMS">
+    <entry group="0009" element="00" vr="IS" vm="1" name="Number of Measurements">
+</entry>
+    <entry group="0009" element="10" vr="CS" vm="1" name="Storage Mode">
+</entry>
+    <entry group="0009" element="12" vr="UL" vm="1" name="Evaluation Mask Image">
+</entry>
+    <entry group="0009" element="26" vr="DA" vm="1" name="Table Zero Date">
+</entry>
+    <entry group="0009" element="27" vr="TM" vm="1" name="Table Zero Time">
+</entry>
+    <entry group="0011" element="10" vr="DA" vm="1" name="Registration Date">
+</entry>
+    <entry group="0011" element="11" vr="TM" vm="1" name="Registration Time">
+</entry>
+    <entry group="0011" element="23" vr="DS" vm="1" name="Used Patient Weight">
+</entry>
+    <entry group="0011" element="40" vr="IS" vm="1" name="Organ Code">
+</entry>
+    <entry group="0013" element="00" vr="PN" vm="1" name="Modifying Physician">
+</entry>
+    <entry group="0013" element="10" vr="DA" vm="1" name="Modification Date">
+</entry>
+    <entry group="0013" element="12" vr="TM" vm="1" name="Modification Time">
+</entry>
+    <entry group="0013" element="20" vr="PN" vm="1" name="Patient Name">
+</entry>
+    <entry group="0013" element="22" vr="LO" vm="1" name="Patient Id">
+</entry>
+    <entry group="0013" element="30" vr="DA" vm="1" name="Patient Birthdate">
+</entry>
+    <entry group="0013" element="31" vr="DS" vm="1" name="Patient Weight">
+</entry>
+    <entry group="0013" element="32" vr="PN" vm="1" name="Patient Maiden Name">
+</entry>
+    <entry group="0013" element="33" vr="PN" vm="1" name="Referring Physician">
+</entry>
+    <entry group="0013" element="34" vr="LO" vm="1" name="Admitting Diagnosis">
+</entry>
+    <entry group="0013" element="35" vr="CS" vm="1" name="Patient Sex">
+</entry>
+    <entry group="0013" element="40" vr="LO" vm="1" name="Procedure Description">
+</entry>
+    <entry group="0013" element="42" vr="CS" vm="1" name="Rest Direction">
+</entry>
+    <entry group="0013" element="44" vr="CS" vm="1" name="Patient Position">
+</entry>
+    <entry group="0013" element="46" vr="SH" vm="1" name="View Direction">
+</entry>
+    <entry group="0019" element="10" vr="IS" vm="1" name="Net Frequency">
+</entry>
+    <entry group="0019" element="20" vr="CS" vm="1" name="Measurement Mode">
+</entry>
+    <entry group="0019" element="30" vr="CS" vm="1" name="Calculation Mode">
+</entry>
+    <entry group="0019" element="50" vr="IS" vm="1" name="Noise Level">
+</entry>
+    <entry group="0019" element="60" vr="IS" vm="1" name="Number of Data Bytes">
+</entry>
+    <entry group="0021" element="20" vr="DS" vm="N" name="Field of View">
+</entry>
+    <entry group="0021" element="22" vr="DS" vm="1" name="Image Magnification Factor">
+</entry>
+    <entry group="0021" element="24" vr="DS" vm="N" name="Image Scroll Offset">
+</entry>
+    <entry group="0021" element="26" vr="IS" vm="1" name="Image Pixel Offset">
+</entry>
+    <entry group="0021" element="30" vr="CS" vm="1" name="View Direction">
+</entry>
+    <entry group="0021" element="32" vr="CS" vm="1" name="Rest Direction">
+</entry>
+    <entry group="0021" element="60" vr="DS" vm="N" name="Image Position">
+</entry>
+    <entry group="0021" element="61" vr="DS" vm="N" name="Image Normal">
+</entry>
+    <entry group="0021" element="63" vr="DS" vm="1" name="Image Distance">
+</entry>
+    <entry group="0021" element="65" vr="US" vm="1" name="Image Positioning History Mask">
+</entry>
+    <entry group="0021" element="6A" vr="DS" vm="N" name="Image Row">
+</entry>
+    <entry group="0021" element="6B" vr="DS" vm="N" name="Image Column">
+</entry>
+    <entry group="0021" element="70" vr="CS" vm="N" name="Patient Orientation Set 1">
+</entry>
+    <entry group="0021" element="71" vr="CS" vm="N" name="Patient Orientation Set 2">
+</entry>
+    <entry group="0021" element="80" vr="LO" vm="1" name="Study Name">
+</entry>
+    <entry group="0021" element="82" vr="SH" vm="1" name="Study Type">
+</entry>
+    <entry group="0029" element="10" vr="CS" vm="1" name="Window Style">
+</entry>
+    <entry group="0029" element="11" vr="CS" vm="1" name="Window Look">
+</entry>
+    <entry group="0029" element="12" vr="UL" vm="1" name="Window Table Index">
+</entry>
+    <entry group="0029" element="13" vr="CS" vm="1" name="Window Scale">
+</entry>
+    <entry group="0029" element="20" vr="CS" vm="N" name="Pixel Quality Code">
+</entry>
+    <entry group="0029" element="22" vr="IS" vm="N" name="Pixel Quality Value">
+</entry>
+    <entry group="0029" element="50" vr="CS" vm="1" name="Archive Code">
+</entry>
+    <entry group="0029" element="51" vr="CS" vm="1" name="Exposure Code">
+</entry>
+    <entry group="0029" element="52" vr="IS" vm="1" name="Sort Code">
+</entry>
+    <entry group="0029" element="53" vr="CS" vm="1" name="Remote Copy Code">
+</entry>
+    <entry group="0029" element="60" vr="IS" vm="1" name="Splash">
+</entry>
+    <entry group="0051" element="10" vr="LO" vm="N" name="Image Text">
+</entry>
+    <entry group="6021" element="00" vr="CS" vm="1" name="Image Graphics Format Code">
+</entry>
+    <entry group="6021" element="10" vr="OB" vm="1" name="Image Graphics">
+</entry>
+</dict>
+  <dict owner="SIEMENS DFR.01">
+    <entry group="0021" element="10" vr="US" vm="1" name="Graphic Evaluation Mask">
+</entry>
+    <entry group="0021" element="11" vr="US" vm="1" name="Type 1st Graphic Element">
+</entry>
+    <entry group="0021" element="12" vr="LO" vm="1" name="Description 1st Graphic Element">
+</entry>
+    <entry group="0021" element="13" vr="US" vm="1" name="Type 2nd Graphic Element">
+</entry>
+    <entry group="0021" element="14" vr="LO" vm="1" name="Description 2nd Graphic Element">
+</entry>
+    <entry group="0021" element="15" vr="US" vm="1" name="Type 3rd Graphic Element">
+</entry>
+    <entry group="0021" element="16" vr="LO" vm="1" name="Description 3rd Graphic Element">
+</entry>
+    <entry group="0021" element="17" vr="US" vm="1" name="Type 4th Graphic Element">
+</entry>
+    <entry group="0021" element="18" vr="LO" vm="1" name="Description 4th Graphic Element">
+</entry>
+    <entry group="0021" element="19" vr="US" vm="1" name="Type 5th Graphic Element">
+</entry>
+    <entry group="0021" element="20" vr="LO" vm="1" name="Description 5th Graphic Element">
+</entry>
+    <entry group="0021" element="21" vr="US" vm="1" name="Type 6th Graphic Element">
+</entry>
+    <entry group="0021" element="22" vr="LO" vm="1" name="Description 6th Graphic Element">
+</entry>
+    <entry group="0021" element="23" vr="US" vm="1" name="Type 7th Graphic Element">
+</entry>
+    <entry group="0021" element="24" vr="LO" vm="1" name="Description 7th Graphic Element">
+</entry>
+    <entry group="0021" element="25" vr="US" vm="1" name="Type 8th Graphic Element">
+</entry>
+    <entry group="0021" element="26" vr="LO" vm="1" name="Description 8th Graphic Element">
+</entry>
+    <entry group="0021" element="27" vr="US" vm="1" name="Type 9th Graphic Element">
+</entry>
+    <entry group="0021" element="28" vr="LO" vm="1" name="Description 9th Graphic Element">
+</entry>
+    <entry group="0021" element="29" vr="US" vm="1" name="Type 10th Graphic Element">
+</entry>
+    <entry group="0021" element="30" vr="LO" vm="1" name="Description 10th Graphic Element">
+</entry>
+</dict>
+  <dict owner="SHS MagicView 300">
+    <entry group="0029" element="01" vr="FD" vm="1-N" name="Zoom Factor">
+</entry>
+    <entry group="0029" element="02" vr="FD" vm="1" name="Pan Factor X">
+</entry>
+    <entry group="0029" element="03" vr="FD" vm="1" name="Pan Factor Y">
+</entry>
+    <entry group="0029" element="04" vr="LO" vm="1" name="NmPalette">
+</entry>
+</dict>
+  <dict owner="SIEMENS CT VA0  ORI">
+    <entry group="0009" element="20" vr="LO" vm="1" name="Original Data Set Owner">
+</entry>
+    <entry group="0009" element="30" vr="SH" vm="1" name="Original Modality">
+</entry>
+</dict>
+  <dict owner="SIEMENS CSA HEADER">
+    <entry group="0029" element="08" vr="CS" vm="1" name="CSA Header Type">
+</entry>
+    <entry group="0029" element="09" vr="LO" vm="1" name="CSA Header Version">
+</entry>
+    <entry group="0029" element="10" vr="OB" vm="1" name="CSA Header Info">
+</entry>
+</dict>
+  <dict owner="SIEMENS CT VA0  COAD">
+    <entry group="0019" element="10" vr="IS" vm="1" name="Distance Source to SourceSide Collimator">
+</entry>
+    <entry group="0019" element="11" vr="IS" vm="1" name="Distance Source to DetectorSide Collimator">
+</entry>
+    <entry group="0019" element="20" vr="IS" vm="1" name="Number of Possible Channels">
+</entry>
+    <entry group="0019" element="21" vr="IS" vm="1" name="Mean Channel Number">
+</entry>
+    <entry group="0019" element="22" vr="DS" vm="1" name="Detector Spacing">
+</entry>
+    <entry group="0019" element="23" vr="DS" vm="1" name="Detector Center">
+</entry>
+    <entry group="0019" element="24" vr="DS" vm="1" name="Reading Integration Time">
+</entry>
+    <entry group="0019" element="50" vr="DS" vm="1" name="Detector Alignment">
+</entry>
+    <entry group="0019" element="52" vr="DS" vm="1" name="Table Feed">
+</entry>
+    <entry group="0019" element="54" vr="DS" vm="1" name="Rotation Time">
+</entry>
+    <entry group="0019" element="60" vr="DS" vm="1" name="Focus Alignment">
+</entry>
+    <entry group="0019" element="65" vr="UL" vm="1" name="Focal Spot Deflection Amplitude">
+</entry>
+    <entry group="0019" element="66" vr="UL" vm="1" name="Focal Spot Deflection Phase">
+</entry>
+    <entry group="0019" element="67" vr="UL" vm="1" name="Focal Spot Deflection Offset">
+</entry>
+    <entry group="0019" element="70" vr="DS" vm="1" name="Water Scaling Factor">
+</entry>
+    <entry group="0019" element="71" vr="DS" vm="1" name="Interpolation Factor">
+</entry>
+    <entry group="0019" element="80" vr="CS" vm="1" name="Patient Region">
+</entry>
+    <entry group="0019" element="82" vr="CS" vm="1" name="Patient Phase of Life">
+</entry>
+    <entry group="0019" element="90" vr="DS" vm="1" name="Osteo Offset">
+</entry>
+    <entry group="0019" element="92" vr="DS" vm="1" name="Osteo Regression Line Slope">
+</entry>
+    <entry group="0019" element="93" vr="DS" vm="1" name="Osteo Regression Line Intercept">
+</entry>
+    <entry group="0019" element="94" vr="IS" vm="1" name="Osteo Standardization Code">
+</entry>
+    <entry group="0019" element="96" vr="IS" vm="1" name="Osteo Phantom Number">
+</entry>
+    <entry group="0019" element="A0" vr="DS" vm="1" name="Spiral Location Begin">
+</entry>
+    <entry group="0019" element="A1" vr="DS" vm="1" name="Spiral Location End">
+</entry>
+    <entry group="0019" element="A2" vr="CS" vm="1" name="Spiral z Profile">
+</entry>
+    <entry group="0019" element="A3" vr="CS" vm="1" name="Spiral Reconstruction Direction">
+</entry>
+    <entry group="0019" element="A4" vr="DS" vm="1" name="Spiral Reconstruction Increment">
+</entry>
+    <entry group="0019" element="A5" vr="DS" vm="1" name="Scan Tilt Plane Distance">
+</entry>
+    <entry group="0019" element="A6" vr="UL" vm="N" name="Mode Processing Step Mask">
+</entry>
+    <entry group="0019" element="A7" vr="UL" vm="1" name="Mode Processing Control Mask">
+</entry>
+    <entry group="0019" element="A8" vr="UL" vm="N" name="Mode Master Mask">
+</entry>
+    <entry group="0019" element="A9" vr="IS" vm="1" name="Mode Store Step">
+</entry>
+    <entry group="0019" element="AA" vr="CS" vm="1" name="Focus Size Type">
+</entry>
+    <entry group="0019" element="AB" vr="IS" vm="1" name="Mode Adaptive Filter Kind">
+</entry>
+    <entry group="0019" element="AC" vr="IS" vm="1" name="Mode MBH Kind">
+</entry>
+    <entry group="0019" element="AD" vr="IS" vm="1" name="Mode Balancing Kind">
+</entry>
+    <entry group="0019" element="AE" vr="IS" vm="1" name="Number of Readings per Rotation">
+</entry>
+    <entry group="0019" element="AF" vr="DS" vm="1" name="Correction Table Reference Time">
+</entry>
+    <entry group="0019" element="B0" vr="DS" vm="1" name="Feed per Rotation">
+</entry>
+</dict>
+  <dict owner="SIEMENS CM VA0  ACQU">
+    <entry group="0019" element="10" vr="LO" vm="1" name="Parameter File Name">
+</entry>
+    <entry group="0019" element="11" vr="LO" vm="1" name="Sequence File Name">
+</entry>
+    <entry group="0019" element="12" vr="LO" vm="1" name="Sequence File Owner">
+</entry>
+    <entry group="0019" element="13" vr="LO" vm="1" name="Sequence Description">
+</entry>
+    <entry group="0019" element="14" vr="LO" vm="1" name="EPI File Name">
+</entry>
+    <entry group="0019" element="20" vr="LO" vm="1" name="Mode File Name">
+</entry>
+    <entry group="0019" element="30" vr="LO" vm="1" name="Convolution Kernel Comment 1">
+</entry>
+    <entry group="0019" element="31" vr="LO" vm="1" name="Convolution Kernel Comment 2">
+</entry>
+    <entry group="0019" element="32" vr="LO" vm="1" name="Convolution Kernel Comment 3">
+</entry>
+    <entry group="0019" element="33" vr="LO" vm="1" name="Convolution Kernel Comment 4">
+</entry>
+    <entry group="0019" element="34" vr="LO" vm="1" name="Convolution Kernel Comment 5">
+</entry>
+    <entry group="0019" element="35" vr="LO" vm="1" name="Convolution Kernel Comment 6">
+</entry>
+    <entry group="0019" element="36" vr="LO" vm="1" name="Convolution Kernel Comment 7">
+</entry>
+    <entry group="0019" element="37" vr="LO" vm="1" name="Convolution Kernel Comment 8">
+</entry>
+    <entry group="0019" element="38" vr="LO" vm="1" name="Convolution Kernel Comment 9">
+</entry>
+    <entry group="0019" element="39" vr="LO" vm="1" name="Convolution Kernel Comment 10">
+</entry>
+    <entry group="0019" element="3A" vr="LO" vm="1" name="Reading Code RZ1 Comment 1">
+</entry>
+    <entry group="0019" element="3B" vr="LO" vm="1" name="Reading Code RZ1 Comment 2">
+</entry>
+    <entry group="0019" element="3C" vr="LO" vm="1" name="Reading Code RZ2 Comment 1">
+</entry>
+</dict>
+  <dict owner="SIEMENS MR VA0  GEN">
+    <entry group="0019" element="10" vr="DS" vm="1" name="Total Measurement Time nominal">
+</entry>
+    <entry group="0019" element="11" vr="DS" vm="1" name="Total Measurement Time current">
+</entry>
+    <entry group="0019" element="12" vr="DS" vm="1" name="Start Delay Time">
+</entry>
+    <entry group="0019" element="13" vr="DS" vm="1" name="Dwell Time">
+</entry>
+    <entry group="0019" element="14" vr="IS" vm="1" name="Number of Phases">
+</entry>
+    <entry group="0019" element="16" vr="UL" vm="N" name="Sequence Control Mask">
+</entry>
+    <entry group="0019" element="18" vr="UL" vm="1" name="Measurement Status Mask">
+</entry>
+    <entry group="0019" element="20" vr="IS" vm="1" name="Number of Fourier Lines nominal">
+</entry>
+    <entry group="0019" element="21" vr="IS" vm="1" name="Number of Fourier Lines current">
+</entry>
+    <entry group="0019" element="26" vr="IS" vm="1" name="Number of Fourier Lines after Zero">
+</entry>
+    <entry group="0019" element="28" vr="IS" vm="1" name="First Measured Fourier Line">
+</entry>
+    <entry group="0019" element="30" vr="IS" vm="1" name="Acquisition Columns">
+</entry>
+    <entry group="0019" element="31" vr="IS" vm="1" name="Reconstruction Columns">
+</entry>
+    <entry group="0019" element="40" vr="IS" vm="1" name="AC Element Number">
+</entry>
+    <entry group="0019" element="41" vr="UL" vm="1" name="AC Element Select Mask">
+</entry>
+    <entry group="0019" element="42" vr="UL" vm="1" name="AC Element Data Mask">
+</entry>
+    <entry group="0019" element="43" vr="IS" vm="1-N" name="AC Element To ADC Connect">
+</entry>
+    <entry group="0019" element="44" vr="IS" vm="1-N" name="AC Element Noise Level">
+</entry>
+    <entry group="0019" element="45" vr="IS" vm="1" name="AC ADC Pair Number">
+</entry>
+    <entry group="0019" element="46" vr="UL" vm="1" name="AC Combination Mask">
+</entry>
+    <entry group="0019" element="50" vr="IS" vm="1" name="Number of Averages current">
+</entry>
+    <entry group="0019" element="60" vr="DS" vm="1" name="Flip Angle">
+</entry>
+    <entry group="0019" element="70" vr="IS" vm="1" name="Number of Prescans">
+</entry>
+    <entry group="0019" element="81" vr="CS" vm="1" name="Filter Type for Raw Data">
+</entry>
+    <entry group="0019" element="82" vr="DS" vm="1-4" name="Filter Parameter for Raw Data">
+</entry>
+    <entry group="0019" element="83" vr="CS" vm="1" name="Filter Type for Image Data">
+</entry>
+    <entry group="0019" element="84" vr="DS" vm="1-4" name="Filter Parameter for Image Data">
+</entry>
+    <entry group="0019" element="85" vr="CS" vm="1" name="Filter Type for Phase Correction">
+</entry>
+    <entry group="0019" element="86" vr="DS" vm="1-4" name="Filter Parameter for Phase Correction">
+</entry>
+    <entry group="0019" element="87" vr="CS" vm="1" name="Normalization Filter Type for Image Data">
+</entry>
+    <entry group="0019" element="88" vr="DS" vm="1-4" name="Normalization Filter Parameter for Image Data">
+</entry>
+    <entry group="0019" element="90" vr="IS" vm="1" name="Number of Saturation Regions">
+</entry>
+    <entry group="0019" element="91" vr="DS" vm="1-5" name="Saturation Phase Encoding Vector Sagittal Compo...">
+</entry>
+    <entry group="0019" element="92" vr="DS" vm="1-5" name="Saturation Readout Vector Sagittal Component">
+</entry>
+    <entry group="0019" element="94" vr="DS" vm="1" name="Image Rotation Angle">
+</entry>
+    <entry group="0019" element="96" vr="UL" vm="N" name="Coil ID Mask">
+</entry>
+    <entry group="0019" element="97" vr="UL" vm="N" name="Coil Class Mask">
+</entry>
+    <entry group="0019" element="98" vr="DS" vm="N" name="Coil Position">
+</entry>
+    <entry group="0019" element="A0" vr="DS" vm="1" name="EPI Reconstruction Phase">
+</entry>
+    <entry group="0019" element="A1" vr="DS" vm="1" name="EPI Reconstruction Slope">
+</entry>
+</dict>
+  <dict owner="SIEMENS CSA NON-IMAGE">
+    <entry group="0029" element="08" vr="CS" vm="1" name="CSA Data Type">
+</entry>
+    <entry group="0029" element="09" vr="LO" vm="1" name="CSA Data Version">
+</entry>
+    <entry group="0029" element="10" vr="OB" vm="1" name="CSA Data Info">
+</entry>
+</dict>
+  <dict owner="SIEMENS MEDCOM OOG">
+    <entry group="0029" element="08" vr="CS" vm="1" name="MEDCOM OOG Type">
+</entry>
+    <entry group="0029" element="09" vr="LO" vm="1" name="MEDCOM OOG Version">
+</entry>
+    <entry group="0029" element="10" vr="OB" vm="1" name="MEDCOM OOG Info">
+</entry>
+</dict>
+  <dict owner="SIEMENS RA PLANE A">
+    <entry group="0019" element="20" vr="UL" vm="1" name="System Calibration Factor Plane A">
+</entry>
+    <entry group="0019" element="22" vr="US" vm="1" name="XRay Parameter Set Number">
+</entry>
+    <entry group="0019" element="24" vr="US" vm="1" name="XRay System">
+</entry>
+    <entry group="0019" element="28" vr="US" vm="1" name="Acquired Display Mode">
+</entry>
+    <entry group="0019" element="2C" vr="US" vm="1" name="Acquisition Framerate">
+</entry>
+    <entry group="0019" element="2E" vr="US" vm="1" name="Maximum Frame Limit">
+</entry>
+    <entry group="0019" element="30" vr="US" vm="1" name="Native Filter Type">
+</entry>
+    <entry group="0019" element="32" vr="US" vm="1" name="Subtracted Filter Type">
+</entry>
+    <entry group="0019" element="34" vr="US" vm="1" name="Filter Factor Native">
+</entry>
+    <entry group="0019" element="36" vr="US" vm="1" name="Anatomic Blackground Factor">
+</entry>
+    <entry group="0019" element="38" vr="US" vm="1" name="Window Upper Limit Native">
+</entry>
+    <entry group="0019" element="3A" vr="US" vm="1" name="Window Lower Limit Native">
+</entry>
+    <entry group="0019" element="3C" vr="US" vm="1" name="Window Brightness Phase 1 Sub">
+</entry>
+    <entry group="0019" element="3E" vr="US" vm="1" name="Window Brightness Phase 2 Sub">
+</entry>
+    <entry group="0019" element="40" vr="US" vm="1" name="Window Contrast Phase 1 Sub">
+</entry>
+    <entry group="0019" element="42" vr="US" vm="1" name="Window Contrast Phase 2 Sub">
+</entry>
+    <entry group="0019" element="44" vr="US" vm="1" name="Filter Factor Subtraction">
+</entry>
+    <entry group="0019" element="46" vr="US" vm="1" name="Peak Opacified">
+</entry>
+    <entry group="0019" element="48" vr="UL" vm="1" name="Mask Frame">
+</entry>
+    <entry group="0019" element="4A" vr="UL" vm="1" name="BIH Frame">
+</entry>
+    <entry group="0019" element="4C" vr="US" vm="1" name="Center Beam Angulation CaudCran">
+</entry>
+    <entry group="0019" element="4E" vr="US" vm="1" name="Center Beam Angulation LR Anterior">
+</entry>
+    <entry group="0019" element="50" vr="US" vm="1" name="Longitudinal Position">
+</entry>
+    <entry group="0019" element="52" vr="US" vm="1" name="Side Offset">
+</entry>
+    <entry group="0019" element="54" vr="US" vm="1" name="Isocenter Height">
+</entry>
+    <entry group="0019" element="56" vr="US" vm="1" name="Image Twist">
+</entry>
+    <entry group="0019" element="58" vr="US" vm="1" name="SourceImage Distance">
+</entry>
+    <entry group="0019" element="5A" vr="US" vm="1" name="Mechanical Magnet Factor">
+</entry>
+    <entry group="0019" element="5C" vr="UL" vm="1" name="Calibration Flag">
+</entry>
+    <entry group="0019" element="5E" vr="UL" vm="1" name="Calibration Angle CranCaud">
+</entry>
+    <entry group="0019" element="60" vr="UL" vm="1" name="Calibration Angle RAOLAO">
+</entry>
+    <entry group="0019" element="62" vr="UL" vm="1" name="Calibration Table to Floor Distance">
+</entry>
+    <entry group="0019" element="64" vr="UL" vm="1" name="Calibration Isocenter to Floor Distance">
+</entry>
+    <entry group="0019" element="66" vr="UL" vm="1" name="Calibration Isocenter to Source Distance">
+</entry>
+    <entry group="0019" element="68" vr="UL" vm="1" name="Calibration Source to II Distance">
+</entry>
+    <entry group="0019" element="6A" vr="UL" vm="1" name="Calibration II Zoom">
+</entry>
+    <entry group="0019" element="6C" vr="UL" vm="1" name="Calibration II Field">
+</entry>
+    <entry group="0019" element="6E" vr="UL" vm="1" name="Calibration Factor">
+</entry>
+    <entry group="0019" element="70" vr="UL" vm="1" name="Calibration Object to Image Distance">
+</entry>
+    <entry group="0019" element="72" vr="UL" vm="N" name="Calibration System Factor">
+</entry>
+    <entry group="0019" element="74" vr="UL" vm="N" name="Calibration System Correction">
+</entry>
+    <entry group="0019" element="76" vr="UL" vm="N" name="Calibration System II Formats">
+</entry>
+    <entry group="0019" element="78" vr="UL" vm="1" name="Calibration Gantry Data Valid">
+</entry>
+    <entry group="0019" element="7A" vr="US" vm="1" name="Collimator Square Breadth">
+</entry>
+    <entry group="0019" element="7C" vr="US" vm="1" name="Collimator Square Height">
+</entry>
+    <entry group="0019" element="7E" vr="US" vm="1" name="Collimator Square Diameter">
+</entry>
+    <entry group="0019" element="80" vr="US" vm="1" name="Collimator Finger Turn Angle">
+</entry>
+    <entry group="0019" element="82" vr="US" vm="1" name="Collimator Finger Position">
+</entry>
+    <entry group="0019" element="84" vr="US" vm="1" name="Collimator Diaphragm Turn Angle">
+</entry>
+    <entry group="0019" element="86" vr="US" vm="1" name="Collimator Diagphragm Position 1">
+</entry>
+    <entry group="0019" element="88" vr="US" vm="1" name="Collimator Diaphragm Position 2">
+</entry>
+    <entry group="0019" element="8A" vr="US" vm="1" name="Collimator Diaphragm Mode">
+</entry>
+    <entry group="0019" element="8C" vr="US" vm="1" name="Collimator Beam Limit Breadth">
+</entry>
+    <entry group="0019" element="8E" vr="US" vm="1" name="Collimator Beam Limit Height">
+</entry>
+    <entry group="0019" element="90" vr="US" vm="1" name="Collimator Beam Limit Diameter">
+</entry>
+    <entry group="0019" element="92" vr="US" vm="1" name="XRay Control Mode">
+</entry>
+    <entry group="0019" element="94" vr="US" vm="1" name="XRay System">
+</entry>
+    <entry group="0019" element="96" vr="US" vm="1" name="Focal Spot">
+</entry>
+    <entry group="0019" element="98" vr="US" vm="1" name="Exposure Control">
+</entry>
+    <entry group="0019" element="9A" vr="US" vm="1" name="XRay Voltage">
+</entry>
+    <entry group="0019" element="9C" vr="US" vm="1" name="XRay Current">
+</entry>
+    <entry group="0019" element="9E" vr="UL" vm="1" name="XRay Current Time Product">
+</entry>
+    <entry group="0019" element="A0" vr="US" vm="1" name="Pulse Time">
+</entry>
+    <entry group="0019" element="A2" vr="US" vm="1" name="Scene Time Fluoro Clock">
+</entry>
+    <entry group="0019" element="A4" vr="US" vm="1" name="Maximum PulseRate">
+</entry>
+    <entry group="0019" element="A6" vr="US" vm="1" name="Pulses per Scene">
+</entry>
+    <entry group="0019" element="A8" vr="UL" vm="1" name="Dose Area Product of Scene">
+</entry>
+    <entry group="0019" element="AA" vr="US" vm="1" name="Dose">
+</entry>
+    <entry group="0019" element="AC" vr="US" vm="1" name="Dose Rate">
+</entry>
+</dict>
+  <dict owner="SIEMENS RA PLANE B">
+    <entry group="0019" element="20" vr="UL" vm="1" name="System Calibration Factor Plane B">
+</entry>
+    <entry group="0019" element="22" vr="US" vm="1" name="XRay Parameter Set Number">
+</entry>
+    <entry group="0019" element="24" vr="US" vm="1" name="XRay System">
+</entry>
+    <entry group="0019" element="28" vr="US" vm="1" name="Acquired Display Mode">
+</entry>
+    <entry group="0019" element="2C" vr="US" vm="1" name="Acquisition Framerate">
+</entry>
+    <entry group="0019" element="2E" vr="US" vm="1" name="Maximum Frame Limit">
+</entry>
+    <entry group="0019" element="30" vr="US" vm="1" name="Native Filter Type">
+</entry>
+    <entry group="0019" element="32" vr="US" vm="1" name="Subtracted Filter Type">
+</entry>
+    <entry group="0019" element="34" vr="US" vm="1" name="Filter Factor Native">
+</entry>
+    <entry group="0019" element="36" vr="US" vm="1" name="Anatomic Blackground Factor">
+</entry>
+    <entry group="0019" element="38" vr="US" vm="1" name="Window Upper Limit Native">
+</entry>
+    <entry group="0019" element="3A" vr="US" vm="1" name="Window Lower Limit Native">
+</entry>
+    <entry group="0019" element="3C" vr="US" vm="1" name="Window Brightness Phase 1 Sub">
+</entry>
+    <entry group="0019" element="3E" vr="US" vm="1" name="Window Brightness Phase 2 Sub">
+</entry>
+    <entry group="0019" element="40" vr="US" vm="1" name="Window Contrast Phase 1 Sub">
+</entry>
+    <entry group="0019" element="42" vr="US" vm="1" name="Window Contrast Phase 2 Sub">
+</entry>
+    <entry group="0019" element="44" vr="US" vm="1" name="Filter Factor Subtraction">
+</entry>
+    <entry group="0019" element="46" vr="US" vm="1" name="Peak Opacified">
+</entry>
+    <entry group="0019" element="48" vr="UL" vm="1" name="Mask Frame">
+</entry>
+    <entry group="0019" element="4A" vr="UL" vm="1" name="BIH Frame">
+</entry>
+    <entry group="0019" element="4C" vr="US" vm="1" name="Center Beam Angulation CaudCran">
+</entry>
+    <entry group="0019" element="4E" vr="US" vm="1" name="Center Beam Angulation LR Anterior">
+</entry>
+    <entry group="0019" element="50" vr="US" vm="1" name="Longitudinal Position">
+</entry>
+    <entry group="0019" element="52" vr="US" vm="1" name="Side Offset">
+</entry>
+    <entry group="0019" element="54" vr="US" vm="1" name="Isocenter Height">
+</entry>
+    <entry group="0019" element="56" vr="US" vm="1" name="Image Twist">
+</entry>
+    <entry group="0019" element="58" vr="US" vm="1" name="SourceImage Distance">
+</entry>
+    <entry group="0019" element="5A" vr="US" vm="1" name="Mechanical Magnet Factor">
+</entry>
+    <entry group="0019" element="5C" vr="UL" vm="1" name="Calibration Flag">
+</entry>
+    <entry group="0019" element="5E" vr="UL" vm="1" name="Calibration Angle CranCaud">
+</entry>
+    <entry group="0019" element="60" vr="UL" vm="1" name="Calibration Angle RAOLAO">
+</entry>
+    <entry group="0019" element="62" vr="UL" vm="1" name="Calibration Table to Floor Distance">
+</entry>
+    <entry group="0019" element="64" vr="UL" vm="1" name="Calibration Isocenter to Floor Distance">
+</entry>
+    <entry group="0019" element="66" vr="UL" vm="1" name="Calibration Isocenter to Source Distance">
+</entry>
+    <entry group="0019" element="68" vr="UL" vm="1" name="Calibration Source to II Distance">
+</entry>
+    <entry group="0019" element="6A" vr="UL" vm="1" name="Calibration II Zoom">
+</entry>
+    <entry group="0019" element="6C" vr="UL" vm="1" name="Calibration II Field">
+</entry>
+    <entry group="0019" element="6E" vr="UL" vm="1" name="Calibration Factor">
+</entry>
+    <entry group="0019" element="70" vr="UL" vm="1" name="Calibration Object to Image Distance">
+</entry>
+    <entry group="0019" element="72" vr="UL" vm="N" name="Calibration System Factor">
+</entry>
+    <entry group="0019" element="74" vr="UL" vm="N" name="Calibration System Correction">
+</entry>
+    <entry group="0019" element="76" vr="UL" vm="N" name="Calibration System II Formats">
+</entry>
+    <entry group="0019" element="78" vr="UL" vm="1" name="Calibration Gantry Data Valid">
+</entry>
+    <entry group="0019" element="7A" vr="US" vm="1" name="Collimator Square Breadth">
+</entry>
+    <entry group="0019" element="7C" vr="US" vm="1" name="Collimator Square Height">
+</entry>
+    <entry group="0019" element="7E" vr="US" vm="1" name="Collimator Square Diameter">
+</entry>
+    <entry group="0019" element="80" vr="US" vm="1" name="Collimator Finger Turn Angle">
+</entry>
+    <entry group="0019" element="82" vr="US" vm="1" name="Collimator Finger Position">
+</entry>
+    <entry group="0019" element="84" vr="US" vm="1" name="Collimator Diaphragm Turn Angle">
+</entry>
+    <entry group="0019" element="86" vr="US" vm="1" name="Collimator Diagphragm Position 1">
+</entry>
+    <entry group="0019" element="88" vr="US" vm="1" name="Collimator Diaphragm Position 2">
+</entry>
+    <entry group="0019" element="8A" vr="US" vm="1" name="Collimator Diaphragm Mode">
+</entry>
+    <entry group="0019" element="8C" vr="US" vm="1" name="Collimator Beam Limit Breadth">
+</entry>
+    <entry group="0019" element="8E" vr="US" vm="1" name="Collimator Beam Limit Height">
+</entry>
+    <entry group="0019" element="90" vr="US" vm="1" name="Collimator Beam Limit Diameter">
+</entry>
+    <entry group="0019" element="92" vr="US" vm="1" name="XRay Control Mode">
+</entry>
+    <entry group="0019" element="94" vr="US" vm="1" name="XRay System">
+</entry>
+    <entry group="0019" element="96" vr="US" vm="1" name="Focal Spot">
+</entry>
+    <entry group="0019" element="98" vr="US" vm="1" name="Exposure Control">
+</entry>
+    <entry group="0019" element="9A" vr="US" vm="1" name="XRay Voltage">
+</entry>
+    <entry group="0019" element="9C" vr="US" vm="1" name="XRay Current">
+</entry>
+    <entry group="0019" element="9E" vr="UL" vm="1" name="XRay Current Time Product">
+</entry>
+    <entry group="0019" element="A0" vr="US" vm="1" name="Pulse Time">
+</entry>
+    <entry group="0019" element="A2" vr="US" vm="1" name="Scene Time Fluoro Clock">
+</entry>
+    <entry group="0019" element="A4" vr="US" vm="1" name="Maximum PulseRate">
+</entry>
+    <entry group="0019" element="A6" vr="US" vm="1" name="Pulses per Scene">
+</entry>
+    <entry group="0019" element="A8" vr="UL" vm="1" name="Dose Area Product of Scene">
+</entry>
+    <entry group="0019" element="AA" vr="US" vm="1" name="Dose">
+</entry>
+    <entry group="0019" element="AC" vr="US" vm="1" name="Dose Rate">
+</entry>
+</dict>
+</dicts>

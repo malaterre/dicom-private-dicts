@@ -2116,6 +2116,1095 @@
     <entry owner="SIEMENS RA PLANE B" group="0019" element="xxdd" vr="UL" vm="1" name="Anatomic Background Flag"/>
     <entry owner="SIEMENS RA PLANE B" group="0019" element="xxde" vr="UL" vm="5" name="AutoWindow Base Values"/>
     <entry owner="SIEMENS RA PLANE B" group="0019" element="xxe0" vr="UL" vm="1" name="Pixel Size"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx20" vr="IS" vm="1" name="Phase Corrections Rows sequence"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx21" vr="IS" vm="1" name="Phase Corrections Columns sequence"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx22" vr="IS" vm="1" name="Phase Corrections Rows reconstruction"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx24" vr="IS" vm="1" name="Phase Corrections Columns reconstruction"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx30" vr="IS" vm="1" name="Number of 3D Raw Partitions nominal"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx31" vr="IS" vm="1" name="Number of 3D Raw Partitions current"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx34" vr="IS" vm="1" name="Number of 3D Image Partitions"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx36" vr="IS" vm="1" name="Actual 3D Image Partition Number"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx39" vr="DS" vm="1" name="Slab Thickness"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx40" vr="IS" vm="1" name="Number of Slices nominal"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx41" vr="IS" vm="1" name="Number of Slices current"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx42" vr="IS" vm="1" name="Current Slice Number"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx43" vr="IS" vm="1" name="Current Group Number"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx44" vr="DS" vm="1" name="Current Slice Distance Factor"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx45" vr="IS" vm="1" name="MIP Start Row"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx46" vr="IS" vm="1" name="MIP Stop Row"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx47" vr="IS" vm="1" name="MIP Start Column"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx48" vr="IS" vm="1" name="MIP Stop Column"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx49" vr="IS" vm="1" name="MIP Start Slice"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx4a" vr="IS" vm="1" name="MIP Stop Slice"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx4f" vr="CS" vm="1" name="Order of Slices"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx50" vr="UL" vm="1" name="Signal Mask"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx52" vr="IS" vm="1" name="Delay after Trigger"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx53" vr="IS" vm="1" name="RRInterval"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx54" vr="DS" vm="1" name="Number of Trigger Pulses"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx56" vr="DS" vm="1" name="Repetition Time effective"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx57" vr="CS" vm="1" name="Gate Phase"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx58" vr="DS" vm="1" name="Gate Threshold"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx59" vr="DS" vm="1" name="Gated Ratio"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx60" vr="IS" vm="1" name="Number of Interpolated Images"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx70" vr="IS" vm="1" name="Number of Echoes"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx72" vr="DS" vm="1" name="Second Echo Time"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx73" vr="DS" vm="1" name="Second Repetition Time"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx80" vr="IS" vm="1" name="Cardiac Code"/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx91" vr="DS" vm="1-n" name="Saturation Phase Encoding Vector Transversal Co..."/>
+    <entry owner="SIEMENS MR VA0 GEN" group="0021" element="xx92" vr="DS" vm="1-n" name="Saturation Readout Vector Transversal Component"/>
+    <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx00" vr="UI" vm="1" name="Private Voxar Capture UID"/>
+    <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx01" vr="OB" vm="1" name="Private Voxar Saved State"/>
+    <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx02" vr="SQ" vm="1" name="Private Voxar Icon Image Sequence"/>
+    <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx03" vr="ST" vm="1" name="Private Voxar Top Right Display Demographics"/>
+    <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx04" vr="ST" vm="1" name="Private Voxar Bottom Left Display Demographics"/>
+    <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx05" vr="IS" vm="1" name="Private Voxar Span State Schema"/>
+    <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx06" vr="UL" vm="1" name="Private Voxar Live Image Restored Size"/>
+    <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx07" vr="UI" vm="1" name="Private Voxar CaptureType"/>
+    <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx08" vr="SQ" vm="1" name="Private Voxar Capture Source Series UID Sequence"/>
+    <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx09" vr="UI" vm="1" name="Private Voxar Capture Source Series UID"/>
+    <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx10" vr="IS" vm="1" name="Private Voxar Background Gray For Capture"/>
+    <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx11" vr="IS" vm="1" name="Private Voxar Calcium Scoring Report Schema"/>
+    <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx12" vr="IS" vm="1" name="Private Voxar Source Series Number"/>
+    <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx13" vr="LO" vm="1" name="Private Voxar Bottom Left Display Demographics"/>
+    <entry owner="SIEMENS RA GEN" group="0011" element="xx20" vr="UL" vm="1" name="Total Fluoro TimePatient"/>
+    <entry owner="SIEMENS RA GEN" group="0011" element="xx25" vr="UL" vm="1" name="Dose Area ProductPatient"/>
+    <entry owner="SIEMENS RA GEN" group="0011" element="xx30" vr="LO" vm="1" name="Patient DOB"/>
+    <entry owner="SIEMENS RA GEN" group="0011" element="xx35" vr="LO" vm="1" name="Patient Initial Puck Counter"/>
+    <entry owner="SIEMENS RA GEN" group="0011" element="xx40" vr="CS" vm="1" name="Patient Initial Position"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx15" vr="CS" vm="1" name="Acquired Plane"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx20" vr="UL" vm="1" name="Scene Flag"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx22" vr="UL" vm="1" name="ReferencePhotofile Flag"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx24" vr="LO" vm="1" name="Scene Name"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx26" vr="US" vm="1" name="Acquisition Index"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx28" vr="US" vm="1" name="Mixed Pulse Mode"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx2a" vr="US" vm="1" name="Number of Positions"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx2c" vr="US" vm="1" name="Number of Phases"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx2e" vr="US" vm="1-n" name="Framerate for 8 Positions"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx30" vr="US" vm="1-n" name="FramesPhase"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx32" vr="US" vm="1" name="Stepping Direction"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx44" vr="US" vm="1" name="Image Transfer Delay"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx46" vr="UL" vm="1" name="InversNot Invers"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx4c" vr="US" vm="1" name="Blanking Circle Diameter"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx50" vr="US" vm="1" name="Stand Data Valid"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx52" vr="US" vm="1" name="Table Tilt"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx54" vr="US" vm="1" name="Table Axis Rotation"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx56" vr="US" vm="1" name="Table Longitudinal Position"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx58" vr="US" vm="1" name="Table Side Offset"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx5a" vr="US" vm="1" name="Table Isocenter Height"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx5e" vr="UL" vm="1" name="Collimation Data Valid"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx60" vr="UL" vm="1" name="PERI Sequence Number"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx62" vr="UL" vm="1" name="PERI Total Scenes"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx64" vr="US" vm="1" name="PERI Overlap Top"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx66" vr="UL" vm="1" name="PERI Overlap Bottom"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx68" vr="UL" vm="1" name="Raw Image Number"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx6a" vr="UL" vm="1" name="XRay Data Valid"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx76" vr="UL" vm="1" name="Filling Average Factor"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx9c" vr="UL" vm="1" name="II Level CalibrationFactor"/>
+    <entry owner="SIEMENS RA GEN" group="0019" element="xx9e" vr="UL" vm="1" name="Nativ Review Flag"/>
+    <entry owner="SIEMENS RA GEN" group="0021" element="xx15" vr="US" vm="1" name="Images in Study"/>
+    <entry owner="SIEMENS RA GEN" group="0021" element="xx20" vr="US" vm="1" name="Scenes in Study"/>
+    <entry owner="SIEMENS RA GEN" group="0021" element="xx25" vr="US" vm="1" name="Images in Photofile"/>
+    <entry owner="SIEMENS RA GEN" group="0021" element="xx30" vr="US" vm="1" name="Images in All Scenes"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx11" vr="US" vm="1" name="Window Width Native Current"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx12" vr="US" vm="1" name="Window Center Native"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx14" vr="US" vm="1" name="Window Width Subtraction Current"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx15" vr="US" vm="1" name="Window Center Subtraction Current"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx25" vr="DS" vm="1" name="Edge Enhancement Native Current"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx27" vr="DS" vm="1" name="Edge Enhancement Subtraction Current"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx31" vr="US" vm="1" name="DSA Representation Current"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx32" vr="US" vm="1" name="Number of Mask Current"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx33" vr="US" vm="1" name="RightLeft Mark Current"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx35" vr="US" vm="1" name="Number of Series Representative"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx37" vr="US" vm="1" name="Rectangle Shutter Horizontal Current"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx38" vr="US" vm="1" name="Rectangle Shutter Vertical Aktuell"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx71" vr="LO" vm="1" name="Landmark Current"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx72" vr="US" vm="1" name="Zoom Factor"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx73" vr="US" vm="1" name="Roam Horizontal"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx74" vr="US" vm="1" name="Roam Vertikal"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx77" vr="IS" vm="1" name="Pixel Shift Horizontal"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx78" vr="IS" vm="1" name="Pixel Shift Vertikal"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx79" vr="US" vm="1" name="Image Flip"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx7a" vr="US" vm="1" name="Invers Current"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx83" vr="SH" vm="1" name="Documentation Flag"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx91" vr="US" vm="1" name="Summation Count Filling"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx92" vr="US" vm="1" name="Summation Count Mask"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx93" vr="US" vm="1" name="PeakOp Start"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xx94" vr="US" vm="1" name="PeakOp End"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xxa0" vr="IS" vm="1" name="Cine Rate"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xxa1" vr="LO" vm="1" name="Image Name"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xxa2" vr="LO" vm="1" name="Image Name Extension 1"/>
+    <entry owner="SIEMENS DFR.01 MANIPULATED" group="0017" element="xxa3" vr="LO" vm="1" name="Image Name Extension 2"/>
+    <entry owner="SIENET" group="0009" element="xx01" vr="US" vm="1" name="SIENET Command Field"/>
+    <entry owner="SIENET" group="0009" element="xx14" vr="LO" vm="1" name="Receiver PLA"/>
+    <entry owner="SIENET" group="0091" element="xx20" vr="PN" vm="1-n" name="Patient Name"/>
+    <entry owner="SIENET" group="0095" element="xx01" vr="LO" vm="1" name="Examination Folder ID"/>
+    <entry owner="SIENET" group="0095" element="xx04" vr="UL" vm="1" name="Folder Reported Status"/>
+    <entry owner="SIENET" group="0095" element="xx07" vr="LO" vm="1" name="SIENET ISA PLA"/>
+    <entry owner="SIENET" group="0095" element="xx0c" vr="UL" vm="1" name="Folder Rebuild Status"/>
+    <entry owner="SIENET" group="0095" element="xx26" vr="CS" vm="1" name="RIS Organ"/>
+    <entry owner="SIENET" group="0099" element="xx02" vr="UL" vm="1" name="Key Images"/>
+    <entry owner="SIENET" group="0099" element="xx05" vr="SL" vm="1" name="Image Number"/>
+    <entry owner="SIEMENS MED NM" group="0009" element="xx80" vr="LO" vm="1" name="Main Acquisition View"/>
+    <entry owner="SIEMENS MED NM" group="0011" element="xx10" vr="CS" vm="1" name="Organ System"/>
+    <entry owner="SIEMENS MED NM" group="0017" element="xx00" vr="ST" vm="1" name="Unknown 0017 0000"/>
+    <entry owner="SIEMENS MED NM" group="0017" element="xx20" vr="CS" vm="1" name="Scanning Sequence"/>
+    <entry owner="SIEMENS MED NM" group="0017" element="xx60" vr="DS" vm="1" name="KVP"/>
+    <entry owner="SIEMENS MED NM" group="0017" element="xx80" vr="ST" vm="1-n" name="Unknown 0017 0080"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx01" vr="SS" vm="1" name="Number of detectors"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx02" vr="SS" vm="1" name="Number of scalers"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx03" vr="SS" vm="1" name="Scaler Index"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx04" vr="DS" vm="1" name="Radionuclide Units"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx05" vr="DS" vm="1" name="Radiopharmaceutical"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx06" vr="FL" vm="1" name="Display Magnification"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx07" vr="SL" vm="1" name="Scaler Counts"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx08" vr="SS" vm="1" name="Processed Flag 0 Raw 1 Process"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx09" vr="SS" vm="1" name="MicroDELTA Parameter Blocks"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx0a" vr="LO" vm="1" name="MicroDELTA File Extension"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx0b" vr="LO" vm="1" name="MicroDELTA Write ID"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx0c" vr="SS" vm="1" name="MicroDELTA Write Version"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx0d" vr="CS" vm="1" name="MicroDELTA Mode"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx0e" vr="LO" vm="1" name="MicroDELTA ESFR"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx0f" vr="SL" vm="1" name="Siemens ICON Data Type"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx10" vr="OW" vm="1" name="MicroDELTA Expansion Blocks"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx11" vr="CS" vm="1" name="MicroDELTA Version"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx12" vr="LO" vm="1" name="MicroDELTA Trend"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx13" vr="SS" vm="1" name="MicroDELTA Number of Overlays"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx14" vr="SS" vm="1" name="MicroDELTA Overlay Block"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx15" vr="SS" vm="1" name="MicroDELTA Color Table Extra"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx16" vr="SS" vm="1" name="Number of Views"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx17" vr="SS" vm="1" name="MicroDELTA Thyroid Markers"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx18" vr="SS" vm="1" name="MicroDELTA Color Table Used"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx19" vr="SS" vm="1" name="Save Screen Flag 1 SaveScreen"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx1a" vr="SS" vm="1" name="MicroDELTA Overlay Map"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx1b" vr="SS" vm="1" name="SGI Converted LookUp Table"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx1c" vr="SS" vm="1" name="MicroDELTA Mystery1"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx1d" vr="SS" vm="1" name="MicroDELTA Mystery2"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx20" vr="FL" vm="1" name="Time of Lasix Administration"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx21" vr="FL" vm="1" name="Lasix Dose mg"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx22" vr="FL" vm="1" name="Bladder Esidual Volume cc"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx23" vr="SS" vm="1" name="Bladder Image Extension"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx24" vr="FL" vm="1" name="Serum Creatinine mg/dl"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx25" vr="FL" vm="1" name="TER"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx26" vr="FL" vm="1" name="TER Lower Limit"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx27" vr="FL" vm="1" name="Body Surface Area m2"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx30" vr="FL" vm="1" name="CTQ Normal Margin"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx31" vr="FL" vm="1" name="CTQ Abnormal Sagittal Margin"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx32" vr="FL" vm="1" name="CTQ Abnormal Oblique Margin"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx41" vr="SS" vm="1" name="Accepted Beats"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx42" vr="SS" vm="1" name="Rejected Beats"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx43" vr="SS" vm="1" name="Percent of R-R Interval Framed"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx44" vr="SS" vm="1" name="Beats Rejected Post PVC"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx45" vr="FL" vm="1" name="Trigger Source"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx47" vr="FL" vm="1" name="Beat Rejection Parameter"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx48" vr="SH" vm="1" name="Rejection Scheme"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx49" vr="FL" vm="1" name="PVC Threshold msec"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx4a" vr="SS" vm="1" name="Framing Mode 1 Forward 2 F/B"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx4b" vr="SS" vm="1" name="Autobeat Window 0 No 1 Yes"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx4c" vr="FL" vm="1" name="MicroDELTA Acquisition Time per Window msec"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx4e" vr="SS" vm="1" name="CTQ Unknown Entry Count"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx4f" vr="SS" vm="1" name="CTQ Matrix Size"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx50" vr="SS" vm="1" name="CTQ has been used"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx51" vr="SS" vm="1" name="CTQ Male Entry Count"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx52" vr="SS" vm="1" name="CTQ Female Entry Count"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx53" vr="SS" vm="1" name="CTQ Stress/Rest Time Delay"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx54" vr="CS" vm="1" name="CTQ Time Delay Units"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx55" vr="SS" vm="1" name="CTQ Min Oblique Stack Count"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx56" vr="SS" vm="1" name="CTQ Max Oblique Stack Count"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx57" vr="SS" vm="1" name="CTQ Min Sagittal Stack Count"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx58" vr="SS" vm="1" name="CTQ Max Sagittal Stack Count"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx59" vr="SS" vm="1" name="CTQ Min Radius Percent"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx5a" vr="UL" vm="1" name="CTQ Find Max or Average Flag"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx5b" vr="SS" vm="1" name="CTQ Basal Slice Index Offset"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx5c" vr="SS" vm="1" name="CTQ Starting Line Index"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx5d" vr="SS" vm="1" name="CTQ Line Counts"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx5e" vr="SS" vm="1" name="CTQ Radii Counts"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx5f" vr="SS" vm="1" name="CTQ Radial Angle Increment"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx60" vr="SS" vm="1" name="Whole Body Processed Flag 0:Raw 1:Img1-Img2 2:Im"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx61" vr="SS" vm="1" name="Whole Body View"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx62" vr="SS" vm="1" name="WB Display Field Length in cm"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx63" vr="SS" vm="1" name="WB Scan Length in cm"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx64" vr="SS" vm="1" name="WB Scan Speed cm/min"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx65" vr="SS" vm="1" name="WB Scan Speed Mode 0 Manual 1 Auto"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx66" vr="SS" vm="1" name="WB Scan Start 0 Head 1 Feet"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx67" vr="SS" vm="1" name="WB Scan Direction 0 Lt to Rt 1 Rt to Lt"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx68" vr="FL" vm="1" name="WB Aperature Width in cm"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx69" vr="SS" vm="1" name="WB Number of Passes"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx6a" vr="SS" vm="1" name="WB Scan Time msec"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx6b" vr="FL" vm="1" name="WB Anterior kCounts View 1"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx6c" vr="FL" vm="1" name="WB Anterior kCounts View 2"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx6d" vr="FL" vm="1" name="WB Count Density"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx6e" vr="SS" vm="1" name="WB Reference View Flag 1 Ref"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx6f" vr="FL" vm="1" name="WB Coun Density Speed cm/min"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx70" vr="CS" vm="1" name="WB Scan Type"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx71" vr="LO" vm="1" name="WB IRIS Corr. File Name"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx72" vr="FL" vm="1" name="WB Posterior kCounts View 1"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx73" vr="FL" vm="1" name="WB Posterior kCounts View 2"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx74" vr="SS" vm="1" name="WB Ant View Status No Img 1 Complete 2 Aborted"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx75" vr="SS" vm="1" name="WB Post View Status No Img 1 Complete 2 Aborted"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx76" vr="SS" vm="1" name="WB Post Scan Time msec"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx77" vr="SS" vm="1" name="WB Ant Pixel Overflow 1 Yes"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx78" vr="SS" vm="1" name="WB Post Pixel Overflow 1 Yes"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx7f" vr="SS" vm="1" name="Segment Type 0 Segments 2 Time/Segment"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx80" vr="SS" vm="1" name="Number of Segments"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx81" vr="SS" vm="1" name="PVC Rejection Flag 1 Reject"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx82" vr="SL" vm="1" name="Total Counts Framed"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx83" vr="SS" vm="1" name="Total Beats Framed"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx84" vr="SS" vm="1" name="Present Time of Day"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx85" vr="SS" vm="1" name="Framed Counts"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx86" vr="SS" vm="1" name="Time per Segment msec"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx87" vr="LT" vm="1" name="BBA Miscellaneous Info"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx88" vr="SL" vm="1" name="Tolerance %"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx89" vr="SS" vm="1" name="SWG"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx8a" vr="SL" vm="1" name="R-R Interval msec"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx8d" vr="SL" vm="1" name="Total Counts in Acquisition"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx8e" vr="SL" vm="1" name="Rejection Type"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx91" vr="FL" vm="1" name="Phase Total Counts"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx92" vr="SL" vm="1" name="Phase Pause msec"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx93" vr="SL" vm="1" name="Phase Start msec"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx94" vr="SS" vm="1" name="Window Center Method 0 Avg 1 Peak"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx95" vr="SS" vm="1" name="Number of Beats to Average"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx96" vr="FL" vm="1" name="Histogram Bin Interval msec"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xx97" vr="SS" vm="1" name="Counts in Peak Bin"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xxa0" vr="SS" vm="1" name="VPDs Detected"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xxa1" vr="SS" vm="1" name="Number of Phases"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xxa2" vr="SL" vm="1" name="Requested Frame Duration msec"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xxa3" vr="SL" vm="1" name="Frames per Phase"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xxa4" vr="SL" vm="1" name="Frame Pause msec"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xxc0" vr="FL" vm="1" name="Head Tilt degrees"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xxc1" vr="SS" vm="1" name="Uniformity Correction Flag"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xxc2" vr="SS" vm="1" name="Overflow Flag"/>
+    <entry owner="SIEMENS MED NM" group="0019" element="xxf0" vr="FL" vm="1" name="Pixel Dimensions"/>
+    <entry owner="SIEMENS MED NM" group="001f" element="xx50" vr="DS" vm="1" name="Location RET"/>
+    <entry owner="SIEMENS MED NM" group="0031" element="xx01" vr="LO" vm="1" name="Camera Name"/>
+    <entry owner="SIEMENS MED NM" group="0031" element="xx02" vr="SS" vm="1" name="Unknown Element 0031 02"/>
+    <entry owner="SIEMENS MED NM" group="0031" element="xx03" vr="FL" vm="1" name="External Zoom"/>
+    <entry owner="SIEMENS MED NM" group="0031" element="xx04" vr="FL" vm="1" name="CCD Energy Level"/>
+    <entry owner="SIEMENS MED NM" group="0031" element="xx05" vr="SS" vm="1" name="CCD Window Width"/>
+    <entry owner="SIEMENS MED NM" group="0031" element="xx06" vr="FL" vm="1" name="CCD Window Offset"/>
+    <entry owner="SIEMENS MED NM" group="0031" element="xx07" vr="SS" vm="1" name="CCD Peaking Mode"/>
+    <entry owner="SIEMENS MED NM" group="0031" element="xx08" vr="LO" vm="1" name="CCD Autopeak Function"/>
+    <entry owner="SIEMENS MED NM" group="0031" element="xx09" vr="SS" vm="1" name="CCD Count Rate Mode"/>
+    <entry owner="SIEMENS MED NM" group="0031" element="xx0a" vr="SS" vm="1" name="Analog Output Device"/>
+    <entry owner="SIEMENS MED NM" group="0031" element="xx0b" vr="SS" vm="1" name="Communication Type"/>
+    <entry owner="SIEMENS MED NM" group="0031" element="xx0c" vr="SS" vm="1" name="Control Unit 1 ICON 2 DOT 3 ScintiView"/>
+    <entry owner="SIEMENS MED NM" group="0031" element="xx0d" vr="SS" vm="1" name="WAM Mode"/>
+    <entry owner="SIEMENS MED NM" group="0031" element="xx0e" vr="SS" vm="1" name="Event Control Mode"/>
+    <entry owner="SIEMENS MED NM" group="0031" element="xx0f" vr="FL" vm="1" name="Zoom X Offset 0.1 mm"/>
+    <entry owner="SIEMENS MED NM" group="0031" element="xx10" vr="FL" vm="1" name="Zoom Y Offset 0.1 mm"/>
+    <entry owner="SIEMENS MED NM" group="0031" element="xx11" vr="SS" vm="1" name="Gantry Zero Position"/>
+    <entry owner="SIEMENS MED NM" group="0041" element="xx21" vr="LO" vm="1" name="Text Relating to Data Object"/>
+    <entry owner="SIEMENS MED NM" group="0041" element="xx30" vr="DA" vm="1" name="Folder Creation Date"/>
+    <entry owner="SIEMENS MED NM" group="0041" element="xx32" vr="TM" vm="1" name="Folder Creation Time"/>
+    <entry owner="SIEMENS MED NM" group="0041" element="xx34" vr="DA" vm="1" name="Folder Modification Date"/>
+    <entry owner="SIEMENS MED NM" group="0041" element="xx36" vr="TM" vm="1" name="Folder Modification Time"/>
+    <entry owner="SIEMENS MED NM" group="0041" element="xx40" vr="LO" vm="1" name="Folder Owner Name"/>
+    <entry owner="SIEMENS MED NM" group="0041" element="xx50" vr="SS" vm="1" name="Folder Status"/>
+    <entry owner="SIEMENS MED NM" group="0041" element="xx70" vr="SL" vm="1" name="Number of Images in Folder"/>
+    <entry owner="SIEMENS MED NM" group="0041" element="xx71" vr="SL" vm="1" name="Number of Non-Image Objects"/>
+    <entry owner="SIEMENS MED NM" group="0051" element="xx10" vr="SS" vm="1" name="Number of Windows"/>
+    <entry owner="SIEMENS MED NM" group="0051" element="xx11" vr="SS" vm="1" name="Average Heart Rate BPM"/>
+    <entry owner="SIEMENS MED NM" group="0051" element="xx12" vr="SS" vm="1" name="Accepted Beats in Window"/>
+    <entry owner="SIEMENS MED NM" group="0051" element="xx13" vr="SS" vm="1" name="Average R-R Interval msec"/>
+    <entry owner="SIEMENS MED NM" group="0051" element="xx14" vr="SS" vm="1" name="Window Width %"/>
+    <entry owner="SIEMENS MED NM" group="0051" element="xx15" vr="SL" vm="1" name="Hottest Pixel in Window"/>
+    <entry owner="SIEMENS MED NM" group="0051" element="xx18" vr="SL" vm="1" name="Total Counts in Window"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx01" vr="SS" vm="1" name="Terminate on Pixel Overflow Flag 1 Terminate"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx02" vr="SS" vm="1" name="Terminate on List Buffer Overflow Flag"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx03" vr="SS" vm="1" name="First Frame by Counts"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx10" vr="SS" vm="1" name="Elapsed Time Start Condition 0 None 1 Any 2 All"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx11" vr="SL" vm="1" name="Elapsed Time Start msec"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx12" vr="SS" vm="1" name="Count Rate Start Condition 0 None 1 Any 2 All"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx13" vr="SL" vm="1" name="Count Rate Start"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx14" vr="SS" vm="1" name="Start Heart Beat Count Condition 0 None 1 Any 2"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx15" vr="SL" vm="1" name="Start Heart Beat Count"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx16" vr="SS" vm="1" name="Start Heart Rate Threshold Condition"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx17" vr="SS" vm="1" name="Start Heart Rate Increasing Flag"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx18" vr="SL" vm="1" name="Start Heart Rate"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx19" vr="SL" vm="1" name="Manual Stop Flag 0 No 1 Yes"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx1a" vr="SS" vm="1" name="Elapsed Time Stop Condition 0 None 1 Any 2 All"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx1b" vr="SL" vm="1" name="Elapsed Time Stop"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx1c" vr="SS" vm="1" name="Stop Heart Beat Count Condition 0 None 1 Any 2 A"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx1d" vr="SL" vm="1" name="Stop Heart Beat Count"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx30" vr="SS" vm="1" name="Info Density Stop Condition"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx31" vr="SS" vm="1" name="Info Density Stop Scaler"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx32" vr="SS" vm="1" name="Info Density Stop Region"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx33" vr="SL" vm="1" name="Info Density Stop Count"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx40" vr="SS" vm="1" name="Stop Condition Status 0 None 1 Any 2 All"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx41" vr="SL" vm="1" name="Stop Count"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx42" vr="SS" vm="1" name="Stop Count Condition Status 0 None 1 Any 2 All"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx43" vr="SL" vm="1" name="Stop Time"/>
+    <entry owner="SIEMENS MED NM" group="0053" element="xx44" vr="SS" vm="1" name="Stop Time Condition Status 0 None 1 Any 2 All"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx02" vr="SS" vm="1" name="Unknown 55-02"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx20" vr="SS" vm="1" name="Flood Corr. Flag 1 Corr"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx21" vr="DS" vm="1" name="Flood Acquisition Date"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx30" vr="SS" vm="1" name="COR Corr. Flag 1 Corr"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx31" vr="DA" vm="1" name="COR Acquisition Date"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx38" vr="OW" vm="1" name="COR Data"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx40" vr="SS" vm="1" name="Noncircular Orbit Flag 1 NCO"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx48" vr="FL" vm="1" name="NCO Values"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx50" vr="SS" vm="1" name="Prone Flag 0 Supine 1 Prone"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx51" vr="SS" vm="1" name="Orbit 0 Circular 1 Elliptical"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx52" vr="SS" vm="1" name="Total Rotation in Degrees"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx53" vr="CS" vm="1" name="Zero Location (T=Top B=Bottom)"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx54" vr="FL" vm="1" name="Angular Step"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx55" vr="FL" vm="1" name="Start Angle"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx56" vr="SS" vm="1" name="Decay Corr. Flag 1 Corr"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx57" vr="SS" vm="1" name="Scatter Corr. Flag 1 Corr"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx58" vr="FL" vm="1" name="Radial Map Info in 0.1 mm Inc."/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx59" vr="CS" vm="1" name="Direction H HeadIn F FeetIn"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx5a" vr="FL" vm="1" name="Table Traverse cm"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx5b" vr="SS" vm="1" name="Multiplexor Flag 1 Multiplexed"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx5c" vr="DS" vm="1" name="Pixel Acquisition Date"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx5d" vr="SS" vm="1" name="Angle Type 1 360o 2 128 Steps"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx5e" vr="SL" vm="1" name="Orbit Definition"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx5f" vr="FL" vm="1" name="Arm Length in cm"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx60" vr="SS" vm="1" name="Auto Window Beats"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx61" vr="SS" vm="1" name="Non-gated File Extension"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx64" vr="SS" vm="1" name="TIC Error Values"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx65" vr="SS" vm="1" name="X1"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx66" vr="SS" vm="1" name="Y1"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx67" vr="SS" vm="1" name="X2"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx68" vr="SS" vm="1" name="Y2"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx69" vr="SS" vm="1" name="X3"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx6a" vr="SS" vm="1" name="Y3"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx6b" vr="SS" vm="1" name="X4"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx6c" vr="SS" vm="1" name="Y4"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx6d" vr="SS" vm="1" name="Pixel Size Flag 1 Valid Size"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx70" vr="FL" vm="1" name="X Focal Length"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx71" vr="FL" vm="1" name="Y Focal Length"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx72" vr="FL" vm="1" name="X Gains"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx73" vr="FL" vm="1" name="Y Gains"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx74" vr="FL" vm="1" name="X Offset"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx75" vr="FL" vm="1" name="Y Offset"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx76" vr="FL" vm="1" name="X Principal Ray"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx77" vr="FL" vm="1" name="Y Principal Ray"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx78" vr="FL" vm="1" name="Total Flood Counts"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx80" vr="SS" vm="1" name="File Altered Flag 1 Altered"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx81" vr="SS" vm="1" name="Raw Data Extension"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx82" vr="SS" vm="1" name="Sagittal Extension"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx83" vr="SS" vm="1" name="Coronal Extension"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx84" vr="SS" vm="1" name="Transverse Extension"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx85" vr="SS" vm="1" name="Volume Rendered Extension"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx86" vr="SL" vm="1" name="Plane of Transverse Bottom Slice"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx87" vr="SL" vm="1" name="Plane of Transverse Top Slice"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx88" vr="SL" vm="1" name="Slice Step in Pixels"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx8a" vr="SL" vm="1" name="Y-Axis Smooth Slice Weights"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx8b" vr="SL" vm="1" name="Number of Transverse Slices"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx8c" vr="SS" vm="1" name="Attenuation Flag 1 Chang 2 Sorenson"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx8d" vr="SS" vm="1" name="Sagittal Right Limit"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx8e" vr="SS" vm="1" name="Sagittal Left Limit"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx8f" vr="SS" vm="1" name="Coronal Posterior Limit"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx90" vr="SS" vm="1" name="Coronal Anterior Limit"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx91" vr="SS" vm="1" name="Isotope Used in Reconstruction"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx93" vr="FL" vm="1" name="Filter Cutoff Frequency"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx94" vr="FL" vm="1" name="Filter Alpha Coefficient"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx95" vr="FL" vm="1" name="Filter Order"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx96" vr="FL" vm="1" name="Attenuation Cooefficient"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx97" vr="SS" vm="1" name="Percent Ray"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx98" vr="SS" vm="1" name="Astigmatic Collimator 1 Neuro 2 Cardiac"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx99" vr="SS" vm="1" name="XP0"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx9a" vr="SS" vm="1" name="ZP0"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx9b" vr="SS" vm="1" name="XP1"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx9c" vr="SS" vm="1" name="ZP1"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx9d" vr="FL" vm="1" name="Rotation Matrix"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx9e" vr="FL" vm="1" name="X0"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xx9f" vr="FL" vm="1" name="X1"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xxa0" vr="FL" vm="1" name="Y0"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xxa1" vr="FL" vm="1" name="Y1"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xxa2" vr="FL" vm="1" name="Z0"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xxa3" vr="FL" vm="1" name="Z1"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xxa4" vr="SS" vm="1" name="Transverse Scale"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xxa5" vr="FL" vm="1" name="Pixel Size X Direction mm"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xxa6" vr="FL" vm="1" name="Pixel Size Y Direction mm"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xxa7" vr="SS" vm="1" name="Regions File Extension"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xxa8" vr="SS" vm="1" name="Gated SPECT Bins Reconstructed"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xxa9" vr="SS" vm="1" name="Vertical Oblique Image"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xxb0" vr="SS" vm="1" name="Oblique Region First Slice"/>
+    <entry owner="SIEMENS MED NM" group="0055" element="xxb1" vr="SS" vm="1" name="Oblique Region Last Slice"/>
+    <entry owner="SIEMENS MED NM" group="0057" element="xx10" vr="SS" vm="1" name="Low Count"/>
+    <entry owner="SIEMENS MED NM" group="0057" element="xx20" vr="SS" vm="1" name="Vertical Oblique Image"/>
+    <entry owner="SIEMENS MED NM" group="5001" element="xx02" vr="SL" vm="1" name="Number of Points"/>
+    <entry owner="SIEMENS MED NM" group="5001" element="xx03" vr="FL" vm="1" name="Minimal Value on X-Axis"/>
+    <entry owner="SIEMENS MED NM" group="5001" element="xx04" vr="FL" vm="1" name="Maximal Value on X-Axis"/>
+    <entry owner="SIEMENS MED NM" group="5001" element="xx05" vr="FL" vm="1" name="Minimal Value on Y-Axis"/>
+    <entry owner="SIEMENS MED NM" group="5001" element="xx06" vr="FL" vm="1" name="Maximal Value on Y-Axis"/>
+    <entry owner="SIEMENS MED NM" group="5001" element="xx07" vr="LO" vm="1" name="Curve Name"/>
+    <entry owner="SIEMENS MED NM" group="5001" element="xx08" vr="LO" vm="1" name="Curve Function Label"/>
+    <entry owner="SIEMENS MED NM" group="5001" element="xx09" vr="SH" vm="1" name="X Axis Label"/>
+    <entry owner="SIEMENS MED NM" group="5001" element="xx0a" vr="SH" vm="1" name="Y Axis Label"/>
+    <entry owner="SIEMENS MED NM" group="5001" element="xx0b" vr="OW" vm="1" name="Curve Data"/>
+    <entry owner="SIEMENS MED NM" group="7fe1" element="xx10" vr="OW" vm="1" name="Compressed Pixel Data"/>
+    <entry owner="SIEMENS MED NM" group="7fe3" element="xx00" vr="UL" vm="1" name="Length of Group 0x7FE3"/>
+    <entry owner="SIEMENS MED NM" group="7fe3" element="xx14" vr="SL" vm="1" name="Lowest Pixel Value in THIS Frame"/>
+    <entry owner="SIEMENS MED NM" group="7fe3" element="xx15" vr="SL" vm="1" name="Highest Pixel Value in THIS Frame"/>
+    <entry owner="SIEMENS MED NM" group="7fe3" element="xx16" vr="SL" vm="1" name="Total Counts in THIS Frame"/>
+    <entry owner="SIEMENS MED NM" group="7fe3" element="xx17" vr="SL" vm="1" name="Duration of THIS Frame msec"/>
+    <entry owner="SIEMENS MED NM" group="7fe3" element="xx18" vr="FL" vm="1" name="Frame Angle"/>
+    <entry owner="SIEMENS MED NM" group="7fe3" element="xx19" vr="LO" vm="1" name="Frame Name"/>
+    <entry owner="SIEMENS MED NM" group="7fe3" element="xx1a" vr="FL" vm="1" name="View Number"/>
+    <entry owner="SIEMENS MED NM" group="7fe3" element="xx1b" vr="SS" vm="1" name="Pixel Overflow Flag 1 Pixel Overflow"/>
+    <entry owner="SIEMENS MED NM" group="7fe3" element="xx1c" vr="SS" vm="1" name="Buffer Overflow Flag 1 Buffer Overflow"/>
+    <entry owner="SIEMENS MED NM" group="7fe3" element="xx1e" vr="SL" vm="1" name="Start Time of THIS Frame From Start of Study"/>
+    <entry owner="SIEMENS MED NM" group="7fe3" element="xx1f" vr="SL" vm="1" name="ROI Maximum Pixel Value"/>
+    <entry owner="SIEMENS MED NM" group="7fe3" element="xx20" vr="SL" vm="1" name="ROI Average Pixel Value"/>
+    <entry owner="SIEMENS MED NM" group="7fe3" element="xx21" vr="SL" vm="1" name="ROI Total Counts"/>
+    <entry owner="SIEMENS MED NM" group="7fe3" element="xx22" vr="SL" vm="1" name="ROI Total Pixels"/>
+    <entry owner="SIEMENS MED NM" group="7fe3" element="xx23" vr="SL" vm="1" name="ROI Center Coordinates"/>
+    <entry owner="SIEMENS MED NM" group="7fe3" element="xx24" vr="LO" vm="1" name="ROI Name"/>
+    <entry owner="SIEMENS MED NM" group="7fe3" element="xx25" vr="SS" vm="1" name="ROI Data"/>
+    <entry owner="ISI" group="0009" element="xx01" vr="SQ" vm="1" name="SIENET General Purpose IMGF"/>
+    <entry owner="SPI RELEASE 1" group="0009" element="xx10" vr="LO" vm="1" name="Comments"/>
+    <entry owner="SPI RELEASE 1" group="0009" element="xx15" vr="LO" vm="1" name="Unique Identifier"/>
+    <entry owner="SPI RELEASE 1" group="0009" element="xx40" vr="US" vm="1" name="Data Object Type"/>
+    <entry owner="SPI RELEASE 1" group="0009" element="xx41" vr="SH" vm="1" name="Data Object Subtype"/>
+    <entry owner="SPI RELEASE 1" group="0011" element="xx10" vr="LO" vm="1" name="Organ"/>
+    <entry owner="SPI RELEASE 1" group="0011" element="xx15" vr="LO" vm="1" name="Allergy Indication"/>
+    <entry owner="SPI RELEASE 1" group="0011" element="xx20" vr="CS" vm="1" name="Pregnancy"/>
+    <entry owner="SIEMENS MR VA0 RAW" group="0021" element="xx00" vr="CS" vm="1" name="Sequence Type"/>
+    <entry owner="SIEMENS MR VA0 RAW" group="0021" element="xx01" vr="IS" vm="1" name="Vector Size original"/>
+    <entry owner="SIEMENS MR VA0 RAW" group="0021" element="xx02" vr="IS" vm="1" name="Vector Size extended"/>
+    <entry owner="SIEMENS MR VA0 RAW" group="0021" element="xx03" vr="DS" vm="1" name="Acquired Spectral Range"/>
+    <entry owner="SIEMENS MR VA0 RAW" group="0021" element="xx04" vr="DS" vm="1-n" name="VOI Position"/>
+    <entry owner="SIEMENS MR VA0 RAW" group="0021" element="xx05" vr="DS" vm="1-n" name="VOI Size"/>
+    <entry owner="SIEMENS MR VA0 RAW" group="0021" element="xx06" vr="IS" vm="1-n" name="CSI Matrix Size original"/>
+    <entry owner="SIEMENS MR VA0 RAW" group="0021" element="xx07" vr="IS" vm="1-n" name="CSI Matrix Size extended"/>
+    <entry owner="SIEMENS MR VA0 RAW" group="0021" element="xx08" vr="DS" vm="1-n" name="Spatial Grid Shift"/>
+    <entry owner="SIEMENS MR VA0 RAW" group="0021" element="xx09" vr="DS" vm="1" name="Signal Limits Minimum"/>
+    <entry owner="SIEMENS MR VA0 RAW" group="0021" element="xx10" vr="DS" vm="1" name="Signal Limits Maximum"/>
+    <entry owner="SIEMENS MR VA0 RAW" group="0021" element="xx30" vr="DS" vm="1-n" name="AC ADC Offset"/>
+    <entry owner="SIEMENS MR VA0 RAW" group="0021" element="xx31" vr="DS" vm="1-n" name="AC Preamplifier Gain"/>
+    <entry owner="SIEMENS MR VA0 RAW" group="0021" element="xx50" vr="CS" vm="1" name="Saturation Type"/>
+    <entry owner="SIEMENS MR VA0 RAW" group="0021" element="xx51" vr="DS" vm="1-n" name="Saturation Normal Vector"/>
+    <entry owner="SIEMENS MR VA0 RAW" group="0021" element="xx52" vr="DS" vm="1-n" name="Saturation Position Vector"/>
+    <entry owner="SIEMENS MR VA0 RAW" group="0021" element="xx53" vr="DS" vm="1-n" name="Saturation Thickness"/>
+    <entry owner="SIEMENS MR VA0 RAW" group="0021" element="xx54" vr="DS" vm="1-n" name="Saturation Width"/>
+    <entry owner="SIEMENS MR VA0 RAW" group="0021" element="xx55" vr="DS" vm="1-n" name="Saturation Distance"/>
+    <entry owner="SIEMENS CT VA0  GEN" group="0019" element="xx10" vr="DS" vm="1" name="Source Side Collimator Aperture"/>
+    <entry owner="SIEMENS CT VA0  GEN" group="0019" element="xx11" vr="DS" vm="1" name="Detector Side Collimator Aperture"/>
+    <entry owner="SIEMENS CT VA0  GEN" group="0019" element="xx20" vr="IS" vm="1" name="Exposure Time current"/>
+    <entry owner="SIEMENS CT VA0  GEN" group="0019" element="xx21" vr="IS" vm="1" name="Exposure current"/>
+    <entry owner="SIEMENS CT VA0  GEN" group="0019" element="xx25" vr="DS" vm="1" name="Generator Power current"/>
+    <entry owner="SIEMENS CT VA0  GEN" group="0019" element="xx26" vr="DS" vm="1" name="Generator Voltage current"/>
+    <entry owner="SIEMENS CT VA0  GEN" group="0019" element="xx40" vr="UL" vm="1" name="Master Control Mask"/>
+    <entry owner="SIEMENS CT VA0  GEN" group="0019" element="xx42" vr="US" vm="1-n" name="Processing Mask"/>
+    <entry owner="SIEMENS CT VA0  GEN" group="0019" element="xx44" vr="UL" vm="1-n" name="IRS Data Number"/>
+    <entry owner="SIEMENS CT VA0  GEN" group="0019" element="xx45" vr="UL" vm="1-n" name="IRS Data Length"/>
+    <entry owner="SIEMENS CT VA0  GEN" group="0019" element="xx62" vr="IS" vm="1" name="Number of Virtuell Channels"/>
+    <entry owner="SIEMENS CT VA0  GEN" group="0019" element="xx70" vr="IS" vm="1" name="Number of Reading"/>
+    <entry owner="SIEMENS CT VA0  GEN" group="0019" element="xx71" vr="CS" vm="1" name="Reading Code"/>
+    <entry owner="SIEMENS CT VA0  GEN" group="0019" element="xx74" vr="IS" vm="1" name="Number of Projections"/>
+    <entry owner="SIEMENS CT VA0  GEN" group="0019" element="xx75" vr="IS" vm="1" name="Number of Bytes"/>
+    <entry owner="SIEMENS CT VA0  GEN" group="0019" element="xx80" vr="IS" vm="1-n" name="Reconstruction Algorithm Set"/>
+    <entry owner="SIEMENS CT VA0  GEN" group="0019" element="xx81" vr="IS" vm="1" name="Reconstruction Algorithm Index"/>
+    <entry owner="SIEMENS CT VA0  GEN" group="0019" element="xx82" vr="LO" vm="1" name="Regeneration Software Version"/>
+    <entry owner="SIEMENS CT VA0  GEN" group="0019" element="xx84" vr="IS" vm="1" name="Multiscan Reconstruction Increment"/>
+    <entry owner="SIEMENS CT VA0  GEN" group="0019" element="xx85" vr="IS" vm="1" name="Multiscan Reconstruction Width"/>
+    <entry owner="SIEMENS CT VA0  GEN" group="0019" element="xx88" vr="IS" vm="1" name="Range Number"/>
+    <entry owner="SIEMENS CM VA0  COAD" group="0019" element="xx3d" vr="LO" vm="1" name="Reading Code RZ2 Comment 2"/>
+    <entry owner="SIEMENS CT VA0 RAW" group="0021" element="xx10" vr="UL" vm="1-n" name="Creation Mask service"/>
+    <entry owner="SIEMENS CT VA0 RAW" group="0021" element="xx20" vr="UL" vm="1-n" name="Evaluation Mask service"/>
+    <entry owner="SIEMENS CT VA0 RAW" group="0021" element="xx30" vr="US" vm="1-n" name="Extended Processing Mask"/>
+    <entry owner="SIEMENS CT VA0 RAW" group="0021" element="xx40" vr="UL" vm="1-n" name="Manipulation Mask"/>
+    <entry owner="SIEMENS CT VA0 RAW" group="0021" element="xx41" vr="UL" vm="1-n" name="Composition Mask"/>
+    <entry owner="SIEMENS CT VA0 RAW" group="0021" element="xx42" vr="UL" vm="1-n" name="Alteration Mask"/>
+    <entry owner="SIEMENS CT VA0 RAW" group="0021" element="xx43" vr="UL" vm="1-n" name="Generation Mask"/>
+    <entry owner="SIEMENS CT VA0 RAW" group="0021" element="xx44" vr="UL" vm="1-n" name="Function Mask"/>
+    <entry owner="SIEMENS CT VA0 RAW" group="0021" element="xx50" vr="CS" vm="1" name="Mode Mirroring Code"/>
+    <entry owner="SIEMENS MED" group="0009" element="xx10" vr="LO" vm="1" name="Recognition Code"/>
+    <entry owner="SIEMENS MED" group="0009" element="xx30" vr="US" vm="1" name="Byte Offset of Original Header"/>
+    <entry owner="SIEMENS MED" group="0009" element="xx31" vr="UL" vm="1" name="Length of Original Header"/>
+    <entry owner="SIEMENS MED" group="0009" element="xx40" vr="US" vm="1" name="Byte Offset of Pixel Matrix"/>
+    <entry owner="SIEMENS MED" group="0009" element="xx41" vr="UL" vm="1" name="Length of Pixel Matrix"/>
+    <entry owner="SIEMENS MED" group="0009" element="xxf5" vr="LO" vm="1" name="PDM EFID Placeholder"/>
+    <entry owner="SIEMENS MED" group="0009" element="xxf6" vr="LO" vm="1" name="PDM Data Object Type Extension"/>
+    <entry owner="SIEMENS MED" group="0021" element="xx10" vr="DS" vm="1" name="Zoom"/>
+    <entry owner="SIEMENS MED" group="0021" element="xx11" vr="DS" vm="1-n" name="Target"/>
+    <entry owner="SIEMENS MED" group="0021" element="xx12" vr="IS" vm="1" name="Tube Angle During Topogram"/>
+    <entry owner="SIEMENS MED" group="0021" element="xx20" vr="US" vm="1" name="ROI Mask"/>
+    <entry owner="SIEMENS RIS" group="0011" element="xx10" vr="LO" vm="1" name="Patient UID"/>
+    <entry owner="SIEMENS RIS" group="0011" element="xx11" vr="LO" vm="1" name="Patient ID"/>
+    <entry owner="SIEMENS RIS" group="0011" element="xx20" vr="DA" vm="1" name="Patient Registration Date"/>
+    <entry owner="SIEMENS RIS" group="0011" element="xx21" vr="TM" vm="1" name="Patient Registration Time"/>
+    <entry owner="SIEMENS RIS" group="0011" element="xx30" vr="PN" vm="1" name="Patient NameRIS"/>
+    <entry owner="SIEMENS RIS" group="0011" element="xx31" vr="PN" vm="1" name="Patient Prename"/>
+    <entry owner="SIEMENS RIS" group="0011" element="xx40" vr="LO" vm="1" name="Patient Hospital Status"/>
+    <entry owner="SIEMENS RIS" group="0011" element="xx41" vr="LO" vm="1" name="Medical Alerts"/>
+    <entry owner="SIEMENS RIS" group="0011" element="xx42" vr="LO" vm="1" name="Contrast Allergy"/>
+    <entry owner="SIEMENS RIS" group="0031" element="xx10" vr="LO" vm="1" name="Request UID"/>
+    <entry owner="SIEMENS RIS" group="0031" element="xx45" vr="LO" vm="1" name="Requesting Physician"/>
+    <entry owner="SIEMENS RIS" group="0031" element="xx50" vr="LO" vm="1" name="Requested Physician"/>
+    <entry owner="SPI" group="0009" element="xx10" vr="LO" vm="1" name="Comments"/>
+    <entry owner="SPI" group="0009" element="xx15" vr="LO" vm="1" name="Unique Identifier"/>
+    <entry owner="SPI" group="0009" element="xx40" vr="US" vm="1" name="Data Object Type"/>
+    <entry owner="SPI" group="0009" element="xx41" vr="SH" vm="1" name="Data Object Subtype"/>
+    <entry owner="SPI" group="0011" element="xx10" vr="LO" vm="1" name="Organ"/>
+    <entry owner="SPI" group="0011" element="xx15" vr="LO" vm="1" name="Allergy Indication"/>
+    <entry owner="SPI" group="0011" element="xx20" vr="CS" vm="1" name="Pregnancy"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx12" vr="DS" vm="1" name="Magnetic Field Strength"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx14" vr="DS" vm="1" name="ADC Voltage"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx16" vr="DS" vm="1-n" name="ADC Offset"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx20" vr="DS" vm="1" name="Transmitter Amplitude"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx21" vr="IS" vm="1" name="Number of Transmitter Amplitudes"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx22" vr="DS" vm="1" name="Transmitter Attenuator"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx24" vr="DS" vm="1" name="Transmitter Calibration"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx26" vr="DS" vm="1" name="Transmitter Reference"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx50" vr="DS" vm="1" name="Receiver Total Gain"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx51" vr="DS" vm="1" name="Receiver Amplifier Gain"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx52" vr="DS" vm="1" name="Receiver Preamplifier Gain"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx54" vr="DS" vm="1" name="Receiver Cable Attenuation"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx55" vr="DS" vm="1" name="Receiver Reference Gain"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx56" vr="IS" vm="1" name="Receiver Filter Frequency"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx60" vr="DS" vm="1" name="Reconstruction Scale Factor"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx62" vr="DS" vm="1" name="Reference Scale Factor"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx70" vr="DS" vm="1" name="Phase Gradient Amplitude"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx71" vr="DS" vm="1" name="Readout Gradient Amplitude"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx72" vr="DS" vm="1" name="Selection Gradient Amplitude"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx80" vr="DS" vm="1-n" name="Gradient Delay Time"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx82" vr="DS" vm="1" name="Total Gradient Delay Time"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx90" vr="LO" vm="1" name="Sensitivity Correction Label"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx91" vr="DS" vm="1-5" name="Saturation Phase Encoding Vector Coronal Component"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx92" vr="DS" vm="1-5" name="Saturation Readout Vector Coronal Component"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xxa0" vr="IS" vm="1" name="RF Watchdog Mask"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xxa2" vr="DS" vm="1" name="RF Power Error Indicator"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xxa5" vr="DS" vm="1-n" name="Specific Absorption Rate SAR"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xxa6" vr="DS" vm="1-n" name="Specific Energy Dose SED"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xxb0" vr="UL" vm="1" name="Adjustment Status Mask"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xxc1" vr="DS" vm="1-n" name="EPI Capacity"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xxc2" vr="DS" vm="1-n" name="EPI Inductance"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xxc3" vr="IS" vm="1-n" name="EPI Switch Configuration Code"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xxc4" vr="IS" vm="1-n" name="EPI Switch Hardware Code"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xxc5" vr="DS" vm="1-n" name="EPI Switch Delay Time"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xxd1" vr="DS" vm="1" name="Flow Sensitivity"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xxd2" vr="CS" vm="1" name="Calculation Submode"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xxd3" vr="DS" vm="1" name="Field of View Ratio"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xxd4" vr="IS" vm="1" name="Base Raw Matrix Size"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xxd5" vr="IS" vm="1" name="2D Phase Oversampling Lines"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xxd6" vr="IS" vm="1" name="3D Phase Oversampling Part"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xxd7" vr="IS" vm="1" name="Echo Line Position"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xxd8" vr="IS" vm="1" name="Echo Column Position"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xxd9" vr="IS" vm="1" name="Lines per Segment"/>
+    <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xxda" vr="CS" vm="1" name="Phase Coding Direction"/>
+    <entry owner="SIEMENS CT VA0  IDE" group="0009" element="xx10" vr="LO" vm="1" name="SOMATOM Software Name"/>
+    <entry owner="SIEMENS CT VA0  IDE" group="0009" element="xx30" vr="CS" vm="1" name="Data Set Subtype 1"/>
+    <entry owner="SIEMENS CT VA0  IDE" group="0009" element="xx31" vr="SH" vm="1" name="Data Set Subtype 2"/>
+    <entry owner="SIEMENS CT VA0  IDE" group="0009" element="xx32" vr="SH" vm="1" name="Data Set Subtype 3"/>
+    <entry owner="SIEMENS CT VA0  IDE" group="0009" element="xx33" vr="SH" vm="1" name="Data Set Subtype 4"/>
+    <entry owner="SIEMENS CT VA0  IDE" group="0009" element="xx34" vr="SH" vm="1" name="Data Set Subtype 5"/>
+    <entry owner="SIEMENS CT VA0  IDE" group="0009" element="xx40" vr="LO" vm="1" name="Directory Text"/>
+    <entry owner="SIEMENS CT VA0  IDE" group="0009" element="xx42" vr="LO" vm="1" name="Exposure Time Text"/>
+    <entry owner="SIEMENS CT VA0  IDE" group="0009" element="xx50" vr="DA" vm="1" name="Scan Date"/>
+    <entry owner="SIEMENS CT VA0  IDE" group="0009" element="xx51" vr="TM" vm="1" name="Scan Time"/>
+    <entry owner="SIEMENS CM VA0  OST" group="6023" element="xx00" vr="LO" vm="1" name="Osteo Contour Comment"/>
+    <entry owner="SIEMENS CM VA0  OST" group="6023" element="xx10" vr="SS" vm="1-n" name="Osteo Contour Buffer"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx10" vr="IS" vm="1" name="Rotation Angle"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx11" vr="IS" vm="1" name="Start Angle"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx20" vr="IS" vm="1" name="Scan"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx30" vr="IS" vm="1" name="Tube Position"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx32" vr="DS" vm="1" name="Length of Topogram"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx34" vr="DS" vm="1" name="Correction Factor"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx36" vr="DS" vm="1" name="Maximum Table Position"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx40" vr="IS" vm="1" name="Table Move Direction Code"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx45" vr="IS" vm="1" name="VOI Start Row"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx46" vr="IS" vm="1" name="VOI Stop Row"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx47" vr="IS" vm="1" name="VOI Start Column"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx48" vr="IS" vm="1" name="VOI Stop Column"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx49" vr="IS" vm="1" name="VOI Start Slice"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx4a" vr="IS" vm="1" name="VOI Stop Slice"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx50" vr="IS" vm="1" name="Vector Start Row"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx51" vr="IS" vm="1" name="Vector Row Step"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx52" vr="IS" vm="1" name="Vector Start Column"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx53" vr="IS" vm="1" name="Vector Column Step"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx60" vr="IS" vm="1" name="Range Type Code"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx62" vr="IS" vm="1" name="Reference Type Code"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx70" vr="DS" vm="1-n" name="Object Orientation"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx72" vr="DS" vm="1-n" name="Light Orientation"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx75" vr="DS" vm="1" name="Light Brightness"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx76" vr="DS" vm="1" name="Light Contrast"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx7a" vr="IS" vm="1-n" name="Overlay Threshold"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx7b" vr="IS" vm="1-n" name="Surface Threshold"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xx7c" vr="IS" vm="1-n" name="Grey Scale Threshold"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xxa0" vr="IS" vm="1-n" name="Field of Interest"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xxa1" vr="CS" vm="1" name="Image Filter Label"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xxa2" vr="CS" vm="1" name="Exemplary Element 1"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xxa3" vr="IS" vm="1-n" name="Exemplary Element 2"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xxa4" vr="LO" vm="1" name="Exemplary Element 3"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xxa5" vr="IS" vm="1" name="Reference Data Set 1"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xxa6" vr="IS" vm="1" name="Reference Data Set 2"/>
+    <entry owner="SIEMENS CT VA0 GEN" group="0021" element="xxa7" vr="LO" vm="1" name="Window Program Name"/>
+    <entry owner="SIEMENS CM VA0  LAB" group="0009" element="xx10" vr="LO" vm="1" name="Generator Identification Label"/>
+    <entry owner="SIEMENS CM VA0  LAB" group="0009" element="xx11" vr="LO" vm="1" name="Gantry Identification Label"/>
+    <entry owner="SIEMENS CM VA0  LAB" group="0009" element="xx12" vr="LO" vm="1" name="XRay Tube Identification Label"/>
+    <entry owner="SIEMENS CM VA0  LAB" group="0009" element="xx13" vr="LO" vm="1" name="Detector Identification Label"/>
+    <entry owner="SIEMENS CM VA0  LAB" group="0009" element="xx14" vr="LO" vm="1" name="DAS Identification Label"/>
+    <entry owner="SIEMENS CM VA0  LAB" group="0009" element="xx15" vr="LO" vm="1" name="SMI Identification Label"/>
+    <entry owner="SIEMENS CM VA0  LAB" group="0009" element="xx16" vr="LO" vm="1" name="CPU Identification Label"/>
+    <entry owner="SIEMENS CM VA0  LAB" group="0009" element="xx20" vr="SH" vm="1" name="Header Version"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx10" vr="CS" vm="1" name="Image Type"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx11" vr="US" vm="1" name="Window Width Native Original"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx12" vr="US" vm="1" name="Window Center Native"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx14" vr="US" vm="1" name="Window Width Subtraction Original"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx15" vr="US" vm="1" name="Window Center Subtraction Original"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx16" vr="US" vm="1" name="LUT Number for Autowindow"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx21" vr="US" vm="1" name="Edge Enhancement Kernelsize Original"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx22" vr="US" vm="1" name="Edge Enhancement Mode Original"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx23" vr="US" vm="1-n" name="Edge Enhancement LUTs Original"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx24" vr="US" vm="1" name="Filter Type Native Original"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx25" vr="DS" vm="1" name="Edge Enhancement Native Original"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx26" vr="US" vm="1" name="Filter Type Subtraction Original"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx27" vr="DS" vm="1" name="Edge Enhancement Subtraction Original"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx31" vr="US" vm="1" name="DSA Representation Original"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx32" vr="US" vm="1" name="Number of Maske Original"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx33" vr="US" vm="1" name="RightLeft Mark Original"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx34" vr="DS" vm="1" name="Slice Position"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx37" vr="US" vm="1" name="Rectangle Shutter Horizontal Original"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx38" vr="US" vm="1" name="Rectangle Vertical Original"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx41" vr="DS" vm="1" name="Dose"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx42" vr="DS" vm="1" name="Dose Area Product"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx43" vr="US" vm="1" name="Focus"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx44" vr="US" vm="1" name="SDM"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx45" vr="DS" vm="1" name="Image Intensifer Format"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx46" vr="DS" vm="1" name="Density Correction"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx47" vr="LO" vm="1" name="Exposure Curves"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx49" vr="LO" vm="1" name="Organ Program Name"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx4a" vr="IS" vm="1" name="Count of Images in Series"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx51" vr="US" vm="1" name="Image Intensifier Zoom"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx52" vr="UL" vm="1" name="ROSA Receiver ErrCount"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx61" vr="US" vm="1" name="Table Position Peri"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx62" vr="US" vm="1-n" name="Series Numbers of Petri"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx71" vr="LO" vm="1" name="Landmark Original"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xx7a" vr="US" vm="1" name="Invers Original"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xxb1" vr="CS" vm="1" name="L2 Image"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xxb2" vr="IS" vm="1" name="L2 Acquisition Monitor"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xxc1" vr="LO" vm="1" name="Folder UID"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xxc2" vr="LO" vm="1" name="Series UID"/>
+    <entry owner="SIEMENS DFR.01 ORIGINAL" group="0017" element="xxc3" vr="LO" vm="1" name="Subseries UID"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx10" vr="LO" vm="1" name="Measurement Mode"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx11" vr="LO" vm="1" name="Image Type"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx15" vr="LO" vm="1" name="Software Version"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx20" vr="LO" vm="1" name="MPM Code"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx21" vr="LO" vm="1" name="Latitude"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx22" vr="LO" vm="1" name="Sensitivity"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx23" vr="LO" vm="1" name="EDR"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx24" vr="LO" vm="1" name="l fix"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx25" vr="LO" vm="1" name="s fix"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx26" vr="LO" vm="1" name="Preset Mode"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx27" vr="LO" vm="1" name="Region"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx28" vr="LO" vm="1" name="Subregion"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx30" vr="LO" vm="1" name="Orientation"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx31" vr="LO" vm="1" name="Mark on Film"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx32" vr="LO" vm="1" name="Rotation on DRC"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx40" vr="LO" vm="1" name="Reader Type"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx41" vr="LO" vm="1" name="Sub Modality"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx42" vr="LO" vm="1" name="Reader Serial Number"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx50" vr="LO" vm="1" name="Cassette Scale"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx51" vr="LO" vm="1" name="Cassette Matrix"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx52" vr="LO" vm="1" name="Cassette Submatrix"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx53" vr="LO" vm="1" name="Barcode"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx60" vr="LO" vm="1" name="GT Contrast Type"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx61" vr="LO" vm="1" name="GA Rotation Amount"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx62" vr="LO" vm="1" name="GC Rotation Center"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx63" vr="LO" vm="1" name="GS Density Shift"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx64" vr="US" vm="1" name="RN Frequency Rank"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx65" vr="LO" vm="1" name="RE Frequency Enhancement"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx66" vr="LO" vm="1" name="RT Frequency Type"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx67" vr="LO" vm="1" name="Kernel Length"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx68" vr="UL" vm="1" name="Kernel Mode"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx69" vr="UL" vm="1" name="Convulsion Mode"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx70" vr="LO" vm="1" name="PLA Source"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx71" vr="LO" vm="1" name="PLA Destination"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx75" vr="LO" vm="1" name="UID Original Image"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx76" vr="LO" vm="1" name="Filterset"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx80" vr="LO" vm="1" name="Reader Header"/>
+    <entry owner="SIEMENS DLR.01" group="0019" element="xx90" vr="LO" vm="1" name="PLA of Secondary Destination"/>
+    <entry owner="SIEMENS DLR.01" group="0041" element="xx10" vr="US" vm="1" name="Number of Hardcopies"/>
+    <entry owner="SIEMENS DLR.01" group="0041" element="xx20" vr="CS" vm="1" name="Film Format"/>
+    <entry owner="SIEMENS DLR.01" group="0041" element="xx30" vr="LO" vm="1" name="Film Size"/>
+    <entry owner="SIEMENS DLR.01" group="0041" element="xx31" vr="LO" vm="1" name="Full Film Format"/>
+    <entry owner="SIEMENS DFR.01 SERVICE" group="0021" element="xx10" vr="US" vm="1" name="1 Plot"/>
+    <entry owner="SIEMENS DFR.01 SERVICE" group="0021" element="xx11" vr="US" vm="1" name="Width 1 Plot"/>
+    <entry owner="SIEMENS DFR.01 SERVICE" group="0021" element="xx12" vr="US" vm="1" name="2 Plot"/>
+    <entry owner="SIEMENS DFR.01 SERVICE" group="0021" element="xx13" vr="US" vm="1" name="Width 2 Plot"/>
+    <entry owner="SIEMENS DFR.01 SERVICE" group="0021" element="xx20" vr="US" vm="1-5" name="xCoordinate Region of Interest"/>
+    <entry owner="SIEMENS DFR.01 SERVICE" group="0021" element="xx21" vr="US" vm="1-5" name="yCoordinate Region of Interest"/>
+    <entry owner="SIEMENS DFR.01 SERVICE" group="0021" element="xx22" vr="US" vm="1-5" name="Width Region of Interest"/>
+    <entry owner="SIEMENS DFR.01 SERVICE" group="0021" element="xx23" vr="US" vm="1-5" name="Height Region of Interest"/>
+    <entry owner="SIEMENS MEDCOM HEADER" group="0029" element="xx08" vr="CS" vm="1" name="MEDCOM Header Type"/>
+    <entry owner="SIEMENS MEDCOM HEADER" group="0029" element="xx09" vr="LO" vm="1" name="MEDCOM Header Version"/>
+    <entry owner="SIEMENS MEDCOM HEADER" group="0029" element="xx10" vr="OB" vm="1" name="MEDCOM Header Info"/>
+    <entry owner="SIEMENS CT VA0 ORMR" group="0021" element="xx80" vr="DS" vm="1" name="Repetition Time"/>
+    <entry owner="SIEMENS CT VA0 ORMR" group="0021" element="xx81" vr="DS" vm="1" name="Echo Time"/>
+    <entry owner="SIEMENS CT VA0 ORMR" group="0021" element="xx82" vr="DS" vm="1" name="Inversion Time"/>
+    <entry owner="SIEMENS CT VA0 ORMR" group="0021" element="xx83" vr="IS" vm="1" name="Number of Averages"/>
+    <entry owner="SIEMENS CT VA0 ORMR" group="0021" element="xx84" vr="DS" vm="1" name="Imaging Frequency"/>
+    <entry owner="SIEMENS CT VA0 ORMR" group="0021" element="xx85" vr="LO" vm="1" name="Imaged Nucleus"/>
+    <entry owner="SIEMENS CT VA0 ORMR" group="0021" element="xx86" vr="IS" vm="1" name="Echo Number"/>
+    <entry owner="SIEMENS CT VA0 ORMR" group="0021" element="xx90" vr="DS" vm="1" name="Flip Angle"/>
+    <entry owner="SIEMENS ISI" group="0009" element="xx14" vr="SQ" vm="1" name="RIS Patient Info IMGEF"/>
+    <entry owner="SIEMENS ISI" group="0011" element="xx03" vr="LO" vm="1" name="Patient UID"/>
+    <entry owner="SIEMENS ISI" group="0011" element="xx04" vr="LO" vm="1" name="Patient ID"/>
+    <entry owner="SIEMENS ISI" group="0011" element="xx0a" vr="LO" vm="1" name="Case ID"/>
+    <entry owner="SIEMENS ISI" group="0011" element="xx22" vr="LO" vm="1" name="Request ID"/>
+    <entry owner="SIEMENS ISI" group="0011" element="xx23" vr="LO" vm="1" name="Examination UID"/>
+    <entry owner="SIEMENS ISI" group="0011" element="xx41" vr="LO" vm="1" name="Medical Alerts"/>
+    <entry owner="SIEMENS ISI" group="0011" element="xx42" vr="LO" vm="1" name="Contrast Allergy"/>
+    <entry owner="SIEMENS ISI" group="0011" element="xxa1" vr="DA" vm="1" name="Patient Registration Date"/>
+    <entry owner="SIEMENS ISI" group="0011" element="xxa2" vr="TM" vm="1" name="Patient Registration Time"/>
+    <entry owner="SIEMENS ISI" group="0011" element="xxb0" vr="LO" vm="1" name="Patient Last Name"/>
+    <entry owner="SIEMENS ISI" group="0011" element="xxb2" vr="LO" vm="1" name="Patient First Name"/>
+    <entry owner="SIEMENS ISI" group="0011" element="xxb4" vr="CS" vm="1" name="Patient Hospital Status"/>
+    <entry owner="SIEMENS ISI" group="0011" element="xxbc" vr="LO" vm="1" name="Current Location Time"/>
+    <entry owner="SIEMENS ISI" group="0011" element="xxc0" vr="CS" vm="1" name="Patient Insurance Status"/>
+    <entry owner="SIEMENS ISI" group="0011" element="xxd0" vr="LO" vm="1" name="Patient Billing Type"/>
+    <entry owner="SIEMENS ISI" group="0011" element="xxd2" vr="LO" vm="1" name="Patient Billing Address"/>
+    <entry owner="SIEMENS ISI" group="0031" element="xx12" vr="LO" vm="1" name="Examination Reason"/>
+    <entry owner="SIEMENS ISI" group="0031" element="xx30" vr="DA" vm="1" name="Requested Date"/>
+    <entry owner="SIEMENS ISI" group="0031" element="xx32" vr="TM" vm="1" name="Worklist Request Start Time"/>
+    <entry owner="SIEMENS ISI" group="0031" element="xx33" vr="TM" vm="1" name="Worklist Request End Time"/>
+    <entry owner="SIEMENS ISI" group="0031" element="xx4a" vr="TM" vm="1" name="Requested Time"/>
+    <entry owner="SIEMENS ISI" group="0031" element="xx80" vr="LO" vm="1" name="Requested Location"/>
+    <entry owner="SIEMENS ISI" group="0055" element="xx46" vr="PN" vm="1" name="Current Ward"/>
+    <entry owner="SIEMENS ISI" group="0193" element="xx02" vr="LO" vm="1" name="RIS Key"/>
+    <entry owner="SIEMENS ISI" group="0307" element="xx01" vr="SQ" vm="1" name="RIS Worklist IMGEF"/>
+    <entry owner="SIEMENS ISI" group="0309" element="xx01" vr="SQ" vm="1" name="RIS Report IMGEF"/>
+    <entry owner="SIEMENS ISI" group="4009" element="xx01" vr="LO" vm="1" name="Report ID"/>
+    <entry owner="SIEMENS ISI" group="4009" element="xx20" vr="CS" vm="1" name="Report Status"/>
+    <entry owner="SIEMENS ISI" group="4009" element="xx30" vr="DA" vm="1" name="Report Creation Date"/>
+    <entry owner="SIEMENS ISI" group="4009" element="xx70" vr="PN" vm="1" name="Report Approving Physician"/>
+    <entry owner="SIEMENS ISI" group="4009" element="xxe0" vr="LO" vm="1" name="Report Text"/>
+    <entry owner="SIEMENS ISI" group="4009" element="xxe2" vr="PN" vm="1" name="Report Transcriber"/>
+    <entry owner="SIEMENS ISI" group="4009" element="xxe3" vr="PN" vm="1" name="Reporting Radiologist"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0009" element="xx00" vr="IS" vm="1" name="Number of Measurements"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0009" element="xx10" vr="CS" vm="1" name="Storage Mode"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0009" element="xx12" vr="UL" vm="1" name="Evaluation Mask Image"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0009" element="xx26" vr="DA" vm="1" name="Table Zero Date"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0009" element="xx27" vr="TM" vm="1" name="Table Zero Time"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0011" element="xx10" vr="DA" vm="1" name="Registration Date"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0011" element="xx11" vr="TM" vm="1" name="Registration Time"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0011" element="xx23" vr="DS" vm="1" name="Used Patient Weight"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0011" element="xx40" vr="IS" vm="1" name="Organ Code"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0013" element="xx00" vr="PN" vm="1" name="Modifying Physician"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0013" element="xx10" vr="DA" vm="1" name="Modification Date"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0013" element="xx12" vr="TM" vm="1" name="Modification Time"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0013" element="xx20" vr="PN" vm="1" name="Patient Name"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0013" element="xx22" vr="LO" vm="1" name="Patient Id"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0013" element="xx30" vr="DA" vm="1" name="Patient Birthdate"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0013" element="xx31" vr="DS" vm="1" name="Patient Weight"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0013" element="xx32" vr="PN" vm="1" name="Patient Maiden Name"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0013" element="xx33" vr="PN" vm="1" name="Referring Physician"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0013" element="xx34" vr="LO" vm="1" name="Admitting Diagnosis"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0013" element="xx35" vr="CS" vm="1" name="Patient Sex"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0013" element="xx40" vr="LO" vm="1" name="Procedure Description"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0013" element="xx42" vr="CS" vm="1" name="Rest Direction"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0013" element="xx44" vr="CS" vm="1" name="Patient Position"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0013" element="xx46" vr="SH" vm="1" name="View Direction"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0019" element="xx10" vr="IS" vm="1" name="Net Frequency"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0019" element="xx20" vr="CS" vm="1" name="Measurement Mode"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0019" element="xx30" vr="CS" vm="1" name="Calculation Mode"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0019" element="xx50" vr="IS" vm="1" name="Noise Level"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0019" element="xx60" vr="IS" vm="1" name="Number of Data Bytes"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0021" element="xx20" vr="DS" vm="1-n" name="Field of View"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0021" element="xx22" vr="DS" vm="1" name="Image Magnification Factor"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0021" element="xx24" vr="DS" vm="1-n" name="Image Scroll Offset"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0021" element="xx26" vr="IS" vm="1" name="Image Pixel Offset"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0021" element="xx30" vr="CS" vm="1" name="View Direction"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0021" element="xx32" vr="CS" vm="1" name="Rest Direction"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0021" element="xx60" vr="DS" vm="1-n" name="Image Position"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0021" element="xx61" vr="DS" vm="1-n" name="Image Normal"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0021" element="xx63" vr="DS" vm="1" name="Image Distance"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0021" element="xx65" vr="US" vm="1" name="Image Positioning History Mask"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0021" element="xx6a" vr="DS" vm="1-n" name="Image Row"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0021" element="xx6b" vr="DS" vm="1-n" name="Image Column"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0021" element="xx70" vr="CS" vm="1-n" name="Patient Orientation Set 1"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0021" element="xx71" vr="CS" vm="1-n" name="Patient Orientation Set 2"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0021" element="xx80" vr="LO" vm="1" name="Study Name"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0021" element="xx82" vr="SH" vm="1" name="Study Type"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0029" element="xx10" vr="CS" vm="1" name="Window Style"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0029" element="xx11" vr="CS" vm="1" name="Window Look"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0029" element="xx12" vr="UL" vm="1" name="Window Table Index"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0029" element="xx13" vr="CS" vm="1" name="Window Scale"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0029" element="xx20" vr="CS" vm="1-n" name="Pixel Quality Code"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0029" element="xx22" vr="IS" vm="1-n" name="Pixel Quality Value"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0029" element="xx50" vr="CS" vm="1" name="Archive Code"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0029" element="xx51" vr="CS" vm="1" name="Exposure Code"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0029" element="xx52" vr="IS" vm="1" name="Sort Code"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0029" element="xx53" vr="CS" vm="1" name="Remote Copy Code"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0029" element="xx60" vr="IS" vm="1" name="Splash"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="0051" element="xx10" vr="LO" vm="1-n" name="Image Text"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="6021" element="xx00" vr="CS" vm="1" name="Image Graphics Format Code"/>
+    <entry owner="SIEMENS CM VA0  CMS" group="6021" element="xx10" vr="OB" vm="1" name="Image Graphics"/>
+    <entry owner="SIEMENS DFR.01" group="0021" element="xx10" vr="US" vm="1" name="Graphic Evaluation Mask"/>
+    <entry owner="SIEMENS DFR.01" group="0021" element="xx11" vr="US" vm="1" name="Type 1st Graphic Element"/>
+    <entry owner="SIEMENS DFR.01" group="0021" element="xx12" vr="LO" vm="1" name="Description 1st Graphic Element"/>
+    <entry owner="SIEMENS DFR.01" group="0021" element="xx13" vr="US" vm="1" name="Type 2nd Graphic Element"/>
+    <entry owner="SIEMENS DFR.01" group="0021" element="xx14" vr="LO" vm="1" name="Description 2nd Graphic Element"/>
+    <entry owner="SIEMENS DFR.01" group="0021" element="xx15" vr="US" vm="1" name="Type 3rd Graphic Element"/>
+    <entry owner="SIEMENS DFR.01" group="0021" element="xx16" vr="LO" vm="1" name="Description 3rd Graphic Element"/>
+    <entry owner="SIEMENS DFR.01" group="0021" element="xx17" vr="US" vm="1" name="Type 4th Graphic Element"/>
+    <entry owner="SIEMENS DFR.01" group="0021" element="xx18" vr="LO" vm="1" name="Description 4th Graphic Element"/>
+    <entry owner="SIEMENS DFR.01" group="0021" element="xx19" vr="US" vm="1" name="Type 5th Graphic Element"/>
+    <entry owner="SIEMENS DFR.01" group="0021" element="xx20" vr="LO" vm="1" name="Description 5th Graphic Element"/>
+    <entry owner="SIEMENS DFR.01" group="0021" element="xx21" vr="US" vm="1" name="Type 6th Graphic Element"/>
+    <entry owner="SIEMENS DFR.01" group="0021" element="xx22" vr="LO" vm="1" name="Description 6th Graphic Element"/>
+    <entry owner="SIEMENS DFR.01" group="0021" element="xx23" vr="US" vm="1" name="Type 7th Graphic Element"/>
+    <entry owner="SIEMENS DFR.01" group="0021" element="xx24" vr="LO" vm="1" name="Description 7th Graphic Element"/>
+    <entry owner="SIEMENS DFR.01" group="0021" element="xx25" vr="US" vm="1" name="Type 8th Graphic Element"/>
+    <entry owner="SIEMENS DFR.01" group="0021" element="xx26" vr="LO" vm="1" name="Description 8th Graphic Element"/>
+    <entry owner="SIEMENS DFR.01" group="0021" element="xx27" vr="US" vm="1" name="Type 9th Graphic Element"/>
+    <entry owner="SIEMENS DFR.01" group="0021" element="xx28" vr="LO" vm="1" name="Description 9th Graphic Element"/>
+    <entry owner="SIEMENS DFR.01" group="0021" element="xx29" vr="US" vm="1" name="Type 10th Graphic Element"/>
+    <entry owner="SIEMENS DFR.01" group="0021" element="xx30" vr="LO" vm="1" name="Description 10th Graphic Element"/>
+    <entry owner="SHS MagicView 300" group="0029" element="xx01" vr="FD" vm="1-n" name="Zoom Factor"/>
+    <entry owner="SHS MagicView 300" group="0029" element="xx02" vr="FD" vm="1" name="Pan Factor X"/>
+    <entry owner="SHS MagicView 300" group="0029" element="xx03" vr="FD" vm="1" name="Pan Factor Y"/>
+    <entry owner="SHS MagicView 300" group="0029" element="xx04" vr="LO" vm="1" name="NmPalette"/>
+    <entry owner="SIEMENS CT VA0  ORI" group="0009" element="xx20" vr="LO" vm="1" name="Original Data Set Owner"/>
+    <entry owner="SIEMENS CT VA0  ORI" group="0009" element="xx30" vr="SH" vm="1" name="Original Modality"/>
+    <entry owner="SIEMENS CSA HEADER" group="0029" element="xx08" vr="CS" vm="1" name="CSA Header Type"/>
+    <entry owner="SIEMENS CSA HEADER" group="0029" element="xx09" vr="LO" vm="1" name="CSA Header Version"/>
+    <entry owner="SIEMENS CSA HEADER" group="0029" element="xx10" vr="OB" vm="1" name="CSA Header Info"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx10" vr="IS" vm="1" name="Distance Source to SourceSide Collimator"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx11" vr="IS" vm="1" name="Distance Source to DetectorSide Collimator"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx20" vr="IS" vm="1" name="Number of Possible Channels"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx21" vr="IS" vm="1" name="Mean Channel Number"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx22" vr="DS" vm="1" name="Detector Spacing"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx23" vr="DS" vm="1" name="Detector Center"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx24" vr="DS" vm="1" name="Reading Integration Time"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx50" vr="DS" vm="1" name="Detector Alignment"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx52" vr="DS" vm="1" name="Table Feed"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx54" vr="DS" vm="1" name="Rotation Time"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx60" vr="DS" vm="1" name="Focus Alignment"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx65" vr="UL" vm="1" name="Focal Spot Deflection Amplitude"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx66" vr="UL" vm="1" name="Focal Spot Deflection Phase"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx67" vr="UL" vm="1" name="Focal Spot Deflection Offset"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx70" vr="DS" vm="1" name="Water Scaling Factor"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx71" vr="DS" vm="1" name="Interpolation Factor"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx80" vr="CS" vm="1" name="Patient Region"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx82" vr="CS" vm="1" name="Patient Phase of Life"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx90" vr="DS" vm="1" name="Osteo Offset"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx92" vr="DS" vm="1" name="Osteo Regression Line Slope"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx93" vr="DS" vm="1" name="Osteo Regression Line Intercept"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx94" vr="IS" vm="1" name="Osteo Standardization Code"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xx96" vr="IS" vm="1" name="Osteo Phantom Number"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xxa0" vr="DS" vm="1" name="Spiral Location Begin"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xxa1" vr="DS" vm="1" name="Spiral Location End"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xxa2" vr="CS" vm="1" name="Spiral z Profile"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xxa3" vr="CS" vm="1" name="Spiral Reconstruction Direction"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xxa4" vr="DS" vm="1" name="Spiral Reconstruction Increment"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xxa5" vr="DS" vm="1" name="Scan Tilt Plane Distance"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xxa6" vr="UL" vm="1-n" name="Mode Processing Step Mask"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xxa7" vr="UL" vm="1" name="Mode Processing Control Mask"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xxa8" vr="UL" vm="1-n" name="Mode Master Mask"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xxa9" vr="IS" vm="1" name="Mode Store Step"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xxaa" vr="CS" vm="1" name="Focus Size Type"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xxab" vr="IS" vm="1" name="Mode Adaptive Filter Kind"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xxac" vr="IS" vm="1" name="Mode MBH Kind"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xxad" vr="IS" vm="1" name="Mode Balancing Kind"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xxae" vr="IS" vm="1" name="Number of Readings per Rotation"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xxaf" vr="DS" vm="1" name="Correction Table Reference Time"/>
+    <entry owner="SIEMENS CT VA0  COAD" group="0019" element="xxb0" vr="DS" vm="1" name="Feed per Rotation"/>
+    <entry owner="SIEMENS CM VA0  ACQU" group="0019" element="xx10" vr="LO" vm="1" name="Parameter File Name"/>
+    <entry owner="SIEMENS CM VA0  ACQU" group="0019" element="xx11" vr="LO" vm="1" name="Sequence File Name"/>
+    <entry owner="SIEMENS CM VA0  ACQU" group="0019" element="xx12" vr="LO" vm="1" name="Sequence File Owner"/>
+    <entry owner="SIEMENS CM VA0  ACQU" group="0019" element="xx13" vr="LO" vm="1" name="Sequence Description"/>
+    <entry owner="SIEMENS CM VA0  ACQU" group="0019" element="xx14" vr="LO" vm="1" name="EPI File Name"/>
+    <entry owner="SIEMENS CM VA0  ACQU" group="0019" element="xx20" vr="LO" vm="1" name="Mode File Name"/>
+    <entry owner="SIEMENS CM VA0  ACQU" group="0019" element="xx30" vr="LO" vm="1" name="Convolution Kernel Comment 1"/>
+    <entry owner="SIEMENS CM VA0  ACQU" group="0019" element="xx31" vr="LO" vm="1" name="Convolution Kernel Comment 2"/>
+    <entry owner="SIEMENS CM VA0  ACQU" group="0019" element="xx32" vr="LO" vm="1" name="Convolution Kernel Comment 3"/>
+    <entry owner="SIEMENS CM VA0  ACQU" group="0019" element="xx33" vr="LO" vm="1" name="Convolution Kernel Comment 4"/>
+    <entry owner="SIEMENS CM VA0  ACQU" group="0019" element="xx34" vr="LO" vm="1" name="Convolution Kernel Comment 5"/>
+    <entry owner="SIEMENS CM VA0  ACQU" group="0019" element="xx35" vr="LO" vm="1" name="Convolution Kernel Comment 6"/>
+    <entry owner="SIEMENS CM VA0  ACQU" group="0019" element="xx36" vr="LO" vm="1" name="Convolution Kernel Comment 7"/>
+    <entry owner="SIEMENS CM VA0  ACQU" group="0019" element="xx37" vr="LO" vm="1" name="Convolution Kernel Comment 8"/>
+    <entry owner="SIEMENS CM VA0  ACQU" group="0019" element="xx38" vr="LO" vm="1" name="Convolution Kernel Comment 9"/>
+    <entry owner="SIEMENS CM VA0  ACQU" group="0019" element="xx39" vr="LO" vm="1" name="Convolution Kernel Comment 10"/>
+    <entry owner="SIEMENS CM VA0  ACQU" group="0019" element="xx3a" vr="LO" vm="1" name="Reading Code RZ1 Comment 1"/>
+    <entry owner="SIEMENS CM VA0  ACQU" group="0019" element="xx3b" vr="LO" vm="1" name="Reading Code RZ1 Comment 2"/>
+    <entry owner="SIEMENS CM VA0  ACQU" group="0019" element="xx3c" vr="LO" vm="1" name="Reading Code RZ2 Comment 1"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx10" vr="DS" vm="1" name="Total Measurement Time nominal"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx11" vr="DS" vm="1" name="Total Measurement Time current"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx12" vr="DS" vm="1" name="Start Delay Time"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx13" vr="DS" vm="1" name="Dwell Time"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx14" vr="IS" vm="1" name="Number of Phases"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx16" vr="UL" vm="1-n" name="Sequence Control Mask"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx18" vr="UL" vm="1" name="Measurement Status Mask"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx20" vr="IS" vm="1" name="Number of Fourier Lines nominal"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx21" vr="IS" vm="1" name="Number of Fourier Lines current"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx26" vr="IS" vm="1" name="Number of Fourier Lines after Zero"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx28" vr="IS" vm="1" name="First Measured Fourier Line"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx30" vr="IS" vm="1" name="Acquisition Columns"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx31" vr="IS" vm="1" name="Reconstruction Columns"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx40" vr="IS" vm="1" name="AC Element Number"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx41" vr="UL" vm="1" name="AC Element Select Mask"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx42" vr="UL" vm="1" name="AC Element Data Mask"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx43" vr="IS" vm="1-n" name="AC Element To ADC Connect"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx44" vr="IS" vm="1-n" name="AC Element Noise Level"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx45" vr="IS" vm="1" name="AC ADC Pair Number"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx46" vr="UL" vm="1" name="AC Combination Mask"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx50" vr="IS" vm="1" name="Number of Averages current"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx60" vr="DS" vm="1" name="Flip Angle"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx70" vr="IS" vm="1" name="Number of Prescans"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx81" vr="CS" vm="1" name="Filter Type for Raw Data"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx82" vr="DS" vm="1-4" name="Filter Parameter for Raw Data"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx83" vr="CS" vm="1" name="Filter Type for Image Data"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx84" vr="DS" vm="1-4" name="Filter Parameter for Image Data"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx85" vr="CS" vm="1" name="Filter Type for Phase Correction"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx86" vr="DS" vm="1-4" name="Filter Parameter for Phase Correction"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx87" vr="CS" vm="1" name="Normalization Filter Type for Image Data"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx88" vr="DS" vm="1-4" name="Normalization Filter Parameter for Image Data"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx90" vr="IS" vm="1" name="Number of Saturation Regions"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx91" vr="DS" vm="1-5" name="Saturation Phase Encoding Vector Sagittal Compo..."/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx92" vr="DS" vm="1-5" name="Saturation Readout Vector Sagittal Component"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx94" vr="DS" vm="1" name="Image Rotation Angle"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx96" vr="UL" vm="1-n" name="Coil ID Mask"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx97" vr="UL" vm="1-n" name="Coil Class Mask"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx98" vr="DS" vm="1-n" name="Coil Position"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xxa0" vr="DS" vm="1" name="EPI Reconstruction Phase"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xxa1" vr="DS" vm="1" name="EPI Reconstruction Slope"/>
+    <entry owner="SIEMENS CSA NON-IMAGE" group="0029" element="xx08" vr="CS" vm="1" name="CSA Data Type"/>
+    <entry owner="SIEMENS CSA NON-IMAGE" group="0029" element="xx09" vr="LO" vm="1" name="CSA Data Version"/>
+    <entry owner="SIEMENS CSA NON-IMAGE" group="0029" element="xx10" vr="OB" vm="1" name="CSA Data Info"/>
+    <entry owner="SIEMENS MEDCOM OOG" group="0029" element="xx08" vr="CS" vm="1" name="MEDCOM OOG Type"/>
+    <entry owner="SIEMENS MEDCOM OOG" group="0029" element="xx09" vr="LO" vm="1" name="MEDCOM OOG Version"/>
+    <entry owner="SIEMENS MEDCOM OOG" group="0029" element="xx10" vr="OB" vm="1" name="MEDCOM OOG Info"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx20" vr="UL" vm="1" name="System Calibration Factor Plane A"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx22" vr="US" vm="1" name="XRay Parameter Set Number"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx24" vr="US" vm="1" name="XRay System"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx28" vr="US" vm="1" name="Acquired Display Mode"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx2c" vr="US" vm="1" name="Acquisition Framerate"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx2e" vr="US" vm="1" name="Maximum Frame Limit"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx30" vr="US" vm="1" name="Native Filter Type"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx32" vr="US" vm="1" name="Subtracted Filter Type"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx34" vr="US" vm="1" name="Filter Factor Native"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx36" vr="US" vm="1" name="Anatomic Blackground Factor"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx38" vr="US" vm="1" name="Window Upper Limit Native"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx3a" vr="US" vm="1" name="Window Lower Limit Native"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx3c" vr="US" vm="1" name="Window Brightness Phase 1 Sub"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx3e" vr="US" vm="1" name="Window Brightness Phase 2 Sub"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx40" vr="US" vm="1" name="Window Contrast Phase 1 Sub"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx42" vr="US" vm="1" name="Window Contrast Phase 2 Sub"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx44" vr="US" vm="1" name="Filter Factor Subtraction"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx46" vr="US" vm="1" name="Peak Opacified"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx48" vr="UL" vm="1" name="Mask Frame"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx4a" vr="UL" vm="1" name="BIH Frame"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx4c" vr="US" vm="1" name="Center Beam Angulation CaudCran"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx4e" vr="US" vm="1" name="Center Beam Angulation LR Anterior"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx50" vr="US" vm="1" name="Longitudinal Position"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx52" vr="US" vm="1" name="Side Offset"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx54" vr="US" vm="1" name="Isocenter Height"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx56" vr="US" vm="1" name="Image Twist"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx58" vr="US" vm="1" name="SourceImage Distance"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx5a" vr="US" vm="1" name="Mechanical Magnet Factor"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx5c" vr="UL" vm="1" name="Calibration Flag"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx5e" vr="UL" vm="1" name="Calibration Angle CranCaud"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx60" vr="UL" vm="1" name="Calibration Angle RAOLAO"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx62" vr="UL" vm="1" name="Calibration Table to Floor Distance"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx64" vr="UL" vm="1" name="Calibration Isocenter to Floor Distance"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx66" vr="UL" vm="1" name="Calibration Isocenter to Source Distance"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx68" vr="UL" vm="1" name="Calibration Source to II Distance"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx6a" vr="UL" vm="1" name="Calibration II Zoom"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx6c" vr="UL" vm="1" name="Calibration II Field"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx6e" vr="UL" vm="1" name="Calibration Factor"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx70" vr="UL" vm="1" name="Calibration Object to Image Distance"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx72" vr="UL" vm="1-n" name="Calibration System Factor"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx74" vr="UL" vm="1-n" name="Calibration System Correction"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx76" vr="UL" vm="1-n" name="Calibration System II Formats"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx78" vr="UL" vm="1" name="Calibration Gantry Data Valid"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx7a" vr="US" vm="1" name="Collimator Square Breadth"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx7c" vr="US" vm="1" name="Collimator Square Height"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx7e" vr="US" vm="1" name="Collimator Square Diameter"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx80" vr="US" vm="1" name="Collimator Finger Turn Angle"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx82" vr="US" vm="1" name="Collimator Finger Position"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx84" vr="US" vm="1" name="Collimator Diaphragm Turn Angle"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx86" vr="US" vm="1" name="Collimator Diagphragm Position 1"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx88" vr="US" vm="1" name="Collimator Diaphragm Position 2"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx8a" vr="US" vm="1" name="Collimator Diaphragm Mode"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx8c" vr="US" vm="1" name="Collimator Beam Limit Breadth"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx8e" vr="US" vm="1" name="Collimator Beam Limit Height"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx90" vr="US" vm="1" name="Collimator Beam Limit Diameter"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx92" vr="US" vm="1" name="XRay Control Mode"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx94" vr="US" vm="1" name="XRay System"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx96" vr="US" vm="1" name="Focal Spot"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx98" vr="US" vm="1" name="Exposure Control"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx9a" vr="US" vm="1" name="XRay Voltage"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx9c" vr="US" vm="1" name="XRay Current"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xx9e" vr="UL" vm="1" name="XRay Current Time Product"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xxa0" vr="US" vm="1" name="Pulse Time"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xxa2" vr="US" vm="1" name="Scene Time Fluoro Clock"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xxa4" vr="US" vm="1" name="Maximum PulseRate"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xxa6" vr="US" vm="1" name="Pulses per Scene"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xxa8" vr="UL" vm="1" name="Dose Area Product of Scene"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xxaa" vr="US" vm="1" name="Dose"/>
+    <entry owner="SIEMENS RA PLANE A" group="0019" element="xxac" vr="US" vm="1" name="Dose Rate"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx20" vr="UL" vm="1" name="System Calibration Factor Plane B"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx22" vr="US" vm="1" name="XRay Parameter Set Number"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx24" vr="US" vm="1" name="XRay System"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx28" vr="US" vm="1" name="Acquired Display Mode"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx2c" vr="US" vm="1" name="Acquisition Framerate"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx2e" vr="US" vm="1" name="Maximum Frame Limit"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx30" vr="US" vm="1" name="Native Filter Type"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx32" vr="US" vm="1" name="Subtracted Filter Type"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx34" vr="US" vm="1" name="Filter Factor Native"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx36" vr="US" vm="1" name="Anatomic Blackground Factor"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx38" vr="US" vm="1" name="Window Upper Limit Native"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx3a" vr="US" vm="1" name="Window Lower Limit Native"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx3c" vr="US" vm="1" name="Window Brightness Phase 1 Sub"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx3e" vr="US" vm="1" name="Window Brightness Phase 2 Sub"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx40" vr="US" vm="1" name="Window Contrast Phase 1 Sub"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx42" vr="US" vm="1" name="Window Contrast Phase 2 Sub"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx44" vr="US" vm="1" name="Filter Factor Subtraction"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx46" vr="US" vm="1" name="Peak Opacified"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx48" vr="UL" vm="1" name="Mask Frame"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx4a" vr="UL" vm="1" name="BIH Frame"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx4c" vr="US" vm="1" name="Center Beam Angulation CaudCran"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx4e" vr="US" vm="1" name="Center Beam Angulation LR Anterior"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx50" vr="US" vm="1" name="Longitudinal Position"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx52" vr="US" vm="1" name="Side Offset"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx54" vr="US" vm="1" name="Isocenter Height"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx56" vr="US" vm="1" name="Image Twist"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx58" vr="US" vm="1" name="SourceImage Distance"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx5a" vr="US" vm="1" name="Mechanical Magnet Factor"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx5c" vr="UL" vm="1" name="Calibration Flag"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx5e" vr="UL" vm="1" name="Calibration Angle CranCaud"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx60" vr="UL" vm="1" name="Calibration Angle RAOLAO"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx62" vr="UL" vm="1" name="Calibration Table to Floor Distance"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx64" vr="UL" vm="1" name="Calibration Isocenter to Floor Distance"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx66" vr="UL" vm="1" name="Calibration Isocenter to Source Distance"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx68" vr="UL" vm="1" name="Calibration Source to II Distance"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx6a" vr="UL" vm="1" name="Calibration II Zoom"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx6c" vr="UL" vm="1" name="Calibration II Field"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx6e" vr="UL" vm="1" name="Calibration Factor"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx70" vr="UL" vm="1" name="Calibration Object to Image Distance"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx72" vr="UL" vm="1-n" name="Calibration System Factor"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx74" vr="UL" vm="1-n" name="Calibration System Correction"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx76" vr="UL" vm="1-n" name="Calibration System II Formats"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx78" vr="UL" vm="1" name="Calibration Gantry Data Valid"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx7a" vr="US" vm="1" name="Collimator Square Breadth"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx7c" vr="US" vm="1" name="Collimator Square Height"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx7e" vr="US" vm="1" name="Collimator Square Diameter"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx80" vr="US" vm="1" name="Collimator Finger Turn Angle"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx82" vr="US" vm="1" name="Collimator Finger Position"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx84" vr="US" vm="1" name="Collimator Diaphragm Turn Angle"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx86" vr="US" vm="1" name="Collimator Diagphragm Position 1"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx88" vr="US" vm="1" name="Collimator Diaphragm Position 2"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx8a" vr="US" vm="1" name="Collimator Diaphragm Mode"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx8c" vr="US" vm="1" name="Collimator Beam Limit Breadth"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx8e" vr="US" vm="1" name="Collimator Beam Limit Height"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx90" vr="US" vm="1" name="Collimator Beam Limit Diameter"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx92" vr="US" vm="1" name="XRay Control Mode"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx94" vr="US" vm="1" name="XRay System"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx96" vr="US" vm="1" name="Focal Spot"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx98" vr="US" vm="1" name="Exposure Control"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx9a" vr="US" vm="1" name="XRay Voltage"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx9c" vr="US" vm="1" name="XRay Current"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xx9e" vr="UL" vm="1" name="XRay Current Time Product"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xxa0" vr="US" vm="1" name="Pulse Time"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xxa2" vr="US" vm="1" name="Scene Time Fluoro Clock"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xxa4" vr="US" vm="1" name="Maximum PulseRate"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xxa6" vr="US" vm="1" name="Pulses per Scene"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xxa8" vr="UL" vm="1" name="Dose Area Product of Scene"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xxaa" vr="US" vm="1" name="Dose"/>
+    <entry owner="SIEMENS RA PLANE B" group="0019" element="xxac" vr="US" vm="1" name="Dose Rate"/>
     <entry owner="SCHICK TECHNOLOGIES - Viewset Creator ID" group="0009" element="xx01" vr="UI" vm="1" name="Instance UID"/>
     <entry owner="SCHICK TECHNOLOGIES - Viewset Creator ID" group="0009" element="xx02" vr="LO" vm="1" name="Name"/>
     <entry owner="SCHICK TECHNOLOGIES - Viewset Creator ID" group="0009" element="xx03" vr="SQ" vm="1" name="Sequence"/>
