@@ -12,6 +12,11 @@
      PURPOSE.  See the above copyright notice for more information.
 -->
 <dict>
+  <entry owner="1.2.840.113708.794.1.1.2.0" group="0087" element="xx01" vr="CS" vm="1" name="Media Type"/>
+  <entry owner="1.2.840.113708.794.1.1.2.0" group="0087" element="xx02" vr="CS" vm="1" name="Media Location"/>
+  <entry owner="1.2.840.113708.794.1.1.2.0" group="0087" element="xx03" vr="ST" vm="1" name="Storage File ID"/>
+  <entry owner="1.2.840.113708.794.1.1.2.0" group="0087" element="xx04" vr="DS" vm="1" name="Study or Image Size in MB"/>
+  <entry owner="1.2.840.113708.794.1.1.2.0" group="0087" element="xx05" vr="IS" vm="1" name="Estimated Retrieve Time"/>
   <entry owner="AGFA" group="0019" element="xx00" vr="SH" vm="1" name="Private Identification Code"/>
   <entry owner="AGFA" group="0019" element="xx10" vr="ST" vm="1" name="Image Processing Parameters"/>
   <entry owner="AGFA" group="0019" element="xx11" vr="UN" vm="1" name="Identification data (Note 2)"/>
@@ -42,6 +47,113 @@
   <entry owner="AGFA_ADC_Compact" group="0019" element="xx73" vr="US" vm="1" name="ScanRes flag;"/>
   <entry owner="AGFA_ADC_Compact" group="0019" element="xx74" vr="SH" vm="1" name="Operation code"/>
   <entry owner="AGFA_ADC_Compact" group="0019" element="xx95" vr="CS" vm="1" name="Image quality"/>
+  <entry owner="AMI Annotations_01" group="3101" element="xx11" vr="SQ" vm="1" name="AMI Annotation Sequence"/>
+  <entry owner="AMI Annotations_02" group="3101" element="xx02" vr="SQ" vm="1" name="AMI Annotation Sequence"/>
+  <entry owner="AMI ImageContextExt_01" group="3107" element="xx1a" vr="CS" vm="1" name="AMI Window Function"/>
+  <entry owner="AMI ImageContextExt_01" group="3107" element="xx1b" vr="DS" vm="1" name="AMI Window Slope"/>
+  <entry owner="AMI ImageContext_01" group="3109" element="xx11" vr="CS" vm="1" name="AMI Window Invert"/>
+  <entry owner="AMI ImageContext_01" group="3109" element="xx12" vr="IS" vm="1" name="AMI Window Center"/>
+  <entry owner="AMI ImageContext_01" group="3109" element="xx13" vr="IS" vm="1" name="AMI Window Widith"/>
+  <entry owner="AMI ImageContext_01" group="3109" element="xx14" vr="CS" vm="1" name="AMI Pixel Aspect Ratio Swap"/>
+  <entry owner="AMI ImageContext_01" group="3109" element="xx15" vr="CS" vm="1" name="AMI Enable Averaging"/>
+  <entry owner="AMI ImageContext_01" group="3109" element="xx16" vr="CS" vm="1" name="AMI Quality"/>
+  <entry owner="AMI ImageContext_01" group="3109" element="xx17" vr="CS" vm="1" name="AMI Viewport Annotation Level"/>
+  <entry owner="AMI ImageContext_01" group="3109" element="xx18" vr="CS" vm="1" name="AMI Show Image Annotation"/>
+  <entry owner="AMI ImageContext_01" group="3109" element="xx19" vr="CS" vm="1" name="AMI Show Image Overlay"/>
+  <entry owner="AMI ImageTransform_01" group="3107" element="xx01" vr="DS" vm="1" name="AMI Transformation Matrix"/>
+  <entry owner="AMI ImageTransform_01" group="3107" element="xx02" vr="DS" vm="1" name="AMI Center Offset"/>
+  <entry owner="AMI ImageTransform_01" group="3107" element="xx03" vr="DS" vm="1" name="AMI Magnification"/>
+  <entry owner="AMI ImageTransform_01" group="3107" element="xx04" vr="CS" vm="1" name="AMI Magnification Type"/>
+  <entry owner="AMI ImageTransform_01" group="3107" element="xx05" vr="DS" vm="1" name="AMI Displayed Area"/>
+  <entry owner="AMI ImageTransform_01" group="3107" element="xx06" vr="DS" vm="1" name="AMI Calibration Factor"/>
+  <entry owner="AMI Sequence AnnotElements_01" group="3105" element="xx01" vr="DS" vm="1" name="AMI Annotation Element Position"/>
+  <entry owner="AMI Sequence AnnotElements_01" group="3105" element="xx02" vr="LT" vm="1" name="AMI Annotation Element Text"/>
+  <entry owner="AMI Sequence Annotations_01" group="3103" element="xx11" vr="CS" vm="1" name="AMI Annotation Sequence"/>
+  <entry owner="AMI Sequence Annotations_01" group="3103" element="xx12" vr="UI" vm="1" name="AMI Annotation UID"/>
+  <entry owner="AMI Sequence Annotations_01" group="3103" element="xx13" vr="US" vm="1" name="AMI Annotation Color"/>
+  <entry owner="AMI Sequence Annotations_01" group="3103" element="xx15" vr="CS" vm="1" name="AMI Annotation Line Style"/>
+  <entry owner="AMI Sequence Annotations_01" group="3103" element="xx16" vr="SQ" vm="1" name="AMI Annotation Elements"/>
+  <entry owner="AMI Sequence Annotations_01" group="3103" element="xx17" vr="SH" vm="1" name="AMI Annotation Label"/>
+  <entry owner="AMI Sequence Annotations_01" group="3103" element="xx18" vr="PN" vm="1" name="AMI Annotation Creator"/>
+  <entry owner="AMI Sequence Annotations_01" group="3103" element="xx19" vr="PN" vm="1" name="AMI Annotation Modifiers"/>
+  <entry owner="AMI Sequence Annotations_01" group="3103" element="xx1a" vr="DA" vm="1" name="AMI Annotation Creation Date"/>
+  <entry owner="AMI Sequence Annotations_01" group="3103" element="xx1b" vr="TM" vm="1" name="AMI Annotation Creation Time"/>
+  <entry owner="AMI Sequence Annotations_01" group="3103" element="xx1c" vr="DA" vm="1" name="AMI Annotation Modification Dates"/>
+  <entry owner="AMI Sequence Annotations_01" group="3103" element="xx1d" vr="TM" vm="1" name="AMI Annotation Mofification Times"/>
+  <entry owner="AMI Sequence Annotations_01" group="3103" element="xx1e" vr="US" vm="1" name="AMI Annotation Frame Number"/>
+  <entry owner="AMI Sequence Annotations_02" group="3103" element="xx01" vr="CS" vm="1" name="AMI Annotation Sequence"/>
+  <entry owner="AMI Sequence Annotations_02" group="3103" element="xx02" vr="UI" vm="1" name="AMI Annotation UID"/>
+  <entry owner="AMI Sequence Annotations_02" group="3103" element="xx03" vr="US" vm="1" name="AMI Annotation Color"/>
+  <entry owner="AMI Sequence Annotations_02" group="3103" element="xx05" vr="CS" vm="1" name="AMI Annotation Line Style"/>
+  <entry owner="AMI Sequence Annotations_02" group="3103" element="xx06" vr="SQ" vm="1" name="AMI Annotation Elements"/>
+  <entry owner="AMI Sequence Annotations_02" group="3103" element="xx07" vr="SH" vm="1" name="AMI Annotation Label"/>
+  <entry owner="AMI Sequence Annotations_02" group="3103" element="xx08" vr="PN" vm="1" name="AMI Annotation Creator"/>
+  <entry owner="AMI Sequence Annotations_02" group="3103" element="xx09" vr="PN" vm="1" name="AMI Annotation Modifiers"/>
+  <entry owner="AMI Sequence Annotations_02" group="3103" element="xx0a" vr="DA" vm="1" name="AMI Annotation Creation Date"/>
+  <entry owner="AMI Sequence Annotations_02" group="3103" element="xx0b" vr="TM" vm="1" name="AMI Annotation Creation Time"/>
+  <entry owner="AMI Sequence Annotations_02" group="3103" element="xx0c" vr="DA" vm="1" name="AMI Annotation Modification Dates"/>
+  <entry owner="AMI Sequence Annotations_02" group="3103" element="xx0d" vr="TM" vm="1" name="AMI Annotation Modification Times"/>
+  <entry owner="AMI Sequence Annotations_02" group="3103" element="xx0e" vr="US" vm="1" name="AMI Annotation Frame Number"/>
+  <entry owner="AMI StudyExtensions_01" group="3111" element="xx00" vr="UL" vm="1" name="AMI Last Released Annot Label"/>
+  <entry owner="Applicare/Centricity Radiology Web/Version 1.0" group="4109" element="xx00" vr="SH" vm="1" name="Mammography Laterality"/>
+  <entry owner="Applicare/Centricity Radiology Web/Version 2.0" group="4111" element="xx00" vr="CS" vm="1" name="Secondary Spine Label"/>
+  <entry owner="Applicare/Print/Version 5.1" group="4101" element="xx00" vr="UL" vm="1" name="&lt;internal"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx01" vr="SL" vm="1" name="OBSOLETE"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx02" vr="SL" vm="1" name="Id1"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx03" vr="SL" vm="1" name="Id2"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx04" vr="SL" vm="1" name="Id3"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx11" vr="LO" vm="1" name="OBSOLETE"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx12" vr="CS" vm="1" name="State"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx13" vr="DT" vm="1" name="DateLastModified"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx14" vr="DT" vm="1" name="DateLastAccessed"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx15" vr="CS" vm="1" name="OBSOLETE"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx16" vr="FD" vm="1" name="ByteSize"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx17" vr="LO" vm="1" name="LibraryId"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx18" vr="LO" vm="1" name="Pathnames"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx19" vr="LO" vm="1" name="DriverPath"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx1a" vr="LO" vm="1" name="Source"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx1b" vr="LO" vm="1" name="Destination"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx1c" vr="SL" vm="1" name="MediumId"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx1d" vr="LO" vm="1" name="ArchiveId"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx1e" vr="LO" vm="1" name="Origin"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx21" vr="SL" vm="1" name="Version"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx22" vr="SL" vm="1" name="OBSOLETE"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx23" vr="ST" vm="1" name="InstanceFileLocation"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx31" vr="IS" vm="1" name="OBSOLETE"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx32" vr="IS" vm="1" name="OBSOLETE"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx33" vr="IS" vm="1" name="OBSOLETE"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx35" vr="LO" vm="1" name="ImageMediumLocation"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx36" vr="LO" vm="1" name="ImageMediumLabel"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx37" vr="CS" vm="1" name="ImageMediumState"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx38" vr="LO" vm="1" name="SeriesMediumLocation"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx39" vr="LO" vm="1" name="SeriesMediumLabel"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx3a" vr="CS" vm="1" name="SeriesMediumState"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx3b" vr="LO" vm="1" name="StudyMediumLocation"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx3c" vr="LO" vm="1" name="StudyMediumLabel"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx3d" vr="CS" vm="1" name="StudyMediumState"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx52" vr="CS" vm="1" name="StudyState"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx53" vr="CS" vm="1" name="SeriesState"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx55" vr="CS" vm="1" name="ImageStateText"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx56" vr="CS" vm="1" name="SeriesStateText"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx57" vr="CS" vm="1" name="StudyStateText"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx60" vr="DT" vm="1" name="Expiration"/>
+  <entry owner="Applicare/RadStore/Version 1.0" group="3113" element="xx69" vr="AT" vm="1" name="DeletedTags"/>
+  <entry owner="Applicare/RadWorks/Version 5.0" group="3109" element="xx00" vr="ST" vm="1" name="&lt;internal"/>
+  <entry owner="Applicare/RadWorks/Version 5.0" group="3109" element="xx01" vr="CS" vm="1" name="&lt;internal"/>
+  <entry owner="Applicare/RadWorks/Version 5.0" group="3109" element="xx02" vr="UI" vm="1" name="&lt;internal"/>
+  <entry owner="Applicare/RadWorks/Version 5.0" group="3109" element="xx03" vr="LO" vm="1" name="&lt;internal"/>
+  <entry owner="Applicare/RadWorks/Version 5.0" group="3109" element="xx04" vr="IS" vm="1" name="&lt;internal"/>
+  <entry owner="Applicare/RadWorks/Version 5.0" group="3109" element="xx0e" vr="UI" vm="1" name="&lt;internal"/>
+  <entry owner="Applicare/RadWorks/Version 6.0" group="4103" element="xx00" vr="AT" vm="1" name="Internal: non-existent tags"/>
+  <entry owner="Applicare/RadWorks/Version 6.0" group="4105" element="xx00" vr="CS" vm="1" name="Annotation Type"/>
+  <entry owner="Applicare/RadWorks/Version 6.0" group="4105" element="xx01" vr="US" vm="1" name="Annotation Number"/>
+  <entry owner="Applicare/RadWorks/Version 6.0" group="4107" element="xx00" vr="SQ" vm="1" name="Requested Palette Color LUT"/>
+  <entry owner="Applicare/RadWorks/Version 6.0/Summary" group="3109" element="xx21" vr="ST" vm="1" name="Receive Origin Description"/>
+  <entry owner="Applicare/Workflow/Version 1.0" group="3113" element="xx00" vr="CS" vm="1" name="&lt;internal"/>
+  <entry owner="Applicare/Workflow/Version 1.0" group="3113" element="xx01" vr="SH" vm="1" name="&lt;internal"/>
+  <entry owner="Applicare/Workflow/Version 1.0" group="3113" element="xx02" vr="SH" vm="1" name="&lt;internal"/>
+  <entry owner="Applicare/Workflow/Version 1.0" group="3113" element="xx03" vr="UI" vm="1" name="&lt;internal"/>
+  <entry owner="Applicare/Workflow/Version 1.0" group="3113" element="xx0e" vr="CS" vm="1" name="&lt;internal"/>
   <entry owner="CARDIO-D.R. 1.0" group="0009" element="xx40" vr="SQ" vm="1" name="Alternate Image Sequence"/>
   <entry owner="CARDIO-D.R. 1.0" group="0019" element="xx30" vr="UL" vm="1" name="Maximum Frame Size"/>
   <entry owner="CARDIO-D.R. 1.0" group="0021" element="xx13" vr="IS" vm="1" name="Image Sequence Number"/>
@@ -69,6 +181,10 @@
   <entry owner="CARDIO-SMS 1.0" group="0031" element="xx00" vr="UN" vm="1" name="ACOM Scene Data"/>
   <entry owner="CARDIO-SMS 1.0" group="0031" element="xx01" vr="UN" vm="1" name="ACOM Report Graphics Info"/>
   <entry owner="CARDIO-SMS 1.0" group="0031" element="xx02" vr="UN" vm="1" name="ACOM Image Icon"/>
+  <entry owner="DLX_PATNT_01" group="0011" element="xx00" vr="LT" vm="1" name="patient DOB"/>
+  <entry owner="DLX_SERIE_01" group="0019" element="xx00" vr="DS" vm="1" name="Angle Value 1"/>
+  <entry owner="DLX_SERIE_01" group="0019" element="xx01" vr="DS" vm="1" name="Adx Injector Delay"/>
+  <entry owner="DLX_SERIE_01" group="0019" element="xx02" vr="SH" vm="1" name="Ip Address"/>
   <entry owner="FDMS 1.0" group="0009" element="xx04" vr="SH" vm="1" name="Image Control Unit"/>
   <entry owner="FDMS 1.0" group="0009" element="xx05" vr="OW" vm="1" name="Image UID"/>
   <entry owner="FDMS 1.0" group="0009" element="xx06" vr="OW" vm="1" name="Route Image UID"/>
@@ -125,6 +241,27 @@
   <entry owner="FDMS 1.0" group="50f1" element="xx0a" vr="SH" vm="1" name="FNC Parameters"/>
   <entry owner="FDMS 1.0" group="50f1" element="xx10" vr="CS" vm="1" name="Film Output Format"/>
   <entry owner="FDMS 1.0" group="50f1" element="xx20" vr="CS" vm="1" name="Image Processing Modification Flag"/>
+  <entry owner="GE LUT Asymmetry Parameter" group="0045" element="xx06" vr="DS" vm="1" name="LUT Assymetry"/>
+  <entry owner="GEIIS" group="0009" element="xx01" vr="SQ" vm="1" name="GE IIS Thumbnail Sequence"/>
+  <entry owner="GEIIS" group="7fd1" element="xx01" vr="UL" vm="1" name="GE IIS Compression ID"/>
+  <entry owner="GEIIS" group="7fd1" element="xx02" vr="UL" vm="1" name="GE IIS Multiframe Offsets"/>
+  <entry owner="GEMS-IT/Centricity RA600/7.0" group="4113" element="xx01" vr="UI" vm="1" name="Number of images in study"/>
+  <entry owner="GEMS_DL_FRAME_01" group="0025" element="xx00" vr="IS" vm="1" name="Frame Id"/>
+  <entry owner="GEMS_DL_FRAME_01" group="0025" element="xx01" vr="DS" vm="1" name="Pivot Angle"/>
+  <entry owner="GEMS_DL_FRAME_01" group="0025" element="xx02" vr="DS" vm="1" name="Mas Actual"/>
+  <entry owner="GEMS_DL_FRAME_01" group="0025" element="xx03" vr="IS" vm="1" name="Fov Dimension"/>
+  <entry owner="GEMS_DL_IMG_01" group="0019" element="xx10" vr="DS" vm="1" name="Fov Dimension Double"/>
+  <entry owner="GEMS_DL_IMG_01" group="0019" element="xx13" vr="LO" vm="1" name="Image File Name"/>
+  <entry owner="GEMS_DL_IMG_01" group="0019" element="xx14" vr="DS" vm="1" name="Lag Sensitivity"/>
+  <entry owner="GEMS_DL_IMG_01" group="0019" element="xx15" vr="IS" vm="1" name="Source Series Number"/>
+  <entry owner="GEMS_DL_IMG_01" group="0019" element="xx18" vr="DS" vm="1" name="Image Dose"/>
+  <entry owner="GEMS_DL_IMG_01" group="0019" element="xx19" vr="LO" vm="1" name="Extend Calibration Sw Version"/>
+  <entry owner="GEMS_DL_IMG_01" group="0019" element="xx1a" vr="DS" vm="1" name="ABD Value"/>
+  <entry owner="GEMS_DL_PATNT_01" group="0011" element="xx18" vr="UI" vm="1" name="Patient Instance Uid"/>
+  <entry owner="GEMS_DL_SERIES_01" group="0015" element="xx18" vr="LO" vm="1" name="Series File Name"/>
+  <entry owner="GEMS_DL_SERIES_01" group="0019" element="xx24" vr="CS" vm="1" name="internal label"/>
+  <entry owner="GEMS_DL_STUDY_01" group="0015" element="xx08" vr="DS" vm="1" name="Study Dose"/>
+  <entry owner="GEMS_IT_US_REPORT" group="0045" element="xx11" vr="OW" vm="1" name="Vivid excel file"/>
   <entry owner="ISI" group="0009" element="xx01" vr="SQ" vm="1" name="SIENET General Purpose IMGF"/>
   <entry owner="MMCPrivate" group="0009" element="xx00" vr="LO" vm="1" name="Private Creator"/>
   <entry owner="MMCPrivate" group="0009" element="xx01" vr="LO" vm="1" name="Technologist"/>
@@ -386,21 +523,6 @@
   <entry owner="PRIVATE ORIGINAL ATTRIBUTES" group="0021" element="xx12" vr="LO" vm="1" name="Replacement Reason"/>
   <entry owner="PRIVATE ORIGINAL ATTRIBUTES" group="0021" element="xx70" vr="PN" vm="1-n" name="Original Operators&#x2019; Name"/>
   <entry owner="PRIVATE ORIGINAL ATTRIBUTES" group="0021" element="xxf0" vr="LO" vm="1" name="Private Creator Data Element"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <entry owner="Philips Imaging DD 001" group="2001" element="xx01" vr="FL" vm="1" name="MRImageChemicalShift"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx02" vr="IS" vm="1" name="MRImageChemicalShiftNumber"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx03" vr="FL" vm="1" name="MRImageDiffusionBFactor"/>
@@ -438,23 +560,11 @@
   <entry owner="Philips Imaging DD 001" group="2001" element="xx24" vr="CS" vm="1" name="MRSeriesIsInteractive"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx25" vr="SH" vm="1" name="MRSeriesEchoTimeDisplay"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx26" vr="CS" vm="1" name="PresentationStateSubtractionActive"/>
-
-
-
-
-
   <entry owner="Philips Imaging DD 001" group="2001" element="xx2d" vr="SS" vm="1" name="StackNumberOfSlices"/>
-
-
-
   <entry owner="Philips Imaging DD 001" group="2001" element="xx32" vr="FL" vm="1" name="StackRadialAngle"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx33" vr="CS" vm="1" name="StackRadialAxis"/>
-
   <entry owner="Philips Imaging DD 001" group="2001" element="xx35" vr="SS" vm="1" name="StackSliceNumber"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx36" vr="CS" vm="1" name="StackType"/>
-
-
-
   <entry owner="Philips Imaging DD 001" group="2001" element="xx3d" vr="UL" vm="1" name="ContourFillColor"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx3f" vr="CS" vm="1" name="DisplayedAreaZoomInterpolationMeth"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx43" vr="IS" vm="2" name="EllipsDisplShutMajorAxFrstEndPnt"/>
@@ -467,7 +577,6 @@
   <entry owner="Philips Imaging DD 001" group="2001" element="xx4c" vr="CS" vm="1" name="PolyLineBeginPointStyle"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx4d" vr="CS" vm="1" name="PolyLineEndPointStyle"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx4e" vr="CS" vm="1" name="WindowSmoothingTaste"/>
-
   <entry owner="Philips Imaging DD 001" group="2001" element="xx50" vr="LO" vm="1" name="GraphicMarkerType"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx51" vr="IS" vm="1" name="OverlayPlaneID"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx52" vr="UI" vm="1" name="ImagePresentationStateUID"/>
@@ -485,26 +594,16 @@
   <entry owner="Philips Imaging DD 001" group="2001" element="xx63" vr="CS" vm="1" name="ExaminationSource"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx64" vr="SH" vm="1" name="TextType"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx65" vr="SQ" vm="1" name="GraphicOverlayPlane"/>
-
   <entry owner="Philips Imaging DD 001" group="2001" element="xx68" vr="SQ" vm="1" name="LinearModalityGLTrafo"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx69" vr="SQ" vm="1" name="DisplayShutter"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx6a" vr="SQ" vm="1" name="SpatialTransformation"/>
-
   <entry owner="Philips Imaging DD 001" group="2001" element="xx6d" vr="LO" vm="1" name="TextFont"/>
-
-
   <entry owner="Philips Imaging DD 001" group="2001" element="xx71" vr="CS" vm="1" name="GraphicConstraint"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx72" vr="IS" vm="2" name="EllipsDisplShutOtherAxScndEndPnt"/>
-
-
   <entry owner="Philips Imaging DD 001" group="2001" element="xx76" vr="UI" vm="1" name="MRNumberOfFrames"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx77" vr="CS" vm="1" name="GLTrafoType"/>
-
   <entry owner="Philips Imaging DD 001" group="2001" element="xx7a" vr="FL" vm="1" name="WindowRoundingFactor"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx7b" vr="IS" vm="1" name="MRSeriesAcquisitionNumber"/>
-
-
-
   <entry owner="Philips Imaging DD 001" group="2001" element="xx81" vr="IS" vm="1" name="MRSeriesNrOfDynamicScans"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx82" vr="IS" vm="1" name="MRSeriesEchoTrainLength"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx83" vr="DS" vm="1" name="MRSeriesImagingFrequency"/>
@@ -520,93 +619,13 @@
   <entry owner="Philips Imaging DD 001" group="2001" element="xx91" vr="LO" vm="1" name="TextBackgroundColor"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx92" vr="LO" vm="1" name="TextShadowColor"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx93" vr="LO" vm="1" name="TextStyle"/>
-
-
-
   <entry owner="Philips Imaging DD 001" group="2001" element="xx9b" vr="UL" vm="1" name="GraphicNumber"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx9c" vr="LO" vm="1" name="GraphicAnnotationLabel"/>
-
-
-
-
   <entry owner="Philips Imaging DD 001" group="2001" element="xxa3" vr="UL" vm="1" name="TextColorForeground"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xxa4" vr="UL" vm="1" name="TextColorBackground"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xxa5" vr="UL" vm="1" name="TextColorShadow"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xxc8" vr="LO" vm="1" name="ExamCardName"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xxcc" vr="ST" vm="1" name="SeriesDerivationDescription"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <entry owner="Philips MR Imaging DD 001" group="2005" element="xx00" vr="FL" vm="1" name="MRImageAngulationAP"/>
   <entry owner="Philips MR Imaging DD 001" group="2005" element="xx01" vr="FL" vm="1" name="MRImageAngulationFH"/>
   <entry owner="Philips MR Imaging DD 001" group="2005" element="xx02" vr="FL" vm="1" name="MRImageAngulationRL"/>
@@ -906,22 +925,17 @@
   <entry owner="Philips MR Imaging DD 004" group="2005" element="xx94" vr="CS" vm="1-n" name="ProcessingHistory"/>
   <entry owner="Philips MR Imaging DD 004" group="2005" element="xx95" vr="UI" vm="1" name="ViewProcedureString"/>
   <entry owner="Philips MR Imaging DD 004" group="2005" element="xx96" vr="CS" vm="1" name="MRFlowImagesPresent"/>
-
   <entry owner="Philips MR Imaging DD 004" group="2005" element="xx98" vr="CS" vm="1" name="MRMobiviewEnabled"/>
   <entry owner="Philips MR Imaging DD 004" group="2005" element="xx99" vr="CS" vm="1" name="MRIViewBoldEnabled"/>
   <entry owner="Philips MR Imaging DD 005" group="2005" element="xx00" vr="CS" vm="1" name="MRVolumeViewEnabled"/>
   <entry owner="Philips MR Imaging DD 005" group="2005" element="xx01" vr="UL" vm="1" name="MRNumberOfStudyReference"/>
   <entry owner="Philips MR Imaging DD 005" group="2005" element="xx02" vr="SQ" vm="1" name="SPSCode"/>
   <entry owner="Philips MR Imaging DD 005" group="2005" element="xx03" vr="UL" vm="1" name="MRNumberOfSPSCodes"/>
-
   <entry owner="Philips MR Imaging DD 005" group="2005" element="xx07" vr="SS" vm="1" name="MRNrOfSpecificCharacterSet"/>
   <entry owner="Philips MR Imaging DD 005" group="2005" element="xx09" vr="DS" vm="1" name="RescaleInterceptOriginal"/>
   <entry owner="Philips MR Imaging DD 005" group="2005" element="xx0a" vr="DS" vm="1" name="RescaleSlopeOriginal"/>
   <entry owner="Philips MR Imaging DD 005" group="2005" element="xx0b" vr="LO" vm="1" name="RescaleTypeOriginal"/>
-
-
   <entry owner="Philips MR Imaging DD 005" group="2005" element="xx10" vr="IS" vm="1" name="MFConvTreatSpectorMixNo"/>
-
   <entry owner="Philips MR Imaging DD 005" group="2005" element="xx12" vr="IS" vm="1" name="MRImageDiffBValueNumber"/>
   <entry owner="Philips MR Imaging DD 005" group="2005" element="xx13" vr="IS" vm="1" name="MRImageGradientOrientationNumber"/>
   <entry owner="Philips MR Imaging DD 005" group="2005" element="xx14" vr="SL" vm="1" name="MRSeriesNrOfDiffBValues"/>
@@ -960,9 +974,6 @@
   <entry owner="Philips MR Imaging DD 005" group="2005" element="xx35" vr="CS" vm="1" name="SpectroExamcard"/>
   <entry owner="Philips MR Imaging DD 005" group="2005" element="xx36" vr="UI" vm="1" name="MRRefSeriesInstanceUID"/>
   <entry owner="Philips MR Imaging DD 005" group="2005" element="xx37" vr="CS" vm="1" name="ColorLUTType"/>
-
-
-
   <entry owner="Philips MR Imaging DD 005" group="2005" element="xx3b" vr="CS" vm="1" name="MRIsCoilSurvey"/>
   <entry owner="Philips MR Imaging DD 005" group="2005" element="xx3c" vr="FL" vm="1" name="MRStackTablePosLong"/>
   <entry owner="Philips MR Imaging DD 005" group="2005" element="xx3d" vr="FL" vm="1" name="MRStackTablePosLat"/>
@@ -986,6 +997,9 @@
   <entry owner="Philips MR Imaging DD 005" group="2005" element="xx4f" vr="CS" vm="1" name="VolumeSelect"/>
   <entry owner="Philips MR Imaging DD 005" group="2005" element="xx50" vr="SS" vm="1" name="MRNrOfPatientOtherIDs"/>
   <entry owner="Philips MR Imaging DD 005" group="2005" element="xx5c" vr="SQ" vm="1" name="SeriesBolusContrast"/>
+  <entry owner="RadWorksMarconi" group="0029" element="xx02" vr="US" vm="1" name="&lt;internal"/>
+  <entry owner="RadWorksTBR" group="3111" element="xx10" vr="CS" vm="1" name="AMI Compression Type"/>
+  <entry owner="RadWorksTBR" group="3111" element="xx1f" vr="SQ" vm="1" name="&lt;internal"/>
   <entry owner="SCHICK TECHNOLOGIES - Change Item Creator ID" group="0021" element="xx01" vr="UI" vm="1" name="Change List Item UID"/>
   <entry owner="SCHICK TECHNOLOGIES - Change Item Creator ID" group="0021" element="xx02" vr="US" vm="1" name="Operation"/>
   <entry owner="SCHICK TECHNOLOGIES - Change Item Creator ID" group="0021" element="xx03" vr="DT" vm="1" name="Date"/>
@@ -2845,4 +2859,17 @@
   <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx11" vr="IS" vm="1" name="Private Voxar Calcium Scoring Report Schema"/>
   <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx12" vr="IS" vm="1" name="Private Voxar Source Series Number"/>
   <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx13" vr="LO" vm="1" name="Private Voxar Bottom Left Display Demographics"/>
+  <entry owner="http://www.gemedicalsystems.com/it_solutions/bamwallthickness/1.0" group="3119" element="xx01" vr="DT" vm="1" name="BAM WallThickness Session Date/Time"/>
+  <entry owner="http://www.gemedicalsystems.com/it_solutions/bamwallthickness/1.0" group="3119" element="xx02" vr="PN" vm="1" name="BAM WallThickness Session Creator"/>
+  <entry owner="http://www.gemedicalsystems.com/it_solutions/bamwallthickness/1.0" group="3119" element="xx03" vr="CS" vm="1" name="BAM WallThickness Session Completion Flag"/>
+  <entry owner="http://www.gemedicalsystems.com/it_solutions/bamwallthickness/1.0" group="3119" element="xx04" vr="SQ" vm="1" name="BAM WallThickness File Sequence"/>
+  <entry owner="http://www.gemedicalsystems.com/it_solutions/bamwallthickness/1.0" group="3119" element="xx05" vr="ST" vm="1" name="BAM WallThickness File Name"/>
+  <entry owner="http://www.gemedicalsystems.com/it_solutions/bamwallthickness/1.0" group="3119" element="xx06" vr="OB" vm="1" name="BAM WallThickness File Content"/>
+  <entry owner="http://www.gemedicalsystems.com/it_solutions/orthoview/2.1" group="3117" element="xx01" vr="DT" vm="1" name="OrthoView Session Date/Time"/>
+  <entry owner="http://www.gemedicalsystems.com/it_solutions/orthoview/2.1" group="3117" element="xx02" vr="PN" vm="1" name="OrthoView Session Creator"/>
+  <entry owner="http://www.gemedicalsystems.com/it_solutions/orthoview/2.1" group="3117" element="xx03" vr="CS" vm="1" name="OrthoView Session Completion Flag"/>
+  <entry owner="http://www.gemedicalsystems.com/it_solutions/orthoview/2.1" group="3117" element="xx04" vr="SQ" vm="1" name="OrthoView File Sequence"/>
+  <entry owner="http://www.gemedicalsystems.com/it_solutions/orthoview/2.1" group="3117" element="xx05" vr="ST" vm="1" name="OrthoView File Name"/>
+  <entry owner="http://www.gemedicalsystems.com/it_solutions/orthoview/2.1" group="3117" element="xx06" vr="OB" vm="1" name="OrthoView File Content"/>
+  <entry owner="http://www.gemedicalsystems.com/it_solutions/rad_pacs/" group="3115" element="xx70" vr="UT" vm="1" name="Reference to pacs study"/>
 </dict>

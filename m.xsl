@@ -7,6 +7,7 @@
             <xsl:apply-templates select="document('agfa.xml')/*/entry"/>
             <xsl:apply-templates select="document('fuji.xml')/*/entry"/>
             <xsl:apply-templates select="document('hitachi.xml')/*/entry"/>
+            <xsl:apply-templates select="document('gems.xml')/*/entry"/>
             <xsl:apply-templates select="document('pms.xml')/*/entry"/>
             <xsl:apply-templates select="document('siemens.xml')/*/entry"/>
             <xsl:apply-templates select="document('other.xml')/*/entry"/>
