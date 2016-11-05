@@ -21,7 +21,7 @@ title: fuji
    <th>Definition</th>
  </tr>
 {% for dict in site.data.merged_file %}
-{% for entry in dict %}
+{% for entry in dict[1] %}
  <tr>
    <td>{{ entry.group }} , {{ entry.element }}</td>
    <td>{{ entry.name }}</td>
