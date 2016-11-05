@@ -2,6 +2,7 @@
 title: fuji
 ---
 
+<!DOCTYPE html>
 <h1>fuji:</h1>
 <ul>
 {% for dict in site.data.merged_file %}
@@ -11,7 +12,8 @@ title: fuji
 {% endfor %}
 </ul>
 
-<table>
+<table border="1">
+ <thead>
  <tr>
    <th>Tag</th>
    <th>Name</th>
@@ -20,6 +22,8 @@ title: fuji
    <th>Type</th>
    <th>Definition</th>
  </tr>
+ </thead>
+ <tbody>
 {% for dict in site.data.merged_file %}
 {% for entry in dict[1] %}
  <tr>
@@ -32,4 +36,5 @@ title: fuji
  </tr>
 {% endfor %}
 {% endfor %}
+ </tbody>
 </table>
