@@ -2,7 +2,7 @@
 set -x
 set -e
 
-dirs="agfa hitachi fuji other"
+dirs="agfa hitachi fuji siemens other"
 for dir in $dirs
 do
   xsltproc -o $dir.xml    merge.xsl $dir/index.xml

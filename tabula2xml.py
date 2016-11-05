@@ -53,7 +53,7 @@ def read_group( value ):
   return group
 
 def read_element( value ):
-  element = value.lower();
+  element = value.replace(' ','').lower();
   if element.startswith( 'xx' ) and len(element) == 4:
     element = element[2:4]
   elif element.startswith( 'yy' ) and len(element) == 4: # sigh
@@ -62,12 +62,12 @@ def read_element( value ):
     element = element[2:4]
   if element.startswith( '0x' ): # usual copy/paste error from editor
     element = element.replace( '0x', '' )
-  if element == '00xx':
-    element = '0'
-  if element == '0010':
-    element = '0'
   if len(element) == 4: # typically people use group number, eg: F100
-    element = element[2:4]
+    if element[0:2] == '00':
+      element = '0'
+    else:
+      # FIXME wotsit ?
+      element = element[2:4]
   #if(debug): print >> sys.stderr, "debug element: [%s]/%d"% (element,len(element))
   element = "0x%s" % element
   try:

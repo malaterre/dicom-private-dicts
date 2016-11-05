@@ -91,4 +91,15 @@
     <entry owner="Sound Technologies" group="f001" element="xx1d" vr="LO" vm="1" name="Client Name Guid"/>
 
 
+
+  
+    <entry owner="PRIVATE ORIGINAL ATTRIBUTES" group="0021" element="xxf0" vr="LO" vm="1" name="Private Creator Data Element"/>
+    <entry owner="PRIVATE ORIGINAL ATTRIBUTES" group="0021" element="xx01" vr="SQ" vm="1" name="Private Original Attribute Sequence"/>
+    <entry owner="PRIVATE ORIGINAL ATTRIBUTES" group="0021" element="xx05" vr="DT" vm="1" name="Replacement Date and Time"/>
+    <entry owner="PRIVATE ORIGINAL ATTRIBUTES" group="0021" element="xx10" vr="LO" vm="1" name="Replacement Originator Name"/>
+    <entry owner="PRIVATE ORIGINAL ATTRIBUTES" group="0021" element="xx12" vr="LO" vm="1" name="Replacement Reason"/>
+    <entry owner="PRIVATE ORIGINAL ATTRIBUTES" group="0021" element="xxf0" vr="LO" vm="1" name="Private Creator Data Element"/>
+    <entry owner="PRIVATE ORIGINAL ATTRIBUTES" group="0021" element="xx70" vr="PN" vm="1-n" name="Original Operators&#x2019; Name"/>
+
+
 </dict>

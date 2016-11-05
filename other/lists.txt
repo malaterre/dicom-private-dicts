@@ -1,2 +1,3 @@
 http://www.schicktech.com/uploads/downloads/DicomClient_Conformance_35.pdf
 http://www.soundvet.com/library/media/pdf/DICOMconformanceTruDR_VPACSv15.pdf
+http://www.radinfosystems.com/pdf/PowerPACS_ImageImporter-DicomConform.pdf

@@ -18,4 +18,7 @@ set -e
 ./tabula.sh -o "other/chunk0.json" --spreadsheet -p 15 -a 198.518,53.168,708.773,568.778 "other/DICOMconformanceTruDR_VPACSv15.pdf"
 ./tabula.sh -o "other/chunk1.json" --spreadsheet -p 16 -a 63.878,53.168,386.708,558.068 "other/DICOMconformanceTruDR_VPACSv15.pdf"
 ./tabula2xml.py  --header "AttributeName,Tag,VR,Type,Definition"  --owner "Sound Technologies"  --files "other/chunk0.json,other/chunk1.json" --output "other/DICOMconformanceTruDR_VPACSv15_0.xml"
+./tabula.sh -o "other/chunk0.json" --spreadsheet -p 17 -a 263.543,97.538,711.833,536.648 "other/PowerPACS_ImageImporter-DicomConform.pdf"
+./tabula.sh -o "other/chunk1.json" --spreadsheet -p 18 -a 93.713,99.833,456.323,534.353 "other/PowerPACS_ImageImporter-DicomConform.pdf"
+./tabula2xml.py  --header "AttributeName,Tag,VR,VM,Type,Definition"  --owner "PRIVATE ORIGINAL ATTRIBUTES"  --files "other/chunk0.json,other/chunk1.json" --output "other/PowerPACS_ImageImporter-DicomConform_0.xml"
 rm other/chunk?.json

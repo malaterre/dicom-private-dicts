@@ -92,5 +92,33 @@
                }]
          }
       ]
+   },
+   {
+      "url" : "http://www.radinfosystems.com/pdf/PowerPACS_ImageImporter-DicomConform.pdf",
+      "md5" : "b9c03ced27f3e2c0c5baa9de5861f722",
+      "tables" : [
+         {
+            "owner" : "PRIVATE ORIGINAL ATTRIBUTES",
+            "header" : [
+               "AttributeName",
+               "Tag",
+               "VR",
+               "VM",
+               "Type",
+               "Definition"
+            ],
+   "chunks" : [
+      {
+         "area" : "263.543,97.538,711.833,536.648",
+         "page" : "17"
+      },
+      {
+         "page" : "18",
+         "area" : "93.713,99.833,456.323,534.353"
+      }
+   ]
+
+         }
+      ]
    }
 ]
