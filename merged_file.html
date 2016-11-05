@@ -5,10 +5,8 @@ title: fuji
 <h1>fuji:</h1>
 <ul>
 {% for dict in site.data.merged_file %}
-  {% for link in dict %}
   <li>
-      {{ link[1] }}
+      {{ dict[1] }}
   </li>
-  {% endfor %}
 {% endfor %}
 </ul>
