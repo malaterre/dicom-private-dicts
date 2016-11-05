@@ -10,3 +10,26 @@ title: fuji
   </li>
 {% endfor %}
 </ul>
+
+<table>
+ <tr>
+   <th>Tag</th>
+   <th>Name</th>
+   <th>VR</th>
+   <th>VM</th>
+   <th>Type</th>
+   <th>Definition</th>
+ </tr>
+{% for dict in site.data.merged_file %}
+{% for entry in dict %}
+ <tr>
+   <td>{{ entry.group }} , {{ entry.element }}</td>
+   <td>{{ entry.name }}</td>
+   <td>{{ entry.vr }}</td>
+   <td>{{ entry.vm }}</td>
+   <td>{{ entry.type }}</td>
+   <td>{{ entry.definition }}</td>
+ </tr>
+{% endfor %}
+{% endfor %}
+</table>
