@@ -1,0 +1,970 @@
+﻿<dicts>
+  <dict owner="Philips Imaging DD 001">
+    <entry group="2001" element="01" vr="FL" vm="1" name="MRImageChemicalShift">
+</entry>
+    <entry group="2001" element="02" vr="IS" vm="1" name="MRImageChemicalShiftNumber">
+</entry>
+    <entry group="2001" element="03" vr="FL" vm="1" name="MRImageDiffusionBFactor">
+</entry>
+    <entry group="2001" element="04" vr="CS" vm="1" name="MRImageDiffusionDirection">
+</entry>
+    <entry group="2001" element="05" vr="SS" vm="1" name="GraphicAnnotationParentID">
+</entry>
+    <entry group="2001" element="06" vr="CS" vm="1" name="MRImageEnhanced">
+</entry>
+    <entry group="2001" element="07" vr="CS" vm="1" name="MRImageTypeEDES">
+</entry>
+    <entry group="2001" element="08" vr="IS" vm="1" name="MRImagePhaseNumber">
+</entry>
+    <entry group="2001" element="09" vr="FL" vm="1" name="MRImagePrepulseDelay">
+</entry>
+    <entry group="2001" element="0A" vr="IS" vm="1" name="ImagePlaneNumber">
+</entry>
+    <entry group="2001" element="0B" vr="CS" vm="1" name="ImagePlaneOrientation">
+</entry>
+    <entry group="2001" element="0C" vr="CS" vm="1" name="MRSeriesArrhythmiaRejection">
+</entry>
+    <entry group="2001" element="0E" vr="CS" vm="1" name="MRSeriesCardiacCycled">
+</entry>
+    <entry group="2001" element="0F" vr="SS" vm="1" name="MRSeriesCardiacGateWidth">
+</entry>
+    <entry group="2001" element="10" vr="CS" vm="1" name="MRSeriesCardiacSync">
+</entry>
+    <entry group="2001" element="11" vr="FL" vm="1" name="MRSeriesDiffusionEchoTime">
+</entry>
+    <entry group="2001" element="12" vr="CS" vm="1" name="MRSeriesDynamicSeries">
+</entry>
+    <entry group="2001" element="13" vr="SL" vm="1" name="MRSeriesEPIFactor">
+</entry>
+    <entry group="2001" element="14" vr="SL" vm="1" name="MRSeriesNrOfEchoes">
+</entry>
+    <entry group="2001" element="15" vr="SS" vm="1" name="MRSeriesNrOfLocations">
+</entry>
+    <entry group="2001" element="16" vr="SS" vm="1" name="MRSeriesNrOfPhaseContrastDirctns">
+</entry>
+    <entry group="2001" element="17" vr="SL" vm="1" name="MRSeriesNrOfPhases">
+</entry>
+    <entry group="2001" element="18" vr="SL" vm="1" name="MRSeriesNrOfSlices">
+</entry>
+    <entry group="2001" element="19" vr="CS" vm="1" name="MRSeriesPartialMatrixScanned">
+</entry>
+    <entry group="2001" element="1A" vr="FL" vm="3" name="MRSeriesPCVelocity">
+</entry>
+    <entry group="2001" element="1B" vr="FL" vm="1" name="MRSeriesPrepulseDelay">
+</entry>
+    <entry group="2001" element="1C" vr="CS" vm="1" name="MRSeriesPrepulseType">
+</entry>
+    <entry group="2001" element="1D" vr="IS" vm="1" name="MRSeriesReconstructionNumber">
+</entry>
+    <entry group="2001" element="1E" vr="CS" vm="1" name="MRSeriesReformatAccuracy">
+</entry>
+    <entry group="2001" element="1F" vr="CS" vm="1" name="MRSeriesRespirationSync">
+</entry>
+    <entry group="2001" element="20" vr="LO" vm="1" name="MRSeriesScanningTechniqueDesc">
+</entry>
+    <entry group="2001" element="21" vr="CS" vm="1" name="MRSeriesSelPartInversionRecovery">
+</entry>
+    <entry group="2001" element="22" vr="FL" vm="1" name="MRSeriesWaterFatShift">
+</entry>
+    <entry group="2001" element="23" vr="DS" vm="1" name="MRSeriesFlipAngle">
+</entry>
+    <entry group="2001" element="24" vr="CS" vm="1" name="MRSeriesIsInteractive">
+</entry>
+    <entry group="2001" element="25" vr="SH" vm="1" name="MRSeriesEchoTimeDisplay">
+</entry>
+    <entry group="2001" element="26" vr="CS" vm="1" name="PresentationStateSubtractionActive">
+</entry>
+    <entry group="2001" element="2D" vr="SS" vm="1" name="StackNumberOfSlices">
+</entry>
+    <entry group="2001" element="32" vr="FL" vm="1" name="StackRadialAngle">
+</entry>
+    <entry group="2001" element="33" vr="CS" vm="1" name="StackRadialAxis">
+</entry>
+    <entry group="2001" element="35" vr="SS" vm="1" name="StackSliceNumber">
+</entry>
+    <entry group="2001" element="36" vr="CS" vm="1" name="StackType">
+</entry>
+    <entry group="2001" element="3D" vr="UL" vm="1" name="ContourFillColor">
+</entry>
+    <entry group="2001" element="3F" vr="CS" vm="1" name="DisplayedAreaZoomInterpolationMeth">
+</entry>
+    <entry group="2001" element="3F" vr="CS" vm="1" name="ZoomMode">
+</entry>
+    <entry group="2001" element="43" vr="IS" vm="2" name="EllipsDisplShutMajorAxFrstEndPnt">
+</entry>
+    <entry group="2001" element="44" vr="IS" vm="2" name="EllipsDisplShutMajorAxScndEndPnt">
+</entry>
+    <entry group="2001" element="45" vr="IS" vm="2" name="EllipsDisplShutOtherAxFrstEndPnt">
+</entry>
+    <entry group="2001" element="46" vr="CS" vm="1" name="GraphicLineStyle">
+</entry>
+    <entry group="2001" element="47" vr="FL" vm="1" name="GraphicLineWidth">
+</entry>
+    <entry group="2001" element="48" vr="SS" vm="1" name="GraphicAnnotationID">
+</entry>
+    <entry group="2001" element="4B" vr="CS" vm="1" name="InterpolationMethod">
+</entry>
+    <entry group="2001" element="4C" vr="CS" vm="1" name="PolyLineBeginPointStyle">
+</entry>
+    <entry group="2001" element="4D" vr="CS" vm="1" name="PolyLineEndPointStyle">
+</entry>
+    <entry group="2001" element="4E" vr="CS" vm="1" name="WindowSmoothingTaste">
+</entry>
+    <entry group="2001" element="50" vr="LO" vm="1" name="GraphicMarkerType">
+</entry>
+    <entry group="2001" element="51" vr="IS" vm="1" name="OverlayPlaneID">
+</entry>
+    <entry group="2001" element="52" vr="UI" vm="1" name="ImagePresentationStateUID">
+</entry>
+    <entry group="2001" element="53" vr="CS" vm="1" name="PresentationGLTrafoInvert">
+</entry>
+    <entry group="2001" element="53" vr="CS" vm="1" name="WindowInvert">
+</entry>
+    <entry group="2001" element="54" vr="FL" vm="1" name="ContourFillTransparency">
+</entry>
+    <entry group="2001" element="55" vr="UL" vm="1" name="GraphicLineColor">
+</entry>
+    <entry group="2001" element="56" vr="CS" vm="1" name="GraphicType">
+</entry>
+    <entry group="2001" element="5A" vr="ST" vm="1" name="GraphicAnnotationModel">
+</entry>
+    <entry group="2001" element="5D" vr="ST" vm="1" name="MeasurementTextUnits">
+</entry>
+    <entry group="2001" element="5E" vr="ST" vm="1" name="MeasurementTextType">
+</entry>
+    <entry group="2001" element="5F" vr="SQ" vm="1" name="Stack">
+</entry>
+    <entry group="2001" element="60" vr="SL" vm="1" name="MRSeriesNrOfStacks">
+</entry>
+    <entry group="2001" element="61" vr="CS" vm="1" name="SeriesTransmitted">
+</entry>
+    <entry group="2001" element="62" vr="CS" vm="1" name="SeriesCommitted">
+</entry>
+    <entry group="2001" element="63" vr="CS" vm="1" name="ExaminationSource">
+</entry>
+    <entry group="2001" element="64" vr="SH" vm="1" name="TextType">
+</entry>
+    <entry group="2001" element="65" vr="SQ" vm="1" name="GraphicOverlayPlane">
+</entry>
+    <entry group="2001" element="65" vr="SQ" vm="1" name="OverlayPlane">
+</entry>
+    <entry group="2001" element="65" vr="SQ" vm="1" name="ROIOverlayPlane">
+</entry>
+    <entry group="2001" element="68" vr="SQ" vm="1" name="LinearModalityGLTrafo">
+</entry>
+    <entry group="2001" element="69" vr="SQ" vm="1" name="DisplayShutter">
+</entry>
+    <entry group="2001" element="6A" vr="SQ" vm="1" name="SpatialTransformation">
+</entry>
+    <entry group="2001" element="6D" vr="LO" vm="1" name="TextFont">
+</entry>
+    <entry group="2001" element="71" vr="CS" vm="1" name="GraphicConstraint">
+</entry>
+    <entry group="2001" element="72" vr="IS" vm="2" name="EllipsDisplShutOtherAxScndEndPnt">
+</entry>
+    <entry group="2001" element="76" vr="UI" vm="1" name="MRNumberOfFrames">
+</entry>
+    <entry group="2001" element="77" vr="CS" vm="1" name="GLTrafoType">
+</entry>
+    <entry group="2001" element="7A" vr="FL" vm="1" name="WindowRoundingFactor">
+</entry>
+    <entry group="2001" element="7B" vr="IS" vm="1" name="MRSeriesAcquisitionNumber">
+</entry>
+    <entry group="2001" element="81" vr="IS" vm="1" name="MRSeriesNrOfDynamicScans">
+</entry>
+    <entry group="2001" element="82" vr="IS" vm="1" name="MRSeriesEchoTrainLength">
+</entry>
+    <entry group="2001" element="83" vr="DS" vm="1" name="MRSeriesImagingFrequency">
+</entry>
+    <entry group="2001" element="84" vr="DS" vm="1" name="MRSeriesInversionTime">
+</entry>
+    <entry group="2001" element="85" vr="DS" vm="1" name="MRSeriesMagneticFieldStrength">
+</entry>
+    <entry group="2001" element="86" vr="IS" vm="1" name="MRSeriesNrOfPhaseEncodingSteps">
+</entry>
+    <entry group="2001" element="87" vr="SH" vm="1" name="MRSeriesNucleus">
+</entry>
+    <entry group="2001" element="88" vr="DS" vm="1" name="MRSeriesNumberOfAverages">
+</entry>
+    <entry group="2001" element="89" vr="DS" vm="1" name="MRSeriesPercentPhaseFieldOfView">
+</entry>
+    <entry group="2001" element="8A" vr="DS" vm="1" name="MRSeriesPercentSampling">
+</entry>
+    <entry group="2001" element="8B" vr="SH" vm="1" name="MRSeriesTransmittingCoil">
+</entry>
+    <entry group="2001" element="90" vr="LO" vm="1" name="TextForegroundColor">
+</entry>
+    <entry group="2001" element="91" vr="LO" vm="1" name="TextBackgroundColor">
+</entry>
+    <entry group="2001" element="92" vr="LO" vm="1" name="TextShadowColor">
+</entry>
+    <entry group="2001" element="93" vr="LO" vm="1" name="TextStyle">
+</entry>
+    <entry group="2001" element="9B" vr="UL" vm="1" name="GraphicNumber">
+</entry>
+    <entry group="2001" element="9C" vr="LO" vm="1" name="GraphicAnnotationLabel">
+</entry>
+    <entry group="2001" element="A3" vr="UL" vm="1" name="TextColorForeground">
+</entry>
+    <entry group="2001" element="A4" vr="UL" vm="1" name="TextColorBackground">
+</entry>
+    <entry group="2001" element="A5" vr="UL" vm="1" name="TextColorShadow">
+</entry>
+    <entry group="2001" element="c8" vr="LO" vm="1" name="ExamCardName">
+</entry>
+    <entry group="2001" element="CC" vr="ST" vm="1" name="SeriesDerivationDescription">
+</entry>
+</dict>
+  <dict owner="Philips MR Imaging DD 003">
+    <entry group="2005" element="00" vr="UL" vm="1" name="MRNumberOfSOPCommon">
+</entry>
+    <entry group="2005" element="01" vr="UL" vm="1" name="MRNoOfFilmConsumption">
+</entry>
+    <entry group="2005" element="13" vr="UL" vm="1" name="MRNumberOfCodes">
+</entry>
+    <entry group="2005" element="34" vr="SL" vm="1" name="MRNumberOfImagePerSeriesRef">
+</entry>
+    <entry group="2005" element="43" vr="SS" vm="1" name="MRNoDateOfLastCalibration">
+</entry>
+    <entry group="2005" element="44" vr="SS" vm="1" name="MRNoTimeOfLastCalibration">
+</entry>
+    <entry group="2005" element="45" vr="SS" vm="1" name="MRNrOfSoftwareVersion">
+</entry>
+    <entry group="2005" element="47" vr="SS" vm="1" name="MRNrOfPatientOtherNames">
+</entry>
+    <entry group="2005" element="48" vr="SS" vm="1" name="MRNrOfReqRecipeOfResults">
+</entry>
+    <entry group="2005" element="49" vr="SS" vm="1" name="MRNrOfSeriesOperatorsName">
+</entry>
+    <entry group="2005" element="50" vr="SS" vm="1" name="MRNrOfSeriesPerfPhysiName">
+</entry>
+    <entry group="2005" element="51" vr="SS" vm="1" name="MRNrOfStudyAdmittingDiagnosticDescr">
+</entry>
+    <entry group="2005" element="52" vr="SS" vm="1" name="MRNrOfStudyPatientContrastAllergies">
+</entry>
+    <entry group="2005" element="53" vr="SS" vm="1" name="MRNrOfStudyPatientMedicalAlerts">
+</entry>
+    <entry group="2005" element="54" vr="SS" vm="1" name="MRNrOfStudyPhysiciansOfRecord">
+</entry>
+    <entry group="2005" element="55" vr="SS" vm="1" name="MRNrOfStudyPhysiReadingStudy">
+</entry>
+    <entry group="2005" element="56" vr="SS" vm="1" name="MRNrSCSoftwareVersions">
+</entry>
+    <entry group="2005" element="57" vr="SS" vm="1" name="MRNrRunningAttributes">
+</entry>
+    <entry group="2005" element="70" vr="OW" vm="1-n" name="SpectrumPixelData">
+</entry>
+    <entry group="2005" element="81" vr="UI" vm="1" name="DefaultImageUID">
+</entry>
+    <entry group="2005" element="82" vr="CS" vm="1-n" name="RunningAttributes">
+</entry>
+</dict>
+  <dict owner="Philips MR Imaging DD 002">
+    <entry group="2005" element="15" vr="LO" vm="1" name="MRUserName">
+</entry>
+    <entry group="2005" element="16" vr="LO" vm="1" name="MRPassWord">
+</entry>
+    <entry group="2005" element="17" vr="LO" vm="1" name="MRServerName">
+</entry>
+    <entry group="2005" element="18" vr="LO" vm="1" name="MRDataBaseName">
+</entry>
+    <entry group="2005" element="19" vr="LO" vm="1" name="MRRootName">
+</entry>
+    <entry group="2005" element="20" vr="LO" vm="1" name="DMIApplicationName">
+</entry>
+    <entry group="2005" element="2D" vr="LO" vm="1" name="MRRootId">
+</entry>
+    <entry group="2005" element="32" vr="SQ" vm="1" name="MRBlobDataObjectArray">
+</entry>
+    <entry group="2005" element="34" vr="LT" vm="1" name="SeriesTransactionUID">
+</entry>
+    <entry group="2005" element="35" vr="IS" vm="1" name="ParentID">
+</entry>
+    <entry group="2005" element="36" vr="PN" vm="1" name="ParentType">
+</entry>
+    <entry group="2005" element="37" vr="PN" vm="1" name="MRBlobName">
+</entry>
+    <entry group="2005" element="38" vr="PN" vm="1" name="MRApplicationName">
+</entry>
+    <entry group="2005" element="39" vr="PN" vm="1" name="MRTypeName">
+</entry>
+    <entry group="2005" element="40" vr="PN" vm="1" name="MRVersionStr">
+</entry>
+    <entry group="2005" element="41" vr="PN" vm="1" name="MRCommentStr">
+</entry>
+    <entry group="2005" element="42" vr="CS" vm="1" name="BlobInFile">
+</entry>
+    <entry group="2005" element="43" vr="SL" vm="1" name="MRActualBlobSize">
+</entry>
+    <entry group="2005" element="44" vr="OW" vm="1" name="MRBlobData">
+</entry>
+    <entry group="2005" element="45" vr="PN" vm="1" name="BlobFilename">
+</entry>
+    <entry group="2005" element="46" vr="SL" vm="1" name="BlobOffset">
+</entry>
+    <entry group="2005" element="47" vr="CS" vm="1" name="MRBlobFlag">
+</entry>
+    <entry group="2005" element="99" vr="UL" vm="1" name="MRNumberOfRequestExcerpts">
+</entry>
+</dict>
+  <dict owner="Philips MR Imaging DD 001">
+    <entry group="2005" element="00" vr="FL" vm="1" name="MRImageAngulationAP">
+</entry>
+    <entry group="2005" element="01" vr="FL" vm="1" name="MRImageAngulationFH">
+</entry>
+    <entry group="2005" element="02" vr="FL" vm="1" name="MRImageAngulationRL">
+</entry>
+    <entry group="2005" element="03" vr="IS" vm="1" name="ImageAnnotationCount">
+</entry>
+    <entry group="2005" element="04" vr="CS" vm="1" name="MRImageDisplayOrientation">
+</entry>
+    <entry group="2005" element="07" vr="IS" vm="1" name="ImageLineCount">
+</entry>
+    <entry group="2005" element="08" vr="FL" vm="1" name="MRImageOffCentreAP">
+</entry>
+    <entry group="2005" element="09" vr="FL" vm="1" name="MRImageOffCentreFH">
+</entry>
+    <entry group="2005" element="0A" vr="FL" vm="1" name="MRImageOffCentreRL">
+</entry>
+    <entry group="2005" element="0B" vr="FL" vm="1" name="MRMaxFP">
+</entry>
+    <entry group="2005" element="0C" vr="FL" vm="1" name="MRMinFP">
+</entry>
+    <entry group="2005" element="0D" vr="FL" vm="1" name="MRScaleIntercept">
+</entry>
+    <entry group="2005" element="0E" vr="FL" vm="1" name="MRScaleSlope">
+</entry>
+    <entry group="2005" element="0F" vr="DS" vm="1" name="WindowCenterOriginal">
+</entry>
+    <entry group="2005" element="10" vr="DS" vm="1" name="WindowWidthOriginal">
+</entry>
+    <entry group="2005" element="11" vr="CS" vm="1-n" name="MRImageTypeMR">
+</entry>
+    <entry group="2005" element="12" vr="CS" vm="1" name="MRCardiacGating">
+</entry>
+    <entry group="2005" element="13" vr="CS" vm="1" name="MRSeriesDevelopmentMode">
+</entry>
+    <entry group="2005" element="14" vr="CS" vm="1" name="MRSeriesDiffusion">
+</entry>
+    <entry group="2005" element="15" vr="CS" vm="1" name="MRFatSaturation">
+</entry>
+    <entry group="2005" element="16" vr="CS" vm="1" name="MRFlowCompensation">
+</entry>
+    <entry group="2005" element="17" vr="CS" vm="1" name="MRFourierInterpolation">
+</entry>
+    <entry group="2005" element="18" vr="LO" vm="1" name="MRHardcopyProtocol">
+</entry>
+    <entry group="2005" element="19" vr="CS" vm="1" name="MRInverseReconstructed">
+</entry>
+    <entry group="2005" element="1A" vr="SS" vm="1" name="MRLabelSyntax">
+</entry>
+    <entry group="2005" element="1B" vr="CS" vm="1" name="MRMagnetiPrepared">
+</entry>
+    <entry group="2005" element="1C" vr="CS" vm="1" name="MRMagnetTransferConst">
+</entry>
+    <entry group="2005" element="1D" vr="SS" vm="1" name="MRMeasurementScanResolution">
+</entry>
+    <entry group="2005" element="1E" vr="SH" vm="1" name="SliceSeriesMIPProtocol">
+</entry>
+    <entry group="2005" element="1F" vr="SH" vm="1" name="SliceSeriesMPRProtocol">
+</entry>
+    <entry group="2005" element="20" vr="SL" vm="1" name="MRSeriesNrOfChemicalShifts">
+</entry>
+    <entry group="2005" element="21" vr="SS" vm="1" name="MRNumberOfMixes">
+</entry>
+    <entry group="2005" element="22" vr="IS" vm="1" name="MRNumberOfReferences">
+</entry>
+    <entry group="2005" element="23" vr="SS" vm="1" name="MRNumberOfSlabs">
+</entry>
+    <entry group="2005" element="25" vr="SS" vm="1" name="MRNumberOfVolumes">
+</entry>
+    <entry group="2005" element="26" vr="CS" vm="1" name="MROverSampleingPhase">
+</entry>
+    <entry group="2005" element="27" vr="CS" vm="1" name="MRPackageMode">
+</entry>
+    <entry group="2005" element="28" vr="CS" vm="1" name="MRPartialFourierFrequency">
+</entry>
+    <entry group="2005" element="29" vr="CS" vm="1" name="MRPartialFourierPhase">
+</entry>
+    <entry group="2005" element="2A" vr="IS" vm="1" name="MRPatientReferenceID">
+</entry>
+    <entry group="2005" element="2B" vr="SS" vm="1" name="MRPercentScanComplete">
+</entry>
+    <entry group="2005" element="2C" vr="CS" vm="1" name="MRPhaseEncodedRecording">
+</entry>
+    <entry group="2005" element="2D" vr="IS" vm="1" name="MRPlanScanSurveyNumberOfImages">
+</entry>
+    <entry group="2005" element="2E" vr="CS" vm="1" name="MRPPGPPUGating">
+</entry>
+    <entry group="2005" element="2F" vr="CS" vm="1" name="MRSpatialPresaturation">
+</entry>
+    <entry group="2005" element="30" vr="FL" vm="1-n" name="MRSeriesRepetitionTime">
+</entry>
+    <entry group="2005" element="31" vr="CS" vm="1" name="MRRespiratoryGating">
+</entry>
+    <entry group="2005" element="32" vr="CS" vm="1" name="SampleRepresentation">
+</entry>
+    <entry group="2005" element="33" vr="FL" vm="1" name="MRSeriesScanDuration">
+</entry>
+    <entry group="2005" element="34" vr="CS" vm="1" name="MRSegmentedKSpace">
+</entry>
+    <entry group="2005" element="35" vr="CS" vm="1" name="MRSeriesDataType">
+</entry>
+    <entry group="2005" element="36" vr="CS" vm="1" name="MRSeriesIsCardiac">
+</entry>
+    <entry group="2005" element="37" vr="CS" vm="1" name="MRSeriesIsSpectro">
+</entry>
+    <entry group="2005" element="38" vr="CS" vm="1" name="MRSpoiled">
+</entry>
+    <entry group="2005" element="39" vr="CS" vm="1" name="MRSteadyState">
+</entry>
+    <entry group="2005" element="3A" vr="SH" vm="1" name="MRSubAnatomy">
+</entry>
+    <entry group="2005" element="3B" vr="CS" vm="1" name="MRTimeReversedSteadyState">
+</entry>
+    <entry group="2005" element="3C" vr="CS" vm="1" name="MRSeriesTone">
+</entry>
+    <entry group="2005" element="3D" vr="SS" vm="1" name="MRNumberOfRRIntervalRanges">
+</entry>
+    <entry group="2005" element="3E" vr="SL" vm="1-n" name="MRRRIntervalsDistribution">
+</entry>
+    <entry group="2005" element="3F" vr="SL" vm="1" name="MRPlanScanAcquisitionNo">
+</entry>
+    <entry group="2005" element="40" vr="SL" vm="1-n" name="MRChemicalShiftNo">
+</entry>
+    <entry group="2005" element="41" vr="SL" vm="1-n" name="MRPlanScanDynamicScanNo">
+</entry>
+    <entry group="2005" element="42" vr="SL" vm="1-n" name="MRPlanScanSurveyEchoNo">
+</entry>
+    <entry group="2005" element="43" vr="CS" vm="1-n" name="MRPlanScanImageType">
+</entry>
+    <entry group="2005" element="44" vr="SL" vm="1-n" name="MRPlanScanPhaseNo">
+</entry>
+    <entry group="2005" element="45" vr="SL" vm="1-n" name="MRPlanScanReconstructionNo">
+</entry>
+    <entry group="2005" element="46" vr="CS" vm="1-n" name="MRPlanScanScanningSequence">
+</entry>
+    <entry group="2005" element="47" vr="SL" vm="1-n" name="MRPlanScanSliceNo">
+</entry>
+    <entry group="2005" element="48" vr="IS" vm="1-n" name="MRReferenceAcquisitionNo">
+</entry>
+    <entry group="2005" element="49" vr="IS" vm="1-n" name="MRReferenceChemicalShiftNo">
+</entry>
+    <entry group="2005" element="4A" vr="IS" vm="1-n" name="MRReferenceDynamicScanNo">
+</entry>
+    <entry group="2005" element="4B" vr="IS" vm="1-n" name="MRReferenceEchoNo">
+</entry>
+    <entry group="2005" element="4C" vr="CS" vm="1-n" name="MRReferenceEntity">
+</entry>
+    <entry group="2005" element="4D" vr="CS" vm="1-n" name="MRReferenceImageType">
+</entry>
+    <entry group="2005" element="4E" vr="FL" vm="1-n" name="MRSlabFovRL">
+</entry>
+    <entry group="2005" element="4F" vr="FL" vm="1-n" name="MRSlabOffcentreAP">
+</entry>
+    <entry group="2005" element="50" vr="FL" vm="1-n" name="MRSlabOffcentreFH">
+</entry>
+    <entry group="2005" element="51" vr="FL" vm="1-n" name="MRSlabOffcentreRL">
+</entry>
+    <entry group="2005" element="52" vr="CS" vm="1-n" name="MRSlabType">
+</entry>
+    <entry group="2005" element="53" vr="CS" vm="1-n" name="MRSlabViewAxis">
+</entry>
+    <entry group="2005" element="54" vr="FL" vm="1-n" name="MRVolumeAngulationAP">
+</entry>
+    <entry group="2005" element="55" vr="FL" vm="1-n" name="MRVolumeAngulationFH">
+</entry>
+    <entry group="2005" element="56" vr="FL" vm="1-n" name="MRVolumeAngulationRL">
+</entry>
+    <entry group="2005" element="57" vr="FL" vm="1-n" name="MRVolumeFovAP">
+</entry>
+    <entry group="2005" element="58" vr="FL" vm="1-n" name="MRVolumeFovFH">
+</entry>
+    <entry group="2005" element="59" vr="FL" vm="1-n" name="MRVolumeFovRL">
+</entry>
+    <entry group="2005" element="5A" vr="FL" vm="1-n" name="MRVolumeOffcentreAP">
+</entry>
+    <entry group="2005" element="5B" vr="FL" vm="1-n" name="MRVolumeOffcentreFH">
+</entry>
+    <entry group="2005" element="5C" vr="FL" vm="1-n" name="MRVolumeOffcentreRL">
+</entry>
+    <entry group="2005" element="5D" vr="CS" vm="1-n" name="MRVolumeType">
+</entry>
+    <entry group="2005" element="5E" vr="CS" vm="1-n" name="MRVolumeViewAxis">
+</entry>
+    <entry group="2005" element="5F" vr="CS" vm="1" name="MRStudyOrigin">
+</entry>
+    <entry group="2005" element="60" vr="IS" vm="1" name="MRStudySequenceNumber">
+</entry>
+    <entry group="2005" element="61" vr="CS" vm="1" name="MRImagePrepulseType">
+</entry>
+    <entry group="2005" element="63" vr="SS" vm="1" name="MRfMRIStatusIndication">
+</entry>
+    <entry group="2005" element="64" vr="IS" vm="1-n" name="MRReferencePhaseNo">
+</entry>
+    <entry group="2005" element="65" vr="IS" vm="1-n" name="MRReferenceReconstructionNo">
+</entry>
+    <entry group="2005" element="66" vr="CS" vm="1-n" name="MRReferenceScanningSequence">
+</entry>
+    <entry group="2005" element="67" vr="IS" vm="1-n" name="MRReferenceSliceNo">
+</entry>
+    <entry group="2005" element="68" vr="CS" vm="1-n" name="MRReferenceType">
+</entry>
+    <entry group="2005" element="69" vr="FL" vm="1-n" name="MRSlabAngulationAP">
+</entry>
+    <entry group="2005" element="6A" vr="FL" vm="1-n" name="MRSlabAngulationFH">
+</entry>
+    <entry group="2005" element="6B" vr="FL" vm="1-n" name="MRSlabAngulationRL">
+</entry>
+    <entry group="2005" element="6C" vr="FL" vm="1-n" name="MRSlabFovAP">
+</entry>
+    <entry group="2005" element="6D" vr="FL" vm="1-n" name="MRSlabFovFH">
+</entry>
+    <entry group="2005" element="6E" vr="CS" vm="1-n" name="MRImageScanningSequencePrivate">
+</entry>
+    <entry group="2005" element="6F" vr="CS" vm="1" name="MRSeriesAcquisitionTypePrivate">
+</entry>
+    <entry group="2005" element="70" vr="LO" vm="1" name="MRSeriesHardcopyProtocolEV">
+</entry>
+    <entry group="2005" element="71" vr="FL" vm="1-n" name="MRStackAngulationAP">
+</entry>
+    <entry group="2005" element="72" vr="FL" vm="1-n" name="MRStackAngulationFH">
+</entry>
+    <entry group="2005" element="73" vr="FL" vm="1-n" name="MRStackAngulationRL">
+</entry>
+    <entry group="2005" element="74" vr="FL" vm="1-n" name="MRStackFovAP">
+</entry>
+    <entry group="2005" element="75" vr="FL" vm="1-n" name="MRStackFovFH">
+</entry>
+    <entry group="2005" element="76" vr="FL" vm="1-n" name="MRStackFovRL">
+</entry>
+    <entry group="2005" element="78" vr="FL" vm="1-n" name="MRStackOffcentreAP">
+</entry>
+    <entry group="2005" element="79" vr="FL" vm="1-n" name="MRStackOffcentreFH">
+</entry>
+    <entry group="2005" element="7A" vr="FL" vm="1-n" name="MRStackOffcentreRL">
+</entry>
+    <entry group="2005" element="7B" vr="CS" vm="1-n" name="MRStackPreparationDirection">
+</entry>
+    <entry group="2005" element="7E" vr="FL" vm="1-n" name="MRStackSliceDistance">
+</entry>
+    <entry group="2005" element="80" vr="SQ" vm="1" name="SeriesPlanScan">
+</entry>
+    <entry group="2005" element="81" vr="CS" vm="1-n" name="MRStackViewAxis">
+</entry>
+    <entry group="2005" element="83" vr="SQ" vm="1" name="SeriesSlab">
+</entry>
+    <entry group="2005" element="84" vr="SQ" vm="1" name="SeriesReference">
+</entry>
+    <entry group="2005" element="85" vr="SQ" vm="1" name="SeriesVolume">
+</entry>
+    <entry group="2005" element="86" vr="SS" vm="1" name="MRNumberOfGeometry">
+</entry>
+    <entry group="2005" element="87" vr="SL" vm="1-n" name="MRNumberOfGeometrySlices">
+</entry>
+    <entry group="2005" element="88" vr="FL" vm="1-n" name="MRGeomAngulationAP">
+</entry>
+    <entry group="2005" element="89" vr="FL" vm="1-n" name="MRGeomAngulationFH">
+</entry>
+    <entry group="2005" element="8A" vr="FL" vm="1-n" name="MRGeomAngulationRL">
+</entry>
+    <entry group="2005" element="8B" vr="FL" vm="1-n" name="MRGeomFOVAP">
+</entry>
+    <entry group="2005" element="8C" vr="FL" vm="1-n" name="MRGeomFOVFH">
+</entry>
+    <entry group="2005" element="8D" vr="FL" vm="1-n" name="MRGeomFOVRL">
+</entry>
+    <entry group="2005" element="8E" vr="FL" vm="1-n" name="MRGeomOffCentreAP">
+</entry>
+    <entry group="2005" element="8F" vr="FL" vm="1-n" name="MRGeomOffCentreFH">
+</entry>
+    <entry group="2005" element="90" vr="FL" vm="1-n" name="MRGeomOffCentreRL">
+</entry>
+    <entry group="2005" element="91" vr="CS" vm="1-n" name="MRGeomPreparationDirect">
+</entry>
+    <entry group="2005" element="92" vr="FL" vm="1-n" name="MRGeomRadialAngle">
+</entry>
+    <entry group="2005" element="93" vr="CS" vm="1-n" name="MRGeomRadialAxis">
+</entry>
+    <entry group="2005" element="94" vr="FL" vm="1-n" name="MRGeomSliceDistance">
+</entry>
+    <entry group="2005" element="95" vr="SL" vm="1-n" name="MRGeomSliceNumber">
+</entry>
+    <entry group="2005" element="96" vr="CS" vm="1-n" name="MRGeomType">
+</entry>
+    <entry group="2005" element="97" vr="CS" vm="1-n" name="MRGeomViewAxis">
+</entry>
+    <entry group="2005" element="98" vr="CS" vm="1-n" name="MRGeomColour">
+</entry>
+    <entry group="2005" element="99" vr="CS" vm="1-n" name="MRGeomApplicationType">
+</entry>
+    <entry group="2005" element="9A" vr="SL" vm="1-n" name="MRGeomId">
+</entry>
+    <entry group="2005" element="9B" vr="SH" vm="1-n" name="MRGeomApplicationName">
+</entry>
+    <entry group="2005" element="9C" vr="SH" vm="1-n" name="MRGeomLableName">
+</entry>
+    <entry group="2005" element="9D" vr="CS" vm="1-n" name="MRGeomLineStyle">
+</entry>
+    <entry group="2005" element="9E" vr="SQ" vm="1" name="SeriesGeom">
+</entry>
+    <entry group="2005" element="9F" vr="CS" vm="1" name="MRSeriesSpectralSelectiveExcitationPulse">
+</entry>
+    <entry group="2005" element="A0" vr="FL" vm="1" name="MRImageDynamicScanBeginTime">
+</entry>
+    <entry group="2005" element="A1" vr="CS" vm="1" name="MRSyncraScanType">
+</entry>
+    <entry group="2005" element="A2" vr="CS" vm="1" name="MRIsCOCA">
+</entry>
+    <entry group="2005" element="A3" vr="IS" vm="1" name="MRStackCoilID">
+</entry>
+    <entry group="2005" element="A4" vr="IS" vm="1" name="MRStackCBBCoil1">
+</entry>
+    <entry group="2005" element="A5" vr="IS" vm="1" name="MRStackCBBCoil2">
+</entry>
+    <entry group="2005" element="A6" vr="IS" vm="1" name="MRStackChannelCombi">
+</entry>
+    <entry group="2005" element="A7" vr="CS" vm="1" name="MRStackCoilConn">
+</entry>
+    <entry group="2005" element="A8" vr="DS" vm="1" name="MRPrivateInversionTime">
+</entry>
+    <entry group="2005" element="A9" vr="CS" vm="1" name="MRSeriesGeometryCorrection">
+</entry>
+    <entry group="2005" element="B0" vr="FL" vm="1" name="MRImageDiffusionRL">
+</entry>
+    <entry group="2005" element="B1" vr="FL" vm="1" name="MRImageDiffusionAP">
+</entry>
+    <entry group="2005" element="B2" vr="FL" vm="1" name="MRImageDiffusionFH">
+</entry>
+    <entry group="2005" element="C0" vr="CS" vm="1" name="SeriesScanSequence">
+</entry>
+</dict>
+  <dict owner="Philips MR Imaging DD 005">
+    <entry group="2005" element="00" vr="CS" vm="1" name="MRVolumeViewEnabled">
+</entry>
+    <entry group="2005" element="01" vr="UL" vm="1" name="MRNumberOfStudyReference">
+</entry>
+    <entry group="2005" element="02" vr="SQ" vm="1" name="SPSCode">
+</entry>
+    <entry group="2005" element="03" vr="UL" vm="1" name="MRNumberOfSPSCodes">
+</entry>
+    <entry group="2005" element="07" vr="SS" vm="1" name="MRNrOfSpecificCharacterSet">
+</entry>
+    <entry group="2005" element="09" vr="DS" vm="1" name="RescaleInterceptOriginal">
+</entry>
+    <entry group="2005" element="0A" vr="DS" vm="1" name="RescaleSlopeOriginal">
+</entry>
+    <entry group="2005" element="0B" vr="LO" vm="1" name="RescaleTypeOriginal">
+</entry>
+    <entry group="2005" element="10" vr="IS" vm="1" name="MFConvTreatSpectorMixNo">
+</entry>
+    <entry group="2005" element="12" vr="IS" vm="1" name="MRImageDiffBValueNumber">
+</entry>
+    <entry group="2005" element="13" vr="IS" vm="1" name="MRImageGradientOrientationNumber">
+</entry>
+    <entry group="2005" element="14" vr="SL" vm="1" name="MRSeriesNrOfDiffBValues">
+</entry>
+    <entry group="2005" element="15" vr="SL" vm="1" name="MRSeriesNrOfDiffGradOrients">
+</entry>
+    <entry group="2005" element="16" vr="CS" vm="1" name="MRSeriesPlanMode">
+</entry>
+    <entry group="2005" element="17" vr="FD" vm="3" name="DiffusionBMatrix">
+</entry>
+    <entry group="2005" element="18" vr="CS" vm="1" name="PrivOperatingModeType">
+</entry>
+    <entry group="2005" element="19" vr="CS" vm="1" name="PrivOperatingMode">
+</entry>
+    <entry group="2005" element="1A" vr="CS" vm="1" name="MRFatSaturationTechnique">
+</entry>
+    <entry group="2005" element="1B" vr="IS" vm="1" name="MRVersionNumberDeletedImages">
+</entry>
+    <entry group="2005" element="1C" vr="IS" vm="1" name="MRVersionNumberDeletedSpectra">
+</entry>
+    <entry group="2005" element="1D" vr="IS" vm="1" name="MRVersionNumberDeletedBlobsets">
+</entry>
+    <entry group="2005" element="1E" vr="UL" vm="1" name="LUT1Offset">
+</entry>
+    <entry group="2005" element="1F" vr="UL" vm="1" name="LUT1Range">
+</entry>
+    <entry group="2005" element="20" vr="UL" vm="1" name="LUT1BeginColor">
+</entry>
+    <entry group="2005" element="21" vr="UL" vm="1" name="LUT1EndColor">
+</entry>
+    <entry group="2005" element="22" vr="UL" vm="1" name="LUT2Offset">
+</entry>
+    <entry group="2005" element="23" vr="UL" vm="1" name="LUT2Range">
+</entry>
+    <entry group="2005" element="24" vr="UL" vm="1" name="LUT2BeginColor">
+</entry>
+    <entry group="2005" element="25" vr="UL" vm="1" name="LUT2EndColor">
+</entry>
+    <entry group="2005" element="26" vr="CS" vm="1" name="ViewingHardcopyOnly">
+</entry>
+    <entry group="2005" element="27" vr="SQ" vm="1" name="PrivateEMR">
+</entry>
+    <entry group="2005" element="28" vr="SL" vm="1" name="MRSeriesNrOfLabelTypes">
+</entry>
+    <entry group="2005" element="29" vr="CS" vm="1" name="MRImageLabelType">
+</entry>
+    <entry group="2005" element="2A" vr="CS" vm="1" name="ExamPrintStatus">
+</entry>
+    <entry group="2005" element="2B" vr="CS" vm="1" name="ExamExportStatus">
+</entry>
+    <entry group="2005" element="2C" vr="CS" vm="1" name="ExamStorageCommitStatus">
+</entry>
+    <entry group="2005" element="2D" vr="CS" vm="1" name="ExamMediaWriteStatus">
+</entry>
+    <entry group="2005" element="2E" vr="FL" vm="1" name="MRSeriesDBdt">
+</entry>
+    <entry group="2005" element="2F" vr="FL" vm="1" name="MRSeriesProtonSAR">
+</entry>
+    <entry group="2005" element="30" vr="FL" vm="1" name="MRSeriesNonProtonSAR">
+</entry>
+    <entry group="2005" element="31" vr="FL" vm="1" name="MRSeriesLocalSAR">
+</entry>
+    <entry group="2005" element="32" vr="CS" vm="1" name="MRSeriesSafetyOverrideMode">
+</entry>
+    <entry group="2005" element="33" vr="DT" vm="1" name="EVDVDJobInParamsDatetime">
+</entry>
+    <entry group="2005" element="34" vr="DT" vm="1" name="DVDJobInParamsVolumeLabel">
+</entry>
+    <entry group="2005" element="35" vr="CS" vm="1" name="SpectroExamcard">
+</entry>
+    <entry group="2005" element="36" vr="UI" vm="1" name="MRRefSeriesInstanceUID">
+</entry>
+    <entry group="2005" element="37" vr="CS" vm="1" name="ColorLUTType">
+</entry>
+    <entry group="2005" element="3B" vr="CS" vm="1" name="MRIsCoilSurvey">
+</entry>
+    <entry group="2005" element="3C" vr="FL" vm="1" name="MRStackTablePosLong">
+</entry>
+    <entry group="2005" element="3D" vr="FL" vm="1" name="MRStackTablePosLat">
+</entry>
+    <entry group="2005" element="3E" vr="FL" vm="1" name="MRStackPosteriorCoilPos">
+</entry>
+    <entry group="2005" element="3F" vr="CS" vm="1" name="AIMDLimitsApplied">
+</entry>
+    <entry group="2005" element="40" vr="FL" vm="1" name="AIMDHeadSARLimit">
+</entry>
+    <entry group="2005" element="41" vr="FL" vm="1" name="AIMDWholeBodySARLimit">
+</entry>
+    <entry group="2005" element="42" vr="FL" vm="1" name="AIMDB1RMSLimit">
+</entry>
+    <entry group="2005" element="43" vr="FL" vm="1" name="AIMDdbDtLimit">
+</entry>
+    <entry group="2005" element="44" vr="IS" vm="1" name="TFEFactor">
+</entry>
+    <entry group="2005" element="45" vr="CS" vm="1" name="AttenuationCorrection">
+</entry>
+    <entry group="2005" element="46" vr="FL" vm="1" name="FWHMShim">
+</entry>
+    <entry group="2005" element="47" vr="FL" vm="1" name="PowerOptimization">
+</entry>
+    <entry group="2005" element="48" vr="FL" vm="1" name="CoilQ">
+</entry>
+    <entry group="2005" element="49" vr="FL" vm="1" name="ReceiverGain">
+</entry>
+    <entry group="2005" element="4A" vr="FL" vm="1" name="DataWindowDuration">
+</entry>
+    <entry group="2005" element="4B" vr="FL" vm="1" name="MixingTime">
+</entry>
+    <entry group="2005" element="4C" vr="FL" vm="1" name="FirstEchoTime">
+</entry>
+    <entry group="2005" element="4D" vr="CS" vm="1" name="ISB0Series">
+</entry>
+    <entry group="2005" element="4E" vr="CS" vm="1" name="ISB1Series">
+</entry>
+    <entry group="2005" element="4F" vr="CS" vm="1" name="VolumeSelect">
+</entry>
+    <entry group="2005" element="50" vr="SS" vm="1" name="MRNrOfPatientOtherIDs">
+</entry>
+    <entry group="2005" element="5C" vr="SQ" vm="1" name="SeriesBolusContrast">
+</entry>
+</dict>
+  <dict owner="Philips MR Imaging DD 004">
+    <entry group="2005" element="00" vr="SS" vm="1" name="MRSpectrumExtraNumber">
+</entry>
+    <entry group="2005" element="01" vr="SS" vm="1" name="MRSpectrumKxCoordinate">
+</entry>
+    <entry group="2005" element="02" vr="SS" vm="1" name="MRSpectrumKyCoordinate">
+</entry>
+    <entry group="2005" element="03" vr="SS" vm="1" name="MRSpectrumLocationNumber">
+</entry>
+    <entry group="2005" element="04" vr="SS" vm="1" name="MRSpectrumMixNumber">
+</entry>
+    <entry group="2005" element="05" vr="SS" vm="1" name="MRSpectrumXCoordinate">
+</entry>
+    <entry group="2005" element="06" vr="SS" vm="1" name="MRSpectrumYCoordinate">
+</entry>
+    <entry group="2005" element="07" vr="FL" vm="1" name="MRSpectrumDCLevel">
+</entry>
+    <entry group="2005" element="08" vr="FL" vm="1" name="MRSpectrumNoiseLevel">
+</entry>
+    <entry group="2005" element="09" vr="FL" vm="1" name="MRSpectrumBeginTime">
+</entry>
+    <entry group="2005" element="10" vr="FL" vm="1" name="MRSpectrumEchoTime">
+</entry>
+    <entry group="2005" element="12" vr="FL" vm="1" name="SpectrumNumber">
+</entry>
+    <entry group="2005" element="13" vr="SS" vm="1" name="MRSpectrumNumber">
+</entry>
+    <entry group="2005" element="14" vr="SS" vm="1" name="MRSpectrumNumberOfAverages">
+</entry>
+    <entry group="2005" element="15" vr="SS" vm="1" name="MRSpectrumNumberOfSamples">
+</entry>
+    <entry group="2005" element="16" vr="SS" vm="1" name="MRSpectrumScanSequenceNumber">
+</entry>
+    <entry group="2005" element="17" vr="SS" vm="1" name="MRSpectrumNumberOfPeaks">
+</entry>
+    <entry group="2005" element="18" vr="SQ" vm="1" name="MRSpectrumPeak">
+</entry>
+    <entry group="2005" element="19" vr="FL" vm="1-n" name="MRSpectrumPeakIntensity">
+</entry>
+    <entry group="2005" element="20" vr="LO" vm="1-n" name="MRSpectrumPeakLabel">
+</entry>
+    <entry group="2005" element="21" vr="FL" vm="1-n" name="MRSpectrumPeakPhase">
+</entry>
+    <entry group="2005" element="22" vr="FL" vm="1-n" name="MRSpectrumPeakPosition">
+</entry>
+    <entry group="2005" element="23" vr="CS" vm="1-n" name="MRSpectrumPeakType">
+</entry>
+    <entry group="2005" element="24" vr="FL" vm="1-n" name="MRSpectrumPeakWidth">
+</entry>
+    <entry group="2005" element="25" vr="CS" vm="1" name="MRSpectroSIB0Correction">
+</entry>
+    <entry group="2005" element="26" vr="FL" vm="1" name="MRSpectroB0EchoTopPosition">
+</entry>
+    <entry group="2005" element="27" vr="CS" vm="1" name="MRSpectroComplexComponent">
+</entry>
+    <entry group="2005" element="28" vr="CS" vm="1" name="MRSpectroDataOrigin">
+</entry>
+    <entry group="2005" element="29" vr="FL" vm="1" name="MRSpectroEchoTopPosition">
+</entry>
+    <entry group="2005" element="30" vr="CS" vm="1-n" name="MRInPlaneTransforms">
+</entry>
+    <entry group="2005" element="31" vr="SS" vm="1" name="MRNumberOfSpectraAcquired">
+</entry>
+    <entry group="2005" element="33" vr="FL" vm="3" name="MRPhaseEncodingEchoTopPositions">
+</entry>
+    <entry group="2005" element="34" vr="CS" vm="1" name="MRPhysicalQuantityForChemicalShift">
+</entry>
+    <entry group="2005" element="35" vr="CS" vm="1" name="MRPhysicalQuantitySpatial">
+</entry>
+    <entry group="2005" element="36" vr="FL" vm="1" name="MRReferenceFrequency">
+</entry>
+    <entry group="2005" element="37" vr="FL" vm="1" name="MRSampleOffset">
+</entry>
+    <entry group="2005" element="38" vr="FL" vm="1" name="MRSamplePitch">
+</entry>
+    <entry group="2005" element="39" vr="SS" vm="2" name="MRSearchIntervalForPeaks">
+</entry>
+    <entry group="2005" element="40" vr="CS" vm="1" name="MRSignalDomainForChemicalShift">
+</entry>
+    <entry group="2005" element="41" vr="CS" vm="1" name="MRSignalDomainSpatial">
+</entry>
+    <entry group="2005" element="42" vr="CS" vm="1" name="MRSignalType">
+</entry>
+    <entry group="2005" element="43" vr="CS" vm="1" name="MRSpectroAdditionalRotations">
+</entry>
+    <entry group="2005" element="44" vr="SS" vm="1" name="MRSpectroDisplayRanges">
+</entry>
+    <entry group="2005" element="45" vr="CS" vm="1" name="MRSpectroEchoAcquisition">
+</entry>
+    <entry group="2005" element="46" vr="CS" vm="1" name="MRSpectroFrequencyUnit">
+</entry>
+    <entry group="2005" element="47" vr="FL" vm="1" name="MRSpectroGamma">
+</entry>
+    <entry group="2005" element="48" vr="CS" vm="1" name="MRSpectroHiddenLineRemoval">
+</entry>
+    <entry group="2005" element="49" vr="FL" vm="1" name="MRSpectroHorizontalShift">
+</entry>
+    <entry group="2005" element="50" vr="FL" vm="3" name="MRSpectroHorizontalWindow">
+</entry>
+    <entry group="2005" element="51" vr="SS" vm="1" name="MRSpectroNumberOfDisplayRanges">
+</entry>
+    <entry group="2005" element="52" vr="SS" vm="1" name="MRSpectroNumberOfEchoPulses">
+</entry>
+    <entry group="2005" element="53" vr="LO" vm="1-n" name="MRSpectroProcessingHistory">
+</entry>
+    <entry group="2005" element="54" vr="CS" vm="1" name="MRSpectroScanType">
+</entry>
+    <entry group="2005" element="55" vr="FL" vm="1-n" name="MRSpectroSICSIntervals">
+</entry>
+    <entry group="2005" element="56" vr="CS" vm="1" name="MRSpectroSIMode">
+</entry>
+    <entry group="2005" element="57" vr="SS" vm="1" name="MRSpectroSpectralBW">
+</entry>
+    <entry group="2005" element="58" vr="LO" vm="1" name="MRSpectroTitleLine">
+</entry>
+    <entry group="2005" element="59" vr="FL" vm="1" name="MRSpectroTurboEchoSpacing">
+</entry>
+    <entry group="2005" element="60" vr="FL" vm="1" name="MRSpectroVerticalShift">
+</entry>
+    <entry group="2005" element="61" vr="FL" vm="2" name="MRSpectroVerticalWindow">
+</entry>
+    <entry group="2005" element="62" vr="FL" vm="1" name="MRSpectroOffset">
+</entry>
+    <entry group="2005" element="63" vr="FL" vm="1" name="MRSpectrumPitch">
+</entry>
+    <entry group="2005" element="64" vr="CS" vm="1" name="MRVolumeSelection">
+</entry>
+    <entry group="2005" element="70" vr="SS" vm="1" name="MRNoMixesSpectro">
+</entry>
+    <entry group="2005" element="71" vr="SQ" vm="1" name="MRSeriesSPMix">
+</entry>
+    <entry group="2005" element="72" vr="SS" vm="1 2" name="SPMixTResolution">
+</entry>
+    <entry group="2005" element="73" vr="SS" vm="1 2" name="SPMixKXResolution">
+</entry>
+    <entry group="2005" element="74" vr="SS" vm="1 2" name="SPMixKYResolution">
+</entry>
+    <entry group="2005" element="75" vr="SS" vm="1 2" name="SPMixFResolution">
+</entry>
+    <entry group="2005" element="76" vr="SS" vm="1 2" name="SPMixXResolution">
+</entry>
+    <entry group="2005" element="77" vr="SS" vm="1 2" name="SPMixYResolution">
+</entry>
+    <entry group="2005" element="78" vr="SS" vm="1 2" name="SPMixNoSpectraIntended">
+</entry>
+    <entry group="2005" element="79" vr="SS" vm="1 2" name="SPMixNoAverages">
+</entry>
+    <entry group="2005" element="80" vr="SL" vm="1" name="MRSeriesNrOfMFImageObjects">
+</entry>
+    <entry group="2005" element="81" vr="IS" vm="1" name="MRScanoGramSurveyNumberOfImages">
+</entry>
+    <entry group="2005" element="82" vr="UL" vm="1" name="MRNumberOfProcedureCodes">
+</entry>
+    <entry group="2005" element="83" vr="CS" vm="1-n" name="SortAttributes">
+</entry>
+    <entry group="2005" element="84" vr="SS" vm="1" name="MRNrSortAttributes">
+</entry>
+    <entry group="2005" element="85" vr="CS" vm="1" name="ImageDisplayDirection">
+</entry>
+    <entry group="2005" element="86" vr="CS" vm="1" name="InsetScanogram">
+</entry>
+    <entry group="2005" element="87" vr="SS" vm="1" name="MRDisplayLayoutNrColumns">
+</entry>
+    <entry group="2005" element="88" vr="SS" vm="1" name="MRDisplayLayoutNrRows">
+</entry>
+    <entry group="2005" element="89" vr="SQ" vm="1" name="ViewingProtocol">
+</entry>
+    <entry group="2005" element="90" vr="CS" vm="1" name="MRStackCoilFunction">
+</entry>
+    <entry group="2005" element="91" vr="PN" vm="1" name="PatientNameJobInParams">
+</entry>
+    <entry group="2005" element="92" vr="IS" vm="1" name="MRGeolinkID">
+</entry>
+    <entry group="2005" element="93" vr="IS" vm="1" name="MRStationNo">
+</entry>
+    <entry group="2005" element="94" vr="CS" vm="1-n" name="ProcessingHistory">
+</entry>
+    <entry group="2005" element="95" vr="UI" vm="1" name="ViewProcedureString">
+</entry>
+    <entry group="2005" element="96" vr="CS" vm="1" name="MRFlowImagesPresent">
+</entry>
+    <entry group="2005" element="98" vr="CS" vm="1" name="MRMobiviewEnabled">
+</entry>
+    <entry group="2005" element="99" vr="CS" vm="1" name="MRIViewBoldEnabled">
+</entry>
+</dict>
+</dicts>

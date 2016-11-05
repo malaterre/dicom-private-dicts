@@ -443,6 +443,484 @@
     <entry owner="MMCPrivate" group="0029" element="xxc3" vr="CS" vm="1" name="RephaseOrderSlice"/>
     <entry owner="MMCPrivate" group="0029" element="xxc4" vr="CS" vm="1" name="RephaseOrderPhase"/>
     <entry owner="MMCPrivate" group="0029" element="xxc5" vr="CS" vm="1" name="RephaseOrderFreq"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx01" vr="FL" vm="1" name="MRImageChemicalShift"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx02" vr="IS" vm="1" name="MRImageChemicalShiftNumber"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx03" vr="FL" vm="1" name="MRImageDiffusionBFactor"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx04" vr="CS" vm="1" name="MRImageDiffusionDirection"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx05" vr="SS" vm="1" name="GraphicAnnotationParentID"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx06" vr="CS" vm="1" name="MRImageEnhanced"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx07" vr="CS" vm="1" name="MRImageTypeEDES"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx08" vr="IS" vm="1" name="MRImagePhaseNumber"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx09" vr="FL" vm="1" name="MRImagePrepulseDelay"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx0a" vr="IS" vm="1" name="ImagePlaneNumber"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx0b" vr="CS" vm="1" name="ImagePlaneOrientation"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx0c" vr="CS" vm="1" name="MRSeriesArrhythmiaRejection"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx0e" vr="CS" vm="1" name="MRSeriesCardiacCycled"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx0f" vr="SS" vm="1" name="MRSeriesCardiacGateWidth"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx10" vr="CS" vm="1" name="MRSeriesCardiacSync"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx11" vr="FL" vm="1" name="MRSeriesDiffusionEchoTime"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx12" vr="CS" vm="1" name="MRSeriesDynamicSeries"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx13" vr="SL" vm="1" name="MRSeriesEPIFactor"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx14" vr="SL" vm="1" name="MRSeriesNrOfEchoes"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx15" vr="SS" vm="1" name="MRSeriesNrOfLocations"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx16" vr="SS" vm="1" name="MRSeriesNrOfPhaseContrastDirctns"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx17" vr="SL" vm="1" name="MRSeriesNrOfPhases"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx18" vr="SL" vm="1" name="MRSeriesNrOfSlices"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx19" vr="CS" vm="1" name="MRSeriesPartialMatrixScanned"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx1a" vr="FL" vm="3" name="MRSeriesPCVelocity"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx1b" vr="FL" vm="1" name="MRSeriesPrepulseDelay"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx1c" vr="CS" vm="1" name="MRSeriesPrepulseType"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx1d" vr="IS" vm="1" name="MRSeriesReconstructionNumber"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx1e" vr="CS" vm="1" name="MRSeriesReformatAccuracy"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx1f" vr="CS" vm="1" name="MRSeriesRespirationSync"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx20" vr="LO" vm="1" name="MRSeriesScanningTechniqueDesc"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx21" vr="CS" vm="1" name="MRSeriesSelPartInversionRecovery"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx22" vr="FL" vm="1" name="MRSeriesWaterFatShift"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx23" vr="DS" vm="1" name="MRSeriesFlipAngle"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx24" vr="CS" vm="1" name="MRSeriesIsInteractive"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx25" vr="SH" vm="1" name="MRSeriesEchoTimeDisplay"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx26" vr="CS" vm="1" name="PresentationStateSubtractionActive"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx2d" vr="SS" vm="1" name="StackNumberOfSlices"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx32" vr="FL" vm="1" name="StackRadialAngle"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx33" vr="CS" vm="1" name="StackRadialAxis"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx35" vr="SS" vm="1" name="StackSliceNumber"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx36" vr="CS" vm="1" name="StackType"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx3d" vr="UL" vm="1" name="ContourFillColor"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx3f" vr="CS" vm="1" name="DisplayedAreaZoomInterpolationMeth"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx3f" vr="CS" vm="1" name="ZoomMode"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx43" vr="IS" vm="2" name="EllipsDisplShutMajorAxFrstEndPnt"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx44" vr="IS" vm="2" name="EllipsDisplShutMajorAxScndEndPnt"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx45" vr="IS" vm="2" name="EllipsDisplShutOtherAxFrstEndPnt"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx46" vr="CS" vm="1" name="GraphicLineStyle"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx47" vr="FL" vm="1" name="GraphicLineWidth"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx48" vr="SS" vm="1" name="GraphicAnnotationID"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx4b" vr="CS" vm="1" name="InterpolationMethod"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx4c" vr="CS" vm="1" name="PolyLineBeginPointStyle"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx4d" vr="CS" vm="1" name="PolyLineEndPointStyle"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx4e" vr="CS" vm="1" name="WindowSmoothingTaste"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx50" vr="LO" vm="1" name="GraphicMarkerType"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx51" vr="IS" vm="1" name="OverlayPlaneID"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx52" vr="UI" vm="1" name="ImagePresentationStateUID"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx53" vr="CS" vm="1" name="PresentationGLTrafoInvert"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx53" vr="CS" vm="1" name="WindowInvert"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx54" vr="FL" vm="1" name="ContourFillTransparency"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx55" vr="UL" vm="1" name="GraphicLineColor"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx56" vr="CS" vm="1" name="GraphicType"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx5a" vr="ST" vm="1" name="GraphicAnnotationModel"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx5d" vr="ST" vm="1" name="MeasurementTextUnits"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx5e" vr="ST" vm="1" name="MeasurementTextType"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx5f" vr="SQ" vm="1" name="Stack"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx60" vr="SL" vm="1" name="MRSeriesNrOfStacks"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx61" vr="CS" vm="1" name="SeriesTransmitted"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx62" vr="CS" vm="1" name="SeriesCommitted"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx63" vr="CS" vm="1" name="ExaminationSource"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx64" vr="SH" vm="1" name="TextType"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx65" vr="SQ" vm="1" name="GraphicOverlayPlane"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx65" vr="SQ" vm="1" name="OverlayPlane"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx65" vr="SQ" vm="1" name="ROIOverlayPlane"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx68" vr="SQ" vm="1" name="LinearModalityGLTrafo"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx69" vr="SQ" vm="1" name="DisplayShutter"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx6a" vr="SQ" vm="1" name="SpatialTransformation"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx6d" vr="LO" vm="1" name="TextFont"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx71" vr="CS" vm="1" name="GraphicConstraint"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx72" vr="IS" vm="2" name="EllipsDisplShutOtherAxScndEndPnt"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx76" vr="UI" vm="1" name="MRNumberOfFrames"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx77" vr="CS" vm="1" name="GLTrafoType"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx7a" vr="FL" vm="1" name="WindowRoundingFactor"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx7b" vr="IS" vm="1" name="MRSeriesAcquisitionNumber"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx81" vr="IS" vm="1" name="MRSeriesNrOfDynamicScans"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx82" vr="IS" vm="1" name="MRSeriesEchoTrainLength"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx83" vr="DS" vm="1" name="MRSeriesImagingFrequency"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx84" vr="DS" vm="1" name="MRSeriesInversionTime"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx85" vr="DS" vm="1" name="MRSeriesMagneticFieldStrength"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx86" vr="IS" vm="1" name="MRSeriesNrOfPhaseEncodingSteps"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx87" vr="SH" vm="1" name="MRSeriesNucleus"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx88" vr="DS" vm="1" name="MRSeriesNumberOfAverages"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx89" vr="DS" vm="1" name="MRSeriesPercentPhaseFieldOfView"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx8a" vr="DS" vm="1" name="MRSeriesPercentSampling"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx8b" vr="SH" vm="1" name="MRSeriesTransmittingCoil"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx90" vr="LO" vm="1" name="TextForegroundColor"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx91" vr="LO" vm="1" name="TextBackgroundColor"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx92" vr="LO" vm="1" name="TextShadowColor"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx93" vr="LO" vm="1" name="TextStyle"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx9b" vr="UL" vm="1" name="GraphicNumber"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xx9c" vr="LO" vm="1" name="GraphicAnnotationLabel"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xxa3" vr="UL" vm="1" name="TextColorForeground"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xxa4" vr="UL" vm="1" name="TextColorBackground"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xxa5" vr="UL" vm="1" name="TextColorShadow"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xxc8" vr="LO" vm="1" name="ExamCardName"/>
+    <entry owner="Philips Imaging DD 001" group="2001" element="xxcc" vr="ST" vm="1" name="SeriesDerivationDescription"/>
+    <entry owner="Philips MR Imaging DD 003" group="2005" element="xx00" vr="UL" vm="1" name="MRNumberOfSOPCommon"/>
+    <entry owner="Philips MR Imaging DD 003" group="2005" element="xx01" vr="UL" vm="1" name="MRNoOfFilmConsumption"/>
+    <entry owner="Philips MR Imaging DD 003" group="2005" element="xx13" vr="UL" vm="1" name="MRNumberOfCodes"/>
+    <entry owner="Philips MR Imaging DD 003" group="2005" element="xx34" vr="SL" vm="1" name="MRNumberOfImagePerSeriesRef"/>
+    <entry owner="Philips MR Imaging DD 003" group="2005" element="xx43" vr="SS" vm="1" name="MRNoDateOfLastCalibration"/>
+    <entry owner="Philips MR Imaging DD 003" group="2005" element="xx44" vr="SS" vm="1" name="MRNoTimeOfLastCalibration"/>
+    <entry owner="Philips MR Imaging DD 003" group="2005" element="xx45" vr="SS" vm="1" name="MRNrOfSoftwareVersion"/>
+    <entry owner="Philips MR Imaging DD 003" group="2005" element="xx47" vr="SS" vm="1" name="MRNrOfPatientOtherNames"/>
+    <entry owner="Philips MR Imaging DD 003" group="2005" element="xx48" vr="SS" vm="1" name="MRNrOfReqRecipeOfResults"/>
+    <entry owner="Philips MR Imaging DD 003" group="2005" element="xx49" vr="SS" vm="1" name="MRNrOfSeriesOperatorsName"/>
+    <entry owner="Philips MR Imaging DD 003" group="2005" element="xx50" vr="SS" vm="1" name="MRNrOfSeriesPerfPhysiName"/>
+    <entry owner="Philips MR Imaging DD 003" group="2005" element="xx51" vr="SS" vm="1" name="MRNrOfStudyAdmittingDiagnosticDescr"/>
+    <entry owner="Philips MR Imaging DD 003" group="2005" element="xx52" vr="SS" vm="1" name="MRNrOfStudyPatientContrastAllergies"/>
+    <entry owner="Philips MR Imaging DD 003" group="2005" element="xx53" vr="SS" vm="1" name="MRNrOfStudyPatientMedicalAlerts"/>
+    <entry owner="Philips MR Imaging DD 003" group="2005" element="xx54" vr="SS" vm="1" name="MRNrOfStudyPhysiciansOfRecord"/>
+    <entry owner="Philips MR Imaging DD 003" group="2005" element="xx55" vr="SS" vm="1" name="MRNrOfStudyPhysiReadingStudy"/>
+    <entry owner="Philips MR Imaging DD 003" group="2005" element="xx56" vr="SS" vm="1" name="MRNrSCSoftwareVersions"/>
+    <entry owner="Philips MR Imaging DD 003" group="2005" element="xx57" vr="SS" vm="1" name="MRNrRunningAttributes"/>
+    <entry owner="Philips MR Imaging DD 003" group="2005" element="xx70" vr="OW" vm="1-n" name="SpectrumPixelData"/>
+    <entry owner="Philips MR Imaging DD 003" group="2005" element="xx81" vr="UI" vm="1" name="DefaultImageUID"/>
+    <entry owner="Philips MR Imaging DD 003" group="2005" element="xx82" vr="CS" vm="1-n" name="RunningAttributes"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx15" vr="LO" vm="1" name="MRUserName"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx16" vr="LO" vm="1" name="MRPassWord"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx17" vr="LO" vm="1" name="MRServerName"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx18" vr="LO" vm="1" name="MRDataBaseName"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx19" vr="LO" vm="1" name="MRRootName"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx20" vr="LO" vm="1" name="DMIApplicationName"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx2d" vr="LO" vm="1" name="MRRootId"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx32" vr="SQ" vm="1" name="MRBlobDataObjectArray"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx34" vr="LT" vm="1" name="SeriesTransactionUID"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx35" vr="IS" vm="1" name="ParentID"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx36" vr="PN" vm="1" name="ParentType"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx37" vr="PN" vm="1" name="MRBlobName"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx38" vr="PN" vm="1" name="MRApplicationName"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx39" vr="PN" vm="1" name="MRTypeName"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx40" vr="PN" vm="1" name="MRVersionStr"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx41" vr="PN" vm="1" name="MRCommentStr"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx42" vr="CS" vm="1" name="BlobInFile"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx43" vr="SL" vm="1" name="MRActualBlobSize"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx44" vr="OW" vm="1" name="MRBlobData"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx45" vr="PN" vm="1" name="BlobFilename"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx46" vr="SL" vm="1" name="BlobOffset"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx47" vr="CS" vm="1" name="MRBlobFlag"/>
+    <entry owner="Philips MR Imaging DD 002" group="2005" element="xx99" vr="UL" vm="1" name="MRNumberOfRequestExcerpts"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx00" vr="FL" vm="1" name="MRImageAngulationAP"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx01" vr="FL" vm="1" name="MRImageAngulationFH"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx02" vr="FL" vm="1" name="MRImageAngulationRL"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx03" vr="IS" vm="1" name="ImageAnnotationCount"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx04" vr="CS" vm="1" name="MRImageDisplayOrientation"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx07" vr="IS" vm="1" name="ImageLineCount"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx08" vr="FL" vm="1" name="MRImageOffCentreAP"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx09" vr="FL" vm="1" name="MRImageOffCentreFH"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx0a" vr="FL" vm="1" name="MRImageOffCentreRL"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx0b" vr="FL" vm="1" name="MRMaxFP"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx0c" vr="FL" vm="1" name="MRMinFP"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx0d" vr="FL" vm="1" name="MRScaleIntercept"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx0e" vr="FL" vm="1" name="MRScaleSlope"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx0f" vr="DS" vm="1" name="WindowCenterOriginal"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx10" vr="DS" vm="1" name="WindowWidthOriginal"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx11" vr="CS" vm="1-n" name="MRImageTypeMR"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx12" vr="CS" vm="1" name="MRCardiacGating"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx13" vr="CS" vm="1" name="MRSeriesDevelopmentMode"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx14" vr="CS" vm="1" name="MRSeriesDiffusion"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx15" vr="CS" vm="1" name="MRFatSaturation"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx16" vr="CS" vm="1" name="MRFlowCompensation"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx17" vr="CS" vm="1" name="MRFourierInterpolation"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx18" vr="LO" vm="1" name="MRHardcopyProtocol"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx19" vr="CS" vm="1" name="MRInverseReconstructed"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx1a" vr="SS" vm="1" name="MRLabelSyntax"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx1b" vr="CS" vm="1" name="MRMagnetiPrepared"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx1c" vr="CS" vm="1" name="MRMagnetTransferConst"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx1d" vr="SS" vm="1" name="MRMeasurementScanResolution"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx1e" vr="SH" vm="1" name="SliceSeriesMIPProtocol"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx1f" vr="SH" vm="1" name="SliceSeriesMPRProtocol"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx20" vr="SL" vm="1" name="MRSeriesNrOfChemicalShifts"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx21" vr="SS" vm="1" name="MRNumberOfMixes"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx22" vr="IS" vm="1" name="MRNumberOfReferences"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx23" vr="SS" vm="1" name="MRNumberOfSlabs"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx25" vr="SS" vm="1" name="MRNumberOfVolumes"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx26" vr="CS" vm="1" name="MROverSampleingPhase"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx27" vr="CS" vm="1" name="MRPackageMode"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx28" vr="CS" vm="1" name="MRPartialFourierFrequency"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx29" vr="CS" vm="1" name="MRPartialFourierPhase"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx2a" vr="IS" vm="1" name="MRPatientReferenceID"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx2b" vr="SS" vm="1" name="MRPercentScanComplete"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx2c" vr="CS" vm="1" name="MRPhaseEncodedRecording"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx2d" vr="IS" vm="1" name="MRPlanScanSurveyNumberOfImages"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx2e" vr="CS" vm="1" name="MRPPGPPUGating"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx2f" vr="CS" vm="1" name="MRSpatialPresaturation"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx30" vr="FL" vm="1-n" name="MRSeriesRepetitionTime"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx31" vr="CS" vm="1" name="MRRespiratoryGating"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx32" vr="CS" vm="1" name="SampleRepresentation"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx33" vr="FL" vm="1" name="MRSeriesScanDuration"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx34" vr="CS" vm="1" name="MRSegmentedKSpace"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx35" vr="CS" vm="1" name="MRSeriesDataType"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx36" vr="CS" vm="1" name="MRSeriesIsCardiac"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx37" vr="CS" vm="1" name="MRSeriesIsSpectro"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx38" vr="CS" vm="1" name="MRSpoiled"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx39" vr="CS" vm="1" name="MRSteadyState"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx3a" vr="SH" vm="1" name="MRSubAnatomy"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx3b" vr="CS" vm="1" name="MRTimeReversedSteadyState"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx3c" vr="CS" vm="1" name="MRSeriesTone"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx3d" vr="SS" vm="1" name="MRNumberOfRRIntervalRanges"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx3e" vr="SL" vm="1-n" name="MRRRIntervalsDistribution"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx3f" vr="SL" vm="1" name="MRPlanScanAcquisitionNo"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx40" vr="SL" vm="1-n" name="MRChemicalShiftNo"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx41" vr="SL" vm="1-n" name="MRPlanScanDynamicScanNo"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx42" vr="SL" vm="1-n" name="MRPlanScanSurveyEchoNo"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx43" vr="CS" vm="1-n" name="MRPlanScanImageType"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx44" vr="SL" vm="1-n" name="MRPlanScanPhaseNo"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx45" vr="SL" vm="1-n" name="MRPlanScanReconstructionNo"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx46" vr="CS" vm="1-n" name="MRPlanScanScanningSequence"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx47" vr="SL" vm="1-n" name="MRPlanScanSliceNo"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx48" vr="IS" vm="1-n" name="MRReferenceAcquisitionNo"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx49" vr="IS" vm="1-n" name="MRReferenceChemicalShiftNo"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx4a" vr="IS" vm="1-n" name="MRReferenceDynamicScanNo"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx4b" vr="IS" vm="1-n" name="MRReferenceEchoNo"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx4c" vr="CS" vm="1-n" name="MRReferenceEntity"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx4d" vr="CS" vm="1-n" name="MRReferenceImageType"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx4e" vr="FL" vm="1-n" name="MRSlabFovRL"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx4f" vr="FL" vm="1-n" name="MRSlabOffcentreAP"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx50" vr="FL" vm="1-n" name="MRSlabOffcentreFH"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx51" vr="FL" vm="1-n" name="MRSlabOffcentreRL"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx52" vr="CS" vm="1-n" name="MRSlabType"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx53" vr="CS" vm="1-n" name="MRSlabViewAxis"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx54" vr="FL" vm="1-n" name="MRVolumeAngulationAP"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx55" vr="FL" vm="1-n" name="MRVolumeAngulationFH"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx56" vr="FL" vm="1-n" name="MRVolumeAngulationRL"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx57" vr="FL" vm="1-n" name="MRVolumeFovAP"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx58" vr="FL" vm="1-n" name="MRVolumeFovFH"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx59" vr="FL" vm="1-n" name="MRVolumeFovRL"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx5a" vr="FL" vm="1-n" name="MRVolumeOffcentreAP"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx5b" vr="FL" vm="1-n" name="MRVolumeOffcentreFH"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx5c" vr="FL" vm="1-n" name="MRVolumeOffcentreRL"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx5d" vr="CS" vm="1-n" name="MRVolumeType"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx5e" vr="CS" vm="1-n" name="MRVolumeViewAxis"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx5f" vr="CS" vm="1" name="MRStudyOrigin"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx60" vr="IS" vm="1" name="MRStudySequenceNumber"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx61" vr="CS" vm="1" name="MRImagePrepulseType"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx63" vr="SS" vm="1" name="MRfMRIStatusIndication"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx64" vr="IS" vm="1-n" name="MRReferencePhaseNo"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx65" vr="IS" vm="1-n" name="MRReferenceReconstructionNo"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx66" vr="CS" vm="1-n" name="MRReferenceScanningSequence"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx67" vr="IS" vm="1-n" name="MRReferenceSliceNo"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx68" vr="CS" vm="1-n" name="MRReferenceType"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx69" vr="FL" vm="1-n" name="MRSlabAngulationAP"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx6a" vr="FL" vm="1-n" name="MRSlabAngulationFH"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx6b" vr="FL" vm="1-n" name="MRSlabAngulationRL"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx6c" vr="FL" vm="1-n" name="MRSlabFovAP"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx6d" vr="FL" vm="1-n" name="MRSlabFovFH"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx6e" vr="CS" vm="1-n" name="MRImageScanningSequencePrivate"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx6f" vr="CS" vm="1" name="MRSeriesAcquisitionTypePrivate"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx70" vr="LO" vm="1" name="MRSeriesHardcopyProtocolEV"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx71" vr="FL" vm="1-n" name="MRStackAngulationAP"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx72" vr="FL" vm="1-n" name="MRStackAngulationFH"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx73" vr="FL" vm="1-n" name="MRStackAngulationRL"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx74" vr="FL" vm="1-n" name="MRStackFovAP"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx75" vr="FL" vm="1-n" name="MRStackFovFH"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx76" vr="FL" vm="1-n" name="MRStackFovRL"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx78" vr="FL" vm="1-n" name="MRStackOffcentreAP"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx79" vr="FL" vm="1-n" name="MRStackOffcentreFH"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx7a" vr="FL" vm="1-n" name="MRStackOffcentreRL"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx7b" vr="CS" vm="1-n" name="MRStackPreparationDirection"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx7e" vr="FL" vm="1-n" name="MRStackSliceDistance"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx80" vr="SQ" vm="1" name="SeriesPlanScan"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx81" vr="CS" vm="1-n" name="MRStackViewAxis"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx83" vr="SQ" vm="1" name="SeriesSlab"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx84" vr="SQ" vm="1" name="SeriesReference"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx85" vr="SQ" vm="1" name="SeriesVolume"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx86" vr="SS" vm="1" name="MRNumberOfGeometry"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx87" vr="SL" vm="1-n" name="MRNumberOfGeometrySlices"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx88" vr="FL" vm="1-n" name="MRGeomAngulationAP"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx89" vr="FL" vm="1-n" name="MRGeomAngulationFH"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx8a" vr="FL" vm="1-n" name="MRGeomAngulationRL"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx8b" vr="FL" vm="1-n" name="MRGeomFOVAP"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx8c" vr="FL" vm="1-n" name="MRGeomFOVFH"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx8d" vr="FL" vm="1-n" name="MRGeomFOVRL"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx8e" vr="FL" vm="1-n" name="MRGeomOffCentreAP"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx8f" vr="FL" vm="1-n" name="MRGeomOffCentreFH"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx90" vr="FL" vm="1-n" name="MRGeomOffCentreRL"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx91" vr="CS" vm="1-n" name="MRGeomPreparationDirect"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx92" vr="FL" vm="1-n" name="MRGeomRadialAngle"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx93" vr="CS" vm="1-n" name="MRGeomRadialAxis"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx94" vr="FL" vm="1-n" name="MRGeomSliceDistance"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx95" vr="SL" vm="1-n" name="MRGeomSliceNumber"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx96" vr="CS" vm="1-n" name="MRGeomType"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx97" vr="CS" vm="1-n" name="MRGeomViewAxis"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx98" vr="CS" vm="1-n" name="MRGeomColour"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx99" vr="CS" vm="1-n" name="MRGeomApplicationType"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx9a" vr="SL" vm="1-n" name="MRGeomId"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx9b" vr="SH" vm="1-n" name="MRGeomApplicationName"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx9c" vr="SH" vm="1-n" name="MRGeomLableName"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx9d" vr="CS" vm="1-n" name="MRGeomLineStyle"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx9e" vr="SQ" vm="1" name="SeriesGeom"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xx9f" vr="CS" vm="1" name="MRSeriesSpectralSelectiveExcitationPulse"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xxa0" vr="FL" vm="1" name="MRImageDynamicScanBeginTime"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xxa1" vr="CS" vm="1" name="MRSyncraScanType"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xxa2" vr="CS" vm="1" name="MRIsCOCA"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xxa3" vr="IS" vm="1" name="MRStackCoilID"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xxa4" vr="IS" vm="1" name="MRStackCBBCoil1"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xxa5" vr="IS" vm="1" name="MRStackCBBCoil2"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xxa6" vr="IS" vm="1" name="MRStackChannelCombi"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xxa7" vr="CS" vm="1" name="MRStackCoilConn"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xxa8" vr="DS" vm="1" name="MRPrivateInversionTime"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xxa9" vr="CS" vm="1" name="MRSeriesGeometryCorrection"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xxb0" vr="FL" vm="1" name="MRImageDiffusionRL"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xxb1" vr="FL" vm="1" name="MRImageDiffusionAP"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xxb2" vr="FL" vm="1" name="MRImageDiffusionFH"/>
+    <entry owner="Philips MR Imaging DD 001" group="2005" element="xxc0" vr="CS" vm="1" name="SeriesScanSequence"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx00" vr="CS" vm="1" name="MRVolumeViewEnabled"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx01" vr="UL" vm="1" name="MRNumberOfStudyReference"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx02" vr="SQ" vm="1" name="SPSCode"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx03" vr="UL" vm="1" name="MRNumberOfSPSCodes"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx07" vr="SS" vm="1" name="MRNrOfSpecificCharacterSet"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx09" vr="DS" vm="1" name="RescaleInterceptOriginal"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx0a" vr="DS" vm="1" name="RescaleSlopeOriginal"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx0b" vr="LO" vm="1" name="RescaleTypeOriginal"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx10" vr="IS" vm="1" name="MFConvTreatSpectorMixNo"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx12" vr="IS" vm="1" name="MRImageDiffBValueNumber"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx13" vr="IS" vm="1" name="MRImageGradientOrientationNumber"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx14" vr="SL" vm="1" name="MRSeriesNrOfDiffBValues"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx15" vr="SL" vm="1" name="MRSeriesNrOfDiffGradOrients"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx16" vr="CS" vm="1" name="MRSeriesPlanMode"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx17" vr="FD" vm="3" name="DiffusionBMatrix"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx18" vr="CS" vm="1" name="PrivOperatingModeType"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx19" vr="CS" vm="1" name="PrivOperatingMode"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx1a" vr="CS" vm="1" name="MRFatSaturationTechnique"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx1b" vr="IS" vm="1" name="MRVersionNumberDeletedImages"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx1c" vr="IS" vm="1" name="MRVersionNumberDeletedSpectra"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx1d" vr="IS" vm="1" name="MRVersionNumberDeletedBlobsets"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx1e" vr="UL" vm="1" name="LUT1Offset"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx1f" vr="UL" vm="1" name="LUT1Range"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx20" vr="UL" vm="1" name="LUT1BeginColor"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx21" vr="UL" vm="1" name="LUT1EndColor"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx22" vr="UL" vm="1" name="LUT2Offset"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx23" vr="UL" vm="1" name="LUT2Range"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx24" vr="UL" vm="1" name="LUT2BeginColor"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx25" vr="UL" vm="1" name="LUT2EndColor"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx26" vr="CS" vm="1" name="ViewingHardcopyOnly"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx27" vr="SQ" vm="1" name="PrivateEMR"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx28" vr="SL" vm="1" name="MRSeriesNrOfLabelTypes"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx29" vr="CS" vm="1" name="MRImageLabelType"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx2a" vr="CS" vm="1" name="ExamPrintStatus"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx2b" vr="CS" vm="1" name="ExamExportStatus"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx2c" vr="CS" vm="1" name="ExamStorageCommitStatus"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx2d" vr="CS" vm="1" name="ExamMediaWriteStatus"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx2e" vr="FL" vm="1" name="MRSeriesDBdt"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx2f" vr="FL" vm="1" name="MRSeriesProtonSAR"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx30" vr="FL" vm="1" name="MRSeriesNonProtonSAR"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx31" vr="FL" vm="1" name="MRSeriesLocalSAR"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx32" vr="CS" vm="1" name="MRSeriesSafetyOverrideMode"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx33" vr="DT" vm="1" name="EVDVDJobInParamsDatetime"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx34" vr="DT" vm="1" name="DVDJobInParamsVolumeLabel"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx35" vr="CS" vm="1" name="SpectroExamcard"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx36" vr="UI" vm="1" name="MRRefSeriesInstanceUID"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx37" vr="CS" vm="1" name="ColorLUTType"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx3b" vr="CS" vm="1" name="MRIsCoilSurvey"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx3c" vr="FL" vm="1" name="MRStackTablePosLong"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx3d" vr="FL" vm="1" name="MRStackTablePosLat"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx3e" vr="FL" vm="1" name="MRStackPosteriorCoilPos"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx3f" vr="CS" vm="1" name="AIMDLimitsApplied"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx40" vr="FL" vm="1" name="AIMDHeadSARLimit"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx41" vr="FL" vm="1" name="AIMDWholeBodySARLimit"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx42" vr="FL" vm="1" name="AIMDB1RMSLimit"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx43" vr="FL" vm="1" name="AIMDdbDtLimit"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx44" vr="IS" vm="1" name="TFEFactor"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx45" vr="CS" vm="1" name="AttenuationCorrection"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx46" vr="FL" vm="1" name="FWHMShim"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx47" vr="FL" vm="1" name="PowerOptimization"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx48" vr="FL" vm="1" name="CoilQ"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx49" vr="FL" vm="1" name="ReceiverGain"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx4a" vr="FL" vm="1" name="DataWindowDuration"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx4b" vr="FL" vm="1" name="MixingTime"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx4c" vr="FL" vm="1" name="FirstEchoTime"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx4d" vr="CS" vm="1" name="ISB0Series"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx4e" vr="CS" vm="1" name="ISB1Series"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx4f" vr="CS" vm="1" name="VolumeSelect"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx50" vr="SS" vm="1" name="MRNrOfPatientOtherIDs"/>
+    <entry owner="Philips MR Imaging DD 005" group="2005" element="xx5c" vr="SQ" vm="1" name="SeriesBolusContrast"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx00" vr="SS" vm="1" name="MRSpectrumExtraNumber"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx01" vr="SS" vm="1" name="MRSpectrumKxCoordinate"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx02" vr="SS" vm="1" name="MRSpectrumKyCoordinate"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx03" vr="SS" vm="1" name="MRSpectrumLocationNumber"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx04" vr="SS" vm="1" name="MRSpectrumMixNumber"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx05" vr="SS" vm="1" name="MRSpectrumXCoordinate"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx06" vr="SS" vm="1" name="MRSpectrumYCoordinate"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx07" vr="FL" vm="1" name="MRSpectrumDCLevel"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx08" vr="FL" vm="1" name="MRSpectrumNoiseLevel"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx09" vr="FL" vm="1" name="MRSpectrumBeginTime"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx10" vr="FL" vm="1" name="MRSpectrumEchoTime"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx12" vr="FL" vm="1" name="SpectrumNumber"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx13" vr="SS" vm="1" name="MRSpectrumNumber"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx14" vr="SS" vm="1" name="MRSpectrumNumberOfAverages"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx15" vr="SS" vm="1" name="MRSpectrumNumberOfSamples"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx16" vr="SS" vm="1" name="MRSpectrumScanSequenceNumber"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx17" vr="SS" vm="1" name="MRSpectrumNumberOfPeaks"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx18" vr="SQ" vm="1" name="MRSpectrumPeak"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx19" vr="FL" vm="1-n" name="MRSpectrumPeakIntensity"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx20" vr="LO" vm="1-n" name="MRSpectrumPeakLabel"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx21" vr="FL" vm="1-n" name="MRSpectrumPeakPhase"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx22" vr="FL" vm="1-n" name="MRSpectrumPeakPosition"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx23" vr="CS" vm="1-n" name="MRSpectrumPeakType"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx24" vr="FL" vm="1-n" name="MRSpectrumPeakWidth"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx25" vr="CS" vm="1" name="MRSpectroSIB0Correction"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx26" vr="FL" vm="1" name="MRSpectroB0EchoTopPosition"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx27" vr="CS" vm="1" name="MRSpectroComplexComponent"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx28" vr="CS" vm="1" name="MRSpectroDataOrigin"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx29" vr="FL" vm="1" name="MRSpectroEchoTopPosition"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx30" vr="CS" vm="1-n" name="MRInPlaneTransforms"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx31" vr="SS" vm="1" name="MRNumberOfSpectraAcquired"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx33" vr="FL" vm="3" name="MRPhaseEncodingEchoTopPositions"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx34" vr="CS" vm="1" name="MRPhysicalQuantityForChemicalShift"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx35" vr="CS" vm="1" name="MRPhysicalQuantitySpatial"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx36" vr="FL" vm="1" name="MRReferenceFrequency"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx37" vr="FL" vm="1" name="MRSampleOffset"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx38" vr="FL" vm="1" name="MRSamplePitch"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx39" vr="SS" vm="2" name="MRSearchIntervalForPeaks"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx40" vr="CS" vm="1" name="MRSignalDomainForChemicalShift"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx41" vr="CS" vm="1" name="MRSignalDomainSpatial"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx42" vr="CS" vm="1" name="MRSignalType"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx43" vr="CS" vm="1" name="MRSpectroAdditionalRotations"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx44" vr="SS" vm="1" name="MRSpectroDisplayRanges"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx45" vr="CS" vm="1" name="MRSpectroEchoAcquisition"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx46" vr="CS" vm="1" name="MRSpectroFrequencyUnit"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx47" vr="FL" vm="1" name="MRSpectroGamma"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx48" vr="CS" vm="1" name="MRSpectroHiddenLineRemoval"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx49" vr="FL" vm="1" name="MRSpectroHorizontalShift"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx50" vr="FL" vm="3" name="MRSpectroHorizontalWindow"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx51" vr="SS" vm="1" name="MRSpectroNumberOfDisplayRanges"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx52" vr="SS" vm="1" name="MRSpectroNumberOfEchoPulses"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx53" vr="LO" vm="1-n" name="MRSpectroProcessingHistory"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx54" vr="CS" vm="1" name="MRSpectroScanType"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx55" vr="FL" vm="1-n" name="MRSpectroSICSIntervals"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx56" vr="CS" vm="1" name="MRSpectroSIMode"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx57" vr="SS" vm="1" name="MRSpectroSpectralBW"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx58" vr="LO" vm="1" name="MRSpectroTitleLine"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx59" vr="FL" vm="1" name="MRSpectroTurboEchoSpacing"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx60" vr="FL" vm="1" name="MRSpectroVerticalShift"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx61" vr="FL" vm="2" name="MRSpectroVerticalWindow"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx62" vr="FL" vm="1" name="MRSpectroOffset"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx63" vr="FL" vm="1" name="MRSpectrumPitch"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx64" vr="CS" vm="1" name="MRVolumeSelection"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx70" vr="SS" vm="1" name="MRNoMixesSpectro"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx71" vr="SQ" vm="1" name="MRSeriesSPMix"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx72" vr="SS" vm="1 2" name="SPMixTResolution"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx73" vr="SS" vm="1 2" name="SPMixKXResolution"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx74" vr="SS" vm="1 2" name="SPMixKYResolution"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx75" vr="SS" vm="1 2" name="SPMixFResolution"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx76" vr="SS" vm="1 2" name="SPMixXResolution"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx77" vr="SS" vm="1 2" name="SPMixYResolution"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx78" vr="SS" vm="1 2" name="SPMixNoSpectraIntended"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx79" vr="SS" vm="1 2" name="SPMixNoAverages"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx80" vr="SL" vm="1" name="MRSeriesNrOfMFImageObjects"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx81" vr="IS" vm="1" name="MRScanoGramSurveyNumberOfImages"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx82" vr="UL" vm="1" name="MRNumberOfProcedureCodes"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx83" vr="CS" vm="1-n" name="SortAttributes"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx84" vr="SS" vm="1" name="MRNrSortAttributes"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx85" vr="CS" vm="1" name="ImageDisplayDirection"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx86" vr="CS" vm="1" name="InsetScanogram"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx87" vr="SS" vm="1" name="MRDisplayLayoutNrColumns"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx88" vr="SS" vm="1" name="MRDisplayLayoutNrRows"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx89" vr="SQ" vm="1" name="ViewingProtocol"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx90" vr="CS" vm="1" name="MRStackCoilFunction"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx91" vr="PN" vm="1" name="PatientNameJobInParams"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx92" vr="IS" vm="1" name="MRGeolinkID"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx93" vr="IS" vm="1" name="MRStationNo"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx94" vr="CS" vm="1-n" name="ProcessingHistory"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx95" vr="UI" vm="1" name="ViewProcedureString"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx96" vr="CS" vm="1" name="MRFlowImagesPresent"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx98" vr="CS" vm="1" name="MRMobiviewEnabled"/>
+    <entry owner="Philips MR Imaging DD 004" group="2005" element="xx99" vr="CS" vm="1" name="MRIViewBoldEnabled"/>
     <entry owner="SIEMENS MED DISPLAY" group="0029" element="xx04" vr="CS" vm="1" name="Photometric Interpretation"/>
     <entry owner="SIEMENS MED DISPLAY" group="0029" element="xx10" vr="US" vm="1" name="Rows of Submatrix"/>
     <entry owner="SIEMENS MED DISPLAY" group="0029" element="xx11" vr="US" vm="1" name="Columns of Submatrix"/>
