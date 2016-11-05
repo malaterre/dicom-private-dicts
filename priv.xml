@@ -1358,87 +1358,12 @@
     <entry owner="SIEMENS CT VA0  GEN" group="0021" element="xxa6" vr="IS" vm="1" name="Reference Data Set 2"/>
     <entry owner="SIEMENS CT VA0  GEN" group="0021" element="xxa7" vr="LO" vm="1" name="Window Program Name"/>
     <entry owner="SIEMENS CM VA0  COAD" group="0019" element="xx3d" vr="LO" vm="1" name="Reading Code RZ2 Comment 2"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx10" vr="DS" vm="1" name="Total Measurement Time nominal"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx11" vr="DS" vm="1" name="Total Measurement Time current"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx12" vr="DS" vm="1" name="Start Delay Time"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx13" vr="DS" vm="1" name="Dwell Time"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx14" vr="IS" vm="1" name="Number of Phases"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx16" vr="UL" vm="1-n" name="Sequence Control Mask"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx18" vr="UL" vm="1" name="Measurement Status Mask"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx20" vr="IS" vm="1" name="Number of Fourier Lines nominal"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx21" vr="IS" vm="1" name="Number of Fourier Lines current"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx26" vr="IS" vm="1" name="Number of Fourier Lines after Zero"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx28" vr="IS" vm="1" name="First Measured Fourier Line"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx30" vr="IS" vm="1" name="Acquisition Columns"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx31" vr="IS" vm="1" name="Reconstruction Columns"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx40" vr="IS" vm="1" name="AC Element Number"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx41" vr="UL" vm="1" name="AC Element Select Mask"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx42" vr="UL" vm="1" name="AC Element Data Mask"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx43" vr="IS" vm="1-16" name="AC Element To ADC Connect"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx44" vr="IS" vm="1-16" name="AC Element Noise Level"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx45" vr="IS" vm="1" name="AC ADC Pair Number"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx46" vr="UL" vm="1" name="AC Combination Mask"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx50" vr="IS" vm="1" name="Number of Averages current"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx60" vr="DS" vm="1" name="Flip Angle"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx70" vr="IS" vm="1" name="Number of Prescans"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx81" vr="CS" vm="1" name="Filter Type for Raw Data"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx82" vr="DS" vm="1-4" name="Filter Parameter for Raw Data"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx83" vr="CS" vm="1" name="Filter Type for Image Data"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx84" vr="DS" vm="1-4" name="Filter Parameter for Image Data"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx85" vr="CS" vm="1" name="Filter Type for Phase Correction"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx86" vr="DS" vm="1-4" name="Filter Parameter for Phase Correction"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx87" vr="CS" vm="1" name="Normalization Filter Type for Image Data"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx88" vr="DS" vm="1-4" name="Normalization Filter Parameter"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx90" vr="IS" vm="1" name="Number of Saturation Regions"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx91" vr="DS" vm="1-6" name="Saturation Phase Encoding Vector Sag"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx92" vr="DS" vm="1-6" name="Saturation Readout Vector Sag"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx93" vr="IS" vm="1" name="EPI Stimulation Monitor Mode"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx94" vr="DS" vm="1" name="Image Rotation Angle"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx96" vr="UL" vm="1-n" name="Coil ID Mask"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx97" vr="UL" vm="1-n" name="Coil Class Mask"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx98" vr="DS" vm="1-n" name="Coil Position"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xxa0" vr="DS" vm="1" name="EPI Reconstruction Phase"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xxa1" vr="DS" vm="1" name="EPI Reconstruction Slope"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx20" vr="IS" vm="1" name="Phase Corrections Rows sequence"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx21" vr="IS" vm="1" name="Phase Corrections Columns sequence"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx22" vr="IS" vm="1" name="Phase Corrections Rows reconstruction"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx24" vr="IS" vm="1" name="Phase Corrections Columns reconstruction"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx30" vr="IS" vm="1" name="Number of 3D Raw Partitions nominal"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx31" vr="IS" vm="1" name="Number of 3D Raw Partitions current"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx34" vr="IS" vm="1" name="Number of 3D Image Partitions"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx36" vr="IS" vm="1" name="Actual 3D Image Partition Number"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx39" vr="DS" vm="1" name="Slab Thickness"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx40" vr="IS" vm="1" name="Number of Slices nominal"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx41" vr="IS" vm="1" name="Number of Slices current"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx42" vr="IS" vm="1" name="Current Slice Number"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx43" vr="IS" vm="1" name="Current Group Number"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx44" vr="DS" vm="1" name="Current Slice Distance Factor"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx45" vr="IS" vm="1" name="MIP Start Row"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx46" vr="IS" vm="1" name="MIP Stop Row"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx47" vr="IS" vm="1" name="MIP Start Column"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx48" vr="IS" vm="1" name="MIP Stop Column"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx49" vr="IS" vm="1" name="MIP Start Slice"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx4a" vr="IS" vm="1" name="MIP Stop Slice"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx4f" vr="CS" vm="1" name="Order of Slices"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx50" vr="UL" vm="1" name="Signal Mask"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx52" vr="IS" vm="1" name="Delay after Trigger"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx53" vr="IS" vm="1" name="RRInterval"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx54" vr="DS" vm="1" name="Number of Trigger Pulses"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx56" vr="DS" vm="1" name="Repetition Time effective"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx57" vr="CS" vm="1" name="Gate Phase"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx58" vr="DS" vm="1" name="Gate Threshold"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx59" vr="DS" vm="1" name="Gated Ratio"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx60" vr="IS" vm="1" name="Number of Interpolated Images"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx70" vr="IS" vm="1" name="Number of Echoes"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx72" vr="DS" vm="1" name="Second Echo Time"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx73" vr="DS" vm="1" name="Second Repetition Time"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx80" vr="IS" vm="1" name="Cardiac Code"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx91" vr="DS" vm="1-6" name="Saturation Phase Encoding Vector Tra"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx92" vr="DS" vm="1-6" name="Saturation Readout Vector Tra"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx93" vr="DS" vm="1" name="EPI Change Value of Magnitude"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx94" vr="DS" vm="1" name="EPI Change Value of X Component"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx95" vr="DS" vm="1" name="EPI Change Value of Y Component"/>
-    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx96" vr="DS" vm="1" name="EPI Change Value of Z Component"/>
+    <entry owner="TOSHIBA MDW HEADER" group="0029" element="xx08" vr="CS" vm="1" name="Modality Image Header Type"/>
+    <entry owner="TOSHIBA MDW HEADER" group="0029" element="xx09" vr="LO" vm="1" name="Modality Image Header Version"/>
+    <entry owner="TOSHIBA MDW HEADER" group="0029" element="xx10" vr="OB" vm="1" name="Modality Image Header Info"/>
+    <entry owner="TOSHIBA MDW HEADER" group="0029" element="xx18" vr="CS" vm="1" name="Modality Series Header Type"/>
+    <entry owner="TOSHIBA MDW HEADER" group="0029" element="xx19" vr="LO" vm="1" name="Modality Series Header Version"/>
+    <entry owner="TOSHIBA MDW HEADER" group="0029" element="xx20" vr="OB" vm="1" name="Modality Series Header Info"/>
     <entry owner="SIEMENS SMS-AX  ACQ 1.0" group="0021" element="xx00" vr="US" vm="1" name="Acquisition Type"/>
     <entry owner="SIEMENS SMS-AX  ACQ 1.0" group="0021" element="xx01" vr="US" vm="1" name="Acquisition Mode"/>
     <entry owner="SIEMENS SMS-AX  ACQ 1.0" group="0021" element="xx02" vr="US" vm="1" name="Foot Switch Index"/>
@@ -1471,6 +1396,11 @@
     <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0019" element="xx02" vr="LO" vm="1" name="Total Area Dose Product"/>
     <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0019" element="xx03" vr="US" vm="1" name="Valid Calibration"/>
     <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0019" element="xx04" vr="LO" vm="1" name="Last Calibration Date"/>
+    <entry owner="SIEMENS MR HEADER" group="0051" element="xx0a" vr="LO" vm="1" name="Meas Duration"/>
+    <entry owner="SIEMENS MR HEADER" group="0051" element="xx0b" vr="LO" vm="1" name="Acquisition Matrix"/>
+    <entry owner="SIEMENS MR HEADER" group="0051" element="xx0c" vr="LO" vm="1" name="Field Of View"/>
+    <entry owner="SIEMENS MR HEADER" group="0051" element="xx0e" vr="LO" vm="1" name="Slice Orientation"/>
+    <entry owner="SIEMENS MR HEADER" group="0051" element="xx0f" vr="LO" vm="1" name="Coil String"/>
     <entry owner="SIEMENS RIS" group="0011" element="xx10" vr="LO" vm="1" name="Patient UID"/>
     <entry owner="SIEMENS RIS" group="0011" element="xx11" vr="LO" vm="1" name="Patient ID"/>
     <entry owner="SIEMENS RIS" group="0011" element="xx20" vr="DA" vm="1" name="Patient Registration Date"/>
@@ -1958,12 +1888,87 @@
     <entry owner="SIEMENS CM VA0  ACQU" group="0019" element="xx3b" vr="LO" vm="1" name="Reading Code RZ1 Comment 2"/>
     <entry owner="SIEMENS CM VA0  ACQU" group="0019" element="xx3c" vr="LO" vm="1" name="Reading Code RZ2 Comment 1"/>
     <entry owner="SIEMENS CM VA0  ACQU" group="0019" element="xx3d" vr="LO" vm="1" name="Reading Code RZ2 Comment 2"/>
-    <entry owner="TOSHIBA MDW HEADER" group="0029" element="xx08" vr="CS" vm="1" name="Modality Image Header Type"/>
-    <entry owner="TOSHIBA MDW HEADER" group="0029" element="xx09" vr="LO" vm="1" name="Modality Image Header Version"/>
-    <entry owner="TOSHIBA MDW HEADER" group="0029" element="xx10" vr="OB" vm="1" name="Modality Image Header Info"/>
-    <entry owner="TOSHIBA MDW HEADER" group="0029" element="xx18" vr="CS" vm="1" name="Modality Series Header Type"/>
-    <entry owner="TOSHIBA MDW HEADER" group="0029" element="xx19" vr="LO" vm="1" name="Modality Series Header Version"/>
-    <entry owner="TOSHIBA MDW HEADER" group="0029" element="xx20" vr="OB" vm="1" name="Modality Series Header Info"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx10" vr="DS" vm="1" name="Total Measurement Time nominal"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx11" vr="DS" vm="1" name="Total Measurement Time current"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx12" vr="DS" vm="1" name="Start Delay Time"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx13" vr="DS" vm="1" name="Dwell Time"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx14" vr="IS" vm="1" name="Number of Phases"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx16" vr="UL" vm="1-n" name="Sequence Control Mask"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx18" vr="UL" vm="1" name="Measurement Status Mask"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx20" vr="IS" vm="1" name="Number of Fourier Lines nominal"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx21" vr="IS" vm="1" name="Number of Fourier Lines current"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx26" vr="IS" vm="1" name="Number of Fourier Lines after Zero"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx28" vr="IS" vm="1" name="First Measured Fourier Line"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx30" vr="IS" vm="1" name="Acquisition Columns"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx31" vr="IS" vm="1" name="Reconstruction Columns"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx40" vr="IS" vm="1" name="AC Element Number"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx41" vr="UL" vm="1" name="AC Element Select Mask"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx42" vr="UL" vm="1" name="AC Element Data Mask"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx43" vr="IS" vm="1-16" name="AC Element To ADC Connect"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx44" vr="IS" vm="1-16" name="AC Element Noise Level"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx45" vr="IS" vm="1" name="AC ADC Pair Number"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx46" vr="UL" vm="1" name="AC Combination Mask"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx50" vr="IS" vm="1" name="Number of Averages current"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx60" vr="DS" vm="1" name="Flip Angle"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx70" vr="IS" vm="1" name="Number of Prescans"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx81" vr="CS" vm="1" name="Filter Type for Raw Data"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx82" vr="DS" vm="1-4" name="Filter Parameter for Raw Data"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx83" vr="CS" vm="1" name="Filter Type for Image Data"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx84" vr="DS" vm="1-4" name="Filter Parameter for Image Data"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx85" vr="CS" vm="1" name="Filter Type for Phase Correction"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx86" vr="DS" vm="1-4" name="Filter Parameter for Phase Correction"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx87" vr="CS" vm="1" name="Normalization Filter Type for Image Data"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx88" vr="DS" vm="1-4" name="Normalization Filter Parameter"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx90" vr="IS" vm="1" name="Number of Saturation Regions"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx91" vr="DS" vm="1-6" name="Saturation Phase Encoding Vector Sag"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx92" vr="DS" vm="1-6" name="Saturation Readout Vector Sag"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx93" vr="IS" vm="1" name="EPI Stimulation Monitor Mode"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx94" vr="DS" vm="1" name="Image Rotation Angle"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx96" vr="UL" vm="1-n" name="Coil ID Mask"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx97" vr="UL" vm="1-n" name="Coil Class Mask"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx98" vr="DS" vm="1-n" name="Coil Position"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xxa0" vr="DS" vm="1" name="EPI Reconstruction Phase"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xxa1" vr="DS" vm="1" name="EPI Reconstruction Slope"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx20" vr="IS" vm="1" name="Phase Corrections Rows sequence"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx21" vr="IS" vm="1" name="Phase Corrections Columns sequence"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx22" vr="IS" vm="1" name="Phase Corrections Rows reconstruction"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx24" vr="IS" vm="1" name="Phase Corrections Columns reconstruction"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx30" vr="IS" vm="1" name="Number of 3D Raw Partitions nominal"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx31" vr="IS" vm="1" name="Number of 3D Raw Partitions current"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx34" vr="IS" vm="1" name="Number of 3D Image Partitions"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx36" vr="IS" vm="1" name="Actual 3D Image Partition Number"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx39" vr="DS" vm="1" name="Slab Thickness"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx40" vr="IS" vm="1" name="Number of Slices nominal"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx41" vr="IS" vm="1" name="Number of Slices current"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx42" vr="IS" vm="1" name="Current Slice Number"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx43" vr="IS" vm="1" name="Current Group Number"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx44" vr="DS" vm="1" name="Current Slice Distance Factor"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx45" vr="IS" vm="1" name="MIP Start Row"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx46" vr="IS" vm="1" name="MIP Stop Row"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx47" vr="IS" vm="1" name="MIP Start Column"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx48" vr="IS" vm="1" name="MIP Stop Column"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx49" vr="IS" vm="1" name="MIP Start Slice"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx4a" vr="IS" vm="1" name="MIP Stop Slice"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx4f" vr="CS" vm="1" name="Order of Slices"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx50" vr="UL" vm="1" name="Signal Mask"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx52" vr="IS" vm="1" name="Delay after Trigger"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx53" vr="IS" vm="1" name="RRInterval"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx54" vr="DS" vm="1" name="Number of Trigger Pulses"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx56" vr="DS" vm="1" name="Repetition Time effective"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx57" vr="CS" vm="1" name="Gate Phase"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx58" vr="DS" vm="1" name="Gate Threshold"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx59" vr="DS" vm="1" name="Gated Ratio"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx60" vr="IS" vm="1" name="Number of Interpolated Images"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx70" vr="IS" vm="1" name="Number of Echoes"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx72" vr="DS" vm="1" name="Second Echo Time"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx73" vr="DS" vm="1" name="Second Repetition Time"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx80" vr="IS" vm="1" name="Cardiac Code"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx91" vr="DS" vm="1-6" name="Saturation Phase Encoding Vector Tra"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx92" vr="DS" vm="1-6" name="Saturation Readout Vector Tra"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx93" vr="DS" vm="1" name="EPI Change Value of Magnitude"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx94" vr="DS" vm="1" name="EPI Change Value of X Component"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx95" vr="DS" vm="1" name="EPI Change Value of Y Component"/>
+    <entry owner="SIEMENS MR VA0  GEN" group="0021" element="xx96" vr="DS" vm="1" name="EPI Change Value of Z Component"/>
     <entry owner="SIEMENS CSA NON-IMAGE" group="0029" element="xx08" vr="CS" vm="1" name="Modality Data Type"/>
     <entry owner="SIEMENS CSA NON-IMAGE" group="0029" element="xx09" vr="LO" vm="1" name="Modality Data Version"/>
     <entry owner="SIEMENS CSA NON-IMAGE" group="0029" element="xx10" vr="OB" vm="1" name="Modality Data Info"/>

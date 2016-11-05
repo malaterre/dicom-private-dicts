@@ -1428,6 +1428,11 @@
   <entry owner="SIEMENS MEDCOM OOG" group="0029" element="xx08" vr="CS" vm="1" name="Platform OOG Type"/>
   <entry owner="SIEMENS MEDCOM OOG" group="0029" element="xx09" vr="LO" vm="1" name="Platform OOG Version"/>
   <entry owner="SIEMENS MEDCOM OOG" group="0029" element="xx10" vr="OB" vm="1" name="Platform OOG Info"/>
+  <entry owner="SIEMENS MR HEADER" group="0051" element="xx0a" vr="LO" vm="1" name="Meas Duration"/>
+  <entry owner="SIEMENS MR HEADER" group="0051" element="xx0b" vr="LO" vm="1" name="Acquisition Matrix"/>
+  <entry owner="SIEMENS MR HEADER" group="0051" element="xx0c" vr="LO" vm="1" name="Field Of View"/>
+  <entry owner="SIEMENS MR HEADER" group="0051" element="xx0e" vr="LO" vm="1" name="Slice Orientation"/>
+  <entry owner="SIEMENS MR HEADER" group="0051" element="xx0f" vr="LO" vm="1" name="Coil String"/>
   <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx12" vr="DS" vm="1" name="Magnetic Field Strength"/>
   <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx14" vr="DS" vm="1" name="ADC Voltage"/>
   <entry owner="SIEMENS MR VA0  COAD" group="0019" element="xx16" vr="DS" vm="1-n" name="ADC Offset"/>

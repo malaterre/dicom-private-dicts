@@ -1859,168 +1859,18 @@
     <entry group="0019" element="3D" vr="LO" vm="1" name="Reading Code RZ2 Comment 2">
 </entry>
 </dict>
-  <dict owner="SIEMENS MR VA0  GEN">
-    <entry group="0019" element="10" vr="DS" vm="1" name="Total Measurement Time nominal">
+  <dict owner="TOSHIBA MDW HEADER">
+    <entry group="0029" element="08" vr="CS" vm="1" name="Modality Image Header Type">
 </entry>
-    <entry group="0019" element="11" vr="DS" vm="1" name="Total Measurement Time current">
+    <entry group="0029" element="09" vr="LO" vm="1" name="Modality Image Header Version">
 </entry>
-    <entry group="0019" element="12" vr="DS" vm="1" name="Start Delay Time">
+    <entry group="0029" element="10" vr="OB" vm="1" name="Modality Image Header Info">
 </entry>
-    <entry group="0019" element="13" vr="DS" vm="1" name="Dwell Time">
+    <entry group="0029" element="18" vr="CS" vm="1" name="Modality Series Header Type">
 </entry>
-    <entry group="0019" element="14" vr="IS" vm="1" name="Number of Phases">
+    <entry group="0029" element="19" vr="LO" vm="1" name="Modality Series Header Version">
 </entry>
-    <entry group="0019" element="16" vr="UL" vm="N" name="Sequence Control Mask">
-</entry>
-    <entry group="0019" element="18" vr="UL" vm="1" name="Measurement Status Mask">
-</entry>
-    <entry group="0019" element="20" vr="IS" vm="1" name="Number of Fourier Lines nominal">
-</entry>
-    <entry group="0019" element="21" vr="IS" vm="1" name="Number of Fourier Lines current">
-</entry>
-    <entry group="0019" element="26" vr="IS" vm="1" name="Number of Fourier Lines after Zero">
-</entry>
-    <entry group="0019" element="28" vr="IS" vm="1" name="First Measured Fourier Line">
-</entry>
-    <entry group="0019" element="30" vr="IS" vm="1" name="Acquisition Columns">
-</entry>
-    <entry group="0019" element="31" vr="IS" vm="1" name="Reconstruction Columns">
-</entry>
-    <entry group="0019" element="40" vr="IS" vm="1" name="AC Element Number">
-</entry>
-    <entry group="0019" element="41" vr="UL" vm="1" name="AC Element Select Mask">
-</entry>
-    <entry group="0019" element="42" vr="UL" vm="1" name="AC Element Data Mask">
-</entry>
-    <entry group="0019" element="43" vr="IS" vm="1-16" name="AC Element To ADC Connect">
-</entry>
-    <entry group="0019" element="44" vr="IS" vm="1-16" name="AC Element Noise Level">
-</entry>
-    <entry group="0019" element="45" vr="IS" vm="1" name="AC ADC Pair Number">
-</entry>
-    <entry group="0019" element="46" vr="UL" vm="1" name="AC Combination Mask">
-</entry>
-    <entry group="0019" element="50" vr="IS" vm="1" name="Number of Averages current">
-</entry>
-    <entry group="0019" element="60" vr="DS" vm="1" name="Flip Angle">
-</entry>
-    <entry group="0019" element="70" vr="IS" vm="1" name="Number of Prescans">
-</entry>
-    <entry group="0019" element="81" vr="CS" vm="1" name="Filter Type for Raw Data">
-</entry>
-    <entry group="0019" element="82" vr="DS" vm="1-4" name="Filter Parameter for Raw Data">
-</entry>
-    <entry group="0019" element="83" vr="CS" vm="1" name="Filter Type for Image Data">
-</entry>
-    <entry group="0019" element="84" vr="DS" vm="1-4" name="Filter Parameter for Image Data">
-</entry>
-    <entry group="0019" element="85" vr="CS" vm="1" name="Filter Type for Phase Correction">
-</entry>
-    <entry group="0019" element="86" vr="DS" vm="1-4" name="Filter Parameter for Phase Correction">
-</entry>
-    <entry group="0019" element="87" vr="CS" vm="1" name="Normalization Filter Type for Image Data">
-</entry>
-    <entry group="0019" element="88" vr="DS" vm="1-4" name="Normalization Filter Parameter">
-</entry>
-    <entry group="0019" element="90" vr="IS" vm="1" name="Number of Saturation Regions">
-</entry>
-    <entry group="0019" element="91" vr="DS" vm="1-6" name="Saturation Phase Encoding Vector Sag">
-</entry>
-    <entry group="0019" element="92" vr="DS" vm="1-6" name="Saturation Readout Vector Sag">
-</entry>
-    <entry group="0019" element="93" vr="IS" vm="1" name="EPI Stimulation Monitor Mode">
-</entry>
-    <entry group="0019" element="94" vr="DS" vm="1" name="Image Rotation Angle">
-</entry>
-    <entry group="0019" element="96" vr="UL" vm="N" name="Coil ID Mask">
-</entry>
-    <entry group="0019" element="97" vr="UL" vm="N" name="Coil Class Mask">
-</entry>
-    <entry group="0019" element="98" vr="DS" vm="N" name="Coil Position">
-</entry>
-    <entry group="0019" element="A0" vr="DS" vm="1" name="EPI Reconstruction Phase">
-</entry>
-    <entry group="0019" element="A1" vr="DS" vm="1" name="EPI Reconstruction Slope">
-</entry>
-    <entry group="0021" element="20" vr="IS" vm="1" name="Phase Corrections Rows sequence">
-</entry>
-    <entry group="0021" element="21" vr="IS" vm="1" name="Phase Corrections Columns sequence">
-</entry>
-    <entry group="0021" element="22" vr="IS" vm="1" name="Phase Corrections Rows reconstruction">
-</entry>
-    <entry group="0021" element="24" vr="IS" vm="1" name="Phase Corrections Columns reconstruction">
-</entry>
-    <entry group="0021" element="30" vr="IS" vm="1" name="Number of 3D Raw Partitions nominal">
-</entry>
-    <entry group="0021" element="31" vr="IS" vm="1" name="Number of 3D Raw Partitions current">
-</entry>
-    <entry group="0021" element="34" vr="IS" vm="1" name="Number of 3D Image Partitions">
-</entry>
-    <entry group="0021" element="36" vr="IS" vm="1" name="Actual 3D Image Partition Number">
-</entry>
-    <entry group="0021" element="39" vr="DS" vm="1" name="Slab Thickness">
-</entry>
-    <entry group="0021" element="40" vr="IS" vm="1" name="Number of Slices nominal">
-</entry>
-    <entry group="0021" element="41" vr="IS" vm="1" name="Number of Slices current">
-</entry>
-    <entry group="0021" element="42" vr="IS" vm="1" name="Current Slice Number">
-</entry>
-    <entry group="0021" element="43" vr="IS" vm="1" name="Current Group Number">
-</entry>
-    <entry group="0021" element="44" vr="DS" vm="1" name="Current Slice Distance Factor">
-</entry>
-    <entry group="0021" element="45" vr="IS" vm="1" name="MIP Start Row">
-</entry>
-    <entry group="0021" element="46" vr="IS" vm="1" name="MIP Stop Row">
-</entry>
-    <entry group="0021" element="47" vr="IS" vm="1" name="MIP Start Column">
-</entry>
-    <entry group="0021" element="48" vr="IS" vm="1" name="MIP Stop Column">
-</entry>
-    <entry group="0021" element="49" vr="IS" vm="1" name="MIP Start Slice">
-</entry>
-    <entry group="0021" element="4A" vr="IS" vm="1" name="MIP Stop Slice">
-</entry>
-    <entry group="0021" element="4F" vr="CS" vm="1" name="Order of Slices">
-</entry>
-    <entry group="0021" element="50" vr="UL" vm="1" name="Signal Mask">
-</entry>
-    <entry group="0021" element="52" vr="IS" vm="1" name="Delay after Trigger">
-</entry>
-    <entry group="0021" element="53" vr="IS" vm="1" name="RRInterval">
-</entry>
-    <entry group="0021" element="54" vr="DS" vm="1" name="Number of Trigger Pulses">
-</entry>
-    <entry group="0021" element="56" vr="DS" vm="1" name="Repetition Time effective">
-</entry>
-    <entry group="0021" element="57" vr="CS" vm="1" name="Gate Phase">
-</entry>
-    <entry group="0021" element="58" vr="DS" vm="1" name="Gate Threshold">
-</entry>
-    <entry group="0021" element="59" vr="DS" vm="1" name="Gated Ratio">
-</entry>
-    <entry group="0021" element="60" vr="IS" vm="1" name="Number of Interpolated Images">
-</entry>
-    <entry group="0021" element="70" vr="IS" vm="1" name="Number of Echoes">
-</entry>
-    <entry group="0021" element="72" vr="DS" vm="1" name="Second Echo Time">
-</entry>
-    <entry group="0021" element="73" vr="DS" vm="1" name="Second Repetition Time">
-</entry>
-    <entry group="0021" element="80" vr="IS" vm="1" name="Cardiac Code">
-</entry>
-    <entry group="0021" element="91" vr="DS" vm="1-6" name="Saturation Phase Encoding Vector Tra">
-</entry>
-    <entry group="0021" element="92" vr="DS" vm="1-6" name="Saturation Readout Vector Tra">
-</entry>
-    <entry group="0021" element="93" vr="DS" vm="1" name="EPI Change Value of Magnitude">
-</entry>
-    <entry group="0021" element="94" vr="DS" vm="1" name="EPI Change Value of X Component">
-</entry>
-    <entry group="0021" element="95" vr="DS" vm="1" name="EPI Change Value of Y Component">
-</entry>
-    <entry group="0021" element="96" vr="DS" vm="1" name="EPI Change Value of Z Component">
+    <entry group="0029" element="20" vr="OB" vm="1" name="Modality Series Header Info">
 </entry>
 </dict>
   <dict owner="SIEMENS SMS-AX  ACQ 1.0">
@@ -2093,6 +1943,18 @@
     <entry group="0019" element="03" vr="US" vm="1" name="Valid Calibration">
 </entry>
     <entry group="0019" element="04" vr="LO" vm="1" name="Last Calibration Date">
+</entry>
+</dict>
+  <dict owner="SIEMENS MR HEADER">
+    <entry group="0051" element="xx0A" vr="LO" vm="1" name="Meas Duration">
+</entry>
+    <entry group="0051" element="xx0B" vr="LO" vm="1" name="Acquisition Matrix">
+</entry>
+    <entry group="0051" element="xx0C" vr="LO" vm="1" name="Field Of View">
+</entry>
+    <entry group="0051" element="xx0E" vr="LO" vm="1" name="Slice Orientation">
+</entry>
+    <entry group="0051" element="xx0F" vr="LO" vm="1" name="Coil String">
 </entry>
 </dict>
   <dict owner="SIEMENS RIS">
@@ -3127,18 +2989,168 @@
     <entry group="0019" element="3D" vr="LO" vm="1" name="Reading Code RZ2 Comment 2">
 </entry>
 </dict>
-  <dict owner="TOSHIBA MDW HEADER">
-    <entry group="0029" element="08" vr="CS" vm="1" name="Modality Image Header Type">
+  <dict owner="SIEMENS MR VA0  GEN">
+    <entry group="0019" element="10" vr="DS" vm="1" name="Total Measurement Time nominal">
 </entry>
-    <entry group="0029" element="09" vr="LO" vm="1" name="Modality Image Header Version">
+    <entry group="0019" element="11" vr="DS" vm="1" name="Total Measurement Time current">
 </entry>
-    <entry group="0029" element="10" vr="OB" vm="1" name="Modality Image Header Info">
+    <entry group="0019" element="12" vr="DS" vm="1" name="Start Delay Time">
 </entry>
-    <entry group="0029" element="18" vr="CS" vm="1" name="Modality Series Header Type">
+    <entry group="0019" element="13" vr="DS" vm="1" name="Dwell Time">
 </entry>
-    <entry group="0029" element="19" vr="LO" vm="1" name="Modality Series Header Version">
+    <entry group="0019" element="14" vr="IS" vm="1" name="Number of Phases">
 </entry>
-    <entry group="0029" element="20" vr="OB" vm="1" name="Modality Series Header Info">
+    <entry group="0019" element="16" vr="UL" vm="N" name="Sequence Control Mask">
+</entry>
+    <entry group="0019" element="18" vr="UL" vm="1" name="Measurement Status Mask">
+</entry>
+    <entry group="0019" element="20" vr="IS" vm="1" name="Number of Fourier Lines nominal">
+</entry>
+    <entry group="0019" element="21" vr="IS" vm="1" name="Number of Fourier Lines current">
+</entry>
+    <entry group="0019" element="26" vr="IS" vm="1" name="Number of Fourier Lines after Zero">
+</entry>
+    <entry group="0019" element="28" vr="IS" vm="1" name="First Measured Fourier Line">
+</entry>
+    <entry group="0019" element="30" vr="IS" vm="1" name="Acquisition Columns">
+</entry>
+    <entry group="0019" element="31" vr="IS" vm="1" name="Reconstruction Columns">
+</entry>
+    <entry group="0019" element="40" vr="IS" vm="1" name="AC Element Number">
+</entry>
+    <entry group="0019" element="41" vr="UL" vm="1" name="AC Element Select Mask">
+</entry>
+    <entry group="0019" element="42" vr="UL" vm="1" name="AC Element Data Mask">
+</entry>
+    <entry group="0019" element="43" vr="IS" vm="1-16" name="AC Element To ADC Connect">
+</entry>
+    <entry group="0019" element="44" vr="IS" vm="1-16" name="AC Element Noise Level">
+</entry>
+    <entry group="0019" element="45" vr="IS" vm="1" name="AC ADC Pair Number">
+</entry>
+    <entry group="0019" element="46" vr="UL" vm="1" name="AC Combination Mask">
+</entry>
+    <entry group="0019" element="50" vr="IS" vm="1" name="Number of Averages current">
+</entry>
+    <entry group="0019" element="60" vr="DS" vm="1" name="Flip Angle">
+</entry>
+    <entry group="0019" element="70" vr="IS" vm="1" name="Number of Prescans">
+</entry>
+    <entry group="0019" element="81" vr="CS" vm="1" name="Filter Type for Raw Data">
+</entry>
+    <entry group="0019" element="82" vr="DS" vm="1-4" name="Filter Parameter for Raw Data">
+</entry>
+    <entry group="0019" element="83" vr="CS" vm="1" name="Filter Type for Image Data">
+</entry>
+    <entry group="0019" element="84" vr="DS" vm="1-4" name="Filter Parameter for Image Data">
+</entry>
+    <entry group="0019" element="85" vr="CS" vm="1" name="Filter Type for Phase Correction">
+</entry>
+    <entry group="0019" element="86" vr="DS" vm="1-4" name="Filter Parameter for Phase Correction">
+</entry>
+    <entry group="0019" element="87" vr="CS" vm="1" name="Normalization Filter Type for Image Data">
+</entry>
+    <entry group="0019" element="88" vr="DS" vm="1-4" name="Normalization Filter Parameter">
+</entry>
+    <entry group="0019" element="90" vr="IS" vm="1" name="Number of Saturation Regions">
+</entry>
+    <entry group="0019" element="91" vr="DS" vm="1-6" name="Saturation Phase Encoding Vector Sag">
+</entry>
+    <entry group="0019" element="92" vr="DS" vm="1-6" name="Saturation Readout Vector Sag">
+</entry>
+    <entry group="0019" element="93" vr="IS" vm="1" name="EPI Stimulation Monitor Mode">
+</entry>
+    <entry group="0019" element="94" vr="DS" vm="1" name="Image Rotation Angle">
+</entry>
+    <entry group="0019" element="96" vr="UL" vm="N" name="Coil ID Mask">
+</entry>
+    <entry group="0019" element="97" vr="UL" vm="N" name="Coil Class Mask">
+</entry>
+    <entry group="0019" element="98" vr="DS" vm="N" name="Coil Position">
+</entry>
+    <entry group="0019" element="A0" vr="DS" vm="1" name="EPI Reconstruction Phase">
+</entry>
+    <entry group="0019" element="A1" vr="DS" vm="1" name="EPI Reconstruction Slope">
+</entry>
+    <entry group="0021" element="20" vr="IS" vm="1" name="Phase Corrections Rows sequence">
+</entry>
+    <entry group="0021" element="21" vr="IS" vm="1" name="Phase Corrections Columns sequence">
+</entry>
+    <entry group="0021" element="22" vr="IS" vm="1" name="Phase Corrections Rows reconstruction">
+</entry>
+    <entry group="0021" element="24" vr="IS" vm="1" name="Phase Corrections Columns reconstruction">
+</entry>
+    <entry group="0021" element="30" vr="IS" vm="1" name="Number of 3D Raw Partitions nominal">
+</entry>
+    <entry group="0021" element="31" vr="IS" vm="1" name="Number of 3D Raw Partitions current">
+</entry>
+    <entry group="0021" element="34" vr="IS" vm="1" name="Number of 3D Image Partitions">
+</entry>
+    <entry group="0021" element="36" vr="IS" vm="1" name="Actual 3D Image Partition Number">
+</entry>
+    <entry group="0021" element="39" vr="DS" vm="1" name="Slab Thickness">
+</entry>
+    <entry group="0021" element="40" vr="IS" vm="1" name="Number of Slices nominal">
+</entry>
+    <entry group="0021" element="41" vr="IS" vm="1" name="Number of Slices current">
+</entry>
+    <entry group="0021" element="42" vr="IS" vm="1" name="Current Slice Number">
+</entry>
+    <entry group="0021" element="43" vr="IS" vm="1" name="Current Group Number">
+</entry>
+    <entry group="0021" element="44" vr="DS" vm="1" name="Current Slice Distance Factor">
+</entry>
+    <entry group="0021" element="45" vr="IS" vm="1" name="MIP Start Row">
+</entry>
+    <entry group="0021" element="46" vr="IS" vm="1" name="MIP Stop Row">
+</entry>
+    <entry group="0021" element="47" vr="IS" vm="1" name="MIP Start Column">
+</entry>
+    <entry group="0021" element="48" vr="IS" vm="1" name="MIP Stop Column">
+</entry>
+    <entry group="0021" element="49" vr="IS" vm="1" name="MIP Start Slice">
+</entry>
+    <entry group="0021" element="4A" vr="IS" vm="1" name="MIP Stop Slice">
+</entry>
+    <entry group="0021" element="4F" vr="CS" vm="1" name="Order of Slices">
+</entry>
+    <entry group="0021" element="50" vr="UL" vm="1" name="Signal Mask">
+</entry>
+    <entry group="0021" element="52" vr="IS" vm="1" name="Delay after Trigger">
+</entry>
+    <entry group="0021" element="53" vr="IS" vm="1" name="RRInterval">
+</entry>
+    <entry group="0021" element="54" vr="DS" vm="1" name="Number of Trigger Pulses">
+</entry>
+    <entry group="0021" element="56" vr="DS" vm="1" name="Repetition Time effective">
+</entry>
+    <entry group="0021" element="57" vr="CS" vm="1" name="Gate Phase">
+</entry>
+    <entry group="0021" element="58" vr="DS" vm="1" name="Gate Threshold">
+</entry>
+    <entry group="0021" element="59" vr="DS" vm="1" name="Gated Ratio">
+</entry>
+    <entry group="0021" element="60" vr="IS" vm="1" name="Number of Interpolated Images">
+</entry>
+    <entry group="0021" element="70" vr="IS" vm="1" name="Number of Echoes">
+</entry>
+    <entry group="0021" element="72" vr="DS" vm="1" name="Second Echo Time">
+</entry>
+    <entry group="0021" element="73" vr="DS" vm="1" name="Second Repetition Time">
+</entry>
+    <entry group="0021" element="80" vr="IS" vm="1" name="Cardiac Code">
+</entry>
+    <entry group="0021" element="91" vr="DS" vm="1-6" name="Saturation Phase Encoding Vector Tra">
+</entry>
+    <entry group="0021" element="92" vr="DS" vm="1-6" name="Saturation Readout Vector Tra">
+</entry>
+    <entry group="0021" element="93" vr="DS" vm="1" name="EPI Change Value of Magnitude">
+</entry>
+    <entry group="0021" element="94" vr="DS" vm="1" name="EPI Change Value of X Component">
+</entry>
+    <entry group="0021" element="95" vr="DS" vm="1" name="EPI Change Value of Y Component">
+</entry>
+    <entry group="0021" element="96" vr="DS" vm="1" name="EPI Change Value of Z Component">
 </entry>
 </dict>
   <dict owner="SIEMENS CSA NON-IMAGE">
