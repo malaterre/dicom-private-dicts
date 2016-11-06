@@ -1,0 +1,18 @@
+﻿<dicts>
+  <dict owner="1.2.840.113681">
+    <entry group="0019" element="00" vr="LO" vm="1" name="">
+</entry>
+    <entry group="0019" element="10" vr="ST" vm="1" name="CR Image Params Common">
+<definition>A short text (1024 bytes or less) field containing the ASCII encoded numeric parameters describing CR image processing. The format of the string is described below using a C-language printf()-like syntax: "C:%+4.1f, S:%+5.1f, SE:%05d, L:%3.1f, E:%1d, SA: %d" ,C_Shift ,S_Shift ,sensitivity ,(float)latitude / 10.0 ,edr_mode ,sampling_density_code     /*0=5 pix/mm,   1=6.67 pix/mm, 2=10 pix/mm */</definition>
+</entry>
+    <entry group="0019" element="11" vr="ST" vm="1" name="CR Image IP Params Single">
+<definition>Edge enhancement parameter values to use when displaying the image in a large format (e.g. 1-UP on a film) using limited edge enhancement.</definition>
+</entry>
+    <entry group="0019" element="12" vr="ST" vm="1" name="CR Image IP Params Left">
+<definition>Edge enhancement parameter values to use when displaying the image in a smaller format (left side of a 2-UP film) using minimal edge enhancement.</definition>
+</entry>
+    <entry group="0019" element="13" vr="ST" vm="1" name="CR Image IP Params Right">
+<definition>Edge enhancement parameter values to use when displaying the image in a smaller format (right side of a 2-UP film) using full edge enhancement. The encoding of elements 1011,1012, and 1013 in group 0019 is the same, and can be described as follows: "ga:%+4.1f, gc:%3.1f, gs:%+5.1f, re:%3.1f, rn:%1d, rt:%c, lt:%c"</definition>
+</entry>
+</dict>
+</dicts>
