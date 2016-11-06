@@ -64,15 +64,18 @@ def process( line ):
       assert line[-1] == ')'
       line = line[1:-1]
       #print line
-      group,element,vr,keyword,name = line.split(',',4)
-      vr = vr.strip()
+      v1 = line.split(',',4)
+      #map(str.strip, v)
+      v2 = [item.strip(' \t') for item in v1]
+      group,element,vr,keyword,name = v2
       if group == '3118':
         # sigh
         group = "3119"
       el={}
       el['group'] = group
       el['element'] = element[2:4]
-      value = name.strip()[1:-1] # remove '"'
+      assert name[0] == '"' and name[-1] == '"'
+      value = name[1:-1] # remove '"'
       if "(RET)" in value:
         value = value[:-5]
         assert value[-1] == ' '

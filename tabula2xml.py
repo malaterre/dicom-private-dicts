@@ -63,7 +63,11 @@ def read_element( value ):
   if element.startswith( '0x' ): # usual copy/paste error from editor
     element = element.replace( '0x', '' )
   if len(element) == 4: # typically people use group number, eg: F100
-    if element[0:2] == '00':
+    # Need to handle doc such as 000410_tcm583-21790.pdf
+    # where one write '0012' in place of '1012'
+    if element == '0010':
+      element = '0'
+    elif element == '00xx':
       element = '0'
     else:
       # FIXME wotsit ?

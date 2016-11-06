@@ -9,4 +9,4 @@ set -e
 ./tabula2xml.py  --header "AttributeName,Tag,DefaultValue"  --owner "AGFA"  --files "agfa/chunk0.json" --output "agfa/000946_tcm583-21755_1.xml"
 ./tabula.sh -o "agfa/chunk0.json" --spreadsheet -p 37 -a 291.083,63.878,561.893,547.358 "agfa/000410_tcm583-21790.pdf"
 ./tabula2xml.py  --header "Tag,VR,VM,AttributeName,Definition"  --owner "1.2.840.113681"  --files "agfa/chunk0.json" --output "agfa/000410_tcm583-21790_0.xml"
-rm agfa/chunk?.json
+#rm agfa/chunk?.json

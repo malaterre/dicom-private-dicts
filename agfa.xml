@@ -48,4 +48,13 @@
     <entry owner="AGFA" group="0019" element="xx1b" vr="UN" vm="1" name="Logarithmic plt_full_scale"/>
 
 
+
+  
+    <entry owner="1.2.840.113681" group="0019" element="xx00" vr="LO" vm="1" name=""/>
+    <entry owner="1.2.840.113681" group="0019" element="xx10" vr="ST" vm="1" name="CR Image Params Common"/>
+    <entry owner="1.2.840.113681" group="0019" element="xx11" vr="ST" vm="1" name="CR Image IP Params Single"/>
+    <entry owner="1.2.840.113681" group="0019" element="xx12" vr="ST" vm="1" name="CR Image IP Params Left"/>
+    <entry owner="1.2.840.113681" group="0019" element="xx13" vr="ST" vm="1" name="CR Image IP Params Right"/>
+
+
 </dict>
