@@ -1,3 +1,5 @@
 http://www.schicktech.com/uploads/downloads/DicomClient_Conformance_35.pdf
 http://www.soundvet.com/library/media/pdf/DICOMconformanceTruDR_VPACSv15.pdf
 http://www.radinfosystems.com/pdf/PowerPACS_ImageImporter-DicomConform.pdf
+http://www.dexis.com/filebin/documents/policy/DEXIS-DICOM.pdf
+http://www.mckesson.com/documents/providers/mckesson-radiology-12-dicom-conformance-statement/McKesson Radiology 12.1.1 DICOM Conformance Statement rev1.0.pdf

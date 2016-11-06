@@ -42,6 +42,8 @@ def normalize_header( header ):
   return ret
 
 def read_group( value ):
+  if value.startswith( ">" ):
+    value = value[1:].lstrip()
   group = "0x%s" % value.lower()
   try:
     group = eval(group)

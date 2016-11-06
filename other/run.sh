@@ -21,4 +21,11 @@ set -e
 ./tabula.sh -o "other/chunk0.json" --spreadsheet -p 17 -a 263.543,97.538,711.833,536.648 "other/PowerPACS_ImageImporter-DicomConform.pdf"
 ./tabula.sh -o "other/chunk1.json" --spreadsheet -p 18 -a 93.713,99.833,456.323,534.353 "other/PowerPACS_ImageImporter-DicomConform.pdf"
 ./tabula2xml.py  --header "AttributeName,Tag,VR,VM,Type,Definition"  --owner "PRIVATE ORIGINAL ATTRIBUTES"  --files "other/chunk0.json,other/chunk1.json" --output "other/PowerPACS_ImageImporter-DicomConform_0.xml"
-rm other/chunk?.json
+./tabula.sh -o "other/chunk0.json" --spreadsheet -p 19 -a 215.725,50.101,412.768,350.709 "other/DEXIS-DICOM.pdf"
+./tabula2xml.py  --header "AttributeName,Tag,Definition"  --owner "2.16.840.1.114059.1.1.6.1.50.1"  --files "other/chunk0.json" --output "other/DEXIS-DICOM_0.xml"
+./tabula.sh -o "other/chunk0.json" --spreadsheet -p 137 -a 511.403,83.768,735.548,568.013 "other/McKesson Radiology 12.1.1 DICOM Conformance Statement rev1.0.pdf"
+./tabula.sh -o "other/chunk1.json" --spreadsheet -p 138 -a 107.483,79.178,231.413,569.543 "other/McKesson Radiology 12.1.1 DICOM Conformance Statement rev1.0.pdf"
+./tabula.sh -o "other/chunk2.json" --spreadsheet -p 186 -a 130.433,83.003,256.658,568.778 "other/McKesson Radiology 12.1.1 DICOM Conformance Statement rev1.0.pdf"
+./tabula.sh -o "other/chunk3.json" --spreadsheet -p 190 -a 255.893,83.768,506.048,568.013 "other/McKesson Radiology 12.1.1 DICOM Conformance Statement rev1.0.pdf"
+./tabula.sh -o "other/chunk4.json" --spreadsheet -p 195 -a 594.023,81.473,722.543,566.483 "other/McKesson Radiology 12.1.1 DICOM Conformance Statement rev1.0.pdf"
+./tabula2xml.py  --header "Tag,AttributeName,VR,VM,Definition"  --owner "A.L.I. Technologies, Inc."  --files "other/chunk0.json,other/chunk1.json,other/chunk2.json,other/chunk3.json,other/chunk4.json" --output "other/McKesson Radiology 12.1.1 DICOM Conformance Statement rev1.0_0.xml"

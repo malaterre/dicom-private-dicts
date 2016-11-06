@@ -102,4 +102,53 @@
     <entry owner="PRIVATE ORIGINAL ATTRIBUTES" group="0021" element="xx70" vr="PN" vm="1-n" name="Original Operators&#x2019; Name"/>
 
 
+
+  
+    <entry owner="2.16.840.1.114059.1.1.6.1.50.1" group="0029" element="xx29" vr="UN" vm="1" name="Private Tag Range"/>
+    <entry owner="2.16.840.1.114059.1.1.6.1.50.1" group="0029" element="xx20" vr="UN" vm="1" name="Description"/>
+    <entry owner="2.16.840.1.114059.1.1.6.1.50.1" group="0029" element="xx21" vr="UN" vm="1" name="Orientation"/>
+    <entry owner="2.16.840.1.114059.1.1.6.1.50.1" group="0029" element="xx22" vr="UN" vm="1" name="Parameter 1"/>
+    <entry owner="2.16.840.1.114059.1.1.6.1.50.1" group="0029" element="xx23" vr="UN" vm="1" name="Parameter 2"/>
+    <entry owner="2.16.840.1.114059.1.1.6.1.50.1" group="0029" element="xx24" vr="UN" vm="1" name="Teeth"/>
+    <entry owner="2.16.840.1.114059.1.1.6.1.50.1" group="0029" element="xx25" vr="UN" vm="1" name="Jaw"/>
+    <entry owner="2.16.840.1.114059.1.1.6.1.50.1" group="0029" element="xx26" vr="UN" vm="1" name="Quadrant"/>
+    <entry owner="2.16.840.1.114059.1.1.6.1.50.1" group="0029" element="xx27" vr="UN" vm="1" name="CRC"/>
+
+
+
+  
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx00" vr="LO" vm="1" name="Private Creator ID"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx01" vr="LO" vm="1" name="Filename"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx02" vr="OB" vm="1" name="Data Blob of a Visit"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx03" vr="US" vm="1" name="Revision Number"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx04" vr="UL" vm="1" name="Unix Timestamp"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx05" vr="IS" vm="1" name="Bag ID"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx0c" vr="UI" vm="1" name="Original Study UID"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx0d" vr="US" vm="1" name="Overlay Grayscale Value"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx0e" vr="CS" vm="1" name="Anonymization Status"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx0f" vr="CS" vm="1" name="Instance Type"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx30" vr="LO" vm="1" name="IP Converted Frame"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xxc3" vr="LO" vm="1" name="ALI_SIM_PRIVATE_ MC_STRING"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx00" vr="LO" vm="1" name="Private Creator ID"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xxb0" vr="OB" vm="1" name="ALI_SERIALIZED_ANNOTATIONS"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xxb1" vr="DA" vm="1" name="ALI_SERIALIZED_GSPS_DATE"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xxb2" vr="TM" vm="1" name="ALI_SERIALIZED_GSPS_TIME"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xxb3" vr="OB" vm="1" name="ALI_SERIALIZED_PRESENTATION"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx00" vr="LO" vm="1" name="Private Creator ID"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xxc4" vr="SQ" vm="1" name="ALI_SIM_DATA_SEQUENCE"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx00" vr="LO" vm="1" name="Private Creator ID"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xxc0" vr="OB" vm="1" name="ALI_SIM_DATA_BLOB"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xxc2" vr="UL" vm="1" name="ALI_SIM_DATA_BLOB_SIZE"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xxc1" vr="LO" vm="1" name="ALI_SIM_WRAP_FILE_CREATOR _ID"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xxc3" vr="LO" vm="1" name="ALI_SIM_PRIVATE_MC_STRING"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx01" vr="LO" vm="1" name="ALI_FILENAME_TAG"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx05" vr="IS" vm="1" name="ALI_BAG_ID_TAG"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx00" vr="LO" vm="1" name="Private Creator ID"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xxc1" vr="LO" vm="1" name="ALI_SIM_WRAP_FILE_CREATOR_ID"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xxc2" vr="UL" vm="1" name="ALI_SIM_DATA_BLOB_SIZE"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xxc3" vr="LO" vm="1" name="ALI_SIM_PRIVATE_MC_STRING"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx01" vr="LO" vm="1" name="ALI_FILENAME_TAG"/>
+    <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx05" vr="IS" vm="1" name="ALI_BAG_ID_TAG"/>
+
+
 </dict>

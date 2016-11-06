@@ -120,5 +120,39 @@
 
          }
       ]
+   },
+   {
+      "url" : "http://www.dexis.com/filebin/documents/policy/DEXIS-DICOM.pdf",
+      "md5" : "ad4f23dd449f3bae7718952aad1d9817",
+      "tables" : [
+         {
+            "owner" : "2.16.840.1.114059.1.1.6.1.50.1",
+            "header" : [
+               "AttributeName",
+               "Tag",
+               "Definition"
+            ],
+"chunks": [{"page": "19", "area": "215.725,50.101,412.768,350.709"}]
+
+         }
+      ]
+   },
+   {
+      "url" : "http://www.mckesson.com/documents/providers/mckesson-radiology-12-dicom-conformance-statement/McKesson Radiology 12.1.1 DICOM Conformance Statement rev1.0.pdf",
+      "md5" : "04f2c2905d4f72f3e42501cc4670d1f7",
+      "tables" : [
+         {
+            "owner" : "A.L.I. Technologies, Inc.",
+            "header" : [
+               "Tag",
+               "AttributeName",
+               "VR",
+               "VM",
+               "Definition"
+            ],
+"chunks": [{"page": "137", "area": "511.403,83.768,735.548,568.013"}, {"page": "138", "area": "107.483,79.178,231.413,569.543"}, {"page": "186", "area": "130.433,83.003,256.658,568.778"}, {"page": "190", "area": "255.893,83.768,506.048,568.013"}, {"page": "195", "area": "594.023,81.473,722.543,566.483"}]
+
+         }
+      ]
    }
 ]
