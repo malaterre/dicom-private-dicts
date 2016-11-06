@@ -46,7 +46,7 @@ def read_group( value ):
   try:
     group = eval(group)
   except SyntaxError:
-    print "Could not eval: [%s]" % value
+    print "Could not eval group: [%s]" % value
     return 0
   if( group > 0xffff or group < 0 ):
     raise ValueError, "group issue with %s" % value
@@ -72,6 +72,13 @@ def read_element( value ):
   element = "0x%s" % element
   try:
     element = eval(element)
+  except SyntaxError:
+    print "SyntaxError from input %s" % element
+    if "..." in value:
+      print "accepting as is"
+      element = 0
+    else:
+      raise
   except TypeError:
     print "TypeError from input %s" % element
     raise
@@ -105,6 +112,10 @@ def normalize_entry( entry ):
         bracko = '['
         brackc = ']'
       if(debug): print >> sys.stderr, "sep/brack(s) are: [%s]/[%s]/[%s]"% (sep,bracko,brackc)
+      v = value.split(sep)
+      if len(v) != 2:
+        print "Dont know how to split: [%s]"% value
+        return None
       group = read_group( value.split(sep)[0].replace(bracko,'') )
       if( group % 2 == 0 ):
         return None
@@ -112,7 +123,10 @@ def normalize_entry( entry ):
       element = read_element( value.split(sep)[1].replace(brackc,'') )
       ret['element'] = "%02x" % element
     elif key == 'AttributeName':
-      ret['name'] = value.replace('\n',' ')
+      name = value.replace('\n',' ').strip()
+      if name != '' and name[0] == '"' and name[-1] == '"':
+        name = name[1:-1]
+      ret['name'] = name
     elif key == 'Definition':
       if value != None and value != '':
         ret['definition'] = value
@@ -154,7 +168,8 @@ for f in files:
           for index,col in enumerate(k):
             elem[ col ] = j[index]['text'].replace('\r','\n')
           norm = normalize_entry(elem)
-          if norm != None: d.append(norm)
+          if norm != None:
+            d.append(norm)
       elif header != None:
         k = header
         if(debug): print >> sys.stderr, "debug header:", k
@@ -168,7 +183,8 @@ for f in files:
             for index,col in enumerate(k):
               elem[ col ] = j[index]['text'].replace('\r',' ')
             norm = normalize_entry(elem)
-            if norm != None: d.append(norm)
+            if norm != None:
+              d.append(norm)
           except IndexError:
             if line == 0:
               print "Pb with header: %s" % ",".join(elstr)

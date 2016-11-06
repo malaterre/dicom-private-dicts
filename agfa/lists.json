@@ -56,5 +56,22 @@
             ]
          }
       ]
+   },
+   {
+      "md5" : "2e52b0254d8591c9839d1f855f08ee35",
+      "tables" : [
+         {
+            "owner" : "1.2.840.113681",
+            "header" : [
+               "Tag",
+               "VR",
+               "VM",
+               "AttributeName",
+               "Definition"
+            ],
+"chunks": [{"page": "37", "area": "291.083,63.878,561.893,547.358"}]
+         }
+      ],
+      "url" : "http://www.agfahealthcare.com/he/france/fr/binaries/000410_tcm583-21790.pdf"
    }
 ]
