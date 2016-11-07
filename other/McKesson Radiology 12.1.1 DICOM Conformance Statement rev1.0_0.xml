@@ -1,0 +1,100 @@
+﻿<dicts>
+  <dict owner="A.L.I. Technologies, Inc.">
+    <entry group="3711" element="00" vr="LO" vm="1" name="Private Creator ID">
+<definition>- The Private Creator ID for this block of added Private Elements. The value is "A.L.I. Technologies, Inc.".</definition>
+</entry>
+    <entry group="3711" element="01" vr="LO" vm="1" name="Filename">
+<definition>- Holds the filename of the original SOP Instance.</definition>
+</entry>
+    <entry group="3711" element="02" vr="OB" vm="1" name="Data Blob of a Visit">
+<definition>- Holds the McKesson Radiology system proprietary database information regarding the ‘visit’ for which the SOP Instance belongs.</definition>
+</entry>
+    <entry group="3711" element="03" vr="US" vm="1" name="Revision Number">
+<definition>- The revision number of the extended info image.</definition>
+</entry>
+    <entry group="3711" element="04" vr="UL" vm="1" name="Unix Timestamp">
+<definition>- The Unix format time-stamp of the creation of the extended info image.</definition>
+</entry>
+    <entry group="3711" element="05" vr="IS" vm="1" name="Bag ID">
+<definition>- The McKesson Radiology Bag ID associated with an image.</definition>
+</entry>
+    <entry group="3711" element="0c" vr="UI" vm="1" name="Original Study UID">
+<definition>- The original Study UID specified in the SOP Instance</definition>
+</entry>
+    <entry group="3711" element="0d" vr="US" vm="1" name="Overlay Grayscale Value">
+<definition>- The MONOCHROME2 grayscale value (0 to 255) to use when displaying or printing an overlay for the SOP Instance.</definition>
+</entry>
+    <entry group="3711" element="0e" vr="CS" vm="1" name="Anonymization Status">
+<definition>- Value of "ANONYMIZED" means that the confidential patient information has been removed or replaced in the DICOM header. Note that this does not guarantee that any confidential information ‘burned into’ the pixel data has been removed.</definition>
+</entry>
+    <entry group="3711" element="0f" vr="CS" vm="1" name="Instance Type">
+<definition>- The Instance Type of images created on McKesson Radiology. Possible values:</definition>
+</entry>
+    <entry group="3711" element="30" vr="LO" vm="1" name="IP Converted Frame">
+<definition>This tag will be used as a marker which will be checked when a DICOM attribute collection of NM images is being processed. It can be added with a value of "IPConvertedFrame" when McKesson Radiology  is processing NM images that have multiple frames.</definition>
+</entry>
+    <entry group="3711" element="c3" vr="LO" vm="1" name="ALI_SIM_PRIVATE_ MC_STRING">
+<definition>- Medcon private Tag string that we store and return to the creator of the objects without modifying.  This tag is added to MC images and 18 DICOM objects for SIMwhen McKesson Radiology is archiving these objects.</definition>
+</entry>
+    <entry group="3711" element="00" vr="LO" vm="1" name="Private Creator ID">
+<definition>- The Private Creator ID for this block of added Private Elements. The value is "A.L.I. Technologies, Inc.".</definition>
+</entry>
+    <entry group="3711" element="b0" vr="OB" vm="1" name="ALI_SERIALIZED_ANNOTATIONS">
+<definition>-Serialized Internal annotations in proprietary format</definition>
+</entry>
+    <entry group="3711" element="b1" vr="DA" vm="1" name="ALI_SERIALIZED_GSPS_DATE">
+<definition>- Serialization Date</definition>
+</entry>
+    <entry group="3711" element="b2" vr="TM" vm="1" name="ALI_SERIALIZED_GSPS_TIME">
+<definition>- Serialization Time</definition>
+</entry>
+    <entry group="3711" element="b3" vr="OB" vm="1" name="ALI_SERIALIZED_PRESENTATION">
+<definition>-Serialized Internal presentation elements in proprietary format</definition>
+</entry>
+    <entry group="3711" element="00" vr="LO" vm="1" name="Private Creator ID">
+<definition>- The Private Creator ID for this block of added Private Elements. The value is "A.L.I. Technologies, Inc.".</definition>
+</entry>
+    <entry group="3711" element="c4" vr="SQ" vm="1" name="ALI_SIM_DATA_SEQUENCE">
+<definition>- A sequence of Items each of which represents a section of the McKesson Radiology HC proprietary data and size of data blob for Horizon Cardiology Study objects types. - 10 Items shall be included in this sequence.</definition>
+</entry>
+    <entry group="3711" element="00" vr="LO" vm="1" name="Private Creator ID">
+<definition>- The Private Creator ID for this block of added Private Elements. The value is "A.L.I. Technologies, Inc.".</definition>
+</entry>
+    <entry group="3711" element="c0" vr="OB" vm="1" name="ALI_SIM_DATA_BLOB">
+<definition>- Holds the McKesson Radiology HC proprietary data for McKesson Cardiology Study objects types19.</definition>
+</entry>
+    <entry group="3711" element="c2" vr="UL" vm="1" name="ALI_SIM_DATA_BLOB_SIZE">
+<definition>- Size of the data blob</definition>
+</entry>
+    <entry group="3711" element="c1" vr="LO" vm="1" name="ALI_SIM_WRAP_FILE_CREATOR _ID">
+<definition>- Unique Identifier to indicate this is a HMI wrapped DICOM file; “HMI SIM”</definition>
+</entry>
+    <entry group="3711" element="c3" vr="LO" vm="1" name="ALI_SIM_PRIVATE_MC_STRING">
+<definition>- Medcon private Tag string that we store and return to them without modifying</definition>
+</entry>
+    <entry group="3711" element="01" vr="LO" vm="1" name="ALI_FILENAME_TAG">
+<definition>- Original filename</definition>
+</entry>
+    <entry group="3711" element="05" vr="IS" vm="1" name="ALI_BAG_ID_TAG">
+<definition>- bag ID that the file belongs to</definition>
+</entry>
+    <entry group="3711" element="00" vr="LO" vm="1" name="Private Creator ID">
+<definition>- The Private Creator ID for this block of added Private Elements. The value is "A.L.I. Technologies, Inc.".</definition>
+</entry>
+    <entry group="3711" element="c1" vr="LO" vm="1" name="ALI_SIM_WRAP_FILE_CREATOR_ID">
+<definition>- Unique Identifier to indicate this is a HMI wrapped DICOM file; “HMI SIM”</definition>
+</entry>
+    <entry group="3711" element="c2" vr="UL" vm="1" name="ALI_SIM_DATA_BLOB_SIZE">
+<definition>- Size of the pdf file blob</definition>
+</entry>
+    <entry group="3711" element="c3" vr="LO" vm="1" name="ALI_SIM_PRIVATE_MC_STRING">
+<definition>- Medcon private Tag string that we store and return to them without modifying</definition>
+</entry>
+    <entry group="3711" element="01" vr="LO" vm="1" name="ALI_FILENAME_TAG">
+<definition>- Original filename</definition>
+</entry>
+    <entry group="3711" element="05" vr="IS" vm="1" name="ALI_BAG_ID_TAG">
+<definition>- bag ID that the file belongs to</definition>
+</entry>
+</dict>
+</dicts>

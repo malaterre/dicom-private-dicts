@@ -1,0 +1,31 @@
+﻿<dicts>
+  <dict owner="2.16.840.1.114059.1.1.6.1.50.1">
+    <entry group="0029" element="29" vr="UN" vm="1" name="Private Tag Range">
+<definition>Reserves the (0029,29xx) Range</definition>
+</entry>
+    <entry group="0029" element="20" vr="UN" vm="1" name="Description">
+<definition>Environmental Description</definition>
+</entry>
+    <entry group="0029" element="21" vr="UN" vm="1" name="Orientation">
+<definition>Computed Type and Orientation</definition>
+</entry>
+    <entry group="0029" element="22" vr="UN" vm="1" name="Parameter 1">
+<definition>Various Parameters</definition>
+</entry>
+    <entry group="0029" element="23" vr="UN" vm="1" name="Parameter 2">
+<definition>More Parameters</definition>
+</entry>
+    <entry group="0029" element="24" vr="UN" vm="1" name="Teeth">
+<definition>ISO Tooth Descr.</definition>
+</entry>
+    <entry group="0029" element="25" vr="UN" vm="1" name="Jaw">
+<definition>ISO Jaw Descr.</definition>
+</entry>
+    <entry group="0029" element="26" vr="UN" vm="1" name="Quadrant">
+<definition>ISO Quadrant Descr.</definition>
+</entry>
+    <entry group="0029" element="27" vr="UN" vm="1" name="CRC">
+<definition>CRC Check Sum</definition>
+</entry>
+</dict>
+</dicts>

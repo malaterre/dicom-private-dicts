@@ -1,0 +1,25 @@
+﻿<dicts>
+  <dict owner="PRIVATE ORIGINAL ATTRIBUTES">
+    <entry group="0021" element="f0" vr="LO" vm="1" name="Private Creator Data Element" type="1C">
+<definition>Has to be present if (0021,F001) is present. Has the following enumeration value. “PRIVATE ORIGINAL ATTRIBUTES”</definition>
+</entry>
+    <entry group="0021" element="01" vr="SQ" vm="1" name="Private Original Attribute Sequence" type="1C">
+<definition>One or more sequence items may be present. This sequence has to be included if both of the following conditions are true; (1) the standard Original Attribute Sequence is not defined yet; (2) one or more key attributes are replaced in the conciliation operation with the data obtained from the system.</definition>
+</entry>
+    <entry group="0021" element="05" vr="DT" vm="1" name="&gt;Replacement Date and Time" type="1">
+<definition>The date and time when the replacement occurs.</definition>
+</entry>
+    <entry group="0021" element="10" vr="LO" vm="1" name="&gt;Replacement Originator Name" type="3">
+<definition>The name of organization that performs the replacement.</definition>
+</entry>
+    <entry group="0021" element="12" vr="LO" vm="1" name="&gt;Replacement Reason" type="3">
+<definition>The reason of the replacement</definition>
+</entry>
+    <entry group="0021" element="f0" vr="LO" vm="1" name="&gt;Private Creator Data Element" type="1C">
+<definition>Must be present if any attribute of group 0021 is present. Has the following enumeration value. “PRIVATE ORIGINAL ATTRIBUTES”</definition>
+</entry>
+    <entry group="0021" element="70" vr="PN" vm="1-n" name="&gt;Original Operators’ Name" type="2C">
+<definition>The original Operators’ Name</definition>
+</entry>
+</dict>
+</dicts>
