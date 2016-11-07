@@ -6665,7 +6665,7 @@
   <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx85" vr="CS" vm="1" name="Filter Type for Phase Correction"/>
   <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx86" vr="DS" vm="1-4" name="Filter Parameter for Phase Correction"/>
   <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx87" vr="CS" vm="1" name="Normalization Filter Type for Image Data"/>
-  <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx88" vr="DS" vm="1-4" name="Normalization Filter Parameter for Image Data"/>
+  <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx88" vr="DS" vm="1-4" name="Normalization Filter Parameter"/>
   <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx90" vr="IS" vm="1" name="Number of Saturation Regions"/>
   <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx91" vr="DS" vm="1-5" name="Saturation Phase Encoding Vector Sagittal Compo..."/>
   <entry owner="SIEMENS MR VA0  GEN" group="0019" element="xx92" vr="DS" vm="1-5" name="Saturation Readout Vector Sagittal Component"/>
