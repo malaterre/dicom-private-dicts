@@ -30,6 +30,9 @@ with open(f) as data_file:
           # let's write the series of files for this manufacturer in an index file
           out_file3.write( '<index>\n' )
           for it in data:
+            if not it.has_key('url'):
+              out_file3.write( '<file>%s/%s</file>\n' % (dirpath,it['xml']) )
+              continue
             url = it['url']
             out_file.write( url )
             out_file.write( '\n' )

@@ -34,7 +34,7 @@ def normalize_header( header ):
       ret[ index ] = u'Tag'
     elif txt == 'Default Value':
       ret[ index ] = u'DefaultValue'
-    elif txt == 'Description':
+    elif txt == 'Description' or txt == 'Attribute Description':
       ret[ index ] = u'Definition'
     else:
       ret[ index ] = txt
@@ -99,9 +99,11 @@ def normalize_entry( entry ):
   #if(debug): print entry
   for key,value in entry.items():
     if key == 'VR':
-      ret['vr'] = value
+      if value != None and value != '':
+        ret['vr'] = value
     elif key == 'VM':
-      ret['vm'] = value
+      if value != None and value != '':
+        ret['vm'] = value
     elif key == 'Tag':
       if(debug): print >> sys.stderr, "debug tag:", value
       sep = '|'

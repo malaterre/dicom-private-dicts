@@ -29,3 +29,4 @@ set -e
 ./tabula.sh -o "other/chunk3.json" --spreadsheet -p 190 -a 255.893,83.768,506.048,568.013 "other/McKesson Radiology 12.1.1 DICOM Conformance Statement rev1.0.pdf"
 ./tabula.sh -o "other/chunk4.json" --spreadsheet -p 195 -a 594.023,81.473,722.543,566.483 "other/McKesson Radiology 12.1.1 DICOM Conformance Statement rev1.0.pdf"
 ./tabula2xml.py  --header "Tag,AttributeName,VR,VM,Definition"  --owner "A.L.I. Technologies, Inc."  --files "other/chunk0.json,other/chunk1.json,other/chunk2.json,other/chunk3.json,other/chunk4.json" --output "other/McKesson Radiology 12.1.1 DICOM Conformance Statement rev1.0_0.xml"
+rm other/chunk?.json

@@ -851,6 +851,167 @@
     <entry owner="GEMS_DL_FRAME_01" group="0025" element="xx3a" vr="UL" vm="1" name="Contour Filter Angle"/>
     <entry owner="GEMS_DL_FRAME_01" group="0025" element="xx3b" vr="CS" vm="1" name="Table Rotation Status"/>
     <entry owner="GEMS_DL_FRAME_01" group="0025" element="xx3c" vr="CS" vm="1" name="Internal Label Frame"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx0d" vr="UN" vm="1" name="Radio Nuclide Name"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx12" vr="UN" vm="1" name="Dataset Name"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx13" vr="UN" vm="1" name="Dataset Type"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx15" vr="UN" vm="1" name="Detector Number"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx01" vr="UN" vm="1" name="Rate Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx02" vr="UN" vm="1" name="Count Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx03" vr="UN" vm="1" name="Time Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx12" vr="UN" vm="1" name="Heart Beat Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx13" vr="UN" vm="1" name="Sequence Type"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx14" vr="UN" vm="1" name="Sequence Name"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx15" vr="UN" vm="1" name="Avr RR Time Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx16" vr="UN" vm="1" name="Low Limit Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx17" vr="UN" vm="1" name="High Limit Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx18" vr="UN" vm="1" name="Begin Index Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx19" vr="UN" vm="1" name="End Index Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx1a" vr="UN" vm="1" name="Raw Time Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx01" vr="UL" vm="1-n" name="Rate Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx02" vr="UL" vm="1-n" name="Count Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx03" vr="UL" vm="1-n" name="Time Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx07" vr="US" vm="1-n" name="Angle Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx08" vr="US" vm="1" name="Camera Shape"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx10" vr="US" vm="1" name="WholeBody Spots"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx11" vr="US" vm="1" name="Worklist Flag"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx13" vr="ST" vm="1" name="Sequence Type"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx14" vr="ST" vm="1" name="Sequence Name"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx15" vr="UL" vm="1" name="Avr RR Time Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx16" vr="UL" vm="1" name="Low Limit Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx17" vr="UL" vm="1" name="High Limit Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx18" vr="UL" vm="1" name="Begin Index Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx19" vr="UL" vm="1" name="End Index Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx1a" vr="UL" vm="1" name="Raw Time Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx1b" vr="LO" vm="1" name="Image Type String"/>
+    <entry owner="APEX_PRIVATE" group="0027" element="xx11" vr="UN" vm="1" name="Bed Position"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx10" vr="LO" vm="1" name="Study Name"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx11" vr="SL" vm="1" name="Study Flags"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx12" vr="SL" vm="1" name="Study Type"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx40" vr="PN" vm="1" name="Patient Object Name"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx41" vr="SL" vm="1" name="Patient Flags"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx42" vr="DA" vm="1" name="Patient Creation Date"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx43" vr="TM" vm="1" name="Patient Creation Time"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx0d" vr="LO" vm="1" name="Radio Nuclide Name"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx12" vr="LO" vm="1" name="Dataset Name"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx15" vr="SL" vm="1" name="Detector Number"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx11" vr="SL" vm="1" name="Source Translator"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx26" vr="LT" vm="1" name="Study Comments"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx08" vr="CS" vm="1" name="GENIE Data Object Type"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx10" vr="SL" vm="1" name="Modified"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx11" vr="LO" vm="1" name="Name"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx16" vr="LO" vm="1" name="ProtocolDataUID"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx17" vr="SH" vm="1" name="Date"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx18" vr="SH" vm="1" name="Time"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx19" vr="UL" vm="1" name="ProtocoldataFlags"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx1a" vr="UL" vm="1" name="ProtocolName"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx1b" vr="LO" vm="1" name="RelevantDataUID"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx1c" vr="LO" vm="1" name="BulkData"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx1d" vr="SL" vm="1-n" name="IntData"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx1e" vr="FD" vm="1-n" name="DoubleData"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx1f" vr="LT" vm="1-n" name="StringData"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx20" vr="LT" vm="1-n" name="BulkDataFormat"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx23" vr="LT" vm="1-n" name="StringDataFormat"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx24" vr="LT" vm="1" name="Description"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx30" vr="UL" vm="1" name="Allocate trigger buffer"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx33" vr="UL" vm="1" name="Number of triggers"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx34" vr="UL" vm="1" name="Trigger size"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx35" vr="UL" vm="1" name="Trigger data size"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx36" vr="OB" vm="1-n" name="Trigger data"/>
+    <entry owner="GEMS_XELPRV_01" group="0009" element="xx01" vr="SH" vm="1" name="Private Creator Element"/>
+    <entry owner="GEMS_XELPRV_01" group="0009" element="xx10" vr="LO" vm="1" name="Study Name"/>
+    <entry owner="GEMS_XELPRV_01" group="0009" element="xx11" vr="SL" vm="1" name="Study Flags"/>
+    <entry owner="GEMS_XELPRV_01" group="0009" element="xx12" vr="SL" vm="1" name="Study Type"/>
+    <entry owner="GEMS_XELPRV_01" group="0009" element="xx40" vr="PN" vm="1" name="Patient Name"/>
+    <entry owner="GEMS_XELPRV_01" group="0009" element="xx41" vr="SL" vm="1" name="Patient Flags"/>
+    <entry owner="GEMS_XELPRV_01" group="0009" element="xx42" vr="DA" vm="1" name="Creation Date"/>
+    <entry owner="GEMS_XELPRV_01" group="0009" element="xx43" vr="TM" vm="1" name="Creation Time"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx08" vr="CS" vm="1ee note 1" name="Private Message Type"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx10" vr="SL" vm="1" name="Modified"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx11" vr="LO" vm="1" name="Protocol Data Name"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx16" vr="LO" vm="1" name="Protocol data UID"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx17" vr="SH" vm="1" name="Protocol Data Date"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx18" vr="SH" vm="1" name="Protocol Data Time"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx19" vr="UL" vm="1" name="Protocol Data Flags"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx1a" vr="LO" vm="1" name="Protocol Name"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx1b" vr="LO" vm="1" name="Relevant Series"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx1c" vr="OB" vm="1" name="Bulk Data"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx1d" vr="SL" vm="1" name="Int Data"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx1e" vr="FD" vm="1ee note 2" name="Double Data"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx1f" vr="LT" vm="1ee note 3" name="String Data"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx20" vr="LT" vm="1ee note 3" name="Bulk Data Format"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx23" vr="LT" vm="1" name="String Data Format"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx24" vr="LT" vm="1" name="Protocol Data Description"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx11" vr="UN" vm="1" name="Worklist Flag"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx04" vr="UN" vm="1" name="Params"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx07" vr="UN" vm="1" name="Angle Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx08" vr="UN" vm="1" name="Camera Shape"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx09" vr="UN" vm="1" name="Protocol Params"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx13" vr="UN" vm="1" name="Sequence Type"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx10" vr="UN" vm="1" name="WholeBody Spots"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx12" vr="UN" vm="1" name="Heart Beat Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx14" vr="UN" vm="1" name="Sequence Name"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx1b" vr="UN" vm="1" name="Image Type String"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx1c" vr="UN" vm="1" name="Image Installed Flag"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx12" vr="UN" vm="1" name="Heart Beat Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx13" vr="UN" vm="1" name="Sequence Type"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx14" vr="UN" vm="1" name="Sequence Name"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx15" vr="UN" vm="1" name="Avr RR Time Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx16" vr="UN" vm="1" name="Low Limit Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx17" vr="UN" vm="1" name="High Limit Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx18" vr="UN" vm="1" name="Begin Index Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx19" vr="UN" vm="1" name="End Index Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx1a" vr="UN" vm="1" name="Raw Time Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx01" vr="UL" vm="1-n" name="Rate Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx02" vr="UL" vm="1-n" name="Count Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx03" vr="UL" vm="1-n" name="Time Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx04" vr="OB" vm="1" name="Params"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx05" vr="UN" vm="1" name="CLIST Buffer"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx06" vr="UN" vm="1" name="CLIST UID"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx07" vr="UL" vm="1-n" name="Angle Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx08" vr="US" vm="1" name="Camera Shape"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx09" vr="UN" vm="1" name="Protocol Params"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx10" vr="US" vm="1" name="WholeBody Spots"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx11" vr="OB" vm="1" name="Worklist Flag"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx12" vr="UN" vm="1" name="Heart Beat Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx13" vr="PN" vm="1" name="Sequence Type"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx14" vr="PN" vm="1" name="Sequence Name"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx15" vr="UN" vm="1" name="Avr RR Time Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx16" vr="UN" vm="1" name="Low Limit Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx17" vr="UN" vm="1" name="High Limit Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx18" vr="UN" vm="1" name="Begin Index Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx19" vr="UN" vm="1" name="End Index Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx1a" vr="UL" vm="1-n" name="Raw Time Vector"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx1b" vr="LO" vm="1" name="Image Type String"/>
+    <entry owner="QUASAR_INTERNAL_USE" group="0009" element="xx1c" vr="US" vm="1" name="Image Installed Flag"/>
+    <entry owner="APEX_PRIVATE" group="0027" element="xx11" vr="UN" vm="1" name="Bed Position"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx10" vr="LO" vm="1" name="Study Name"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx11" vr="SL" vm="1" name="Study Flags"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx12" vr="SL" vm="1" name="Study Type"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx40" vr="PN" vm="1" name="Patient Object Name"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx41" vr="SL" vm="1" name="Patient Flags"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx42" vr="DA" vm="1" name="Patient Creation Date"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx43" vr="TM" vm="1" name="Patient Creation Time"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx0d" vr="LO" vm="1" name="Radio Nuclide Name"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx12" vr="LO" vm="1" name="Dataset Name"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx15" vr="SL" vm="1" name="Detector Number"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx11" vr="SL" vm="1" name="Source Translator"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx26" vr="LT" vm="1" name="Study Comments"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx08" vr="CS" vm="1" name="GENIE Data Object Type"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx10" vr="SL" vm="1" name="Modified"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx11" vr="LO" vm="1" name="Name"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx16" vr="LO" vm="1" name="ProtocolDataUID"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx17" vr="SH" vm="1" name="Date"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx18" vr="SH" vm="1" name="Time"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx19" vr="UL" vm="1" name="ProtocoldataFlags"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx1a" vr="UL" vm="1" name="ProtocolName"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx1b" vr="LO" vm="1" name="RelevantDataUID"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx1c" vr="LO" vm="1" name="BulkData"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx1d" vr="SL" vm="1-n" name="IntData"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx1e" vr="FD" vm="1-n" name="DoubleData"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx1f" vr="LT" vm="1-n" name="StringData"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx20" vr="LT" vm="1-n" name="BulkDataFormat"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx23" vr="LT" vm="1-n" name="StringDataFormat"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx24" vr="LT" vm="1" name="Description"/>
     <entry owner="Philips Imaging DD 001" group="2001" element="xx01" vr="FL" vm="1" name="MRImageChemicalShift"/>
     <entry owner="Philips Imaging DD 001" group="2001" element="xx02" vr="IS" vm="1" name="MRImageChemicalShiftNumber"/>
     <entry owner="Philips Imaging DD 001" group="2001" element="xx03" vr="FL" vm="1" name="MRImageDiffusionBFactor"/>
