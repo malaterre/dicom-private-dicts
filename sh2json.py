@@ -5,9 +5,11 @@ import sys
 
 f=sys.argv[1]
 
-array=[]
+a=[]
 with open(f, "r") as ins:
   for line in ins:
+    j={}
+    array=[]
     items = line.split(" ")
     chunk={}
     assert items[4] == '-a'
@@ -15,7 +17,10 @@ with open(f, "r") as ins:
     assert items[6] == '-p'
     chunk["page"]=items[7]
     array.append(chunk)
+    j["chunks"]=array
+    #j["header"]=[]
+    j["use_table_header"]=True
+    j["owner"]="PRIV"
+    a.append( j )
 
-j={}
-j["chunks"]=array
-print json.dumps(j)
+print json.dumps(a, sort_keys=True, indent=4)
