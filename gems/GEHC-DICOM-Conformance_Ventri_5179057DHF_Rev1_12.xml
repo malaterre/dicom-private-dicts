@@ -1,0 +1,18 @@
+﻿<dicts>
+  <dict owner="QUASAR_INTERNAL_USE">
+    <entry group="0009" element="10" vr="UN" vm="1" name="WholeBody Spots">
+<definition>QUASAR private flags</definition>
+</entry>
+    <entry group="0009" element="12" vr="UN" vm="1" name="Heart Beat Vector">
+<definition>heart beat vector (for gspect)</definition>
+</entry>
+    <entry group="0009" element="14" vr="UN" vm="1" name="Sequence Name">
+</entry>
+    <entry group="0009" element="1b" vr="UN" vm="1" name="Image Type String">
+<definition>Image type string as passed in the scan request</definition>
+</entry>
+    <entry group="0009" element="1c" vr="UN" vm="1" name="Image Installed Flag">
+<definition>define if image is already installed in the database</definition>
+</entry>
+</dict>
+</dicts>

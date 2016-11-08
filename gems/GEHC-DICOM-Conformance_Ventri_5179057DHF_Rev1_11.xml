@@ -1,0 +1,19 @@
+﻿<dicts>
+  <dict owner="QUASAR_INTERNAL_USE">
+    <entry group="0009" element="04" vr="UN" vm="1" name="Params">
+<definition>scan blob</definition>
+</entry>
+    <entry group="0009" element="07" vr="UN" vm="1" name="Angle Vector">
+<definition>angle for each TOMO frame. For each frame is tells
+what is the angle of the detector</definition>
+</entry>
+    <entry group="0009" element="08" vr="UN" vm="1" name="Camera Shape">
+<definition>camera shape H mode, L mode</definition>
+</entry>
+    <entry group="0009" element="09" vr="UN" vm="1" name="Protocol Params">
+<definition>protocol description blob</definition>
+</entry>
+    <entry group="0009" element="13" vr="UN" vm="1" name="Sequence Type">
+</entry>
+</dict>
+</dicts>

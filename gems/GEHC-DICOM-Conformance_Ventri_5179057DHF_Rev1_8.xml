@@ -1,0 +1,16 @@
+﻿<dicts>
+  <dict owner="GEMS_XELPRV_01">
+    <entry group="0033" element="08" vr="CS" vm="See Note 1" name="Private Message Type">
+</entry>
+    <entry group="0033" element="10" vr="SL" vm="1" name="Modified">
+</entry>
+    <entry group="0033" element="11" vr="LO" vm="1" name="Protocol Data Name">
+</entry>
+    <entry group="0033" element="16" vr="LO" vm="1" name="Protocol data UID">
+</entry>
+    <entry group="0033" element="17" vr="SH" vm="1" name="Protocol Data Date">
+</entry>
+    <entry group="0033" element="18" vr="SH" vm="1" name="Protocol Data Time">
+</entry>
+</dict>
+</dicts>

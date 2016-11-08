@@ -1,0 +1,30 @@
+﻿<dicts>
+  <dict owner="GEMS_GENIE_1">
+    <entry group="0009" element="10" vr="LO" vm="1" name="Study Name">
+</entry>
+    <entry group="0009" element="11" vr="SL" vm="1" name="Study Flags">
+</entry>
+    <entry group="0009" element="12" vr="SL" vm="1" name="Study Type">
+</entry>
+    <entry group="0009" element="40" vr="PN" vm="1" name="Patient Object Name">
+</entry>
+    <entry group="0009" element="41" vr="SL" vm="1" name="Patient Flags">
+</entry>
+    <entry group="0009" element="42" vr="DA" vm="1" name="Patient Creation Date">
+</entry>
+    <entry group="0009" element="43" vr="TM" vm="1" name="Patient Creation Time">
+</entry>
+    <entry group="0011" element="0d" vr="LO" vm="1" name="Radio Nuclide Name">
+</entry>
+    <entry group="0011" element="12" vr="LO" vm="1" name="Dataset Name">
+</entry>
+    <entry group="0011" element="15" vr="SL" vm="1" name="Detector Number">
+</entry>
+    <entry group="0013" element="11" vr="SL" vm="1" name="Source Translator">
+</entry>
+    <entry group="0013" element="26" vr="LT" vm="1" name="Study Comments">
+</entry>
+    <entry group="0033" element="08" vr="CS" vm="1" name="GENIE Data Object Type">
+</entry>
+</dict>
+</dicts>

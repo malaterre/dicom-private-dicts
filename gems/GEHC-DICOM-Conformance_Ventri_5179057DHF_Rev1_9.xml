@@ -1,0 +1,24 @@
+﻿<dicts>
+  <dict owner="GEMS_XELPRV_01">
+    <entry group="0033" element="19" vr="UL" vm="1" name="Protocol Data Flags">
+</entry>
+    <entry group="0033" element="1a" vr="LO" vm="1" name="Protocol Name">
+</entry>
+    <entry group="0033" element="1b" vr="LO" vm="1" name="Relevant Series">
+</entry>
+    <entry group="0033" element="1c" vr="OB" vm="1" name="Bulk Data">
+</entry>
+    <entry group="0033" element="1d" vr="SL" vm="1" name="Int Data">
+</entry>
+    <entry group="0033" element="1e" vr="FD" vm="See Note 2" name="Double Data">
+</entry>
+    <entry group="0033" element="1f" vr="LT" vm="See Note 3" name="String Data">
+</entry>
+    <entry group="0033" element="20" vr="LT" vm="See Note 3" name="Bulk Data Format">
+</entry>
+    <entry group="0033" element="23" vr="LT" vm="1" name="String Data Format">
+</entry>
+    <entry group="0033" element="24" vr="LT" vm="1" name="Protocol Data Description">
+</entry>
+</dict>
+</dicts>

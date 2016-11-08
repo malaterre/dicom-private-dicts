@@ -1,0 +1,20 @@
+﻿<dicts>
+  <dict owner="GEMS_XELPRV_01">
+    <entry group="0009" element="01" vr="SH" vm="1" name="Private Creator Element">
+</entry>
+    <entry group="0009" element="10" vr="LO" vm="1" name="Study Name">
+</entry>
+    <entry group="0009" element="11" vr="SL" vm="1" name="Study Flags">
+</entry>
+    <entry group="0009" element="12" vr="SL" vm="1" name="Study Type">
+</entry>
+    <entry group="0009" element="40" vr="PN" vm="1" name="Patient Name">
+</entry>
+    <entry group="0009" element="41" vr="SL" vm="1" name="Patient Flags">
+</entry>
+    <entry group="0009" element="42" vr="DA" vm="1" name="Creation Date">
+</entry>
+    <entry group="0009" element="43" vr="TM" vm="1" name="Creation Time">
+</entry>
+</dict>
+</dicts>

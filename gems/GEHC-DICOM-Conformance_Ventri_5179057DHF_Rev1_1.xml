@@ -1,0 +1,13 @@
+﻿<dicts>
+  <dict owner="QUASAR_INTERNAL_USE">
+    <entry group="0009" element="01" vr="UN" vm="1" name="Rate Vector" type="3">
+<definition>rate for each frame</definition>
+</entry>
+    <entry group="0009" element="02" vr="UN" vm="1" name="Count Vector" type="3">
+<definition>count accumulated for each frame</definition>
+</entry>
+    <entry group="0009" element="03" vr="UN" vm="1" name="Time Vector" type="3">
+<definition>time for each frame</definition>
+</entry>
+</dict>
+</dicts>

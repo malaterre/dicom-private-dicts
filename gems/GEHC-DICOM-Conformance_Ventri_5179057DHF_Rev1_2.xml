@@ -1,0 +1,29 @@
+﻿<dicts>
+  <dict owner="QUASAR_INTERNAL_USE">
+    <entry group="0009" element="12" vr="UN" vm="1" name="Heart Beat Vector" type="3">
+<definition>heart beat vector</definition>
+</entry>
+    <entry group="0009" element="13" vr="UN" vm="1" name="Sequence Type" type="3">
+</entry>
+    <entry group="0009" element="14" vr="UN" vm="1" name="Sequence Name" type="3">
+</entry>
+    <entry group="0009" element="15" vr="UN" vm="1" name="Avr RR Time Vector" type="3">
+<definition>average r-r time vector</definition>
+</entry>
+    <entry group="0009" element="16" vr="UN" vm="1" name="Low Limit Vector" type="3">
+<definition>Low window limit vector</definition>
+</entry>
+    <entry group="0009" element="17" vr="UN" vm="1" name="High Limit Vector" type="3">
+<definition>High window limit vector</definition>
+</entry>
+    <entry group="0009" element="18" vr="UN" vm="1" name="Begin Index Vector" type="3">
+<definition>begin index vector: link to heart beat vector</definition>
+</entry>
+    <entry group="0009" element="19" vr="UN" vm="1" name="End Index Vector" type="3">
+<definition>end index vector: link to heart beat vector</definition>
+</entry>
+    <entry group="0009" element="1a" vr="UN" vm="1" name="Raw Time Vector" type="3">
+<definition>Raw time vector</definition>
+</entry>
+</dict>
+</dicts>

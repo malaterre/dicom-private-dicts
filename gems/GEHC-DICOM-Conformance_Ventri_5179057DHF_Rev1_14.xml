@@ -1,0 +1,40 @@
+﻿<dicts>
+  <dict owner="QUASAR_INTERNAL_USE">
+    <entry group="0009" element="01" vr="UL" vm="1-n" name="Rate Vector">
+<definition>rate for each frame</definition>
+</entry>
+    <entry group="0009" element="02" vr="UL" vm="1-n" name="Count Vector">
+<definition>count accumulated for each frame</definition>
+</entry>
+    <entry group="0009" element="03" vr="UL" vm="1-n" name="Time Vector">
+<definition>time for each frame</definition>
+</entry>
+    <entry group="0009" element="04" vr="OB" vm="1" name="Params">
+<definition>scan blob</definition>
+</entry>
+    <entry group="0009" element="05" vr="UN" vm="1" name="CLIST Buffer">
+<definition>buffer of CLIST chunks</definition>
+</entry>
+    <entry group="0009" element="06" vr="UN" vm="1" name="CLIST UID">
+<definition>UID of the CLIST</definition>
+</entry>
+    <entry group="0009" element="07" vr="UL" vm="1-n" name="Angle Vector">
+<definition>angle for each TOMO frame. For each frame is tells
+what is the angle of the detector</definition>
+</entry>
+    <entry group="0009" element="08" vr="US" vm="1" name="Camera Shape">
+<definition>camera shape H mode, L mode</definition>
+</entry>
+    <entry group="0009" element="09" vr="UN" vm="1" name="Protocol Params">
+<definition>protocol description blob</definition>
+</entry>
+    <entry group="0009" element="10" vr="US" vm="1" name="WholeBody Spots">
+<definition>QUASAR private flags</definition>
+</entry>
+    <entry group="0009" element="11" vr="OB" vm="1" name="Worklist Flag">
+</entry>
+    <entry group="0009" element="12" vr="UN" vm="1" name="Heart Beat Vector">
+<definition>heart beat vector (for gspect)</definition>
+</entry>
+</dict>
+</dicts>

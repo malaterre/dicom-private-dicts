@@ -1,0 +1,34 @@
+﻿<dicts>
+  <dict owner="GEMS_GENIE_1">
+    <entry group="0033" element="10" vr="SL" vm="1" name="Modified">
+</entry>
+    <entry group="0033" element="11" vr="LO" vm="1" name="Name">
+</entry>
+    <entry group="0033" element="16" vr="LO" vm="1" name="ProtocolDataUID">
+</entry>
+    <entry group="0033" element="17" vr="SH" vm="1" name="Date">
+</entry>
+    <entry group="0033" element="18" vr="SH" vm="1" name="Time">
+</entry>
+    <entry group="0033" element="19" vr="UL" vm="1" name="ProtocoldataFlags">
+</entry>
+    <entry group="0033" element="1a" vr="UL" vm="1" name="ProtocolName">
+</entry>
+    <entry group="0033" element="1b" vr="LO" vm="1" name="RelevantDataUID">
+</entry>
+    <entry group="0033" element="1c" vr="LO" vm="1" name="BulkData">
+</entry>
+    <entry group="0033" element="1d" vr="SL" vm="1-n" name="IntData">
+</entry>
+    <entry group="0033" element="1e" vr="FD" vm="1-n" name="DoubleData">
+</entry>
+    <entry group="0033" element="1f" vr="LT" vm="1-n" name="StringData">
+</entry>
+    <entry group="0033" element="20" vr="LT" vm="1-n" name="BulkDataFormat">
+</entry>
+    <entry group="0033" element="23" vr="LT" vm="1-n" name="StringDataFormat">
+</entry>
+    <entry group="0033" element="24" vr="LT" vm="1" name="Description">
+</entry>
+</dict>
+</dicts>

@@ -1,0 +1,32 @@
+﻿<dicts>
+  <dict owner="QUASAR_INTERNAL_USE">
+    <entry group="0009" element="13" vr="PN" vm="1" name="Sequence Type">
+</entry>
+    <entry group="0009" element="14" vr="PN" vm="1" name="Sequence Name">
+</entry>
+    <entry group="0009" element="15" vr="UN" vm="1" name="Avr RR Time Vector">
+<definition>average r-r time vector (for gspect)</definition>
+</entry>
+    <entry group="0009" element="16" vr="UN" vm="1" name="Low Limit Vector">
+<definition>Low window limit vector (for gspect)</definition>
+</entry>
+    <entry group="0009" element="17" vr="UN" vm="1" name="High Limit Vector">
+<definition>High window limit vector (for gspect)</definition>
+</entry>
+    <entry group="0009" element="18" vr="UN" vm="1" name="Begin Index Vector">
+<definition>begin index vector: link to heart beat vector (for gspect)</definition>
+</entry>
+    <entry group="0009" element="19" vr="UN" vm="1" name="End Index Vector">
+<definition>end index vector: link to heart beat vector (for spect)</definition>
+</entry>
+    <entry group="0009" element="1a" vr="UL" vm="1-n" name="Raw Time Vector">
+<definition>raw time vector (for gspect)</definition>
+</entry>
+    <entry group="0009" element="1b" vr="LO" vm="1" name="Image Type String">
+<definition>Image type string as passed in the scan request</definition>
+</entry>
+    <entry group="0009" element="1c" vr="US" vm="1" name="Image Installed Flag">
+<definition>// define if image is already installed in the database</definition>
+</entry>
+</dict>
+</dicts>
