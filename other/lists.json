@@ -138,7 +138,8 @@
       ]
    },
    {
-      "url" : "http://www.mckesson.com/documents/providers/mckesson-radiology-12-dicom-conformance-statement/McKesson Radiology 12.1.1 DICOM Conformance Statement rev1.0.pdf",
+      "url" : "http://www.mckesson.com/documents/providers/mckesson-radiology-12-dicom-conformance-statement/",
+      "content-disposition" : "McKesson Radiology 12.1.1 DICOM Conformance Statement rev1.0.pdf",
       "md5" : "04f2c2905d4f72f3e42501cc4670d1f7",
       "tables" : [
          {

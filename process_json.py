@@ -38,7 +38,10 @@ with open(f) as data_file:
             out_file.write( '\n' )
             tables = it['tables']
             # compute the PDF local path:
-            inpdf = "%s/%s" % (dirpath, os.path.basename( it['url']))
+            if it.has_key('content-disposition'):
+              inpdf = "%s/%s" % (dirpath, it['content-disposition'])
+            else:
+              inpdf = "%s/%s" % (dirpath, os.path.basename( it['url']))
             filename, file_extension = os.path.splitext(inpdf)
             md5 = it['md5']
             out_file4.write( md5 )

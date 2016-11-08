@@ -197,6 +197,7 @@
                 "owner": "GEMS_GENIE_1"
             }
         ], 
-        "url": "http://www3.gehealthcare.com/~/media/documents/us-global/products/interoperability/dicom/nuclear-medicine/gehc-dicom-conformance_ventri_5179057dhf_rev1.pdf"
+        "url": "http://www3.gehealthcare.com/~/media/documents/us-global/products/interoperability/dicom/nuclear-medicine/gehc-dicom-conformance_ventri_5179057dhf_rev1.pdf",
+        "content-disposition" : "GEHC-DICOM-Conformance_Ventri_5179057DHF_Rev1.pdf"
     }
 ]
