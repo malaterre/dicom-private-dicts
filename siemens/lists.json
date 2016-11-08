@@ -1,0 +1,54 @@
+[
+    {
+      "xml" : "syngo_fV.xml"
+    },
+    {
+      "xml" : "diction.xml"
+    },
+    {
+        "md5": "6911efec32a2157fa29ee3237ed89843", 
+        "tables": [
+    {
+        "chunks": [
+            {
+                "area": "363.671,61.359,409.783,535.872", 
+                "page": "31"
+            }
+        ], 
+        "owner": "PRIV", 
+                "header" : ["AttributeName","Tag","Type","DefaultValue"]
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "101.882,60.616,149.482,534.384", 
+                "page": "32"
+            }
+        ], 
+        "owner": "PRIV", 
+                "header" : ["AttributeName","Tag","Type","Definition"]
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "613.594,62.103,670.119,538.847", 
+                "page": "33"
+            }
+        ], 
+        "owner": "PRIV", 
+                "header" : ["AttributeName","Tag","Type","Definition"]
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "548.957,59.872,754.976,540.334", 
+                "page": "39"
+            }
+        ], 
+        "owner": "PRIV", 
+                "header" : ["AttributeName","Tag","UNK","UNK","Definition"]
+    }
+], 
+        "url": "https://www.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mdaw/mtiw/~edisp/acom_pc_rec_dcs_v60-00074270.pdf"
+    }
+]
