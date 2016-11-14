@@ -3017,6 +3017,71 @@
   <entry owner="SIEMENS SP ASPIA 00" group="0019" element="xx00" vr="CS" vm="1" name="Dose Control Characteristic Curves"/>
   <entry owner="SIEMENS SYNGO OEM HANDLER" group="0029" element="xx00" vr="LT" vm="1" name="OEM Handler Information"/>
   <entry owner="SIEMENS SYNGO OEM HANDLER" group="0029" element="xx01" vr="CS" vm="1" name="OEM Handler Export Update Trigger"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx0a" vr="SS" vm="1" name="Blackening correction"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx0b" vr="SS" vm="1" name="Dose Level"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx0c" vr="SS" vm="1" name="SDM"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx0d" vr="FL" vm="1" name="Frame rate"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx0e" vr="LO" vm="1" name="Characteristic curve"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx0f" vr="LO" vm="1" name="Cupper Filter"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx10" vr="SS" vm="1" name="Skin Dose"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx11" vr="SS" vm="1" name="Focus"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx16" vr="US" vm="1" name="Bone level (white/black)"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx17" vr="US" vm="1" name="Contrast"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx18" vr="US" vm="1" name="Brightness"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx1b" vr="US" vm="1" name="Flip H"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx1c" vr="US" vm="1" name="Flip V"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx1e" vr="US" vm="1" name="Zoom (On / Off)"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx1f" vr="SS" vm="1" name="Pan X"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx20" vr="SS" vm="1" name="Pan Y"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx21" vr="US" vm="1" name="Harmonization"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx22" vr="US" vm="1" name="DSA Mask index"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx23" vr="US" vm="1" name="DSA display sub/nat"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx24" vr="US" vm="1" name="DSA Contrast"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx25" vr="US" vm="1" name="DSA Brightness"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx27" vr="US" vm="1" name="Landmark"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx28" vr="FL" vm="1" name="Pixelshift X"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx29" vr="FL" vm="1" name="Pixelshift Y"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx48" vr="SS" vm="1" name="Series number"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx49" vr="SS" vm="1" name="Label"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx4d" vr="SS" vm="1" name="Series / Single flag"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx4e" vr="LO" vm="1" name="Series date"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx4f" vr="LO" vm="1" name="Series time"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx50" vr="SS" vm="1" name="Image type"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx54" vr="SS" vm="1" name="Harmonization Kernel"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx55" vr="SS" vm="1" name="DSA flag"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx66" vr="US" vm="1" name="Bone level (white/black)"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx67" vr="US" vm="1" name="Contrast"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx68" vr="US" vm="1" name="Brightness"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx85" vr="US" vm="1" name="Harmonization kernel"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx86" vr="US" vm="1" name="DSA Mask index"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx87" vr="US" vm="1" name="DSA display sub/nat"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx88" vr="US" vm="1" name="DSA Contrast"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx89" vr="US" vm="1" name="DSA Brightness"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx8b" vr="US" vm="1" name="Landmark"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx8c" vr="FL" vm="1" name="Pixelshift X"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx8d" vr="FL" vm="1" name="Pixelshift Y"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx8e" vr="US" vm="1" name="Shutter X"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx8f" vr="US" vm="1" name="Shutter Y"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx90" vr="US" vm="1" name="FD config: FlipV"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx91" vr="US" vm="1" name="FD config: FlipH"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx92" vr="US" vm="1" name="FD config: Rotation"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx93" vr="US" vm="1" name="FD config: Orientation"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxa0" vr="US" vm="1" name="Laterality"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxa1" vr="US" vm="1" name="R/L label"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxa2" vr="US" vm="1" name="X,Y value respective to cropped"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxaa" vr="US" vm="1" name="System type"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxab" vr="US" vm="1" name="Ortho Technique"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxb0" vr="DS" vm="1" name="Detector calibration temperature"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxbf" vr="LO" vm="1" name="name of the performed OGP"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxc0" vr="LO" vm="1" name="name of the performed Exam"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxc1" vr="US" vm="1" name="Anatomical measurement"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxc2" vr="US" vm="1" name="Data Model"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxc3" vr="US" vm="1" name="Mark number"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxc4" vr="US" vm="1" name="RIS name"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxd0" vr="US" vm="1" name="Acc. Fluoro time"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxd1" vr="LO" vm="1" name="Acc. Dose Area Product"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxd2" vr="LO" vm="1" name="Acc. Skin Dose"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxe1" vr="US" vm="1" name="K-Factor"/>
   <entry owner="SIENET" group="0009" element="xx01" vr="US" vm="1" name="SIENET Command Field"/>
   <entry owner="SIENET" group="0009" element="xx14" vr="LO" vm="1" name="Receiver PLA"/>
   <entry owner="SIENET" group="0009" element="xx16" vr="SS" vm="1" name="Transfer Priority"/>

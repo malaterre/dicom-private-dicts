@@ -50,5 +50,33 @@
     }
 ], 
         "url": "https://www.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mdaw/mtiw/~edisp/acom_pc_rec_dcs_v60-00074270.pdf"
+    },
+    {
+        "md5": "c1ed9957d71d5a87368cb91b6c678a00", 
+        "tables": [
+    {
+        "chunks": [
+            {
+                "area": "470.093,184.748,721.778,428.018", 
+        "spreadsheet": false, 
+                "page": "57"
+            }
+        ], 
+        "owner": "SIEMENS_FLCOMPACT_VA01A_PROC", 
+                "header" : ["Tag","AttributeName","VR"]
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "63.113,189.338,668.228,423.428", 
+        "spreadsheet": false, 
+                "page": "58"
+            }
+        ], 
+        "owner": "SIEMENS_FLCOMPACT_VA01A_PROC", 
+                "header" : ["Tag","AttributeName","VR"]
+    }
+], 
+      "url":"http://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mda1/njiy/~edisp/cios_family_dicom_01_16-02589882.pdf"
     }
 ]
