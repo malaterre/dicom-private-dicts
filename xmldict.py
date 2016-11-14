@@ -11,6 +11,15 @@ class XMLDictWriter:
     self.out_file.write( "<dicts>\n" )
   def close(self):
     self.out_file.write( "</dicts>\n" )
+  def writeall(self, d):
+    new_dict = {}
+    for value in d:
+      if value['owner'] not in new_dict.keys():
+        new_dict[value['owner']] = []
+      new_dict[value['owner']].append(value)
+    #print new_dict
+    for owner,subd in new_dict.items():
+      self.writelines(owner, subd)
   def writelines(self, owner, d):
     self.out_file.write( "  <dict " )
     self.out_file.write( 'owner="%s"' % owner )

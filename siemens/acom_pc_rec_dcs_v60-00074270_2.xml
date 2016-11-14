@@ -1,0 +1,13 @@
+﻿<dicts>
+  <dict owner="SIEMENS CSA NON-IMAGE">
+    <entry group="0029" element="00" vr="UN" vm="1" name="Private Creator" type="1">
+<definition>“SIEMENS CSA NON-IMAGE”</definition>
+</entry>
+    <entry group="0029" element="08" vr="UN" vm="1" name="Syngo Data Type" type="1">
+<definition>Syngo Data identification</definition>
+</entry>
+    <entry group="0029" element="09" vr="UN" vm="1" name="Syngo Data Version" type="3">
+<definition>Version information</definition>
+</entry>
+</dict>
+</dicts>

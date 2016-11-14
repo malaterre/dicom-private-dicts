@@ -1,0 +1,10 @@
+﻿<dicts>
+  <dict owner="CARDIO-D.R. 1.0">
+    <entry group="0009" element="00" vr="UN" vm="1" name="Private Creator" type="1C">
+<definition>“CARDIO-D.R. 1.0” required if Alternate Image Sequence is present</definition>
+</entry>
+    <entry group="0009" element="40" vr="SQ" vm="1" name="Alternate Image Sequence" type="1C">
+<definition>Required by AUG-XABC-DYNAMIC-CD/DVD profile if associated Lossy Directory Record exists</definition>
+</entry>
+</dict>
+</dicts>

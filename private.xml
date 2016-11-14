@@ -3025,9 +3025,12 @@
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx0f" vr="LO" vm="1" name="Cupper Filter"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx10" vr="SS" vm="1" name="Skin Dose"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx11" vr="SS" vm="1" name="Focus"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx14" vr="US" vm="1" name="Internal Data"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx16" vr="US" vm="1" name="Bone level (white/black)"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx17" vr="US" vm="1" name="Contrast"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx18" vr="US" vm="1" name="Brightness"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx19" vr="US" vm="1" name="Internal Data"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx1a" vr="US" vm="1" name="Internal Data"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx1b" vr="US" vm="1" name="Flip H"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx1c" vr="US" vm="1" name="Flip V"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx1e" vr="US" vm="1" name="Zoom (On / Off)"/>
@@ -3038,6 +3041,7 @@
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx23" vr="US" vm="1" name="DSA display sub/nat"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx24" vr="US" vm="1" name="DSA Contrast"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx25" vr="US" vm="1" name="DSA Brightness"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx26" vr="US" vm="1" name="Internal Data"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx27" vr="US" vm="1" name="Landmark"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx28" vr="FL" vm="1" name="Pixelshift X"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx29" vr="FL" vm="1" name="Pixelshift Y"/>
@@ -3047,8 +3051,13 @@
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx4e" vr="LO" vm="1" name="Series date"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx4f" vr="LO" vm="1" name="Series time"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx50" vr="SS" vm="1" name="Image type"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx51" vr="FL" vm="1" name="Internal Data"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx52" vr="SS" vm="1" name="Internal Data"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx53" vr="SS" vm="1" name="Internal Data"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx54" vr="SS" vm="1" name="Harmonization Kernel"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx55" vr="SS" vm="1" name="DSA flag"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx5c" vr="OW" vm="1" name="Internal Data"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx64" vr="US" vm="1" name="Internal Data"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx66" vr="US" vm="1" name="Bone level (white/black)"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx67" vr="US" vm="1" name="Contrast"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx68" vr="US" vm="1" name="Brightness"/>
@@ -3057,6 +3066,7 @@
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx87" vr="US" vm="1" name="DSA display sub/nat"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx88" vr="US" vm="1" name="DSA Contrast"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx89" vr="US" vm="1" name="DSA Brightness"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx8a" vr="US" vm="1" name="Internal Data"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx8b" vr="US" vm="1" name="Landmark"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx8c" vr="FL" vm="1" name="Pixelshift X"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx8d" vr="FL" vm="1" name="Pixelshift Y"/>
@@ -3069,6 +3079,10 @@
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxa0" vr="US" vm="1" name="Laterality"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxa1" vr="US" vm="1" name="R/L label"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxa2" vr="US" vm="1" name="X,Y value respective to cropped"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxa3" vr="US" vm="1" name="Internal Data"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxa4" vr="US" vm="1" name="Internal Data"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxa5" vr="US" vm="1" name="Internal Data"/>
+  <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxa6" vr="US" vm="1" name="Internal Data"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxaa" vr="US" vm="1" name="System type"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxab" vr="US" vm="1" name="Ortho Technique"/>
   <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxb0" vr="DS" vm="1" name="Detector calibration temperature"/>
@@ -3166,6 +3180,16 @@
   <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0019" element="xx02" vr="LO" vm="1" name="Total Area Dose Product"/>
   <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0019" element="xx03" vr="US" vm="1" name="Valid Calibration"/>
   <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0019" element="xx04" vr="LO" vm="1" name="Last Calibration Date"/>
+  <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0021" element="xx08" vr="US" vm="1" name="Auto Window Flag"/>
+  <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0021" element="xx09" vr="SL" vm="1" name="Auto Window Center"/>
+  <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0021" element="xx0a" vr="SL" vm="1" name="Auto Window Width"/>
+  <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0021" element="xx0b" vr="SS" vm="1" name="Filter ID"/>
+  <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0021" element="xx14" vr="US" vm="1" name="Anatomic Correct View"/>
+  <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0021" element="xx15" vr="SS" vm="1" name="Auto Window Shift"/>
+  <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0021" element="xx16" vr="DS" vm="1" name="Auto Window Expansion"/>
+  <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0021" element="xx17" vr="LO" vm="1" name="System Type"/>
+  <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0021" element="xx30" vr="SH" vm="1" name="Anatomic Sort Number"/>
+  <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0021" element="xx31" vr="SH" vm="1" name="Acquisition Sort Number"/>
   <entry owner="Siemens: Thorax/Multix FD Post Processing" group="0021" element="xx00" vr="US" vm="1" name="Label Left"/>
   <entry owner="Siemens: Thorax/Multix FD Post Processing" group="0021" element="xx01" vr="SS" vm="1" name="Label Left Orientation"/>
   <entry owner="Siemens: Thorax/Multix FD Post Processing" group="0021" element="xx02" vr="FL" vm="1" name="Label Left PctX"/>
@@ -3206,6 +3230,16 @@
   <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx14" vr="SS" vm="1" name="Image Alignment"/>
   <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx15" vr="SS" vm="1" name="Active Image Columns"/>
   <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx16" vr="SS" vm="1" name="Active Image Rows"/>
+  <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx18" vr="US" vm="1" name="Auto Gain"/>
+  <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx1a" vr="US" vm="2" name="Image Crop Upper Left"/>
+  <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx1b" vr="US" vm="2" name="Image Crop Upper Right"/>
+  <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx1c" vr="US" vm="2" name="Image Crop Lower Left"/>
+  <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx1d" vr="US" vm="2" name="Image Crop Lower Right"/>
+  <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx30" vr="US" vm="1" name="Manual Cropping"/>
+  <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx31" vr="SS" vm="1" name="Gamma LUT Parameter 1"/>
+  <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx32" vr="DS" vm="1" name="Gamma LUT Parameter 2"/>
+  <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx33" vr="SS" vm="1" name="Gamma LUT Parameter 3"/>
+  <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx34" vr="SS" vm="1" name="Gamma LUT Parameter 4"/>
   <entry owner="Siemens: Thorax/Multix FD Version" group="0017" element="xx00" vr="LO" vm="1" name="Build Date"/>
   <entry owner="Siemens: Thorax/Multix FD Version" group="0017" element="xx01" vr="LO" vm="1" name="IOD Version"/>
   <entry owner="Sound Technologies" group="f001" element="xx00" vr="CS" vm="1" name="Patient Species"/>
@@ -3277,6 +3311,9 @@
   <entry owner="TOSHIBA MDW REPORT" group="0029" element="xx09" vr="LO" vm="1" name="syngo Report Version"/>
   <entry owner="TOSHIBA MDW REPORT" group="0029" element="xx15" vr="US" vm="1" name="SR Variant"/>
   <entry owner="TOSHIBA MDW REPORT" group="0029" element="xx17" vr="UI" vm="1" name="SC SOP Instance UID"/>
+  <entry owner="Thorax/Multix FD Lab Settings" group="0019" element="xx06" vr="FD" vm="1" name="Table Object Distance"/>
+  <entry owner="Thorax/Multix FD Lab Settings" group="0019" element="xx07" vr="FD" vm="1" name="Table Detector Distance"/>
+  <entry owner="Thorax/Multix FD Lab Settings" group="0019" element="xx08" vr="US" vm="1-n" name="Ortho Step Distance"/>
   <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx00" vr="UI" vm="1" name="Private Voxar Capture UID"/>
   <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx01" vr="OB" vm="1" name="Private Voxar Saved State"/>
   <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx02" vr="SQ" vm="1" name="Private Voxar Icon Image Sequence"/>

@@ -1,0 +1,60 @@
+﻿<dicts>
+  <dict owner="SIEMENS_FLCOMPACT_VA01A_PROC">
+    <entry group="0017" element="0a" vr="SS" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="0b" vr="SS" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="0c" vr="SS" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="0d" vr="FL" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="0e" vr="LO" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="0f" vr="LO" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="14" vr="US" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="16" vr="US" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="17" vr="US" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="18" vr="US" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="19" vr="US" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="1a" vr="US" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="1b" vr="US" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="1c" vr="US" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="1e" vr="US" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="1f" vr="SS" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="20" vr="SS" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="21" vr="US" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="22" vr="US" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="23" vr="US" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="24" vr="US" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="25" vr="US" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="26" vr="US" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="27" vr="US" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="28" vr="FL" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="29" vr="FL" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="48" vr="SS" vm="1" name="Internal Data">
+</entry>
+    <entry group="0017" element="49" vr="SS" vm="1" name="Internal Data">
+</entry>
+</dict>
+</dicts>

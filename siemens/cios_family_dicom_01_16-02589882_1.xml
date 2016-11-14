@@ -1,0 +1,98 @@
+﻿<dicts>
+  <dict owner="SIEMENS_FLCOMPACT_VA01A_PROC">
+    <entry group="0017" element="23" vr="US" vm="1" name="DSA display sub/nat">
+</entry>
+    <entry group="0017" element="24" vr="US" vm="1" name="DSA Contrast">
+</entry>
+    <entry group="0017" element="25" vr="US" vm="1" name="DSA Brightness">
+</entry>
+    <entry group="0017" element="27" vr="US" vm="1" name="Landmark">
+</entry>
+    <entry group="0017" element="28" vr="FL" vm="1" name="Pixelshift X">
+</entry>
+    <entry group="0017" element="29" vr="FL" vm="1" name="Pixelshift Y">
+</entry>
+    <entry group="0017" element="48" vr="SS" vm="1" name="Series number">
+</entry>
+    <entry group="0017" element="49" vr="SS" vm="1" name="Label">
+</entry>
+    <entry group="0017" element="4d" vr="SS" vm="1" name="Series / Single flag">
+</entry>
+    <entry group="0017" element="4e" vr="LO" vm="1" name="Series date">
+</entry>
+    <entry group="0017" element="4f" vr="LO" vm="1" name="Series time">
+</entry>
+    <entry group="0017" element="50" vr="SS" vm="1" name="Image type">
+</entry>
+    <entry group="0017" element="54" vr="SS" vm="1" name="Harmonization Kernel">
+</entry>
+    <entry group="0017" element="55" vr="SS" vm="1" name="DSA flag">
+</entry>
+    <entry group="0017" element="66" vr="US" vm="1" name="Bone level (white/black)">
+</entry>
+    <entry group="0017" element="67" vr="US" vm="1" name="Contrast">
+</entry>
+    <entry group="0017" element="68" vr="US" vm="1" name="Brightness">
+</entry>
+    <entry group="0017" element="85" vr="US" vm="1" name="Harmonization kernel">
+</entry>
+    <entry group="0017" element="86" vr="US" vm="1" name="DSA Mask index">
+</entry>
+    <entry group="0017" element="87" vr="US" vm="1" name="DSA display sub/nat">
+</entry>
+    <entry group="0017" element="88" vr="US" vm="1" name="DSA Contrast">
+</entry>
+    <entry group="0017" element="89" vr="US" vm="1" name="DSA Brightness">
+</entry>
+    <entry group="0017" element="8b" vr="US" vm="1" name="Landmark">
+</entry>
+    <entry group="0017" element="8c" vr="FL" vm="1" name="Pixelshift X">
+</entry>
+    <entry group="0017" element="8d" vr="FL" vm="1" name="Pixelshift Y">
+</entry>
+    <entry group="0017" element="8e" vr="US" vm="1" name="Shutter X">
+</entry>
+    <entry group="0017" element="8f" vr="US" vm="1" name="Shutter Y">
+</entry>
+    <entry group="0017" element="90" vr="US" vm="1" name="FD config: FlipV">
+</entry>
+    <entry group="0017" element="91" vr="US" vm="1" name="FD config: FlipH">
+</entry>
+    <entry group="0017" element="92" vr="US" vm="1" name="FD config: Rotation">
+</entry>
+    <entry group="0017" element="93" vr="US" vm="1" name="FD config: Orientation">
+</entry>
+    <entry group="0017" element="a0" vr="US" vm="1" name="Laterality">
+</entry>
+    <entry group="0017" element="a1" vr="US" vm="1" name="R/L label">
+</entry>
+    <entry group="0017" element="a2" vr="US" vm="1" name="X,Y value respective to cropped">
+</entry>
+    <entry group="0017" element="aa" vr="US" vm="1" name="System type">
+</entry>
+    <entry group="0017" element="ab" vr="US" vm="1" name="Ortho Technique">
+</entry>
+    <entry group="0017" element="b0" vr="DS" vm="1" name="Detector calibration temperature">
+</entry>
+    <entry group="0017" element="bf" vr="LO" vm="1" name="name of the performed OGP">
+</entry>
+    <entry group="0017" element="c0" vr="LO" vm="1" name="name of the performed Exam">
+</entry>
+    <entry group="0017" element="c1" vr="US" vm="1" name="Anatomical measurement">
+</entry>
+    <entry group="0017" element="c2" vr="US" vm="1" name="Data Model">
+</entry>
+    <entry group="0017" element="c3" vr="US" vm="1" name="Mark number">
+</entry>
+    <entry group="0017" element="c4" vr="US" vm="1" name="RIS name">
+</entry>
+    <entry group="0017" element="d0" vr="US" vm="1" name="Acc. Fluoro time">
+</entry>
+    <entry group="0017" element="d1" vr="LO" vm="1" name="Acc. Dose Area Product">
+</entry>
+    <entry group="0017" element="d2" vr="LO" vm="1" name="Acc. Skin Dose">
+</entry>
+    <entry group="0017" element="e1" vr="US" vm="1" name="K-Factor">
+</entry>
+</dict>
+</dicts>

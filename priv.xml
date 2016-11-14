@@ -4330,6 +4330,99 @@
     <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxd1" vr="LO" vm="1" name="Acc. Dose Area Product"/>
     <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxd2" vr="LO" vm="1" name="Acc. Skin Dose"/>
     <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxe1" vr="US" vm="1" name="K-Factor"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx0a" vr="SS" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx0b" vr="SS" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx0c" vr="SS" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx0d" vr="FL" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx0e" vr="LO" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx0f" vr="LO" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx14" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx16" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx17" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx18" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx19" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx1a" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx1b" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx1c" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx1e" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx1f" vr="SS" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx20" vr="SS" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx21" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx22" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx23" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx24" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx25" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx26" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx27" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx28" vr="FL" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx29" vr="FL" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx48" vr="SS" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx49" vr="SS" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx4d" vr="SS" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx4e" vr="LO" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx4f" vr="LO" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx50" vr="SS" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx51" vr="FL" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx52" vr="SS" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx53" vr="SS" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx54" vr="SS" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx55" vr="SS" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx5c" vr="OW" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx64" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx66" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx67" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx68" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx85" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx86" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx87" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx88" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx89" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx8a" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx8b" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx8c" vr="FL" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx8d" vr="FL" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx8e" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xx8f" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxa0" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxa1" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxa2" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxa3" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxa4" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxa5" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxa6" vr="US" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxb0" vr="DS" vm="1" name="Internal Data"/>
+    <entry owner="SIEMENS_FLCOMPACT_VA01A_PROC" group="0017" element="xxc0" vr="LO" vm="1" name="Internal Data"/>
+    <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx00" vr="SS" vm="1" name="Raw Image Amplification"/>
+    <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx01" vr="SS" vm="1" name="Gamma LUT"/>
+    <entry owner="Thorax/Multix FD Lab Settings" group="0019" element="xx06" vr="FD" vm="1" name="Table Object Distance"/>
+    <entry owner="Thorax/Multix FD Lab Settings" group="0019" element="xx07" vr="FD" vm="1" name="Table Detector Distance"/>
+    <entry owner="Thorax/Multix FD Lab Settings" group="0019" element="xx08" vr="US" vm="1-n" name="Ortho Step Distance"/>
+    <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0021" element="xx08" vr="US" vm="1" name="Auto Window Flag"/>
+    <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0021" element="xx09" vr="SL" vm="1" name="Auto Window Center"/>
+    <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0021" element="xx0a" vr="SL" vm="1" name="Auto Window Width"/>
+    <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0021" element="xx0b" vr="SS" vm="1" name="Filter ID"/>
+    <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0021" element="xx14" vr="US" vm="1" name="Anatomic Correct View"/>
+    <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0021" element="xx15" vr="SS" vm="1" name="Auto Window Shift"/>
+    <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0021" element="xx16" vr="DS" vm="1" name="Auto Window Expansion"/>
+    <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0021" element="xx17" vr="LO" vm="1" name="System Type"/>
+    <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0021" element="xx30" vr="SH" vm="1" name="Anatomic Sort Number"/>
+    <entry owner="Siemens: Thorax/Multix FD Lab Settings" group="0021" element="xx31" vr="SH" vm="1" name="Acquisition Sort Number"/>
+    <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx0c" vr="SS" vm="1" name="Harmonization Kernel"/>
+    <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx0d" vr="FL" vm="1" name="Harmonization Gain"/>
+    <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx0e" vr="SS" vm="1" name="Edge Enhancement Kernel"/>
+    <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx0f" vr="FL" vm="1" name="Edge Enhancement Gain"/>
+    <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx10" vr="LT" vm="1" name="Internal Value"/>
+    <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx18" vr="US" vm="1" name="Auto Gain"/>
+    <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx18" vr="US" vm="1" name="Ortho Subsampling"/>
+    <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx1a" vr="US" vm="2" name="Image Crop Upper Left"/>
+    <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx1b" vr="US" vm="2" name="Image Crop Upper Right"/>
+    <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx1c" vr="US" vm="2" name="Image Crop Lower Left"/>
+    <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx1d" vr="US" vm="2" name="Image Crop Lower Right"/>
+    <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx30" vr="US" vm="1" name="Manual Cropping"/>
+    <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx31" vr="SS" vm="1" name="Gamma LUT Parameter 1"/>
+    <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx32" vr="DS" vm="1" name="Gamma LUT Parameter 2"/>
+    <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx33" vr="SS" vm="1" name="Gamma LUT Parameter 3"/>
+    <entry owner="Siemens: Thorax/Multix FD Raw Image Settings" group="0025" element="xx34" vr="SS" vm="1" name="Gamma LUT Parameter 4"/>
     <entry owner="SCHICK TECHNOLOGIES - Viewset Creator ID" group="0009" element="xx01" vr="UI" vm="1" name="Instance UID"/>
     <entry owner="SCHICK TECHNOLOGIES - Viewset Creator ID" group="0009" element="xx02" vr="LO" vm="1" name="Name"/>
     <entry owner="SCHICK TECHNOLOGIES - Viewset Creator ID" group="0009" element="xx03" vr="SQ" vm="1" name="Sequence"/>

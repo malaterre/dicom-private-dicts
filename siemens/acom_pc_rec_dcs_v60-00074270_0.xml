@@ -1,0 +1,10 @@
+﻿<dicts>
+  <dict owner="CARDIO-SMS 1.0">
+    <entry group="0009" element="00" vr="UN" vm="1" name="PrivateCreator" type="3">
+<default_value>“CARDIO-SMS 1.0“</default_value>
+</entry>
+    <entry group="0009" element="08" vr="UN" vm="1" name="ACOM flags" type="3">
+<default_value>Hex  7\10004\10004\7</default_value>
+</entry>
+</dict>
+</dicts>

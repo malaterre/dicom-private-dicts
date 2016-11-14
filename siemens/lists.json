@@ -78,5 +78,52 @@
     }
 ], 
       "url":"http://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mda1/njiy/~edisp/cios_family_dicom_01_16-02589882.pdf"
+    },
+    {
+"tables":[
+    {
+        "chunks": [
+            {
+                "area": "389.458,87.391,759.101,515.047", 
+                "page": "74"
+            }
+        ], 
+        "owner": "PRIV", 
+                "header" : ["Tag","Owner","AttributeName","VR","VM"]
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "74.119,89.622,523.344,518.022", 
+                "page": "75"
+            }
+        ], 
+        "owner": "PRIV", 
+                "header" : ["Tag","Owner","AttributeName","VR","VM"]
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "542.682,87.391,763.576,515.047", 
+                "page": "75"
+            }
+        ], 
+        "owner": "PRIV", 
+                "header" : ["Tag","Owner","AttributeName","VR","VM"]
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "73.387,88.134,399.893,517.278", 
+                "page": "76"
+            }
+        ], 
+        "owner": "PRIV", 
+                "header" : ["Tag","Owner","AttributeName","VR","VM"]
     }
+],
+"md5":"4fa3996764c1a45e338daf145268d3af",
+    "url":"https://www.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mdaw/mtiy/~edisp/fluorospotcompactvf10c_luminosdrfva10c_dcs-00073968.pdf"
+    }
+
 ]

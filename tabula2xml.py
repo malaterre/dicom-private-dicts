@@ -23,6 +23,9 @@ use_table_header = args.use_table_header
 header = None
 if args.header:
   header = args.header.split(',')
+owner = None
+if args.owner:
+  owner = args.owner
 
 def normalize_header( header ):
   ret = [None] * len(header)
@@ -96,6 +99,7 @@ def normalize_entry( entry ):
   ret = {}
   ret['vm'] = '1'
   ret['vr'] = 'UN'
+  ret['owner'] = owner
   #if(debug): print entry
   for key,value in entry.items():
     if key == 'VR':
@@ -152,11 +156,14 @@ def normalize_entry( entry ):
     elif key == 'Element':
       element = read_element( value )
       ret['element'] = "%02x" % element
+    elif key == 'Owner':
+      if value != None and value != '':
+        ret['owner'] = value.replace('\n',' ').strip()
     elif key == 'UNK':
       # reserved keyword to indicate skipping of columns
       pass
     else:
-      raise ValueError, "impossible key: %s" % key
+      raise ValueError, "impossible key: [%s]" % key
   if ret.has_key( 'name' ):
     assert ret.has_key( 'vr' )
     if ret['vr'] == 'UN' and ret['name'].endswith('Sequence'):
@@ -208,9 +215,9 @@ for f in files:
         assert(False)
 
 oxml = args.output
-owner = args.owner
 
 w = xmldict.XMLDictWriter()
 w.open(oxml)
-w.writelines(owner, d)
+#w.writelines(owner, d)
+w.writeall(d)
 w.close()

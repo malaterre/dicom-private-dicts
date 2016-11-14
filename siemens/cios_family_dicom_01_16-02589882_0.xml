@@ -1,0 +1,40 @@
+﻿<dicts>
+  <dict owner="SIEMENS_FLCOMPACT_VA01A_PROC">
+    <entry group="0017" element="0a" vr="SS" vm="1" name="Blackening correction">
+</entry>
+    <entry group="0017" element="0b" vr="SS" vm="1" name="Dose Level">
+</entry>
+    <entry group="0017" element="0c" vr="SS" vm="1" name="SDM">
+</entry>
+    <entry group="0017" element="0d" vr="FL" vm="1" name="Frame rate">
+</entry>
+    <entry group="0017" element="0e" vr="LO" vm="1" name="Characteristic curve">
+</entry>
+    <entry group="0017" element="0f" vr="LO" vm="1" name="Cupper Filter">
+</entry>
+    <entry group="0017" element="10" vr="SS" vm="1" name="Skin Dose">
+</entry>
+    <entry group="0017" element="11" vr="SS" vm="1" name="Focus">
+</entry>
+    <entry group="0017" element="16" vr="US" vm="1" name="Bone level (white/black)">
+</entry>
+    <entry group="0017" element="17" vr="US" vm="1" name="Contrast">
+</entry>
+    <entry group="0017" element="18" vr="US" vm="1" name="Brightness">
+</entry>
+    <entry group="0017" element="1b" vr="US" vm="1" name="Flip H">
+</entry>
+    <entry group="0017" element="1c" vr="US" vm="1" name="Flip V">
+</entry>
+    <entry group="0017" element="1e" vr="US" vm="1" name="Zoom (On / Off)">
+</entry>
+    <entry group="0017" element="1f" vr="SS" vm="1" name="Pan X">
+</entry>
+    <entry group="0017" element="20" vr="SS" vm="1" name="Pan Y">
+</entry>
+    <entry group="0017" element="21" vr="US" vm="1" name="Harmonization">
+</entry>
+    <entry group="0017" element="22" vr="US" vm="1" name="DSA Mask index">
+</entry>
+</dict>
+</dicts>

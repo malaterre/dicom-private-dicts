@@ -1,0 +1,21 @@
+﻿<dicts>
+  <dict owner="CARDIO-D.R. 1.0">
+    <entry group="0029" element="00" vr="SQ" vm="1" name="Edge Enhancement Sequence">
+<definition>Private Creator “CARDIO-D.R. 1.0”</definition>
+</entry>
+    <entry group="0029" element="00" vr="UN" vm="1" name="&gt; Private Creator">
+<definition>“CARDIO-D.R. 1.0”</definition>
+</entry>
+    <entry group="0029" element="01" vr="UN" vm="1" name="&gt; Convolution Kernel Size">
+<definition>Number of rows\columns in the convolution kernel</definition>
+</entry>
+    <entry group="0029" element="02" vr="UN" vm="1" name="&gt; Convolution Kernel coefficients">
+<definition>The coefficients organized by row from left to right starting with the top row.</definition>
+</entry>
+    <entry group="0029" element="03" vr="UN" vm="1" name="&gt; Edge Enhancement Gain">
+</entry>
+    <entry group="0009" element="40" vr="SQ" vm="1" name="Alternate Image Sequence">
+<definition>Used in lossless image to reference the corresponding lossy image</definition>
+</entry>
+</dict>
+</dicts>
