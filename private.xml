@@ -271,6 +271,7 @@
   <entry owner="Applicare/Workflow/Version 1.0" group="3113" element="xxe0" vr="CS" vm="1" name="&lt;internal"/>
   <entry owner="Applicare/Workflow/Version 1.0" group="3113" element="xxe1" vr="CS" vm="1" name="&lt;internal"/>
   <entry owner="Applicare/Workflow/Version 1.0" group="3113" element="xxe2" vr="CS" vm="1" name="&lt;internal"/>
+  <entry owner="CARDIO-D.R. 1.0" group="0009" element="xx00" vr="UN" vm="1" name="Private Creator"/>
   <entry owner="CARDIO-D.R. 1.0" group="0009" element="xx40" vr="SQ" vm="1" name="Alternate Image Sequence"/>
   <entry owner="CARDIO-D.R. 1.0" group="0019" element="xx30" vr="UL" vm="1" name="Maximum Frame Size"/>
   <entry owner="CARDIO-D.R. 1.0" group="0021" element="xx13" vr="IS" vm="1" name="Image Sequence Number"/>
@@ -279,10 +280,12 @@
   <entry owner="CARDIO-D.R. 1.0" group="0029" element="xx02" vr="US" vm="1-n" name="Convolution Kernel Coefficients"/>
   <entry owner="CARDIO-D.R. 1.0" group="0029" element="xx03" vr="FL" vm="1" name="Edge Enhancement Gain"/>
   <entry owner="CARDIO-D.R. 1.0" group="0029" element="xx04" vr="US" vm="1" name="p-Constant"/>
+  <entry owner="CARDIO-SMS 1.0" group="0009" element="xx00" vr="UN" vm="1" name="PrivateCreator"/>
   <entry owner="CARDIO-SMS 1.0" group="0009" element="xx02" vr="UN" vm="1" name="ACOM Patient Info"/>
   <entry owner="CARDIO-SMS 1.0" group="0009" element="xx03" vr="UN" vm="1" name="ACOM Scene Info"/>
   <entry owner="CARDIO-SMS 1.0" group="0009" element="xx04" vr="UN" vm="1" name="ACOM Report Info"/>
   <entry owner="CARDIO-SMS 1.0" group="0009" element="xx06" vr="UN" vm="1" name="ACOM Report Info Ext"/>
+  <entry owner="CARDIO-SMS 1.0" group="0009" element="xx08" vr="UN" vm="1" name="ACOM flags"/>
   <entry owner="CARDIO-SMS 1.0" group="0009" element="xx0a" vr="UN" vm="1" name="ACOM Patient Info Plus"/>
   <entry owner="CARDIO-SMS 1.0" group="0009" element="xx0b" vr="UN" vm="1" name="ACOM Scene Info Plus"/>
   <entry owner="CARDIO-SMS 1.0" group="0009" element="xx0c" vr="UN" vm="1" name="ACOM Report Info Plus"/>
@@ -1505,6 +1508,7 @@
   <entry owner="SIEMENS CSA HEADER" group="0029" element="xx18" vr="CS" vm="1" name="Modality Series Header Type"/>
   <entry owner="SIEMENS CSA HEADER" group="0029" element="xx19" vr="LO" vm="1" name="Modality Series Header Version"/>
   <entry owner="SIEMENS CSA HEADER" group="0029" element="xx20" vr="OB" vm="1" name="Modality Series Header Info"/>
+  <entry owner="SIEMENS CSA NON-IMAGE" group="0029" element="xx00" vr="UN" vm="1" name="Private Creator"/>
   <entry owner="SIEMENS CSA NON-IMAGE" group="0029" element="xx08" vr="CS" vm="1" name="Modality Data Type"/>
   <entry owner="SIEMENS CSA NON-IMAGE" group="0029" element="xx09" vr="LO" vm="1" name="Modality Data Version"/>
   <entry owner="SIEMENS CSA NON-IMAGE" group="0029" element="xx10" vr="OB" vm="1" name="Modality Data Info"/>

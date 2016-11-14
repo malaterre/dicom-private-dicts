@@ -157,6 +157,10 @@ def normalize_entry( entry ):
       pass
     else:
       raise ValueError, "impossible key: %s" % key
+  if ret.has_key( 'name' ):
+    assert ret.has_key( 'vr' )
+    if ret['vr'] == 'UN' and ret['name'].endswith('Sequence'):
+      ret['vr'] = 'SQ'
   return ret
 
 d=[]
@@ -194,9 +198,11 @@ for f in files:
             if norm != None:
               d.append(norm)
           except IndexError:
-            if line == 0:
-              print "Pb with header: %s" % ",".join(elstr)
+            jointed = ",".join(elstr)
+            if line == 0 or ('Tag' in jointed or 'Attribute' in jointed or 'Notes' in jointed and line == 1):
+              print "Pb with table header: %s" % ",".join(elstr)
             else:
+              print "Pb with line %d: %s %s" % (line,",".join(elstr),",".join(header))
               raise
       else:
         assert(False)

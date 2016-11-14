@@ -15,7 +15,7 @@
                 "page": "31"
             }
         ], 
-        "owner": "PRIV", 
+        "owner": "CARDIO-SMS 1.0", 
                 "header" : ["AttributeName","Tag","Type","DefaultValue"]
     }, 
     {
@@ -25,7 +25,7 @@
                 "page": "32"
             }
         ], 
-        "owner": "PRIV", 
+        "owner": "CARDIO-D.R. 1.0", 
                 "header" : ["AttributeName","Tag","Type","Definition"]
     }, 
     {
@@ -35,7 +35,7 @@
                 "page": "33"
             }
         ], 
-        "owner": "PRIV", 
+        "owner": "SIEMENS CSA NON-IMAGE", 
                 "header" : ["AttributeName","Tag","Type","Definition"]
     }, 
     {
@@ -45,7 +45,7 @@
                 "page": "39"
             }
         ], 
-        "owner": "PRIV", 
+        "owner": "CARDIO-D.R. 1.0", 
                 "header" : ["AttributeName","Tag","UNK","UNK","Definition"]
     }
 ], 

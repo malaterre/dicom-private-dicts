@@ -4252,6 +4252,19 @@
     <entry owner="SIEMENS RA PLANE B" group="0019" element="xxa8" vr="UL" vm="1" name="Dose Area Product of Scene"/>
     <entry owner="SIEMENS RA PLANE B" group="0019" element="xxaa" vr="US" vm="1" name="Dose"/>
     <entry owner="SIEMENS RA PLANE B" group="0019" element="xxac" vr="US" vm="1" name="Dose Rate"/>
+    <entry owner="CARDIO-SMS 1.0" group="0009" element="xx00" vr="UN" vm="1" name="PrivateCreator"/>
+    <entry owner="CARDIO-SMS 1.0" group="0009" element="xx08" vr="UN" vm="1" name="ACOM flags"/>
+    <entry owner="CARDIO-D.R. 1.0" group="0009" element="xx00" vr="UN" vm="1" name="Private Creator"/>
+    <entry owner="CARDIO-D.R. 1.0" group="0009" element="xx40" vr="SQ" vm="1" name="Alternate Image Sequence"/>
+    <entry owner="SIEMENS CSA NON-IMAGE" group="0029" element="xx00" vr="UN" vm="1" name="Private Creator"/>
+    <entry owner="SIEMENS CSA NON-IMAGE" group="0029" element="xx08" vr="UN" vm="1" name="Syngo Data Type"/>
+    <entry owner="SIEMENS CSA NON-IMAGE" group="0029" element="xx09" vr="UN" vm="1" name="Syngo Data Version"/>
+    <entry owner="CARDIO-D.R. 1.0" group="0029" element="xx00" vr="SQ" vm="1" name="Edge Enhancement Sequence"/>
+    <entry owner="CARDIO-D.R. 1.0" group="0029" element="xx00" vr="UN" vm="1" name="Private Creator"/>
+    <entry owner="CARDIO-D.R. 1.0" group="0029" element="xx01" vr="UN" vm="1" name="Convolution Kernel Size"/>
+    <entry owner="CARDIO-D.R. 1.0" group="0029" element="xx02" vr="UN" vm="1" name="Convolution Kernel coefficients"/>
+    <entry owner="CARDIO-D.R. 1.0" group="0029" element="xx03" vr="UN" vm="1" name="Edge Enhancement Gain"/>
+    <entry owner="CARDIO-D.R. 1.0" group="0009" element="xx40" vr="SQ" vm="1" name="Alternate Image Sequence"/>
     <entry owner="SCHICK TECHNOLOGIES - Viewset Creator ID" group="0009" element="xx01" vr="UI" vm="1" name="Instance UID"/>
     <entry owner="SCHICK TECHNOLOGIES - Viewset Creator ID" group="0009" element="xx02" vr="LO" vm="1" name="Name"/>
     <entry owner="SCHICK TECHNOLOGIES - Viewset Creator ID" group="0009" element="xx03" vr="SQ" vm="1" name="Sequence"/>
