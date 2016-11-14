@@ -1,0 +1,38 @@
+﻿<dicts>
+  <dict owner="Siemens: Thorax/Multix FD Raw Image Settings">
+    <entry group="0025" element="00" vr="SS" vm="1" name="Raw Image Amplification">
+</entry>
+    <entry group="0025" element="01" vr="SS" vm="1" name="Gamma LUT">
+</entry>
+</dict>
+  <dict owner="Thorax/Multix FD Lab Settings">
+    <entry group="0019" element="06" vr="FD" vm="1" name="Table Object Distance">
+</entry>
+    <entry group="0019" element="07" vr="FD" vm="1" name="Table Detector Distance">
+</entry>
+    <entry group="0019" element="08" vr="US" vm="1-n" name="Ortho Step Distance">
+</entry>
+</dict>
+  <dict owner="Siemens: Thorax/Multix FD Lab Settings">
+    <entry group="0021" element="08" vr="US" vm="1" name="Auto Window Flag">
+</entry>
+    <entry group="0021" element="09" vr="SL" vm="1" name="Auto Window Center">
+</entry>
+    <entry group="0021" element="0a" vr="SL" vm="1" name="Auto Window Width">
+</entry>
+    <entry group="0021" element="0b" vr="SS" vm="1" name="Filter ID">
+</entry>
+    <entry group="0021" element="14" vr="US" vm="1" name="Anatomic Correct View">
+</entry>
+    <entry group="0021" element="15" vr="SS" vm="1" name="Auto Window Shift">
+</entry>
+    <entry group="0021" element="16" vr="DS" vm="1" name="Auto Window Expansion">
+</entry>
+    <entry group="0021" element="17" vr="LO" vm="1" name="System Type">
+</entry>
+    <entry group="0021" element="30" vr="SH" vm="1" name="Anatomic Sort Number">
+</entry>
+    <entry group="0021" element="31" vr="SH" vm="1" name="Acquisition Sort Number">
+</entry>
+</dict>
+</dicts>

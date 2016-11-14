@@ -1,0 +1,36 @@
+﻿<dicts>
+  <dict owner="Siemens: Thorax/Multix FD Raw Image Settings">
+    <entry group="0025" element="0c" vr="SS" vm="1" name="Harmonization Kernel">
+</entry>
+    <entry group="0025" element="0d" vr="FL" vm="1" name="Harmonization Gain">
+</entry>
+    <entry group="0025" element="0e" vr="SS" vm="1" name="Edge Enhancement Kernel">
+</entry>
+    <entry group="0025" element="0f" vr="FL" vm="1" name="Edge Enhancement Gain">
+</entry>
+    <entry group="0025" element="10" vr="LT" vm="1" name="Internal Value">
+</entry>
+    <entry group="0025" element="18" vr="US" vm="1" name="Auto Gain">
+</entry>
+    <entry group="0025" element="18" vr="US" vm="1" name="Ortho Subsampling">
+</entry>
+    <entry group="0025" element="1a" vr="US" vm="2" name="Image Crop Upper Left">
+</entry>
+    <entry group="0025" element="1b" vr="US" vm="2" name="Image Crop Upper Right">
+</entry>
+    <entry group="0025" element="1c" vr="US" vm="2" name="Image Crop Lower Left">
+</entry>
+    <entry group="0025" element="1d" vr="US" vm="2" name="Image Crop Lower Right">
+</entry>
+    <entry group="0025" element="30" vr="US" vm="1" name="Manual Cropping">
+</entry>
+    <entry group="0025" element="31" vr="SS" vm="1" name="Gamma LUT Parameter 1">
+</entry>
+    <entry group="0025" element="32" vr="DS" vm="1" name="Gamma LUT Parameter 2">
+</entry>
+    <entry group="0025" element="33" vr="SS" vm="1" name="Gamma LUT Parameter 3">
+</entry>
+    <entry group="0025" element="34" vr="SS" vm="1" name="Gamma LUT Parameter 4">
+</entry>
+</dict>
+</dicts>
