@@ -39,4 +39,12 @@ set -e
 ./tabula2xml.py  --owner "GEMS_GENIE_1" --use_table_header --files "gems/chunk0.json" --output "gems/GEHC-DICOM-Conformance_Ventri_5179057DHF_Rev1_17.xml"
 ./tabula.sh -o "gems/chunk0.json" --spreadsheet -p 88 -a 67.309,62.103,386.378,560.416 "gems/GEHC-DICOM-Conformance_Ventri_5179057DHF_Rev1.pdf"
 ./tabula2xml.py  --header "AttributeName,Tag,VR,VM"  --owner "GEMS_GENIE_1"  --files "gems/chunk0.json" --output "gems/GEHC-DICOM-Conformance_Ventri_5179057DHF_Rev1_18.xml"
+./tabula.sh -o "gems/chunk0.json" --spreadsheet -p 71 -a 108.248,55,605.498,564.953 "gems/GEHC-DICOM-Conformance_XRd-Acquisition-Workstation_2296992-100_Rev1.pdf"
+./tabula2xml.py  --header "AttributeName,Tag,Type,Definition"  --owner "GEMS_SENO_02"  --files "gems/chunk0.json" --output "gems/GEHC-DICOM-Conformance_XRd-Acquisition-Workstation_2296992-100_Rev1_0.xml"
+./tabula.sh -o "gems/chunk0.json" --spreadsheet -p 72 -a 86.98,53.0,376.915,560.96 "gems/GEHC-DICOM-Conformance_XRd-Acquisition-Workstation_2296992-100_Rev1.pdf"
+./tabula2xml.py  --header "AttributeName,Tag,Type,Definition"  --owner "GEMS_SENO_02"  --files "gems/chunk0.json" --output "gems/GEHC-DICOM-Conformance_XRd-Acquisition-Workstation_2296992-100_Rev1_1.xml"
+./tabula.sh -o "gems/chunk0.json" --spreadsheet -p 72 -a 450.968,53.0,724.073,564.02 "gems/GEHC-DICOM-Conformance_XRd-Acquisition-Workstation_2296992-100_Rev1.pdf"
+./tabula2xml.py  --header "AttributeName,Tag,VR,VM"  --owner "GEMS_SENO_02"  --files "gems/chunk0.json" --output "gems/GEHC-DICOM-Conformance_XRd-Acquisition-Workstation_2296992-100_Rev1_2.xml"
+./tabula.sh -o "gems/chunk0.json" --spreadsheet -p 73 -a 86.98,53.0,225.445,561.725 "gems/GEHC-DICOM-Conformance_XRd-Acquisition-Workstation_2296992-100_Rev1.pdf"
+./tabula2xml.py  --header "AttributeName,Tag,VR,VM"  --owner "GEMS_SENO_02"  --files "gems/chunk0.json" --output "gems/GEHC-DICOM-Conformance_XRd-Acquisition-Workstation_2296992-100_Rev1_3.xml"
 rm gems/chunk?.json

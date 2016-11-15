@@ -1,0 +1,7 @@
+﻿<dicts>
+  <dict owner="GEMS_SENO_02">
+    <entry group="0045" element="73" vr="UN" vm="1" name="Collimator Height" type="3">
+<definition>Collimator FOV height in mm</definition>
+</entry>
+</dict>
+</dicts>

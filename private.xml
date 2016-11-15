@@ -582,6 +582,27 @@
   <entry owner="GEMS_IT_US_REPORT" group="0045" element="xx11" vr="OW" vm="1" name="Vivid excel file"/>
   <entry owner="GEMS_IT_US_REPORT" group="0045" element="xx12" vr="OW" vm="1" name="Vivid CHM file"/>
   <entry owner="GEMS_IT_US_REPORT" group="0045" element="xx13" vr="OW" vm="1" name="Vivid PDF file"/>
+  <entry owner="GEMS_SENO_02" group="0045" element="xx00" vr="UN" vm="1" name="Private Creator"/>
+  <entry owner="GEMS_SENO_02" group="0045" element="xx1b" vr="UN" vm="1" name="Clinical View"/>
+  <entry owner="GEMS_SENO_02" group="0045" element="xx20" vr="UN" vm="1" name="Estimated Anatomical mean"/>
+  <entry owner="GEMS_SENO_02" group="0045" element="xx26" vr="UN" vm="1" name="MAO Buffer"/>
+  <entry owner="GEMS_SENO_02" group="0045" element="xx29" vr="UN" vm="1" name="Windowing parameters"/>
+  <entry owner="GEMS_SENO_02" group="0045" element="xx2a" vr="UN" vm="1" name="2DLocX"/>
+  <entry owner="GEMS_SENO_02" group="0045" element="xx2b" vr="UN" vm="1" name="2DLocY"/>
+  <entry owner="GEMS_SENO_02" group="0045" element="xx50" vr="UN" vm="1" name="CR Instance UID"/>
+  <entry owner="GEMS_SENO_02" group="0045" element="xx51" vr="UN" vm="1" name="CR series UID"/>
+  <entry owner="GEMS_SENO_02" group="0045" element="xx52" vr="UN" vm="1" name="Raw Diagnostic Low"/>
+  <entry owner="GEMS_SENO_02" group="0045" element="xx53" vr="UN" vm="1" name="Raw Diagnostic High"/>
+  <entry owner="GEMS_SENO_02" group="0045" element="xx54" vr="UN" vm="1" name="Exponent"/>
+  <entry owner="GEMS_SENO_02" group="0045" element="xx55" vr="UN" vm="1" name="A coefficients"/>
+  <entry owner="GEMS_SENO_02" group="0045" element="xx56" vr="UN" vm="1" name="Noise reduction sensitivity"/>
+  <entry owner="GEMS_SENO_02" group="0045" element="xx57" vr="UN" vm="1" name="Noise reduction threshold"/>
+  <entry owner="GEMS_SENO_02" group="0045" element="xx62" vr="UN" vm="1" name="User Window Center"/>
+  <entry owner="GEMS_SENO_02" group="0045" element="xx63" vr="UN" vm="1" name="User Window Width"/>
+  <entry owner="GEMS_SENO_02" group="0045" element="xx65" vr="UN" vm="1" name="Requested detector Entrance Dose"/>
+  <entry owner="GEMS_SENO_02" group="0045" element="xx66" vr="UN" vm="1" name="Asymmetrical collimation information"/>
+  <entry owner="GEMS_SENO_02" group="0045" element="xx67" vr="UN" vm="1" name="LUT Asymmetry parameter"/>
+  <entry owner="GEMS_SENO_02" group="0045" element="xx73" vr="UN" vm="1" name="Collimator Height"/>
   <entry owner="GEMS_XELPRV_01" group="0009" element="xx01" vr="SH" vm="1" name="Private Creator Element"/>
   <entry owner="GEMS_XELPRV_01" group="0009" element="xx10" vr="LO" vm="1" name="Study Name"/>
   <entry owner="GEMS_XELPRV_01" group="0009" element="xx11" vr="SL" vm="1" name="Study Flags"/>

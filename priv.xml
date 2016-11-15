@@ -1012,6 +1012,28 @@
     <entry owner="GEMS_GENIE_1" group="0033" element="xx20" vr="LT" vm="1-n" name="BulkDataFormat"/>
     <entry owner="GEMS_GENIE_1" group="0033" element="xx23" vr="LT" vm="1-n" name="StringDataFormat"/>
     <entry owner="GEMS_GENIE_1" group="0033" element="xx24" vr="LT" vm="1" name="Description"/>
+    <entry owner="GEMS_SENO_02" group="0045" element="xx00" vr="UN" vm="1" name="Private Creator"/>
+    <entry owner="GEMS_SENO_02" group="0045" element="xx1b" vr="UN" vm="1" name="Clinical View"/>
+    <entry owner="GEMS_SENO_02" group="0045" element="xx20" vr="UN" vm="1" name="Estimated Anatomical mean"/>
+    <entry owner="GEMS_SENO_02" group="0045" element="xx26" vr="UN" vm="1" name="MAO Buffer"/>
+    <entry owner="GEMS_SENO_02" group="0045" element="xx29" vr="UN" vm="1" name="Windowing parameters"/>
+    <entry owner="GEMS_SENO_02" group="0045" element="xx2a" vr="UN" vm="1" name="2DLocX"/>
+    <entry owner="GEMS_SENO_02" group="0045" element="xx2b" vr="UN" vm="1" name="2DLocY"/>
+    <entry owner="GEMS_SENO_02" group="0045" element="xx50" vr="UN" vm="1" name="CR Instance UID"/>
+    <entry owner="GEMS_SENO_02" group="0045" element="xx51" vr="UN" vm="1" name="CR series UID"/>
+    <entry owner="GEMS_SENO_02" group="0045" element="xx52" vr="UN" vm="1" name="Raw Diagnostic Low"/>
+    <entry owner="GEMS_SENO_02" group="0045" element="xx53" vr="UN" vm="1" name="Raw Diagnostic High"/>
+    <entry owner="GEMS_SENO_02" group="0045" element="xx54" vr="UN" vm="1" name="Exponent"/>
+    <entry owner="GEMS_SENO_02" group="0045" element="xx55" vr="UN" vm="1" name="A coefficients"/>
+    <entry owner="GEMS_SENO_02" group="0045" element="xx56" vr="UN" vm="1" name="Noise reduction sensitivity"/>
+    <entry owner="GEMS_SENO_02" group="0045" element="xx57" vr="UN" vm="1" name="Noise reduction threshold"/>
+    <entry owner="GEMS_SENO_02" group="0045" element="xx62" vr="UN" vm="1" name="User Window Center"/>
+    <entry owner="GEMS_SENO_02" group="0045" element="xx63" vr="UN" vm="1" name="User Window Width"/>
+    <entry owner="GEMS_SENO_02" group="0045" element="xx65" vr="UN" vm="1" name="Requested detector Entrance Dose"/>
+    <entry owner="GEMS_SENO_02" group="0045" element="xx66" vr="UN" vm="1" name="Asymmetrical collimation information"/>
+    <entry owner="GEMS_SENO_02" group="0045" element="xx67" vr="UN" vm="1" name="LUT Asymmetry parameter"/>
+    <entry owner="GEMS_SENO_02" group="0045" element="xx73" vr="UN" vm="1" name="Collimator Height"/>
+    <entry owner="GEMS_SENO_02" group="0045" element="xx73" vr="DS" vm="1" name="Collimator Height"/>
     <entry owner="Philips Imaging DD 001" group="2001" element="xx01" vr="FL" vm="1" name="MRImageChemicalShift"/>
     <entry owner="Philips Imaging DD 001" group="2001" element="xx02" vr="IS" vm="1" name="MRImageChemicalShiftNumber"/>
     <entry owner="Philips Imaging DD 001" group="2001" element="xx03" vr="FL" vm="1" name="MRImageDiffusionBFactor"/>
