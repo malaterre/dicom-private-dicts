@@ -5272,8 +5272,6 @@
   <entry owner="SIEMENS CT VA0  ORMR" group="0021" element="xx85" vr="LO" vm="1" name="Imaged Nucleus"/>
   <entry owner="SIEMENS CT VA0  ORMR" group="0021" element="xx86" vr="IS" vm="1" name="Echo Number"/>
   <entry owner="SIEMENS CT VA0  ORMR" group="0021" element="xx90" vr="DS" vm="1" name="Flip Angle"/>
-  <entry owner="SIEMENS CT VA0  OST" group="6021" element="xx00" vr="LO" vm="1" name="Osteo Contour Comment"/>
-  <entry owner="SIEMENS CT VA0  OST" group="6021" element="xx10" vr="US" vm="256" name="Osteo Contour Buffer"/>
   <entry owner="SIEMENS CT VA0  RAW" group="0021" element="xx10" vr="UL" vm="1-n" name="Creation Mask service"/>
   <entry owner="SIEMENS CT VA0  RAW" group="0021" element="xx20" vr="UL" vm="1-n" name="Evaluation Mask service"/>
   <entry owner="SIEMENS CT VA0  RAW" group="0021" element="xx30" vr="US" vm="1-n" name="Extended Processing Mask"/>
