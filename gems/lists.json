@@ -1,8 +1,9 @@
 [
     {
-      "xml" : "DICT_DAT.xml"
-    },
+        "xml": "DICT_DAT.xml"
+    }, 
     {
+        "content-disposition": "GEHC-DICOM-Conformance_Ventri_5179057DHF_Rev1.pdf", 
         "md5": "8ecce2f206060fa38dcd2b32df936b61", 
         "tables": [
             {
@@ -12,8 +13,8 @@
                         "page": "43"
                     }
                 ], 
-                "use_table_header" : true,
-                "owner": "GEMS_GENIE_1"
+                "owner": "GEMS_GENIE_1", 
+                "use_table_header": true
             }, 
             {
                 "chunks": [
@@ -22,8 +23,8 @@
                         "page": "48"
                     }
                 ], 
-                "use_table_header" : true,
-                "owner": "QUASAR_INTERNAL_USE"
+                "owner": "QUASAR_INTERNAL_USE", 
+                "use_table_header": true
             }, 
             {
                 "chunks": [
@@ -32,8 +33,8 @@
                         "page": "59"
                     }
                 ], 
-                "use_table_header" : true,
-                "owner": "QUASAR_INTERNAL_USE"
+                "owner": "QUASAR_INTERNAL_USE", 
+                "use_table_header": true
             }, 
             {
                 "chunks": [
@@ -42,8 +43,8 @@
                         "page": "60"
                     }
                 ], 
-                "use_table_header" : true,
-                "owner": "QUASAR_INTERNAL_USE"
+                "owner": "QUASAR_INTERNAL_USE", 
+                "use_table_header": true
             }, 
             {
                 "chunks": [
@@ -52,8 +53,8 @@
                         "page": "60"
                     }
                 ], 
-                "use_table_header" : true,
-                "owner": "APEX_PRIVATE"
+                "owner": "APEX_PRIVATE", 
+                "use_table_header": true
             }, 
             {
                 "chunks": [
@@ -62,8 +63,8 @@
                         "page": "61"
                     }
                 ], 
-                "use_table_header" : true,
-                "owner": "GEMS_GENIE_1"
+                "owner": "GEMS_GENIE_1", 
+                "use_table_header": true
             }, 
             {
                 "chunks": [
@@ -72,8 +73,8 @@
                         "page": "62"
                     }
                 ], 
-                "use_table_header" : true,
-                "owner": "GEMS_GENIE_1"
+                "owner": "GEMS_GENIE_1", 
+                "use_table_header": true
             }, 
             {
                 "chunks": [
@@ -82,7 +83,12 @@
                         "page": "81"
                     }
                 ], 
-                "header" : ["AttributeName","Tag","VR","VM"],
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "VR", 
+                    "VM"
+                ], 
                 "owner": "GEMS_XELPRV_01"
             }, 
             {
@@ -92,7 +98,12 @@
                         "page": "82"
                     }
                 ], 
-                "header" : ["AttributeName","Tag","VR","VM"],
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "VR", 
+                    "VM"
+                ], 
                 "owner": "GEMS_XELPRV_01"
             }, 
             {
@@ -102,7 +113,12 @@
                         "page": "83"
                     }
                 ], 
-                "header" : ["AttributeName","Tag","VR","VM"],
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "VR", 
+                    "VM"
+                ], 
                 "owner": "GEMS_XELPRV_01"
             }, 
             {
@@ -112,8 +128,8 @@
                         "page": "85"
                     }
                 ], 
-                "use_table_header" : true,
-                "owner": "QUASAR_INTERNAL_USE"
+                "owner": "QUASAR_INTERNAL_USE", 
+                "use_table_header": true
             }, 
             {
                 "chunks": [
@@ -122,8 +138,8 @@
                         "page": "85"
                     }
                 ], 
-                "use_table_header" : true,
-                "owner": "QUASAR_INTERNAL_USE"
+                "owner": "QUASAR_INTERNAL_USE", 
+                "use_table_header": true
             }, 
             {
                 "chunks": [
@@ -132,18 +148,23 @@
                         "page": "85"
                     }
                 ], 
-                "use_table_header" : true,
-                "owner": "QUASAR_INTERNAL_USE"
+                "owner": "QUASAR_INTERNAL_USE", 
+                "use_table_header": true
             }, 
             {
+                "_use_table_header": true, 
                 "chunks": [
                     {
                         "area": "108.959,66.566,406.459,549.259", 
                         "page": "86"
                     }
                 ], 
-                "header" : ["AttributeName","Tag","Type","Definition"],
-                "_use_table_header" : true,
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "Type", 
+                    "Definition"
+                ], 
                 "owner": "QUASAR_INTERNAL_USE"
             }, 
             {
@@ -153,8 +174,8 @@
                         "page": "86"
                     }
                 ], 
-                "use_table_header" : true,
-                "owner": "QUASAR_INTERNAL_USE"
+                "owner": "QUASAR_INTERNAL_USE", 
+                "use_table_header": true
             }, 
             {
                 "chunks": [
@@ -163,7 +184,13 @@
                         "page": "87"
                     }
                 ], 
-                "header" : ["AttributeName","Tag","VR","VM","Definition"],
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "VR", 
+                    "VM", 
+                    "Definition"
+                ], 
                 "owner": "QUASAR_INTERNAL_USE"
             }, 
             {
@@ -173,8 +200,8 @@
                         "page": "87"
                     }
                 ], 
-                "use_table_header" : true,
-                "owner": "APEX_PRIVATE"
+                "owner": "APEX_PRIVATE", 
+                "use_table_header": true
             }, 
             {
                 "chunks": [
@@ -183,8 +210,8 @@
                         "page": "87"
                     }
                 ], 
-                "use_table_header" : true,
-                "owner": "GEMS_GENIE_1"
+                "owner": "GEMS_GENIE_1", 
+                "use_table_header": true
             }, 
             {
                 "chunks": [
@@ -193,60 +220,401 @@
                         "page": "88"
                     }
                 ], 
-                "header" : ["AttributeName","Tag","VR","VM"],
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "VR", 
+                    "VM"
+                ], 
                 "owner": "GEMS_GENIE_1"
             }
         ], 
-        "url": "http://www3.gehealthcare.com/~/media/documents/us-global/products/interoperability/dicom/nuclear-medicine/gehc-dicom-conformance_ventri_5179057dhf_rev1.pdf",
-        "content-disposition" : "GEHC-DICOM-Conformance_Ventri_5179057DHF_Rev1.pdf"
+        "url": "http://www3.gehealthcare.com/~/media/documents/us-global/products/interoperability/dicom/nuclear-medicine/gehc-dicom-conformance_ventri_5179057dhf_rev1.pdf"
+    }, 
+    {
+        "content-disposition": "GEHC-DICOM-Conformance_XRd-Acquisition-Workstation_2296992-100_Rev1.pdf", 
+        "md5": "21726d13c126286af3b477b490deaefc", 
+        "tables": [
+            {
+                "chunks": [
+                    {
+                        "area": "108.248,55,605.498,564.953", 
+                        "page": "71"
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "Type", 
+                    "Definition"
+                ], 
+                "owner": "GEMS_SENO_02"
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "86.98,54.0,376.915,560.96", 
+                        "page": "72"
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "Type", 
+                    "Definition"
+                ], 
+                "owner": "GEMS_SENO_02"
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "450.968,54.0,724.073,564.02", 
+                        "page": "72"
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "VR", 
+                    "VM"
+                ], 
+                "owner": "GEMS_SENO_02"
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "86.98,54.0,225.445,561.725", 
+                        "page": "73"
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "VR", 
+                    "VM"
+                ], 
+                "owner": "GEMS_SENO_02"
+            }
+        ], 
+        "url": "http://www3.gehealthcare.fr/~/media/documents/us-global/products/interoperability/dicom/xray/gehc-dicom-conformance_xrd-acquisition-workstation_2296992-100_rev1.pdf"
     },
-{
-        "url": "http://www3.gehealthcare.fr/~/media/documents/us-global/products/interoperability/dicom/xray/gehc-dicom-conformance_xrd-acquisition-workstation_2296992-100_rev1.pdf",
-        "content-disposition" : "GEHC-DICOM-Conformance_XRd-Acquisition-Workstation_2296992-100_Rev1.pdf",
-        "md5" : "21726d13c126286af3b477b490deaefc",
+    {
+        "content-disposition": "GEHC-DICOM-Conformance_Xeleris-2-0_5168972-100_Rev2.pdf", 
+        "md5": "f43f9660e3d2f249ce74990fde80b769", 
+"url":"http://www3.gehealthcare.com/~/media/documents/us-global/products/interoperability/dicom/nuclear-medicine/gehc-dicom-conformance_xeleris-2-0_5168972-100_rev2.pdf",
 "tables":
 [
     {
         "chunks": [
             {
-                "area": "108.248,55,605.498,564.953",
-                "page": "71"
+                "area": "162.0,70.0,238.0,528.0", 
+                "page": "150"
             }
         ], 
-        "owner": "GEMS_SENO_02", 
-                "header" : ["AttributeName","Tag","Type","Definition"]
+        "owner": "PRIV", 
+        "use_table_header": true
     }, 
     {
         "chunks": [
             {
-                "area": "86.98,54.0,376.915,560.96",
-                "page": "72"
+                "area": "289.0,70.0,365.0,526.0", 
+                "page": "150"
             }
         ], 
-        "owner": "GEMS_SENO_02", 
-                "header" : ["AttributeName","Tag","Type","Definition"]
+        "owner": "PRIV", 
+        "use_table_header": true
     }, 
     {
         "chunks": [
             {
-                "area": "450.968,54.0,724.073,564.02",
-                "page": "72"
+                "area": "420.0,70.0,706.0,540.0", 
+                "page": "150"
             }
         ], 
-        "owner": "GEMS_SENO_02", 
-                "header" : ["AttributeName","Tag","VR","VM"]
+        "owner": "PRIV", 
+        "use_table_header": true
     }, 
     {
         "chunks": [
             {
-                "area": "86.98,54.0,225.445,561.725",
-                "page": "73"
+                "area": "72.0,70.0,605.0,540.0", 
+                "page": "151"
             }
         ], 
-        "owner": "GEMS_SENO_02", 
-                "header" : ["AttributeName","Tag","VR","VM"]
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "94.0,70.0,541.0,538.0", 
+                "page": "152"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "98.0,70.0,695.0,539.0", 
+                "page": "153"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "72.0,70.0,415.0,539.0", 
+                "page": "154"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "82.0,70.0,698.0,526.0", 
+                "page": "155"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "72.0,70.0,268.0,517.0", 
+                "page": "156"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "403.0,70.0,697.0,541.0", 
+                "page": "156"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "72.0,68.0,695.0,541.0", 
+                "page": "157"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "72.0,68.0,700.0,541.0", 
+                "page": "158"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "72.0,69.0,396.0,541.0", 
+                "page": "159"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "591.0,69.0,691.0,541.0", 
+                "page": "159"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "72.0,70.0,253.0,538.0", 
+                "page": "160"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "84.0,70.0,272.0,539.0", 
+                "page": "161"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "330.0,70.0,638.0,512.0", 
+                "page": "161"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "98.0,70.0,347.0,538.0", 
+                "page": "162"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "403.0,70.0,568.0,538.0", 
+                "page": "162"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "98.0,70.0,339.0,492.0", 
+                "page": "163"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "98.0,70.0,499.0,538.0", 
+                "page": "164"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "554.0,70.0,699.0,538.0", 
+                "page": "164"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "98.0,70.0,696.0,541.0", 
+                "page": "165"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "74.0,70.0,706.0,541.0", 
+                "page": "166"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "74.0,70.0,706.0,541.0", 
+                "page": "168"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "74.0,70.0,706.0,541.0", 
+                "page": "169"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "74.0,70.0,706.0,541.0", 
+                "page": "170"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "74.0,70.0,706.0,541.0", 
+                "page": "171"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "74.0,70.0,638.0,541.0", 
+                "page": "172"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "74.0,70.0,706.0,541.0", 
+                "page": "174"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "74.0,70.0,604.0,541.0", 
+                "page": "175"
+            }
+        ], 
+        "owner": "PRIV", 
+        "use_table_header": true
     }
 ]
-
 }
+
 ]
