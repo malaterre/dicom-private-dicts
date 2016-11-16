@@ -1,5 +1,19 @@
 ﻿<dicts>
   <dict owner="GEMS_SENO_02">
+    <entry group="0045" element="66" vr="IS" vm="1" name="Asymmetrical Collimation information">
+</entry>
+    <entry group="0045" element="67" vr="DS" vm="3 or 4" name="LUT Asymmetry parameter.">
+</entry>
+    <entry group="0045" element="68" vr="CS" vm="3" name="Acquisition Mode">
+</entry>
+    <entry group="0045" element="69" vr="IS" vm="1" name="Collimator Rotation">
+</entry>
+    <entry group="0045" element="70" vr="DS" vm="1" name="Brightness Adjustment">
+</entry>
+    <entry group="0045" element="71" vr="DS" vm="1" name="Contrast Adjustment">
+</entry>
+    <entry group="0045" element="72" vr="DS" vm="1" name="Collimator Width">
+</entry>
     <entry group="0045" element="73" vr="DS" vm="1" name="Collimator Height">
 </entry>
 </dict>

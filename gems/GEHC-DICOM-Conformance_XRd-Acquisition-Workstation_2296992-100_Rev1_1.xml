@@ -1,5 +1,20 @@
 ﻿<dicts>
   <dict owner="GEMS_SENO_02">
+    <entry group="0045" element="68" vr="UN" vm="1" name="Acquisition Mode" type="3">
+<definition>Value 1 Enumerated Values are: DigTblDigital Table DigWsDigital Wallstand Value 2 Enumerated Values are: 0Small Patient 1Medium Patient 2Large Patient Value 3 Enumerated Values are: 0Auto Tracking 1Manual</definition>
+</entry>
+    <entry group="0045" element="69" vr="UN" vm="1" name="Collimator Rotation" type="3">
+<definition>Collimator rotation information: 0: not rotated 1: rotated</definition>
+</entry>
+    <entry group="0045" element="70" vr="UN" vm="1" name="Brightness Adjustment" type="3">
+<definition>Sent only in DX For Presentation Images Value used in processing algorithm</definition>
+</entry>
+    <entry group="0045" element="71" vr="UN" vm="1" name="Contrast Adjustment" type="3">
+<definition>Sent only in DX For Presentation Images Value used in processing algorithm</definition>
+</entry>
+    <entry group="0045" element="72" vr="UN" vm="1" name="Collimator Width" type="3">
+<definition>Collimator FOV width in mm</definition>
+</entry>
     <entry group="0045" element="73" vr="UN" vm="1" name="Collimator Height" type="3">
 <definition>Collimator FOV height in mm</definition>
 </entry>

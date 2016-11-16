@@ -21,7 +21,7 @@ set -e
 ./tabula.sh -o "gems/8ecce2f206060fa38dcd2b32df936b61_17_0.json" --spreadsheet -p 87 -a 428.772,66.566,709.166,548.516 "gems/GEHC-DICOM-Conformance_Ventri_5179057DHF_Rev1.pdf"
 ./tabula.sh -o "gems/8ecce2f206060fa38dcd2b32df936b61_18_0.json" --spreadsheet -p 88 -a 67.309,62.103,386.378,560.416 "gems/GEHC-DICOM-Conformance_Ventri_5179057DHF_Rev1.pdf"
 ./tabula.sh -o "gems/21726d13c126286af3b477b490deaefc_0_0.json" --spreadsheet -p 71 -a 108.248,55,605.498,564.953 "gems/GEHC-DICOM-Conformance_XRd-Acquisition-Workstation_2296992-100_Rev1.pdf"
-./tabula.sh -o "gems/21726d13c126286af3b477b490deaefc_1_0.json" --spreadsheet -p 72 -a 86.98,53.0,376.915,560.96 "gems/GEHC-DICOM-Conformance_XRd-Acquisition-Workstation_2296992-100_Rev1.pdf"
-./tabula.sh -o "gems/21726d13c126286af3b477b490deaefc_2_0.json" --spreadsheet -p 72 -a 450.968,53.0,724.073,564.02 "gems/GEHC-DICOM-Conformance_XRd-Acquisition-Workstation_2296992-100_Rev1.pdf"
-./tabula.sh -o "gems/21726d13c126286af3b477b490deaefc_3_0.json" --spreadsheet -p 73 -a 86.98,53.0,225.445,561.725 "gems/GEHC-DICOM-Conformance_XRd-Acquisition-Workstation_2296992-100_Rev1.pdf"
+./tabula.sh -o "gems/21726d13c126286af3b477b490deaefc_1_0.json" --spreadsheet -p 72 -a 86.98,54.0,376.915,560.96 "gems/GEHC-DICOM-Conformance_XRd-Acquisition-Workstation_2296992-100_Rev1.pdf"
+./tabula.sh -o "gems/21726d13c126286af3b477b490deaefc_2_0.json" --spreadsheet -p 72 -a 450.968,54.0,724.073,564.02 "gems/GEHC-DICOM-Conformance_XRd-Acquisition-Workstation_2296992-100_Rev1.pdf"
+./tabula.sh -o "gems/21726d13c126286af3b477b490deaefc_3_0.json" --spreadsheet -p 73 -a 86.98,54.0,225.445,561.725 "gems/GEHC-DICOM-Conformance_XRd-Acquisition-Workstation_2296992-100_Rev1.pdf"
 #rm gems/chunk?.json

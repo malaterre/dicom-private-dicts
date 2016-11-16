@@ -1,2 +1,36 @@
 ﻿<dicts>
+  <dict owner="GEMS_SENO_02">
+    <entry group="0045" element="1b" vr="CS" vm="1" name="Clinical View">
+</entry>
+    <entry group="0045" element="20" vr="DS" vm="1" name="Estimated Anat mean">
+</entry>
+    <entry group="0045" element="26" vr="OB" vm="1" name="MAO Buffer">
+</entry>
+    <entry group="0045" element="29" vr="DS" vm="2" name="Windowing parameters">
+</entry>
+    <entry group="0045" element="2a" vr="IS" vm="1" name="2DLocX">
+</entry>
+    <entry group="0045" element="2b" vr="IS" vm="1" name="2DlocY">
+</entry>
+    <entry group="0045" element="50" vr="UI" vm="1" name="CR Instance UID">
+</entry>
+    <entry group="0045" element="51" vr="UI" vm="1" name="CR series UID">
+</entry>
+    <entry group="0045" element="52" vr="IS" vm="1" name="Raw Diagnostic Low">
+</entry>
+    <entry group="0045" element="53" vr="IS" vm="1" name="Raw Diagnostic High">
+</entry>
+    <entry group="0045" element="54" vr="DS" vm="1" name="Exponent">
+</entry>
+    <entry group="0045" element="55" vr="IS" vm="1" name="A coefficients">
+</entry>
+    <entry group="0045" element="56" vr="DS" vm="1" name="Noise reduction sensitivity">
+</entry>
+    <entry group="0045" element="57" vr="DS" vm="1" name="Noise reduction threshold">
+</entry>
+    <entry group="0045" element="62" vr="IS" vm="1" name="User Window Center">
+</entry>
+    <entry group="0045" element="63" vr="IS" vm="1" name="User Window Width">
+</entry>
+</dict>
 </dicts>
