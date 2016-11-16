@@ -1,5 +1,5 @@
 #!/bin/sh
-set -x
+#set -x
 set -e
 
 dirs="agfa fuji gems hitachi other siemens"

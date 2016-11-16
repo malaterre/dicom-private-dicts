@@ -20,9 +20,10 @@ dirpath= args.dir
 f = os.path.join(dirpath, 'lists.json')
 olists = os.path.join(dirpath, 'lists.txt')
 orun = os.path.join(dirpath, 'run.sh')
+orun2 = os.path.join(dirpath, 'run2.sh')
 oxml = os.path.join(dirpath, 'index.xml')
 omd5 = os.path.join(dirpath, 'lists.md5')
-with open(f) as data_file, open(olists,'w') as out_file, open(orun,'w') as out_file2, open(oxml,'w') as out_file3, open(omd5,'w') as out_file4:
+with open(f) as data_file, open(olists,'w') as out_file, open(orun,'w') as out_file2, open(oxml,'w') as out_file3, open(omd5,'w') as out_file4, open(orun2,'w') as out_file5:
   data = json.load(data_file)
   out_file2.write( '#!/bin/sh\n' )
   out_file2.write( 'set -e\n' )
@@ -44,7 +45,7 @@ with open(f) as data_file, open(olists,'w') as out_file, open(orun,'w') as out_f
       chunks = table['chunks']
       # a table is split into chunks (basically page or pages-range)
       for index, chunk in enumerate(chunks):
-        fil = "%s/chunk%d.json" % (dirpath,index)
+        fil = "%s/%s_%d_%d.json" % (dirpath,it['md5'],indext,index) # md5 clash ?
         files.append( fil )
         # use tabula to extra a single chunk:
         out_file2.write( './tabula.sh -o "%s" ' % fil )
@@ -82,7 +83,7 @@ with open(f) as data_file, open(olists,'w') as out_file, open(orun,'w') as out_f
       if table.has_key( "use_table_header" ) and table["use_table_header"]:
         assert( not table.has_key( "header" ) )
         opts += '--use_table_header'
-      out_file2.write( './tabula2xml.py %s --files "%s" --output "%s"\n' % (opts, fstr, outxml) )
+      out_file5.write( './tabula2xml.py %s --files "%s" --output "%s"\n' % (opts, fstr, outxml) )
       out_file3.write( '<file>%s</file>\n' % urllib.quote(outxml)  )
-  out_file2.write( 'rm %s/chunk?.json\n' % dirpath )
+  out_file2.write( '#rm %s/chunk?.json\n' % dirpath )
   out_file3.write( '</index>\n' )
