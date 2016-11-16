@@ -33,20 +33,13 @@ with open(f) as data_file, open(olists,'w') as out_file, open(orun,'w') as out_f
     if not it.has_key('url'):
       out_file3.write( '<file>%s/%s</file>\n' % (dirpath,it['xml']) )
       continue
-    url = it['url']
-    out_file.write( url )
-    out_file.write( '\n' )
-    tables = it['tables']
+    out_file.write( it['url'] + '\n' )
     inpdf = getpdflocalpath(it, dirpath)
     filename, file_extension = os.path.splitext(inpdf)
-    md5 = it['md5']
-    out_file4.write( md5 )
-    out_file4.write( '  ' )
-    out_file4.write( inpdf )
-    out_file4.write( '\n' )
+    out_file4.write( it['md5'] + '  ' + inpdf + '\n' )
     # loop over each table from this PDF doc:
     # a table has only a single owner for now
-    for indext, table in enumerate(tables):
+    for indext, table in enumerate(it['tables']):
       files=[]
       chunks = table['chunks']
       # a table is split into chunks (basically page or pages-range)
