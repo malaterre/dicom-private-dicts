@@ -83,6 +83,19 @@ def doit3(i,f):
   with open("output%d.dad" % i, "w") as text_file:
     text_file.write( chunk[:-2] )
 
+def doit4(i,f):
+    chunk = f.read(0x4)
+    z = unpack('<I', chunk)
+    #print hex(z[0])
+    fl = z[0]
+    chunk = f.read(fl)
+    #print chunk
+    print (f.tell() - 1) % 8
+
+def isnull(instr):
+  for c in instr:
+    assert ord(c) == 0
+
 if __name__ == "__main__":
   filename = sys.argv[1]
   with open(filename,'rb') as f:
@@ -111,36 +124,41 @@ if __name__ == "__main__":
     assert z[0] == 0
     for i in range(0,12):
       doit3(i,f)
+    # type 4:
     #print hex(f.tell())
     chunk = f.read(0x4)
     z = unpack('<I', chunk)
     assert z[0] == 0
+    doit4(0,f)
+    #print format(f.tell(), '08x')
+    # not OK:
+    chunk = f.read(0x7)
+    isnull(chunk)
     chunk = f.read(0x4)
     z = unpack('<I', chunk)
-    #print hex(z[0])
     fl = z[0]
     chunk = f.read(fl)
-    #print chunk
-    #print hex(f.tell())
     chunk = f.read(0x3)
-    chunk = f.read(0x4)
+    isnull(chunk)
     chunk = f.read(0x4)
     z = unpack('<I', chunk)
-    #print hex(z[0])
-    fl = z[0]
-    chunk = f.read(fl)
-    #print chunk[:-1]
-    #print hex(f.tell())
-    chunk = f.read(0x3)
-    chunk = f.read(0x4)
-    z = unpack('<I', chunk)
-    #print hex(z[0])
-    chunk = f.read(fl+4)
-    #print chunk
     fixlen = 0xb02
+    print z[0], fl
+    print format(f.tell(), '08x')
+    chunk = f.read(fl+4)
     chunk = f.read(fixlen)
-    #print chunk
-    print hex(f.tell())
+    # OK:
+    chunk = f.read(0x5)
+    isnull(chunk)
+    doit4(7,f)
+    chunk = f.read(0x7)
+    isnull(chunk)
+    doit4(7,f)
+    chunk = f.read(0x3)
+    isnull(chunk)
+    doit4(8,f)
+    doit4(9,f)
+    print format(f.tell(), '08x')
 
   #print array
   #print json.dumps(array, sort_keys=True, indent=4)
