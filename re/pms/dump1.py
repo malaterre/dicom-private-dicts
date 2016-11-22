@@ -62,7 +62,7 @@ def doit3(i,f):
   #print f.tell(), pad, f.tell() // 8, f.tell() % 8
   chunk = f.read(pad)
   #print f.tell(), pad, (f.tell() - 1 ) % 8
-  assert (f.tell() - 1 ) % 8 == 0 # seems like to 8 bytes aligned...
+  assert (f.tell() - 1) % 8 == 0 # seems like to 8 bytes aligned...
   isnull(chunk)
   chunk = f.read(0x4)
   d = unpack('<I', chunk)
@@ -71,14 +71,23 @@ def doit3(i,f):
   with open("output%d.dad" % i, "w") as text_file:
     text_file.write( chunk[:-2] )
 
-def doit4(i,f):
-    chunk = f.read(0x4)
-    z = unpack('<I', chunk)
-    #print hex(z[0])
-    fl = z[0]
-    chunk = f.read(fl)
-    #print chunk
-    #print (f.tell() - 1) % 8
+def doit4(i,f,fixlen = 0):
+  assert (f.tell() - 1) % 8 == 0 # 8bytes alignement
+  chunk = f.read(0x4)
+  z = unpack('<I', chunk)
+  fl = z[0] + fixlen
+  chunk = f.read(fl)
+  #if i == 140:
+  #  print fl
+  #  #print chunk
+
+def doit5(i,f):
+  pad = (f.tell() - 1) % 8
+  if pad != 0:
+    chunk = f.read(8 - pad)
+    isnull(chunk)
+  doit4(i,f)
+  
 
 if __name__ == "__main__":
   filename = sys.argv[1]
@@ -111,34 +120,20 @@ if __name__ == "__main__":
     chunk = f.read(0x4)
     z = unpack('<I', chunk)
     assert z[0] == 0
+    # first one OK
     doit4(0,f)
     # not OK:
     chunk = f.read(0x7)
     isnull(chunk)
-    chunk = f.read(0x4)
-    z = unpack('<I', chunk)
-    fl = z[0]
-    chunk = f.read(fl)
-    chunk = f.read(0x3)
-    isnull(chunk)
-    chunk = f.read(0x4)
-    z = unpack('<I', chunk)
-    fixlen = 0xb06
-    print z[0], fl+4+fixlen
-    print hex(z[0]), hex(fl+fixlen)
-    chunk = f.read(fl+fixlen)
+    doit4(1,f)
     #print chunk
-    # OK:
-    chunk = f.read(0x5)
-    isnull(chunk)
-    doit4(7,f)
-    chunk = f.read(0x7)
-    isnull(chunk)
-    doit4(7,f)
     chunk = f.read(0x3)
     isnull(chunk)
-    doit4(8,f)
-    doit4(9,f)
+    doit4(2,f,235)
+    # OK:
+    for i in range(3,140):
+      # i >= 140 is junk...
+      doit5(i,f)
     print format(f.tell(), '08x')
 
   #print array
