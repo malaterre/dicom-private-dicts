@@ -52,33 +52,21 @@ FixPadding = [
  { 'pad' : 4 },
  { 'pad' : 3 },
 ]
-AddPadding = False
+
+def isnull(instr):
+  for c in instr:
+    assert ord(c) == 0
 
 def doit3(i,f):
-  global AddPadding
-  """
-  chunk = f.read(0x1)
-  if AddPadding:
-    chunk = f.read(0x1)
-  """
   pad = FixPadding[i]['pad']
+  #print f.tell(), pad, f.tell() // 8, f.tell() % 8
   chunk = f.read(pad)
-  #z = unpack('<B', chunk)
-  #print hex(z[0]),z[0]
-  #if z[0] != 0:
-  #  f.seek(-1,1)
-  chunk = f.read(0x2)
-  d = unpack('<H', chunk)
+  #print f.tell(), pad, (f.tell() - 1 ) % 8
+  assert (f.tell() - 1 ) % 8 == 0 # seems like to 8 bytes aligned...
+  isnull(chunk)
+  chunk = f.read(0x4)
+  d = unpack('<I', chunk)
   fl = d[0]
-  #print pad,hex(f.tell()),hex(fl),fl
-  if fl % 2 == 0:
-    AddPadding = True
-  else:
-    AddPadding = False
-  chunk = f.read(0x2)
-  d = unpack('<H', chunk)
-  #print hex(d[0])
-  assert d[0] == 0
   chunk = f.read(fl)
   with open("output%d.dad" % i, "w") as text_file:
     text_file.write( chunk[:-2] )
@@ -91,10 +79,6 @@ def doit4(i,f):
     chunk = f.read(fl)
     #print chunk
     #print (f.tell() - 1) % 8
-
-def isnull(instr):
-  for c in instr:
-    assert ord(c) == 0
 
 if __name__ == "__main__":
   filename = sys.argv[1]
@@ -120,12 +104,10 @@ if __name__ == "__main__":
     # file type 2:
     chunk = f.read(0x4)
     z = unpack('<I', chunk)
-    #print "debug: %d" % z
     assert z[0] == 0
     for i in range(0,12):
       doit3(i,f)
-    # type 4:
-    #print hex(f.tell())
+    # file type 4:
     chunk = f.read(0x4)
     z = unpack('<I', chunk)
     assert z[0] == 0
