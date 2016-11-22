@@ -90,7 +90,7 @@ def doit4(i,f):
     fl = z[0]
     chunk = f.read(fl)
     #print chunk
-    print (f.tell() - 1) % 8
+    #print (f.tell() - 1) % 8
 
 def isnull(instr):
   for c in instr:
@@ -130,7 +130,6 @@ if __name__ == "__main__":
     z = unpack('<I', chunk)
     assert z[0] == 0
     doit4(0,f)
-    #print format(f.tell(), '08x')
     # not OK:
     chunk = f.read(0x7)
     isnull(chunk)
@@ -142,11 +141,11 @@ if __name__ == "__main__":
     isnull(chunk)
     chunk = f.read(0x4)
     z = unpack('<I', chunk)
-    fixlen = 0xb02
-    print z[0], fl
-    print format(f.tell(), '08x')
-    chunk = f.read(fl+4)
-    chunk = f.read(fixlen)
+    fixlen = 0xb06
+    print z[0], fl+4+fixlen
+    print hex(z[0]), hex(fl+fixlen)
+    chunk = f.read(fl+fixlen)
+    #print chunk
     # OK:
     chunk = f.read(0x5)
     isnull(chunk)
