@@ -48,19 +48,15 @@ def doit4(i,f,fixlen = 0):
   z = unpack('<I', chunk)
   fl = z[0] + fixlen
   chunk = f.read(fl)
-  #if i == 140:
-  #  print fl
-  #  #print chunk
-  with open("output_%d.dad" % i, "wb") as binfile:
+  with open("output_%03d.dad" % i, "wb") as binfile:
     binfile.write( chunk )
 
 def doit5(i,f):
   pad = (f.tell() - 1) % 8
   if pad != 0:
     chunk = f.read(8 - pad)
-    isnull(chunk)
+    isnull(chunk) # no digital trash, must be an in-memory representation
   doit4(i,f)
-  
 
 if __name__ == "__main__":
   filename = sys.argv[1]
@@ -84,7 +80,7 @@ if __name__ == "__main__":
     for i in range(0,60):
       doit2(i,f)
     # file type 2/4
-    for i in range(0,141+12):
+    for i in range(0,153):
       # i > 140 is junk...
       doit5(i,f)
     print format(f.tell(), '08x')
