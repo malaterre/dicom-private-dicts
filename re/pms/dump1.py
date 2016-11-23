@@ -43,7 +43,10 @@ def isnull(instr):
     assert ord(c) == 0
 
 def extract_dad_file(i,f):
-  assert (f.tell() - 1) % 8 == 0 # 8bytes alignement
+  print f.tell()
+  corr = 1 # old (orig file)
+  corr = 0 # already aligned ???
+  assert (f.tell() - corr) % 8 == 0 # 8bytes alignement
   # read length:
   chunk = f.read(0x4)
   z = unpack('<I', chunk)
@@ -52,7 +55,7 @@ def extract_dad_file(i,f):
   with open("output_%03d.dad" % i, "wb") as binfile:
     binfile.write( chunk )
   # trailing stuff handling:
-  pad = (f.tell() - 1) % 8
+  pad = (f.tell() - corr) % 8
   if pad != 0:
     chunk = f.read(8 - pad)
     isnull(chunk) # no digital trash, must be an in-memory representation
@@ -61,15 +64,16 @@ def extract_dad_file(i,f):
 # $ dd if=PmsDView.DMP of=dummy2.exe skip=104921721 count=1802240 bs=1
 # as a side note we also have:
 # $ dd if=PmsDView.DMP of=dummy3.exe skip=106723961 count=1802240 bs=1 
-# $ md5sum dummy2.exe dummy3.exe
-# 6a58cd8dc039b2cfbeb4529b4fd13106  dummy2.exe
-# 6a58cd8dc039b2cfbeb4529b4fd13106  dummy3.exe
+# $ md5sum dummy2.exe dummy3.exe
+# 6a58cd8dc039b2cfbeb4529b4fd13106  dummy2.exe
+# 6a58cd8dc039b2cfbeb4529b4fd13106  dummy3.exe
 
 if __name__ == "__main__":
   filename = sys.argv[1]
   with open(filename,'rb') as f:
     # MZ starts at 0x640FA79
-    f.seek( 104932524 ) # 0x64124ac
+    #f.seek( 104932524 ) # 0x64124ac # orig file
+    f.seek( 0x12F86F3 ) # new
     # file type 1:
     #print "start:", f.tell()
     chunk = f.read(0x2)
