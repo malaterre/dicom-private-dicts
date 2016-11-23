@@ -38,38 +38,9 @@ def doit2(i,f):
   array[i]['value']=s[0]
   array[i]['len']=l0[0]
 
-FixPadding = [
- { 'pad' : 1 },
- { 'pad' : 1 },
- { 'pad' : 1 },
- { 'pad' : 2 },
- { 'pad' : 0 },
- { 'pad' : 6 },
- { 'pad' : 2 },
- { 'pad' : 1 },
- { 'pad' : 7 },
- { 'pad' : 4 },
- { 'pad' : 4 },
- { 'pad' : 3 },
-]
-
 def isnull(instr):
   for c in instr:
     assert ord(c) == 0
-
-def doit3(i,f):
-  pad = FixPadding[i]['pad']
-  #print f.tell(), pad, f.tell() // 8, f.tell() % 8
-  chunk = f.read(pad)
-  #print f.tell(), pad, (f.tell() - 1 ) % 8
-  assert (f.tell() - 1) % 8 == 0 # seems like to 8 bytes aligned...
-  isnull(chunk)
-  chunk = f.read(0x4)
-  d = unpack('<I', chunk)
-  fl = d[0]
-  chunk = f.read(fl)
-  with open("output%d.dad" % i, "w") as text_file:
-    text_file.write( chunk[:-2] )
 
 def doit4(i,f,fixlen = 0):
   assert (f.tell() - 1) % 8 == 0 # 8bytes alignement
@@ -80,6 +51,8 @@ def doit4(i,f,fixlen = 0):
   #if i == 140:
   #  print fl
   #  #print chunk
+  with open("output_%d.dad" % i, "wb") as binfile:
+    binfile.write( chunk )
 
 def doit5(i,f):
   pad = (f.tell() - 1) % 8
@@ -110,29 +83,9 @@ if __name__ == "__main__":
     assert z[0] == 0
     for i in range(0,60):
       doit2(i,f)
-    # file type 2:
-    chunk = f.read(0x4)
-    z = unpack('<I', chunk)
-    assert z[0] == 0
-    for i in range(0,12):
-      doit3(i,f)
-    # file type 4:
-    chunk = f.read(0x4)
-    z = unpack('<I', chunk)
-    assert z[0] == 0
-    # first one OK
-    doit4(0,f)
-    # not OK:
-    chunk = f.read(0x7)
-    isnull(chunk)
-    doit4(1,f)
-    #print chunk
-    chunk = f.read(0x3)
-    isnull(chunk)
-    doit4(2,f,235)
-    # OK:
-    for i in range(3,140):
-      # i >= 140 is junk...
+    # file type 2/4
+    for i in range(0,141+12):
+      # i > 140 is junk...
       doit5(i,f)
     print format(f.tell(), '08x')
 
