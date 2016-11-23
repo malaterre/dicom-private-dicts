@@ -42,21 +42,20 @@ def isnull(instr):
   for c in instr:
     assert ord(c) == 0
 
-def doit4(i,f,fixlen = 0):
+def extract_dad_file(i,f):
   assert (f.tell() - 1) % 8 == 0 # 8bytes alignement
+  # read length:
   chunk = f.read(0x4)
   z = unpack('<I', chunk)
-  fl = z[0] + fixlen
+  fl = z[0]
   chunk = f.read(fl)
   with open("output_%03d.dad" % i, "wb") as binfile:
     binfile.write( chunk )
-
-def doit5(i,f):
+  # trailing stuff handling:
   pad = (f.tell() - 1) % 8
   if pad != 0:
     chunk = f.read(8 - pad)
     isnull(chunk) # no digital trash, must be an in-memory representation
-  doit4(i,f)
 
 if __name__ == "__main__":
   filename = sys.argv[1]
@@ -72,18 +71,24 @@ if __name__ == "__main__":
     #print d # wotsit ?
     for i in range(0,60):
       doit(f)
-    for i in range(1,60):
-      array[i]['idxdiff'] = array[i]['index'] - array[i-1]['index']
     chunk = f.read(0x1)
     z = unpack('>B', chunk)
     assert z[0] == 0
     for i in range(0,60):
       doit2(i,f)
     # file type 2/4
+    chunk = f.read(5)
     for i in range(0,153):
-      # i > 140 is junk...
-      doit5(i,f)
+      # i > 153 is junk...
+      extract_dad_file(i,f)
     print format(f.tell(), '08x')
+    chunk = f.read(2000)
+    # Some .NET stuff (BSJB)
+    # The initials correspond to Brian Harry, Susan Radke-Sproull, Jason
+    # Zander, and Bill Evans who were part of the team in 1998 that worked on
+    # the CLR.
+    with open("general_metadata_header.bin" , "wb") as binfile:
+      binfile.write( chunk )
 
   #print array
   #print json.dumps(array, sort_keys=True, indent=4)
