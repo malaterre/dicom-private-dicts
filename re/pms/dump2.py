@@ -59,12 +59,6 @@ def extract_dad_file(i,f):
 
 # the intersting stuff lie in:
 # $ dd if=PmsDView.DMP of=dummy2.exe skip=104921721 count=1802240 bs=1
-# as a side note we also have:
-# $ dd if=PmsDView.DMP of=dummy3.exe skip=106723961 count=1802240 bs=1 
-# $ md5sum dummy2.exe dummy3.exe
-# 6a58cd8dc039b2cfbeb4529b4fd13106  dummy2.exe
-# 6a58cd8dc039b2cfbeb4529b4fd13106  dummy3.exe
-
 if __name__ == "__main__":
   filename = sys.argv[1]
   with open(filename,'rb') as f:
