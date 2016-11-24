@@ -1062,6 +1062,660 @@
     <entry owner="GEMS_SENO_02" group="0045" element="xx71" vr="DS" vm="1" name="Contrast Adjustment"/>
     <entry owner="GEMS_SENO_02" group="0045" element="xx72" vr="DS" vm="1" name="Collimator Width"/>
     <entry owner="GEMS_SENO_02" group="0045" element="xx73" vr="DS" vm="1" name="Collimator Height"/>
+    <entry owner="PRIV" group="0009" element="xx40" vr="UN" vm="1" name="Patient Object Name"/>
+    <entry owner="PRIV" group="0009" element="xx41" vr="UN" vm="1" name="Patient Flags"/>
+    <entry owner="PRIV" group="0009" element="xx42" vr="UN" vm="1" name="Patient Creation Date"/>
+    <entry owner="PRIV" group="0009" element="xx10" vr="UN" vm="1" name="Study Name"/>
+    <entry owner="PRIV" group="0009" element="xx11" vr="UN" vm="1" name="Study Flags"/>
+    <entry owner="PRIV" group="0009" element="xx12" vr="UN" vm="1" name="Study Type"/>
+    <entry owner="PRIV" group="0009" element="xx10" vr="UN" vm="1" name="Study Name"/>
+    <entry owner="PRIV" group="0009" element="xx11" vr="UN" vm="1" name="Study Flags"/>
+    <entry owner="PRIV" group="0009" element="xx12" vr="UN" vm="1" name="Study Type"/>
+    <entry owner="PRIV" group="0013" element="xx26" vr="UN" vm="1" name="Study Comments"/>
+    <entry owner="PRIV" group="0033" element="xx50" vr="UN" vm="1" name="PhotoCDC Data SQ"/>
+    <entry owner="PRIV" group="0033" element="xx08" vr="UN" vm="1" name="Data Object Type"/>
+    <entry owner="PRIV" group="0033" element="xx10" vr="UN" vm="1" name="Modified"/>
+    <entry owner="PRIV" group="0033" element="xx11" vr="UN" vm="1" name="Name"/>
+    <entry owner="PRIV" group="0033" element="xx16" vr="UN" vm="1" name="ProtocolDataUID"/>
+    <entry owner="PRIV" group="0033" element="xx17" vr="UN" vm="1" name="Date"/>
+    <entry owner="PRIV" group="0033" element="xx18" vr="UN" vm="1" name="Time"/>
+    <entry owner="PRIV" group="0033" element="xx19" vr="UN" vm="1" name="ProtocolDataFlags"/>
+    <entry owner="PRIV" group="0033" element="xx1a" vr="UN" vm="1" name="ProtocolName"/>
+    <entry owner="PRIV" group="0033" element="xx1c" vr="UN" vm="1" name="BulkData"/>
+    <entry owner="PRIV" group="0033" element="xx1d" vr="UN" vm="1" name="IntData"/>
+    <entry owner="PRIV" group="0033" element="xx1e" vr="UN" vm="1" name="DoubleData"/>
+    <entry owner="PRIV" group="0033" element="xx1f" vr="UN" vm="1" name="StringData"/>
+    <entry owner="PRIV" group="0033" element="xx20" vr="UN" vm="1" name="BulkDataFormat"/>
+    <entry owner="PRIV" group="0033" element="xx21" vr="UN" vm="1" name="IntDataFormat"/>
+    <entry owner="PRIV" group="0033" element="xx22" vr="UN" vm="1" name="DoubleDataFormat"/>
+    <entry owner="PRIV" group="0033" element="xx23" vr="UN" vm="1" name="StringDataFormat"/>
+    <entry owner="PRIV" group="0033" element="xx24" vr="UN" vm="1" name="Description"/>
+    <entry owner="PRIV" group="0033" element="xx51" vr="UN" vm="1" name="PDOSOPClassUID"/>
+    <entry owner="PRIV" group="0033" element="xx52" vr="UN" vm="1" name="PDOSOPInstanceUID"/>
+    <entry owner="PRIV" group="0033" element="xx60" vr="UN" vm="1" name="Review Template SQ"/>
+    <entry owner="PRIV" group="0033" element="xx08" vr="UN" vm="1" name="Data Object Type"/>
+    <entry owner="PRIV" group="0033" element="xx10" vr="UN" vm="1" name="Modified"/>
+    <entry owner="PRIV" group="0033" element="xx11" vr="UN" vm="1" name="Name"/>
+    <entry owner="PRIV" group="0033" element="xx14" vr="UN" vm="1" name="StudyId"/>
+    <entry owner="PRIV" group="0033" element="xx16" vr="UN" vm="1" name="Review TemplateUID"/>
+    <entry owner="PRIV" group="0033" element="xx17" vr="UN" vm="1" name="CreationDate"/>
+    <entry owner="PRIV" group="0033" element="xx18" vr="UN" vm="1" name="CreationDate"/>
+    <entry owner="PRIV" group="0033" element="xx28" vr="UN" vm="1" name="RTName"/>
+    <entry owner="PRIV" group="0033" element="xx29" vr="UN" vm="1" name="RTSpecification"/>
+    <entry owner="PRIV" group="0033" element="xx2a" vr="UN" vm="1" name="Review TemplatesFlags"/>
+    <entry owner="PRIV" group="0033" element="xx2b" vr="UN" vm="1" name="DataValidationSpec"/>
+    <entry owner="PRIV" group="0033" element="xx2c" vr="UN" vm="1" name="Description"/>
+    <entry owner="PRIV" group="0033" element="xx2d" vr="UN" vm="1" name="IconDescription"/>
+    <entry owner="PRIV" group="0033" element="xx61" vr="UN" vm="1" name="RTOSOPClassUID"/>
+    <entry owner="PRIV" group="0009" element="xx20" vr="UN" vm="1" name="Series Object Name"/>
+    <entry owner="PRIV" group="0009" element="xx21" vr="UN" vm="1" name="Series Flags"/>
+    <entry owner="PRIV" group="0009" element="xx22" vr="UN" vm="1" name="User Orientation"/>
+    <entry owner="PRIV" group="0009" element="xx23" vr="UN" vm="1" name="Initiation Type"/>
+    <entry owner="PRIV" group="0009" element="xx24" vr="UN" vm="1" name="Initiation Delay"/>
+    <entry owner="PRIV" group="0009" element="xx25" vr="UN" vm="1" name="Initiation Count Rate"/>
+    <entry owner="PRIV" group="0009" element="xx26" vr="UN" vm="1" name="Number Energy Sets"/>
+    <entry owner="PRIV" group="0009" element="xx27" vr="UN" vm="1" name="Number Detectors"/>
+    <entry owner="PRIV" group="0009" element="xx28" vr="UN" vm="1" name="Number R-R Windows"/>
+    <entry owner="PRIV" group="0009" element="xx29" vr="UN" vm="1" name="Number MG Time Slots"/>
+    <entry owner="PRIV" group="0009" element="xx2a" vr="UN" vm="1" name="Number View Sets"/>
+    <entry owner="PRIV" group="0009" element="xx2b" vr="UN" vm="1" name="Trigger History UID"/>
+    <entry owner="PRIV" group="0009" element="xx2c" vr="UN" vm="1" name="Series Comments"/>
+    <entry owner="PRIV" group="0009" element="xx2e" vr="UN" vm="1" name="Distance Prescribed"/>
+    <entry owner="PRIV" group="0011" element="xx0a" vr="UN" vm="1" name="Series Type"/>
+    <entry owner="PRIV" group="0011" element="xx0b" vr="UN" vm="1" name="Effective Series Duration"/>
+    <entry owner="PRIV" group="0009" element="xx20" vr="UN" vm="1" name="Series Object Name"/>
+    <entry owner="PRIV" group="0009" element="xx21" vr="UN" vm="1" name="Series Flags"/>
+    <entry owner="PRIV" group="0009" element="xx22" vr="UN" vm="1" name="User Orientation"/>
+    <entry owner="PRIV" group="0009" element="xx23" vr="UN" vm="1" name="Initiation Type"/>
+    <entry owner="PRIV" group="0009" element="xx24" vr="UN" vm="1" name="Initiation Delay"/>
+    <entry owner="PRIV" group="0009" element="xx25" vr="UN" vm="1" name="Initiation Count Rate"/>
+    <entry owner="PRIV" group="0009" element="xx26" vr="UN" vm="1" name="Number Energy Sets"/>
+    <entry owner="PRIV" group="0009" element="xx27" vr="UN" vm="1" name="Number Detectors"/>
+    <entry owner="PRIV" group="0009" element="xx28" vr="UN" vm="1" name="Number R-R Windows"/>
+    <entry owner="PRIV" group="0009" element="xx29" vr="UN" vm="1" name="Number MG Time Slots"/>
+    <entry owner="PRIV" group="0009" element="xx2a" vr="UN" vm="1" name="Number View Sets"/>
+    <entry owner="PRIV" group="0009" element="xx2b" vr="UN" vm="1" name="Trigger History UID"/>
+    <entry owner="PRIV" group="0009" element="xx2c" vr="UN" vm="1" name="Series Comments"/>
+    <entry owner="PRIV" group="0009" element="xx2e" vr="UN" vm="1" name="Distance Prescribed"/>
+    <entry owner="PRIV" group="0011" element="xx0a" vr="UN" vm="1" name="Series Type"/>
+    <entry owner="PRIV" group="0011" element="xx0b" vr="UN" vm="1" name="Effective Series Duration"/>
+    <entry owner="PRIV" group="0011" element="xx0c" vr="UN" vm="1" name="Number Beats"/>
+    <entry owner="PRIV" group="0033" element="xx70" vr="UN" vm="1" name="Seriesdata SQ"/>
+    <entry owner="PRIV" group="0033" element="xx08" vr="UN" vm="1" name="Data Object Type"/>
+    <entry owner="PRIV" group="0033" element="xx10" vr="UN" vm="1" name="Modified"/>
+    <entry owner="PRIV" group="0033" element="xx11" vr="UN" vm="1" name="Name"/>
+    <entry owner="PRIV" group="0033" element="xx16" vr="UN" vm="1" name="SeriesDataUID"/>
+    <entry owner="PRIV" group="0033" element="xx18" vr="UN" vm="1" name="Time"/>
+    <entry owner="PRIV" group="0033" element="xx19" vr="UN" vm="1" name="SeriesDataFlags"/>
+    <entry owner="PRIV" group="0033" element="xx1a" vr="UN" vm="1" name="ProtocolName"/>
+    <entry owner="PRIV" group="0033" element="xx1b" vr="UN" vm="1" name="RelevantDataUID"/>
+    <entry owner="PRIV" group="0033" element="xx1c" vr="UN" vm="1" name="BulkData"/>
+    <entry owner="PRIV" group="0033" element="xx1d" vr="UN" vm="1" name="IntData"/>
+    <entry owner="PRIV" group="0033" element="xx1e" vr="UN" vm="1" name="DoubleData"/>
+    <entry owner="PRIV" group="0033" element="xx1f" vr="UN" vm="1" name="StringData"/>
+    <entry owner="PRIV" group="0033" element="xx20" vr="UN" vm="1" name="BulkDataFormat"/>
+    <entry owner="PRIV" group="0033" element="xx21" vr="UN" vm="1" name="IntDataFormat"/>
+    <entry owner="PRIV" group="0033" element="xx22" vr="UN" vm="1" name="DoubleDataFormat"/>
+    <entry owner="PRIV" group="0033" element="xx23" vr="UN" vm="1" name="StringDataFormat"/>
+    <entry owner="PRIV" group="0033" element="xx24" vr="UN" vm="1" name="Description"/>
+    <entry owner="PRIV" group="0033" element="xx73" vr="UN" vm="1" name="SDODoubleDataSQ"/>
+    <entry owner="PRIV" group="0033" element="xx1e" vr="UN" vm="1" name="DoubleDataSQ"/>
+    <entry owner="PRIV" group="0033" element="xx71" vr="UN" vm="1" name="SDOSOPClassUID"/>
+    <entry owner="PRIV" group="0011" element="xx0d" vr="UN" vm="1" name="Radio Nuclide Name"/>
+    <entry owner="PRIV" group="0011" element="xx10" vr="UN" vm="1" name="Dataset Object Name"/>
+    <entry owner="PRIV" group="0011" element="xx11" vr="UN" vm="1" name="Dataset Modified"/>
+    <entry owner="PRIV" group="0011" element="xx12" vr="UN" vm="1" name="Dataset Name"/>
+    <entry owner="PRIV" group="0011" element="xx13" vr="UN" vm="1" name="Dataset Type"/>
+    <entry owner="PRIV" group="0011" element="xx14" vr="UN" vm="1" name="Completion Time"/>
+    <entry owner="PRIV" group="0011" element="xx15" vr="UN" vm="1" name="Detector Number"/>
+    <entry owner="PRIV" group="0011" element="xx16" vr="UN" vm="1" name="Energy Number"/>
+    <entry owner="PRIV" group="0011" element="xx17" vr="UN" vm="1" name="RR Interval Window Number"/>
+    <entry owner="PRIV" group="0011" element="xx18" vr="UN" vm="1" name="MG Bin Number"/>
+    <entry owner="PRIV" group="0011" element="xx19" vr="UN" vm="1" name="Radius Of Rotation"/>
+    <entry owner="PRIV" group="0011" element="xx1a" vr="UN" vm="1" name="Detector Count Zone"/>
+    <entry owner="PRIV" group="0011" element="xx1b" vr="UN" vm="1" name="Num Energy Windows"/>
+    <entry owner="PRIV" group="0011" element="xx1f" vr="UN" vm="1" name="Image Orientation"/>
+    <entry owner="PRIV" group="0011" element="xx26" vr="UN" vm="1" name="Table Orientation"/>
+    <entry owner="PRIV" group="0011" element="xx27" vr="UN" vm="1" name="ROI Top Left"/>
+    <entry owner="PRIV" group="0011" element="xx28" vr="UN" vm="1" name="ROI Bottom Right"/>
+    <entry owner="PRIV" group="0011" element="xx2c" vr="UN" vm="1" name="View X Adjustment"/>
+    <entry owner="PRIV" group="0011" element="xx2d" vr="UN" vm="1" name="View Y Adjustment"/>
+    <entry owner="PRIV" group="0011" element="xx2e" vr="UN" vm="1" name="Pixel Overflow Flag"/>
+    <entry owner="PRIV" group="0011" element="xx2f" vr="UN" vm="1" name="Pixel Overflow Level"/>
+    <entry owner="PRIV" group="0011" element="xx31" vr="UN" vm="1" name="Acquisition Parent UID"/>
+    <entry owner="PRIV" group="0011" element="xx32" vr="UN" vm="1" name="Processing Parent UID"/>
+    <entry owner="PRIV" group="0011" element="xx33" vr="UN" vm="1" name="Energy Correct Name"/>
+    <entry owner="PRIV" group="0011" element="xx34" vr="UN" vm="1" name="Spatial Correct Name"/>
+    <entry owner="PRIV" group="0011" element="xx0d" vr="UN" vm="1" name="Radio Nuclide Name"/>
+    <entry owner="PRIV" group="0011" element="xx10" vr="UN" vm="1" name="Dataset Object Name"/>
+    <entry owner="PRIV" group="0011" element="xx11" vr="UN" vm="1" name="Dataset Modified"/>
+    <entry owner="PRIV" group="0011" element="xx12" vr="UN" vm="1" name="Dataset Name"/>
+    <entry owner="PRIV" group="0011" element="xx13" vr="UN" vm="1" name="Dataset Type"/>
+    <entry owner="PRIV" group="0011" element="xx14" vr="UN" vm="1" name="Completion Time"/>
+    <entry owner="PRIV" group="0011" element="xx15" vr="UN" vm="1" name="Detector Number"/>
+    <entry owner="PRIV" group="0011" element="xx16" vr="UN" vm="1" name="Energy Number"/>
+    <entry owner="PRIV" group="0011" element="xx17" vr="UN" vm="1" name="RR Interval Window Number"/>
+    <entry owner="PRIV" group="0011" element="xx19" vr="UN" vm="1" name="Radius Of Rotation"/>
+    <entry owner="PRIV" group="0011" element="xx1a" vr="UN" vm="1" name="Detector Count Zone"/>
+    <entry owner="PRIV" group="0011" element="xx1b" vr="UN" vm="1" name="Num Energy Windows"/>
+    <entry owner="PRIV" group="0011" element="xx1f" vr="UN" vm="1" name="Image Orientation"/>
+    <entry owner="PRIV" group="0011" element="xx26" vr="UN" vm="1" name="Table Orientation"/>
+    <entry owner="PRIV" group="0011" element="xx27" vr="UN" vm="1" name="ROI Top Left"/>
+    <entry owner="PRIV" group="0011" element="xx28" vr="UN" vm="1" name="ROI Bottom Right"/>
+    <entry owner="PRIV" group="0011" element="xx2c" vr="UN" vm="1" name="View X Adjustment"/>
+    <entry owner="PRIV" group="0011" element="xx2d" vr="UN" vm="1" name="View Y Adjustment"/>
+    <entry owner="PRIV" group="0011" element="xx2e" vr="UN" vm="1" name="Pixel Overflow Flag"/>
+    <entry owner="PRIV" group="0011" element="xx2f" vr="UN" vm="1" name="Pixel Overflow Level"/>
+    <entry owner="PRIV" group="0011" element="xx31" vr="UN" vm="1" name="Acquisition Parent UID"/>
+    <entry owner="PRIV" group="0011" element="xx32" vr="UN" vm="1" name="Processing Parent UID"/>
+    <entry owner="PRIV" group="0011" element="xx33" vr="UN" vm="1" name="Energy Correct Name"/>
+    <entry owner="PRIV" group="0011" element="xx34" vr="UN" vm="1" name="Spatial Correct Name"/>
+    <entry owner="PRIV" group="0011" element="xx35" vr="UN" vm="1" name="Tuning Calib Name"/>
+    <entry owner="PRIV" group="0011" element="xx36" vr="UN" vm="1" name="Uniformity Correct Name"/>
+    <entry owner="PRIV" group="0011" element="xx37" vr="UN" vm="1" name="Acquisition Specific Correct Name"/>
+    <entry owner="PRIV" group="0011" element="xx3f" vr="UN" vm="1" name="Dataset Flags"/>
+    <entry owner="PRIV" group="0011" element="xx56" vr="UN" vm="1" name="Elapsed Time"/>
+    <entry owner="PRIV" group="0011" element="xx57" vr="UN" vm="1" name="FOV"/>
+    <entry owner="PRIV" group="0013" element="xx10" vr="UN" vm="1" name="Digital FOV"/>
+    <entry owner="PRIV" group="0013" element="xx11" vr="UN" vm="1" name="Source Translator"/>
+    <entry owner="PRIV" group="0013" element="xx12" vr="UN" vm="1" name="RAL Flags"/>
+    <entry owner="PRIV" group="0055" element="xx65" vr="SQ" vm="1" name="Xeleris Frame Sequence"/>
+    <entry owner="PRIV" group="0015" element="xx10" vr="UN" vm="1" name="Frame Termination Condition"/>
+    <entry owner="PRIV" group="0015" element="xx11" vr="UN" vm="1" name="Frame Termination Value"/>
+    <entry owner="PRIV" group="0013" element="xx14" vr="UN" vm="1" name="Original Image Number"/>
+    <entry owner="PRIV" group="0057" element="xx01" vr="SQ" vm="1" name="ROI Sequence"/>
+    <entry owner="PRIV" group="0057" element="xx02" vr="UN" vm="1" name="ROISOPClassUID"/>
+    <entry owner="PRIV" group="0057" element="xx03" vr="UN" vm="1" name="ROISOPInstanceUID"/>
+    <entry owner="PRIV" group="0057" element="xx10" vr="IS" vm="1" name="ROI Number"/>
+    <entry owner="PRIV" group="0057" element="xx11" vr="UN" vm="1" name="ROI Dimentions"/>
+    <entry owner="PRIV" group="0057" element="xx12" vr="US" vm="1" name="ROIPoints"/>
+    <entry owner="PRIV" group="0057" element="xx13" vr="CS" vm="1" name="ROIType"/>
+    <entry owner="PRIV" group="0057" element="xx14" vr="UN" vm="1" name="ROIDescription"/>
+    <entry owner="PRIV" group="0057" element="xx15" vr="US" vm="1" name="0 value representation"/>
+    <entry owner="PRIV" group="0057" element="xx16" vr="LO" vm="1" name="ROI Label"/>
+    <entry owner="PRIV" group="0057" element="xx17" vr="OW" vm="1" name="ROI data"/>
+    <entry owner="PRIV" group="0057" element="xx41" vr="SL" vm="1" name="Modified"/>
+    <entry owner="PRIV" group="0057" element="xx42" vr="UN" vm="1" name="Name"/>
+    <entry owner="PRIV" group="0057" element="xx43" vr="SL" vm="1" name="RID in database"/>
+    <entry owner="PRIV" group="0057" element="xx45" vr="LO" vm="1" name="SOPClassUID"/>
+    <entry owner="PRIV" group="0057" element="xx46" vr="LO" vm="1" name="SOPInstanceUID"/>
+    <entry owner="PRIV" group="0057" element="xx47" vr="LO" vm="1" name="Normal Colour"/>
+    <entry owner="PRIV" group="0057" element="xx48" vr="LT" vm="1" name="NameFont"/>
+    <entry owner="PRIV" group="0057" element="xx49" vr="SL" vm="1" name="FillPattern"/>
+    <entry owner="PRIV" group="0057" element="xx4a" vr="SL" vm="1" name="LineStyle"/>
+    <entry owner="PRIV" group="0057" element="xx4b" vr="SL" vm="1" name="LineDashLength"/>
+    <entry owner="PRIV" group="0057" element="xx4c" vr="SL" vm="1" name="LineThickness"/>
+    <entry owner="PRIV" group="0057" element="xx4e" vr="SL" vm="1" name="Name Position"/>
+    <entry owner="PRIV" group="0057" element="xx4f" vr="SL" vm="1" name="NameDisplay"/>
+    <entry owner="PRIV" group="0057" element="xx50" vr="LO" vm="1" name="Label"/>
+    <entry owner="PRIV" group="0057" element="xx51" vr="SL" vm="1-n" name="BpSeg"/>
+    <entry owner="PRIV" group="0057" element="xx52" vr="US" vm="1-n" name="BpSegpairs"/>
+    <entry owner="PRIV" group="0057" element="xx53" vr="UN" vm="1" name="SeedSpace"/>
+    <entry owner="PRIV" group="0057" element="xx54" vr="UN" vm="1-n" name="Seeds"/>
+    <entry owner="PRIV" group="0057" element="xx55" vr="SL" vm="1-n" name="Shape"/>
+    <entry owner="PRIV" group="0057" element="xx56" vr="FD" vm="1-n" name="ShapeTilt"/>
+    <entry owner="PRIV" group="0057" element="xx59" vr="SL" vm="1" name="ShapePtsSpace"/>
+    <entry owner="PRIV" group="0057" element="xx5a" vr="SL" vm="1" name="ShapeCtrlPtsCount"/>
+    <entry owner="PRIV" group="0057" element="xx5b" vr="FD" vm="1-n" name="Shap CtrlPts"/>
+    <entry owner="PRIV" group="0057" element="xx5c" vr="SL" vm="1" name="ShapeCPSpace"/>
+    <entry owner="PRIV" group="0057" element="xx5d" vr="UL" vm="1" name="ROIFlags"/>
+    <entry owner="PRIV" group="0057" element="xx5e" vr="UL" vm="1" name="FrameNumber"/>
+    <entry owner="PRIV" group="0055" element="xx12" vr="SQ" vm="1" name="Xeleris Energy Window Informa- tion Sequence"/>
+    <entry owner="PRIV" group="0055" element="xx13" vr="SQ" vm="1" name="Xeleris Energy Window Range Sequence"/>
+    <entry owner="PRIV" group="0011" element="xx1c" vr="UN" vm="1" name="Energy Offset"/>
+    <entry owner="PRIV" group="0011" element="xx1d" vr="UN" vm="1" name="Energy Range"/>
+    <entry owner="PRIV" group="0013" element="xx16" vr="UN" vm="1" name="AutoTrack Peak"/>
+    <entry owner="PRIV" group="0055" element="xx22" vr="SQ" vm="1" name="Xeleris Detector Information Sequence"/>
+    <entry owner="PRIV" group="0011" element="xx23" vr="UN" vm="1" name="Use FOV Mask"/>
+    <entry owner="PRIV" group="0011" element="xx24" vr="UN" vm="1" name="FOV Mask Y Cutoff Distance"/>
+    <entry owner="PRIV" group="0011" element="xx25" vr="UN" vm="1" name="FOV Mask Cutoff Angle"/>
+    <entry owner="PRIV" group="0011" element="xx29" vr="UN" vm="1" name="Uniformity Mean"/>
+    <entry owner="PRIV" group="0011" element="xx3e" vr="UN" vm="1" name="FOV Shape"/>
+    <entry owner="PRIV" group="0013" element="xx18" vr="UN" vm="1" name="Transmission Scan Time"/>
+    <entry owner="PRIV" group="0013" element="xx19" vr="UN" vm="1" name="Transmission Mask Width"/>
+    <entry owner="PRIV" group="0013" element="xx1a" vr="UN" vm="1" name="Copper Attenuator Thickness"/>
+    <entry owner="PRIV" group="0013" element="xx1e" vr="UN" vm="1" name="Tomo View Offset"/>
+    <entry owner="PRIV" group="0009" element="xx33" vr="UN" vm="1" name="Rotational Continuous Speed"/>
+    <entry owner="PRIV" group="0009" element="xx35" vr="UN" vm="1" name="Gantry Locus Type"/>
+    <entry owner="PRIV" group="0015" element="xx12" vr="UN" vm="1" name="Num ECT Phases"/>
+    <entry owner="PRIV" group="0015" element="xx13" vr="UN" vm="1" name="Num WB Scans"/>
+    <entry owner="PRIV" group="0013" element="xx1b" vr="UN" vm="1" name="Det Ang Separation"/>
+    <entry owner="PRIV" group="0055" element="xx52" vr="SQ" vm="1" name="Xeleris Rotation Information Sequence"/>
+    <entry owner="PRIV" group="0015" element="xx14" vr="UN" vm="1" name="ECT Phase Num"/>
+    <entry owner="PRIV" group="0015" element="xx15" vr="UN" vm="1" name="WB Scan Num"/>
+    <entry owner="PRIV" group="0015" element="xx16" vr="UN" vm="1" name="Comb Head Number"/>
+    <entry owner="PRIV" group="0013" element="xx1c" vr="UN" vm="1" name="Axial Acceptance Angle"/>
+    <entry owner="PRIV" group="0013" element="xx1d" vr="UN" vm="1" name="Theta Acceptance Value"/>
+    <entry owner="PRIV" group="0009" element="xx37" vr="UN" vm="1" name="Starting Heart Rate"/>
+    <entry owner="PRIV" group="0009" element="xx2d" vr="UN" vm="1" name="Track Beat Average"/>
+    <entry owner="PRIV" group="0009" element="xx3a" vr="UN" vm="1" name="Percent Cycle Imaged"/>
+    <entry owner="PRIV" group="0015" element="xx17" vr="UN" vm="1" name="Preceding Beat"/>
+    <entry owner="PRIV" group="0055" element="xx62" vr="SQ" vm="1" name="Xeleris Gated Information Sequence"/>
+    <entry owner="PRIV" group="0055" element="xx63" vr="SQ" vm="1" name="Xeleris Data Information Sequence"/>
+    <entry owner="PRIV" group="0009" element="xx38" vr="UN" vm="1" name="RR Window Width"/>
+    <entry owner="PRIV" group="0009" element="xx39" vr="UN" vm="1" name="RR Window Offset"/>
+    <entry owner="PRIV" group="0013" element="xx20" vr="UN" vm="1" name="Accepted Beat Time"/>
+    <entry owner="PRIV" group="0011" element="xx61" vr="UN" vm="1" name="Image Size"/>
+    <entry owner="PRIV" group="0011" element="xx62" vr="UN" vm="1" name="Linear FOV"/>
+    <entry owner="PRIV" group="0011" element="xx63" vr="UN" vm="1" name="Spatial Offset"/>
+    <entry owner="PRIV" group="0011" element="xx64" vr="UN" vm="1" name="Spatial Orientation"/>
+    <entry owner="PRIV" group="0011" element="xx65" vr="UN" vm="1" name="ReferenceDatasetUID"/>
+    <entry owner="PRIV" group="0011" element="xx66" vr="UN" vm="1" name="Starcam Reference Dataset"/>
+    <entry owner="PRIV" group="0011" element="xx67" vr="UN" vm="1" name="Reference Frame Number"/>
+    <entry owner="PRIV" group="0011" element="xx68" vr="UN" vm="1" name="Cursor Length"/>
+    <entry owner="PRIV" group="0011" element="xx69" vr="UN" vm="1" name="Number of Cursors"/>
+    <entry owner="PRIV" group="0011" element="xx6a" vr="UN" vm="1" name="Cursor Coordinates"/>
+    <entry owner="PRIV" group="0011" element="xx6b" vr="UN" vm="1" name="Recon Options Flag"/>
+    <entry owner="PRIV" group="0011" element="xx6c" vr="UN" vm="1" name="Motion Threshold"/>
+    <entry owner="PRIV" group="0011" element="xx6d" vr="UN" vm="1" name="Motion Curve UID"/>
+    <entry owner="PRIV" group="0011" element="xx6e" vr="UN" vm="1" name="Recon Type"/>
+    <entry owner="PRIV" group="0011" element="xx6f" vr="UN" vm="1" name="Pre Filter Type"/>
+    <entry owner="PRIV" group="0011" element="xx71" vr="UN" vm="1" name="Back Proj Filter Type"/>
+    <entry owner="PRIV" group="0011" element="xx72" vr="UN" vm="1" name="Recon Arc"/>
+    <entry owner="PRIV" group="0011" element="xx73" vr="UN" vm="1" name="Recon Pan AP Offset"/>
+    <entry owner="PRIV" group="0011" element="xx74" vr="UN" vm="1" name="Recon Pan LR Offset"/>
+    <entry owner="PRIV" group="0011" element="xx75" vr="UN" vm="1" name="Recon Area"/>
+    <entry owner="PRIV" group="0011" element="xx76" vr="UN" vm="1" name="Start View"/>
+    <entry owner="PRIV" group="0011" element="xx77" vr="UN" vm="1" name="Attenuation Type"/>
+    <entry owner="PRIV" group="0011" element="xx78" vr="UN" vm="1" name="Dual Energy Processing"/>
+    <entry owner="PRIV" group="0011" element="xx79" vr="UN" vm="1" name="Pre Filter Param"/>
+    <entry owner="PRIV" group="0011" element="xx7a" vr="UN" vm="1" name="Pre Filter Param 2"/>
+    <entry owner="PRIV" group="0011" element="xx7b" vr="UN" vm="1" name="Back Proj Filter Param"/>
+    <entry owner="PRIV" group="0011" element="xx7c" vr="UN" vm="1" name="Back Proj Filter Param 2"/>
+    <entry owner="PRIV" group="0011" element="xx7d" vr="UN" vm="1" name="Attenuation Coef"/>
+    <entry owner="PRIV" group="0011" element="xx7e" vr="UN" vm="1" name="Ref Slice Width"/>
+    <entry owner="PRIV" group="0011" element="xx7f" vr="UN" vm="1" name="Ref Trans Pixel Volume"/>
+    <entry owner="PRIV" group="0011" element="xx81" vr="UN" vm="1" name="Attenuation Threshold"/>
+    <entry owner="PRIV" group="0011" element="xx82" vr="UN" vm="1" name="Interpolation Distance"/>
+    <entry owner="PRIV" group="0011" element="xx83" vr="UN" vm="1" name="Interpolation Center X"/>
+    <entry owner="PRIV" group="0011" element="xx84" vr="UN" vm="1" name="Interpolation Center Y"/>
+    <entry owner="PRIV" group="0011" element="xx85" vr="UN" vm="1" name="Quant Filter Flag"/>
+    <entry owner="PRIV" group="0011" element="xx86" vr="UN" vm="1" name="Head Conversion"/>
+    <entry owner="PRIV" group="0011" element="xx88" vr="UN" vm="1" name="Rfmtr Trans Ref"/>
+    <entry owner="PRIV" group="0011" element="xx89" vr="UN" vm="1" name="Rfmtr Trans Ref mm"/>
+    <entry owner="PRIV" group="0011" element="xx8a" vr="UN" vm="1" name="Two Line Trans Ref"/>
+    <entry owner="PRIV" group="0011" element="xx8b" vr="UN" vm="1" name="Three&#x2013;D Zero"/>
+    <entry owner="PRIV" group="0011" element="xx8c" vr="UN" vm="1" name="Three&#x2013;D Zero Length"/>
+    <entry owner="PRIV" group="0011" element="xx8d" vr="UN" vm="1" name="Three&#x2013;D Zero In"/>
+    <entry owner="PRIV" group="0013" element="xx21" vr="UN" vm="1" name="Threshold"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx00" vr="LO" vm="1" name="Private Creator Identification"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx10" vr="LO" vm="1" name="Study Name"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx11" vr="SL" vm="1" name="Study Flags"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx12" vr="SL" vm="1" name="Study Type"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx1e" vr="UI" vm="1" name="Dataset UID"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx20" vr="LO" vm="1" name="Series Object Name"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx21" vr="SL" vm="1" name="Series Flags"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx22" vr="SH" vm="1" name="User Orientation"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx23" vr="SL" vm="1" name="Initiation Type"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx24" vr="SL" vm="1" name="Initiation Delay"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx25" vr="SL" vm="1" name="Initiation Count Rate"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx26" vr="SL" vm="1" name="Number Energy Sets"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx27" vr="SL" vm="1" name="Number Detectors"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx28" vr="SL" vm="1" name="Number RR Windows"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx29" vr="SL" vm="1" name="Number MG Time Slots"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx2a" vr="SL" vm="1" name="Number View Sets"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx2b" vr="LO" vm="1" name="Trigger History UID"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx2c" vr="LO" vm="1" name="Series Comments"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx2d" vr="SL" vm="1" name="Track Beat Average"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx2e" vr="FD" vm="1" name="Distance Prescribed"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx2f" vr="SL" vm="1" name="Table Direction"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx33" vr="FD" vm="1" name="Rotational Continuous Speed"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx34" vr="SL" vm="1" name="Gantry Motion Type (retired)"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx35" vr="SL" vm="1" name="Gantry Locus Type"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx37" vr="SL" vm="1" name="Starting Heart Rate"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx38" vr="SL" vm="1" name="RR Window Width"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx39" vr="SL" vm="1" name="RR Window Offset"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx3a" vr="SL" vm="1" name="Percent Cycle Imaged"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx40" vr="PN" vm="1" name="Patient Object Name"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx44" vr="SL" vm="1" name="Num Views Acquired (retired)"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx41" vr="SL" vm="1" name="Patient Flags"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx42" vr="DA" vm="1" name="Patient Creation Date"/>
+    <entry owner="GEMS_GENIE_1" group="0009" element="xx43" vr="TM" vm="1" name="Patient Creation Time"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx00" vr="LO" vm="1" name="Private Creator Identification"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx0a" vr="SL" vm="1" name="Series Type"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx0b" vr="SL" vm="1" name="Effective Series Duration"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx0c" vr="SL" vm="1" name="Num Beats"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx0d" vr="LO" vm="1" name="Radio Nuclide Name"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx10" vr="LO" vm="1" name="Dataset Object Name"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx11" vr="IS" vm="1" name="Dataset Modified"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx12" vr="LO" vm="1-n" name="Dataset Name"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx13" vr="SL" vm="1" name="Dataset Type"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx14" vr="SH" vm="1" name="Completion Time"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx15" vr="SL" vm="1" name="Detector Number"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx16" vr="SL" vm="1" name="Energy Number"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx17" vr="SL" vm="1" name="RR Interval Window Number"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx18" vr="SL" vm="1" name="MG Bin Number"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx19" vr="FD" vm="1" name="Radius Of Rotation"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx1a" vr="SL" vm="1" name="Detector Count Zone"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx1b" vr="SL" vm="1" name="Num Energy Windows"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx1c" vr="SL" vm="4" name="Energy Offset"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx1d" vr="SL" vm="1" name="Energy Range"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx1e" vr="SL" vm="4" name="Energy Width (retired)"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx1f" vr="SL" vm="1" name="Image Orientation"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx21" vr="DS" vm="1" name="Acq Zoom (retired)"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx22" vr="DS" vm="1" name="Acq Pan (retired)"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx23" vr="SL" vm="1" name="Use FOV Mask"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx24" vr="SL" vm="1" name="FOV Mask Y Cutoff Distance"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx25" vr="SL" vm="1" name="FOV Mask Cutoff Angle"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx26" vr="SL" vm="1" name="Table Orientation"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx27" vr="SL" vm="2" name="ROI Top Left"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx28" vr="SL" vm="2" name="ROI Bottom Right"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx29" vr="SL" vm="1" name="Uniformity Mean"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx2a" vr="FD" vm="1" name="Phase Duration (retired)"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx2c" vr="FD" vm="1" name="View X Adjustment"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx2d" vr="FD" vm="1" name="View Y Adjustment"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx2e" vr="SL" vm="1" name="Pixel Overflow Flag"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx2f" vr="SL" vm="1" name="Overflow Level"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx30" vr="LO" vm="1" name="Picture Object Name"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx31" vr="LO" vm="1" name="Acquisition Parent UID"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx32" vr="LO" vm="1" name="Processing Parent UID"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx33" vr="LO" vm="1" name="Energy Correct Name"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx34" vr="LO" vm="1" name="Spatial Correct Name"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx35" vr="LO" vm="1" name="Tuning Calib Name"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx36" vr="LO" vm="1" name="Uniformity Correct Name"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx37" vr="LT" vm="1" name="Acquisition Specific Correction Name"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx38" vr="SL" vm="1" name="Byte Order"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx39" vr="SL" vm="1" name="Compression Type"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx3a" vr="SL" vm="1" name="Picture Format"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx3b" vr="FD" vm="1" name="Pixel Scale"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx3c" vr="FD" vm="1" name="Pixel Offset"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx3d" vr="SL" vm="4" name="Energy Peak (retired)"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx3e" vr="SL" vm="1" name="FOV Shape"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx3f" vr="SL" vm="1" name="Dataset Flags"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx40" vr="LO" vm="1" name="Viewing Object Name"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx41" vr="SL" vm="1" name="Orientation Angle"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx42" vr="FD" vm="1" name="Rotation Angle"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx43" vr="SL" vm="1" name="Window Inverse Flag"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx44" vr="FD" vm="1" name="Threshold Center"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx45" vr="FD" vm="1" name="Threshold Width"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx46" vr="SL" vm="1" name="Interpolation Type"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx50" vr="LO" vm="1" name="Where Object Name"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx55" vr="FD" vm="1" name="Period"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx56" vr="FD" vm="1" name="Elapsed Time"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx57" vr="FD" vm="2" name="FOV"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx61" vr="SL" vm="1" name="Image Size"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx62" vr="FD" vm="1" name="Linear FOV"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx63" vr="FD" vm="1" name="Spatial Offset"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx64" vr="FD" vm="1" name="Spatial Orientation"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx65" vr="LO" vm="1" name="Reference Dataset UID"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx66" vr="SH" vm="1" name="Starcam Reference Dataset"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx67" vr="SL" vm="1" name="Reference Frame Number"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx68" vr="SL" vm="1" name="Cursor Length"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx69" vr="SL" vm="1" name="Number of Cursors"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx6a" vr="SL" vm="1" name="Cursor Coordinates"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx6b" vr="SL" vm="1" name="Recon Options Flag"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx6c" vr="FD" vm="1" name="Motion Threshold"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx6d" vr="UI" vm="1" name="Motion Curve UID"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx6e" vr="SL" vm="1" name="Recon Type"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx6f" vr="SL" vm="1" name="Pre Filter Type"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx71" vr="SL" vm="1" name="Back Proj Filter Type"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx72" vr="SL" vm="1" name="Recon Arc"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx73" vr="FD" vm="1" name="Recon Pan AP Offset"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx74" vr="FD" vm="1" name="Recon Pan LR Offset"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx75" vr="FD" vm="1" name="Recon Area"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx76" vr="SL" vm="1" name="Start View"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx77" vr="SL" vm="1" name="Attenuation Type"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx78" vr="SL" vm="1" name="Dual Energy Processing"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx79" vr="SH" vm="1" name="Pre Filter Param"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx7a" vr="SH" vm="1" name="Pre Filter Param 2"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx7b" vr="SH" vm="1" name="Back Proj Filter Param"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx7c" vr="SH" vm="1" name="Back Proj Filter Param 2"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx7d" vr="SH" vm="1" name="Attenuation Coef"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx7e" vr="SL" vm="1" name="Ref Slice Width"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx7f" vr="FD" vm="1" name="Ref Trans Pixel Volume"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx81" vr="SH" vm="1" name="Attenuation Threshold"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx82" vr="FD" vm="1" name="Interpolation Distance"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx83" vr="FD" vm="1" name="Interpolation Center X"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx84" vr="FD" vm="1" name="Interpolation Center Y"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx85" vr="SL" vm="1" name="Quant Filter Flag"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx86" vr="SL" vm="1" name="Head Conversion"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx87" vr="SL" vm="1" name="Slice Width Pixels"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx88" vr="SL" vm="1" name="Rfmtr Trans Ref"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx89" vr="FD" vm="1" name="Rfmtr Trans Ref mm"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx8a" vr="SL" vm="1" name="Two Line Trans Ref"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx8b" vr="SL" vm="1" name="Three&#x2013;D Zero"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx8c" vr="SL" vm="1" name="Three&#x2013;D Zero Length"/>
+    <entry owner="GEMS_GENIE_1" group="0011" element="xx8d" vr="SL" vm="1" name="Three&#x2013;D Zero In"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx00" vr="LO" vm="1" name="Private Creator Identification"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx10" vr="FD" vm="2" name="Digital FOV"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx11" vr="SL" vm="1" name="Source Translator"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx12" vr="UL" vm="1" name="RAL Flags"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx13" vr="SQ" vm="1" name="Xeleris Frame Sequence"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx14" vr="SL" vm="1" name="Original Image Num"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx15" vr="FD" vm="1" name="Fscalar"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx16" vr="SL" vm="1" name="AutoTrack Peak"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx17" vr="SL" vm="1" name="AutoTrack Width"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx18" vr="FD" vm="1" name="Transmission Scan Time"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx19" vr="FD" vm="1" name="Transmission Mask Width"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx1a" vr="FD" vm="1" name="Copper Attenuator Thickness"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx1b" vr="FD" vm="1" name="Det Ang Separation"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx1c" vr="SL" vm="1" name="Axial Acceptance Angle"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx1d" vr="SL" vm="1" name="Theta Acceptance Value"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx1e" vr="FD" vm="1-n" name="Tomo View Offset"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx20" vr="FD" vm="1" name="Accepted Beats Time"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx21" vr="FD" vm="2" name="Threshold"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx22" vr="FD" vm="2" name="Linear Depth"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx23" vr="LO" vm="1" name="Unif Date Time"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx24" vr="SL" vm="1" name="Series Accepted Beats"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx25" vr="SL" vm="1" name="Series Rejected Beats"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx26" vr="LT" vm="1" name="Study Comments"/>
+    <entry owner="GEMS_GENIE_1" group="0015" element="xx00" vr="SH" vm="1" name="Private Creator Data Element"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx13" vr="SQ" vm="1" name="Xeleris Frame Sequence"/>
+    <entry owner="GEMS_GENIE_1" group="0015" element="xx10" vr="SL" vm="1" name="Frame Termination Condition"/>
+    <entry owner="GEMS_GENIE_1" group="0015" element="xx11" vr="SL" vm="1" name="Frame Termination Value"/>
+    <entry owner="GEMS_GENIE_1" group="0013" element="xx14" vr="SL" vm="1" name="Original Image Number"/>
+    <entry owner="GEMS_GENIE_1" group="0015" element="xx12" vr="SL" vm="1" name="Num ECT Phases"/>
+    <entry owner="GEMS_GENIE_1" group="0015" element="xx13" vr="SL" vm="1" name="Num WB Scans"/>
+    <entry owner="GEMS_GENIE_1" group="0015" element="xx14" vr="SL" vm="1" name="ECT Phase Num"/>
+    <entry owner="GEMS_GENIE_1" group="0015" element="xx15" vr="SL" vm="1" name="WB Scan Num"/>
+    <entry owner="GEMS_GENIE_1" group="0015" element="xx16" vr="SL" vm="1" name="Comb Head Number"/>
+    <entry owner="GEMS_GENIE_1" group="0015" element="xx17" vr="UL" vm="1" name="Preceding Beat"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx07" vr="SQ" vm="1-n" name="Orig SOP Instance UID"/>
+    <entry owner="GEMS_GENIE_1" group="0035" element="xx01" vr="FD" vm="1-n" name="Start Angle"/>
+    <entry owner="GEMS_GENIE_1" group="0055" element="xx12" vr="SQ" vm="1" name="Xeleris Energy Window Information Sequence"/>
+    <entry owner="GEMS_GENIE_1" group="0055" element="xx13" vr="SQ" vm="1" name="Xeleris Energy Window Range Sequence"/>
+    <entry owner="GEMS_GENIE_1" group="0055" element="xx22" vr="SQ" vm="1" name="Xeleris Detector Information Sequence"/>
+    <entry owner="GEMS_GENIE_1" group="0055" element="xx52" vr="SQ" vm="1" name="Xeleris Rotation Information Sequence"/>
+    <entry owner="GEMS_GENIE_1" group="0055" element="xx62" vr="SQ" vm="1" name="Xeleris Gated Information Sequence"/>
+    <entry owner="GEMS_GENIE_1" group="0055" element="xx63" vr="SQ" vm="1" name="Xeleris Data Information Sequence"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx08" vr="CS" vm="1" name="Xeleris Data Object Type"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx10" vr="SL" vm="1" name="Modified"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx11" vr="LO" vm="1" name="Name"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx16" vr="LO" vm="1" name="ProtocolDataUID"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx17" vr="SH" vm="1" name="Date"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx18" vr="SH" vm="1" name="Time"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx19" vr="UL" vm="1" name="ProtocoldataFlags"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx1a" vr="UL" vm="1" name="ProtocolName"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx1b" vr="LO" vm="1" name="RelevantDataUID"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx1c" vr="LO" vm="1" name="BulkData"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx1d" vr="SL" vm="1-n" name="IntData"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx1e" vr="FD" vm="1-n" name="DoubleData"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx1f" vr="OB" vm="1" name="StringData"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx20" vr="LT" vm="1-n" name="BulkDataFormat"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx21" vr="LT" vm="1-n" name="IntDataFormat"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx22" vr="LT" vm="1-n" name="DoubleDataFormat"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx23" vr="LT" vm="1-n" name="StringDataFormat"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx24" vr="LT" vm="1" name="Description"/>
+    <entry owner="GEMS_GENIE_1" group="0055" element="xx64" vr="SQ" vm="1" name="SDODoubleData SQ"/>
+    <entry owner="GEMS_GENIE_1" group="0033" element="xx1e" vr="FD" vm="1" name="DoubleData"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx01" vr="SL" vm="1" name="Modified"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx02" vr="LO" vm="1" name="Name"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx03" vr="SL" vm="1" name="Cid"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx04" vr="SL" vm="1" name="Srid"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx05" vr="LO" vm="1" name="SOPClassUID"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx06" vr="LO" vm="1" name="SOPInstanceUID"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx07" vr="UN" vm="1" name="CurveType"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx08" vr="SL" vm="1" name="GraphType"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx09" vr="LO" vm="1" name="Legend"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx0a" vr="LO" vm="1" name="XUnits"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx0b" vr="LO" vm="1" name="YUnits"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx0c" vr="SL" vm="1" name="Edit"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx0d" vr="SL" vm="1" name="Suspend"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx0e" vr="SL" vm="1" name="StyleLine"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx0f" vr="SL" vm="1" name="StyleFill"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx10" vr="LO" vm="1" name="StyleColour"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx11" vr="SL" vm="1" name="StyleWidth"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx12" vr="SL" vm="1" name="StylePoint"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx13" vr="LO" vm="1" name="StylePColour"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx14" vr="SL" vm="1" name="StylePSize"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx15" vr="UN" vm="1" name="Segments"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx16" vr="SL" vm="1" name="SegType"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx17" vr="FD" vm="1-n" name="SegStart"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx18" vr="FD" vm="1-n" name="SegEnd"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx19" vr="SL" vm="1-n" name="SegStyleLine"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx1a" vr="SL" vm="1-n" name="SegStyleFill"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx1b" vr="LO" vm="1" name="SegStyleColour"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx1c" vr="SL" vm="1-n" name="SegStyleWidth"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx1d" vr="SL" vm="1-n" name="SegStylePoint"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx1e" vr="SL" vm="1" name="SegStylePColour"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx1f" vr="SL" vm="1" name="SegStylePSize"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx20" vr="LO" vm="1" name="SegName"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx21" vr="SL" vm="1-n" name="SegAllowDirInt"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx22" vr="SL" vm="1" name="TextAnnots"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx23" vr="FD" vm="1-n" name="TxtX"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx24" vr="FD" vm="1-n" name="TxtY"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx25" vr="LO" vm="1" name="TxtText"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx26" vr="LO" vm="1" name="TxtName"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx30" vr="LO" vm="1" name="ROIName"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx31" vr="LO" vm="1" name="DerivedFromImageUID"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx32" vr="SL" vm="1-n" name="DerivedFromImages"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx33" vr="UL" vm="1" name="CurveFlags"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx34" vr="LO" vm="1" name="CurveName"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx35" vr="LO" vm="1" name="DatasetName"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx36" vr="LO" vm="1" name="CurveUID"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx37" vr="FD" vm="1" name="ROIArea"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx38" vr="SL" vm="1" name="Modified"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx39" vr="LO" vm="1" name="Name"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx3a" vr="LO" vm="1" name="Software version"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx3b" vr="SH" vm="1" name="StartDate"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx3c" vr="SH" vm="1" name="CompletionDate"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx3d" vr="LO" vm="1" name="DetectorName"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx41" vr="SL" vm="1" name="Modified"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx42" vr="LO" vm="1" name="Name"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx43" vr="SL" vm="1" name="Name"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx44" vr="SL" vm="1" name="Name"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx45" vr="LO" vm="1" name="SOPClassUID"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx46" vr="LO" vm="1" name="SOPInstanceUID"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx47" vr="LO" vm="1" name="NormalColor"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx48" vr="LT" vm="1" name="NameFont"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx49" vr="SL" vm="1" name="FillPattern"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx4a" vr="SL" vm="1" name="LineStyle"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx4b" vr="SL" vm="1" name="LineDashLength"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx4c" vr="SL" vm="1" name="LineThickness"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx4d" vr="SL" vm="1" name="Interactivity"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx4e" vr="SL" vm="1" name="NamePos"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx4f" vr="SL" vm="1" name="NameDisplay"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx50" vr="LO" vm="1" name="Label"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx51" vr="SL" vm="1 - n" name="BpSeg"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx52" vr="US" vm="1 - n" name="BpSegPairs"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx53" vr="SL" vm="1" name="SeedSpace"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx54" vr="FD" vm="1 - n" name="Seeds"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx55" vr="SL" vm="1 - n" name="Shape"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx56" vr="FD" vm="1 - n" name="ShapeTilt"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx59" vr="SL" vm="1 - n" name="ShapePtsSpace"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx5a" vr="SL" vm="1 - n" name="ShapeCtrlPtsCounts"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx5b" vr="FD" vm="1 - n" name="ShapeCtrlPts"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx5c" vr="SL" vm="1" name="ShapeCPSpace"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx5d" vr="SL" vm="1" name="ROIFlags"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx5e" vr="SL" vm="1" name="FrameNumber"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx5f" vr="SL" vm="1" name="Id"/>
+    <entry owner="GEMS_GENIE_1" group="5001" element="xx60" vr="LO" vm="1 - n" name="DatasetROIMapping"/>
+    <entry owner="PRIV" group="0057" element="xx16" vr="UI" vm="1" name="Label"/>
+    <entry owner="PRIV" group="0057" element="xx17" vr="UI" vm="1" name="Data"/>
+    <entry owner="PRIV" group="0057" element="xx41" vr="SL" vm="1" name="Modified"/>
+    <entry owner="PRIV" group="0057" element="xx42" vr="LO" vm="1" name="Name"/>
+    <entry owner="PRIV" group="0057" element="xx43" vr="SL" vm="1" name="Rid"/>
+    <entry owner="PRIV" group="0057" element="xx45" vr="LO" vm="1" name="SOPClassUID"/>
+    <entry owner="PRIV" group="0057" element="xx46" vr="LO" vm="1" name="SOPInstanceUID"/>
+    <entry owner="PRIV" group="0057" element="xx47" vr="LO" vm="1" name="Normal Colour"/>
+    <entry owner="PRIV" group="0057" element="xx48" vr="LT" vm="1" name="NameFont"/>
+    <entry owner="PRIV" group="0057" element="xx49" vr="SL" vm="1" name="FillPattern"/>
+    <entry owner="PRIV" group="0057" element="xx4a" vr="SL" vm="1" name="LineStyle"/>
+    <entry owner="PRIV" group="0057" element="xx4b" vr="SL" vm="1" name="LineDashLength"/>
+    <entry owner="PRIV" group="0057" element="xx4c" vr="SL" vm="1" name="LineThickness"/>
+    <entry owner="PRIV" group="0057" element="xx4d" vr="SL" vm="1" name="Interactivity"/>
+    <entry owner="PRIV" group="0057" element="xx4e" vr="SL" vm="1" name="NamePos"/>
+    <entry owner="PRIV" group="0057" element="xx4f" vr="SL" vm="1" name="NameDisplay"/>
+    <entry owner="PRIV" group="0057" element="xx50" vr="LO" vm="1" name="Label"/>
+    <entry owner="PRIV" group="0057" element="xx51" vr="SL" vm="1-n" name="BpSeg"/>
+    <entry owner="PRIV" group="0057" element="xx52" vr="US" vm="1-n" name="BpSegpairs"/>
+    <entry owner="PRIV" group="0057" element="xx53" vr="SL" vm="1" name="SeedSpace"/>
+    <entry owner="PRIV" group="0057" element="xx54" vr="FD" vm="1-n" name="Seeds"/>
+    <entry owner="PRIV" group="0057" element="xx55" vr="SL" vm="1-n" name="Shape"/>
+    <entry owner="PRIV" group="0057" element="xx56" vr="FD" vm="1-n" name="ShapeTilt"/>
+    <entry owner="PRIV" group="0057" element="xx59" vr="SL" vm="1-n" name="ShapePtsSpace"/>
+    <entry owner="PRIV" group="0057" element="xx5a" vr="SL" vm="1-n" name="ShapeCtrlPtsCount"/>
+    <entry owner="PRIV" group="0057" element="xx5b" vr="FD" vm="1-n" name="Shap CtrlPts"/>
+    <entry owner="PRIV" group="0057" element="xx5c" vr="SL" vm="1" name="ShapeCPSpace"/>
+    <entry owner="PRIV" group="0057" element="xx5d" vr="UL" vm="1-n" name="ROIFlags"/>
+    <entry owner="PRIV" group="0057" element="xx5e" vr="UL" vm="1" name="FrameNumber"/>
+    <entry owner="PRIV" group="0057" element="xx60" vr="LO" vm="1-n" name="DatasetROIMapping"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx2d" vr="LT" vm="1" name="IconDescription"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx61" vr="UI" vm="1" name="RTOSOPClassUID"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx62" vr="UI" vm="1" name="RTOSOPInstanceUID"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx70" vr="SQ" vm="1" name="SeriesdataSQ"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx08" vr="CS" vm="1" name="Object Type"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx10" vr="SL" vm="1" name="Modified"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx11" vr="LO" vm="1" name="Name"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx16" vr="LO" vm="1" name="SeriesdataUID"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx17" vr="SH" vm="1" name="Date"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx18" vr="SH" vm="1" name="Time"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx19" vr="UL" vm="1" name="SeriesdataFlags"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx1a" vr="LO" vm="1" name="ProtocolName"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx1b" vr="LO" vm="1" name="RelevantDataUID"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx1c" vr="OB" vm="1" name="BulkData"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx1d" vr="SL" vm="1-n" name="IntData"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx1e" vr="FD" vm="1-n" name="DoubleData"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx1f" vr="OB" vm="1" name="StringData"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx20" vr="OB" vm="1" name="BulkDataFormat"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx21" vr="OB" vm="1" name="IntDataFormat"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx22" vr="OB" vm="1" name="DoubleDataFormat"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx23" vr="OB" vm="1" name="StringDataFormat"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx24" vr="LT" vm="1" name="Description"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx73" vr="SQ" vm="1" name="SDODoubleDataSQ"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx71" vr="UI" vm="1" name="SDOSOPClassUID"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx72" vr="UI" vm="1" name="SDOSOPInstanceUID"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx73" vr="SQ" vm="1" name="SDODoubleDataSQ"/>
+    <entry owner="GEMS_XELPRV_01" group="0033" element="xx1e" vr="FD" vm="1-n" name="DoubleData"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx01" vr="SQ" vm="1" name="ROISQ"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx02" vr="UI" vm="1" name="SOPClassUID"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx03" vr="UI" vm="1" name="SOPInstanceUID"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx10" vr="IS" vm="1" name="ROINumber"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx11" vr="UI" vm="1" name="Dimentions"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx12" vr="UI" vm="1" name="Points"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx13" vr="UI" vm="1" name="Type"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx14" vr="UI" vm="1" name="Description"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx15" vr="UI" vm="1" name="Data value Representation"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx16" vr="UI" vm="1" name="Label"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx17" vr="UI" vm="1" name="Data"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx41" vr="SL" vm="1" name="Modified"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx42" vr="LO" vm="1" name="Name"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx43" vr="SL" vm="1" name="Rid"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx45" vr="LO" vm="1" name="SOPClassUID"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx46" vr="LO" vm="1" name="SOPInstanceUID"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx47" vr="LO" vm="1" name="Normal Colour"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx48" vr="LT" vm="1" name="NameFont"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx49" vr="SL" vm="1" name="FillPattern"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx4a" vr="SL" vm="1" name="LineStyle"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx4b" vr="SL" vm="1" name="LineDashLength"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx4c" vr="SL" vm="1" name="LineThickness"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx4d" vr="SL" vm="1" name="Interactivity"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx4e" vr="SL" vm="1" name="NamePos"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx4f" vr="SL" vm="1" name="NameDisplay"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx50" vr="LO" vm="1" name="Label"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx51" vr="SL" vm="1-n" name="BpSeg"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx52" vr="US" vm="1-n" name="BpSegpairs"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx53" vr="SL" vm="1" name="SeedSpace"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx54" vr="FD" vm="1-n" name="Seeds"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx55" vr="SL" vm="1-n" name="Shape"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx56" vr="FD" vm="1-n" name="ShapeTilt"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx59" vr="SL" vm="1-n" name="ShapePtsSpace"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx5a" vr="SL" vm="1-n" name="ShapeCtrlPtsCount"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx5b" vr="FD" vm="1-n" name="Shap CtrlPts"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx5c" vr="SL" vm="1" name="ShapeCPSpace"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx5d" vr="UL" vm="1-n" name="ROIFlags"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx5e" vr="UL" vm="1" name="FrameNumber"/>
+    <entry owner="GEMS_XELPRV_01" group="0057" element="xx60" vr="LO" vm="1-n" name="DatasetROIMapping"/>
     <entry owner="Philips Imaging DD 001" group="2001" element="xx01" vr="FL" vm="1" name="MRImageChemicalShift"/>
     <entry owner="Philips Imaging DD 001" group="2001" element="xx02" vr="IS" vm="1" name="MRImageChemicalShiftNumber"/>
     <entry owner="Philips Imaging DD 001" group="2001" element="xx03" vr="FL" vm="1" name="MRImageDiffusionBFactor"/>
