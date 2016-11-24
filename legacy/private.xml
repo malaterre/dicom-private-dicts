@@ -4044,6 +4044,7 @@
   <entry owner="Philips EV Imaging DD 022" group="2007" element="xx17" vr="UN" vm="1" name="Original SOP Instance"/>
   <entry owner="Philips EV Imaging DD 022" group="2007" element="xx33" vr="LO" vm="1" name=""/>
   <entry owner="Philips EV Imaging DD 022" group="2007" element="xx34" vr="CS" vm="1" name=""/>
+  <entry owner="Philips EV Imaging DD 022" group="2007" element="xx35" vr="SQ" vm="1" name="?"/>
   <entry owner="Philips EnVisor" group="7777" element="xx01" vr="DA" vm="1" name="Date 3D/PanView internal 'dataset' file was acquired"/>
   <entry owner="Philips EnVisor" group="7777" element="xx02" vr="CS" vm="1" name="Type of 3D or PanView"/>
   <entry owner="Philips EnVisor" group="7777" element="xx03" vr="LO" vm="1" name="Internal 3D/PanView software version number"/>
