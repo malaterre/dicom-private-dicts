@@ -12,7 +12,6 @@
      PURPOSE.  See the above copyright notice for more information.
 -->
 <dict>
-  <entry owner="1.2.840.113681" group="0019" element="xx00" vr="LO" vm="1" name=""/>
   <entry owner="1.2.840.113681" group="0019" element="xx10" vr="ST" vm="1" name="CR Image Params Common"/>
   <entry owner="1.2.840.113681" group="0019" element="xx11" vr="ST" vm="1" name="CR Image IP Params Single"/>
   <entry owner="1.2.840.113681" group="0019" element="xx12" vr="ST" vm="1" name="CR Image IP Params Left"/>
@@ -31,7 +30,6 @@
   <entry owner="2.16.840.1.114059.1.1.6.1.50.1" group="0029" element="xx26" vr="UN" vm="1" name="Quadrant"/>
   <entry owner="2.16.840.1.114059.1.1.6.1.50.1" group="0029" element="xx27" vr="UN" vm="1" name="CRC"/>
   <entry owner="2.16.840.1.114059.1.1.6.1.50.1" group="0029" element="xx29" vr="UN" vm="1" name="Private Tag Range"/>
-  <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx00" vr="LO" vm="1" name="Private Creator ID"/>
   <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx01" vr="LO" vm="1" name="Filename"/>
   <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx02" vr="OB" vm="1" name="Data Blob of a Visit"/>
   <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx03" vr="US" vm="1" name="Revision Number"/>

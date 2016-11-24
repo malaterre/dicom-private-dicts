@@ -12,8 +12,6 @@
      PURPOSE.  See the above copyright notice for more information.
 -->
 <dict>
-  <entry owner="1.2.840.113663.1" group="0029" element="xx00" vr="US" vm="1" name="?"/>
-  <entry owner="1.2.840.113663.1" group="0029" element="xx01" vr="US" vm="1" name="?"/>
   <entry owner="1.2.840.113681" group="0019" element="xx10" vr="ST" vm="1" name="CR Image Params Common"/>
   <entry owner="1.2.840.113681" group="0019" element="xx11" vr="ST" vm="1" name="CR Image IP Params Single"/>
   <entry owner="1.2.840.113681" group="0019" element="xx12" vr="ST" vm="1" name="CR Image IP Params Left"/>
@@ -31,6 +29,7 @@
   <entry owner="2.16.840.1.114059.1.1.6.1.50.1" group="0029" element="xx25" vr="LO" vm="1" name="Jaw"/>
   <entry owner="2.16.840.1.114059.1.1.6.1.50.1" group="0029" element="xx26" vr="LO" vm="1" name="Quadrant"/>
   <entry owner="2.16.840.1.114059.1.1.6.1.50.1" group="0029" element="xx27" vr="LO" vm="1" name="CRC"/>
+  <entry owner="2.16.840.1.114059.1.1.6.1.50.1" group="0029" element="xx29" vr="UN" vm="1" name="Private Tag Range"/>
   <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx01" vr="LO" vm="1" name="Filename"/>
   <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx02" vr="OB" vm="1" name="Data Blob of a Visit"/>
   <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx03" vr="US" vm="1" name="Revision Number"/>
@@ -39,129 +38,6 @@
   <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx0c" vr="UI" vm="1" name="Original Study UID"/>
   <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx0d" vr="US" vm="1" name="Overlay Grayscale Value"/>
   <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx0e" vr="CS" vm="1" name="Anonymization Status"/>
-  <entry owner="ACUSON" group="0009" element="xx00" vr="IS" vm="1" name="?"/>
-  <entry owner="ACUSON" group="0009" element="xx01" vr="IS" vm="1" name="?"/>
-  <entry owner="ACUSON" group="0009" element="xx02" vr="UN" vm="1" name="?"/>
-  <entry owner="ACUSON" group="0009" element="xx03" vr="UN" vm="1" name="?"/>
-  <entry owner="ACUSON" group="0009" element="xx04" vr="UN" vm="1" name="?"/>
-  <entry owner="ACUSON" group="0009" element="xx05" vr="UN" vm="1" name="?"/>
-  <entry owner="ACUSON" group="0009" element="xx06" vr="UN" vm="1" name="?"/>
-  <entry owner="ACUSON" group="0009" element="xx07" vr="UN" vm="1" name="?"/>
-  <entry owner="ACUSON" group="0009" element="xx08" vr="LT" vm="1" name="?"/>
-  <entry owner="ACUSON" group="0009" element="xx09" vr="LT" vm="1" name="?"/>
-  <entry owner="ACUSON" group="0009" element="xx0a" vr="IS" vm="1" name="?"/>
-  <entry owner="ACUSON" group="0009" element="xx0b" vr="IS" vm="1" name="?"/>
-  <entry owner="ACUSON" group="0009" element="xx0c" vr="IS" vm="1" name="?"/>
-  <entry owner="ACUSON" group="0009" element="xx0d" vr="IS" vm="1" name="?"/>
-  <entry owner="ACUSON" group="0009" element="xx0e" vr="IS" vm="1" name="?"/>
-  <entry owner="ACUSON" group="0009" element="xx0f" vr="UN" vm="1" name="?"/>
-  <entry owner="ACUSON" group="0009" element="xx10" vr="IS" vm="1" name="?"/>
-  <entry owner="ACUSON" group="0009" element="xx11" vr="UN" vm="1" name="?"/>
-  <entry owner="ACUSON" group="0009" element="xx12" vr="IS" vm="1" name="?"/>
-  <entry owner="ACUSON" group="0009" element="xx13" vr="IS" vm="1" name="?"/>
-  <entry owner="ACUSON" group="0009" element="xx14" vr="LT" vm="1" name="?"/>
-  <entry owner="ACUSON" group="0009" element="xx15" vr="UN" vm="1" name="?"/>
-  <entry owner="ACUSON: 1.2.840.11386.1.0" group="7fdf" element="xx00" vr="IS" vm="1" name="Lossy Compression Ratio"/>
-  <entry owner="ACUSON: 1.2.840.11386.1.0" group="7fdf" element="xx01" vr="US" vm="1" name="Image Format"/>
-  <entry owner="ACUSON: 1.2.840.11386.1.0" group="7fdf" element="xx02" vr="US" vm="1" name="Acuson Region Type"/>
-  <entry owner="ACUSON: 1.2.840.11386.1.0" group="7fdf" element="xx0b" vr="UL" vm="1" name="Acuson Image Apex X"/>
-  <entry owner="ACUSON: 1.2.840.11386.1.0" group="7fdf" element="xx0c" vr="UL" vm="1" name="Acuson Image Apex Y"/>
-  <entry owner="ACUSON: 1.2.840.11386.1.0" group="7fdf" element="xx0d" vr="IS" vm="1" name="B-Color-On Flag"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:0921" group="0009" element="xx20" vr="UN" vm="1" name="View Name"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:0921" group="0009" element="xx2a" vr="UN" vm="1" name="View List"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx00" vr="UN" vm="1" name="Lossy Compression Ratio"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx01" vr="UN" vm="1" name="Image Format"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx02" vr="UN" vm="1" name="Acuson Region Type"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx0b" vr="UN" vm="1" name="Acuson Image Apex X"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx0c" vr="UN" vm="1" name="Acuson Image Apex Y"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx0d" vr="UN" vm="1" name="B-Color-On Flag"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx0e" vr="UN" vm="1" name="Acuson Mechanical Apex X"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx0f" vr="UN" vm="1" name="Acuson Mechanical Apex Y"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx10" vr="UN" vm="1" name="Acquisition Type:"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx18" vr="UN" vm="1" name="Transformation Matrix Sequence"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx20" vr="UN" vm="1" name="Left angle"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx22" vr="UN" vm="1" name="Right angle"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx24" vr="UN" vm="1" name="Color Map Family"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx25" vr="UN" vm="1" name="Full Colormap."/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx26" vr="UN" vm="1" name="Color Invert"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx27" vr="UN" vm="1" name="Color Baseline"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx28" vr="UN" vm="1" name="CD Color Mix Points X1"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx29" vr="UN" vm="1" name="CD Color Mix Points Y1"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx2a" vr="UN" vm="1" name="CD Color Mix Points X2"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx2b" vr="UN" vm="1" name="CD Color Mix Points Y2"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx2c" vr="UN" vm="1" name="Color Accent"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx30" vr="UN" vm="1" name="Persistence SQ"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx31" vr="UN" vm="1" name="Persistence Mode"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx32" vr="UN" vm="1" name="Persistence Coefficient Mode"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx33" vr="UN" vm="1" name="Alpha coefficient"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx34" vr="UN" vm="1" name="Gamma coefficient"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx35" vr="UN" vm="1" name="Persistence Time Flag"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx36" vr="UN" vm="1" name="Persistence adaptive flag"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx37" vr="UN" vm="1" name="Persistence Frame Rate"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx38" vr="UN" vm="1" name="Persistence ID"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx40" vr="UN" vm="1" name="Observation Date Time SQ"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx50" vr="UN" vm="1" name="Capture Type Name"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx52" vr="UN" vm="1" name="Capture Type Number"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx54" vr="UN" vm="1" name="Number of Capture Types"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx60" vr="UN" vm="1" name="CD Steering Angle"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx61" vr="UN" vm="1" name="CD PRI"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx62" vr="UN" vm="1" name="CD Dynamic Range"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx63" vr="UN" vm="1" name="CD Velocity Scale Min"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx64" vr="UN" vm="1" name="CD Velocity Scale Max"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx65" vr="UN" vm="1" name="CD Color Mode"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx66" vr="UN" vm="1" name="CD Frequency"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx67" vr="UN" vm="1" name="CD Balance"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx68" vr="UN" vm="1" name="CD Delta"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx69" vr="UN" vm="1" name="CD Pan Box Min X0"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx6a" vr="UN" vm="1" name="CD Pan Box Min Y0"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx6b" vr="UN" vm="1" name="CD Pan Box Min X1"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx6c" vr="UN" vm="1" name="CD Pan Box Min Y1"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx6d" vr="UN" vm="1" name="CPS Map Type"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx6e" vr="UN" vm="1" name="CPS Map Data"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx6f" vr="UN" vm="1" name="CPS Balance Setting"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx70" vr="UN" vm="1" name="3DCard Step Angle"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx71" vr="UN" vm="1" name="3DCard Xdcr Angle"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx72" vr="UN" vm="1" name="B-mode Frequency"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx73" vr="UN" vm="1" name="B-mode Dynamic Range"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx74" vr="UN" vm="1" name="B-mode Frame Rate"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx75" vr="UN" vm="1" name="B-mode Space Time"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx76" vr="UN" vm="1" name="B-mode Persistence"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx77" vr="UN" vm="1" name="B-mode Display Depth Start"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx78" vr="UN" vm="1" name="B-mode Display Depth End"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx79" vr="UN" vm="1" name="B-mode Res Mode"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx7a" vr="UN" vm="1" name="B-mode Preset Application"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx7b" vr="UN" vm="1" name="Image Spec Name"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx7c" vr="UN" vm="1" name="B Preset Image Look"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx7d" vr="UN" vm="1" name="B-mode Post Processing"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx7e" vr="UN" vm="1" name="B Edge"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx7f" vr="UN" vm="1" name="B Delta"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx80" vr="UN" vm="1" name="B-mode 1D Post Processing Curve"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx81" vr="UN" vm="1" name="B-mode Delta (ECRI) Map Diagonal"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx82" vr="UN" vm="1" name="Bytes Per Timestamp"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx83" vr="UN" vm="1" name="Microseconds in unit timestamp"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx84" vr="UN" vm="1" name="Start Stopwatch Timestamp"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx85" vr="UN" vm="1" name="Acoustic Frame Timestamp"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx86" vr="UN" vm="1" name="R-Wave Timestamp"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx87" vr="UN" vm="1" name="Last Destruction Timestamp"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx88" vr="UN" vm="1" name="Pixels Per Second"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx89" vr="UN" vm="1" name="ECG Reference Timestamp"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx8a" vr="UN" vm="1" name="ECG Sampling Interval (milliseconds)"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx8b" vr="UN" vm="1" name="ECG Sample Count"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx8c" vr="UN" vm="1" name="ECG Sample Size"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx8d" vr="UN" vm="1" name="ECG Data Value"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx8e" vr="UN" vm="1" name="Contrast/Active Image Indicator"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx8f" vr="UN" vm="1" name="Live Dual Mode Indicator"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx90" vr="UN" vm="1" name="3DCard Clipset ID"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx91" vr="UN" vm="1" name="3DCard HRWave Min"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx92" vr="UN" vm="1" name="3DCard HRWave Max"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xx93" vr="UN" vm="1" name="Perspective Capture Type"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xxf1" vr="UN" vm="1" name="Trigger Mask."/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xxf2" vr="UN" vm="1" name="Study Directory"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xxf3" vr="UN" vm="1" name="Last Modify Date"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xxf4" vr="UN" vm="1" name="Last Modify Time"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xxf5" vr="UN" vm="1" name="Teaching Study"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7f10" group="7fdf" element="xxf6" vr="UN" vm="1" name="Series Base UID"/>
-  <entry owner="ACUSON:1.2.840.113680.1.0:7ffe" group="7fdf" element="xx00" vr="UN" vm="1" name="Data Padding"/>
   <entry owner="ADAC_IMG" group="0019" element="xx02" vr="IS" vm="1" name="Ver200 ADAC Pegasys File Size"/>
   <entry owner="ADAC_IMG" group="0019" element="xx10" vr="LO" vm="2" name="ADAC Header Signature"/>
   <entry owner="ADAC_IMG" group="0019" element="xx11" vr="US" vm="1" name="Number of ADAC Headers"/>

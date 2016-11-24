@@ -1,0 +1,72 @@
+[
+    {
+        "xml": "DICT_DAT.xml"
+    }, 
+    {
+        "content-disposition": "GEHC-DICOM-Conformance_XRd-Acquisition-Workstation_2296992-100_Rev1.pdf", 
+        "md5": "21726d13c126286af3b477b490deaefc", 
+        "tables": [
+            {
+                "chunks": [
+                    {
+                        "area": "108.248,55,605.498,564.953", 
+                        "page": "71"
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "Type", 
+                    "Definition"
+                ], 
+                "owner": "GEMS_SENO_02"
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "86.98,54.0,376.915,560.96", 
+                        "page": "72"
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "Type", 
+                    "Definition"
+                ], 
+                "owner": "GEMS_SENO_02"
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "450.968,54.0,724.073,564.02", 
+                        "page": "72"
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "VR", 
+                    "VM"
+                ], 
+                "owner": "GEMS_SENO_02"
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "86.98,54.0,225.445,561.725", 
+                        "page": "73"
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "VR", 
+                    "VM"
+                ], 
+                "owner": "GEMS_SENO_02"
+            }
+        ], 
+        "url": "http://incenter.medical.philips.com/doclib/enc/fetch/2000/4504/577242/577256/588723/5144873/5144488/5144390/DICOM_Conformance_Statement_Pegasys_R4.25.pdf%3fnodeid%3d5148569%26vernum%3d-2"
+    }
+]
