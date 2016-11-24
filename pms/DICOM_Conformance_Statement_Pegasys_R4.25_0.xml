@@ -1,0 +1,12 @@
+﻿<dicts>
+  <dict owner="ADAC_IMG">
+    <entry group="0019" element="00" vr="LO" vm="2" name="ADAC Header Signature" type="3">
+</entry>
+    <entry group="0019" element="02" vr="IS" vm="1" name="Ver200 ADAC Pegasys File Size" type="3">
+</entry>
+    <entry group="0019" element="21" vr="US" vm="1" name="Ver200 Number of ADAC Headers" type="3">
+</entry>
+    <entry group="0019" element="41" vr="IS" vm="1-n" name="Ver200 ADAC Header/Image Size" type="3">
+</entry>
+</dict>
+</dicts>
