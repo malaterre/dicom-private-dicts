@@ -46,20 +46,18 @@ if __name__ == "__main__":
     key = tag[:-2]
     #print key
     creators = md[ key ]
-    el = {}
-    #el[ 'creator' ] = creator
-    print name
+    #print name
     assert name.startswith( 'DICOM_' ) or name.startswith( 'SPI_' ) or name.startswith( 'ICS_' ) or name.startswith( 'VOL_' ) or name.startswith( 'PIIM_' )
     vnames = name.split('_')
     vclean = [string.capwords(it) for it in vnames]
     if name.startswith( 'DICOM_' ):
-      gr,el = tag.split(',')
+      gr,ele = tag.split(',')
       vgr = int( '0x%s' % gr, 16)
       if vgr % 2 == 0:
         assert not creators
         continue
       if not creators:
-        print name
+        #print name
         assert "RESERVATION_OF_GROUP" in name or "LENGTH_OF_GROUP" in name
         continue
       # private attribute
@@ -80,6 +78,7 @@ if __name__ == "__main__":
       clean = " ".join(vclean[1:])
     else:
       assert False
+    el = {}
     for creator in creators:
       el[ 'creator' ] = creator
       el[ 'name' ] = clean
@@ -90,9 +89,9 @@ if __name__ == "__main__":
       el[ 'vm' ] = vm
       array.append( el )
   #print array
-  #print json.dumps(array, sort_keys=True, indent=4)
-  for it in array:
-    #print it
-    if it['group' ] == '2001' or it['group' ] == '2005':
-      #print it
-      print '(%(group)s,%(element)s)\t%(vr)s\t%(keyword)s\t%(vm)s' % it
+  print json.dumps(array, sort_keys=True, indent=4)
+  #for it in array:
+  #  #print it
+  #  if it['group' ] == '2001' or it['group' ] == '2005':
+  #    #print it
+  #    print '(%(group)s,%(element)s)\t%(vr)s\t%(keyword)s\t%(vm)s' % it
