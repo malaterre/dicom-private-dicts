@@ -301,6 +301,22 @@
   <entry owner="CARDIO-SMS 1.0" group="0031" element="xx00" vr="UN" vm="1" name="ACOM Scene Data"/>
   <entry owner="CARDIO-SMS 1.0" group="0031" element="xx01" vr="UN" vm="1" name="ACOM Report Graphics Info"/>
   <entry owner="CARDIO-SMS 1.0" group="0031" element="xx02" vr="UN" vm="1" name="ACOM Image Icon"/>
+  <entry owner="CD-CARDIO 1.0" group="0003" element="xx00" vr="SQ" vm="1" name="Data Object Recognition Code"/>
+  <entry owner="CD-CARDIO 1.0" group="0009" element="xx40" vr="SQ" vm="1" name="Ref Alternate Image Sequence"/>
+  <entry owner="CD-CARDIO 1.0" group="0019" element="xx00" vr="CS" vm="1-3" name="Image Blanking Shape"/>
+  <entry owner="CD-CARDIO 1.0" group="0019" element="xx02" vr="IS" vm="1" name="Image Blanking Left Vertical Edge"/>
+  <entry owner="CD-CARDIO 1.0" group="0019" element="xx04" vr="IS" vm="1" name="Image Blanking Right Vertical Edge"/>
+  <entry owner="CD-CARDIO 1.0" group="0019" element="xx06" vr="IS" vm="1" name="Image Blanking Upper Horizontal Edge"/>
+  <entry owner="CD-CARDIO 1.0" group="0019" element="xx08" vr="IS" vm="1" name="Image Blanking Lower Horizontal Edge"/>
+  <entry owner="CD-CARDIO 1.0" group="0019" element="xx10" vr="IS" vm="2" name="Centre Of Circular Image Blanking"/>
+  <entry owner="CD-CARDIO 1.0" group="0019" element="xx12" vr="IS" vm="1" name="Radius Of Circular Image Blanking"/>
+  <entry owner="CD-CARDIO 1.0" group="0019" element="xx20" vr="IS" vm="2-n" name="Vertices Of Polygonal Image Blanking"/>
+  <entry owner="CD-CARDIO 1.0" group="0021" element="xx13" vr="IS" vm="1" name="Image Sequence Number"/>
+  <entry owner="CD-CARDIO 1.0" group="0021" element="xx19" vr="IS" vm="1" name="Meta File Sequence Number"/>
+  <entry owner="CD-CARDIO 1.0" group="0029" element="xx00" vr="SQ" vm="1" name="Cdmedge Enhancement Sequence"/>
+  <entry owner="CD-CARDIO 1.0" group="0029" element="xx01" vr="US" vm="2" name="Cdmconvolution Kernel Size"/>
+  <entry owner="CD-CARDIO 1.0" group="0029" element="xx02" vr="US" vm="1-n" name="Cdmconvolution Kernel Coefficients"/>
+  <entry owner="CD-CARDIO 1.0" group="0029" element="xx03" vr="FL" vm="1" name="Cdmedge Enhancement Gain"/>
   <entry owner="DLX_PATNT_01" group="0011" element="xx01" vr="LT" vm="1" name="patient DOB"/>
   <entry owner="DLX_SERIE_01" group="0019" element="xx01" vr="DS" vm="1" name="Angle Value 1"/>
   <entry owner="DLX_SERIE_01" group="0019" element="xx02" vr="DS" vm="1" name="Angle Value 2"/>
@@ -931,6 +947,7 @@
   <entry owner="GEMS_XELPRV_01" group="0057" element="xx5e" vr="UL" vm="1" name="FrameNumber"/>
   <entry owner="GEMS_XELPRV_01" group="0057" element="xx60" vr="LO" vm="1-n" name="DatasetROIMapping"/>
   <entry owner="ISI" group="0009" element="xx01" vr="SQ" vm="1" name="SIENET General Purpose IMGF"/>
+  <entry owner="MERGE TECHNOLOGIES, INC." group="0009" element="xx00" vr="OB" vm="1-n" name="Merge Image Id Table"/>
   <entry owner="MMCPrivate" group="0009" element="xx00" vr="LO" vm="1" name="Private Creator"/>
   <entry owner="MMCPrivate" group="0009" element="xx01" vr="LO" vm="1" name="Technologist"/>
   <entry owner="MMCPrivate" group="0009" element="xx02" vr="LO" vm="1" name="ScheduledStudyDateTime"/>
@@ -1178,6 +1195,238 @@
   <entry owner="MMCPrivate" group="0029" element="xxc3" vr="CS" vm="1" name="RephaseOrderSlice"/>
   <entry owner="MMCPrivate" group="0029" element="xxc4" vr="CS" vm="1" name="RephaseOrderPhase"/>
   <entry owner="MMCPrivate" group="0029" element="xxc5" vr="CS" vm="1" name="RephaseOrderFreq"/>
+  <entry owner="PHILIPS MR" group="0009" element="xx10" vr="LO" vm="1" name="Mr Gyroscan Spi Version"/>
+  <entry owner="PHILIPS MR" group="0009" element="xx12" vr="LO" vm="1" name="Mr Spi Software Version Detail"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx01" vr="US" vm="1" name="Mr Dp Signal Type"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx03" vr="US" vm="1" name="Mr Dp Signal Domain For Spectra"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx04" vr="US" vm="1" name="Mr Dp Physical Quantity For Samples"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx05" vr="US" vm="1" name="Mr Dp Physical Quantity For Spectra"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx06" vr="US" vm="1" name="Mr Dp Data Origin"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx07" vr="DS" vm="1" name="Mr Dp Sample Offset"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx08" vr="DS" vm="1" name="Mr Dp Sample Pitch"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx09" vr="DS" vm="1" name="Mr Dp Spectrum Offset"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx10" vr="DS" vm="1" name="Mr Dp Spectrum Pitch"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx12" vr="DS" vm="1" name="Mr Dp Reference Frequency"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx13" vr="DS" vm="1" name="Mr Dp Echo Top Position"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx14" vr="US" vm="1" name="Mr Dp No Peak Integration Intervals"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx15" vr="US" vm="1-n" name="Mr Dp Search Interval For Peaks"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx16" vr="DS" vm="1" name="Mr Dp Noise Level"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx17" vr="DS" vm="1" name="Mr Dp Dc Level"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx18" vr="US" vm="1-n" name="Mr Dp Peak Integration Interval List"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx20" vr="US" vm="1" name="Mr Dp Spectro Si Mode"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx21" vr="US" vm="1" name="Mr Dp Spectro Si B0 Correction"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx22" vr="US" vm="1" name="Mr Dp Spectro Si Echo Acquisition"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx29" vr="DS" vm="1-n" name="Mr Dp Spectro Si Cs Intervals"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx31" vr="US" vm="1" name="Mr Dp Spectro No Volumes"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx32" vr="US" vm="1" name="Mr Dp Spectro No Mixes"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx41" vr="LT" vm="1" name="Mr Dp Spectro Processing History"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx42" vr="DS" vm="1-n" name="Mr Dp Horizontal Window"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx43" vr="DS" vm="1-n" name="Mr Dp Vertical Window"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx45" vr="US" vm="1" name="Mr Dp Complex Component"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx46" vr="US" vm="1" name="Mr Dp Frequency Unit"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx47" vr="DS" vm="1-n" name="Mr Dp Horizontal Shift"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx48" vr="DS" vm="1-n" name="Mr Dp Vertical Shift"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx49" vr="US" vm="1" name="Mr Dp Hidden Line Removal"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx50" vr="LT" vm="1" name="Mr Dp Title Line"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx60" vr="US" vm="1" name="Mr Dp Volume Selection"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx61" vr="US" vm="1" name="Mr Dp Scan Type"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx70" vr="US" vm="1-n" name="Mr Dp In Plane Transformations"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx71" vr="DS" vm="1-n" name="Mr Dp Phase Enc Echo Top Positions"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx72" vr="US" vm="1" name="Mr Dp Spectrum T Resolution"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx73" vr="US" vm="1" name="Mr Dp Spectrum Kx Resolution"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx74" vr="US" vm="1" name="Mr Dp Spectrum Ky Resolution"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx76" vr="US" vm="1" name="Mr Dp Spectrum F Resolution"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx77" vr="US" vm="1" name="Mr Dp Spectrum X Resolution"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx78" vr="US" vm="1" name="Mr Dp Spectrum Y Resolution"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx79" vr="US" vm="1" name="Mr Dp Spectrum Z Resolution"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx80" vr="IS" vm="1-n" name="Mr Dp Rows"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx81" vr="IS" vm="1-n" name="Mr Spectro Display Ranges"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx82" vr="IS" vm="1" name="Mr Spectro Nr Of Display Ranges"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx83" vr="DS" vm="1" name="Mr Spectro Turbo Echo Spacing"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx84" vr="DS" vm="1-n" name="Mr Spectro Slice Gaps"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx85" vr="DS" vm="1-n" name="Mr Spectro Radial Angles"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx88" vr="DS" vm="1-n" name="Mr Spectro Angulations"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx89" vr="DS" vm="1-n" name="Mr Spectro Offcentres"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx8c" vr="DS" vm="1-n" name="Mr Spectro Chemical Shifts"/>
+  <entry owner="PHILIPS MR SPECTRO;1" group="0019" element="xx90" vr="DS" vm="1-n" name="Mr Spectro Repetition Times"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xx09" vr="DS" vm="1" name="Mr Main Magnetic Field"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xx0e" vr="IS" vm="1" name="Mr Flow Compensation"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxb1" vr="IS" vm="1" name="Mr Min Rr Interval"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxb2" vr="IS" vm="1" name="Mr Max Rr Interval"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxb3" vr="IS" vm="1" name="Mr Number Of Rejections"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxb4" vr="IS" vm="1-n" name="Mr Rr Intervals"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxb5" vr="IS" vm="1" name="Mr Arrhythmia Rejection"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxbd" vr="IS" vm="1-n" name="Mr Cardiac Phase Order"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxbe" vr="IS" vm="1" name="Mr Phases Per Package"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxbf" vr="IS" vm="1-n" name="Mr R To R Intervals"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxc0" vr="DS" vm="1-n" name="Mr Trigger Delay Times"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxc1" vr="DS" vm="1" name="Mr Average Rr Interval"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxc2" vr="IS" vm="1" name="Mr Rr Monitoring Mode"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxc3" vr="IS" vm="1" name="Mr Arrythmia Reject Window"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxc4" vr="IS" vm="1" name="Mr Rr Intervals To Repeat"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxc5" vr="IS" vm="1" name="Mr Rr Intervals To Suspend"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxc6" vr="IS" vm="1" name="Mr Cycled Multiple Slice"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxcd" vr="IS" vm="1-n" name="Mr Review Images"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxce" vr="IS" vm="1" name="Mr Presaturation"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxcf" vr="IS" vm="1" name="Mr Orthog Presat Slabs"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxd0" vr="IS" vm="1-n" name="Mr Mid Slice Geometry"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxd5" vr="DS" vm="1" name="Mr Total Scan Time"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxd6" vr="IS" vm="1" name="Mr Fourier Interpolation"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxd9" vr="IS" vm="1-n" name="Mr Planscan Image Reference"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxe0" vr="IS" vm="1" name="Mr Prepulse Type"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxe1" vr="DS" vm="1" name="Mr Prepulse Delay"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxe2" vr="IS" vm="1" name="Mr Pc Number Of Directions"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxe3" vr="DS" vm="1-n" name="Mr Pc Velocity"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxf0" vr="LT" vm="1" name="Mr Gv Protocol String 1"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxf1" vr="LT" vm="1" name="Mr Gv Protocol String 2"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxf2" vr="LT" vm="1" name="Mr Gv Protocol String 3"/>
+  <entry owner="PHILIPS MR/LAST" group="0019" element="xxf3" vr="LT" vm="1" name="Mr Gv Protocol String 4"/>
+  <entry owner="PHILIPS MR/LAST" group="0021" element="xx00" vr="IS" vm="1" name="Mr View Orientation Lr"/>
+  <entry owner="PHILIPS MR/LAST" group="0021" element="xx10" vr="IS" vm="1" name="Mr View Orientation Ap"/>
+  <entry owner="PHILIPS MR/LAST" group="0021" element="xx20" vr="IS" vm="1" name="Mr View Orientation Cc"/>
+  <entry owner="PHILIPS MR/LAST" group="0021" element="xx21" vr="DS" vm="1" name="Mr Slice Gap"/>
+  <entry owner="PHILIPS MR/LAST" group="0021" element="xx22" vr="DS" vm="1" name="Mr Radial Angle"/>
+  <entry owner="PHILIPS MR/LAST" group="0027" element="xx00" vr="US" vm="1" name="Mr Dp Spectrum No Samples"/>
+  <entry owner="PHILIPS MR/LAST" group="0027" element="xx10" vr="US" vm="1" name="Mr Dp Spectrum No Peaks"/>
+  <entry owner="PHILIPS MR/LAST" group="0027" element="xx11" vr="US" vm="1-n" name="Mr Dp Peak Types"/>
+  <entry owner="PHILIPS MR/LAST" group="0027" element="xx12" vr="DS" vm="1-n" name="Mr Dp Peak Positions"/>
+  <entry owner="PHILIPS MR/LAST" group="0027" element="xx13" vr="DS" vm="1-n" name="Mr Dp Peak Intensities"/>
+  <entry owner="PHILIPS MR/LAST" group="0027" element="xx14" vr="DS" vm="1-n" name="Mr Dp Peak Widths"/>
+  <entry owner="PHILIPS MR/LAST" group="0027" element="xx15" vr="DS" vm="1-n" name="Mr Dp Peak Phases"/>
+  <entry owner="PHILIPS MR/LAST" group="0027" element="xx16" vr="LO" vm="1-n" name="Mr Dp Peak Labels"/>
+  <entry owner="PHILIPS MR/LAST" group="0027" element="xx20" vr="US" vm="1" name="Mr Spectrum Mix No"/>
+  <entry owner="PHILIPS MR/LAST" group="0027" element="xx21" vr="US" vm="1" name="Mr Spectrum Volume No"/>
+  <entry owner="PHILIPS MR/LAST" group="0027" element="xx22" vr="US" vm="1" name="Mr Spectrum Echo No"/>
+  <entry owner="PHILIPS MR/LAST" group="0027" element="xx23" vr="US" vm="1" name="Mr Spectrum Cardiac Phase No"/>
+  <entry owner="PHILIPS MR/LAST" group="0027" element="xx24" vr="US" vm="1" name="Mr Spectrum Dynamic Scan No"/>
+  <entry owner="PHILIPS MR/LAST" group="0027" element="xx25" vr="US" vm="1" name="Mr Spectrum Extra No"/>
+  <entry owner="PHILIPS MR/LAST" group="0027" element="xx26" vr="SS" vm="1" name="Mr Spectrum Kx Coordinate"/>
+  <entry owner="PHILIPS MR/LAST" group="0027" element="xx27" vr="SS" vm="1" name="Mr Spectrum Ky Coordinate"/>
+  <entry owner="PHILIPS MR/LAST" group="0027" element="xx28" vr="SS" vm="1" name="Mr Spectrum X Coordinate"/>
+  <entry owner="PHILIPS MR/LAST" group="0027" element="xx29" vr="SS" vm="1" name="Mr Spectrum Y Coordinate"/>
+  <entry owner="PHILIPS MR/LAST" group="0027" element="xx30" vr="US" vm="1" name="Mr Spectrum Average Count"/>
+  <entry owner="PHILIPS MR/LAST" group="0027" element="xx31" vr="IS" vm="1" name="Mr Row Position"/>
+  <entry owner="PHILIPS MR/LAST" group="0029" element="xx10" vr="DS" vm="1" name="Mr Fp Min"/>
+  <entry owner="PHILIPS MR/LAST" group="0029" element="xx20" vr="DS" vm="1" name="Mr Fp Max"/>
+  <entry owner="PHILIPS MR/LAST" group="0029" element="xx30" vr="DS" vm="1" name="Mr Fp Scale Min"/>
+  <entry owner="PHILIPS MR/LAST" group="0029" element="xx40" vr="DS" vm="1" name="Mr Fp Scale Max"/>
+  <entry owner="PHILIPS MR/LAST" group="0029" element="xx50" vr="DS" vm="1" name="Mr Fp Window Min"/>
+  <entry owner="PHILIPS MR/LAST" group="0029" element="xx60" vr="DS" vm="1" name="Mr Fp Window Max"/>
+  <entry owner="PHILIPS MR/LAST" group="0029" element="xx61" vr="IS" vm="1" name="Mr Fp Invert Window"/>
+  <entry owner="PHILIPS MR/LAST" group="0029" element="xx70" vr="DS" vm="1" name="Mr Fp User Def Window Min"/>
+  <entry owner="PHILIPS MR/LAST" group="0029" element="xx71" vr="DS" vm="1" name="Mr Fp User Def Window Max"/>
+  <entry owner="PHILIPS MR/LAST" group="0029" element="xx72" vr="IS" vm="1" name="Mr Fp User Def Invert Window"/>
+  <entry owner="PHILIPS MR/LAST" group="0029" element="xx80" vr="IS" vm="1-n" name="Mr View Center User Def"/>
+  <entry owner="PHILIPS MR/LAST" group="0029" element="xx81" vr="IS" vm="1-n" name="Mr View Size User Def"/>
+  <entry owner="PHILIPS MR/LAST" group="0029" element="xx82" vr="IS" vm="1" name="Mr View Zoom User Def"/>
+  <entry owner="PHILIPS MR/LAST" group="0029" element="xx83" vr="IS" vm="1" name="Mr View Transform User Def"/>
+  <entry owner="PHILIPS MR/LAST" group="0029" element="xx92" vr="DS" vm="1" name="Mr Dim Limit"/>
+  <entry owner="PHILIPS MR/LAST" group="0029" element="xx93" vr="DS" vm="1" name="Mr Brightness Limit"/>
+  <entry owner="PHILIPS MR/LAST" group="0029" element="xx94" vr="DS" vm="1" name="Mr Level Detect Window Center"/>
+  <entry owner="PHILIPS MR/LAST" group="0029" element="xx95" vr="DS" vm="1" name="Mr Level Detect Window Width"/>
+  <entry owner="PHILIPS MR/LAST" group="0029" element="xx96" vr="DS" vm="1" name="Mr Background Level"/>
+  <entry owner="PHILIPS MR/LAST" group="0029" element="xx97" vr="IS" vm="1" name="Mr Level Detect Enable"/>
+  <entry owner="PHILIPS MR/LAST" group="0029" element="xx98" vr="IS" vm="1" name="Mr Window Inversion"/>
+  <entry owner="PHILIPS MR/LAST" group="0029" element="xx99" vr="IS" vm="1" name="Mr Zoom Mode"/>
+  <entry owner="PHILIPS MR/LAST" group="0041" element="xx07" vr="LO" vm="1" name="Mr Scheduled Proc Step Descr"/>
+  <entry owner="PHILIPS MR/LAST" group="0041" element="xx09" vr="SH" vm="1" name="Mr Scheduled Proc Step Id"/>
+  <entry owner="PHILIPS MR/LAST" group="6001" element="xx00" vr="LT" vm="1" name="Mr Annotations"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx00" vr="DS" vm="1-n" name="Mr Vw Field Of View"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx01" vr="IS" vm="1-n" name="Mr Stack Types"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx02" vr="IS" vm="1-n" name="Mr Stack Info"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx03" vr="DS" vm="1-n" name="Mr Volume Types"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx05" vr="DS" vm="1" name="Mr Cc Angulation"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx06" vr="DS" vm="1" name="Mr Ap Angulation"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx07" vr="DS" vm="1" name="Mr Lr Angulation"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx08" vr="IS" vm="1" name="Mr Vw Patient Position"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx09" vr="IS" vm="1" name="Mr Vw Patient Orientation"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx0a" vr="IS" vm="1" name="Mr Vw Slice Orientation"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx0b" vr="DS" vm="1" name="Mr Perp Lr Offcenter"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx0c" vr="DS" vm="1" name="Mr Perp Cc Offcenter"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx0d" vr="DS" vm="1" name="Mr Perp Ap Offcenter"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx0e" vr="DS" vm="1" name="Mr Slice Thickness"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx0f" vr="IS" vm="1" name="Mr Number Of Slices"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx10" vr="DS" vm="1" name="Mr Slice Factor"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx11" vr="DS" vm="1-n" name="Mr Echo Times"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx15" vr="IS" vm="1" name="Mr Dynamic Study"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx18" vr="DS" vm="1" name="Mr Min Heart Beat Interval"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx19" vr="DS" vm="1" name="Mr Repetition Time Ffe"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx1a" vr="DS" vm="1" name="Mr Flip Angle"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx1b" vr="IS" vm="1" name="Mr Number Of Dynamic Scans"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx21" vr="DS" vm="1-n" name="Mr Dynamic Scan Begin Times"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx22" vr="DS" vm="1" name="Mr Dynamic Scan Begin Time"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx24" vr="IS" vm="1" name="Mr Package Mode"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx30" vr="IS" vm="1" name="Mr Vw Sequence Development"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx45" vr="IS" vm="1" name="Mr Recon Resolution"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx53" vr="IS" vm="1-n" name="Mr Stack Number Of Slices"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx64" vr="DS" vm="1" name="Mr Repetition Time Se"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx65" vr="DS" vm="1" name="Mr Repetition Time Ir"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx69" vr="IS" vm="1" name="Mr Number Of Phases"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx6a" vr="IS" vm="1" name="Mr Cardiac Frequency"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx6b" vr="DS" vm="1" name="Mr Inversion Delay"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx6c" vr="DS" vm="1" name="Mr Gate Delay"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx6d" vr="DS" vm="1" name="Mr Gate Width"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx6e" vr="DS" vm="1" name="Mr Trigger Delay Time"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx70" vr="DS" vm="1-n" name="Mr Repetition Times"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx80" vr="IS" vm="1" name="Mr Number Of Chemical Shifts"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx81" vr="DS" vm="1" name="Mr Chemical Shift"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx84" vr="IS" vm="1" name="Mr Number Of Spectra Acq"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx85" vr="IS" vm="1" name="Mr Number Of Samples"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx94" vr="LO" vm="1" name="Mr Mtc String"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx95" vr="LO" vm="1" name="Mr Spir String"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx96" vr="LO" vm="1" name="Mr Tone String"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xx99" vr="LO" vm="1" name="Mr Spectral Selective Excitation Pulse"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxa0" vr="LO" vm="1" name="Mr Diffusion String"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxa1" vr="DS" vm="1" name="Mr Diffusion B Factor"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxa2" vr="IS" vm="1" name="Mr Diffusion Dir"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxa3" vr="DS" vm="1" name="Mr Diffusion Echo Time"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxc8" vr="IS" vm="1" name="Mr Receiving Coil Type"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxc9" vr="IS" vm="1" name="Mr Preparation Dir Trans"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxca" vr="IS" vm="1" name="Mr Preparation Dir Sag"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxcb" vr="IS" vm="1" name="Mr Preparation Dir Cor"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxcc" vr="IS" vm="1" name="Mr Scan Type"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxcd" vr="IS" vm="1-n" name="Mr Sequence Type"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxce" vr="IS" vm="1" name="Mr Number Of Measurements"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxcf" vr="IS" vm="1" name="Mr Number Of Echoes"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxd0" vr="IS" vm="1" name="Mr Scan Resolution"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxd2" vr="LO" vm="1-n" name="Mr Water Fat Shift"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxd4" vr="IS" vm="1" name="Mr Motion Artefact Reduction"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxd5" vr="IS" vm="1" name="Mr Cardiac Sync"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxd6" vr="IS" vm="1" name="Mr Respiration Sync"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxd7" vr="DS" vm="1" name="Mr Reduced Acquisition Time"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxd8" vr="IS" vm="1" name="Mr Partial Matrix Scanned"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxd9" vr="IS" vm="1" name="Mr Epi Factor"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxda" vr="IS" vm="1" name="Mr Turbo Factor"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxdb" vr="IS" vm="1" name="Mr Cardiac Gate Width"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxe0" vr="IS" vm="1" name="Mr Percent Scan Completed"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxe1" vr="IS" vm="1" name="Mr Development Mode"/>
+  <entry owner="PHILIPS MR/PART" group="0019" element="xxfc" vr="LO" vm="1" name="Mr Resonance Frequency"/>
+  <entry owner="PHILIPS MR/PART" group="0021" element="xx00" vr="IS" vm="1" name="Mr Reconstruction Number"/>
+  <entry owner="PHILIPS MR/PART" group="0021" element="xx0d" vr="UI" vm="1" name="Mr Study Instance Uid"/>
+  <entry owner="PHILIPS MR/PART" group="0021" element="xx10" vr="IS" vm="1" name="Mr Image Type Enum"/>
+  <entry owner="PHILIPS MR/PART" group="0021" element="xx20" vr="IS" vm="1" name="Mr Slice Number"/>
+  <entry owner="PHILIPS MR/PART" group="0021" element="xx30" vr="IS" vm="1" name="Mr Echo Number"/>
+  <entry owner="PHILIPS MR/PART" group="0021" element="xx31" vr="DS" vm="1" name="Mr Patient Reference Id"/>
+  <entry owner="PHILIPS MR/PART" group="0021" element="xx35" vr="IS" vm="1" name="Mr Chemical Shift Number"/>
+  <entry owner="PHILIPS MR/PART" group="0021" element="xx40" vr="IS" vm="1" name="Mr Phase Number"/>
+  <entry owner="PHILIPS MR/PART" group="0021" element="xx50" vr="IS" vm="1" name="Mr Dynamic Scan Number"/>
+  <entry owner="PHILIPS MR/PART" group="0021" element="xx60" vr="IS" vm="1" name="Mr Number Of Spectra Acq In Obj"/>
+  <entry owner="PHILIPS MR/PART" group="0021" element="xx61" vr="IS" vm="1-n" name="Mr Row Numbers"/>
+  <entry owner="PHILIPS MR/PART" group="0021" element="xx62" vr="IS" vm="1-n" name="Mr Samples Per Row"/>
+  <entry owner="PHILIPS MR/PART" group="0029" element="xx00" vr="DS" vm="1-n" name="Mr Image Reference Slice"/>
+  <entry owner="PHILIPS MR/PART" group="0029" element="xx04" vr="US" vm="1" name="P Mr Zoom Mode"/>
+  <entry owner="PHILIPS MR/PART" group="0029" element="xx10" vr="DS" vm="1" name="Mr Ext Scale Min"/>
+  <entry owner="PHILIPS MR/PART" group="0029" element="xx11" vr="DS" vm="1" name="Mr Ext Scale Max"/>
+  <entry owner="PHILIPS MR/PART" group="0029" element="xx20" vr="LO" vm="1" name="Mr Ext Scale Units"/>
+  <entry owner="PHILIPS MR/PART" group="0029" element="xx31" vr="DS" vm="1-n" name="Mr Zoom Factor"/>
+  <entry owner="PHILIPS MR/PART" group="0029" element="xx32" vr="DS" vm="1-n" name="Mr Zoom Center"/>
+  <entry owner="PMS-SERVICE-SESSION-1.0" group="0041" element="xx10" vr="UI" vm="1" name="Session Uid"/>
+  <entry owner="PMS-SERVICE-SESSION-1.0" group="0041" element="xx11" vr="CS" vm="1" name="Session Type"/>
+  <entry owner="PMS-SERVICE-SESSION-1.0" group="0041" element="xx12" vr="CS" vm="1" name="Service Ordering"/>
+  <entry owner="PMS-SERVICE-SESSION-1.0" group="0041" element="xx13" vr="IS" vm="1" name="Number Of Services"/>
+  <entry owner="PMS-SERVICE-SESSION-1.0" group="0041" element="xx19" vr="SQ" vm="1" name="Service Sequence"/>
+  <entry owner="PMS-SERVICE-SESSION-1.0" group="0041" element="xx20" vr="CS" vm="1" name="Service Type"/>
+  <entry owner="PMS-SERVICE-SESSION-1.0" group="0041" element="xx21" vr="CS" vm="1" name="Service Sub Type"/>
   <entry owner="POLYTRON-SMS 2.5" group="0009" element="xx02" vr="OB" vm="1-n" name="PT Private Datastream 1"/>
   <entry owner="POLYTRON-SMS 2.5" group="0009" element="xx03" vr="OB" vm="1-n" name="PT Private Datastream 2"/>
   <entry owner="POLYTRON-SMS 2.5" group="0009" element="xx04" vr="OB" vm="1-n" name="PT Private Datastream 3"/>
@@ -3706,6 +3955,1300 @@
   <entry owner="SPI RELEASE 1" group="0011" element="xx10" vr="LO" vm="1" name="Organ"/>
   <entry owner="SPI RELEASE 1" group="0011" element="xx15" vr="LO" vm="1" name="Allergy Indication"/>
   <entry owner="SPI RELEASE 1" group="0011" element="xx20" vr="CS" vm="1" name="Pregnancy"/>
+  <entry owner="SPI Release 1" group="0009" element="xx10" vr="LT" vm="1" name="Spi Comments For Group 9"/>
+  <entry owner="SPI Release 1" group="0009" element="xx15" vr="LO" vm="1" name="Spi Unique Identifier"/>
+  <entry owner="SPI Release 1" group="0009" element="xx16" vr="US" vm="1-n" name="Spi Desc Descriptor"/>
+  <entry owner="SPI Release 1" group="0009" element="xx17" vr="LO" vm="1" name="Spi Special Ident"/>
+  <entry owner="SPI Release 1" group="0009" element="xx40" vr="US" vm="1" name="Spi Data Object Type"/>
+  <entry owner="SPI Release 1" group="0009" element="xx41" vr="LO" vm="1" name="Spi Data Object Subtype"/>
+  <entry owner="SPI Release 1" group="0009" element="xx61" vr="LO" vm="1" name="Spi Mod Type Extension"/>
+  <entry owner="SPI Release 1" group="0009" element="xxa0" vr="LT" vm="1" name="Spi Resulting Diagnosis"/>
+  <entry owner="SPI Release 1" group="0009" element="xxa1" vr="DA" vm="1" name="Spi Report Date"/>
+  <entry owner="SPI Release 1" group="0009" element="xxa2" vr="TM" vm="1" name="Spi Report Time"/>
+  <entry owner="SPI Release 1" group="0009" element="xxc0" vr="LT" vm="1" name="Spi Text Relating To Modified Object"/>
+  <entry owner="SPI Release 1" group="0009" element="xxc1" vr="LO" vm="1" name="Spi Previous Uid Of Modified Object"/>
+  <entry owner="SPI Release 1" group="0011" element="xx10" vr="LO" vm="1-n" name="Spi Organ"/>
+  <entry owner="SPI Release 1" group="0011" element="xx15" vr="LO" vm="1-n" name="Spi Allergy Indicator"/>
+  <entry owner="SPI Release 1" group="0011" element="xx18" vr="UI" vm="1" name="Spi Sop Instance Uid"/>
+  <entry owner="SPI Release 1" group="0011" element="xx20" vr="LO" vm="1" name="Spi Pregnancy"/>
+  <entry owner="SPI Release 1" group="0011" element="xx50" vr="SH" vm="1" name="Spi Accession Number"/>
+  <entry owner="SPI Release 1" group="0029" element="xx60" vr="LO" vm="1" name="Spi Compression Algorithm"/>
+  <entry owner="SPI Release 1" group="0041" element="xx10" vr="US" vm="1" name="Spi Folder Type"/>
+  <entry owner="SPI Release 1" group="0041" element="xx20" vr="LO" vm="1" name="Spi Uid For Object"/>
+  <entry owner="SPI Release 1" group="0041" element="xx21" vr="LT" vm="1" name="Spi Text Relating To Object"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx00" vr="LO" vm="1-n" name="Data Object Recognition Code"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx04" vr="LO" vm="1-n" name="Image Data Consistency"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx08" vr="US" vm="1" name="Character Set Id"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx10" vr="LO" vm="1" name="Category Id"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx11" vr="US" vm="1-n" name="Preselection"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx13" vr="LO" vm="1-n" name="Image Sub Subtype"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx15" vr="LO" vm="1" name="Unique Identifier"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx16" vr="LO" vm="1" name="Unique Version Identifier"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx17" vr="LO" vm="1" name="Special Ident"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx18" vr="LO" vm="1" name="Unique Application Identifier"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx1a" vr="LO" vm="1" name="Instance Identifier"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx1b" vr="LO" vm="1" name="Version Identifier"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx1c" vr="LO" vm="1" name="Application Identifier"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx20" vr="LO" vm="1-n" name="Referring Physician Code"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx21" vr="LO" vm="1-n" name="Attending Physician Code"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx22" vr="LO" vm="1-n" name="Radiologist Code"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx30" vr="LO" vm="1" name="Pacs Id"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx31" vr="LO" vm="1" name="Pacs Unique Identifier"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx34" vr="LO" vm="1" name="Cluster Unique Identifier"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx38" vr="LO" vm="1" name="System Unique Identifier"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx39" vr="LO" vm="1" name="Mod Type Extension"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx40" vr="LO" vm="1" name="Copy Case Id"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx41" vr="LO" vm="1" name="Copy Case Unique Identifier"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx42" vr="LT" vm="1" name="Copy Case Description"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx50" vr="LO" vm="1" name="Study Id"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx51" vr="LO" vm="1" name="Study Unique Identifier"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx58" vr="LO" vm="1" name="Series Set Id"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx59" vr="LO" vm="1" name="Series Set Unique Identifier"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx5a" vr="LT" vm="1" name="Series Set Description"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx60" vr="LO" vm="1" name="Series Id"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx61" vr="LO" vm="1" name="Series Unique Identifier"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx62" vr="LT" vm="1" name="Series Description"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx63" vr="LO" vm="1" name="Series Type"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx90" vr="LO" vm="1" name="Image Set Id"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx91" vr="LO" vm="1" name="Image Set Unique Identifier"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xx92" vr="LT" vm="1" name="Image Set Description"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxa0" vr="LT" vm="1" name="Resulting Diagnosis"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxa1" vr="DA" vm="1" name="Report Date"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxa2" vr="TM" vm="1" name="Report Time"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxb0" vr="LO" vm="1" name="Graphics Id"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxb1" vr="LO" vm="1" name="Graphics Unique Identifier"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxb2" vr="LO" vm="1" name="Graphics Modifying Device Id"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxb3" vr="LO" vm="1" name="Modified Graphics Id"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxb4" vr="DA" vm="1" name="Modified Graphics Date"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxb5" vr="TM" vm="1" name="Modified Graphics Time"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxb6" vr="DA" vm="1" name="Graphics Date"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxb7" vr="TM" vm="1" name="Graphics Time"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxc0" vr="LO" vm="1" name="Text Id"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxc1" vr="LO" vm="1" name="Text Unique Identifier"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxc2" vr="LO" vm="1" name="Text Modifying Device Id"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxc3" vr="LO" vm="1" name="Modified Text Id"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxc4" vr="DA" vm="1" name="Modified Text Date"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxc5" vr="TM" vm="1" name="Modified Text Time"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxc6" vr="DA" vm="1" name="Text Date"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxc7" vr="TM" vm="1" name="Text Time"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxd0" vr="LO" vm="1" name="Physio Id"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxd1" vr="LO" vm="1" name="Physio Unique Identifier"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxd2" vr="LO" vm="1" name="Physio Modifying Device Id"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxd3" vr="LO" vm="1" name="Modified Physio Id"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxd4" vr="DA" vm="1" name="Modified Physio Date"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxd5" vr="TM" vm="1" name="Modified Physio Time"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxd6" vr="DA" vm="1" name="Physio Date"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxd7" vr="TM" vm="1" name="Physio Time"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxe0" vr="US" vm="1" name="Image Clinical Status"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxf0" vr="LT" vm="1" name="Copy Case Comment"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxf2" vr="LT" vm="1" name="Study Comment"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxf3" vr="LT" vm="1" name="Series Comment"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxf4" vr="LT" vm="1" name="Acquisition Set Comment"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxf5" vr="LT" vm="1" name="Acquisition Comment"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxf6" vr="LT" vm="1" name="Image Set Comment"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxf7" vr="LT" vm="1" name="Image Comment"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxf8" vr="LT" vm="1" name="Physio Comment"/>
+  <entry owner="SPI-P Release 1" group="0009" element="xxff" vr="LT" vm="1" name="Series Set Comment"/>
+  <entry owner="SPI-P Release 1" group="0011" element="xx00" vr="LO" vm="1" name="Patient Family Name"/>
+  <entry owner="SPI-P Release 1" group="0011" element="xx01" vr="LO" vm="1" name="Patient Given Names"/>
+  <entry owner="SPI-P Release 1" group="0011" element="xx10" vr="LO" vm="1" name="Patient Entry Id"/>
+  <entry owner="SPI-P Release 1" group="0011" element="xx20" vr="US" vm="1" name="Accumulated Fluoroscopy Dose"/>
+  <entry owner="SPI-P Release 1" group="0011" element="xx21" vr="DS" vm="1-n" name="Accumulating Fluoroscopy Series"/>
+  <entry owner="SPI-P Release 1" group="0011" element="xx22" vr="LO" vm="1-n" name="Accumulating Fluoroscopy Series Uid"/>
+  <entry owner="SPI-P Release 1" group="0011" element="xx30" vr="US" vm="1" name="Accumulated Exposure Dose"/>
+  <entry owner="SPI-P Release 1" group="0011" element="xx31" vr="DS" vm="1-n" name="Accumulating Exposure Series"/>
+  <entry owner="SPI-P Release 1" group="0011" element="xx32" vr="LO" vm="1-n" name="Accumulating Exposure Series Uid"/>
+  <entry owner="SPI-P Release 1" group="0011" element="xx40" vr="LO" vm="1-n" name="Organ"/>
+  <entry owner="SPI-P Release 1" group="0011" element="xx41" vr="LO" vm="1-n" name="Allergy Indicator"/>
+  <entry owner="SPI-P Release 1" group="0011" element="xx42" vr="LO" vm="1" name="Pregnancy"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx00" vr="LO" vm="1" name="Main Apr Name"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx01" vr="LO" vm="1" name="Sub Apr Name"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx02" vr="LO" vm="1" name="Extended Apr Name"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx10" vr="US" vm="1" name="Mains Frequency"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx20" vr="DS" vm="1-n" name="Horizontal Lead Shutter"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx21" vr="DS" vm="1-n" name="Vertical Lead Shutter"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx25" vr="LO" vm="1-n" name="Original Pixel Data Quality"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx30" vr="US" vm="1" name="Ecg Triggering"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx31" vr="SS" vm="1" name="Ecg 1 Offset"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx32" vr="SS" vm="1" name="Ecg 2 Offset 1"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx33" vr="SS" vm="1" name="Ecg 2 Offset 2"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx40" vr="US" vm="1" name="Number Of R Tops"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx41" vr="US" vm="1" name="R Top Sample Rate"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx42" vr="US" vm="1-n" name="Ecg R Top Time"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx50" vr="US" vm="1" name="Video Scan Mode"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx51" vr="US" vm="1" name="Video Line Rate"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx60" vr="US" vm="1" name="X Ray Technique"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx61" vr="DS" vm="1" name="Image Intensifier Format"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx62" vr="SS" vm="1" name="Iris Diaphragm"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx63" vr="LO" vm="1" name="Filter"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx64" vr="LO" vm="1" name="Cine Parallel"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx65" vr="LO" vm="1" name="Cine Master"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx70" vr="US" vm="1" name="Exposure Channel"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx71" vr="US" vm="1" name="Exposure Channel First Image"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx72" vr="US" vm="1" name="Processing Channel"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx80" vr="DS" vm="1" name="Acquisition Delay"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx81" vr="DS" vm="1" name="Relative Image Time"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xx90" vr="LO" vm="1" name="Video White Compression"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xxa0" vr="SS" vm="1" name="Angulation"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xxa1" vr="SS" vm="1" name="Rotation"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xxa2" vr="CS" vm="1" name="Positioner Motion"/>
+  <entry owner="SPI-P Release 1" group="0019" element="xxb0" vr="US" vm="1" name="Image Rotation"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx00" vr="LO" vm="1" name="Masking Image Uid"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx08" vr="DS" vm="1" name="Ct Mr Slice Number"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx12" vr="LO" vm="1" name="Series Data Uid"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx14" vr="LO" vm="1" name="Acquisition Set Data Uid"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx16" vr="LO" vm="1" name="Acquisition Data Uid"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx18" vr="LO" vm="1" name="Image Set Data Uid"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx20" vr="LO" vm="1-n" name="Child Copy Case Id"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx21" vr="LO" vm="1-n" name="Child Copy Case Unique Identifier"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx30" vr="LO" vm="1-n" name="Child Patient Name"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx31" vr="LO" vm="1-n" name="Child Patient Id"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx32" vr="DA" vm="1-n" name="Child Patient Birthdate"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx33" vr="LO" vm="1-n" name="Child Patient Sex"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx34" vr="LO" vm="1-n" name="Child Patient Entry Id"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx40" vr="LO" vm="1-n" name="Child Study"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx41" vr="LO" vm="1-n" name="Child Study Unique Identifier"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx48" vr="DS" vm="1-n" name="Child Series Set"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx49" vr="LO" vm="1-n" name="Child Series Set Unique Identifier"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx50" vr="IS" vm="1-n" name="Child Series"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx51" vr="LO" vm="1-n" name="Child Series Unique Identifier"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx60" vr="IS" vm="1-n" name="Child Acq Set"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx70" vr="IS" vm="1-n" name="Child Acquisition"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx80" vr="IS" vm="1-n" name="Child Image Set"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx81" vr="LO" vm="1-n" name="Child Image Set Unique Identifier"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xx90" vr="IS" vm="1-n" name="Child Image Entry"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxa0" vr="IS" vm="1-n" name="Child Image"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxa1" vr="LO" vm="1-n" name="Child Modifying Device Id"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxa2" vr="LO" vm="1-n" name="Child Modified Image Id"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxa3" vr="DA" vm="1-n" name="Child Modified Image Date"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxa4" vr="TM" vm="1-n" name="Child Modified Image Time"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxa5" vr="LO" vm="1-n" name="Child Image Uid"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxa6" vr="LO" vm="1-n" name="Child Image Uvid"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxa7" vr="LO" vm="1-n" name="Child Image Uaid"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxb0" vr="LO" vm="1-n" name="Child Graphics Id"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxb1" vr="LO" vm="1-n" name="Child Graphics Unique Identifier"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxb2" vr="LO" vm="1-n" name="Child Graphics Modifying Device Id"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxb3" vr="LO" vm="1-n" name="Child Modified Graphics Id"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxb4" vr="DA" vm="1-n" name="Child Modified Graphics Date"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxb5" vr="TM" vm="1-n" name="Child Modified Graphics Time"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxb6" vr="LO" vm="1-n" name="Child Graphics Uid"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxb7" vr="LO" vm="1-n" name="Child Graphics Uvid"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxb8" vr="LO" vm="1-n" name="Child Graphics Uaid"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxc0" vr="LO" vm="1-n" name="Child Text Id"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxc1" vr="LO" vm="1-n" name="Child Text Unique Identifier"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxc2" vr="LO" vm="1-n" name="Child Text Modifying Device Id"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxc3" vr="LO" vm="1-n" name="Child Modified Text Id"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxc4" vr="DA" vm="1-n" name="Child Modified Text Date"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxc5" vr="TM" vm="1-n" name="Child Modified Text Time"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxc6" vr="LO" vm="1-n" name="Child Text Uid"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxc7" vr="LO" vm="1-n" name="Child Text Uvid"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxc8" vr="LO" vm="1-n" name="Child Text Uaid"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxd0" vr="LO" vm="1-n" name="Child Physio Id"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxd1" vr="LO" vm="1-n" name="Child Physio Unique Identifier"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxd2" vr="LO" vm="1-n" name="Child Physio Modifying Device Id"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxd3" vr="LO" vm="1-n" name="Child Modified Physio Id"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxd4" vr="DA" vm="1-n" name="Child Modified Physio Date"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxd5" vr="TM" vm="1-n" name="Child Modified Physio Time"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxd6" vr="LO" vm="1-n" name="Child Physio Uid"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxd7" vr="LO" vm="1-n" name="Child Physio Uvid"/>
+  <entry owner="SPI-P Release 1" group="0021" element="xxd8" vr="LO" vm="1-n" name="Child Physio Uaid"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx00" vr="DS" vm="1-n" name="Image Area"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx08" vr="DS" vm="1-n" name="Display Printing Area"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx0a" vr="UL" vm="1" name="Actual Size Of Pixel Data"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx0b" vr="UL" vm="1" name="Effective Size Of Pixel Data"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx10" vr="US" vm="1" name="Actual Field Of Reconstruction"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx11" vr="LO" vm="1" name="Non For Masking"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx12" vr="US" vm="1" name="Non For Value"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx13" vr="DS" vm="1-n" name="For Circle Centre"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx14" vr="DS" vm="1" name="For Circle Radius"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx15" vr="DS" vm="1-n" name="For Rectangle"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx20" vr="DS" vm="1" name="Pixel Aspect Ratio"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx21" vr="LO" vm="1-n" name="Pixel Value Meaning"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx22" vr="LO" vm="1" name="Pixel Value Units"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx25" vr="LO" vm="1-n" name="Processed Pixel Data Quality"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx28" vr="DS" vm="1-n" name="User Defined Pixel Size"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx30" vr="LO" vm="1-n" name="Image Processing Order"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx38" vr="US" vm="1" name="Display Printing Size"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx3a" vr="LO" vm="1-n" name="Pictorial Index Status"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx60" vr="LO" vm="1-n" name="Presentation Chain Id"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx61" vr="LO" vm="1-n" name="Presentation Chain"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx65" vr="LO" vm="1-n" name="Presentation Chain Kind"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx66" vr="LO" vm="1-n" name="Presentation Chain Enable Status"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx67" vr="LO" vm="1-n" name="Presentation Chain Select Status"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx68" vr="LO" vm="1-n" name="Orientation Id"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx69" vr="US" vm="1-n" name="Orientation"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx6d" vr="LO" vm="1-n" name="Orientation Kind"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx6e" vr="LO" vm="1-n" name="Orientation Enable Status"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx6f" vr="LO" vm="1-n" name="Orientation Select Status"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx70" vr="LO" vm="1-n" name="Window Id"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx71" vr="LO" vm="1-n" name="Video Invert Subtracted"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx72" vr="LO" vm="1-n" name="Video Invert Non Subtracted"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx75" vr="LO" vm="1-n" name="Window Kind"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx76" vr="LO" vm="1-n" name="Window Enable Status"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx77" vr="LO" vm="1-n" name="Window Select Status"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx78" vr="LO" vm="1-n" name="Ecg Display Printing Id"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx79" vr="LO" vm="1-n" name="Ecg Display Printing"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx7d" vr="LO" vm="1-n" name="Ecg Display Printing Kind"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx7e" vr="LO" vm="1-n" name="Ecg Display Printing Enable Status"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx7f" vr="LO" vm="1-n" name="Ecg Display Printing Select Status"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx80" vr="LO" vm="1" name="Physiological Display Id"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx81" vr="US" vm="1" name="Preferred Physio Channel Display"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx8d" vr="LO" vm="1" name="Physiological Display Kind"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx8e" vr="LO" vm="1" name="Physiological Display Enable Status"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xx8f" vr="LO" vm="1" name="Physiological Display Select Status"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xxc0" vr="LO" vm="1" name="Functional Shutter Id"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xxc1" vr="US" vm="1" name="Field Of Shutter"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xxc2" vr="US" vm="1" name="Non Fos Value"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xxc3" vr="DS" vm="1-n" name="Fos Circle Centre"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xxc4" vr="DS" vm="1" name="Fos Circle Radius"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xxc5" vr="DS" vm="1-n" name="Fos Rectangle"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xxcd" vr="LO" vm="1" name="Shutter Kind"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xxce" vr="LO" vm="1" name="Shutter Enable Status"/>
+  <entry owner="SPI-P Release 1" group="0029" element="xxcf" vr="LO" vm="1" name="Shutter Select Status"/>
+  <entry owner="SPI-P Release 1" group="6001" element="xx00" vr="LT" vm="1" name="Overlay Text Graphic Id"/>
+  <entry owner="SPI-P Release 1" group="6001" element="xx08" vr="US" vm="1" name="Overlay Positioning"/>
+  <entry owner="SPI-P Release 1" group="6001" element="xx09" vr="US" vm="1" name="Overlay Rows"/>
+  <entry owner="SPI-P Release 1" group="6001" element="xx0a" vr="US" vm="1" name="Overlay Columns"/>
+  <entry owner="SPI-P Release 1" group="6001" element="xx0b" vr="US" vm="1-n" name="Overlay Origin"/>
+  <entry owner="SPI-P Release 1" group="6001" element="xx0c" vr="US" vm="1-n" name="Overlay Area Color"/>
+  <entry owner="SPI-P Release 1" group="6001" element="xx0e" vr="LO" vm="1" name="Overlay Text Graphic Group Enabled Status"/>
+  <entry owner="SPI-P Release 1" group="6001" element="xx0f" vr="LO" vm="1" name="Overlay Text Graphic Group Select Status"/>
+  <entry owner="SPI-P Release 1" group="6001" element="xx10" vr="LT" vm="1" name="Overlay Text Id"/>
+  <entry owner="SPI-P Release 1" group="6001" element="xx11" vr="US" vm="1-n" name="Overlay Text Area"/>
+  <entry owner="SPI-P Release 1" group="6001" element="xx12" vr="LT" vm="1" name="Overlay Text"/>
+  <entry owner="SPI-P Release 1" group="6001" element="xx15" vr="US" vm="1-n" name="Overlay Text Positioning Pixel"/>
+  <entry owner="SPI-P Release 1" group="6001" element="xx16" vr="US" vm="1-n" name="Overlay Text Positioning Character"/>
+  <entry owner="SPI-P Release 1" group="6001" element="xx17" vr="US" vm="1" name="Overlay Text Character Size"/>
+  <entry owner="SPI-P Release 1" group="6001" element="xx18" vr="LO" vm="1" name="Overlay Text Character Style"/>
+  <entry owner="SPI-P Release 1" group="6001" element="xx19" vr="US" vm="1-n" name="Overlay Text Character Color"/>
+  <entry owner="SPI-P Release 1" group="6001" element="xx1a" vr="US" vm="1-n" name="Overlay Text Character Bg Color"/>
+  <entry owner="SPI-P Release 1" group="6001" element="xx1b" vr="US" vm="1" name="Overlay Text Positioning Mode"/>
+  <entry owner="SPI-P Release 1" group="6001" element="xx1c" vr="DS" vm="1-n" name="Overlay Text Positioning Rectangle"/>
+  <entry owner="SPI-P Release 1" group="7fe1" element="xx10" vr="OW" vm="1-n" name="Swapped Pixel Data"/>
+  <entry owner="SPI-P Release 1;1" group="0009" element="xx00" vr="US" vm="1" name="Precision Absolute Clock"/>
+  <entry owner="SPI-P Release 1;1" group="0009" element="xx01" vr="US" vm="1" name="Precision Relative Clock"/>
+  <entry owner="SPI-P Release 1;1" group="0009" element="xx10" vr="UL" vm="1" name="Series Absolute Elapsed Time"/>
+  <entry owner="SPI-P Release 1;1" group="0009" element="xx11" vr="UL" vm="1" name="Series Relative Elapsed Time"/>
+  <entry owner="SPI-P Release 1;1" group="0009" element="xx20" vr="UL" vm="1" name="Acquisition Absolute Elapsed Time"/>
+  <entry owner="SPI-P Release 1;1" group="0009" element="xx21" vr="UL" vm="1" name="Acquisition Relative Elapsed Time"/>
+  <entry owner="SPI-P Release 1;1" group="0009" element="xx30" vr="UL" vm="1" name="Image Absolute Elapsed Time"/>
+  <entry owner="SPI-P Release 1;1" group="0009" element="xx31" vr="UL" vm="1" name="Image Relative Elapsed Time"/>
+  <entry owner="SPI-P Release 1;1" group="0009" element="xxc0" vr="LT" vm="1" name="Text Relating To Modified Object"/>
+  <entry owner="SPI-P Release 1;1" group="0009" element="xxc1" vr="LO" vm="1" name="Previous Uid Of Modified Object"/>
+  <entry owner="SPI-P Release 1;1" group="0019" element="xx00" vr="US" vm="1" name="Physiological Data Type"/>
+  <entry owner="SPI-P Release 1;1" group="0019" element="xx01" vr="US" vm="1" name="Physiological Data Channel And Kind"/>
+  <entry owner="SPI-P Release 1;1" group="0019" element="xx02" vr="US" vm="1" name="Sample Bits Allocated"/>
+  <entry owner="SPI-P Release 1;1" group="0019" element="xx03" vr="US" vm="1" name="Sample Bits Stored"/>
+  <entry owner="SPI-P Release 1;1" group="0019" element="xx04" vr="US" vm="1" name="Sample High Bit"/>
+  <entry owner="SPI-P Release 1;1" group="0019" element="xx05" vr="US" vm="1" name="Sample Representation"/>
+  <entry owner="SPI-P Release 1;1" group="0019" element="xx06" vr="US" vm="1" name="Smallest Sample Value"/>
+  <entry owner="SPI-P Release 1;1" group="0019" element="xx07" vr="US" vm="1" name="Largest Sample Value"/>
+  <entry owner="SPI-P Release 1;1" group="0019" element="xx08" vr="UL" vm="1" name="Number Of Samples"/>
+  <entry owner="SPI-P Release 1;1" group="0019" element="xx09" vr="OW" vm="1-n" name="Sample Data"/>
+  <entry owner="SPI-P Release 1;1" group="0019" element="xx0a" vr="DS" vm="1" name="Sample Rate"/>
+  <entry owner="SPI-P Release 1;1" group="0019" element="xx0b" vr="LO" vm="1" name="Sampling Clock"/>
+  <entry owner="SPI-P Release 1;1" group="0019" element="xx0c" vr="DA" vm="1" name="First Sample Date"/>
+  <entry owner="SPI-P Release 1;1" group="0019" element="xx0d" vr="TM" vm="1" name="First Sample Time"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx00" vr="LO" vm="1" name="Mpr Stack Id"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx01" vr="LO" vm="1" name="Mpr Stack Uid"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx02" vr="US" vm="1" name="Mpr Number Of Source Images"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx20" vr="IS" vm="1-n" name="Mpr Source Acquisition"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx21" vr="IS" vm="1-n" name="Mpr Source Image"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx22" vr="LO" vm="1-n" name="Mpr Source Modifying Device Id"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx23" vr="LO" vm="1-n" name="Mpr Source Modified Image Id"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx24" vr="DA" vm="1-n" name="Mpr Source Modified Image Date"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx25" vr="TM" vm="1-n" name="Mpr Source Modified Image Time"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx26" vr="LO" vm="1-n" name="Mpr Source Image Uid"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx27" vr="LO" vm="1-n" name="Mpr Source Image Uvid"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx28" vr="LO" vm="1-n" name="Mpr Source Image Uaid"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx40" vr="LO" vm="1" name="Or Id"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx41" vr="LO" vm="1" name="Or Set Id"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx42" vr="US" vm="1" name="Or Number Of Source Images"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx43" vr="US" vm="1" name="Or Rows Of Source Image"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx44" vr="DS" vm="1" name="Or Reduction Factor"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx45" vr="LO" vm="1" name="Or Type Of Overlap Reconstruction"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx50" vr="US" vm="1" name="Or Number Of High Parallax Matches"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx51" vr="US" vm="1" name="Or Number Of Dubious Matches"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx52" vr="US" vm="1" name="Or Number Of Mismatches"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx60" vr="IS" vm="1-n" name="Or Source Acquisition"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx61" vr="IS" vm="1-n" name="Or Source Image"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx62" vr="LO" vm="1-n" name="Or Source Modifying Device Id"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx63" vr="LO" vm="1-n" name="Or Source Modified Image Id"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx64" vr="DA" vm="1-n" name="Or Source Modified Image Date"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx65" vr="TM" vm="1-n" name="Or Source Modified Image Time"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx66" vr="LO" vm="1-n" name="Or Source Image Uid"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx67" vr="LO" vm="1-n" name="Or Source Image Uvid"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx6a" vr="DS" vm="1-n" name="Or Used Upper Rows"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx6b" vr="DS" vm="1-n" name="Or Used Lower Rows"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx6c" vr="US" vm="1-n" name="Or Parallax Indicator"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx6d" vr="DS" vm="1-n" name="Or Used Left Columns"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx6e" vr="US" vm="1-n" name="Or Match Quality Indicator"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx6f" vr="DS" vm="1-n" name="Or Used Right Columns"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx80" vr="LO" vm="1" name="Trr Id"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx81" vr="LO" vm="1" name="Trr Set Id"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx82" vr="US" vm="1" name="Trr Number Of Source Images"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xx90" vr="LO" vm="1" name="Trr Opacification"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xxa0" vr="IS" vm="1-n" name="Trr Source Acquisition"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xxa1" vr="IS" vm="1-n" name="Trr Source Image"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xxa2" vr="LO" vm="1-n" name="Trr Source Modifying Device Id"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xxa3" vr="LO" vm="1-n" name="Trr Source Modified Image Id"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xxa4" vr="DA" vm="1-n" name="Trr Source Modified Image Date"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xxa5" vr="TM" vm="1-n" name="Trr Source Modified Image Time"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xxa6" vr="LO" vm="1-n" name="Trr Source Image Uid"/>
+  <entry owner="SPI-P Release 1;1" group="0021" element="xxa7" vr="LO" vm="1-n" name="Trr Source Image Uvid"/>
+  <entry owner="SPI-P Release 1;1" group="0029" element="xx00" vr="LO" vm="1" name="Zoom Id"/>
+  <entry owner="SPI-P Release 1;1" group="0029" element="xx01" vr="DS" vm="1-n" name="Zoom Rectangle"/>
+  <entry owner="SPI-P Release 1;1" group="0029" element="xx03" vr="DS" vm="1" name="Zoom Factor"/>
+  <entry owner="SPI-P Release 1;1" group="0029" element="xx04" vr="US" vm="1" name="Zoom Function"/>
+  <entry owner="SPI-P Release 1;1" group="0029" element="xx0d" vr="LO" vm="1" name="Zoom Kind"/>
+  <entry owner="SPI-P Release 1;1" group="0029" element="xx0e" vr="LO" vm="1" name="Zoom Enable Status"/>
+  <entry owner="SPI-P Release 1;1" group="0029" element="xx0f" vr="LO" vm="1" name="Zoom Select Status"/>
+  <entry owner="SPI-P Release 1;1" group="0029" element="xx40" vr="LO" vm="1" name="Loupe Id"/>
+  <entry owner="SPI-P Release 1;1" group="0029" element="xx41" vr="DS" vm="1-n" name="Loupe Rectangle"/>
+  <entry owner="SPI-P Release 1;1" group="0029" element="xx43" vr="DS" vm="1" name="Loupe Factor"/>
+  <entry owner="SPI-P Release 1;1" group="0029" element="xx44" vr="US" vm="1" name="Loupe Function"/>
+  <entry owner="SPI-P Release 1;1" group="0029" element="xx47" vr="DS" vm="1" name="Loupe Window Center"/>
+  <entry owner="SPI-P Release 1;1" group="0029" element="xx48" vr="DS" vm="1" name="Loupe Window Width"/>
+  <entry owner="SPI-P Release 1;1" group="0029" element="xx49" vr="LO" vm="1" name="Loupe Video Invert Subtracted"/>
+  <entry owner="SPI-P Release 1;1" group="0029" element="xx4a" vr="LO" vm="1" name="Loupe Video Invert Non Subtracted"/>
+  <entry owner="SPI-P Release 1;1" group="0029" element="xx4d" vr="LO" vm="1" name="Loupe Kind"/>
+  <entry owner="SPI-P Release 1;1" group="0029" element="xx4e" vr="LO" vm="1" name="Loupe Enable Status"/>
+  <entry owner="SPI-P Release 1;1" group="0029" element="xx4f" vr="LO" vm="1" name="Loupe Select Status"/>
+  <entry owner="SPI-P Release 1;2" group="0029" element="xx00" vr="LO" vm="1" name="Subtraction Mask Id"/>
+  <entry owner="SPI-P Release 1;2" group="0029" element="xx01" vr="LO" vm="1" name="Subtraction Mask"/>
+  <entry owner="SPI-P Release 1;2" group="0029" element="xx02" vr="DS" vm="1-n" name="Masking Pixel Shift"/>
+  <entry owner="SPI-P Release 1;2" group="0029" element="xx03" vr="LO" vm="1" name="Masking Pixel Shift Enable Status"/>
+  <entry owner="SPI-P Release 1;2" group="0029" element="xx04" vr="LO" vm="1" name="Masking Function"/>
+  <entry owner="SPI-P Release 1;2" group="0029" element="xx05" vr="SS" vm="1-n" name="Masking Weigths"/>
+  <entry owner="SPI-P Release 1;2" group="0029" element="xx06" vr="SS" vm="1" name="Masking Offset"/>
+  <entry owner="SPI-P Release 1;2" group="0029" element="xx07" vr="LO" vm="1" name="Standard Masking Presentation Chain Id"/>
+  <entry owner="SPI-P Release 1;2" group="0029" element="xx08" vr="LO" vm="1" name="Special Masking Presentation Chain Id"/>
+  <entry owner="SPI-P Release 1;2" group="0029" element="xx0c" vr="SS" vm="1-n" name="Proprietary Masking Parameters"/>
+  <entry owner="SPI-P Release 1;2" group="0029" element="xx0d" vr="LO" vm="1" name="Subtraction Mask Kind"/>
+  <entry owner="SPI-P Release 1;2" group="0029" element="xx0e" vr="LO" vm="1" name="Subtraction Mask Enable Status"/>
+  <entry owner="SPI-P Release 1;2" group="0029" element="xx0f" vr="LO" vm="1" name="Subtraction Mask Select Status"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx00" vr="LO" vm="1" name="Image Enhancement Id"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx01" vr="LO" vm="1" name="Image Enhancement Function"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx02" vr="LO" vm="1" name="Convolution Id"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx03" vr="LO" vm="1" name="Convolution Type"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx04" vr="LO" vm="1" name="Convolution Kernel Size Id"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx05" vr="US" vm="1-n" name="Convolution Kernel Size"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx06" vr="SS" vm="1-n" name="Convolution Kernel"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx07" vr="SS" vm="1" name="Convolution Kernel Centre Weigth"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx08" vr="SS" vm="1" name="Convolution Factor"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx09" vr="SS" vm="1" name="Convolution Offset"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx0a" vr="US" vm="1" name="Convolution With Non For Pixels"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx0b" vr="US" vm="1" name="Convolution Non For Value"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx0c" vr="DS" vm="1" name="Edge Enhancement Gain"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx0d" vr="DS" vm="1" name="Contrast Equilization Weigth"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx0e" vr="DS" vm="1" name="Image Enhancement Offset"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx10" vr="LO" vm="1" name="Image Enhancement Lut Id"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx11" vr="LO" vm="1" name="Image Enhancement Lut Type"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx12" vr="DS" vm="1" name="First Input Sample Image Enhancement Lut"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx13" vr="DS" vm="1" name="Input Sample Pitch Image Enhancement Lut"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx14" vr="US" vm="1" name="Binary Exponent Image Enhancement Lut"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx15" vr="US" vm="1-n" name="Single Precision Image Enhancement Lut"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx16" vr="UL" vm="1-n" name="Double Precision Image Enhancement Lut"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx1d" vr="LO" vm="1" name="Image Enhancement Kind"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx1e" vr="LO" vm="1" name="Image Enhancement Enable Status"/>
+  <entry owner="SPI-P Release 1;3" group="0029" element="xx1f" vr="LO" vm="1" name="Image Enhancement Select Status"/>
+  <entry owner="SPI-P Release 1;4" group="0029" element="xx00" vr="LO" vm="1" name="Harmonisation Id"/>
+  <entry owner="SPI-P Release 1;4" group="0029" element="xx01" vr="LO" vm="1" name="Harmonisation Function"/>
+  <entry owner="SPI-P Release 1;4" group="0029" element="xx02" vr="DS" vm="1" name="Harmonisation Gain"/>
+  <entry owner="SPI-P Release 1;4" group="0029" element="xx03" vr="DS" vm="1" name="Harmonisation Factor"/>
+  <entry owner="SPI-P Release 1;4" group="0029" element="xx04" vr="DS" vm="1" name="Harmonisation Offset"/>
+  <entry owner="SPI-P Release 1;4" group="0029" element="xx05" vr="LO" vm="1" name="Harmonisation Convolution Id"/>
+  <entry owner="SPI-P Release 1;4" group="0029" element="xx06" vr="LO" vm="1" name="Harmonisation Convolution Type"/>
+  <entry owner="SPI-P Release 1;4" group="0029" element="xx07" vr="US" vm="1-n" name="Harmonisation Convolution Kernel Size"/>
+  <entry owner="SPI-P Release 1;4" group="0029" element="xx08" vr="SS" vm="1-n" name="Harmonisation Convolution Kernel"/>
+  <entry owner="SPI-P Release 1;4" group="0029" element="xx09" vr="SS" vm="1" name="Harmonisation Convolution Kernel Centre Weigth"/>
+  <entry owner="SPI-P Release 1;4" group="0029" element="xx0a" vr="SS" vm="1" name="Harmonisation Convolution Factor"/>
+  <entry owner="SPI-P Release 1;4" group="0029" element="xx0b" vr="SS" vm="1" name="Harmonisation Convolution Offset"/>
+  <entry owner="SPI-P Release 1;4" group="0029" element="xx0c" vr="US" vm="1" name="Harmonisation Convolution With Non For Pixels"/>
+  <entry owner="SPI-P Release 1;4" group="0029" element="xx0d" vr="US" vm="1" name="Harmonisation Convolution Non For Value"/>
+  <entry owner="SPI-P Release 1;4" group="0029" element="xx1d" vr="LO" vm="1" name="Harmonisation Kind"/>
+  <entry owner="SPI-P Release 1;4" group="0029" element="xx1e" vr="LO" vm="1" name="Harmonisation Enable Status"/>
+  <entry owner="SPI-P Release 1;4" group="0029" element="xx1f" vr="LO" vm="1" name="Harmonisation Select Status"/>
+  <entry owner="SPI-P Release 1;5" group="0029" element="xx00" vr="LO" vm="1" name="Linear Conversion Id"/>
+  <entry owner="SPI-P Release 1;5" group="0029" element="xx01" vr="LO" vm="1" name="Linear Conversion Function"/>
+  <entry owner="SPI-P Release 1;5" group="0029" element="xx02" vr="DS" vm="1" name="Linear Conversion Angle"/>
+  <entry owner="SPI-P Release 1;5" group="0029" element="xx03" vr="DS" vm="1" name="Linear Conversion Offset"/>
+  <entry owner="SPI-P Release 1;5" group="0029" element="xx04" vr="DS" vm="1" name="Linear Conversion Centre"/>
+  <entry owner="SPI-P Release 1;5" group="0029" element="xx05" vr="DS" vm="1" name="Linear Conversion Shift"/>
+  <entry owner="SPI-P Release 1;5" group="0029" element="xx06" vr="DS" vm="1" name="Linear Conversion Gradation Centre"/>
+  <entry owner="SPI-P Release 1;5" group="0029" element="xx07" vr="DS" vm="1" name="Linear Conversion Gradation Shift"/>
+  <entry owner="SPI-P Release 1;5" group="0029" element="xx08" vr="DS" vm="1" name="Linear Conversion Middle Pixel Value Range"/>
+  <entry owner="SPI-P Release 1;5" group="0029" element="xx0d" vr="LO" vm="1" name="Linear Conversion Kind"/>
+  <entry owner="SPI-P Release 1;5" group="0029" element="xx0e" vr="LO" vm="1" name="Linear Conversion Enable Status"/>
+  <entry owner="SPI-P Release 1;5" group="0029" element="xx0f" vr="LO" vm="1" name="Linear Conversion Select Status"/>
+  <entry owner="SPI-P Release 1;5" group="0029" element="xx80" vr="ST" vm="1" name="Non Linear Conversion Id"/>
+  <entry owner="SPI-P Release 1;5" group="0029" element="xx81" vr="LO" vm="1" name="Non Linear Conversion Lut Type"/>
+  <entry owner="SPI-P Release 1;5" group="0029" element="xx82" vr="DS" vm="1" name="First Input Sample Non Linear Conversion Lut"/>
+  <entry owner="SPI-P Release 1;5" group="0029" element="xx83" vr="DS" vm="1" name="Input Sample Pitch Non Linear Conversion Lut"/>
+  <entry owner="SPI-P Release 1;5" group="0029" element="xx84" vr="US" vm="1" name="Binary Exponent Non Linear Conversion Lut"/>
+  <entry owner="SPI-P Release 1;5" group="0029" element="xx85" vr="US" vm="1-n" name="Single Precision Non Linear Conversion Lut"/>
+  <entry owner="SPI-P Release 1;5" group="0029" element="xx86" vr="UL" vm="1-n" name="Double Precision Non Linear Conversion Lut"/>
+  <entry owner="SPI-P Release 1;5" group="0029" element="xx8d" vr="LO" vm="1" name="Non Linear Conversion Kind"/>
+  <entry owner="SPI-P Release 1;5" group="0029" element="xx8e" vr="LO" vm="1" name="Non Linear Conversion Enable Status"/>
+  <entry owner="SPI-P Release 1;5" group="0029" element="xx8f" vr="LO" vm="1" name="Non Linear Conversion Select Status"/>
+  <entry owner="SPI-P Release 2;1" group="0023" element="xx0d" vr="UI" vm="1" name="Spi P Study Instance Uid"/>
+  <entry owner="SPI-P Release 2;1" group="0023" element="xx0e" vr="UI" vm="1" name="Spi P Series Instance Uid"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0019" element="xx10" vr="US" vm="1" name="Dsi Roi Size Processing Parameters"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0019" element="xx20" vr="SS" vm="1" name="Dsi Harmonisation Minimum"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0019" element="xx21" vr="SS" vm="1" name="Dsi Harmonisation Maximum"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0019" element="xx30" vr="SS" vm="1" name="Dsi Video Peak"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0019" element="xx40" vr="US" vm="1" name="Dsi Dynamic Range"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0019" element="xx50" vr="US" vm="1" name="Dsi 10 8 Curve"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0019" element="xx60" vr="US" vm="1" name="Dsi Image Type"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0019" element="xx70" vr="US" vm="1" name="Dsi Acquisition Speed"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0019" element="xxf0" vr="LO" vm="1" name="Dsi Software Prom Version"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx10" vr="US" vm="1" name="Dsi Contrast Subtracted"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx11" vr="US" vm="1" name="Dsi Brightness Subtracted"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx12" vr="US" vm="1" name="Dsi Edge Enhancement Subtracted"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx20" vr="US" vm="1" name="Dsi Contrast Non Subtracted"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx21" vr="US" vm="1" name="Dsi Brightness Non Subtracted"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx22" vr="US" vm="1" name="Dsi Edge Enhancement Non Subtracted"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx30" vr="US" vm="1" name="Dsi Subtraction Contrast"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx31" vr="US" vm="1" name="Dsi Rescale Factor Maximum"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx40" vr="LO" vm="1" name="Dsi Processing"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx41" vr="LO" vm="1" name="Dsi Harmonisation"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx42" vr="LO" vm="1" name="Dsi Autoscaling"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx60" vr="LO" vm="1" name="Dsi Image Flag"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx61" vr="LO" vm="1" name="Dsi Run Flag"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx70" vr="US" vm="1" name="Dsi Calibration Valid Exam 512"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx71" vr="DS" vm="1-n" name="Dsi Calibration Line Exam 512"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx72" vr="US" vm="1" name="Dsi Calibration Unit Exam 512"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx73" vr="DS" vm="1" name="Dsi Calibration Distance Exam 512"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx74" vr="US" vm="1" name="Dsi Calibration Valid Exam 1024"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx75" vr="DS" vm="1-n" name="Dsi Calibration Line Exam 1024"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx76" vr="US" vm="1" name="Dsi Calibration Unit Exam 1024"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx77" vr="DS" vm="1" name="Dsi Calibration Distance Exam 1024"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx78" vr="US" vm="1" name="Dsi Calibration Valid Image"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx79" vr="DS" vm="1-n" name="Dsi Calibration Line Image"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx7a" vr="US" vm="1" name="Dsi Calibration Unit Image"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx7b" vr="DS" vm="1" name="Dsi Calibration Distance Image"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx80" vr="US" vm="1-n" name="Dsi Measure Line Valid"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx81" vr="DS" vm="1-n" name="Dsi Measure Line 1"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx82" vr="DS" vm="1-n" name="Dsi Measure Line 2"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx8b" vr="DS" vm="1-n" name="Dsi Measure Distance"/>
+  <entry owner="SPI-P-CDS-DSI Release 1" group="0029" element="xx8c" vr="DS" vm="1" name="Dsi Measure Angle"/>
+  <entry owner="SPI-P-CTBE Release 1" group="0019" element="xx00" vr="IS" vm="1" name="Ctbe Table Direction"/>
+  <entry owner="SPI-P-CTBE Release 1" group="0019" element="xx02" vr="IS" vm="1" name="Ctbe Nr Of Rotations"/>
+  <entry owner="SPI-P-CTBE Release 1" group="0019" element="xx03" vr="DS" vm="1" name="Ctbe Volume Pitch"/>
+  <entry owner="SPI-P-CTBE Release 1" group="0019" element="xx04" vr="IS" vm="1" name="Ctbe Volume Scan Mode"/>
+  <entry owner="SPI-P-CTBE Release 1" group="0019" element="xx05" vr="DS" vm="1" name="Ctbe Table Index"/>
+  <entry owner="SPI-P-CTBE Release 1" group="0019" element="xx07" vr="IS" vm="1" name="Ctbe Serial Scan Mode"/>
+  <entry owner="SPI-P-CTBE Release 1" group="0019" element="xx0b" vr="DS" vm="1" name="Ctbe Protocol Fov"/>
+  <entry owner="SPI-P-CTBE Release 1" group="0019" element="xx0c" vr="IS" vm="1" name="Ctbe Scan Series Number"/>
+  <entry owner="SPI-P-CTBE Release 1" group="0019" element="xx14" vr="IS" vm="1" name="Ctbe Reconstruction Number"/>
+  <entry owner="SPI-P-CTBE Release 1" group="0019" element="xx15" vr="LO" vm="1" name="Ctbe Slice Thickness Presentation"/>
+  <entry owner="SPI-P-CTBE Release 1" group="0041" element="xx10" vr="LO" vm="1-n" name="Service Printer Name"/>
+  <entry owner="SPI-P-CTBE Release 1" group="0041" element="xx12" vr="LO" vm="1-n" name="Service Printer Alias Name"/>
+  <entry owner="SPI-P-CTBE Release 1" group="0041" element="xx24" vr="LO" vm="1-n" name="Service Film Type"/>
+  <entry owner="SPI-P-CTBE Release 1" group="0041" element="xx28" vr="LO" vm="1-n" name="Service Print Protocol"/>
+  <entry owner="SPI-P-CTBE-Private Release 1" group="0021" element="xx00" vr="DS" vm="1" name="Ctbe Recon Index"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0009" element="xx00" vr="LO" vm="1" name="Ctgv Scan Indicator"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0009" element="xx10" vr="LO" vm="1" name="Ctgv Dynamic Scan"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0009" element="xx20" vr="LO" vm="1" name="Ctgv Online Zoom"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0009" element="xx30" vr="LO" vm="1" name="Ctgv Offline Zoom"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0009" element="xx50" vr="LO" vm="1" name="Ctgv Subtraction Image"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0009" element="xx60" vr="LO" vm="1" name="Ctgv High Resolution Zoom"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0009" element="xx70" vr="LO" vm="1" name="Ctgv Analysis Image"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0009" element="xx75" vr="LO" vm="1" name="Ctgv Volume Scan"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0009" element="xx80" vr="LO" vm="1" name="Ctgv Mpr Marker"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0009" element="xx90" vr="LO" vm="1" name="Ctgv Category Id"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0019" element="xx08" vr="IS" vm="1" name="Ctgv Patient Insert Direction"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0019" element="xx09" vr="IS" vm="1" name="Ctgv Patient Position"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0019" element="xx0a" vr="IS" vm="1" name="Ctgv Mpr Image"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0019" element="xx10" vr="LO" vm="1" name="Ctgv Stopwatch Designation"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0019" element="xx20" vr="TM" vm="1" name="Ctgv Stopwatch Time"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0019" element="xx50" vr="LO" vm="1" name="Ctgv Scanogram Scanning Direction"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0019" element="xx60" vr="DS" vm="1" name="Ctgv Scanogram Measuring Length"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0019" element="xx61" vr="US" vm="1" name="Ctgv Number Of Scan Lines"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0019" element="xx63" vr="LO" vm="1" name="Ctgv Scan Line Display Class"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0019" element="xx64" vr="US" vm="1-n" name="Ctgv Scan Line Table"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0019" element="xx65" vr="IS" vm="1" name="Ctgv Scanogram Slice Number"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0019" element="xx70" vr="LT" vm="1" name="Ctgv Reconstruction Matrix"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0019" element="xx80" vr="LO" vm="1" name="Ctgv Image Rotation Status Code"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0019" element="xx81" vr="LO" vm="1" name="Ctgv Image Rotation R L Reverse Code"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0019" element="xx90" vr="LO" vm="1" name="Ctgv Interpolate Or Zoom"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0019" element="xxa0" vr="LO" vm="1" name="Ctgv Ecg Indication"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0019" element="xxa1" vr="US" vm="1" name="Ctgv Ecg Phase Number"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0019" element="xxa2" vr="US" vm="1" name="Ctgv Ecg Number Of Phases"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0019" element="xxa3" vr="US" vm="1" name="Ctgv Ecg Sufficiency Rate"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0019" element="xxb0" vr="LO" vm="1" name="Ctgv Calibration Data"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0019" element="xxb1" vr="LO" vm="1" name="Ctgv Air Calibration Lapse"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0021" element="xx20" vr="LO" vm="1" name="Ctgv Scanogram Measuring Mode"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0021" element="xx30" vr="DS" vm="1" name="Ctgv Scanogram Tube Angle"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0021" element="xx40" vr="LO" vm="1" name="Ctgv Measurement Region"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0021" element="xx50" vr="LO" vm="1" name="Ctgv Viewing Direction"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0021" element="xx60" vr="DS" vm="1" name="Ctgv Magnification Factor"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0021" element="xx70" vr="DS" vm="1" name="Ctgv Magnification Deviation X"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0021" element="xx80" vr="DS" vm="1" name="Ctgv Magnification Deviation Y"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0021" element="xx90" vr="DS" vm="1" name="Ctgv Display Effective Fov"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0021" element="xxa0" vr="US" vm="1" name="Ctgv Number Of Mpr Images"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0021" element="xxa1" vr="DS" vm="1" name="Ctgv Mpr Table Start Position"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0021" element="xxa2" vr="DS" vm="1" name="Ctgv Mpr Table End Position"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0021" element="xxa3" vr="DS" vm="1" name="Ctgv Mpr Start Slice Number"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0021" element="xxa4" vr="DS" vm="1" name="Ctgv Mpr End Slice Number"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0021" element="xxb0" vr="LO" vm="1" name="Ctgv Mpdi Code"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0021" element="xxc0" vr="LO" vm="1" name="Ctgv Image Number"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0029" element="xx10" vr="LO" vm="1" name="Ctgv Edge Enhancement"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0029" element="xx30" vr="UL" vm="1" name="Ctgv Slice Line Start X"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0029" element="xx31" vr="UL" vm="1" name="Ctgv Slice Line Start Y"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0029" element="xx32" vr="UL" vm="1" name="Ctgv Slice Line End X"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0029" element="xx33" vr="UL" vm="1" name="Ctgv Slice Line End Y"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0029" element="xx80" vr="LO" vm="1" name="Ctgv Bowel Gas Correction"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0029" element="xx90" vr="LO" vm="1" name="Ctgv Beam Hardening Correction"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0029" element="xxd0" vr="DS" vm="1" name="Ctgv Set Window Level"/>
+  <entry owner="SPI-P-GV-CT Release 1" group="0029" element="xxd1" vr="DS" vm="1" name="Ctgv Set Window Width"/>
+  <entry owner="SPI-P-PCR Release 2" group="0019" element="xx10" vr="US" vm="1" name="Pcr Reader Mode"/>
+  <entry owner="SPI-P-PCR Release 2" group="0019" element="xx20" vr="ST" vm="1" name="Pcr Mrm Code"/>
+  <entry owner="SPI-P-PCR Release 2" group="0019" element="xx30" vr="DS" vm="1" name="Pcr Sensitivity"/>
+  <entry owner="SPI-P-PCR Release 2" group="0019" element="xx40" vr="DS" vm="1" name="Pcr Latitude"/>
+  <entry owner="SPI-P-PCR Release 2" group="0019" element="xx50" vr="LO" vm="1" name="Pcr Plate Barcode"/>
+  <entry owner="SPI-P-PCR Release 2" group="0019" element="xx60" vr="ST" vm="1" name="Pcr View Name"/>
+  <entry owner="SPI-P-PCR Release 2" group="0029" element="xx10" vr="US" vm="1" name="Pcr Display Printing Mode"/>
+  <entry owner="SPI-P-PCR Release 2" group="0029" element="xx20" vr="US" vm="1" name="Pcr Single Mode Image Enhancement"/>
+  <entry owner="SPI-P-PCR Release 2" group="0029" element="xx21" vr="US" vm="1" name="Pcr Single Mode Window"/>
+  <entry owner="SPI-P-PCR Release 2" group="0029" element="xx30" vr="US" vm="1" name="Pcr Dual Mode Left Image Enhancement"/>
+  <entry owner="SPI-P-PCR Release 2" group="0029" element="xx31" vr="US" vm="1" name="Pcr Dual Mode Left Window"/>
+  <entry owner="SPI-P-PCR Release 2" group="0029" element="xx40" vr="US" vm="1" name="Pcr Dual Mode Right Image Enhancement"/>
+  <entry owner="SPI-P-PCR Release 2" group="0029" element="xx41" vr="US" vm="1" name="Pcr Dual Mode Right Window"/>
+  <entry owner="SPI-P-Private-CWS Release 1" group="0021" element="xx00" vr="LO" vm="1" name="Cws Window Of Images Id"/>
+  <entry owner="SPI-P-Private-CWS Release 1" group="0021" element="xx01" vr="LO" vm="1" name="Cws Window Of Images Type"/>
+  <entry owner="SPI-P-Private-CWS Release 1" group="0021" element="xx02" vr="IS" vm="1-n" name="Cws Window Of Images Scope"/>
+  <entry owner="SPI-P-Private-CWS Release 1" group="0021" element="xx0d" vr="LO" vm="1" name="Cws Window Of Images Kind"/>
+  <entry owner="SPI-P-Private-CWS Release 1" group="0021" element="xx0e" vr="LO" vm="1" name="Cws Window Of Images Enable Status"/>
+  <entry owner="SPI-P-Private-CWS Release 1" group="0021" element="xx0f" vr="LO" vm="1" name="Cws Window Of Images Select Status"/>
+  <entry owner="SPI-P-Private-DCI Release 1" group="0019" element="xx10" vr="US" vm="1" name="Dci Ecg Time Map Data Bits Allocated"/>
+  <entry owner="SPI-P-Private-DCI Release 1" group="0019" element="xx11" vr="US" vm="1" name="Dci Ecg Time Map Data Bits Stored"/>
+  <entry owner="SPI-P-Private-DCI Release 1" group="0019" element="xx12" vr="US" vm="1" name="Dci Ecg Time Map Data High Bit"/>
+  <entry owner="SPI-P-Private-DCI Release 1" group="0019" element="xx13" vr="US" vm="1" name="Dci Ecg Time Map Data Representation"/>
+  <entry owner="SPI-P-Private-DCI Release 1" group="0019" element="xx14" vr="US" vm="1" name="Dci Ecg Time Map Smallest Data Value"/>
+  <entry owner="SPI-P-Private-DCI Release 1" group="0019" element="xx15" vr="US" vm="1" name="Dci Ecg Time Map Largest Data Value"/>
+  <entry owner="SPI-P-Private-DCI Release 1" group="0019" element="xx16" vr="US" vm="1" name="Dci Ecg Time Map Number Of Data Values"/>
+  <entry owner="SPI-P-Private-DCI Release 1" group="0019" element="xx17" vr="OW" vm="1-n" name="Dci Ecg Time Map Data"/>
+  <entry owner="SPI-P-Private_CDS Release 1" group="0021" element="xx10" vr="UI" vm="1" name="Vol Uid"/>
+  <entry owner="SPI-P-Private_CDS Release 1" group="0021" element="xx20" vr="UI" vm="1" name="Cds Composite Folder Uid"/>
+  <entry owner="SPI-P-Private_CDS Release 1" group="0021" element="xx30" vr="LO" vm="2" name="Cds Pcdc Sequence"/>
+  <entry owner="SPI-P-Private_CDS Release 1" group="0021" element="xx40" vr="IS" vm="1" name="Mr Acquisition Number"/>
+  <entry owner="SPI-P-Private_CDS Release 1" group="0021" element="xx50" vr="UI" vm="1" name="Cardio Uid"/>
+  <entry owner="SPI-P-Private_CDS Release 1" group="0029" element="xx00" vr="OB" vm="1-n" name="Cds Object Saver Stream"/>
+  <entry owner="SPI-P-Private_CDS Release 1" group="0029" element="xx10" vr="OB" vm="1-n" name="Cds Symbol Table Stream"/>
+  <entry owner="SPI-P-Private_CDS Release 1" group="0029" element="xx20" vr="UL" vm="1" name="Cds Surface Bulk Data Length"/>
+  <entry owner="SPI-P-Private_CDS Release 1" group="0029" element="xx30" vr="UL" vm="1" name="Cds Volume Object Bulk Data Length"/>
+  <entry owner="SPI-P-Private_CDS Release 1" group="0029" element="xx40" vr="US" vm="1" name="Cds Depth Rows"/>
+  <entry owner="SPI-P-Private_CDS Release 1" group="0029" element="xx50" vr="US" vm="1" name="Cds Depth Columns"/>
+  <entry owner="SPI-P-Private_CDS Release 1" group="0029" element="xx60" vr="US" vm="1" name="Cds Depth Bits Allocated"/>
+  <entry owner="SPI-P-Private_CDS Release 1" group="0029" element="xx70" vr="US" vm="1" name="Cds Depth Bits Stored"/>
+  <entry owner="SPI-P-Private_CDS Release 1" group="0029" element="xx72" vr="OB" vm="1-n" name="Cds Ref Vol Object"/>
+  <entry owner="SPI-P-Private_CDS Release 1" group="0029" element="xx74" vr="UL" vm="1" name="Cds Ref Vol Bulk Data Length"/>
+  <entry owner="SPI-P-Private_CDS Release 1" group="0029" element="xx80" vr="SQ" vm="1" name="Cds Composite Sequence"/>
+  <entry owner="SPI-P-Private_CDS Release 1" group="0029" element="xx90" vr="SQ" vm="1" name="Cds Image Sequence"/>
+  <entry owner="SPI-P-Private_CDS Release 1" group="0029" element="xxa0" vr="SQ" vm="1" name="Cds Binary Volume Sequence"/>
+  <entry owner="SPI-P-Private_CDS Release 1" group="7fe1" element="xx20" vr="OB" vm="1-n" name="Cds Surface Bulk Data"/>
+  <entry owner="SPI-P-Private_CDS Release 1" group="7fe1" element="xx30" vr="OB" vm="1-n" name="Cds Volume Object Bulk Data"/>
+  <entry owner="SPI-P-Private_CDS Release 1" group="7fe1" element="xx40" vr="OB" vm="1-n" name="Cds Depth Pixel Data"/>
+  <entry owner="SPI-P-Private_CDS Release 1" group="7fe1" element="xx50" vr="OB" vm="1-n" name="Cds Ref Vol Bulk Data"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0019" element="xx30" vr="DS" vm="1" name="Table Speed"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0019" element="xx31" vr="LO" vm="1-n" name="Mr Scan Technique"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0019" element="xx32" vr="OB" vm="1-n" name="Unknown Spi Byte Order Elements"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0019" element="xx33" vr="OB" vm="1-n" name="Unknown Non Spi Byte Order Elements"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx00" vr="LO" vm="1" name="Slice As Last Seen Protocol"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx01" vr="SQ" vm="1" name="As Last Seen Image Set Cut Out"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx02" vr="SQ" vm="1" name="As Last Seen Image Set Spatial Enhancement"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx03" vr="SQ" vm="1" name="As Last Seen Image Set Lut"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx04" vr="SQ" vm="1" name="As Last Seen Image Composition"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx05" vr="SQ" vm="1" name="As Last Seen Image Set Shutters"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx06" vr="SQ" vm="1" name="Slice Geometry"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx07" vr="SQ" vm="1" name="Protocol Set Of Gfx Objects"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx08" vr="SQ" vm="1" name="User Set Of Gfx Objects"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx09" vr="SQ" vm="1" name="As Last Seen Set Of Gfx Objects"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx0a" vr="SL" vm="1" name="Cardio Image Type"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx0b" vr="SQ" vm="1" name="Cardio Gfx Objects"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx0c" vr="SQ" vm="1" name="Spine Gfx Objects"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx0d" vr="SQ" vm="1" name="Protocol Image Window"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx0e" vr="SQ" vm="1" name="Protocol Spatial Enhancement"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx0f" vr="SQ" vm="1" name="Protocol Lut"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx10" vr="SQ" vm="1" name="Second Protocol Lut"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx12" vr="SQ" vm="1" name="User Spatial Enhancement"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx13" vr="SQ" vm="1" name="Vascular Gfx Objects"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx14" vr="SQ" vm="1" name="As Last Seen Image Window"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx15" vr="SQ" vm="1" name="As Last Seen Spatial Enhancement"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx16" vr="SQ" vm="1" name="As Last Seen Lut"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx18" vr="FD" vm="1" name="User Pixel Size X"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx19" vr="SQ" vm="1" name="Registration Pointsets"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx1a" vr="SQ" vm="1" name="Registration Trajectories"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx1b" vr="SQ" vm="1" name="User Image Window"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx1c" vr="SQ" vm="1" name="User Lut"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx1d" vr="SQ" vm="1" name="Protocol Shutters"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx1e" vr="SQ" vm="1" name="User Shutters"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx1f" vr="SQ" vm="1" name="As Last Seen Shutters"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx20" vr="IS" vm="1" name="Masking Image Number"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx21" vr="SQ" vm="1" name="Image Processing Information"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx22" vr="FD" vm="1-n" name="Merge Scale And Offset1"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx23" vr="FD" vm="1-n" name="Merge Scale And Offset2"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx24" vr="LO" vm="1" name="Merge Color1"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx25" vr="LO" vm="1" name="Merge Color2"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx26" vr="SL" vm="1" name="Merge Mode"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx27" vr="SL" vm="1" name="Merge Shutter Mode"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx28" vr="SL" vm="1-n" name="Merge Shutter Position"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx29" vr="SL" vm="1" name="Merge Select Mode"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx2a" vr="SL" vm="1-n" name="Merge Select Thresholds"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx2b" vr="SL" vm="1" name="Merge Fuse Mode"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx2c" vr="FD" vm="1" name="Merge Fuse Weight"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx2d" vr="LO" vm="1-n" name="Merge Surface Colors"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx2e" vr="FD" vm="1-n" name="Merge Surface Dimmings"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx2f" vr="FD" vm="1-n" name="Merge Surface Translucencies"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx30" vr="SL" vm="1" name="Merge Surface Background"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx31" vr="LO" vm="1-n" name="Vol Image Uvids"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx32" vr="SQ" vm="1" name="Vol Geometry"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx33" vr="SQ" vm="1" name="Vol Brick Size"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx34" vr="SQ" vm="1" name="Vol Landmarks"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx35" vr="SQ" vm="1" name="Vol Registrations"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx36" vr="SQ" vm="1" name="Slice Reformat Protocols"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx37" vr="SQ" vm="1" name="Slice Stack Trees"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx38" vr="LO" vm="1" name="Vol Object Name"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx39" vr="SQ" vm="1" name="Vol Object"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx3a" vr="LO" vm="1" name="Vol Surface Name"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx3b" vr="SQ" vm="1" name="Vol Surface"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx3c" vr="LO" vm="1" name="Object Surface Object Uvid"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx3d" vr="LO" vm="1" name="Db Folder Type"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx3e" vr="LO" vm="1" name="Db Folder Name"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx3f" vr="LO" vm="1" name="Db Folder Subname"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx40" vr="LO" vm="1" name="Db Folder Comment"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx41" vr="SQ" vm="1" name="Protocol Image Set Cut Out"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx42" vr="SQ" vm="1" name="Protocol Image Set Spatial Enhancement"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx43" vr="SQ" vm="1" name="Protocol Image Set Lut"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx44" vr="SQ" vm="1" name="Protocol Image Set Second Lut"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx45" vr="SQ" vm="1" name="Protocol Image Composition"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx46" vr="SQ" vm="1" name="Protocol Image Set Shutters"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx47" vr="SQ" vm="1" name="User Image Set Cut Out"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx48" vr="SQ" vm="1" name="User Image Set Spatial Enhancement"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx49" vr="SQ" vm="1" name="User Image Set Lut"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx4a" vr="SQ" vm="1" name="User Image Composition"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx4b" vr="SQ" vm="1" name="User Image Set Shutters"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx4c" vr="SQ" vm="1" name="Field Of Reconstruction"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx4d" vr="SQ" vm="1" name="For Conversion"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx4e" vr="FD" vm="1" name="For Origin X"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx4f" vr="FD" vm="1" name="For Origin Y"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx50" vr="FD" vm="1" name="For Extent X"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx51" vr="FD" vm="1" name="For Extent Y"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx52" vr="LO" vm="1" name="Contrast Image Uid"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx53" vr="FD" vm="1" name="Harmonisation Factor"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx54" vr="FD" vm="1" name="Harmonisation Gain"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx55" vr="SL" vm="1" name="Harmonisation Kernel Size X"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx56" vr="SL" vm="1" name="Harmonisation Kernel Size Y"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx57" vr="FD" vm="1" name="Harmonisation Offset"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx58" vr="SQ" vm="1" name="Image Composition Settings"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx59" vr="SQ" vm="1" name="Image Composition Components"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx5a" vr="FD" vm="1" name="Mask Area Origin X"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx5b" vr="FD" vm="1" name="Mask Area Origin Y"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx5c" vr="FD" vm="1" name="Mask Area Extent X"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx5d" vr="FD" vm="1" name="Mask Area Extent Y"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx5e" vr="FD" vm="1" name="Mask Grey Level"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx5f" vr="SQ" vm="1" name="Mask Image Composition"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx60" vr="FD" vm="1" name="Mask Landmarking"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx61" vr="LO" vm="1" name="Mask Image Uid"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx62" vr="FD" vm="1" name="Mask Shift X"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx63" vr="FD" vm="1" name="Mask Shift Y"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx64" vr="LO" vm="1" name="Non Linear Conversion Id"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx65" vr="LO" vm="1" name="Non Linear Conversion Group Id"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx66" vr="DS" vm="4" name="User Calibration Line"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx67" vr="LO" vm="1" name="Image Source"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx68" vr="US" vm="1" name="Ipi Processing"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx69" vr="US" vm="1" name="Ipi Is Cardio Exam"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx6a" vr="LO" vm="1" name="Ipi Hardware Lut"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx6b" vr="US" vm="1" name="Ipi Retain Unprocessed"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx6c" vr="IS" vm="1" name="Selected Image Composition"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx6d" vr="FL" vm="6" name="Warp Transformation"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx6e" vr="IS" vm="1-n" name="Image Composition Order"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx6f" vr="SL" vm="1" name="Non Linear Conversion Lut Type"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx70" vr="SL" vm="1" name="Subtraction Type"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx71" vr="LO" vm="1-n" name="Cardio Image Uvids"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx80" vr="SQ" vm="1" name="Vol Contours"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx81" vr="SQ" vm="1" name="Vol Frame Coordinates"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx82" vr="SQ" vm="1" name="Vol Segments"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx83" vr="SQ" vm="1" name="Vol Ves Analyses"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx90" vr="PN" vm="1-n" name="Recording Physicians"/>
+  <entry owner="SPI-P-Private_ICS Release 1" group="0029" element="xx91" vr="IS" vm="1" name="Masking Run Number"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx00" vr="SL" vm="1" name="Object Type"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx05" vr="FL" vm="1" name="Lut Pixel Value Low"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx06" vr="FL" vm="1" name="Lut Pixel Value High"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx10" vr="FL" vm="1" name="Lut Range 1 Low"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx11" vr="FL" vm="1" name="Lut Range 1 High"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx12" vr="FL" vm="1" name="Lut Range 2 Low"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx13" vr="FL" vm="1" name="Lut Range 2 High"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx1a" vr="FL" vm="1" name="Lut Histogram Range Low"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx1b" vr="FL" vm="1" name="Lut Histogram Range High"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx1c" vr="FL" vm="1" name="Lut Gain"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx20" vr="FL" vm="1" name="Lut Range Low"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx21" vr="FL" vm="1" name="Lut Range High"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx22" vr="US" vm="1" name="Lut Smoothed"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx23" vr="FD" vm="1" name="Lut Smooth Factor Lower"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx24" vr="FD" vm="1" name="Lut Smooth Factor Upper"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx25" vr="FD" vm="1" name="Lut Smooth Level Lower"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx26" vr="FD" vm="1" name="Lut Smooth Level Upper"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx27" vr="US" vm="1" name="Lut Contrast Stretched"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx30" vr="ST" vm="1" name="Gfx Text"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx31" vr="FL" vm="1" name="Chart Position X"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx32" vr="FL" vm="1" name="Chart Position Y"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx33" vr="SL" vm="1" name="Gfx Alignment"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx34" vr="US" vm="1" name="Gfx Color"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx35" vr="LO" vm="1" name="Gfx Font Family"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx36" vr="SL" vm="1" name="Gfx Font Point Size"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx37" vr="SQ" vm="1" name="Gfx Pointed Text"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx40" vr="SQ" vm="1" name="Chart Functions"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx41" vr="SQ" vm="1" name="Chart Axes"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx42" vr="SQ" vm="1" name="Chart Annotations"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx43" vr="FL" vm="4" name="Chart Chart Area"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx44" vr="FL" vm="4" name="Chart Domain Area"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx45" vr="FL" vm="2" name="Chart Origin"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx46" vr="FL" vm="4" name="Chart Legend Area"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx47" vr="US" vm="1" name="Gfx Background Color"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx50" vr="SQ" vm="1" name="Binary Volume Geometry"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx51" vr="SL" vm="3" name="Binary Volume Brick Size"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx56" vr="LO" vm="1" name="Vol Name"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx57" vr="LO" vm="1" name="Cardio Name"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx5a" vr="SQ" vm="1" name="Vol Seg History"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx5b" vr="SQ" vm="1" name="Vol Seg History Slices"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx60" vr="LO" vm="1" name="Chart Name"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx61" vr="LO" vm="1" name="Chart Units"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx62" vr="FD" vm="1" name="Chart X Domain Low"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx63" vr="FD" vm="1" name="Chart X Domain High"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx64" vr="FD" vm="1" name="Chart Major Tick"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx65" vr="FD" vm="1" name="Chart Minor Tick"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx66" vr="SL" vm="1" name="Chart Axis Orientation"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx67" vr="SL" vm="1" name="Chart Axis Position"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx68" vr="SL" vm="1" name="Chart Units Position"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx69" vr="FD" vm="1" name="Chart Exponent"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx6a" vr="LO" vm="1" name="Chart Format String"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx6b" vr="FD" vm="1" name="Gfx Line Width"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx6c" vr="FD" vm="1" name="Gfx Tick Mark Major Length"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx6d" vr="FD" vm="1" name="Gfx Tick Mark Minor Length"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx6e" vr="LO" vm="1" name="Chart Font Family A"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx6f" vr="SL" vm="1" name="Chart Font Style A"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx70" vr="SL" vm="1" name="Chart Font Point Size A"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx71" vr="LO" vm="1" name="Chart Font Family B"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx72" vr="SL" vm="1" name="Chart Font Style B"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx73" vr="SL" vm="1" name="Chart Font Point Size B"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx74" vr="LO" vm="1" name="Chart Font Family C"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx75" vr="SL" vm="1" name="Chart Font Style C"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx76" vr="SL" vm="1" name="Chart Font Point Size C"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx77" vr="US" vm="1" name="Chart X Autoscale"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx78" vr="US" vm="1" name="Chart Is Integer"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx80" vr="FD" vm="1" name="Geo Precision"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx81" vr="FD" vm="1" name="Geo Accuracy"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx82" vr="LO" vm="1" name="Geo Name"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx83" vr="FD" vm="1-n" name="Geo Matrix"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx85" vr="FL" vm="3" name="Geo Origin"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx86" vr="FL" vm="3" name="Geo X Axis"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx87" vr="FL" vm="3" name="Geo Y Axis"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx88" vr="FL" vm="3" name="Geo Z Axis"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx8a" vr="FL" vm="3" name="Geo Extent 3d"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx8b" vr="FD" vm="1" name="Geo Object Distance"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx8c" vr="SL" vm="1" name="Geo Perspective Mode"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx8d" vr="FD" vm="1" name="Geo Perspective Tangent"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx90" vr="SQ" vm="1" name="Geo Contents"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx91" vr="UL" vm="1" name="Geo Control Point Limit"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx95" vr="FL" vm="3" name="Geo Coordinate"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx96" vr="SQ" vm="1" name="Geo Paired Coordinate"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx9a" vr="SL" vm="1" name="Geo Path Size"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx9b" vr="FL" vm="1-n" name="Geo Path"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xx9c" vr="FD" vm="1" name="Geo Bulge"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxa0" vr="FD" vm="1" name="Vol Seg Edit Depth"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxa1" vr="SL" vm="1" name="Vol Seg Edit Contour Mode"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxa5" vr="FL" vm="3" name="Geo Linear Axis"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxa6" vr="SL" vm="1" name="Geo Orientation"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxa7" vr="FL" vm="2" name="Geo Extent 2d"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxaa" vr="SQ" vm="1" name="Geo Tree Path"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxab" vr="SQ" vm="1" name="Geo Tree Branches"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxac" vr="UL" vm="1" name="Geo Tree Origin"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxad" vr="US" vm="1" name="Geo Tree Selected"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxb0" vr="UL" vm="1" name="Vol Seg Select Neighbors"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxb1" vr="SL" vm="1" name="Vol Seg Select Connectivity"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxb2" vr="US" vm="1" name="Vol Seg Select Remove Holes"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxb3" vr="US" vm="1" name="Vol Seg Select Remove Islands"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxb4" vr="SL" vm="1" name="Vol Seg Select Morphology Operation"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxb5" vr="UL" vm="1" name="Vol Seg Select Threshold"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxb6" vr="UL" vm="1" name="Vol Seg Select Dilations"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxb7" vr="SL" vm="1" name="Vol Seg Select Iterations"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxba" vr="SL" vm="1" name="Vol Seg Select Threshold Mode"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxbb" vr="UL" vm="1" name="Vol Seg Select Threshold Lower"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxbc" vr="UL" vm="1" name="Vol Seg Select Threshold Upper"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxbe" vr="SL" vm="1" name="Vol Seg Select Object Size Mode"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxbf" vr="SL" vm="1" name="Vol Seg Select Object Size Threshold"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxc0" vr="UL" vm="1" name="Lut Length"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxc1" vr="US" vm="1" name="Lut Invert"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxc2" vr="US" vm="1" name="Lut White Suppress"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxc3" vr="US" vm="1" name="Lut Photo"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxc4" vr="US" vm="1" name="Lut Level Detect"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxc5" vr="SL" vm="1" name="Lut Level Detect Mode"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxc6" vr="US" vm="1" name="Lut Level Detect Color"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxc7" vr="FL" vm="1" name="Lut Level Detect Low"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxc8" vr="FL" vm="1" name="Lut Level Detect High"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxc9" vr="FL" vm="1" name="Lut Black Level"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxca" vr="FL" vm="1" name="Lut White Level"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxcb" vr="FD" vm="1" name="Lut Contrast"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxcc" vr="FD" vm="1" name="Lut Brightness"/>
+  <entry owner="SPI-P-Private_ICS Release 1;1" group="0029" element="xxcd" vr="SQ" vm="1" name="Lut Function"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx00" vr="FD" vm="1" name="Image Window Zoom Factor"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx01" vr="FD" vm="1" name="Image Window Center X"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx02" vr="FD" vm="1" name="Image Window Center Y"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx03" vr="SL" vm="1" name="Image Window Zoom Type"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx04" vr="SL" vm="1" name="Image Window Interpolation Method"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx05" vr="SL" vm="1" name="Image Window Orientation"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx10" vr="SL" vm="1" name="Pixel Conversion Method"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx11" vr="LO" vm="1" name="Pixel Conversion Scale"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx12" vr="FL" vm="1" name="Pixel Conversion Tangent"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx13" vr="FL" vm="1" name="Pixel Conversion Offset"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx20" vr="SQ" vm="1" name="Object Surface Geometry"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx21" vr="SL" vm="3" name="Object Surface Brick Size"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx30" vr="LT" vm="1" name="Function Samples"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx40" vr="SL" vm="1" name="Chart Style"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx41" vr="US" vm="1" name="Gfx Fill Color"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx42" vr="SL" vm="1" name="Chart Fill Mode"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx43" vr="SL" vm="1" name="Chart Marker Type"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx44" vr="US" vm="1" name="Chart Marker Color"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx45" vr="FD" vm="1" name="Chart Marker Size"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx46" vr="US" vm="1" name="Chart Y Autoscale"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx47" vr="US" vm="1" name="Chart Y Domain Low"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx48" vr="US" vm="1" name="Chart Y Domain High"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx49" vr="SL" vm="1" name="Chart Rotate"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx50" vr="SQ" vm="1" name="Vol Seg Selectors"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx51" vr="SQ" vm="1" name="Vol Seg Edits"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx52" vr="US" vm="1" name="Vol Seg Propose As Object"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx53" vr="UL" vm="1" name="Vol Seg Cut Mode"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx55" vr="SQ" vm="1" name="Vol Seg Edit Geometry"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx60" vr="SQ" vm="1" name="Slice Stack Nominal Geometry"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx61" vr="US" vm="1" name="Slice Stack Fix Matrix"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx62" vr="US" vm="1" name="Slice Stack Fix Depth"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx63" vr="UL" vm="1" name="Slice Stack Depth"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx64" vr="FD" vm="1" name="Slice Stack Reformat Pitch"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx65" vr="FD" vm="1" name="Slice Stack Reformat Begin"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx66" vr="FD" vm="1" name="Slice Stack Reformat End"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx67" vr="UL" vm="1" name="Slice Stack Orientation"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx68" vr="UL" vm="1" name="Slice Stack Interpolation"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx69" vr="SQ" vm="1" name="Slice Stack Pixel Conversion"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx70" vr="SQ" vm="1" name="Slice Stack Path"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx80" vr="SQ" vm="1" name="Vol Seg Current Geometry"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx81" vr="FD" vm="1" name="Vol Seg Propagate Area Variance"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx82" vr="US" vm="1" name="Vol Seg Inherit Contours"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx83" vr="US" vm="1" name="Vol Seg Inherit Seeds"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx84" vr="US" vm="1" name="Vol Seg Inherit Cuts"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx85" vr="US" vm="1" name="Vol Seg Propagate Override"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx86" vr="US" vm="1" name="Vol Seg Propagate Merge"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx87" vr="FD" vm="1" name="Vol Seg Seed Position Variance"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx90" vr="LO" vm="1" name="Vol Reg Target Uvid"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx91" vr="UL" vm="1" name="Vol Reg Mode"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx92" vr="UL" vm="1" name="Vol Reg Transform Mode"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx93" vr="SQ" vm="1" name="Vol Reg Source Landmarks"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx94" vr="SQ" vm="1" name="Vol Reg Target Landmarks"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx95" vr="SS" vm="1" name="Vol Reg Transformer"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xx96" vr="FD" vm="1" name="Vol Reg Error"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxa0" vr="SL" vm="1" name="Spatial Enhancement Type"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxa1" vr="FD" vm="1" name="Spatial Enhancement Gain"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxa2" vr="SL" vm="1" name="Spatial Enhancement Kernel Size X"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxa3" vr="SL" vm="1" name="Spatial Enhancement Kernel Size Y"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxa4" vr="SL" vm="1" name="Spatial Enhancement Kernel Size"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxa5" vr="SQ" vm="1" name="Spatial Enhancement Transfer Function"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxa6" vr="SL" vm="1" name="Spatial Enhancement Kernel Fill Type"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxb0" vr="LO" vm="1" name="Slice Protocol Name"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxb1" vr="SQ" vm="1" name="Slice Patient Coordinates"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxb2" vr="SQ" vm="1" name="Slice View Coordinates"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxb3" vr="SQ" vm="1" name="Slice Axial View Geometry"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxb4" vr="SQ" vm="1" name="Slice Sagittal View Geometry"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxb5" vr="SQ" vm="1" name="Slice Coronal View Geometry"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxb6" vr="SQ" vm="1" name="Slice Lut"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxb7" vr="SQ" vm="1" name="Slice Panorama Lut"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxb8" vr="SQ" vm="1" name="Slice Axial Lut"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxb9" vr="SQ" vm="1" name="Slice Cut Lut"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxba" vr="SQ" vm="1" name="Slice Scanogram Lut"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxbb" vr="SQ" vm="1" name="Slice Path Geometry"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxbc" vr="SQ" vm="1" name="Slice Stack"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxbd" vr="UL" vm="1" name="Slice Stack Reference View"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxbe" vr="UL" vm="1" name="Slice Stack View Offset"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxbf" vr="SL" vm="1" name="Slice Stack View Layout Columns"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxc0" vr="SL" vm="1" name="Slice Stack View Layout Rows"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxc1" vr="US" vm="1" name="Slice Stack Reference Axial"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxc2" vr="US" vm="1" name="Slice Stack Reference Sagittal"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxc3" vr="US" vm="1" name="Slice Stack Reference Coronal"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxd0" vr="SQ" vm="1" name="Vol Classification Function"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxd1" vr="LO" vm="1" name="Vol Segment Target Uid"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxd2" vr="US" vm="1" name="Vol Segment Inverse Gradient"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxd3" vr="SL" vm="1" name="Vol Segment Region Mode"/>
+  <entry owner="SPI-P-Private_ICS Release 1;2" group="0029" element="xxd4" vr="SL" vm="1" name="Vol Segment Rendering Mode"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx00" vr="LO" vm="1" name="Object Label"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx01" vr="ST" vm="1" name="Object Name"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx05" vr="FD" vm="1" name="Gfx Physio Marker Time"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx06" vr="FD" vm="1" name="Gfx Physio Marker Start"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx07" vr="FD" vm="1" name="Gfx Physio Marker End"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx10" vr="FD" vm="1" name="Geo Extent"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx20" vr="US" vm="1" name="Gfx Arrowhead First"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx30" vr="FD" vm="1" name="Gfx Tick Mark Distance"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx31" vr="UL" vm="1" name="Gfx Tick Mark Ratio"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx32" vr="SL" vm="1" name="Gfx Tick Mark Minor Width"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx33" vr="SL" vm="1" name="Gfx Tick Mark Major Width"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx34" vr="US" vm="1" name="Gfx Autoscale"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx40" vr="SL" vm="1" name="Gfx Vertebra Marker Type"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx43" vr="SQ" vm="1" name="Object Matrix"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx44" vr="US" vm="1" name="Object Matrix Column"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx45" vr="US" vm="1" name="Object Matrix Columns"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx46" vr="SQ" vm="1" name="Object Matrix Element"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx47" vr="US" vm="1" name="Object Matrix Row"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx48" vr="US" vm="1" name="Object Matrix Rows"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx50" vr="SL" vm="1" name="Vol Seg Edit Seed Mode"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx51" vr="SL" vm="1" name="Vol Seg Edit Connectivity"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx60" vr="US" vm="1" name="Gfx Display Labels"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx61" vr="FL" vm="1-n" name="Gfx Pixel Values"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx65" vr="US" vm="1" name="Gfx Resampling"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx6a" vr="FL" vm="1" name="Gfx Smooth Factor"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx70" vr="FD" vm="1" name="Gfx Min Zoom Inset Size"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx80" vr="LO" vm="1" name="Object Surface Name"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx81" vr="US" vm="1" name="Object Surface Object Key"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx82" vr="LO" vm="1" name="Object Surface Color Name"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx83" vr="FD" vm="1" name="Object Surface Ambient"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx84" vr="FD" vm="1" name="Object Surface Diffuse"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx85" vr="FD" vm="1" name="Object Surface Specular"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx86" vr="FD" vm="1" name="Object Surface Specular Power"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx87" vr="FD" vm="1" name="Object Surface Color Low H"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx88" vr="FD" vm="1" name="Object Surface Color Low L"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx89" vr="FD" vm="1" name="Object Surface Color Low S"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx8a" vr="FD" vm="1" name="Object Surface Color High H"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx8b" vr="FD" vm="1" name="Object Surface Color High L"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx8c" vr="FD" vm="1" name="Object Surface Color High S"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx8d" vr="FD" vm="1" name="Object Surface Color R"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx8e" vr="FD" vm="1" name="Object Surface Color G"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx8f" vr="FD" vm="1" name="Object Surface Color B"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx90" vr="SQ" vm="1" name="Object Surface Attributes"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx91" vr="UL" vm="1" name="Object Surface Gradient"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx92" vr="UL" vm="1" name="Object Surface Gradient Mode"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx93" vr="UL" vm="1" name="Object Surface Oversample"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx94" vr="UL" vm="1" name="Object Surface Smoothing"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx9a" vr="SQ" vm="1" name="Vol Surf Attributes"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx9b" vr="SQ" vm="1" name="Vol Surf Attr Color"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx9c" vr="FD" vm="1" name="Vol Surf Attr Ambient"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx9d" vr="FD" vm="1" name="Vol Surf Attr Diffuse"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx9e" vr="FD" vm="1" name="Vol Surf Attr Specular"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx9f" vr="FD" vm="1" name="Vol Surf Attr Specular Power"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxa0" vr="SL" vm="1" name="Geo Size X"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxa1" vr="SL" vm="1" name="Geo Size Y"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxa2" vr="SL" vm="1" name="Geo Size Z"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxa3" vr="FL" vm="3" name="Geo Source Origin"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxb0" vr="SL" vm="1" name="Color Drawfunction"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxb1" vr="FL" vm="1" name="Color Component A"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxb2" vr="FL" vm="1" name="Color Component B"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxb3" vr="FL" vm="1" name="Color Component C"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxb4" vr="FL" vm="1" name="Color Component G"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxb5" vr="FL" vm="1" name="Color Component H"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxb6" vr="FL" vm="1" name="Color Component K"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxb7" vr="FL" vm="1" name="Color Component L"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxb8" vr="FL" vm="1" name="Color Component M"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxb9" vr="FL" vm="1" name="Color Component R"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxba" vr="FL" vm="1" name="Color Component S"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxbb" vr="FL" vm="1" name="Color Component V"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxbc" vr="FL" vm="1" name="Color Component Y"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxc0" vr="SQ" vm="1" name="Color"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxc1" vr="SQ" vm="1" name="Color Foreground"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxc2" vr="SQ" vm="1" name="Color Background"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxc3" vr="SQ" vm="1" name="Color 0"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxc4" vr="SQ" vm="1" name="Color 1"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxc5" vr="SQ" vm="1" name="Color 2"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxc6" vr="SQ" vm="1" name="Color 3"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxd0" vr="SL" vm="1" name="Color Model"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxd1" vr="FD" vm="1" name="Color Alpha"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxd2" vr="FD" vm="1" name="Color Blue"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxd3" vr="FD" vm="1" name="Color Green"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxd4" vr="FD" vm="1" name="Color Red"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxd5" vr="FD" vm="1" name="Color Hue"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxd6" vr="FD" vm="1" name="Color Lightness"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxd7" vr="FD" vm="1" name="Color Saturation"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxe0" vr="SQ" vm="1" name="Background Color"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxe5" vr="SQ" vm="1" name="Light Source Color"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxe6" vr="FD" vm="1" name="Light Source Intensity"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxe7" vr="SL" vm="1" name="Light Source Position"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxe8" vr="FD" vm="1" name="Light Source Horizontal Angle"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxe9" vr="FD" vm="1" name="Light Source Vertical Angle"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxf0" vr="SQ" vm="1" name="Vol Ves Analysis Tree"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxf1" vr="SQ" vm="1" name="Vol Ves Branch Analyses"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxf2" vr="SQ" vm="1" name="Vol Ves Branch Analysis Histories"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxf3" vr="LO" vm="1-n" name="Vol Ves Branch Analysis Labels"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxf4" vr="FD" vm="1" name="Vol Ves Branch Analysis Anchor"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxf5" vr="UL" vm="1" name="Vol Ves Branch Analysis Ref Index"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxf6" vr="FD" vm="1" name="Vol Ves Branch Analysis Start"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxf7" vr="FD" vm="1" name="Vol Ves Branch Analysis End"/>
+  <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xxf8" vr="FD" vm="1" name="Vol Ves Branch Analysis Pitch"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx00" vr="UL" vm="1" name="Gfx Number Of Points"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx01" vr="FL" vm="1-n" name="Gfx Points"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx02" vr="SQ" vm="1" name="Gfx Label"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx03" vr="US" vm="1" name="Gfx Contrasted"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx04" vr="US" vm="1" name="Gfx Handle Color"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx05" vr="US" vm="1" name="Gfx Handle Border Color"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx06" vr="UL" vm="1" name="Gfx Handle Size"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx07" vr="SL" vm="1" name="Gfx Line Type"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx08" vr="US" vm="1" name="Gfx Constrain Movements"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx09" vr="FL" vm="1" name="Gfx Movement Area Origin X"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx0a" vr="FL" vm="1" name="Gfx Movement Area Origin Y"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx0b" vr="FL" vm="1" name="Gfx Movement Area Corner X"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx0c" vr="FL" vm="1" name="Gfx Movement Area Corner Y"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx0d" vr="US" vm="1" name="Gfx Selectable"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx0e" vr="US" vm="1" name="Gfx Dragable"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx0f" vr="US" vm="1" name="Gfx Resizeable"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx10" vr="SL" vm="1" name="Gfx Display Level"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx20" vr="SQ" vm="1" name="Geo Projection Plane"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx21" vr="SQ" vm="1" name="Geo Geometry"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx22" vr="US" vm="1" name="Geo Hidden Color"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx23" vr="SL" vm="1" name="Geo Hidden Line Type"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx24" vr="FD" vm="1" name="Geo Depth Tolerance"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx30" vr="US" vm="1" name="Show Directions 0"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx31" vr="US" vm="1" name="Show Directions 1"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx32" vr="US" vm="1" name="Show Directions 2"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx33" vr="US" vm="1" name="Show Directions 3"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx34" vr="US" vm="1" name="Show Directions 4"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx35" vr="US" vm="1" name="Show Directions 5"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx36" vr="US" vm="1" name="Viewport Sides 0"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx37" vr="US" vm="1" name="Viewport Sides 1"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx38" vr="US" vm="1" name="Viewport Sides 2"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx39" vr="US" vm="1" name="Viewport Sides 3"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx3a" vr="US" vm="1" name="Fix Positions"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx3b" vr="FD" vm="1" name="Fixed Offsets 0"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx3c" vr="FD" vm="1" name="Fixed Offsets 1"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx3d" vr="FD" vm="1" name="Fixed Offsets 2"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx3e" vr="FD" vm="1" name="Fixed Offsets 3"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx3f" vr="FD" vm="1" name="Font Size"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx40" vr="US" vm="1" name="Font Size Absolute"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx45" vr="SL" vm="1" name="Geo Alignment"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx46" vr="US" vm="1" name="Geo Display Name"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx47" vr="US" vm="1" name="Geo Display Annotation"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx48" vr="SL" vm="1" name="Geo Annotation Alignment"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx49" vr="SQ" vm="1" name="Geo Annotation"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx50" vr="SL" vm="1" name="Geo Minor Tick Offset"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx51" vr="SL" vm="1" name="Geo Minor Ticks Per Major Tick"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx52" vr="SL" vm="1" name="Geo Minor Style"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx53" vr="SL" vm="1" name="Geo Major Style"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx54" vr="US" vm="1" name="Geo Number Major Ticks"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx55" vr="US" vm="1" name="Geo Number Minor Ticks"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx56" vr="US" vm="1" name="Geo Number Opposite"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx57" vr="US" vm="1" name="Geo First Tick Marker"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx58" vr="SL" vm="1" name="Geo Numbering Offset"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx59" vr="SL" vm="1" name="Geo Numbering Step"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx60" vr="US" vm="1" name="Geo Show Point"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx61" vr="US" vm="1" name="Geo Show Curve"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx62" vr="US" vm="1" name="Geo Show Node"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx63" vr="US" vm="1" name="Geo Show Labels"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx65" vr="US" vm="1" name="Geo Show Projection"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx66" vr="US" vm="1" name="Geo Show Intersection"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx67" vr="US" vm="1" name="Geo Show Wire Frame"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx68" vr="US" vm="1" name="Geo Show View Marker"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx69" vr="US" vm="1" name="Geo Show Crossreferencetext"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx6a" vr="LO" vm="1" name="Geo Crossreferencetext"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx70" vr="FD" vm="1" name="Geo Relative Size"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx74" vr="US" vm="1" name="Geo Select On Edit"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx75" vr="US" vm="1" name="Geo Show Points"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx76" vr="US" vm="1" name="Geo Show First Point"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx77" vr="US" vm="1" name="Geo Show Last Point"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx7a" vr="SQ" vm="1" name="Geo Gate"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx7b" vr="US" vm="1" name="Geo Alternate"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx80" vr="SQ" vm="1" name="Chart"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx90" vr="SL" vm="1" name="Gfx Align Reference"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx95" vr="FD" vm="1" name="Region Relative Size"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx9a" vr="SQ" vm="1" name="Gfx Objects"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx9b" vr="SQ" vm="1" name="Gfx Calculated Labels"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx9c" vr="SQ" vm="1" name="Gfx Calculated Label"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx9d" vr="SQ" vm="1" name="Gfx Chart"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xx9e" vr="SQ" vm="1" name="Gfx Labels"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxa0" vr="US" vm="1" name="Gfx Enable Fill"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxa1" vr="US" vm="1" name="Gfx Filled"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxa2" vr="US" vm="1" name="Gfx Foreground Color"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxa3" vr="US" vm="1" name="Suppress Orientation 0 Icon"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxb0" vr="US" vm="1" name="Gfx Text Shadow Color"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxb1" vr="US" vm="1" name="Gfx Text Shadow"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxb2" vr="US" vm="1" name="Gfx Background Rectangle"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxb3" vr="SL" vm="1" name="Gfx Border Width"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxb4" vr="SL" vm="1" name="Gfx Font Style"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxb5" vr="FL" vm="1" name="Gfx Font Size"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxb6" vr="SL" vm="1" name="Gfx Font Size Mode"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxb7" vr="FD" vm="1" name="Gfx Font Relative Size"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxb8" vr="SL" vm="1" name="Gfx Font Minimum Size"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxb9" vr="SL" vm="1" name="Gfx Font Maximum Size"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxba" vr="SL" vm="1" name="Gfx Direction"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxbc" vr="SL" vm="1" name="Gfx Label Offset X"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxbd" vr="SL" vm="1" name="Gfx Label Offset Y"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxbe" vr="US" vm="1" name="Gfx Autoposition Label"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxc0" vr="SQ" vm="1" name="Gfx Physio Function"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxc1" vr="SQ" vm="1" name="Gfx Physio Markers"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxc2" vr="SL" vm="1" name="Gfx Physio Rectsize Mode"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxc3" vr="SL" vm="1" name="Gfx Physio Rectsize X"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxc4" vr="SL" vm="1" name="Gfx Physio Rectsize Y"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxc5" vr="FL" vm="1" name="Gfx Physio Relative Rectsize X"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxc6" vr="FL" vm="1" name="Gfx Physio Relative Rectsize Y"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxd0" vr="US" vm="1" name="Shutter Color"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxd1" vr="US" vm="1" name="Shutter Highlight Color"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxd2" vr="FL" vm="1" name="Shutter Line Width"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxd3" vr="SL" vm="1" name="Shutter Line Type"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxd4" vr="SL" vm="1" name="Shutter Display Level"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxd6" vr="FD" vm="1" name="Shutter Upper"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxd7" vr="FD" vm="1" name="Shutter Lower"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxd8" vr="FD" vm="1" name="Shutter Radius"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxd9" vr="FL" vm="1" name="Shutter Origin X"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxda" vr="FL" vm="1" name="Shutter Origin Y"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxdc" vr="FD" vm="1" name="Shutter Left"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxdd" vr="FD" vm="1" name="Shutter Right"/>
+  <entry owner="SPI-P-Private_ICS Release 1;4" group="0029" element="xxe0" vr="SQ" vm="1" name="Shutters"/>
+  <entry owner="SPI-P-Private_ICS Release 1;5" group="0029" element="xx00" vr="LO" vm="1" name="Patient Sop Class"/>
+  <entry owner="SPI-P-Private_ICS Release 1;5" group="0029" element="xx01" vr="LO" vm="1" name="Patient Sop Instance"/>
+  <entry owner="SPI-P-Private_ICS Release 1;5" group="0029" element="xx03" vr="LO" vm="1" name="Study Sop Class"/>
+  <entry owner="SPI-P-Private_ICS Release 1;5" group="0029" element="xx04" vr="LO" vm="1" name="Study Sop Instance"/>
+  <entry owner="SPI-P-Private_ICS Release 1;5" group="0029" element="xx06" vr="LO" vm="1" name="Examination Sop Class"/>
+  <entry owner="SPI-P-Private_ICS Release 1;5" group="0029" element="xx07" vr="LO" vm="1" name="Examination Sop Instance"/>
+  <entry owner="SPI-P-Private_ICS Release 1;5" group="0029" element="xx09" vr="LO" vm="1" name="Results Sop Class"/>
+  <entry owner="SPI-P-Private_ICS Release 1;5" group="0029" element="xx0a" vr="LO" vm="1" name="Results Sop Instance"/>
+  <entry owner="SPI-P-Private_ICS Release 1;5" group="0029" element="xx0c" vr="LO" vm="1" name="Interpretation Sop Class"/>
+  <entry owner="SPI-P-Private_ICS Release 1;5" group="0029" element="xx0d" vr="LO" vm="1" name="Interpretation Sop Instance"/>
+  <entry owner="SPI-P-Private_ICS Release 1;5" group="0029" element="xx10" vr="CS" vm="1" name="Report Level"/>
+  <entry owner="SPI-P-Private_ICS Release 1;5" group="0029" element="xx15" vr="SQ" vm="1" name="Interpretation Amendments"/>
+  <entry owner="SPI-P-Private_ICS Release 1;5" group="0029" element="xx20" vr="DA" vm="1" name="Study Date"/>
+  <entry owner="SPI-P-Private_ICS Release 1;5" group="0029" element="xx30" vr="DA" vm="1" name="Study Time"/>
+  <entry owner="SPI-P-Private_ICS Release 1;5" group="0029" element="xx40" vr="SH" vm="1" name="Study Id"/>
+  <entry owner="SPI-P-Private_ICS Release 1;5" group="0029" element="xx50" vr="CS" vm="1" name="Patient Report Status Id"/>
+  <entry owner="SPI-P-Private_ICS Release 1;5" group="0029" element="xx55" vr="CS" vm="1" name="Study Report Status Id"/>
+  <entry owner="SPI-P-Private_ICS Release 1;5" group="0029" element="xx60" vr="AT" vm="1" name="Frame Increment Pointer"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx00" vr="US" vm="1" name="Perfusion All Slices Enabled"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx01" vr="FL" vm="1" name="Perfusion Function Analyser Accuracy"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx02" vr="LO" vm="1" name="Perfusion Function Analyser Class"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx03" vr="UL" vm="1" name="Perfusion Function Analyser Iterations"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx04" vr="LO" vm="1" name="Perfusion Application"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx05" vr="SQ" vm="1" name="Perfusion Brevity"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx06" vr="SQ" vm="1" name="Perfusion Chart"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx07" vr="SQ" vm="1" name="Perfusion Chart Settings"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx08" vr="US" vm="1" name="Perfusion Color Enabled"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx09" vr="SQ" vm="1" name="Perfusion Start Uptake"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx0a" vr="US" vm="1" name="Perfusion Display Enabled"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx0b" vr="US" vm="1" name="Perfusion Display Input"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx0c" vr="US" vm="1" name="Perfusion Display Output"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx0d" vr="US" vm="1" name="Perfusion Dynamic Axis Unit"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx0e" vr="US" vm="1" name="Perfusion Dynamic Range Enabled"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx0f" vr="LO" vm="1" name="Perfusion Image Type"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx10" vr="US" vm="1" name="Perfusion Indicator Enabled"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx11" vr="SQ" vm="1" name="Perfusion Input Selection"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx12" vr="FL" vm="1" name="Perfusion Intensity Range High"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx13" vr="FL" vm="1" name="Perfusion Intensity Range Low"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx14" vr="SQ" vm="1" name="Perfusion Layout Contents"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx15" vr="UL" vm="2-n" name="Perfusion Layout Size"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx16" vr="FL" vm="1" name="Perfusion Lut Lower"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx17" vr="FL" vm="1" name="Perfusion Lut Upper"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx18" vr="SQ" vm="1" name="Perfusion Maximum Enhancement"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx19" vr="SQ" vm="1" name="Perfusion Maximum Relative Enhancement"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx1a" vr="UL" vm="1" name="Perfusion Noise Level"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx1b" vr="SL" vm="1" name="Perfusion Numbers Range High"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx1c" vr="SL" vm="1" name="Perfusion Numbers Range Low"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx1d" vr="US" vm="1" name="Perfusion Overlay Enabled"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx1e" vr="US" vm="1" name="Perfusion Display Format"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx1f" vr="FL" vm="1" name="Perfusion Range Lower"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx20" vr="FL" vm="1" name="Perfusion Range Upper"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx21" vr="UL" vm="1" name="Perfusion Reference Offset"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx22" vr="FD" vm="1" name="Perfusion Reference Time"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx23" vr="US" vm="1" name="Perfusion Regions Enabled"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx24" vr="UL" vm="1" name="Perfusion Region Of Interest Slice Index"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx25" vr="SQ" vm="1" name="Perfusion Relative Enhancement"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx26" vr="FL" vm="1" name="Perfusion Relative Enhancement Range High"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx27" vr="FL" vm="1" name="Perfusion Relative Enhancement Range Low"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx28" vr="SL" vm="1" name="Perfusion Seconds Range High"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx29" vr="SL" vm="1" name="Perfusion Seconds Range Low"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx2a" vr="UL" vm="1" name="Perfusion Serial Number"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx2b" vr="SQ" vm="1" name="Perfusion Set Of Regions Of Interest"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx2c" vr="UL" vm="1" name="Perfusion Set Of Regions Of Interest Next Label Number"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx2d" vr="SQ" vm="1" name="Perfusion Set Of Regions Of Interest Regions"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx2e" vr="SQ" vm="1" name="Perfusion Set Of Regions Of Interest Region"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx2f" vr="SQ" vm="1" name="Perfusion Source"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx30" vr="US" vm="1" name="Perfusion Spatial Smoothing"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx31" vr="SQ" vm="1" name="Perfusion Subtraction"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx32" vr="SQ" vm="1" name="Perfusion T2star Mtt"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx33" vr="SQ" vm="1" name="Perfusion T2star Rcbv"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx34" vr="SQ" vm="1" name="Perfusion T2star Rcbfi"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx35" vr="SQ" vm="1" name="Perfusion T2star T0"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx36" vr="SQ" vm="1" name="Perfusion T2star Ttp"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx37" vr="SQ" vm="1" name="Perfusion Table"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx38" vr="SQ" vm="1" name="Perfusion Table Settings"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx39" vr="FL" vm="1" name="Perfusion Threshold Level"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx3a" vr="SQ" vm="1" name="Perfusion Time To Peak"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx3b" vr="US" vm="1" name="Perfusion Use Source Lut"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx3c" vr="US" vm="1" name="Perfusion Use Source Range"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx3d" vr="SQ" vm="1" name="Perfusion User Settings"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx3e" vr="US" vm="1" name="Perfusion Value Axis Unit"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx3f" vr="US" vm="1" name="Perfusion Value Range Enabled"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx40" vr="SQ" vm="1" name="Perfusion Wash In Rate"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx41" vr="SQ" vm="1" name="Perfusion Wash Out Rate"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx42" vr="FD" vm="1" name="Perfusion Weight Factor"/>
+  <entry owner="SPI-P-Private_ICS Release 1;6" group="0029" element="xx43" vr="US" vm="1" name="Perfusion Scale Inverted"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx01" vr="US" vm="1" name="Mrcardio Activated"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx03" vr="US" vm="1" name="Active Contour Option"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx04" vr="FL" vm="1" name="Active Contour Accuracy"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx05" vr="US" vm="1" name="Active Contour Type"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx06" vr="FL" vm="1" name="Active Contour External Weight"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx07" vr="FL" vm="1" name="Active Contour Internal Weight"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx08" vr="US" vm="1" name="Active Contour Roi Size"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx09" vr="FL" vm="1" name="Active Contour Histogram Equalization"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx0b" vr="FL" vm="1" name="Active Contour Feature Resolution"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx0c" vr="US" vm="1" name="Active Contour Feature Type"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx0d" vr="US" vm="1" name="Active Contour Maxnr Steps"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx0e" vr="US" vm="1" name="Active Contour Maxnr Vertices"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx0f" vr="US" vm="1" name="Active Contour Nr Refresh Steps"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx10" vr="US" vm="1" name="Active Contour Resample Rate"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx11" vr="FL" vm="1" name="Active Contour Resolution"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx13" vr="FL" vm="1" name="Active Contour Stop Criterium"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx16" vr="SQ" vm="1" name="Mrcardio Analyses"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx17" vr="LO" vm="1" name="Mrcardio Analysis In"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx18" vr="LO" vm="1" name="Mrcardio Analysis Label"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx19" vr="LO" vm="1" name="Mrcardio Analysis Out"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx1a" vr="SQ" vm="1" name="Mrcardio Analysis Set"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx1b" vr="LO" vm="1" name="Mrcardio Analysis Text"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx1c" vr="US" vm="1" name="Mrcardio Axes Orientation"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx1d" vr="LO" vm="1" name="Mrcardio Analysis Subtract"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx1e" vr="LO" vm="1" name="Mrcardio Analysis Centerline"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx20" vr="SQ" vm="1" name="Mrcardio Contours"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx21" vr="LO" vm="1" name="Mrcardio Contour Color"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx22" vr="US" vm="1" name="Mrcardio Contour Displaylevel"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx23" vr="LO" vm="1" name="Mrcardio Contour Label"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx24" vr="FL" vm="1" name="Mrcardio Contour Linewidth"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx25" vr="LO" vm="1" name="Mrcardio Contour Text"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx26" vr="US" vm="1" name="Mrcardio Contour Unique"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx29" vr="LO" vm="1" name="Mrcardio Draw Contour Type"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx2a" vr="US" vm="1" name="Mrcardio Draw Cyclic"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx2b" vr="LO" vm="1-n" name="Mrcardio Draw Order"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx2c" vr="US" vm="1" name="Mrcardio Freeze Current"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx2d" vr="SQ" vm="1" name="Mrcardio Geo Stack"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx2e" vr="US" vm="1" name="Mrcardio Handmade"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx30" vr="US" vm="1" name="Mrcardio Editable"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx32" vr="SQ" vm="1" name="Mrcardio Profile"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx33" vr="LO" vm="1" name="Mrcardio Profile Name"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx36" vr="SQ" vm="1" name="Mrcardio Settings"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx37" vr="SQ" vm="1" name="Mrcardio User Settings"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx38" vr="US" vm="1" name="Mrcardio Validated"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx39" vr="US" vm="1" name="Mrcardio End Diastoly Label"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx3a" vr="US" vm="1" name="Mrcardio End Systoly Label"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx3b" vr="FL" vm="1-n" name="Mrcardio 2d Results"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx3c" vr="SQ" vm="1" name="Mrcardio Profile Stacks"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx3d" vr="SQ" vm="1" name="Mrcardio Profile Slices"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx3e" vr="SQ" vm="1" name="Mrcardio Image Mask"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx3f" vr="SL" vm="1" name="Mrcardio 2d Results Size"/>
+  <entry owner="SPI-P-Private_ICS Release 1;7" group="0029" element="xx40" vr="SL" vm="1" name="Mrcardio Image Mask Select"/>
+  <entry owner="SPI-P-XSB-DCI Release 1" group="0019" element="xx10" vr="LO" vm="1" name="Dci Video Beam Boost"/>
+  <entry owner="SPI-P-XSB-DCI Release 1" group="0019" element="xx11" vr="US" vm="1" name="Dci Channel Generating Video Sync"/>
+  <entry owner="SPI-P-XSB-DCI Release 1" group="0019" element="xx12" vr="SS" vm="1" name="Dci Video Gain"/>
+  <entry owner="SPI-P-XSB-DCI Release 1" group="0019" element="xx13" vr="SS" vm="1" name="Dci Video Offset"/>
+  <entry owner="SPI-P-XSB-DCI Release 1" group="0019" element="xx20" vr="DS" vm="1" name="Dci Rtd Data Compression Factor"/>
+  <entry owner="SPI-P-XSB-VISUB Release 1" group="0019" element="xx00" vr="SS" vm="1" name="Visub Analogue Gain"/>
+  <entry owner="SPI-P-XSB-VISUB Release 1" group="0019" element="xx10" vr="US" vm="1" name="Visub Time Map Number Of Entries"/>
+  <entry owner="SPI-P-XSB-VISUB Release 1" group="0019" element="xx11" vr="US" vm="1-n" name="Visub Time Map Period End"/>
+  <entry owner="SPI-P-XSB-VISUB Release 1" group="0019" element="xx12" vr="US" vm="1-n" name="Visub Time Map Interval"/>
+  <entry owner="SPI-P-XSB-VISUB Release 1" group="0029" element="xx00" vr="LO" vm="1" name="Visub Trace Id"/>
+  <entry owner="SPI-P-XSB-VISUB Release 1" group="0029" element="xx01" vr="DS" vm="1" name="Visub Trace Factor"/>
+  <entry owner="SPI-P-XSB-VISUB Release 1" group="0029" element="xx02" vr="LO" vm="1" name="Visub Trace Maximum"/>
+  <entry owner="SPI-P-XSB-VISUB Release 1" group="0029" element="xx0d" vr="LO" vm="1" name="Visub Trace Kind"/>
+  <entry owner="SPI-P-XSB-VISUB Release 1" group="0029" element="xx0e" vr="LO" vm="1" name="Visub Trace Enable Status"/>
+  <entry owner="SPI-P-XSB-VISUB Release 1" group="0029" element="xx0f" vr="LO" vm="1" name="Visub Trace Select Status"/>
   <entry owner="Siemens: Thorax/Multix FD Image Stamp" group="0023" element="xx00" vr="US" vm="1" name="Height"/>
   <entry owner="Siemens: Thorax/Multix FD Image Stamp" group="0023" element="xx01" vr="US" vm="1" name="Width"/>
   <entry owner="Siemens: Thorax/Multix FD Image Stamp" group="0023" element="xx02" vr="US" vm="1" name="Bits Allocated"/>

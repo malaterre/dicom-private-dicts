@@ -119,7 +119,7 @@ if __name__ == "__main__":
       assert False
     el = {}
     for creator in creators:
-      el[ 'creator' ] = creator
+      el[ 'owner' ] = creator
       el[ 'name' ] = clean
       el[ 'keyword' ] = name
       el[ 'group' ] = tag[:4]

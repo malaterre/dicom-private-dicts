@@ -11,6 +11,9 @@ with open(f, "rb") as infile:
 
 w = xmldict.XMLDictWriter()
 w.open(o)
+"""
 for key,values in i.items():
   w.writelines(key,values)
+"""
+w.writeall(i)
 w.close()
