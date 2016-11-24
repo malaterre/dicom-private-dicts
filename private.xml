@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
   Program: GDCM (Grassroots DICOM). A DICOM library
   Module:  $URL$
 
-  Copyright (c) 2006-2008 Mathieu Malaterre
+  Copyright (c) 2006-2010 Mathieu Malaterre
   All rights reserved.
   See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
 
@@ -368,7 +368,7 @@
   <entry owner="FDMS 1.0" group="0019" element="xx32" vr="LO" vm="1" name="Kanji Menu Name"/>
   <entry owner="FDMS 1.0" group="0019" element="xx40" vr="CS" vm="1" name="Image Processing Type"/>
   <entry owner="FDMS 1.0" group="0019" element="xx50" vr="CS" vm="1" name="EDR Mode"/>
-  <entry owner="FDMS 1.0" group="0019" element="xx60" vr="SH" vm="1" name="Radiographer&#x2019;s Code"/>
+  <entry owner="FDMS 1.0" group="0019" element="xx60" vr="SH" vm="1" name="Radiographer’s Code"/>
   <entry owner="FDMS 1.0" group="0019" element="xx70" vr="IS" vm="1" name="Split Exposure Format"/>
   <entry owner="FDMS 1.0" group="0019" element="xx71" vr="IS" vm="1" name="No. of Split Exposure Frames"/>
   <entry owner="FDMS 1.0" group="0019" element="xx80" vr="IS" vm="1" name="Reading Position Specification"/>
@@ -696,9 +696,9 @@
   <entry owner="GEMS_GENIE_1" group="0011" element="xx88" vr="SL" vm="1" name="Rfmtr Trans Ref"/>
   <entry owner="GEMS_GENIE_1" group="0011" element="xx89" vr="FD" vm="1" name="Rfmtr Trans Ref mm"/>
   <entry owner="GEMS_GENIE_1" group="0011" element="xx8a" vr="SL" vm="1" name="Two Line Trans Ref"/>
-  <entry owner="GEMS_GENIE_1" group="0011" element="xx8b" vr="SL" vm="1" name="Three&#x2013;D Zero"/>
-  <entry owner="GEMS_GENIE_1" group="0011" element="xx8c" vr="SL" vm="1" name="Three&#x2013;D Zero Length"/>
-  <entry owner="GEMS_GENIE_1" group="0011" element="xx8d" vr="SL" vm="1" name="Three&#x2013;D Zero In"/>
+  <entry owner="GEMS_GENIE_1" group="0011" element="xx8b" vr="SL" vm="1" name="Three–D Zero"/>
+  <entry owner="GEMS_GENIE_1" group="0011" element="xx8c" vr="SL" vm="1" name="Three–D Zero Length"/>
+  <entry owner="GEMS_GENIE_1" group="0011" element="xx8d" vr="SL" vm="1" name="Three–D Zero In"/>
   <entry owner="GEMS_GENIE_1" group="0013" element="xx00" vr="LO" vm="1" name="Private Creator Identification"/>
   <entry owner="GEMS_GENIE_1" group="0013" element="xx10" vr="FD" vm="2" name="Digital FOV"/>
   <entry owner="GEMS_GENIE_1" group="0013" element="xx11" vr="SL" vm="1" name="Source Translator"/>
@@ -1541,9 +1541,9 @@
   <entry owner="PRIV" group="0011" element="xx88" vr="UN" vm="1" name="Rfmtr Trans Ref"/>
   <entry owner="PRIV" group="0011" element="xx89" vr="UN" vm="1" name="Rfmtr Trans Ref mm"/>
   <entry owner="PRIV" group="0011" element="xx8a" vr="UN" vm="1" name="Two Line Trans Ref"/>
-  <entry owner="PRIV" group="0011" element="xx8b" vr="UN" vm="1" name="Three&#x2013;D Zero"/>
-  <entry owner="PRIV" group="0011" element="xx8c" vr="UN" vm="1" name="Three&#x2013;D Zero Length"/>
-  <entry owner="PRIV" group="0011" element="xx8d" vr="UN" vm="1" name="Three&#x2013;D Zero In"/>
+  <entry owner="PRIV" group="0011" element="xx8b" vr="UN" vm="1" name="Three–D Zero"/>
+  <entry owner="PRIV" group="0011" element="xx8c" vr="UN" vm="1" name="Three–D Zero Length"/>
+  <entry owner="PRIV" group="0011" element="xx8d" vr="UN" vm="1" name="Three–D Zero In"/>
   <entry owner="PRIV" group="0013" element="xx10" vr="UN" vm="1" name="Digital FOV"/>
   <entry owner="PRIV" group="0013" element="xx11" vr="UN" vm="1" name="Source Translator"/>
   <entry owner="PRIV" group="0013" element="xx12" vr="UN" vm="1" name="RAL Flags"/>
@@ -1650,7 +1650,7 @@
   <entry owner="PRIVATE ORIGINAL ATTRIBUTES" group="0021" element="xx05" vr="DT" vm="1" name="Replacement Date and Time"/>
   <entry owner="PRIVATE ORIGINAL ATTRIBUTES" group="0021" element="xx10" vr="LO" vm="1" name="Replacement Originator Name"/>
   <entry owner="PRIVATE ORIGINAL ATTRIBUTES" group="0021" element="xx12" vr="LO" vm="1" name="Replacement Reason"/>
-  <entry owner="PRIVATE ORIGINAL ATTRIBUTES" group="0021" element="xx70" vr="PN" vm="1-n" name="Original Operators&#x2019; Name"/>
+  <entry owner="PRIVATE ORIGINAL ATTRIBUTES" group="0021" element="xx70" vr="PN" vm="1-n" name="Original Operators’ Name"/>
   <entry owner="PRIVATE ORIGINAL ATTRIBUTES" group="0021" element="xxf0" vr="LO" vm="1" name="Private Creator Data Element"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx01" vr="FL" vm="1" name="MRImageChemicalShift"/>
   <entry owner="Philips Imaging DD 001" group="2001" element="xx02" vr="IS" vm="1" name="MRImageChemicalShiftNumber"/>

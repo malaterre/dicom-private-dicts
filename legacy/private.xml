@@ -233,30 +233,6 @@
   <entry owner="AGFA_ADC_Compact" group="0019" element="xx73" vr="US" vm="1" name="ScanRes flag"/>
   <entry owner="AGFA_ADC_Compact" group="0019" element="xx74" vr="SH" vm="1" name="Operation code"/>
   <entry owner="AGFA_ADC_Compact" group="0019" element="xx95" vr="CS" vm="1" name="Image quality"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0009" element="xx00" vr="SH" vm="1" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0009" element="xx04" vr="US" vm="1-n" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0009" element="xx06" vr="US" vm="1-n" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0009" element="xx0a" vr="SH" vm="1" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0009" element="xx20" vr="CS" vm="1" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0009" element="xx22" vr="CS" vm="1" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0009" element="xx24" vr="CS" vm="1" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0009" element="xx26" vr="IS" vm="1" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0009" element="xx28" vr="IS" vm="1" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0009" element="xx2a" vr="DS" vm="1" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0009" element="xx30" vr="FD" vm="1" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0009" element="xx32" vr="DS" vm="1" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0009" element="xx34" vr="CS" vm="1" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0019" element="xx08" vr="FD" vm="1" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0019" element="xx0c" vr="CS" vm="1" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0019" element="xx0e" vr="DS" vm="1" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0019" element="xx18" vr="SL" vm="1" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0019" element="xx1a" vr="SL" vm="1" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0019" element="xx40" vr="SS" vm="1" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0019" element="xx46" vr="US" vm="1" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0019" element="xx50" vr="SL" vm="1" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0019" element="xx52" vr="DS" vm="1" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0019" element="xx54" vr="DS" vm="1" name="?"/>
-  <entry owner="ALOKA:1.2.392.200039.103.2" group="0019" element="xx56" vr="FD" vm="1" name="?"/>
   <entry owner="AMI Annotations_01" group="3101" element="xx10" vr="SQ" vm="1" name="AMI Annotation Sequence (RET)"/>
   <entry owner="AMI Annotations_02" group="3101" element="xx20" vr="SQ" vm="1" name="AMI Annotation Sequence (RET)"/>
   <entry owner="AMI ImageContextExt_01" group="3107" element="xxa0" vr="CS" vm="1" name="AMI Window Function (RET)"/>
