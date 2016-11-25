@@ -57,4 +57,6 @@ set -e
 ./tabula.sh -o "gems/f43f9660e3d2f249ce74990fde80b769_30_0.json" --spreadsheet -p 173 -a 74.0,70.0,638.0,541.0 "gems/GEHC-DICOM-Conformance_Xeleris-2-0_5168972-100_Rev2.pdf"
 ./tabula.sh -o "gems/f43f9660e3d2f249ce74990fde80b769_31_0.json" --spreadsheet -p 174 -a 74.0,70.0,706.0,541.0 "gems/GEHC-DICOM-Conformance_Xeleris-2-0_5168972-100_Rev2.pdf"
 ./tabula.sh -o "gems/f43f9660e3d2f249ce74990fde80b769_32_0.json" --spreadsheet -p 175 -a 74.0,70.0,604.0,541.0 "gems/GEHC-DICOM-Conformance_Xeleris-2-0_5168972-100_Rev2.pdf"
+./tabula.sh -o "gems/83e686356af86d7292843e98887c2185_0_0.json" --spreadsheet -p 45 -a 287.971,71.772,411.433,518.766 "gems/GEHC-DICOM-Conformance_XPertPR-V5-5-Acquisition-V6-0_2289763-100.pdf"
+./tabula.sh -o "gems/83e686356af86d7292843e98887c2185_1_0.json" --spreadsheet -p 45 -a 411.432,66.566,578.405,546.284 "gems/GEHC-DICOM-Conformance_XPertPR-V5-5-Acquisition-V6-0_2289763-100.pdf"
 #rm gems/chunk?.json

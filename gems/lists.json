@@ -635,6 +635,51 @@
         "use_table_header": true
     }
 ]
+},
+{
+"content-disposition":"GEHC-DICOM-Conformance_XPertPR-V5-5-Acquisition-V6-0_2289763-100.pdf",
+"md5":"83e686356af86d7292843e98887c2185",
+"url":"http://www3.gehealthcare.fr/~/media/documents/us-global/products/interoperability/dicom/nuclear-medicine/gehc-dicom-conformance_xpertpr-v5-5-acquisition-v6-0_2289763-100.pdf",
+"tables":
+[
+    {
+        "chunks": [
+            {
+                "area": "287.971,71.772,411.433,518.766", 
+                "page": "45"
+            }
+        ], 
+        "owner": "APEX_PRIVATE", 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "VR", 
+                    "VM",
+                    "Definition"
+                ]
+
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "411.432,66.566,578.405,546.284", 
+                "page": "45"
+            }
+        ], 
+        "owner": "ELGEMS_XPERT", 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "VR", 
+                    "VM",
+                    "Definition"
+                ]
+
+    }
+
+
+]
+
 }
 
 ]

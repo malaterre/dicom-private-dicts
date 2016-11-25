@@ -173,6 +173,7 @@
   <entry owner="AMICAS0" group="0023" element="xx51" vr="UT" vm="1" name="Viewer Layout Information"/>
   <entry owner="AMICAS0" group="0023" element="xx52" vr="UT" vm="1" name="MPR Series Creation Info"/>
   <entry owner="AMICAS0" group="0023" element="xx53" vr="UT" vm="1" name="Study Presentation Step Info"/>
+  <entry owner="APEX_PRIVATE" group="0027" element="xx00" vr="LO" vm="1" name="Private Creator Identification"/>
   <entry owner="APEX_PRIVATE" group="0027" element="xx11" vr="UN" vm="1" name="Bed Position"/>
   <entry owner="Applicare/Centricity Radiology Web/Version 1.0" group="4109" element="xx01" vr="SH" vm="1" name="Mammography Laterality"/>
   <entry owner="Applicare/Centricity Radiology Web/Version 1.0" group="4109" element="xx02" vr="SH" vm="1" name="Mammography View Name"/>
@@ -395,6 +396,8 @@
   <entry owner="DLX_SERIE_01" group="0019" element="xx26" vr="DS" vm="1" name="Intercept LV Regression"/>
   <entry owner="DLX_SERIE_01" group="0019" element="xx27" vr="DS" vm="1" name="Image chain FWHM psf mm min"/>
   <entry owner="DLX_SERIE_01" group="0019" element="xx28" vr="DS" vm="1" name="Image chain FWHM psf mm max"/>
+  <entry owner="ELGEMS_XPERT" group="7fa1" element="xx00" vr="LO" vm="1" name="Private Creator Identification"/>
+  <entry owner="ELGEMS_XPERT" group="7fa1" element="xx10" vr="OB" vm="1" name="Xpert Composite Report Item Identificator"/>
   <entry owner="FDMS 1.0" group="0009" element="xx04" vr="SH" vm="1" name="Image Control Unit"/>
   <entry owner="FDMS 1.0" group="0009" element="xx05" vr="OW" vm="1" name="Image UID"/>
   <entry owner="FDMS 1.0" group="0009" element="xx06" vr="OW" vm="1" name="Route Image UID"/>

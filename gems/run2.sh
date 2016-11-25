@@ -54,3 +54,5 @@
 ./tabula2xml.py  --owner "GEMS_XELPRV_01" --use_table_header --files "gems/f43f9660e3d2f249ce74990fde80b769_30_0.json" --output "gems/GEHC-DICOM-Conformance_Xeleris-2-0_5168972-100_Rev2_30.xml"
 ./tabula2xml.py  --owner "GEMS_XELPRV_01" --use_table_header --files "gems/f43f9660e3d2f249ce74990fde80b769_31_0.json" --output "gems/GEHC-DICOM-Conformance_Xeleris-2-0_5168972-100_Rev2_31.xml"
 ./tabula2xml.py  --owner "GEMS_XELPRV_01" --use_table_header --files "gems/f43f9660e3d2f249ce74990fde80b769_32_0.json" --output "gems/GEHC-DICOM-Conformance_Xeleris-2-0_5168972-100_Rev2_32.xml"
+./tabula2xml.py  --header "AttributeName,Tag,VR,VM,Definition"  --owner "APEX_PRIVATE"  --files "gems/83e686356af86d7292843e98887c2185_0_0.json" --output "gems/GEHC-DICOM-Conformance_XPertPR-V5-5-Acquisition-V6-0_2289763-100_0.xml"
+./tabula2xml.py  --header "AttributeName,Tag,VR,VM,Definition"  --owner "ELGEMS_XPERT"  --files "gems/83e686356af86d7292843e98887c2185_1_0.json" --output "gems/GEHC-DICOM-Conformance_XPertPR-V5-5-Acquisition-V6-0_2289763-100_1.xml"

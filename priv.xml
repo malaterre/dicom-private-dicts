@@ -1740,6 +1740,11 @@
     <entry owner="GEMS_XELPRV_01" group="0057" element="xx5d" vr="UL" vm="1-n" name="ROIFlags"/>
     <entry owner="GEMS_XELPRV_01" group="0057" element="xx5e" vr="UL" vm="1" name="FrameNumber"/>
     <entry owner="GEMS_XELPRV_01" group="0057" element="xx60" vr="LO" vm="1-n" name="DatasetROIMapping"/>
+    <entry owner="APEX_PRIVATE" group="0027" element="xx00" vr="LO" vm="1" name="Private Creator Identification"/>
+    <entry owner="APEX_PRIVATE" group="0027" element="xx11" vr="DS" vm="1" name="Bed Position"/>
+    <entry owner="ELGEMS_XPERT" group="7fa1" element="xx00" vr="LO" vm="1" name="Private Creator Identification"/>
+    <entry owner="ELGEMS_XPERT" group="7fa1" element="xx00" vr="OB" vm="1" name="XPert Composite Report Item buffer"/>
+    <entry owner="ELGEMS_XPERT" group="7fa1" element="xx10" vr="OB" vm="1" name="Xpert Composite Report Item Identificator"/>
     <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx00" vr="LO" vm="1" name="Object Label"/>
     <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx01" vr="ST" vm="1" name="Object Name"/>
     <entry owner="SPI-P-Private_ICS Release 1;3" group="0029" element="xx05" vr="FD" vm="1" name="Gfx Physio Marker Time"/>
