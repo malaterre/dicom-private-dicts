@@ -1,5 +1,8 @@
 [
     {
+        "xml": "1F9242.xml"
+    }, 
+    {
         "xml": "amicas.xml"
     }, 
    {
@@ -190,5 +193,56 @@
 ],
 
 "url":"http://www.brit.com/DICOM Conformance PDFs/DICOM Conformance Statement Roentgen Works no history.pdf"
+},
+{
+
+"md5":"7d915c3c6be7fd6a19198ff92d308151",
+"_todo":"page 16 please",
+"tables":
+[
+    {
+        "chunks": [
+            {
+"area": "641.74,61.359,705.703,531.409", 
+"hack":"skip last elem",
+                "page": "23"
+            }
+        ], 
+        "owner": "BrainLAB_Conversion", 
+        "use_table_header": false,
+            "header" : [ "Tag", "AttributeName", "VR", "VM" ]
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "109.97,63.591,249.795,532.897", 
+                "page": "24"
+            }
+        ], 
+        "owner": "BrainLAB_BeamProfile", 
+        "use_table_header": false,
+            "header" : [ "Tag", "AttributeName", "VR", "VM" ]
+    }
+],
+
+"url":"https://www.brainlab.com/wp-content/uploads/2014/01/dicom-iplan-rt-dose-30.pdf"
+},
+{
+"md5":"c281287ba9a237bf2bdb6618c58abaea",
+"tables":
+[
+    {
+        "chunks": [
+            {
+                "area": "524.995,149.866,772.663,543.309", 
+                "page": "25"
+            }
+        ], 
+        "owner": "Canon Inc.", 
+        "use_table_header": false,
+            "header" : [ "AttributeName", "Tag", "VR", "Type", "Definition" ]
+    }
+],
+"url":"http://www.shimadzu.com/med/products/dicomihe/k25cur0000002w0b-att/radio_02.pdf"
 }
 ]

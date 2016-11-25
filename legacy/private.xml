@@ -375,18 +375,6 @@
   <entry owner="BRIT Systems, Inc." group="0021" element="xxa6" vr="SH" vm="1" name="Local IP Address"/>
   <entry owner="BRIT Systems, Inc." group="0021" element="xxa7" vr="AE" vm="1" name="Remote AE Title"/>
   <entry owner="BRIT Systems, Inc." group="0021" element="xxa8" vr="SH" vm="1" name="Remote IP Address"/>
-  <entry owner="BioPri" group="0009" element="xx00" vr="LO" vm="1" name="?"/>
-  <entry owner="BioPri" group="0009" element="xx01" vr="UN" vm="1" name="?"/>
-  <entry owner="BioPri" group="0009" element="xx02" vr="UN" vm="1" name="?"/>
-  <entry owner="BioPri" group="0009" element="xx03" vr="LO" vm="1-n" name="?"/>
-  <entry owner="BioPri" group="0009" element="xx04" vr="LO" vm="1" name="?"/>
-  <entry owner="BioPri" group="0009" element="xx05" vr="LO" vm="1" name="?"/>
-  <entry owner="BioPri" group="0009" element="xx07" vr="LO" vm="1" name="?"/>
-  <entry owner="BioPri" group="0009" element="xx08" vr="LO" vm="1" name="?"/>
-  <entry owner="BioPri" group="0009" element="xx09" vr="LO" vm="1" name="?"/>
-  <entry owner="BioPri" group="0009" element="xx10" vr="UN" vm="1" name="?"/>
-  <entry owner="BioPri3D" group="0011" element="10xx" vr="UN" vm="1" name="Private Segmentation Data"/>
-  <entry owner="BioPri3D" group="0063" element="10xx" vr="UN" vm="1" name="Private Creator"/>
   <entry owner="BrainLAB_BeamProfile" group="3411" element="xx01" vr="SQ" vm="1" name="Beam Profile Sequence"/>
   <entry owner="BrainLAB_BeamProfile" group="3411" element="xx02" vr="IS" vm="1" name="Beam Profile Number"/>
   <entry owner="BrainLAB_BeamProfile" group="3411" element="xx03" vr="SQ" vm="1" name="Beam Parameter Sequence"/>
@@ -397,17 +385,6 @@
   <entry owner="BrainLAB_Conversion" group="0009" element="xx02" vr="OB" vm="1" name="Export Platform Data"/>
   <entry owner="BrainLAB_PatientSetup" group="3273" element="xx00" vr="DS" vm="3" name="Isocenter Position"/>
   <entry owner="BrainLAB_PatientSetup" group="3273" element="xx01" vr="CS" vm="1" name="Patient Position"/>
-  <entry owner="CAMTRONICS" group="0029" element="xx10" vr="LT" vm="1" name="Commentline"/>
-  <entry owner="CAMTRONICS" group="0029" element="xx20" vr="DS" vm="1" name="Edge Enhancement Coefficient"/>
-  <entry owner="CAMTRONICS" group="0029" element="xx50" vr="LT" vm="1" name="Scene Text"/>
-  <entry owner="CAMTRONICS" group="0029" element="xx60" vr="LT" vm="1" name="Image Text"/>
-  <entry owner="CAMTRONICS" group="0029" element="xx70" vr="IS" vm="1" name="Pixel Shift Horizontal"/>
-  <entry owner="CAMTRONICS" group="0029" element="xx80" vr="IS" vm="1" name="Pixel Shift Vertical"/>
-  <entry owner="CAMTRONICS" group="0029" element="xx90" vr="IS" vm="1" name="?"/>
-  <entry owner="CAMTRONICS IP" group="0029" element="xx10" vr="LT" vm="1" name="?"/>
-  <entry owner="CAMTRONICS IP" group="0029" element="xx20" vr="UN" vm="1" name="?"/>
-  <entry owner="CAMTRONICS IP" group="0029" element="xx30" vr="UN" vm="1" name="?"/>
-  <entry owner="CAMTRONICS IP" group="0029" element="xx40" vr="UN" vm="1" name="?"/>
   <entry owner="CARDIO-D.R. 1.0" group="0009" element="xx00" vr="UL" vm="1" name="File Location"/>
   <entry owner="CARDIO-D.R. 1.0" group="0009" element="xx01" vr="UL" vm="1" name="File Size"/>
   <entry owner="CARDIO-D.R. 1.0" group="0009" element="xx40" vr="SQ" vm="1" name="Alternate Image Sequence"/>

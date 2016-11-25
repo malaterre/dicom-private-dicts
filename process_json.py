@@ -85,5 +85,7 @@ with open(f) as data_file, open(olists,'w') as out_file, open(orun,'w') as out_f
         opts += '--use_table_header'
       out_file5.write( './tabula2xml.py %s --files "%s" --output "%s"\n' % (opts, fstr, outxml) )
       out_file3.write( '<file>%s</file>\n' % urllib.quote(outxml)  )
-  out_file2.write( '#rm %s/chunk?.json\n' % dirpath )
+  out_file2.write( '\n' )
+  out_file5.write( '\n' )
+  #out_file2.write( '#rm %s/chunk?.json\n' % dirpath )
   out_file3.write( '</index>\n' )

@@ -20,4 +20,7 @@ set -e
 ./tabula.sh -o "other/04f2c2905d4f72f3e42501cc4670d1f7_0_4.json" --spreadsheet -p 195 -a 594.023,81.473,722.543,566.483 "other/McKesson Radiology 12.1.1 DICOM Conformance Statement rev1.0.pdf"
 ./tabula.sh -o "other/a07c48bf8074101e61daacbced0686ea_0_0.json" --spreadsheet -p 20 -a 114.75,76.883,716.805,551.948 "other/DICOM Conformance Statement Roentgen Works no history.pdf"
 ./tabula.sh -o "other/a07c48bf8074101e61daacbced0686ea_1_0.json" --spreadsheet -p 21 -a 115.515,76.118,546.21,551.948 "other/DICOM Conformance Statement Roentgen Works no history.pdf"
-#rm other/chunk?.json
+./tabula.sh -o "other/7d915c3c6be7fd6a19198ff92d308151_0_0.json" --spreadsheet -p 23 -a 641.74,61.359,705.703,531.409 "other/dicom-iplan-rt-dose-30.pdf"
+./tabula.sh -o "other/7d915c3c6be7fd6a19198ff92d308151_1_0.json" --spreadsheet -p 24 -a 109.97,63.591,249.795,532.897 "other/dicom-iplan-rt-dose-30.pdf"
+./tabula.sh -o "other/c281287ba9a237bf2bdb6618c58abaea_0_0.json" --spreadsheet -p 25 -a 524.995,149.866,772.663,543.309 "other/radio_02.pdf"
+

@@ -1,4 +1,5 @@
 <index>
+<file>other/1F9242.xml</file>
 <file>other/amicas.xml</file>
 <file>other/DicomClient_Conformance_35_0.xml</file>
 <file>other/DicomClient_Conformance_35_1.xml</file>
@@ -13,4 +14,7 @@
 <file>other/McKesson%20Radiology%2012.1.1%20DICOM%20Conformance%20Statement%20rev1.0_0.xml</file>
 <file>other/DICOM%20Conformance%20Statement%20Roentgen%20Works%20no%20history_0.xml</file>
 <file>other/DICOM%20Conformance%20Statement%20Roentgen%20Works%20no%20history_1.xml</file>
+<file>other/dicom-iplan-rt-dose-30_0.xml</file>
+<file>other/dicom-iplan-rt-dose-30_1.xml</file>
+<file>other/radio_02_0.xml</file>
 </index>

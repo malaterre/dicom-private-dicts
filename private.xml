@@ -363,6 +363,17 @@
   <entry owner="BRIT Systems, Inc." group="0021" element="xxa6" vr="UN" vm="1" name="BritLocalIPAddress"/>
   <entry owner="BRIT Systems, Inc." group="0021" element="xxa7" vr="UN" vm="1" name="BritRemoteAETitle"/>
   <entry owner="BRIT Systems, Inc." group="0021" element="xxa8" vr="UN" vm="1" name="BritRemoteIPAddress"/>
+  <entry owner="BrainLAB_BeamProfile" group="3273" element="xx00" vr="LO" vm="1" name="Private Creator Code “BrainLAB_PatientSetup” (see Note 8-6)"/>
+  <entry owner="BrainLAB_BeamProfile" group="3273" element="xx01" vr="CS" vm="1" name="Patient Position (see Note 8-6)"/>
+  <entry owner="BrainLAB_BeamProfile" group="3411" element="xx01" vr="SQ" vm="1" name="Beam Profile Sequence"/>
+  <entry owner="BrainLAB_BeamProfile" group="3411" element="xx02" vr="IS" vm="1" name="Beam Profile Number"/>
+  <entry owner="BrainLAB_BeamProfile" group="3411" element="xx03" vr="SQ" vm="1" name="Beam Parameter Sequence"/>
+  <entry owner="BrainLAB_BeamProfile" group="3411" element="xx04" vr="UT" vm="1" name="Parameter Description"/>
+  <entry owner="BrainLAB_BeamProfile" group="3411" element="xx05" vr="OB" vm="1" name="Parameter Data"/>
+  <entry owner="BrainLAB_BeamProfile" group="3411" element="xx06" vr="IS" vm="1" name="Referenced Beam Profile Number"/>
+  <entry owner="BrainLAB_Conversion" group="0009" element="xx00" vr="LO" vm="1" name="Private Creator Code “BrainLAB_Conversion”"/>
+  <entry owner="BrainLAB_Conversion" group="0009" element="xx01" vr="LO" vm="1" name="Export Platform Name"/>
+  <entry owner="BrainLAB_Conversion" group="0009" element="xx02" vr="OB" vm="1" name="Export Platform Data"/>
   <entry owner="CARDIO-D.R. 1.0" group="0009" element="xx00" vr="UN" vm="1" name="Private Creator"/>
   <entry owner="CARDIO-D.R. 1.0" group="0009" element="xx40" vr="SQ" vm="1" name="Alternate Image Sequence"/>
   <entry owner="CARDIO-D.R. 1.0" group="0019" element="xx30" vr="UL" vm="1" name="Maximum Frame Size"/>
@@ -409,6 +420,36 @@
   <entry owner="CD-CARDIO 1.0" group="0029" element="xx01" vr="US" vm="2" name="Cdmconvolution Kernel Size"/>
   <entry owner="CD-CARDIO 1.0" group="0029" element="xx02" vr="US" vm="1-n" name="Cdmconvolution Kernel Coefficients"/>
   <entry owner="CD-CARDIO 1.0" group="0029" element="xx03" vr="FL" vm="1" name="Cdmedge Enhancement Gain"/>
+  <entry owner="CEMAX-ICON" group="0019" element="xx00" vr="LT" vm="1" name="CR Processing Parameters"/>
+  <entry owner="CEMAX-ICON" group="0019" element="xx10" vr="LO" vm="1" name="CR Exposure Menu Code"/>
+  <entry owner="CEMAX-ICON" group="0019" element="xx20" vr="LO" vm="1" name="CR Exposure Menu String"/>
+  <entry owner="CEMAX-ICON" group="0019" element="xx30" vr="LO" vm="1" name="CR EDR Mode"/>
+  <entry owner="CEMAX-ICON" group="0019" element="xx40" vr="LO" vm="1" name="CR Latitude"/>
+  <entry owner="CEMAX-ICON" group="0019" element="xx50" vr="LO" vm="1" name="CR Group Number"/>
+  <entry owner="CEMAX-ICON" group="0019" element="xx60" vr="LO" vm="1" name="CR Equipment ID"/>
+  <entry owner="CEMAX-ICON" group="0019" element="xx70" vr="LO" vm="1" name="CR Image Serial Number"/>
+  <entry owner="CEMAX-ICON" group="0019" element="xx80" vr="LO" vm="1" name="CR Bar Code Number"/>
+  <entry owner="CEMAX-ICON" group="0019" element="xx90" vr="LO" vm="1" name="CR Film Output Exposure"/>
+  <entry owner="CEMAX-ICON" group="0029" element="xx00" vr="LO" vm="1" name="Key Image"/>
+  <entry owner="CEMAX-ICON" group="0029" element="xx10" vr="LT" vm="1-n" name="Note"/>
+  <entry owner="CEMAX-ICON" group="0029" element="xx20" vr="SQ" vm="1" name="Annotation Sequence"/>
+  <entry owner="CEMAX-ICON" group="0029" element="xx30" vr="IS" vm="1" name="X Start Position"/>
+  <entry owner="CEMAX-ICON" group="0029" element="xx40" vr="IS" vm="1" name="Y Start Position"/>
+  <entry owner="CEMAX-ICON" group="0029" element="xx50" vr="IS" vm="1" name="X End Position"/>
+  <entry owner="CEMAX-ICON" group="0029" element="xx60" vr="IS" vm="1" name="Y End Position"/>
+  <entry owner="CEMAX-ICON" group="0029" element="xx70" vr="LO" vm="1" name="Annotation Text"/>
+  <entry owner="CEMAX-ICON" group="0029" element="xx80" vr="IS" vm="1" name="Which Marker"/>
+  <entry owner="CEMAX-ICON" group="0029" element="xx90" vr="SQ" vm="1" name="Annotation Sequence"/>
+  <entry owner="CEMAX-ICON" group="0029" element="xx91" vr="IS" vm="1-n" name="X Coordinates"/>
+  <entry owner="CEMAX-ICON" group="0029" element="xx92" vr="IS" vm="1-n" name="Y Coordinates"/>
+  <entry owner="CEMAX-ICON" group="0029" element="xx93" vr="IS" vm="1" name="Annotation Type"/>
+  <entry owner="CEMAX-ICON" group="0029" element="xx94" vr="IS" vm="1" name="Number of points"/>
+  <entry owner="CEMAX-ICON" group="0029" element="xx95" vr="IS" vm="1" name="Fill Type"/>
+  <entry owner="CEMAX-ICON" group="3033" element="xx00" vr="CS" vm="1" name="Study Priority Status"/>
+  <entry owner="Canon Inc." group="0019" element="xx00" vr="LO" vm="1" name="Implementor Information (*)"/>
+  <entry owner="Canon Inc." group="0019" element="xx16" vr="LO" vm="1" name="Implementor Information"/>
+  <entry owner="Canon Inc." group="0019" element="xx60" vr="US" vm="1" name="Performed number of series"/>
+  <entry owner="Canon Inc." group="0019" element="xx70" vr="US" vm="1" name="Performed number of images"/>
   <entry owner="DLX_PATNT_01" group="0011" element="xx01" vr="LT" vm="1" name="patient DOB"/>
   <entry owner="DLX_SERIE_01" group="0019" element="xx01" vr="DS" vm="1" name="Angle Value 1"/>
   <entry owner="DLX_SERIE_01" group="0019" element="xx02" vr="DS" vm="1" name="Angle Value 2"/>
