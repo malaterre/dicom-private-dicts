@@ -8,5 +8,7 @@
 </entry>
     <entry group="0019" element="41" vr="IS" vm="1-n" name="Ver200 ADAC Header/Image Size" type="3">
 </entry>
+    <entry group="0019" element="61" vr="OB" vm="1" name="Ver200 ADAC Pegasys Headers" type="3">
+</entry>
 </dict>
 </dicts>

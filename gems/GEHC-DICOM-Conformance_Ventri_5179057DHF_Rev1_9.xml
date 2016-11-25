@@ -10,11 +10,11 @@
 </entry>
     <entry group="0033" element="1d" vr="SL" vm="1" name="Int Data">
 </entry>
-    <entry group="0033" element="1e" vr="FD" vm="See Note 2" name="Double Data">
+    <entry group="0033" element="1e" vr="FD" vm="SeeNote2" name="Double Data">
 </entry>
-    <entry group="0033" element="1f" vr="LT" vm="See Note 3" name="String Data">
+    <entry group="0033" element="1f" vr="LT" vm="SeeNote3" name="String Data">
 </entry>
-    <entry group="0033" element="20" vr="LT" vm="See Note 3" name="Bulk Data Format">
+    <entry group="0033" element="20" vr="LT" vm="SeeNote3" name="Bulk Data Format">
 </entry>
     <entry group="0033" element="23" vr="LT" vm="1" name="String Data Format">
 </entry>

@@ -1,6 +1,6 @@
 ﻿<dicts>
   <dict owner="ADAC_IMG">
-    <entry group="7043" element="00" vr="LO" vm="1" name="Philips NM Private Group" type="3">
+    <entry group="7043" element="00" vr="SH" vm="1" name="Cardiac Stress State" type="3">
 </entry>
 </dict>
 </dicts>

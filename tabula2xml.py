@@ -31,7 +31,7 @@ def normalize_header( header ):
   ret = [None] * len(header)
   for index,it in enumerate(header):
     txt = it['text']
-    if txt == 'Attribute Name' or txt == 'Name':
+    if txt == 'Attribute Name' or txt == 'Name' or txt == 'Attribute':
       ret[ index ] = u'AttributeName'
     elif txt == 'Group, Tag':
       ret[ index ] = u'Tag'
@@ -73,10 +73,12 @@ def read_element( value ):
     if element == '0010':
       element = '0'
     elif element == '00xx':
-      element = '0'
+      element = '0' # wotsit ?
     else:
       # FIXME wotsit ?
       element = element[2:4]
+    # I need to find the creator !!!
+    #return -1
   #if(debug): print >> sys.stderr, "debug element: [%s]/%d"% (element,len(element))
   element = "0x%s" % element
   try:
@@ -107,7 +109,7 @@ def normalize_entry( entry ):
         ret['vr'] = value
     elif key == 'VM':
       if value != None and value != '':
-        ret['vm'] = value
+        ret['vm'] = value.replace(' ','') # really replace '1 - n' into '1-n'
     elif key == 'Tag':
       if(debug): print >> sys.stderr, "debug tag:", value
       sep = '|'
@@ -133,6 +135,8 @@ def normalize_entry( entry ):
         return None
       ret['group'] = "%04x" % group
       element = read_element( value.split(sep)[1].replace(brackc,'') )
+      #if element == -1:
+      #  return None
       ret['element'] = "%02x" % element
     elif key == 'AttributeName':
       name = value.replace('\n',' ').strip()
@@ -155,6 +159,8 @@ def normalize_entry( entry ):
       ret['group'] = "%04x" % group
     elif key == 'Element':
       element = read_element( value )
+      #if element == -1:
+      #  return None
       ret['element'] = "%02x" % element
     elif key == 'Owner':
       if value != None and value != '':

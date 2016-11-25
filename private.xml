@@ -12,6 +12,7 @@
      PURPOSE.  See the above copyright notice for more information.
 -->
 <dict>
+  <entry owner="1.2.840.113681" group="0019" element="xx00" vr="LO" vm="1" name=""/>
   <entry owner="1.2.840.113681" group="0019" element="xx10" vr="ST" vm="1" name="CR Image Params Common"/>
   <entry owner="1.2.840.113681" group="0019" element="xx11" vr="ST" vm="1" name="CR Image IP Params Single"/>
   <entry owner="1.2.840.113681" group="0019" element="xx12" vr="ST" vm="1" name="CR Image IP Params Left"/>
@@ -30,6 +31,7 @@
   <entry owner="2.16.840.1.114059.1.1.6.1.50.1" group="0029" element="xx26" vr="UN" vm="1" name="Quadrant"/>
   <entry owner="2.16.840.1.114059.1.1.6.1.50.1" group="0029" element="xx27" vr="UN" vm="1" name="CRC"/>
   <entry owner="2.16.840.1.114059.1.1.6.1.50.1" group="0029" element="xx29" vr="UN" vm="1" name="Private Tag Range"/>
+  <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx00" vr="LO" vm="1" name="Private Creator ID"/>
   <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx01" vr="LO" vm="1" name="Filename"/>
   <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx02" vr="OB" vm="1" name="Data Blob of a Visit"/>
   <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx03" vr="US" vm="1" name="Revision Number"/>
@@ -49,6 +51,15 @@
   <entry owner="A.L.I. Technologies, Inc." group="3711" element="xxc2" vr="UL" vm="1" name="ALI_SIM_DATA_BLOB_SIZE"/>
   <entry owner="A.L.I. Technologies, Inc." group="3711" element="xxc3" vr="LO" vm="1" name="ALI_SIM_PRIVATE_ MC_STRING"/>
   <entry owner="A.L.I. Technologies, Inc." group="3711" element="xxc4" vr="SQ" vm="1" name="ALI_SIM_DATA_SEQUENCE"/>
+  <entry owner="ADAC_IMG" group="0019" element="xx00" vr="LO" vm="2" name="ADAC Header Signature"/>
+  <entry owner="ADAC_IMG" group="0019" element="xx02" vr="IS" vm="1" name="Ver200 ADAC Pegasys File Size"/>
+  <entry owner="ADAC_IMG" group="0019" element="xx11" vr="US" vm="1" name="Number of ADAC Headers"/>
+  <entry owner="ADAC_IMG" group="0019" element="xx12" vr="IS" vm="1-n" name="ADAC Header/Image Sizes"/>
+  <entry owner="ADAC_IMG" group="0019" element="xx20" vr="OB" vm="1" name="ADAC Pegasys Headers"/>
+  <entry owner="ADAC_IMG" group="0019" element="xx21" vr="US" vm="1" name="Ver200 Number of ADAC Headers"/>
+  <entry owner="ADAC_IMG" group="0019" element="xx41" vr="IS" vm="1-n" name="Ver200 ADAC Header/Image Size"/>
+  <entry owner="ADAC_IMG" group="0019" element="xx61" vr="OB" vm="1" name="Ver200 ADAC Pegasys Headers"/>
+  <entry owner="ADAC_IMG" group="7043" element="xx00" vr="SH" vm="1" name="Cardiac Stress State"/>
   <entry owner="AGFA" group="0019" element="xx00" vr="SH" vm="1" name="Private Identification Code"/>
   <entry owner="AGFA" group="0019" element="xx10" vr="ST" vm="1" name="Image Processing Parameters"/>
   <entry owner="AGFA" group="0019" element="xx11" vr="UN" vm="1" name="Identification data (Note 2)"/>
@@ -829,20 +840,20 @@
   <entry owner="GEMS_GENIE_1" group="5001" element="xx4e" vr="SL" vm="1" name="NamePos"/>
   <entry owner="GEMS_GENIE_1" group="5001" element="xx4f" vr="SL" vm="1" name="NameDisplay"/>
   <entry owner="GEMS_GENIE_1" group="5001" element="xx50" vr="LO" vm="1" name="Label"/>
-  <entry owner="GEMS_GENIE_1" group="5001" element="xx51" vr="SL" vm="1 - n" name="BpSeg"/>
-  <entry owner="GEMS_GENIE_1" group="5001" element="xx52" vr="US" vm="1 - n" name="BpSegPairs"/>
+  <entry owner="GEMS_GENIE_1" group="5001" element="xx51" vr="SL" vm="1-n" name="BpSeg"/>
+  <entry owner="GEMS_GENIE_1" group="5001" element="xx52" vr="US" vm="1-n" name="BpSegPairs"/>
   <entry owner="GEMS_GENIE_1" group="5001" element="xx53" vr="SL" vm="1" name="SeedSpace"/>
-  <entry owner="GEMS_GENIE_1" group="5001" element="xx54" vr="FD" vm="1 - n" name="Seeds"/>
-  <entry owner="GEMS_GENIE_1" group="5001" element="xx55" vr="SL" vm="1 - n" name="Shape"/>
-  <entry owner="GEMS_GENIE_1" group="5001" element="xx56" vr="FD" vm="1 - n" name="ShapeTilt"/>
-  <entry owner="GEMS_GENIE_1" group="5001" element="xx59" vr="SL" vm="1 - n" name="ShapePtsSpace"/>
-  <entry owner="GEMS_GENIE_1" group="5001" element="xx5a" vr="SL" vm="1 - n" name="ShapeCtrlPtsCounts"/>
-  <entry owner="GEMS_GENIE_1" group="5001" element="xx5b" vr="FD" vm="1 - n" name="ShapeCtrlPts"/>
+  <entry owner="GEMS_GENIE_1" group="5001" element="xx54" vr="FD" vm="1-n" name="Seeds"/>
+  <entry owner="GEMS_GENIE_1" group="5001" element="xx55" vr="SL" vm="1-n" name="Shape"/>
+  <entry owner="GEMS_GENIE_1" group="5001" element="xx56" vr="FD" vm="1-n" name="ShapeTilt"/>
+  <entry owner="GEMS_GENIE_1" group="5001" element="xx59" vr="SL" vm="1-n" name="ShapePtsSpace"/>
+  <entry owner="GEMS_GENIE_1" group="5001" element="xx5a" vr="SL" vm="1-n" name="ShapeCtrlPtsCounts"/>
+  <entry owner="GEMS_GENIE_1" group="5001" element="xx5b" vr="FD" vm="1-n" name="ShapeCtrlPts"/>
   <entry owner="GEMS_GENIE_1" group="5001" element="xx5c" vr="SL" vm="1" name="ShapeCPSpace"/>
   <entry owner="GEMS_GENIE_1" group="5001" element="xx5d" vr="SL" vm="1" name="ROIFlags"/>
   <entry owner="GEMS_GENIE_1" group="5001" element="xx5e" vr="SL" vm="1" name="FrameNumber"/>
   <entry owner="GEMS_GENIE_1" group="5001" element="xx5f" vr="SL" vm="1" name="Id"/>
-  <entry owner="GEMS_GENIE_1" group="5001" element="xx60" vr="LO" vm="1 - n" name="DatasetROIMapping"/>
+  <entry owner="GEMS_GENIE_1" group="5001" element="xx60" vr="LO" vm="1-n" name="DatasetROIMapping"/>
   <entry owner="GEMS_IT_US_REPORT" group="0045" element="xx11" vr="OW" vm="1" name="Vivid excel file"/>
   <entry owner="GEMS_IT_US_REPORT" group="0045" element="xx12" vr="OW" vm="1" name="Vivid CHM file"/>
   <entry owner="GEMS_IT_US_REPORT" group="0045" element="xx13" vr="OW" vm="1" name="Vivid PDF file"/>
@@ -880,7 +891,7 @@
   <entry owner="GEMS_XELPRV_01" group="0009" element="xx41" vr="SL" vm="1" name="Patient Flags"/>
   <entry owner="GEMS_XELPRV_01" group="0009" element="xx42" vr="DA" vm="1" name="Creation Date"/>
   <entry owner="GEMS_XELPRV_01" group="0009" element="xx43" vr="TM" vm="1" name="Creation Time"/>
-  <entry owner="GEMS_XELPRV_01" group="0033" element="xx08" vr="CS" vm="1ee note 1" name="Private Message Type"/>
+  <entry owner="GEMS_XELPRV_01" group="0033" element="xx08" vr="CS" vm="1eenote1" name="Private Message Type"/>
   <entry owner="GEMS_XELPRV_01" group="0033" element="xx10" vr="SL" vm="1" name="Modified"/>
   <entry owner="GEMS_XELPRV_01" group="0033" element="xx11" vr="LO" vm="1" name="Protocol Data Name"/>
   <entry owner="GEMS_XELPRV_01" group="0033" element="xx16" vr="LO" vm="1" name="Protocol data UID"/>
@@ -891,9 +902,9 @@
   <entry owner="GEMS_XELPRV_01" group="0033" element="xx1b" vr="LO" vm="1" name="Relevant Series"/>
   <entry owner="GEMS_XELPRV_01" group="0033" element="xx1c" vr="OB" vm="1" name="Bulk Data"/>
   <entry owner="GEMS_XELPRV_01" group="0033" element="xx1d" vr="SL" vm="1" name="Int Data"/>
-  <entry owner="GEMS_XELPRV_01" group="0033" element="xx1e" vr="FD" vm="1ee note 2" name="Double Data"/>
-  <entry owner="GEMS_XELPRV_01" group="0033" element="xx1f" vr="LT" vm="1ee note 3" name="String Data"/>
-  <entry owner="GEMS_XELPRV_01" group="0033" element="xx20" vr="LT" vm="1ee note 3" name="Bulk Data Format"/>
+  <entry owner="GEMS_XELPRV_01" group="0033" element="xx1e" vr="FD" vm="1eenote2" name="Double Data"/>
+  <entry owner="GEMS_XELPRV_01" group="0033" element="xx1f" vr="LT" vm="1eenote3" name="String Data"/>
+  <entry owner="GEMS_XELPRV_01" group="0033" element="xx20" vr="LT" vm="1eenote3" name="Bulk Data Format"/>
   <entry owner="GEMS_XELPRV_01" group="0033" element="xx21" vr="OB" vm="1" name="IntDataFormat"/>
   <entry owner="GEMS_XELPRV_01" group="0033" element="xx22" vr="OB" vm="1" name="DoubleDataFormat"/>
   <entry owner="GEMS_XELPRV_01" group="0033" element="xx23" vr="LT" vm="1" name="String Data Format"/>

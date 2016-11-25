@@ -39,7 +39,6 @@
   <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx0d" vr="US" vm="1" name="Overlay Grayscale Value"/>
   <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx0e" vr="CS" vm="1" name="Anonymization Status"/>
   <entry owner="ADAC_IMG" group="0019" element="xx02" vr="IS" vm="1" name="Ver200 ADAC Pegasys File Size"/>
-  <entry owner="ADAC_IMG" group="0019" element="xx10" vr="LO" vm="2" name="ADAC Header Signature"/>
   <entry owner="ADAC_IMG" group="0019" element="xx11" vr="US" vm="1" name="Number of ADAC Headers"/>
   <entry owner="ADAC_IMG" group="0019" element="xx12" vr="IS" vm="1-n" name="ADAC Header/Image Sizes"/>
   <entry owner="ADAC_IMG" group="0019" element="xx20" vr="OB" vm="1" name="ADAC Pegasys Headers"/>
@@ -47,13 +46,6 @@
   <entry owner="ADAC_IMG" group="0019" element="xx41" vr="IS" vm="1-n" name="Ver200 ADAC Header/Image Size"/>
   <entry owner="ADAC_IMG" group="0019" element="xx61" vr="OB" vm="1" name="Ver200 ADAC Pegasys Headers"/>
   <entry owner="ADAC_IMG" group="7043" element="xx00" vr="SH" vm="1" name="Cardiac Stress State"/>
-  <entry owner="ADAC_IMG" group="7043" element="xx10" vr="LO" vm="1" name="Philips NM Private Group"/>
-  <entry owner="AEGIS_DICOM_2.00" group="0003" element="xx00" vr="US" vm="1-n" name="?"/>
-  <entry owner="AEGIS_DICOM_2.00" group="0005" element="xx00" vr="US" vm="1-n" name="?"/>
-  <entry owner="AEGIS_DICOM_2.00" group="0009" element="xx00" vr="US" vm="1-n" name="?"/>
-  <entry owner="AEGIS_DICOM_2.00" group="0019" element="xx00" vr="US" vm="1-n" name="?"/>
-  <entry owner="AEGIS_DICOM_2.00" group="0029" element="xx00" vr="US" vm="1-n" name="?"/>
-  <entry owner="AEGIS_DICOM_2.00" group="1369" element="xx00" vr="US" vm="1-n" name="?"/>
   <entry owner="AGFA" group="0009" element="xx10" vr="LO" vm="1" name="?"/>
   <entry owner="AGFA" group="0009" element="xx11" vr="LO" vm="1" name="?"/>
   <entry owner="AGFA" group="0009" element="xx13" vr="LO" vm="1" name="?"/>
