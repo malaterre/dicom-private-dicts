@@ -39,7 +39,7 @@ def normalize_header( header ):
       ret[ index ] = u'VM'
     elif txt == 'DICOM Tag' or txt == 'Group, Tag':
       ret[ index ] = u'Tag'
-    elif txt == 'Default Value':
+    elif txt == 'Default Value': # or txt == 'Value':
       ret[ index ] = u'DefaultValue'
     elif txt == 'Description' or txt == 'Attribute Description':
       ret[ index ] = u'Definition'

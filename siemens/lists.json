@@ -124,6 +124,28 @@
 ],
 "md5":"4fa3996764c1a45e338daf145268d3af",
     "url":"https://www.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mdaw/mtiy/~edisp/fluorospotcompactvf10c_luminosdrfva10c_dcs-00073968.pdf"
-    }
+    },
+{
+"md5":"003bdada514adcf773fa1761fa3892b9",
+"tables":
+[
+         {
+            "owner" : "MMCPrivate",
+            "chunks" : [
+               {
+                  "pages" : "30-43"
+               }
+               
+            ],
+            "header" : [
+               "UNK",
+               "AttributeName",
+               "Tag",
+               "Definition"
+            ]
+         }
+      ],
 
+"url":"https://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mdaw/mtiz/~edisp/x500_1_0_conformance_statement-00074148.pdf"
+}
 ]

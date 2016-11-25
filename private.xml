@@ -175,6 +175,24 @@
   <entry owner="AMICAS0" group="0023" element="xx53" vr="UT" vm="1" name="Study Presentation Step Info"/>
   <entry owner="APEX_PRIVATE" group="0027" element="xx00" vr="LO" vm="1" name="Private Creator Identification"/>
   <entry owner="APEX_PRIVATE" group="0027" element="xx11" vr="UN" vm="1" name="Bed Position"/>
+  <entry owner="ATL HDI V1.0" group="0009" element="xx00" vr="UN" vm="1" name="Private Creator Data Element"/>
+  <entry owner="ATL HDI V1.0" group="0009" element="xx10" vr="UN" vm="1" name="Private"/>
+  <entry owner="ATL HDI V1.0" group="0009" element="xx20" vr="UN" vm="1" name="Private"/>
+  <entry owner="ATL HDI V1.0" group="0009" element="xx30" vr="UN" vm="1" name="Private"/>
+  <entry owner="ATL HDI V1.0" group="0009" element="xx40" vr="UN" vm="1" name="Private"/>
+  <entry owner="ATL HDI V1.0" group="0009" element="xx50" vr="UN" vm="1" name="Private"/>
+  <entry owner="ATL HDI V1.0" group="0009" element="xx60" vr="UN" vm="1" name="Private"/>
+  <entry owner="ATL HDI V1.0" group="0009" element="xx70" vr="UN" vm="1" name="Private"/>
+  <entry owner="ATL HDI V1.0" group="0009" element="xx80" vr="UN" vm="1" name="Private"/>
+  <entry owner="ATL HDI V1.0" group="0009" element="xx90" vr="UN" vm="1" name="Private"/>
+  <entry owner="ATL HDI V1.0" group="0009" element="xx91" vr="UN" vm="1" name="Private"/>
+  <entry owner="ATL PRIVATE TAGS" group="0029" element="xx30" vr="UN" vm="1" name="Loop Mode"/>
+  <entry owner="ATL PRIVATE TAGS" group="0029" element="xx31" vr="UN" vm="1" name="Trigger mode"/>
+  <entry owner="ATL PRIVATE TAGS" group="0029" element="xx32" vr="UN" vm="1" name="Number of Loops"/>
+  <entry owner="ATL PRIVATE TAGS" group="0029" element="xx33" vr="UN" vm="1" name="Loop Indexes"/>
+  <entry owner="ATL PRIVATE TAGS" group="0029" element="xx34" vr="UN" vm="1" name="Loop Heart Rates"/>
+  <entry owner="ATL PRIVATE TAGS" group="0029" element="xx35" vr="UN" vm="1" name="Medications"/>
+  <entry owner="ATL PRIVATE TAGS" group="0029" element="xx60" vr="UN" vm="1" name="Private Creator Data Element"/>
   <entry owner="Applicare/Centricity Radiology Web/Version 1.0" group="4109" element="xx01" vr="SH" vm="1" name="Mammography Laterality"/>
   <entry owner="Applicare/Centricity Radiology Web/Version 1.0" group="4109" element="xx02" vr="SH" vm="1" name="Mammography View Name"/>
   <entry owner="Applicare/Centricity Radiology Web/Version 1.0" group="4109" element="xx03" vr="SH" vm="1" name="Mammography View Modifier"/>

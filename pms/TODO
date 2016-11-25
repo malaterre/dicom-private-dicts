@@ -1,1 +1,25 @@
 http://incenter.medical.philips.com/doclib/enc/fetch/2000/4504/577242/577256/588723/5144873/5144488/5144982/DICOM_Conformance_Statement_Intera_R10.pdf%3fnodeid%3d5148402%26vernum%3d1
+
+http://forum.dcmtk.org/viewtopic.php?p=3040
+
+The tags are:
+<element tag="0029,0060" vr="LO" vm="1" len="16" name="PrivateCreator">ATL PRIVATE TAGS</element> 
+<element tag="0029,6030" vr="UL" vm="1" len="4" name="Unknown Tag & Data">2</element> 
+<element tag="0029,6031" vr="UL" vm="1" len="4" name="Unknown Tag & Data">0</element> 
+<element tag="0029,6032" vr="UL" vm="1" len="4" name="Unknown Tag & Data">1</element> 
+<element tag="0029,6033" vr="DS" vm="1" len="2" name="Unknown Tag & Data">0</element> 
+<element tag="0029,6034" vr="DS" vm="1" len="2" name="Unknown Tag & Data">53</element> 
+<element tag="0029,6035" vr="LO" vm="0" len="0" name="Unknown Tag & Data" /> 
+
+and 
+
+<element tag="0009,0010" vr="LO" vm="1" len="12" name="PrivateCreator">ATL HDI V1.0</element> 
+<element tag="0009,1010" vr="FD" vm="1" len="8" name="Unknown Tag & Data">644.1</element> 
+<element tag="0009,1020" vr="US" vm="1" len="2" name="Unknown Tag & Data">0</element> 
+<element tag="0009,1030" vr="US" vm="1" len="2" name="Unknown Tag & Data">0</element> 
+<element tag="0009,1040" vr="US" vm="1" len="2" name="Unknown Tag & Data">0</element> 
+<element tag="0009,1050" vr="FD" vm="1" len="8" name="Unknown Tag & Data">1.47</element> 
+<element tag="0009,1060" vr="US" vm="1" len="2" name="Unknown Tag & Data">0</element> 
+<element tag="0009,1070" vr="FD" vm="1" len="8" name="Unknown Tag & Data">1</element> 
+<element tag="0009,1080" vr="FD" vm="1" len="8" name="Unknown Tag & Data">0</element> 
+<element tag="0009,1090" vr="FD" vm="1" len="8" name="Unknown Tag & Data">0</element> 

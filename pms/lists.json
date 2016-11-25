@@ -43,5 +43,66 @@
     }
         ], 
         "url": "http://incenter.medical.philips.com/doclib/enc/fetch/2000/4504/577242/577256/588723/5144873/5144488/5144390/DICOM_Conformance_Statement_Pegasys_R4.25.pdf?nodeid=5148569&vernum=-2"
+    },
+{
+        "md5": "f820e4498134b3e0e1150a6c1e72b457", 
+        "tables": 
+[
+    {
+        "chunks": [
+            {
+                "area": "645.278,35.573,738.608,564.188", 
+                "page": "18"
+            }
+        ], 
+        "owner": "ATL HDI V1.0", 
+        "_use_table_header": true,
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "Type", 
+                    "DefaultValue",
+                    "Definition"
+                ]
+
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "52.403,37.868,243.653,559.598", 
+                "page": "19"
+            }
+        ], 
+        "owner": "ATL HDI V1.0", 
+        "_use_table_header": true,
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "Type", 
+                    "DefaultValue",
+                    "Definition"
+                ]
+
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "507.578,36.338,614.678,527.468", 
+                "page": "20"
+            }
+        ], 
+        "owner": "ATL PRIVATE TAGS", 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "DefaultValue",
+                    "Definition"
+                ]
+
+    }
+]
+
+, 
+        "url": "http://incenter.medical.philips.com/doclib/enc/fetch/2000/4504/577242/577256/588723/5144873/5144488/5144888/DICOM_Conformance_Statement_HDI_5000_R195.xx.pdf?nodeid=5147546&vernum=-2"
     }
 ]

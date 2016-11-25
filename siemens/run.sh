@@ -11,4 +11,5 @@ set -e
 ./tabula.sh -o "siemens/4fa3996764c1a45e338daf145268d3af_1_0.json" --spreadsheet -p 75 -a 74.119,89.622,523.344,518.022 "siemens/fluorospotcompactvf10c_luminosdrfva10c_dcs-00073968.pdf"
 ./tabula.sh -o "siemens/4fa3996764c1a45e338daf145268d3af_2_0.json" --spreadsheet -p 75 -a 542.682,87.391,763.576,515.047 "siemens/fluorospotcompactvf10c_luminosdrfva10c_dcs-00073968.pdf"
 ./tabula.sh -o "siemens/4fa3996764c1a45e338daf145268d3af_3_0.json" --spreadsheet -p 76 -a 73.387,88.134,399.893,517.278 "siemens/fluorospotcompactvf10c_luminosdrfva10c_dcs-00073968.pdf"
+./tabula.sh -o "siemens/003bdada514adcf773fa1761fa3892b9_0_0.json" --spreadsheet -p 30-43 "siemens/x500_1_0_conformance_statement-00074148.pdf"
 #rm siemens/chunk?.json

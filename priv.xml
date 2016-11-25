@@ -3790,6 +3790,34 @@
     <entry owner="ADAC_IMG" group="0019" element="xx12" vr="IS" vm="1-n" name="ADAC Header/Image Sizes"/>
     <entry owner="ADAC_IMG" group="0019" element="xx20" vr="OB" vm="1" name="ADAC Pegasys Headers"/>
     <entry owner="ADAC_IMG" group="7043" element="xx00" vr="SH" vm="1" name="Cardiac Stress State"/>
+    <entry owner="ATL HDI V1.0" group="0009" element="xx00" vr="UN" vm="1" name="Private Creator Data Element"/>
+    <entry owner="ATL HDI V1.0" group="0009" element="xx10" vr="UN" vm="1" name="Private"/>
+    <entry owner="ATL HDI V1.0" group="0009" element="xx20" vr="UN" vm="1" name="Private"/>
+    <entry owner="ATL HDI V1.0" group="0009" element="xx30" vr="UN" vm="1" name="Private"/>
+    <entry owner="ATL HDI V1.0" group="0009" element="xx40" vr="UN" vm="1" name="Private"/>
+    <entry owner="ATL HDI V1.0" group="0009" element="xx50" vr="UN" vm="1" name="Private"/>
+    <entry owner="ATL HDI V1.0" group="0009" element="xx60" vr="UN" vm="1" name="Private"/>
+    <entry owner="ATL HDI V1.0" group="0009" element="xx70" vr="UN" vm="1" name="Private"/>
+    <entry owner="ATL HDI V1.0" group="0009" element="xx80" vr="UN" vm="1" name="Private"/>
+    <entry owner="ATL HDI V1.0" group="0009" element="xx90" vr="UN" vm="1" name="Private"/>
+    <entry owner="ATL HDI V1.0" group="0009" element="xx00" vr="UN" vm="1" name="Private"/>
+    <entry owner="ATL HDI V1.0" group="0009" element="xx60" vr="UN" vm="1" name="Private"/>
+    <entry owner="ATL HDI V1.0" group="0009" element="xx70" vr="UN" vm="1" name="Private"/>
+    <entry owner="ATL HDI V1.0" group="0009" element="xx80" vr="UN" vm="1" name="Private"/>
+    <entry owner="ATL HDI V1.0" group="0009" element="xx90" vr="UN" vm="1" name="Private"/>
+    <entry owner="ATL HDI V1.0" group="0009" element="xx91" vr="UN" vm="1" name="Private"/>
+    <entry owner="ATL HDI V1.0" group="0009" element="xx00" vr="UN" vm="1" name="Private"/>
+    <entry owner="ATL HDI V1.0" group="0009" element="xx10" vr="UN" vm="1" name="Private"/>
+    <entry owner="ATL HDI V1.0" group="0009" element="xx20" vr="UN" vm="1" name="Private"/>
+    <entry owner="ATL HDI V1.0" group="0009" element="xx30" vr="UN" vm="1" name="Private"/>
+    <entry owner="ATL HDI V1.0" group="0009" element="xx50" vr="UN" vm="1" name="Private"/>
+    <entry owner="ATL PRIVATE TAGS" group="0029" element="xx60" vr="UN" vm="1" name="Private Creator Data Element"/>
+    <entry owner="ATL PRIVATE TAGS" group="0029" element="xx30" vr="UN" vm="1" name="Loop Mode"/>
+    <entry owner="ATL PRIVATE TAGS" group="0029" element="xx31" vr="UN" vm="1" name="Trigger mode"/>
+    <entry owner="ATL PRIVATE TAGS" group="0029" element="xx32" vr="UN" vm="1" name="Number of Loops"/>
+    <entry owner="ATL PRIVATE TAGS" group="0029" element="xx33" vr="UN" vm="1" name="Loop Indexes"/>
+    <entry owner="ATL PRIVATE TAGS" group="0029" element="xx34" vr="UN" vm="1" name="Loop Heart Rates"/>
+    <entry owner="ATL PRIVATE TAGS" group="0029" element="xx35" vr="UN" vm="1" name="Medications"/>
     <entry owner="SIEMENS MED DISPLAY" group="0029" element="xx04" vr="CS" vm="1" name="Photometric Interpretation"/>
     <entry owner="SIEMENS MED DISPLAY" group="0029" element="xx10" vr="US" vm="1" name="Rows of Submatrix"/>
     <entry owner="SIEMENS MED DISPLAY" group="0029" element="xx11" vr="US" vm="1" name="Columns of Submatrix"/>
