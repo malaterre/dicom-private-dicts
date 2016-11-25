@@ -182,11 +182,6 @@
   <entry owner="Agfa ADC NX" group="0019" element="xxf7" vr="DS" vm="1" name="Plate Erasability"/>
   <entry owner="Agfa ADC NX" group="0019" element="xxf8" vr="IS" vm="1" name="?"/>
   <entry owner="Agfa ADC NX" group="0019" element="xxfe" vr="CS" vm="1" name="?"/>
-  <entry owner="AgilityRuntime" group="0029" element="xx11" vr="CS" vm="1" name="?"/>
-  <entry owner="AgilityRuntime" group="0029" element="xx12" vr="US" vm="1" name="?"/>
-  <entry owner="AgilityRuntime" group="0029" element="xx13" vr="US" vm="1" name="?"/>
-  <entry owner="AgilityRuntime" group="0029" element="xx14" vr="US" vm="1" name="?"/>
-  <entry owner="AgilityRuntime" group="0029" element="xx1f" vr="US" vm="1" name="?"/>
   <entry owner="Applicare/Centricity Radiology Web/Version 1.0" group="4109" element="xx01" vr="SH" vm="1" name="Mammography Laterality"/>
   <entry owner="Applicare/Centricity Radiology Web/Version 1.0" group="4109" element="xx02" vr="SH" vm="1" name="Mammography View Name"/>
   <entry owner="Applicare/Centricity Radiology Web/Version 1.0" group="4109" element="xx03" vr="SH" vm="1" name="Mammography View Modifier"/>

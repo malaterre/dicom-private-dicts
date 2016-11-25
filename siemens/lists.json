@@ -147,5 +147,35 @@
       ],
 
 "url":"https://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mdaw/mtiz/~edisp/x500_1_0_conformance_statement-00074148.pdf"
+},
+{
+"md5":"b44300dadb66e9194dfbd3c78f63ce48",
+"tables":
+[
+    {
+        "chunks": [
+            {
+                "area": "202.742,85.159,233.979,530.666", 
+                "page": "71"
+            }
+        ], 
+        "owner": "BioPri3D", 
+        "use_table_header": false,
+            "header" : [ "AttributeName", "Tag", "Definition" ]
+
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "88.959,83.672,113.503,536.616", 
+                "page": "72"
+            }
+        ], 
+        "owner": "BioPri3D", 
+        "use_table_header": false,
+            "header" : [ "AttributeName", "Tag", "Definition" ]
+    }
+],
+"url":"http://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mdaw/mte4/~edisp/x-leonardo_dcs_vb11-00074288.pdf"
 }
 ]

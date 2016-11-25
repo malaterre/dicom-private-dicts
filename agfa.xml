@@ -91,4 +91,35 @@
     <entry owner="Mitra Object Document 1.0" group="0029" element="xx10" vr="OB" vm="1" name="IMPAX markup XML stored"/>
 
 
+
+  
+    <entry owner="Agfa ADC NX" group="0019" element="xx00" vr="LO" vm="1" name="&#x201C;Agfa ADC NX&#x201D;"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xxf0" vr="LO" vm="1" name="User Defined field 1"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xxf1" vr="LO" vm="1" name="User Defined field 2"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xxf2" vr="LO" vm="1" name="User Defined field 3"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xxf3" vr="LO" vm="1" name="User Defined field 4"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xxf4" vr="LO" vm="1" name="User Defined field 5"/>
+
+
+
+  
+    <entry owner="Agfa ADC NX" group="0019" element="xx0e" vr="CS" vm="1" name="Scan direction"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xx28" vr="CS" vm="1" name="Is IP Signature Removed"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xxf6" vr="DS" vm="1" name="Plate sensitivity"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xxf7" vr="DS" vm="1" name="Plate erasability"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xxfa" vr="IS" vm="1" name="Exposure Index"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xxfb" vr="FL" vm="1" name="Deviation Index"/>
+
+
+
+  
+    <entry owner="Agfa ADC NX" group="0019" element="xxfc" vr="IS" vm="1" name="Target Exposure Index"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xxfe" vr="CS" vm="1" name="Study Priority ID"/>
+
+
+
+  
+    <entry owner="Agfa ADC NX" group="0019" element="xxf5" vr="CS" vm="1" name="Cassette orientation"/>
+
+
 </dict>

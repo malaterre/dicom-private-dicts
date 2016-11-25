@@ -80,6 +80,8 @@ def read_element( value ):
       element = '0'
     elif element == '00xx':
       element = '0' # wotsit ?
+    elif element == '00yy':
+      element = '0' # wotsit ?
     else:
       # FIXME wotsit ?
       element = element[2:4]
@@ -205,13 +207,13 @@ for f in files:
             d.append(norm)
       elif header != None:
         k = header
-        if(debug): print >> sys.stderr, "debug header:", k
+        if(debug): print >> sys.stderr, "debug header: %s"% k
         for line,j in enumerate(data[0:]): # should I skip the first line ?
           elem={}
           elstr=[]
           for el in j:
             elstr.append(el['text'])
-          if(debug): print >> sys.stderr, "debug el: %d/%d -> %s" % (len(k),len(j),",".join(elstr))
+          if(debug): print >> sys.stderr, "debug el: %d/%d -> %s" % (len(k),len(j),",".join(elstr).replace('\r',' '))
           try:
             for index,col in enumerate(k):
               elem[ col ] = j[index]['text'].replace('\r',' ')

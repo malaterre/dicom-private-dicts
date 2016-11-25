@@ -18,4 +18,6 @@ set -e
 ./tabula.sh -o "other/04f2c2905d4f72f3e42501cc4670d1f7_0_2.json" --spreadsheet -p 186 -a 130.433,83.003,256.658,568.778 "other/McKesson Radiology 12.1.1 DICOM Conformance Statement rev1.0.pdf"
 ./tabula.sh -o "other/04f2c2905d4f72f3e42501cc4670d1f7_0_3.json" --spreadsheet -p 190 -a 255.893,83.768,506.048,568.013 "other/McKesson Radiology 12.1.1 DICOM Conformance Statement rev1.0.pdf"
 ./tabula.sh -o "other/04f2c2905d4f72f3e42501cc4670d1f7_0_4.json" --spreadsheet -p 195 -a 594.023,81.473,722.543,566.483 "other/McKesson Radiology 12.1.1 DICOM Conformance Statement rev1.0.pdf"
+./tabula.sh -o "other/a07c48bf8074101e61daacbced0686ea_0_0.json" --spreadsheet -p 20 -a 114.75,76.883,716.805,551.948 "other/DICOM Conformance Statement Roentgen Works no history.pdf"
+./tabula.sh -o "other/a07c48bf8074101e61daacbced0686ea_1_0.json" --spreadsheet -p 21 -a 115.515,76.118,546.21,551.948 "other/DICOM Conformance Statement Roentgen Works no history.pdf"
 #rm other/chunk?.json

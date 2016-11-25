@@ -188,4 +188,27 @@
     <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx05" vr="IS" vm="1" name="ALI_BAG_ID_TAG"/>
 
 
+
+  
+    <entry owner="BRIT Systems, Inc." group="0021" element="xx00" vr="UN" vm="1" name="PrivateCreatorData"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xx90" vr="UN" vm="1" name="BritOriginalSenderAETitle"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xxa0" vr="SQ" vm="1" name="BritObjectActionSequence"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xx00" vr="UN" vm="1" name="PrivateCreatorData"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xx91" vr="UN" vm="1" name="BritSoftwareTitle"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xx92" vr="UN" vm="1" name="BritSoftwareVersion"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xx93" vr="UN" vm="1" name="BritSerialNumber"/>
+
+
+
+  
+    <entry owner="BRIT Systems, Inc." group="0021" element="xxa1" vr="UN" vm="1" name="BritObjectAction"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xxa2" vr="UN" vm="1" name="BritObjectActionDate"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xxa3" vr="UN" vm="1" name="BritObjectActionTime"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xxa4" vr="UN" vm="1" name="BritObjectActionUser"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xxa5" vr="UN" vm="1" name="BritLocalAETitle"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xxa6" vr="UN" vm="1" name="BritLocalIPAddress"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xxa7" vr="UN" vm="1" name="BritRemoteAETitle"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xxa8" vr="UN" vm="1" name="BritRemoteIPAddress"/>
+
+
 </dict>

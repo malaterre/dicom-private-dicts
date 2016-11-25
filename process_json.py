@@ -74,7 +74,7 @@ with open(f) as data_file, open(olists,'w') as out_file, open(orun,'w') as out_f
       opts = ""
       # pass the table header (defined manually, generally because JSON output is bogus)
       if table.has_key( "header" ):
-        assert( not table.has_key( "use_table_header" ) )
+        assert( not table.has_key( "use_table_header" ) or not table["use_table_header"] )
         opts += ' --header "%s" ' % ",".join(table['header'])
       # pass the table owner
       if table.has_key( "owner" ):

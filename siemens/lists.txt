@@ -2,3 +2,4 @@ https://www.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/
 http://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mda1/njiy/~edisp/cios_family_dicom_01_16-02589882.pdf
 https://www.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mdaw/mtiy/~edisp/fluorospotcompactvf10c_luminosdrfva10c_dcs-00073968.pdf
 https://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mdaw/mtiz/~edisp/x500_1_0_conformance_statement-00074148.pdf
+http://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mdaw/mte4/~edisp/x-leonardo_dcs_vb11-00074288.pdf

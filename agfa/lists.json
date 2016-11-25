@@ -101,6 +101,58 @@
 ],
 
 "url":"http://www.agfahealthcare.com/global/en/he/library/libraryopen?ID=54472549"
+},
+{
+"md5":"5cae2b40cf2c1f5a0c28e448d311766c",
+"tables":
+[
+    {
+        "chunks": [
+            {
+                "area": "188.999,76.269,289.452,520.492",
+                "page": "47"
+            }
+        ], 
+        "owner": "Agfa ADC NX", 
+        "use_table_header": false,
+            "header" : [ "Tag", "AttributeName", "VR" ]
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "464.685,47.25,722.885,557.696", 
+                "page": "73"
+            }
+        ], 
+        "owner": "Agfa ADC NX", 
+        "use_table_header": false,
+            "header" : [ "AttributeName", "Tag", "VR", "DefaultValue", "UNK", "UNK" ]
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "116.822,49.482,191.976,555.464",
+                "page": "74"
+            }
+        ], 
+        "owner": "Agfa ADC NX", 
+        "use_table_header": false,
+            "header" : [ "AttributeName", "Tag", "VR", "DefaultValue", "UNK", "UNK" ]
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "657.405,47.25,681.216,569.602", 
+                "page": "80"
+            }
+        ], 
+        "owner": "Agfa ADC NX", 
+        "use_table_header": false,
+            "header" : [ "AttributeName", "Tag", "VR", "DefaultValue", "UNK", "UNK" ]
+    }
+],
+
+"url":"http://www.agfahealthcare.com/he/latam/es/binaries/001339 NX 2.0.8400-3.0.8400 DICOM Conformance Statement_rev1.1 1.0_tcm586-72224.pdf"
 }
 
 ]

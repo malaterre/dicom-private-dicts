@@ -66,6 +66,21 @@
     <entry owner="AGFA PACS Archive Mirroring 1.0" group="0031" element="xx01" vr="CS" vm="1" name="date_time_verified"/>
     <entry owner="Mitra Object Document 1.0" group="0029" element="xx00" vr="OB" vm="1" name="IMPAX object document"/>
     <entry owner="Mitra Object Document 1.0" group="0029" element="xx10" vr="OB" vm="1" name="IMPAX markup XML stored"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xx00" vr="LO" vm="1" name="&#x201C;Agfa ADC NX&#x201D;"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xxf0" vr="LO" vm="1" name="User Defined field 1"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xxf1" vr="LO" vm="1" name="User Defined field 2"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xxf2" vr="LO" vm="1" name="User Defined field 3"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xxf3" vr="LO" vm="1" name="User Defined field 4"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xxf4" vr="LO" vm="1" name="User Defined field 5"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xx0e" vr="CS" vm="1" name="Scan direction"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xx28" vr="CS" vm="1" name="Is IP Signature Removed"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xxf6" vr="DS" vm="1" name="Plate sensitivity"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xxf7" vr="DS" vm="1" name="Plate erasability"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xxfa" vr="IS" vm="1" name="Exposure Index"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xxfb" vr="FL" vm="1" name="Deviation Index"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xxfc" vr="IS" vm="1" name="Target Exposure Index"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xxfe" vr="CS" vm="1" name="Study Priority ID"/>
+    <entry owner="Agfa ADC NX" group="0019" element="xxf5" vr="CS" vm="1" name="Cassette orientation"/>
     <entry owner="FDMS 1.0" group="0009" element="xx04" vr="SH" vm="1" name="Image Control Unit"/>
     <entry owner="FDMS 1.0" group="0009" element="xx05" vr="OW" vm="1" name="Image UID"/>
     <entry owner="FDMS 1.0" group="0009" element="xx06" vr="OW" vm="1" name="Route Image UID"/>
@@ -6891,5 +6906,20 @@
     <entry owner="A.L.I. Technologies, Inc." group="3711" element="xxc3" vr="LO" vm="1" name="ALI_SIM_PRIVATE_MC_STRING"/>
     <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx01" vr="LO" vm="1" name="ALI_FILENAME_TAG"/>
     <entry owner="A.L.I. Technologies, Inc." group="3711" element="xx05" vr="IS" vm="1" name="ALI_BAG_ID_TAG"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xx00" vr="UN" vm="1" name="PrivateCreatorData"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xx90" vr="UN" vm="1" name="BritOriginalSenderAETitle"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xxa0" vr="SQ" vm="1" name="BritObjectActionSequence"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xx00" vr="UN" vm="1" name="PrivateCreatorData"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xx91" vr="UN" vm="1" name="BritSoftwareTitle"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xx92" vr="UN" vm="1" name="BritSoftwareVersion"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xx93" vr="UN" vm="1" name="BritSerialNumber"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xxa1" vr="UN" vm="1" name="BritObjectAction"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xxa2" vr="UN" vm="1" name="BritObjectActionDate"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xxa3" vr="UN" vm="1" name="BritObjectActionTime"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xxa4" vr="UN" vm="1" name="BritObjectActionUser"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xxa5" vr="UN" vm="1" name="BritLocalAETitle"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xxa6" vr="UN" vm="1" name="BritLocalIPAddress"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xxa7" vr="UN" vm="1" name="BritRemoteAETitle"/>
+    <entry owner="BRIT Systems, Inc." group="0021" element="xxa8" vr="UN" vm="1" name="BritRemoteIPAddress"/>
   </dict>
 </dicts>

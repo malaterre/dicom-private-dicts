@@ -158,5 +158,37 @@
 
          }
       ]
-   }
+   },
+{
+"md5":"a07c48bf8074101e61daacbced0686ea",
+"tables":[
+    {
+        "chunks": [
+            {
+                "area": "114.75,76.883,716.805,551.948",
+                "page": "20"
+            }
+        ], 
+        "owner": "BRIT Systems, Inc.", 
+        "use_table_header": false,
+        "_comment" : "need to add fake col",
+            "header" : [ "UNK","AttributeName", "Tag", "Type", "Definition" ]
+    }, 
+    {
+        "chunks": [
+            {
+                "area": "115.515,76.118,546.21,551.948", 
+                "page": "21"
+            }
+        ], 
+        "owner": "BRIT Systems, Inc.", 
+        "use_table_header": false,
+        "_comment" : "need to add fake col",
+            "header" : [ "UNK", "AttributeName", "Tag", "Type", "Definition" ]
+
+    }
+],
+
+"url":"http://www.brit.com/DICOM Conformance PDFs/DICOM Conformance Statement Roentgen Works no history.pdf"
+}
 ]
