@@ -1,0 +1,31 @@
+﻿<dicts>
+  <dict owner="PRIV">
+    <entry group="0009" element="37" vr="UN" vm="1" name="Starting Heart Rate" type="3">
+<definition>Heart rate at start of acquisition.</definition>
+</entry>
+    <entry group="0009" element="2d" vr="UN" vm="1" name="Track Beat Average" type="3">
+<definition>Heart rate tracking used during acquisition.</definition>
+</entry>
+    <entry group="0009" element="3a" vr="UN" vm="1" name="Percent Cycle Imaged" type="3">
+<definition>Percent Cycle Imaged</definition>
+</entry>
+    <entry group="0015" element="17" vr="UN" vm="1" name="Preceding Beat" type="3">
+<definition>Preceding Beat</definition>
+</entry>
+    <entry group="0055" element="62" vr="SQ" vm="1" name="Xeleris Gated Information Sequence" type="3">
+<definition>—</definition>
+</entry>
+    <entry group="0055" element="63" vr="SQ" vm="1" name="&gt;Xeleris Data Information Sequence" type="3">
+<definition>—</definition>
+</entry>
+    <entry group="0009" element="38" vr="UN" vm="1" name="&gt;&gt;RR Window Width" type="3">
+<definition>Width of RR acceptance window as percentage of rate.</definition>
+</entry>
+    <entry group="0009" element="39" vr="UN" vm="1" name="&gt;&gt;RR Window Offset" type="3">
+<definition>Offset of RR acceptance window as percentage of rate.</definition>
+</entry>
+    <entry group="0013" element="20" vr="UN" vm="1" name="&gt;&gt;Accepted Beat Time" type="3">
+<definition>Accepted Beat Time</definition>
+</entry>
+</dict>
+</dicts>

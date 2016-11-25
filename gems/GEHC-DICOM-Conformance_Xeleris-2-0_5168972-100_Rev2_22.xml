@@ -1,0 +1,72 @@
+﻿<dicts>
+  <dict owner="GEMS_GENIE_1">
+    <entry group="0009" element="00" vr="LO" vm="1" name="Private Creator Identification">
+</entry>
+    <entry group="0009" element="10" vr="LO" vm="1" name="Study Name">
+</entry>
+    <entry group="0009" element="11" vr="SL" vm="1" name="Study Flags">
+</entry>
+    <entry group="0009" element="12" vr="SL" vm="1" name="Study Type">
+</entry>
+    <entry group="0009" element="1e" vr="UI" vm="1" name="Dataset UID">
+</entry>
+    <entry group="0009" element="20" vr="LO" vm="1" name="Series Object Name">
+</entry>
+    <entry group="0009" element="21" vr="SL" vm="1" name="Series Flags">
+</entry>
+    <entry group="0009" element="22" vr="SH" vm="1" name="User Orientation">
+</entry>
+    <entry group="0009" element="23" vr="SL" vm="1" name="Initiation Type">
+</entry>
+    <entry group="0009" element="24" vr="SL" vm="1" name="Initiation Delay">
+</entry>
+    <entry group="0009" element="25" vr="SL" vm="1" name="Initiation Count Rate">
+</entry>
+    <entry group="0009" element="26" vr="SL" vm="1" name="Number Energy Sets">
+</entry>
+    <entry group="0009" element="27" vr="SL" vm="1" name="Number Detectors">
+</entry>
+    <entry group="0009" element="28" vr="SL" vm="1" name="Number RR Windows">
+</entry>
+    <entry group="0009" element="29" vr="SL" vm="1" name="Number MG Time Slots">
+</entry>
+    <entry group="0009" element="2a" vr="SL" vm="1" name="Number View Sets">
+</entry>
+    <entry group="0009" element="2b" vr="LO" vm="1" name="Trigger History UID">
+</entry>
+    <entry group="0009" element="2c" vr="LO" vm="1" name="Series Comments">
+</entry>
+    <entry group="0009" element="2d" vr="SL" vm="1" name="Track Beat Average">
+</entry>
+    <entry group="0009" element="2e" vr="FD" vm="1" name="Distance Prescribed">
+</entry>
+    <entry group="0009" element="2f" vr="SL" vm="1" name="Table Direction">
+</entry>
+    <entry group="0009" element="33" vr="FD" vm="1" name="Rotational Continuous Speed">
+</entry>
+    <entry group="0009" element="34" vr="SL" vm="1" name="Gantry Motion Type (retired)">
+</entry>
+    <entry group="0009" element="35" vr="SL" vm="1" name="Gantry Locus Type">
+</entry>
+    <entry group="0009" element="37" vr="SL" vm="1" name="Starting Heart Rate">
+</entry>
+    <entry group="0009" element="38" vr="SL" vm="1" name="RR Window Width">
+</entry>
+    <entry group="0009" element="39" vr="SL" vm="1" name="RR Window Offset">
+</entry>
+    <entry group="0009" element="3a" vr="SL" vm="1" name="Percent Cycle Imaged">
+</entry>
+    <entry group="0009" element="40" vr="PN" vm="1" name="Patient Object Name">
+</entry>
+    <entry group="0009" element="44" vr="SL" vm="1" name="Num Views Acquired (retired)">
+</entry>
+    <entry group="0009" element="41" vr="SL" vm="1" name="Patient Flags">
+</entry>
+    <entry group="0009" element="42" vr="DA" vm="1" name="Patient Creation Date">
+</entry>
+    <entry group="0009" element="43" vr="TM" vm="1" name="Patient Creation Time">
+</entry>
+    <entry group="0011" element="00" vr="LO" vm="1" name="Private Creator Identification">
+</entry>
+</dict>
+</dicts>

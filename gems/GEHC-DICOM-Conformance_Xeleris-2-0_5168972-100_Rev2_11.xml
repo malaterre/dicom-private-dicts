@@ -1,0 +1,97 @@
+﻿<dicts>
+  <dict owner="PRIV">
+    <entry group="0011" element="56" vr="UN" vm="1" name="Elapsed Time" type="3">
+<definition>Elapsed Time</definition>
+</entry>
+    <entry group="0011" element="57" vr="UN" vm="1" name="FOV" type="3">
+<definition>FOV</definition>
+</entry>
+    <entry group="0013" element="10" vr="UN" vm="1" name="Digital FOV" type="3">
+<definition>Digital FOV</definition>
+</entry>
+    <entry group="0013" element="11" vr="UN" vm="1" name="Source Translator" type="3">
+<definition>Source Translator</definition>
+</entry>
+    <entry group="0013" element="12" vr="UN" vm="1" name="RAL Flags" type="3">
+<definition>RAL Flags</definition>
+</entry>
+    <entry group="0055" element="65" vr="SQ" vm="1" name="Xeleris Frame Sequence" type="3">
+<definition>Xeleris Frame Sequence</definition>
+</entry>
+    <entry group="0015" element="10" vr="UN" vm="1" name="&gt;Frame Termination Condition" type="3">
+<definition>Frame Termination Condition</definition>
+</entry>
+    <entry group="0015" element="11" vr="UN" vm="1" name="&gt;Frame Termination Value" type="3">
+<definition>Frame Termination Value</definition>
+</entry>
+    <entry group="0013" element="14" vr="UN" vm="1" name="&gt;Original Image Number" type="3">
+<definition>Original Image Number</definition>
+</entry>
+    <entry group="0057" element="01" vr="SQ" vm="1" name="ROI Sequence" type="3">
+<definition>Private ROI Sequence</definition>
+</entry>
+    <entry group="0057" element="02" vr="UN" vm="1" name="&gt;ROISOPClassUID" type="3">
+<definition>ROISOPClassUID</definition>
+</entry>
+    <entry group="0057" element="03" vr="UN" vm="1" name="&gt;ROISOPInstanceUID" type="3">
+<definition>ROISOPInstanceUID</definition>
+</entry>
+    <entry group="0057" element="10" vr="IS" vm="1" name="&gt;ROI Number" type="3">
+<definition>ROI Number</definition>
+</entry>
+    <entry group="0057" element="11" vr="UN" vm="1" name="&gt;ROI Dimentions" type="3">
+<definition>ROI Dimentions</definition>
+</entry>
+    <entry group="0057" element="12" vr="US" vm="1" name="&gt;ROIPoints" type="3">
+<definition>ROIPoints</definition>
+</entry>
+    <entry group="0057" element="13" vr="CS" vm="1" name="&gt;ROIType" type="3">
+<definition>ROIType</definition>
+</entry>
+    <entry group="0057" element="14" vr="LD" vm="1" name="&gt;ROIDescription" type="3">
+<definition>ROIDescription</definition>
+</entry>
+    <entry group="0057" element="15" vr="US" vm="1" name="&gt;0 value representation" type="3">
+<definition>0 value representation</definition>
+</entry>
+    <entry group="0057" element="16" vr="LO" vm="1" name="&gt;ROI Label" type="3">
+<definition>ROI Label</definition>
+</entry>
+    <entry group="0057" element="17" vr="OW" vm="1" name="&gt;ROI data" type="3">
+<definition>ROI data</definition>
+</entry>
+    <entry group="0057" element="41" vr="SL" vm="1" name="&gt;Modified" type="3">
+<definition>Modified</definition>
+</entry>
+    <entry group="0057" element="42" vr="LD" vm="1" name="&gt; Name" type="3">
+<definition>Name</definition>
+</entry>
+    <entry group="0057" element="43" vr="SL" vm="1" name="&gt;RID in database" type="3">
+<definition>RID in database</definition>
+</entry>
+    <entry group="0057" element="45" vr="LO" vm="1" name="&gt;SOPClassUID" type="3">
+<definition>SOPClassUID</definition>
+</entry>
+    <entry group="0057" element="46" vr="LO" vm="1" name="&gt;SOPInstanceUID" type="3">
+<definition>SOPInstanceUID</definition>
+</entry>
+    <entry group="0057" element="47" vr="LO" vm="1" name="&gt;Normal Colour" type="3">
+<definition>Normal Colour</definition>
+</entry>
+    <entry group="0057" element="48" vr="LT" vm="1" name="&gt;NameFont" type="3">
+<definition>NameFont</definition>
+</entry>
+    <entry group="0057" element="49" vr="SL" vm="1" name="&gt;FillPattern" type="3">
+<definition>FillPattern</definition>
+</entry>
+    <entry group="0057" element="4a" vr="SL" vm="1" name="&gt;LineStyle" type="3">
+<definition>LineStyle</definition>
+</entry>
+    <entry group="0057" element="4b" vr="SL" vm="1" name="&gt;LineDashLength" type="3">
+<definition>LineDashLength</definition>
+</entry>
+    <entry group="0057" element="4c" vr="SL" vm="1" name="&gt;LineThickness" type="3">
+<definition>LineThickness</definition>
+</entry>
+</dict>
+</dicts>

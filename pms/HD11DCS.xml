@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.medical.philips.com/main/company/connectivity/assets/docs/dicomcs/HD11DCS.pdf">
+  <dict owner="Eclispe 60">
+    <entry group="0031" element="0060" vr="LO" name="Private Creator"/>
+    <entry group="0031" element="6030" vr="UL" name="Private data"/>
+    <entry group="0031" element="6031" vr="UL" name="Private data"/>
+    <entry group="0031" element="6032" vr="LO" name="Private data"/>
+    <entry group="0031" element="6033" vr="UL" name="Private data"/>
+    <entry group="0031" element="6034" vr="UL" name="Private data"/>
+    <entry group="0031" element="6035" vr="UL" name="Private data"/>
+    <entry group="7777" element="0010" vr="LO" name="Private data"/>
+    <entry group="7777" element="1001" vr="DA" name="Private data"/>
+    <entry group="7777" element="1002" vr="CS" name="Private data"/>
+    <entry group="7777" element="1003" vr="LO" name="Private data"/>
+    <entry group="7777" element="1014" vr="LT" name="Private data"/>
+    <entry group="0029" element="0060" vr="LO" name="Private data"/>
+    <entry group="0029" element="6051" vr="UL" name="Private data"/>
+    <entry group="0029" element="6052" vr="UL" name="Private data"/>
+    <entry group="0029" element="6053" vr="DS" name="Private data"/>
+    <entry group="0029" element="6054" vr="UL" name="Private data"/>
+    <entry group="0029" element="6055" vr="FL" name="Private data"/>
+    <entry group="0029" element="6056" vr="US" name="Private data"/>
+    <entry group="0029" element="6030" vr="UL" name="Private data"/>
+    <entry group="0029" element="6031" vr="UL" name="Private data"/>
+    <entry group="0029" element="6032" vr="UL" name="Private data"/>
+    <entry group="0029" element="6033" vr="DS" name="Private data"/>
+    <entry group="0029" element="6034" vr="DS" name="Private data"/>
+    <entry group="0029" element="6036" vr="SL" name="Private data"/>
+    <entry group="0029" element="6040" vr="CS" name="Private data"/>
+    <entry group="200d" element="0030" vr="LO" name="Private data"/>
+    <entry group="200d" element="0031" vr="LO" name="Private data"/>
+    <entry group="200d" element="0032" vr="LO" name="Private data"/>
+    <entry group="200d" element="0033" vr="LO" name="Private data"/>
+    <entry group="200d" element="0034" vr="LO" name="Private data"/>
+    <entry group="200d" element="0035" vr="LO" name="Private data"/>
+    <entry group="200d" element="0036" vr="LO" name="Private data"/>
+    <entry group="200d" element="0037" vr="LO" name="Private data"/>
+    <entry group="200d" element="0038" vr="LO" name="Private data"/>
+    <entry group="200d" element="0039" vr="LO" name="Private data"/>
+    <entry group="200d" element="003a" vr="LO" name="Private data"/>
+    <entry group="200d" element="3001" vr="LO" name="Private data"/>
+    <entry group="200d" element="300b" vr="OB" name="Private data"/>
+    <entry group="200d" element="3012" vr="OB" name="Private data"/>
+    <entry group="200d" element="3101" vr="LO" name="Private data"/>
+    <entry group="200d" element="3102" vr="LO" name="Private data"/>
+    <entry group="200d" element="3103" vr="LO" name="Private data"/>
+    <entry group="200d" element="3104" vr="LO" name="Private data"/>
+    <entry group="200d" element="3105" vr="LO" name="Private data"/>
+    <entry group="200d" element="3106" vr="LO" name="Private data"/>
+    <entry group="200d" element="3414" vr="IS" name="Private data"/>
+    <entry group="200d" element="3415" vr="IS" name="Private data"/>
+    <entry group="200d" element="3501" vr="IS" name="Private data"/>
+    <entry group="200d" element="3510" vr="IS" name="Private data"/>
+    <entry group="200d" element="3511" vr="IS" name="Private data"/>
+    <entry group="200d" element="3520" vr="SQ" name="Private data"/>
+    <entry group="200d" element="3531" vr="IS" name="Private data"/>
+    <entry group="200d" element="3532" vr="IS" name="Private data"/>
+    <entry group="200d" element="3533" vr="FD" name="Private data"/>
+    <entry group="200d" element="3534" vr="IS" name="Private data"/>
+    <entry group="200d" element="3535" vr="FD" name="Private data"/>
+    <entry group="200d" element="3536" vr="IS" name="Private data"/>
+    <entry group="200d" element="3a10" vr="IS" name="Private data"/>
+    <entry group="200d" element="3a11" vr="IS" name="Private data"/>
+    <entry group="200d" element="3a1a" vr="IS" name="Private data"/>
+    <entry group="200d" element="3a1b" vr="IS" name="Private data"/>
+    <entry group="200d" element="3a27" vr="FD" name="Private data"/>
+    <entry group="0029" element="6050" vr="CS" name="Private data"/>
+    <entry group="200d" element="3107" vr="LO" name="Private data"/>
+    <entry group="200d" element="3108" vr="LO" name="Private data"/>
+    <entry group="200d" element="3201" vr="LO" name="Private data"/>
+    <entry group="200d" element="3202" vr="LO" name="Private data"/>
+    <entry group="200d" element="3203" vr="LO" name="Private data"/>
+    <entry group="200d" element="3204" vr="LO" name="Private data"/>
+    <entry group="200d" element="3205" vr="LO" name="Private data"/>
+    <entry group="200d" element="3301" vr="LO" name="Private data"/>
+    <entry group="200d" element="3302" vr="LO" name="Private data"/>
+    <entry group="200d" element="3303" vr="LO" name="Private data"/>
+    <entry group="200d" element="3304" vr="LO" name="Private data"/>
+    <entry group="200d" element="3305" vr="LO" name="Private data"/>
+    <entry group="200d" element="3306" vr="LO" name="Private data"/>
+    <entry group="200d" element="3307" vr="LO" name="Private data"/>
+    <entry group="200d" element="3308" vr="LO" name="Private data"/>
+    <entry group="200d" element="3309" vr="LO" name="Private data"/>
+    <entry group="200d" element="330a" vr="IS" name="Private data"/>
+    <entry group="200d" element="3404" vr="IS" name="Private data"/>
+    <entry group="200d" element="3405" vr="IS" name="Private data"/>
+    <entry group="200d" element="3406" vr="FD" name="Private data"/>
+    <entry group="200d" element="3407" vr="FD" name="Private data"/>
+    <entry group="200d" element="3408" vr="IS" name="Private data"/>
+    <entry group="200d" element="3409" vr="IS" name="Private data"/>
+    <entry group="200d" element="340a" vr="IS" name="Private data"/>
+    <entry group="200d" element="340b" vr="IS" name="Private data"/>
+    <entry group="200d" element="340c" vr="IS" name="Private data"/>
+    <entry group="200d" element="340d" vr="UL" name="Private data"/>
+    <entry group="200d" element="340e" vr="IS" name="Private data"/>
+    <entry group="200d" element="340f" vr="IS" name="Private data"/>
+    <entry group="200d" element="3410" vr="UL" name="Private data"/>
+    <entry group="200d" element="3411" vr="IS" name="Private data"/>
+    <entry group="200d" element="3412" vr="IS" name="Private data"/>
+    <entry group="200d" element="3413" vr="IS" name="Private data"/>
+    <entry group="200d" element="3a28" vr="FD" name="Private data"/>
+    <entry group="200d" element="3a32" vr="FD" name="Private data"/>
+    <entry group="200d" element="3a50" vr="CS" name="Private data"/>
+    <entry group="200d" element="3a51" vr="CS" name="Private data"/>
+    <entry group="200d" element="3a52" vr="FD" name="Private data"/>
+    <entry group="200d" element="3a53" vr="CS" name="Private data"/>
+    <entry group="200d" element="3a54" vr="CS" name="Private data"/>
+    <entry group="200d" element="3a55" vr="FD" name="Private data"/>
+    <entry group="200d" element="3a56" vr="FD" name="Private data"/>
+    <entry group="200d" element="3a57" vr="FD" name="Private data"/>
+    <entry group="200d" element="3a58" vr="IS" name="Private data"/>
+    <entry group="200d" element="3a59" vr="FD" name="Private data"/>
+    <entry group="200d" element="3a5a" vr="FD" name="Private data"/>
+    <entry group="200d" element="3a5d" vr="CS" name="Private data"/>
+    <entry group="200d" element="3a5e" vr="CS" name="Private data"/>
+    <entry group="200d" element="3aff" vr="IS" name="Private data"/>
+  </dict>
+</dicts>

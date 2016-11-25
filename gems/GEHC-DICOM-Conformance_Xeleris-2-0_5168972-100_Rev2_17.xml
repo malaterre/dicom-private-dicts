@@ -1,0 +1,40 @@
+﻿<dicts>
+  <dict owner="PRIV">
+    <entry group="0009" element="33" vr="UN" vm="1" name="Rotational Continuous Speed" type="3">
+<definition>Rotational Continuous Speed</definition>
+</entry>
+    <entry group="0009" element="35" vr="UN" vm="1" name="Gantry Locus Type" type="3">
+<definition>Locus type of gantry motion during acquisition.
+The Defined Terms are:
+0 = circular
+1 = elliptical</definition>
+</entry>
+    <entry group="0015" element="12" vr="UN" vm="1" name="Num ECT Phases" type="3">
+<definition>Number of ECT Phases</definition>
+</entry>
+    <entry group="0015" element="13" vr="UN" vm="1" name="Num WB Scans" type="3">
+<definition>Number of WB Scans</definition>
+</entry>
+    <entry group="0013" element="1b" vr="UN" vm="1" name="Det Ang Separation" type="3">
+<definition>Detector Ang Separation</definition>
+</entry>
+    <entry group="0055" element="52" vr="SQ" vm="1" name="Xeleris Rotation Information Sequence" type="3">
+<definition>—</definition>
+</entry>
+    <entry group="0015" element="14" vr="UN" vm="1" name="&gt;ECT Phase Num" type="3">
+<definition>ECT Phase Number</definition>
+</entry>
+    <entry group="0015" element="15" vr="UN" vm="1" name="&gt;WB Scan Num" type="3">
+<definition>WB Scan Number</definition>
+</entry>
+    <entry group="0015" element="16" vr="UN" vm="1" name="&gt;Comb Head Number" type="3">
+<definition>Comb Head Number</definition>
+</entry>
+    <entry group="0013" element="1c" vr="UN" vm="1" name="&gt;Axial Acceptance Angle" type="3">
+<definition>Axial Acceptance Angle</definition>
+</entry>
+    <entry group="0013" element="1d" vr="UN" vm="1" name="&gt;Theta Acceptance Value" type="3">
+<definition>Theta Acceptance Value</definition>
+</entry>
+</dict>
+</dicts>

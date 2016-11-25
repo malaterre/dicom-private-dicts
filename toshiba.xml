@@ -1,0 +1,325 @@
+<?xml version="1.0"?>
+<dict>
+
+
+  
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx00" vr="OB" vm="1" name="Black Box 1"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx03" vr="SH" vm="1" name="Cardiac R-R Mean Time"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx04" vr="SH" vm="1" name="Cardiac Reconstruction Getting Phase in Percent"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx05" vr="SH" vm="1" name="Cardiac Reconstruction Getting Phase in ms"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx06" vr="SH" vm="1" name="Cardiac Reconstruction Mode"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx07" vr="DS" vm="1" name="Reconstruction Center"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx08" vr="DS" vm="1" name="Detector Slice Thickness in mm"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx09" vr="LO" vm="1" name="Number of Detector rows to Reconstruct"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx0a" vr="DS" vm="1" name="Table Speed in mm/rot"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx0b" vr="SH" vm="1" name="Filter"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx0c" vr="SH" vm="1" name="Reconstruction Correction Type"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx0d" vr="CS" vm="1" name="Organ"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx0e" vr="SH" vm="1" name="File Type Remarks"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx0f" vr="SH" vm="1" name="Direction"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx10" vr="OB" vm="1" name="Black Box 2"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx11" vr="LT" vm="1" name="Series Comment"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx12" vr="SH" vm="1" name="Position"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx13" vr="US" vm="1" name="Expert Plan No."/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx14" vr="US" vm="1" name="Reconstruction ROI No."/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx15" vr="US" vm="1" name="Special Helical ACQ No."/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx16" vr="UI" vm="1" name="Volume UID"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx17" vr="US" vm="1" name="Total Frame Count in the Volume"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx18" vr="US" vm="1" name="Frame No."/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx19" vr="UL" vm="1" name="Frame Sort Key"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx1a" vr="US" vm="1" name="Frame Sort Order"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx1b" vr="SH" vm="1" name="Convolution Kernel for Series Record"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx1c" vr="LO" vm="1" name="Contrast/Bolus Agent for Series Record"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx1d" vr="UL" vm="1" name="Reconstruction Number"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx1e" vr="UL" vm="1" name="Raw Data Number"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx1f" vr="LO" vm="1" name="Volume Number"/>
+  <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx20" vr="UL" vm="1" name="Local Series Number"/>
+
+
+
+  
+    
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx00" vr="OB" vm="1-n" name="CT Private Data 1"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx03" vr="SH" vm="1" name="Cardiac R-R Mean Time"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx04" vr="SH" vm="1" name="Cardiac Reconstruction Gating Phase in Percent"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx05" vr="SH" vm="1" name="Cardiac Reconstruction Gating Phase in ms"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx06" vr="SH" vm="1" name="Cardiac Reconstruction Mode"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx07" vr="DS" vm="2" name="Reconstruction Center"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx08" vr="DS" vm="1" name="Detector Slice Thickness in mm"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx09" vr="LO" vm="1" name="Number of Detector rows to Reconstruct"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx0a" vr="DS" vm="1" name="Table Speed in mm/rot"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx0b" vr="SH" vm="1" name="Filter"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx0c" vr="SH" vm="1" name="Reconstruction Correction Type"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx0d" vr="CS" vm="1" name="Organ"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx0e" vr="SH" vm="1" name="File Type Remarks"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx0f" vr="SH" vm="1" name="Direction"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx10" vr="OB" vm="1-n" name="CT Private Data 2"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx11" vr="LT" vm="1" name="Series Comment"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx12" vr="SH" vm="1" name="Position"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx13" vr="US" vm="1" name="Expert Plan No."/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx14" vr="US" vm="1" name="Reconstruction ROI No."/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx15" vr="US" vm="1" name="Special Helical ACQ No."/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx16" vr="UI" vm="1" name="Volume UID"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx17" vr="US" vm="1" name="Total Frame Count in the Volume"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx18" vr="US" vm="1" name="Frame No."/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx19" vr="UL" vm="1" name="Frame Sort Key"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx1a" vr="US" vm="1" name="Frame Sort Order"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx1b" vr="SH" vm="1" name="Convolution Kernel"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx1c" vr="LO" vm="1" name="Contrast/Bolus Agent"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx1d" vr="UL" vm="1" name="Reconstruction Number"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx1e" vr="UL" vm="1" name="Raw Data Number"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx1f" vr="LO" vm="1" name="Volume Number"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx20" vr="UL" vm="1" name="Local Series Number"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx21" vr="LO" vm="1" name="Decrease in Artifact Filter"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx22" vr="DS" vm="1" name="Reconstruction Interval"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx23" vr="DS" vm="1" name="Pitch Factor"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx24" vr="DA" vm="1" name="The Acquisition Date of NRA"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx25" vr="UL" vm="1" name="Large Data File Attribute"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx26" vr="CS" vm="1-8" name="Large Data File Name"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx30" vr="CS" vm="1" name="Main Modality in Study"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx36" vr="OB" vm="1-n" name="CT Private Data 3"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx37" vr="IS" vm="1" name="Total Frames"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx38" vr="IS" vm="1" name="Start Frame"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx39" vr="IS" vm="1" name="End Frame"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx40" vr="FD" vm="1" name="DLPDose Length Product"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx48" vr="LO" vm="1" name="Respiratory Gating Inf."/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx49" vr="SH" vm="1" name="Respiration Phase"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xxf1" vr="CS" vm="1" name="Protect Mark for Image, Curve or Private Record"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xxf2" vr="CS" vm="1" name="Protect Mark for Series Record"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xxf3" vr="CS" vm="1" name="Protect Mark for Study Record"/>
+
+  
+
+
+  
+
+    
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx00" vr="OB" vm="1-n" name="CT Private Data 1"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx03" vr="SH" vm="1" name="Cardiac R-R Mean Time"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx04" vr="SH" vm="1" name="Cardiac Reconstruction Gating Phase in Percent"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx05" vr="SH" vm="1" name="Cardiac Reconstruction Gating Phase in ms"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx06" vr="SH" vm="1" name="Cardiac Reconstruction Mode"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx07" vr="DS" vm="2" name="Reconstruction Center"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx08" vr="DS" vm="1" name="Detector Slice Thickness in mm"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx09" vr="LO" vm="1" name="Number of Detector rows to Reconstruct"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx0a" vr="DS" vm="1" name="Table Speed in mm/rot"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx0b" vr="SH" vm="1" name="Filter"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx0c" vr="SH" vm="1" name="Reconstruction Correction Type"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx0d" vr="CS" vm="1" name="Organ"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx0e" vr="SH" vm="1" name="File Type Remarks"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx0f" vr="SH" vm="1" name="Direction"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx10" vr="OB" vm="1-n" name="CT Private Data 2"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx11" vr="LT" vm="1" name="Series Comment"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx12" vr="SH" vm="1" name="Position"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx13" vr="US" vm="1" name="Expert Plan No."/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx14" vr="US" vm="1" name="Reconstruction ROI No."/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx15" vr="US" vm="1" name="Special Helical ACQ No."/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx16" vr="UI" vm="1" name="Volume UID"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx17" vr="US" vm="1" name="Total Frame Count in the Volume"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx18" vr="US" vm="1" name="Frame No."/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx19" vr="UL" vm="1" name="Frame Sort Key"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx1a" vr="US" vm="1" name="Frame Sort Order"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx1b" vr="SH" vm="1" name="Convolution Kernel"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx1c" vr="LO" vm="1" name="Contrast/Bolus Agent"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx1d" vr="UL" vm="1" name="Reconstruction Number"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx1e" vr="UL" vm="1" name="Raw Data Number"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx1f" vr="LO" vm="1" name="Volume Number"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx20" vr="UL" vm="1" name="Local Series Number"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx21" vr="LO" vm="1" name="Decrease in Artifact Filter"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx22" vr="DS" vm="1" name="Reconstruction Interval"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx23" vr="DS" vm="1" name="Pitch Factor"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx24" vr="DA" vm="1" name="The Acquisition Date of NRA"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx25" vr="UL" vm="1" name="Large Data File Attribute"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx26" vr="CS" vm="1-8" name="Large Data File Name"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx28" vr="SQ" vm="1" name="Enhanced CT Private Sequence"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx29" vr="UI" vm="1" name="Frame UID"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx30" vr="CS" vm="1" name="Main Modality in Study"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx35" vr="DS" vm="2" name="Scan Range"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx36" vr="OB" vm="1-n" name="CT Private Data 3"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx37" vr="IS" vm="1" name="Total Frames"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx38" vr="IS" vm="1" name="Start Frame"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx39" vr="IS" vm="1" name="End Frame"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx40" vr="FD" vm="1" name="DLP Dose Length Product"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx41" vr="SH" vm="1" name="Raw Slice Information"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx42" vr="US" vm="1" name="Local Frame No"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx43" vr="DS" vm="3" name="Volume Vector"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx44" vr="US" vm="1" name="Volume Type"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx45" vr="DS" vm="1" name="Relative Table Position of 4D Volume"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx46" vr="DS" vm="1" name="Absolute Table Position of 4D Volume"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx47" vr="DS" vm="1" name="Slice Pitch of 4D Volume"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx48" vr="LO" vm="1" name="Respiratory Gating Inf."/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xx49" vr="SH" vm="1" name="Respiration Phase"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xxf1" vr="CS" vm="1" name="Protect Mark for Image, Curve or Private Record"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xxf2" vr="CS" vm="1" name="Protect Mark for Series Record"/>
+    <entry owner="TOSHIBA_MEC_CT3" group="7005" element="xxf3" vr="CS" vm="1" name="Protect Mark for Study Record"/>
+  
+
+
+
+  
+    
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx80" vr="US" vm="1" name="Number of PAC channel"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx81" vr="US" vm="1" name="Reference mode"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx82" vr="SQ" vm="1" name="Gain value group for MRS"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx83" vr="FL" vm="1" name="Gain value of each channel for MRS"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx84" vr="FL" vm="1" name="Phase value of each channel for MRS"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx85" vr="FL" vm="1" name="Reference gain value of each channel for MRS"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx86" vr="FL" vm="1" name="Reference gain value of each channel for MRS"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx87" vr="FL" vm="1" name="Receiver gain of reference scan"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx88" vr="UL" vm="1" name="Flag of water Sat pulse"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx89" vr="FL" vm="1" name="Selected contrast TE"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx8a" vr="SQ" vm="1" name="Raw Data Set Sequence"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx8b" vr="DS" vm="1" name="Multi Slice number"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx8c" vr="DS" vm="1" name="Multi Coverage number"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx8d" vr="SQ" vm="1" name="Raw Data Sequence"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx8e" vr="DS" vm="1" name="Coil Channel No."/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx8f" vr="OB" vm="1" name="MRS Raw Data"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx90" vr="OF" vm="1" name="MRS Ref Raw Data"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx91" vr="FL" vm="1" name="Receiver gain of prescan"/>
+  
+  
+    
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx00" vr="DS" vm="1" name="Scale Factor"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx01" vr="OB" vm="1" name="Acquisition Order"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx02" vr="DS" vm="9" name="Orientation Vector"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx03" vr="SS" vm="1" name="Flip Flag"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx04" vr="OB" vm="1" name="Rotate Information"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx05" vr="DS" vm="4" name="FOV"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx06" vr="US" vm="4" name="Image Matrix"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx07" vr="OB" vm="1" name="Image Information"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx08" vr="OB" vm="1" name="Original Data"/>
+    <entry owner="TOSHIBA_MEC_MR3" group="700d" element="xx09" vr="SS" vm="1" name="Original Data Flag"/>
+  
+
+
+  
+    <entry owner="TOSHIBA_MEC_OT3" group="7019" element="xx71" vr="CS" vm="1" name="Indicator of creator"/>
+    <entry owner="TOSHIBA_MEC_OT3" group="7019" element="xx72" vr="LO" vm="1" name="ID of quality assurance reviewer"/>
+    <entry owner="TOSHIBA_MEC_OT3" group="7019" element="xx73" vr="PN" vm="1" name="Name of quality assurance reviewer"/>
+    <entry owner="TOSHIBA_MEC_OT3" group="7019" element="xx74" vr="DA" vm="1" name="Date of completion of quality assurance"/>
+    <entry owner="TOSHIBA_MEC_OT3" group="7019" element="xx75" vr="TM" vm="1" name="Time of completion of quality assurance"/>
+    <entry owner="TOSHIBA_MEC_OT3" group="7019" element="xx76" vr="LO" vm="1" name="Host name of quality assurance station"/>
+    <entry owner="TOSHIBA_MEC_OT3" group="7019" element="xx77" vr="CS" vm="1" name="Station name and version of quality assurance station"/>
+    <entry owner="TOSHIBA_MEC_OT3" group="7019" element="xx78" vr="CS" vm="1" name="Flag of completion of quality assurance"/>
+    <entry owner="TOSHIBA_MEC_OT3" group="7019" element="xx79" vr="CS" vm="1" name="Status of quality assurance review"/>
+    <entry owner="TOSHIBA_MEC_OT3" group="7019" element="xx7a" vr="UI" vm="1" name="Original SOP Instance UID"/>
+    <entry owner="TOSHIBA_MEC_OT3" group="7019" element="xx7b" vr="UI" vm="1" name="Original Series Instance UID"/>
+    <entry owner="TOSHIBA_MEC_OT3" group="7019" element="xx7c" vr="UI" vm="1" name="Original Study Instance UID"/>
+    <entry owner="TOSHIBA_MEC_OT3" group="7019" element="xx7d" vr="US" vm="1" name="Rotation information for image display from original image"/>
+    <entry owner="TOSHIBA_MEC_OT3" group="7019" element="xx7e" vr="SQ" vm="1" name="Sequence of LR mark"/>
+    <entry owner="TOSHIBA_MEC_OT3" group="7019" element="xx7f" vr="US" vm="1" name="Rotation status at creation of LR mark"/>
+    <entry owner="TOSHIBA_MEC_OT3" group="7019" element="xx80" vr="OB_OW" vm="1" name="Original image data on area of original LR mark"/>
+    <entry owner="TOSHIBA_MEC_OT3" group="7019" element="xx81" vr="SS" vm="1" name="X start position of LR mark"/>
+    <entry owner="TOSHIBA_MEC_OT3" group="7019" element="xx82" vr="SS" vm="1" name="Y start position of LR mark"/>
+    <entry owner="TOSHIBA_MEC_OT3" group="7019" element="xx83" vr="US" vm="1" name="Size of LR mark in X direction"/>
+    <entry owner="TOSHIBA_MEC_OT3" group="7019" element="xx84" vr="US" vm="1" name="Size of LR mark in Y direction"/>
+    <entry owner="TOSHIBA_MEC_OT3" group="7019" element="xx85" vr="LO" vm="1" name="Previous Patient ID"/>
+    <entry owner="TOSHIBA_MEC_OT3" group="7019" element="xx86" vr="CS" vm="1" name="Previous modality"/>
+  
+
+
+  
+
+    <entry owner="TOSHIBA COMAPL HEADER" group="0029" element="xx10" vr="LO" vm="1" name=""/>
+    <entry owner="TOSHIBA COMAPL HEADER" group="0029" element="xx31" vr="LO" vm="1-n" name=""/>
+    <entry owner="TOSHIBA COMAPL HEADER" group="0029" element="xx32" vr="UL" vm="1-n" name=""/>
+    <entry owner="TOSHIBA COMAPL HEADER" group="0029" element="xx33" vr="UL" vm="1-n" name=""/>
+    <entry owner="TOSHIBA COMAPL HEADER" group="0029" element="xx34" vr="CS" vm="1-n" name=""/>
+  
+  
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx10" vr="LO" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx21" vr="SH" vm="5" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx22" vr="IS" vm="2" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx23" vr="IS" vm="2" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx24" vr="DS" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx25" vr="SH" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx26" vr="DS" vm="2" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx27" vr="US" vm="2" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx28" vr="US" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx29" vr="US" vm="10" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx2a" vr="US" vm="5" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx2b" vr="UN" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx2c" vr="SH" vm="3" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx2d" vr="SS" vm="2" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx2e" vr="SH" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx2f" vr="SH" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx30" vr="US" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx31" vr="US" vm="1-n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx32" vr="SH" vm="2" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx33" vr="US" vm="1-n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx34" vr="SH" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx35" vr="SH" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx36" vr="SH" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx37" vr="US" vm="4" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx38" vr="SS" vm="1-n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx39" vr="SS" vm="1-n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx3a" vr="US" vm="2" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx3b" vr="SH" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx3c" vr="DS" vm="2" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx3d" vr="SS" vm="2" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx3e" vr="SH" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx3f" vr="US" vm="2" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx40" vr="SH" vm="2" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx41" vr="SS" vm="2" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx42" vr="SH" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx43" vr="SH" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx44" vr="US" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx45" vr="SH" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx46" vr="SS" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx47" vr="SS" vm="18" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx48" vr="US" vm="12" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx49" vr="US" vm="3" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx4a" vr="US" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx4b" vr="LO" vm="3" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx4c" vr="OB" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx4d" vr="LO" vm="3" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx4e" vr="SL" vm="35" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx4f" vr="SH" vm="3" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx50" vr="US" vm="1-n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx51" vr="US" vm="1-n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx52" vr="US" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx53" vr="SH" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx54" vr="US" vm="5" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx55" vr="UL" vm="47-47n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx56" vr="US" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx57" vr="US" vm="1-n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx58" vr="US" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx59" vr="US" vm="2-2n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx5a" vr="US" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx5b" vr="US" vm="2" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx5c" vr="US" vm="2-2n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx5d" vr="SH" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx5e" vr="US" vm="2" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx5f" vr="SS" vm="4-4n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx60" vr="US" vm="1-n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx61" vr="SS" vm="30-30n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx62" vr="US" vm="4" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx63" vr="US" vm="1-n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx64" vr="US" vm="1-n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx65" vr="US" vm="1-n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx66" vr="US" vm="1-n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx67" vr="US" vm="1-n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx68" vr="US" vm="1-n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx69" vr="US" vm="1-n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx6a" vr="US" vm="1-n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx6b" vr="US" vm="1-n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx6c" vr="US" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx6d" vr="DS" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx6e" vr="LO" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx6f" vr="DS" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx70" vr="DS" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx71" vr="DS" vm="1-n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx72" vr="DS" vm="1-n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx73" vr="SL" vm="4" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx74" vr="SL" vm="28" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx75" vr="SH" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx76" vr="US" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx77" vr="SL" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx78" vr="US" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx79" vr="US" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx80" vr="LO" vm="1" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx81" vr="SS" vm="1-n" name=""/>
+    <entry owner="TOSHIBA_MEC_XA3" group="7079" element="xx82" vr="SS" vm="1-n" name=""/>
+  
+
+</dict>

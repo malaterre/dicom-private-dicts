@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.gehealthcare.com/usen/interoperability/dicom/docs/2389238_100r4.pdf">
+  <dict ref="3.5" name="SC-Private data dictionary" owner="QCA_RESULTS">
+    <entry group="0009" element="XX00" vr="CS" vm="1" name="Analysis Views"/>
+    <entry group="0009" element="XX10" vr="LO" vm="1" name="Segment"/>
+    <entry group="0009" element="XX11" vr="LO" vm="1" name="Pre Catheter Name"/>
+    <entry group="0009" element="XX12" vr="DS" vm="1" name="Pre Catheter Size"/>
+    <entry group="0009" element="XX13" vr="DS" vm="1" name="Pre Reference Diameter"/>
+    <entry group="0009" element="XX14" vr="DS" vm="1" name="Pre Minimum Lumen Diameter"/>
+    <entry group="0009" element="XX15" vr="DS" vm="1" name="Pre Average Diameter"/>
+    <entry group="0009" element="XX16" vr="DS" vm="1" name="Pre Stenosis Length"/>
+    <entry group="0009" element="XX17" vr="IS" vm="1" name="Pre Stenosis %"/>
+    <entry group="0009" element="XX18" vr="IS" vm="1" name="Pre Geometric Area Reduction %"/>
+    <entry group="0009" element="XX21" vr="LO" vm="1" name="Post Catheter Name"/>
+    <entry group="0009" element="XX22" vr="DS" vm="1" name="Post Catheter Size"/>
+    <entry group="0009" element="XX23" vr="DS" vm="1" name="Post Reference Diameter"/>
+    <entry group="0009" element="XX24" vr="DS" vm="1" name="Post Minimum Lumen Diameter"/>
+    <entry group="0009" element="XX25" vr="DS" vm="1" name="Post Average Diameter"/>
+    <entry group="0009" element="XX26" vr="DS" vm="1" name="Post Stenosis Length"/>
+    <entry group="0009" element="XX27" vr="IS" vm="1" name="Post Stenosis %"/>
+    <entry group="0009" element="XX28" vr="IS" vm="1" name="Post Geometric Area Reduction %"/>
+    <entry group="0009" element="xx40" vr="IS" vm="1" name="Calibration Frame"/>
+    <entry group="0009" element="xx41" vr="IS" vm="1" name="End Diastolic Frame"/>
+    <entry group="0009" element="xx42" vr="IS" vm="1" name="End Systolic Frame"/>
+    <entry group="0009" element="xx43" vr="DS" vm="1" name="End Diastolic Volume"/>
+    <entry group="0009" element="xx44" vr="DS" vm="1" name="End Systolic Volume"/>
+    <entry group="0009" element="xx45" vr="DS" vm="1" name="Stroke Volume"/>
+    <entry group="0009" element="xx47" vr="DS" vm="1" name="Ejection Fraction"/>
+    <entry group="0009" element="xx48" vr="DS" vm="1" name="Body Surface Area"/>
+    <entry group="0009" element="xx49" vr="SH" vm="1" name="Artery Territory Region"/>
+    <entry group="0009" element="xx50" vr="IS" vm="1" name="Number of Diseased Vessels"/>
+    <entry group="0009" element="xx51" vr="DS" vm="1" name="Hypokinesis in Region"/>
+    <entry group="0009" element="xx52" vr="DS" vm="1" name="Hyperkinesis in Opposite Region"/>
+    <entry group="0009" element="xx53" vr="IS" vm="1" name="Percent Total LV Hypokinesis"/>
+    <entry group="0009" element="xx55" vr="DS" vm="1" name="Calibration Factor"/>
+  </dict>
+  <dict name="PRIVATE CREATOR IDENTIFICATION" owner="GEMS_QVA_PHOTO_01">
+    <entry group="0009" element="xx60" vr="FL" vm="1" name="Dodge End Diastolic Volume ml"/>
+    <entry group="0009" element="xx7A" vr="FL" vm="1" name="Dodge End Diastolic Volume ml/m2"/>
+    <entry group="0009" element="xx61" vr="FL" vm="1" name="Dodge End Systolic Volume ml"/>
+    <entry group="0009" element="xx7C" vr="FL" vm="1" name="Dodge End Systolic Volume ml/m2"/>
+    <entry group="0009" element="xx62" vr="FL" vm="1" name="Dodge Stroke Volume ml"/>
+    <entry group="0009" element="xx7E" vr="FL" vm="1" name="Dodge Stroke Volume ml/m2"/>
+    <entry group="0009" element="xx63" vr="IS" vm="1" name="Dodge Ejection Fraction"/>
+    <entry group="0009" element="xx64" vr="FL" vm="1" name="Simpson End Diastolic Volume ml"/>
+    <entry group="0009" element="xx80" vr="FL" vm="1" name="Simpson End Diastolic Volume ml/m2"/>
+    <entry group="0009" element="xx65" vr="FL" vm="1" name="Simpson End Systolic Volume ml"/>
+    <entry group="0009" element="xx82" vr="FL" vm="1" name="Simpson End Systolic Volume ml/m2"/>
+    <entry group="0009" element="xx66" vr="FL" vm="1" name="Simpson Stroke Volume ml"/>
+    <entry group="0009" element="xx84" vr="FL" vm="1" name="Simpson Stroke Volume ml/m2"/>
+    <entry group="0009" element="xx67" vr="IS" vm="1" name="Simpson Ejection Fraction"/>
+    <entry group="0009" element="xx68" vr="FL" vm="1" name="CFX Single Hypokinesia in Region"/>
+    <entry group="0009" element="xx69" vr="FL" vm="1" name="CFX Single Hyperkinesia in Opposite Region"/>
+    <entry group="0009" element="xx6A" vr="IS" vm="1" name="CFX Single Total LV contour Percent"/>
+    <entry group="0009" element="xx6B" vr="FL" vm="1" name="CFX Multiple Hypokinesia in Region"/>
+    <entry group="0009" element="xx6C" vr="FL" vm="1" name="CFX Multiple Hyperkinesia in Opposite Region"/>
+    <entry group="0009" element="xx6D" vr="IS" vm="1" name="CFX Multiple Total LV contour Percent"/>
+    <entry group="0009" element="xx6E" vr="FL" vm="1" name="RCA Single Hypokinesia in Region"/>
+    <entry group="0009" element="xx6F" vr="FL" vm="1" name="RCA Single Hyperkinesia in Opposite Region"/>
+    <entry group="0009" element="xx70" vr="IS" vm="1" name="RCA Single Total LV contour Percent"/>
+    <entry group="0009" element="xx71" vr="FL" vm="1" name="RCA Multiple Hypokinesia in Region"/>
+    <entry group="0009" element="xx72" vr="FL" vm="1" name="RCA Multiple Hyperkinesia in Opposite Region"/>
+    <entry group="0009" element="xx73" vr="IS" vm="1" name="RCA Multiple Total LV contour Percent"/>
+    <entry group="0009" element="xx74" vr="FL" vm="1" name="LAD Single Hypokinesia in Region"/>
+    <entry group="0009" element="xx75" vr="FL" vm="1" name="LAD Single Hyperkinesia in Opposite Region"/>
+    <entry group="0009" element="xx76" vr="IS" vm="1" name="LAD Single Total LV contour Percent"/>
+    <entry group="0009" element="xx77" vr="FL" vm="1" name="LAD Multiple Hypokinesia in Region"/>
+    <entry group="0009" element="xx78" vr="FL" vm="1" name="LAD Multiple Hyperkinesia in Opposite Region"/>
+    <entry group="0009" element="xx79" vr="IS" vm="1" name="LAD Multiple Total LV contour Percent"/>
+  </dict>
+  <dict name="PRIVATE CREATOR IDENTIFICATION" owner="GEMS_DL_IMG_01">
+    <entry group="0019" element="xx81" vr="US" vm="1" name="Calibration Frame"/>
+    <entry group="0019" element="xx82" vr="CS" vm="1" name="Calibration Method"/>
+    <entry group="0019" element="xx83" vr="DS" vm="1" name="Calibration Object Size"/>
+    <entry group="0019" element="xx84" vr="FL" vm="1" name="Calibration Factor"/>
+    <entry group="0019" element="xx85" vr="DA" vm="1" name="Calibration Date"/>
+    <entry group="0019" element="xx86" vr="TM" vm="1" name="Calibration Time"/>
+    <entry group="0019" element="xx87" vr="US" vm="1" name="Calibration Imprecision"/>
+    <entry group="0019" element="xx88" vr="CS" vm="1" name="Calibration Extended"/>
+    <entry group="0019" element="xx89" vr="US" vm="1" name="Calibration Image Original"/>
+    <entry group="0019" element="xx8A" vr="US" vm="1" name="Calibration Frame Original"/>
+    <entry group="0019" element="xx8B" vr="US" vm="1" name="Calibration Number of Points"/>
+    <entry group="0019" element="xx8C" vr="US" vm="1-2" name="Calibration Points Row"/>
+    <entry group="0019" element="xx8D" vr="US" vm="1-2" name="Calibration Points Column"/>
+    <entry group="0019" element="xx8F" vr="LO" vm="1" name="Calibration Software version"/>
+    <entry group="0019" element="xx91" vr="IS" vm="1" name="Calibration return code"/>
+    <entry group="0019" element="xx2B" vr="FL" vm="1" name="Distance to table top"/>
+    <entry group="0019" element="xx50" vr="IS" vm="1" name="Source Series Number"/>
+    <entry group="0019" element="xx51" vr="IS" vm="1" name="Source Image Number"/>
+    <entry group="0019" element="xx52" vr="IS" vm="1" name="Source Frame Number"/>
+    <entry group="0019" element="xxDE" vr="CS" vm="1" name="Acquisition Plane"/>
+  </dict>
+  <dict name="PRIVATE CREATOR IDENTIFICATION" owner="DLX_SERIE_01">
+    <entry group="0019" element="xx25" vr="DS" vm="1" name="Regression Slope Coefficient"/>
+    <entry group="0019" element="xx26" vr="DS" vm="1" name="Regression Intercept"/>
+  </dict>
+  <dict name="PRIVATE CREATOR IDENTIFICATION" owner="GEMS_DL_STUDY_01">
+    <entry group="0015" element="xx8F" vr="IS" vm="1" name="Study Number"/>
+  </dict>
+  <dict ref="4.5.6" name="X-Ray Acquisition, Table, Positioner Private Data Dictionary">
+    <entry name="Gantry machine angles (L) first frame           " group="0019" element="xx01" vr="DS" vm="1" owner="DLX_SERIE_01"/>
+    <entry name="Gantry machine angles (P) first frame           " group="0019" element="xx02" vr="DS" vm="1" owner="DLX_SERIE_01"/>
+    <entry name="Gantry machine angles (C) first frame           " group="0019" element="xx03" vr="DS" vm="1" owner="DLX_SERIE_01"/>
+    <entry name="L arm Label                                     " group="0019" element="xx04" vr="CS" vm="1" owner="DLX_SERIE_01"/>
+    <entry name="C arm Label                                     " group="0019" element="xx05" vr="CS" vm="1" owner="DLX_SERIE_01"/>
+    <entry name="Pivot Label                                     " group="0019" element="xx06" vr="CS" vm="1" owner="DLX_SERIE_01"/>
+    <entry name="Table position Z (vertical) first frame         " group="0019" element="xx21" vr="DS" vm="1" owner="DLX_SERIE_01"/>
+    <entry name="Table position X (longitudinal) first frame     " group="0019" element="xx22" vr="DS" vm="1" owner="DLX_SERIE_01"/>
+    <entry name="Table position Y (lateral) first frame          " group="0019" element="xx23" vr="DS" vm="1" owner="DLX_SERIE_01"/>
+    <entry name="Lambda                                          " group="0019" element="xx24" vr="DS" vm="1" owner="DLX_SERIE_01"/>
+    <entry name="Slope LV regression                             " group="0019" element="xx25" vr="DS" vm="1" owner="DLX_SERIE_01"/>
+    <entry name="Intercept LV regression                         " group="0019" element="xx26" vr="DS" vm="1" owner="DLX_SERIE_01"/>
+    <entry name="Primary Angle (RAO/LAO)                         " group="0025" element="xx06" vr="DS" vm="1-n" owner="GEMS_DL_FRAME_01"/>
+    <entry name="Secondary Angle (CAU/CRA)                       " group="0025" element="xx07" vr="DS" vm="1-n" owner="GEMS_DL_FRAME_01"/>
+    <entry name="Gantry machine angles (L) per frame             " group="0025" element="xx09" vr="DS" vm="1-n" owner="GEMS_DL_FRAME_01"/>
+    <entry name="Gantry machine angles (P) per frame             " group="0025" element="xx10" vr="DS" vm="1-n" owner="GEMS_DL_FRAME_01"/>
+    <entry name="Gantry machine angles (C) per frame             " group="0025" element="xx1A" vr="DS" vm="1-n" owner="GEMS_DL_FRAME_01"/>
+    <entry name="Table position Z (vertical) per frame           " group="0025" element="xx1B" vr="DS" vm="1-n" owner="GEMS_DL_FRAME_01"/>
+    <entry name="Table position X (longitudinal) per frame       " group="0025" element="xx1C" vr="DS" vm="1-n" owner="GEMS_DL_FRAME_01"/>
+    <entry name="Table position Y (lateral) per frame            " group="0025" element="xx1D" vr="DS" vm="1-n" owner="GEMS_DL_FRAME_01"/>
+    <entry name="Table rotation of first frame                   " group="0025" element="xx3B" vr="CS" vm="1-n" owner="GEMS_DL_FRAME_01"/>
+    <entry name="FOV (double)                                    " group="0019" element="xx0B" vr="DS" vm="1-2" owner="GEMS_DL_IMG_01"/>
+    <entry name="Detector rotation angle                         " group="0019" element="xx92" vr="DS" vm="1" owner="GEMS_DL_IMG_01"/>
+    <entry name="Horizontal and vertical sweep of the image      " group="0019" element="xx95" vr="CS" vm="2" owner="GEMS_DL_IMG_01"/>
+    <entry name="Angle 1 increment                               " group="0019" element="xx97" vr="DS" vm="1-n" owner="GEMS_DL_IMG_01"/>
+    <entry name="Angle 2 increment                               " group="0019" element="xx98" vr="DS" vm="1-n" owner="GEMS_DL_IMG_01"/>
+    <entry name="Angle 3 increment                               " group="0019" element="xx99" vr="DS" vm="1-n" owner="GEMS_DL_IMG_01"/>
+    <entry name="Acquisition region                              " group="0019" element="xxBA" vr="CS" vm="1" owner="GEMS_DL_IMG_01"/>
+    <entry name="Acquisition SUB mode                            " group="0019" element="xxBB" vr="CS" vm="1" owner="GEMS_DL_IMG_01"/>
+    <entry name="Table rotation status vector                    " group="0019" element="xxBD" vr="CS" vm="1-n" owner="GEMS_DL_IMG_01"/>
+    <entry name="Source to image distance per frame vector       " group="0019" element="xxBE" vr="FL" vm="1-n" owner="GEMS_DL_IMG_01"/>
+    <entry name="Source to detector distance per frame vector    " group="0019" element="xxE9" vr="FL" vm="1-n" owner="GEMS_DL_IMG_01"/>
+    <entry name="Acquisition plane                               " group="0019" element="xxDE" vr="CS" vm="1" owner="GEMS_DL_IMG_01"/>
+  </dict>
+  <dict ref="4.5.7" name="Other Private Data Used" owner="GEMS_DL_STUDY_01">
+    <entry name="Study Number" group="0015" element="xx8F" vr="IS" vm="1"/>
+  </dict>
+</dicts>

@@ -1,0 +1,43 @@
+﻿<dicts>
+  <dict owner="PRIV">
+    <entry group="0011" element="61" vr="UN" vm="1" name="Image Size" type="3">
+<definition>Image Size</definition>
+</entry>
+    <entry group="0011" element="62" vr="UN" vm="1" name="Linear FOV" type="3">
+<definition>Linear FOV</definition>
+</entry>
+    <entry group="0011" element="63" vr="UN" vm="1" name="Spatial Offset" type="3">
+<definition>Spatial Offset</definition>
+</entry>
+    <entry group="0011" element="64" vr="UN" vm="1" name="Spatial Orientation" type="3">
+<definition>Spatial Orientation</definition>
+</entry>
+    <entry group="0011" element="65" vr="UN" vm="1" name="ReferenceDatasetUID" type="3">
+<definition>Reference Dataset UID</definition>
+</entry>
+    <entry group="0011" element="66" vr="UN" vm="1" name="Starcam Reference Dataset" type="3">
+<definition>Starcam Reference Dataset</definition>
+</entry>
+    <entry group="0011" element="67" vr="UN" vm="1" name="Reference Frame Number" type="3">
+<definition>Reference Frame Number</definition>
+</entry>
+    <entry group="0011" element="68" vr="UN" vm="1" name="Cursor Length" type="3">
+<definition>Cursor Length</definition>
+</entry>
+    <entry group="0011" element="69" vr="UN" vm="1" name="Number of Cursors" type="3">
+<definition>Number of Cursors</definition>
+</entry>
+    <entry group="0011" element="6a" vr="UN" vm="1" name="Cursor Coordinates" type="3">
+<definition>Cursor Coordinates</definition>
+</entry>
+    <entry group="0011" element="6b" vr="UN" vm="1" name="Recon Options Flag" type="3">
+<definition>Recon Options Flag</definition>
+</entry>
+    <entry group="0011" element="6c" vr="UN" vm="1" name="Motion Threshold" type="3">
+<definition>Motion Threshold</definition>
+</entry>
+    <entry group="0011" element="6d" vr="UN" vm="1" name="Motion Curve UID" type="3">
+<definition>Motion Curve UID</definition>
+</entry>
+</dict>
+</dicts>

@@ -1,0 +1,23 @@
+﻿<dicts>
+  <dict owner="ATL HDI V1.0">
+    <entry group="0009" element="00" vr="UN" vm="1" name="Private Creator Data Element" type="3">
+<definition>ATL Private Scaling Tags</definition>
+<default_value>ATL HDI V1.0</default_value>
+</entry>
+    <entry group="0009" element="10" vr="UN" vm="1" name="Private" type="3">
+<definition>Used</definition>
+</entry>
+    <entry group="0009" element="20" vr="UN" vm="1" name="Private" type="3">
+<definition>Used</definition>
+</entry>
+    <entry group="0009" element="30" vr="UN" vm="1" name="Private" type="3">
+<definition>Used</definition>
+</entry>
+    <entry group="0009" element="40" vr="UN" vm="1" name="Private" type="3">
+<definition>Used</definition>
+</entry>
+    <entry group="0009" element="50" vr="UN" vm="1" name="Private" type="3">
+<definition>Used</definition>
+</entry>
+</dict>
+</dicts>

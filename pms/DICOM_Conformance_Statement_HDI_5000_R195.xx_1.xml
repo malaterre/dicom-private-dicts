@@ -1,0 +1,49 @@
+﻿<dicts>
+  <dict owner="ATL HDI V1.0">
+    <entry group="0009" element="60" vr="UN" vm="1" name="Private" type="3">
+<definition>Used</definition>
+</entry>
+    <entry group="0009" element="70" vr="UN" vm="1" name="Private" type="3">
+<definition>Used</definition>
+</entry>
+    <entry group="0009" element="80" vr="UN" vm="1" name="Private" type="3">
+<definition>Used</definition>
+</entry>
+    <entry group="0009" element="90" vr="UN" vm="1" name="Private" type="3">
+<definition>Used</definition>
+</entry>
+    <entry group="0009" element="00" vr="UN" vm="1" name="Private" type="3">
+<definition>Used</definition>
+</entry>
+    <entry group="0009" element="60" vr="UN" vm="1" name="Private" type="3">
+<definition>Used</definition>
+</entry>
+    <entry group="0009" element="70" vr="UN" vm="1" name="Private" type="3">
+<definition>Used</definition>
+</entry>
+    <entry group="0009" element="80" vr="UN" vm="1" name="Private" type="3">
+<definition>Used</definition>
+</entry>
+    <entry group="0009" element="90" vr="UN" vm="1" name="Private" type="3">
+<definition>Used</definition>
+</entry>
+    <entry group="0009" element="91" vr="UN" vm="1" name="Private" type="3">
+<definition>Used</definition>
+</entry>
+    <entry group="0009" element="00" vr="UN" vm="1" name="Private" type="3">
+<definition>Used</definition>
+</entry>
+    <entry group="0009" element="10" vr="UN" vm="1" name="Private" type="3">
+<definition>Used</definition>
+</entry>
+    <entry group="0009" element="20" vr="UN" vm="1" name="Private" type="3">
+<definition>Used</definition>
+</entry>
+    <entry group="0009" element="30" vr="UN" vm="1" name="Private" type="3">
+<definition>Used</definition>
+</entry>
+    <entry group="0009" element="50" vr="UN" vm="1" name="Private" type="3">
+<definition>Used</definition>
+</entry>
+</dict>
+</dicts>

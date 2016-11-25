@@ -1,0 +1,68 @@
+﻿<dicts>
+  <dict owner="GEMS_GENIE_1">
+    <entry group="5001" element="3c" vr="SH" vm="1" name="CompletionDate">
+</entry>
+    <entry group="5001" element="3d" vr="LO" vm="1" name="DetectorName">
+</entry>
+    <entry group="5001" element="41" vr="SL" vm="1" name="Modified">
+</entry>
+    <entry group="5001" element="42" vr="LO" vm="1" name="Name">
+</entry>
+    <entry group="5001" element="43" vr="SL" vm="1" name="Name">
+</entry>
+    <entry group="5001" element="44" vr="SL" vm="1" name="Name">
+</entry>
+    <entry group="5001" element="45" vr="LO" vm="1" name="SOPClassUID">
+</entry>
+    <entry group="5001" element="46" vr="LO" vm="1" name="SOPInstanceUID">
+</entry>
+    <entry group="5001" element="47" vr="LO" vm="1" name="NormalColor">
+</entry>
+    <entry group="5001" element="48" vr="LT" vm="1" name="NameFont">
+</entry>
+    <entry group="5001" element="49" vr="SL" vm="1" name="FillPattern">
+</entry>
+    <entry group="5001" element="4a" vr="SL" vm="1" name="LineStyle">
+</entry>
+    <entry group="5001" element="4b" vr="SL" vm="1" name="LineDashLength">
+</entry>
+    <entry group="5001" element="4c" vr="SL" vm="1" name="LineThickness">
+</entry>
+    <entry group="5001" element="4d" vr="SL" vm="1" name="Interactivity">
+</entry>
+    <entry group="5001" element="4e" vr="SL" vm="1" name="NamePos">
+</entry>
+    <entry group="5001" element="4f" vr="SL" vm="1" name="NameDisplay">
+</entry>
+    <entry group="5001" element="50" vr="LO" vm="1" name="Label">
+</entry>
+    <entry group="5001" element="51" vr="SL" vm="1-n" name="BpSeg">
+</entry>
+    <entry group="5001" element="52" vr="US" vm="1-n" name="BpSegPairs">
+</entry>
+    <entry group="5001" element="53" vr="SL" vm="1" name="SeedSpace">
+</entry>
+    <entry group="5001" element="54" vr="FD" vm="1-n" name="Seeds">
+</entry>
+    <entry group="5001" element="55" vr="SL" vm="1-n" name="Shape">
+</entry>
+    <entry group="5001" element="56" vr="FD" vm="1-n" name="ShapeTilt">
+</entry>
+    <entry group="5001" element="59" vr="SL" vm="1-n" name="ShapePtsSpace">
+</entry>
+    <entry group="5001" element="5a" vr="SL" vm="1-n" name="ShapeCtrlPtsCounts">
+</entry>
+    <entry group="5001" element="5b" vr="FD" vm="1-n" name="ShapeCtrlPts">
+</entry>
+    <entry group="5001" element="5c" vr="SL" vm="1" name="ShapeCPSpace">
+</entry>
+    <entry group="5001" element="5d" vr="SL" vm="1" name="ROIFlags">
+</entry>
+    <entry group="5001" element="5e" vr="SL" vm="1" name="FrameNumber">
+</entry>
+    <entry group="5001" element="5f" vr="SL" vm="1" name="Id">
+</entry>
+    <entry group="5001" element="60" vr="LO" vm="1-n" name="DatasetROIMapping">
+</entry>
+</dict>
+</dicts>

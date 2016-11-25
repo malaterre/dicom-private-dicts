@@ -1,0 +1,64 @@
+﻿<dicts>
+  <dict owner="PRIV">
+    <entry group="0057" element="16" vr="UI" vm="1" name="&gt;Label">
+</entry>
+    <entry group="0057" element="17" vr="UI" vm="1" name="&gt;Data">
+</entry>
+    <entry group="0057" element="41" vr="SL" vm="1" name="&gt;Modified">
+</entry>
+    <entry group="0057" element="42" vr="LO" vm="1" name="&gt;Name">
+</entry>
+    <entry group="0057" element="43" vr="SL" vm="1" name="&gt;Rid">
+</entry>
+    <entry group="0057" element="45" vr="LO" vm="1" name="&gt;SOPClassUID">
+</entry>
+    <entry group="0057" element="46" vr="LO" vm="1" name="&gt;SOPInstanceUID">
+</entry>
+    <entry group="0057" element="47" vr="LO" vm="1" name="&gt;Normal Colour">
+</entry>
+    <entry group="0057" element="48" vr="LT" vm="1" name="&gt;NameFont">
+</entry>
+    <entry group="0057" element="49" vr="SL" vm="1" name="&gt;FillPattern">
+</entry>
+    <entry group="0057" element="4a" vr="SL" vm="1" name="&gt;LineStyle">
+</entry>
+    <entry group="0057" element="4b" vr="SL" vm="1" name="&gt;LineDashLength">
+</entry>
+    <entry group="0057" element="4c" vr="SL" vm="1" name="&gt;LineThickness">
+</entry>
+    <entry group="0057" element="4d" vr="SL" vm="1" name="&gt;Interactivity">
+</entry>
+    <entry group="0057" element="4e" vr="SL" vm="1" name="&gt;NamePos">
+</entry>
+    <entry group="0057" element="4f" vr="SL" vm="1" name="&gt;NameDisplay">
+</entry>
+    <entry group="0057" element="50" vr="LO" vm="1" name="&gt;Label">
+</entry>
+    <entry group="0057" element="51" vr="SL" vm="1-n" name="&gt;BpSeg">
+</entry>
+    <entry group="0057" element="52" vr="US" vm="1-n" name="&gt;BpSegpairs">
+</entry>
+    <entry group="0057" element="53" vr="SL" vm="1" name="&gt;SeedSpace">
+</entry>
+    <entry group="0057" element="54" vr="FD" vm="1-n" name="&gt;Seeds">
+</entry>
+    <entry group="0057" element="55" vr="SL" vm="1-n" name="&gt;Shape">
+</entry>
+    <entry group="0057" element="56" vr="FD" vm="1-n" name="&gt;ShapeTilt">
+</entry>
+    <entry group="0057" element="59" vr="SL" vm="1-n" name="&gt;ShapePtsSpace">
+</entry>
+    <entry group="0057" element="5a" vr="SL" vm="1-n" name="&gt;ShapeCtrlPtsCount">
+</entry>
+    <entry group="0057" element="5b" vr="FD" vm="1-n" name="&gt;Shap CtrlPts">
+</entry>
+    <entry group="0057" element="5c" vr="SL" vm="1" name="&gt;ShapeCPSpace">
+</entry>
+    <entry group="0057" element="5d" vr="UL" vm="1-n" name="&gt;ROIFlags">
+</entry>
+    <entry group="0057" element="5e" vr="UL" vm="1" name="&gt;FrameNumber">
+</entry>
+    <entry group="0057" element="60" vr="LO" vm="1-n" name="&gt;DatasetROIMapping">
+</entry>
+</dict>
+</dicts>

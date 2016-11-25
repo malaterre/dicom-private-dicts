@@ -1,0 +1,76 @@
+﻿<dicts>
+  <dict owner="GEMS_GENIE_1">
+    <entry group="0011" element="0a" vr="SL" vm="1" name="Series Type">
+</entry>
+    <entry group="0011" element="0b" vr="SL" vm="1" name="Effective Series Duration">
+</entry>
+    <entry group="0011" element="0c" vr="SL" vm="1" name="Num Beats">
+</entry>
+    <entry group="0011" element="0d" vr="LO" vm="1" name="Radio Nuclide Name">
+</entry>
+    <entry group="0011" element="10" vr="LO" vm="1" name="Dataset Object Name">
+</entry>
+    <entry group="0011" element="11" vr="IS" vm="1" name="Dataset Modified">
+</entry>
+    <entry group="0011" element="12" vr="LO" vm="1-n" name="Dataset Name">
+</entry>
+    <entry group="0011" element="13" vr="SL" vm="1" name="Dataset Type">
+</entry>
+    <entry group="0011" element="14" vr="SH" vm="1" name="Completion Time">
+</entry>
+    <entry group="0011" element="15" vr="SL" vm="1" name="Detector Number">
+</entry>
+    <entry group="0011" element="16" vr="SL" vm="1" name="Energy Number">
+</entry>
+    <entry group="0011" element="17" vr="SL" vm="1" name="RR Interval Window Number">
+</entry>
+    <entry group="0011" element="18" vr="SL" vm="1" name="MG Bin Number">
+</entry>
+    <entry group="0011" element="19" vr="FD" vm="1" name="Radius Of Rotation">
+</entry>
+    <entry group="0011" element="1a" vr="SL" vm="1" name="Detector Count Zone">
+</entry>
+    <entry group="0011" element="1b" vr="SL" vm="1" name="Num Energy Windows">
+</entry>
+    <entry group="0011" element="1c" vr="SL" vm="4" name="Energy Offset">
+</entry>
+    <entry group="0011" element="1d" vr="SL" vm="1" name="Energy Range">
+</entry>
+    <entry group="0011" element="1e" vr="SL" vm="4" name="Energy Width (retired)">
+</entry>
+    <entry group="0011" element="1f" vr="SL" vm="1" name="Image Orientation">
+</entry>
+    <entry group="0011" element="21" vr="DS" vm="1" name="Acq Zoom (retired)">
+</entry>
+    <entry group="0011" element="22" vr="DS" vm="1" name="Acq Pan (retired)">
+</entry>
+    <entry group="0011" element="23" vr="SL" vm="1" name="Use FOV Mask">
+</entry>
+    <entry group="0011" element="24" vr="SL" vm="1" name="FOV Mask Y Cutoff Distance">
+</entry>
+    <entry group="0011" element="25" vr="SL" vm="1" name="FOV Mask Cutoff Angle">
+</entry>
+    <entry group="0011" element="26" vr="SL" vm="1" name="Table Orientation">
+</entry>
+    <entry group="0011" element="27" vr="SL" vm="2" name="ROI Top Left">
+</entry>
+    <entry group="0011" element="28" vr="SL" vm="2" name="ROI Bottom Right">
+</entry>
+    <entry group="0011" element="29" vr="SL" vm="1" name="Uniformity Mean">
+</entry>
+    <entry group="0011" element="2a" vr="FD" vm="1" name="Phase Duration (retired)">
+</entry>
+    <entry group="0011" element="2c" vr="FD" vm="1" name="View X Adjustment">
+</entry>
+    <entry group="0011" element="2d" vr="FD" vm="1" name="View Y Adjustment">
+</entry>
+    <entry group="0011" element="2e" vr="SL" vm="1" name="Pixel Overflow Flag">
+</entry>
+    <entry group="0011" element="2f" vr="SL" vm="1" name="Overflow Level">
+</entry>
+    <entry group="0011" element="30" vr="LO" vm="1" name="Picture Object Name">
+</entry>
+    <entry group="0011" element="31" vr="LO" vm="1" name="Acquisition Parent UID">
+</entry>
+</dict>
+</dicts>

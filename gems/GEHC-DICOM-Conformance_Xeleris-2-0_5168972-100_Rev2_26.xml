@@ -1,0 +1,76 @@
+﻿<dicts>
+  <dict owner="GEMS_GENIE_1">
+    <entry group="0013" element="13" vr="SQ" vm="1" name="Xeleris Frame Sequence">
+</entry>
+    <entry group="0013" element="14" vr="SL" vm="1" name="Original Image Num">
+</entry>
+    <entry group="0013" element="15" vr="FD" vm="1" name="Fscalar">
+</entry>
+    <entry group="0013" element="16" vr="SL" vm="1" name="AutoTrack Peak">
+</entry>
+    <entry group="0013" element="17" vr="SL" vm="1" name="AutoTrack Width">
+</entry>
+    <entry group="0013" element="18" vr="FD" vm="1" name="Transmission Scan Time">
+</entry>
+    <entry group="0013" element="19" vr="FD" vm="1" name="Transmission Mask Width">
+</entry>
+    <entry group="0013" element="1a" vr="FD" vm="1" name="Copper Attenuator Thickness">
+</entry>
+    <entry group="0013" element="1b" vr="FD" vm="1" name="Det Ang Separation">
+</entry>
+    <entry group="0013" element="1c" vr="SL" vm="1" name="Axial Acceptance Angle">
+</entry>
+    <entry group="0013" element="1d" vr="SL" vm="1" name="Theta Acceptance Value">
+</entry>
+    <entry group="0013" element="1e" vr="FD" vm="1-n" name="Tomo View Offset">
+</entry>
+    <entry group="0013" element="20" vr="FD" vm="1" name="Accepted Beats Time">
+</entry>
+    <entry group="0013" element="21" vr="FD" vm="2" name="Threshold">
+</entry>
+    <entry group="0013" element="22" vr="FD" vm="2" name="Linear Depth">
+</entry>
+    <entry group="0013" element="23" vr="LO" vm="1" name="Unif Date Time">
+</entry>
+    <entry group="0013" element="24" vr="SL" vm="1" name="Series Accepted Beats">
+</entry>
+    <entry group="0013" element="25" vr="SL" vm="1" name="Series Rejected Beats">
+</entry>
+    <entry group="0013" element="26" vr="LT" vm="1" name="Study Comments">
+</entry>
+    <entry group="0015" element="00" vr="SH" vm="1" name="Private Creator Data Element">
+</entry>
+    <entry group="0013" element="13" vr="SQ" vm="1" name="Xeleris Frame Sequence">
+</entry>
+    <entry group="0015" element="10" vr="SL" vm="1" name="Frame Termination Condition">
+</entry>
+    <entry group="0015" element="11" vr="SL" vm="1" name="Frame Termination Value">
+</entry>
+    <entry group="0013" element="14" vr="SL" vm="1" name="Original Image Number">
+</entry>
+    <entry group="0015" element="12" vr="SL" vm="1" name="Num ECT Phases">
+</entry>
+    <entry group="0015" element="13" vr="SL" vm="1" name="Num WB Scans">
+</entry>
+    <entry group="0015" element="14" vr="SL" vm="1" name="ECT Phase Num">
+</entry>
+    <entry group="0015" element="15" vr="SL" vm="1" name="WB Scan Num">
+</entry>
+    <entry group="0015" element="16" vr="SL" vm="1" name="Comb Head Number">
+</entry>
+    <entry group="0015" element="17" vr="UL" vm="1" name="Preceding Beat">
+</entry>
+    <entry group="0033" element="07" vr="SQ" vm="1-n" name="Orig SOP Instance UID">
+</entry>
+    <entry group="0035" element="01" vr="FD" vm="N" name="Start Angle">
+</entry>
+    <entry group="0055" element="12" vr="SQ" vm="1" name="Xeleris Energy Window Information Sequence">
+</entry>
+    <entry group="0055" element="13" vr="SQ" vm="1" name="Xeleris Energy Window Range Sequence">
+</entry>
+    <entry group="0055" element="22" vr="SQ" vm="1" name="Xeleris Detector Information Sequence">
+</entry>
+    <entry group="0055" element="52" vr="SQ" vm="1" name="Xeleris Rotation Information Sequence">
+</entry>
+</dict>
+</dicts>

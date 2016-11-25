@@ -1,0 +1,32 @@
+﻿<dicts>
+  <dict owner="ATL PRIVATE TAGS">
+    <entry group="0029" element="60" vr="UN" vm="1" name="Private Creator Data Element">
+<definition>Private</definition>
+<default_value>0029, 6000 – 60FF</default_value>
+</entry>
+    <entry group="0029" element="30" vr="UN" vm="1" name="Loop Mode">
+<definition>Private</definition>
+<default_value>Private</default_value>
+</entry>
+    <entry group="0029" element="31" vr="UN" vm="1" name="Trigger mode">
+<definition>Private</definition>
+<default_value>Private</default_value>
+</entry>
+    <entry group="0029" element="32" vr="UN" vm="1" name="Number of Loops">
+<definition>Private</definition>
+<default_value>Private</default_value>
+</entry>
+    <entry group="0029" element="33" vr="UN" vm="1" name="Loop Indexes">
+<definition>Private</definition>
+<default_value>Private</default_value>
+</entry>
+    <entry group="0029" element="34" vr="UN" vm="1" name="Loop Heart Rates">
+<definition>Private</definition>
+<default_value>Private</default_value>
+</entry>
+    <entry group="0029" element="35" vr="UN" vm="1" name="Medications">
+<definition>Private</definition>
+<default_value>Private</default_value>
+</entry>
+</dict>
+</dicts>

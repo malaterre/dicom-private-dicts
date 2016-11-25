@@ -1,0 +1,76 @@
+﻿<dicts>
+  <dict owner="GEMS_GENIE_1">
+    <entry group="0055" element="62" vr="SQ" vm="1" name="Xeleris Gated Information Sequence">
+</entry>
+    <entry group="0055" element="63" vr="SQ" vm="1" name="Xeleris Data Information Sequence">
+</entry>
+    <entry group="0033" element="08" vr="CS" vm="1" name="Xeleris Data Object Type">
+</entry>
+    <entry group="0033" element="10" vr="SL" vm="1" name="Modified">
+</entry>
+    <entry group="0033" element="11" vr="LO" vm="1" name="Name">
+</entry>
+    <entry group="0033" element="16" vr="LO" vm="1" name="ProtocolDataUID">
+</entry>
+    <entry group="0033" element="17" vr="SH" vm="1" name="Date">
+</entry>
+    <entry group="0033" element="18" vr="SH" vm="1" name="Time">
+</entry>
+    <entry group="0033" element="19" vr="UL" vm="1" name="ProtocoldataFlags">
+</entry>
+    <entry group="0033" element="1a" vr="UL" vm="1" name="ProtocolName">
+</entry>
+    <entry group="0033" element="1b" vr="LO" vm="1" name="RelevantDataUID">
+</entry>
+    <entry group="0033" element="1c" vr="LO" vm="1" name="BulkData">
+</entry>
+    <entry group="0033" element="1d" vr="SL" vm="1-n" name="IntData">
+</entry>
+    <entry group="0033" element="1e" vr="FD" vm="1-n" name="DoubleData">
+</entry>
+    <entry group="0033" element="1f" vr="OB" vm="1" name="StringData">
+</entry>
+    <entry group="0033" element="20" vr="LT" vm="1-n" name="BulkDataFormat">
+</entry>
+    <entry group="0033" element="21" vr="LT" vm="1-n" name="IntDataFormat">
+</entry>
+    <entry group="0033" element="22" vr="LT" vm="1-n" name="DoubleDataFormat">
+</entry>
+    <entry group="0033" element="23" vr="LT" vm="1-n" name="StringDataFormat">
+</entry>
+    <entry group="0033" element="24" vr="LT" vm="1" name="Description">
+</entry>
+    <entry group="0055" element="64" vr="SQ" vm="1" name="SDODoubleData SQ">
+</entry>
+    <entry group="0033" element="1e" vr="FD" vm="1" name="DoubleData">
+</entry>
+    <entry group="5001" element="01" vr="SL" vm="1" name="Modified">
+</entry>
+    <entry group="5001" element="02" vr="LO" vm="1" name="Name">
+</entry>
+    <entry group="5001" element="03" vr="SL" vm="1" name="Cid">
+</entry>
+    <entry group="5001" element="04" vr="SL" vm="1" name="Srid">
+</entry>
+    <entry group="5001" element="05" vr="LO" vm="1" name="SOPClassUID">
+</entry>
+    <entry group="5001" element="06" vr="LO" vm="1" name="SOPInstanceUID">
+</entry>
+    <entry group="5001" element="07" vr="Sl" vm="1" name="CurveType">
+</entry>
+    <entry group="5001" element="08" vr="SL" vm="1" name="GraphType">
+</entry>
+    <entry group="5001" element="09" vr="LO" vm="1" name="Legend">
+</entry>
+    <entry group="5001" element="0a" vr="LO" vm="1" name="XUnits">
+</entry>
+    <entry group="5001" element="0b" vr="LO" vm="1" name="YUnits">
+</entry>
+    <entry group="5001" element="0c" vr="SL" vm="1" name="Edit">
+</entry>
+    <entry group="5001" element="0d" vr="SL" vm="1" name="Suspend">
+</entry>
+    <entry group="5001" element="0e" vr="SL" vm="1" name="StyleLine">
+</entry>
+</dict>
+</dicts>

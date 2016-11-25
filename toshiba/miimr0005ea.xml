@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget www.toshiba-medical.co.jp/tmd/english/dicom/index_files/miimr0005ea.pdf
+ $ pdftotext -nopgbrk -layout 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.toshiba-medical.co.jp/tmd/english/dicom/index_files/miimr0005ea.pdf">
+<!--dict ref="Table 8.1-19" name="PRIVATE APPLICATION MODULE OF CREATED MR IMAGE SOP INSTANCES" owner="TOSHIBA_MEC_MR3">
+    <entry name="Private Creator Code" group="700D" element="00xx" vr="LO"/>
+    <entry name="Scale Factor        " group="700D" element="xx00" vr="DS"/>
+    <entry name="Acquisition Order   " group="700D" element="xx01" vr="OB"/>
+    <entry name="Orientation Vector  " group="700D" element="xx02" vr="DS"/>
+    <entry name="Flip Flag           " group="700D" element="xx03" vr="SS"/>
+    <entry name="Rotate Information  " group="700D" element="xx04" vr="OB"/>
+    <entry name="FOV                 " group="700D" element="xx05" vr="DS"/>
+    <entry name="Image Matrix        " group="700D" element="xx06" vr="US"/>
+    <entry name="Image Information   " group="700D" element="xx07" vr="OB"/>
+    <entry name="Original Data       " group="700D" element="xx08" vr="OB"/>
+    <entry name="Original Data Flag  " group="700D" element="xx09" vr="SS"/>
+  </dict-->
+  <dict ref="Table 8.1-69" name="PRIVATE APPLICATION MODULE OF CREATED MR Spectroscopy SOP INSTANCES" owner="TOSHIBA_MEC_MR3">
+    <entry name="Private Creator Code                           " group="700D" element="00xx" vr="LO"/>
+    <entry name="Number of PAC channel                          " group="700D" element="xx80" vr="US"/>
+    <entry name="Reference mode                                 " group="700D" element="xx81" vr="US"/>
+    <entry name="Gain value group for MRS                       " group="700D" element="xx82" vr="SQ"/>
+    <entry name="&gt; Gain value of each channel for MRS           " group="700D" element="xx83" vr="FL"/>
+    <entry name="&gt; Phase value of each channel for MRS          " group="700D" element="xx84" vr="FL"/>
+    <entry name="&gt; Reference gain value of each channel for MRS " group="700D" element="xx85" vr="FL"/>
+    <entry name="&gt; Reference gain value of each channel for MRS " group="700D" element="xx86" vr="FL"/>
+    <entry name="Receiver gain of reference scan                " group="700D" element="xx87" vr="FL"/>
+    <entry name="Flag of water Sat pulse                        " group="700D" element="xx88" vr="UL"/>
+    <entry name="Selected contrast TE                           " group="700D" element="xx89" vr="FL"/>
+    <entry name="Raw Data Set Sequence                          " group="700D" element="xx8A" vr="SQ"/>
+    <entry name="&gt;Multi Slice number                            " group="700D" element="xx8B" vr="DS"/>
+    <entry name="&gt;Multi Coverage number                         " group="700D" element="xx8C" vr="DS"/>
+    <entry name="&gt;Raw Data Sequence                             " group="700D" element="xx8D" vr="SQ"/>
+    <entry name="&gt;&gt;Coil Channel No.                             " group="700D" element="xx8E" vr="DS"/>
+    <entry name="&gt;&gt;MRS Raw Data                                 " group="700D" element="xx8F" vr="OB"/>
+    <entry name="&gt;&gt;MRS Ref Raw Data                             " group="700D" element="xx90" vr="OF"/>
+    <entry name="Receiver gain of prescan                       " group="700D" element="xx91" vr="FL"/>
+  </dict>
+  <dict ref="Table 8.2-1" name="DATA DICTIONARY OF PRIVATE ATTRIBUTES" owner="TOSHIBA_MEC_MR3">
+    <entry group="700D" element="00xx" name="Private Creator Code " vr="LO" vm="1"/>
+    <entry group="700D" element="xx00" name="Scale Factor         " vr="DS" vm="1"/>
+    <entry group="700D" element="xx01" name="Acquisition Order    " vr="OB" vm="1"/>
+    <entry group="700D" element="xx02" name="Orientation Vector   " vr="DS" vm="9"/>
+    <entry group="700D" element="xx03" name="Flip Flag            " vr="SS" vm="1"/>
+    <entry group="700D" element="xx04" name="Rotate Information   " vr="OB" vm="1"/>
+    <entry group="700D" element="xx05" name="FOV                  " vr="DS" vm="4"/>
+    <entry group="700D" element="xx06" name="Image Matrix         " vr="US" vm="4"/>
+    <entry group="700D" element="xx07" name="Image Information    " vr="OB" vm="1"/>
+    <entry group="700D" element="xx08" name="Original Data        " vr="OB" vm="1"/>
+    <entry group="700D" element="xx09" name="Original Data Flag   " vr="SS" vm="1"/>
+  </dict>
+</dicts>

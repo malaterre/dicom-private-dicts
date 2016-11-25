@@ -1,0 +1,82 @@
+﻿<dicts>
+  <dict owner="PRIV">
+    <entry group="0033" element="1c" vr="UN" vm="1" name="&gt;BulkData" type="3">
+<definition>BulkData</definition>
+</entry>
+    <entry group="0033" element="1d" vr="UN" vm="1" name="&gt;IntData" type="3">
+<definition>IntData</definition>
+</entry>
+    <entry group="0033" element="1e" vr="UN" vm="1" name="&gt;DoubleData" type="3">
+<definition>DoubleData</definition>
+</entry>
+    <entry group="0033" element="1f" vr="UN" vm="1" name="&gt;StringData" type="3">
+<definition>StringData</definition>
+</entry>
+    <entry group="0033" element="20" vr="UN" vm="1" name="&gt;BulkDataFormat" type="3">
+<definition>BulkDataFormat</definition>
+</entry>
+    <entry group="0033" element="21" vr="UN" vm="1" name="&gt;IntDataFormat" type="3">
+<definition>IntDataFormat</definition>
+</entry>
+    <entry group="0033" element="22" vr="UN" vm="1" name="&gt;DoubleDataFormat" type="3">
+<definition>DoubleDataFormat</definition>
+</entry>
+    <entry group="0033" element="23" vr="UN" vm="1" name="&gt;StringDataFormat" type="3">
+<definition>StringDataFormat</definition>
+</entry>
+    <entry group="0033" element="24" vr="UN" vm="1" name="&gt;Description" type="3">
+<definition>Description</definition>
+</entry>
+    <entry group="0033" element="51" vr="UN" vm="1" name="&gt;PDOSOPClassUID" type="3">
+<definition>PDOSOPClassUID</definition>
+</entry>
+    <entry group="0033" element="52" vr="UN" vm="1" name="&gt;PDOSOPInstanceUID" type="3">
+<definition>PDOSOPInstanceUID</definition>
+</entry>
+    <entry group="0033" element="60" vr="UN" vm="1" name="Review Template SQ" type="3">
+<definition>Encoding private RTO as part of IOD</definition>
+</entry>
+    <entry group="0033" element="08" vr="UN" vm="1" name="&gt;Data Object Type" type="3">
+<definition>Data Object Type</definition>
+</entry>
+    <entry group="0033" element="10" vr="UN" vm="1" name="&gt;Modified" type="3">
+<definition>Modified</definition>
+</entry>
+    <entry group="0033" element="11" vr="UN" vm="1" name="&gt;Name" type="3">
+<definition>Name</definition>
+</entry>
+    <entry group="0033" element="14" vr="UN" vm="1" name="&gt;StudyId" type="3">
+<definition>StudyId</definition>
+</entry>
+    <entry group="0033" element="16" vr="UN" vm="1" name="&gt;Review TemplateUID" type="3">
+<definition>Review TemplateUID</definition>
+</entry>
+    <entry group="0033" element="17" vr="UN" vm="1" name="&gt;CreationDate" type="3">
+<definition>CreationDate</definition>
+</entry>
+    <entry group="0033" element="18" vr="UN" vm="1" name="&gt;CreationDate" type="3">
+<definition>CreationDate</definition>
+</entry>
+    <entry group="0033" element="28" vr="UN" vm="1" name="&gt;RTName" type="3">
+<definition>RTName</definition>
+</entry>
+    <entry group="0033" element="29" vr="UN" vm="1" name="&gt;RTSpecification" type="3">
+<definition>RTSpecification</definition>
+</entry>
+    <entry group="0033" element="2a" vr="UN" vm="1" name="&gt;Review TemplatesFlags" type="3">
+<definition>Review TemplatesFlags</definition>
+</entry>
+    <entry group="0033" element="2b" vr="UN" vm="1" name="&gt;DataValidationSpec" type="3">
+<definition>DataValidationSpec</definition>
+</entry>
+    <entry group="0033" element="2c" vr="UN" vm="1" name="&gt;Description" type="3">
+<definition>Description</definition>
+</entry>
+    <entry group="0033" element="2d" vr="UN" vm="1" name="&gt;IconDescription" type="3">
+<definition>IconDescription</definition>
+</entry>
+    <entry group="0033" element="61" vr="UN" vm="1" name="&gt;RTOSOPClassUID" type="3">
+<definition>RTOSOPClassUID</definition>
+</entry>
+</dict>
+</dicts>

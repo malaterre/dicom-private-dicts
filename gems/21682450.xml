@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget http://www.gehealthcare.com/usen/interoperability/dicom/docs/5257407_100r1.pdf
+ $ pdftotext -nopgbrk -layout -f 155 -l 176 5257407_100r1.pdf 5257407_100r1.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py 5257407_100r1.txt 5257407_100r1.xml
+
+NOTE:
+  Need at least version 3.02 of pdftotext to work...
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2007" url="http://www3.gehealthcare.fr/~/media/documents/us-global/products/interoperability/dicom/computed-rad/gehc-dicom-conformance_advantagecr-quality-assurance_2204609-100_rev2.pdf" oldurl="http://www.gehealthcare.com/usen/interoperability/dicom/docs/5257407_100r1.pdf">
+<!--
+http://www3.gehealthcare.fr/~/media/documents/us-global/products/interoperability/dicom/computed-rad/gehc-dicom-conformance_advantagecr-quality-assurance_2168245_rev0.pdf
+-->
+  <dict ref="TABLE 3.3.12-1" name="CR PRIVATE IMAGE ATTRIBUTES">
+    <entry group="0023" element="0010" vr="LO" vm="1" type="1C" name="Private Creator"/>
+    <entry group="0023" element="0020" vr="LO" vm="1" type="1C" name="Private Creator"/>
+    <entry group="0023" element="0030" vr="LO" vm="1" type="1C" name="Private Creator"/>
+    <entry group="0023" element="0040" vr="LO" vm="1" type="1C" name="Private Creator"/>
+  </dict>
+  <dict owner="GEMS_ACRQA_1.0 BLOCK1">
+    <entry group="0023" element="1000" vr="LO" vm="1" type="3" name="CR Exposure Menu Code"/>
+    <entry group="0023" element="1010" vr="LO" vm="1" type="3" name="CR Exposure Menu String"/>
+    <entry group="0023" element="1020" vr="LO" vm="1" type="3" name="CR EDR Mode"/>
+    <entry group="0023" element="1030" vr="LO" vm="1" type="3" name="CR Latitude"/>
+    <entry group="0023" element="1040" vr="LO" vm="1" type="3" name="CR Group Number"/>
+    <entry group="0023" element="1050" vr="US" vm="1" type="3" name="CR Image Serial Number"/>
+    <entry group="0023" element="1060" vr="LO" vm="1" type="3" name="CR Bar Code Number"/>
+    <entry group="0023" element="1070" vr="LO" vm="1" type="3" name="CR Film Output Exposure"/>
+    <entry group="0023" element="1080" vr="LO" vm="1" type="3" name="CR Film Format"/>
+    <entry group="0023" element="1090" vr="LO" vm="1" type="3" name="CR S-Shift String"/>
+  </dict>
+  <dict owner="GEMS_ACRQA_1.0 BLOCK2">
+    <entry group="0023" element="2000" vr="US" vm="1" type="3" name="CR S-Shift"/>
+    <entry group="0023" element="2010" vr="DS" vm="1" type="3" name="CR C-Shift"/>
+    <entry group="0023" element="2020" vr="DS" vm="1" type="3" name="CR GT"/>
+    <entry group="0023" element="2030" vr="DS" vm="1" type="3" name="CR GA"/>
+    <entry group="0023" element="2040" vr="DS" vm="1" type="3" name="CR GC"/>
+    <entry group="0023" element="2050" vr="DS" vm="1" type="3" name="CR GS"/>
+    <entry group="0023" element="2060" vr="DS" vm="1" type="3" name="CR RT"/>
+    <entry group="0023" element="2070" vr="DS" vm="1" type="3" name="CR RE"/>
+    <entry group="0023" element="2080" vr="US" vm="1" type="3" name="CR RN"/>
+    <entry group="0023" element="2090" vr="DS" vm="1" type="3" name="CR DRT"/>
+  </dict>
+  <dict owner="GEMS_ACRQA_1.0 BLOCK3">
+    <entry group="0023" element="3000" vr="DS" vm="1" type="3" name="CR DRE"/>
+    <entry group="0023" element="3010" vr="US" vm="1" type="3" name="CR DRN"/>
+    <entry group="0023" element="3020" vr="DS" vm="1" type="3" name="CR ORE"/>
+    <entry group="0023" element="3030" vr="US" vm="1" type="3" name="CR ORN"/>
+    <entry group="0023" element="3040" vr="US" vm="1" type="3" name="CR ORD"/>
+    <entry group="0023" element="3050" vr="LO" vm="1" type="3" name="CR Cassette Size"/>
+    <entry group="0023" element="3060" vr="LO" vm="1" type="3" name="CR Machine ID"/>
+    <entry group="0023" element="3070" vr="LO" vm="1" type="3" name="CR Machine Type"/>
+    <entry group="0023" element="3080" vr="LO" vm="1" type="3" name="CR Technician Code"/>
+    <entry group="0023" element="3090" vr="LO" vm="1" type="3" name="CR ES Parameters"/>
+  </dict>
+  <dict owner="GEMS_ACRQA_1.0 BLOCK4">
+</dict>
+</dicts>

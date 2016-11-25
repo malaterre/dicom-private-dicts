@@ -1,0 +1,78 @@
+﻿<dicts>
+  <dict owner="PRIV">
+    <entry group="0011" element="19" vr="UN" vm="1" name="Radius Of Rotation" type="3">
+<definition>Distance to the center of detector rotation.</definition>
+</entry>
+    <entry group="0011" element="1a" vr="UN" vm="1" name="Detector Count Zone" type="3">
+<definition>FOV zone for count-based acquisition termi-
+nation criteria.
+The Defined Terms are:
+0 = none specified
+1 = total (all) counts
+2 = counts in energy set
+3 = counts inside an ROI
+4 = counts outside an ROI</definition>
+</entry>
+    <entry group="0011" element="1b" vr="UN" vm="1" name="Num Energy Windows" type="3">
+<definition>Number of energy windows in energy set.</definition>
+</entry>
+    <entry group="0011" element="1f" vr="UN" vm="1" name="Image Orientation" type="3">
+<definition>Orientation of the image.
+The Defined Terms are:
+0 = no rotation, no mirroring
+1 = no rotation, mirrored</definition>
+</entry>
+    <entry group="0011" element="26" vr="UN" vm="1" name="Table Orientation" type="3">
+<definition>Orientation of the table for whole body
+acquisition.
+The Defined Terms are:
+0 = direction in/out
+1 = direction left/right</definition>
+</entry>
+    <entry group="0011" element="27" vr="UN" vm="1" name="ROI Top Left" type="3">
+<definition>Acquisition count zone ROI, top left coordi-
+nate.</definition>
+</entry>
+    <entry group="0011" element="28" vr="UN" vm="1" name="ROI Bottom Right" type="3">
+<definition>Acquisition count zone ROI, bottom right
+coordinate.</definition>
+</entry>
+    <entry group="0011" element="2c" vr="UN" vm="1" name="View X Adjustment" type="3">
+<definition>View X Adjustment</definition>
+</entry>
+    <entry group="0011" element="2d" vr="UN" vm="1" name="View Y Adjustment" type="3">
+<definition>View Y Adjustment</definition>
+</entry>
+    <entry group="0011" element="2e" vr="UN" vm="1" name="Pixel Overflow Flag" type="3">
+<definition>Pixel Overflow Flag (Starcam)</definition>
+</entry>
+    <entry group="0011" element="2f" vr="UN" vm="1" name="Pixel Overflow Level" type="3">
+<definition>Pixel Overflow Level</definition>
+</entry>
+    <entry group="0011" element="31" vr="UN" vm="1" name="Acquisition Parent UID" type="3">
+<definition>Acquisition Parent UID</definition>
+</entry>
+    <entry group="0011" element="32" vr="UN" vm="1" name="Processing Parent UID" type="3">
+<definition>Processing Parent UID</definition>
+</entry>
+    <entry group="0011" element="33" vr="UN" vm="1" name="Energy Correct Name" type="3">
+<definition>Name of applied energy correction.</definition>
+</entry>
+    <entry group="0011" element="34" vr="UN" vm="1" name="Spatial Correct Name" type="3">
+<definition>Name of applied spatial correction.</definition>
+</entry>
+    <entry group="0011" element="35" vr="UN" vm="1" name="Tuning Calib Name" type="3">
+<definition>Name of applied tuning calibration data.</definition>
+</entry>
+    <entry group="0011" element="36" vr="UN" vm="1" name="Uniformity Correct Name" type="3">
+<definition>Name of associated uniformity correction.</definition>
+</entry>
+    <entry group="0011" element="37" vr="UN" vm="1" name="Acquisition Specific Correct Name" type="3">
+<definition>Name(s) of associated acquisition specific
+correction(s).</definition>
+</entry>
+    <entry group="0011" element="3f" vr="UN" vm="1" name="Dataset Flags" type="3">
+<definition>Defines dataset information.</definition>
+</entry>
+</dict>
+</dicts>

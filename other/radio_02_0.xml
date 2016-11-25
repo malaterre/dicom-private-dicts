@@ -1,0 +1,16 @@
+﻿<dicts>
+  <dict owner="Canon Inc.">
+    <entry group="0019" element="00" vr="LO" vm="1" name="Implementor Information (*)" type="1C">
+<definition>Canon Inc. If doUseSrsCnt is 1 in the service engineer setting, this item (Default:Canon Inc.) is output. If 0, the tag itself is not displayed.</definition>
+</entry>
+    <entry group="0019" element="16" vr="LO" vm="1" name="Implementor Information" type="1">
+<definition>Canon Inc.</definition>
+</entry>
+    <entry group="0019" element="60" vr="US" vm="1" name="Performed number of series" type="3">
+<definition>Series counter</definition>
+</entry>
+    <entry group="0019" element="70" vr="US" vm="1" name="Performed number of images" type="3">
+<definition>Image counter</definition>
+</entry>
+</dict>
+</dicts>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts>
+  <dict ref="PRIVATE" name="CREATOR IDENTIFICATION" owner="GEMS_FALCON_03">
+    <entry group="0045" element="0010" vr="LO" vm="1" name="Private Creator"/>
+    <entry group="0045" element="1055" vr="DS" vm="8" name="A_Coefficients"/>
+    <entry group="0045" element="1062" vr="IS" vm="1" name="User Window Center"/>
+    <entry group="0045" element="1063" vr="IS" vm="1" name="User Window Width"/>
+    <entry group="0045" element="1065" vr="IS" vm="1" name="Requested Detector Entrance Dose"/>
+    <entry group="0045" element="1067" vr="DS" vm="3" name="VOI LUT Assymmetry parameter beta"/>
+    <entry group="0045" element="1069" vr="IS" vm="1" name="Collimator rotation"/>
+  </dict>
+  <dict owner="GEMS_GDXE_FALCON_04">
+    <entry group="0011" element="0010" vr="LO" vm="1" name="Private Creator"/>
+    <entry group="0011" element="1003" vr="UI" vm="1" name="Processed Series UID"/>
+    <entry group="0011" element="1004" vr="CS" vm="1" name="Acquisition Type"/>
+    <entry group="0011" element="1005" vr="UI" vm="1" name="Acquisition UID"/>
+    <entry group="0011" element="1006" vr="DS" vm="1" name="Image Dose"/>
+    <entry group="0011" element="1007" vr="FL" vm="1" name="Study Dose"/>
+    <entry group="0011" element="1008" vr="FL" vm="1" name="Study DAP"/>
+    <entry group="0011" element="1009" vr="SL" vm="1" name="Non-Digital Exposures"/>
+    <entry group="0011" element="1010" vr="SL" vm="1" name="Total Exposures"/>
+    <entry group="0011" element="1011" vr="LT" vm="1" name="ROI"/>
+    <entry group="0011" element="1012" vr="LT" vm="1" name="Patient Size String"/>
+    <entry group="0011" element="1013" vr="UI" vm="1" name="SPS UID"/>
+    <entry group="0011" element="1015" vr="DS" vm="1" name="Detector ARC Gain"/>
+    <entry group="0011" element="1016" vr="LT" vm="1" name="Processing Debug Info"/>
+    <entry group="0011" element="1017" vr="CS" vm="1" name="Override mode"/>
+    <entry group="0011" element="1019" vr="DS" vm="1" name="Film Speed Selection"/>
+    <entry group="0011" element="1031" vr="IS" vm="8" name="Detected Field of View"/>
+    <entry group="0011" element="1032" vr="IS" vm="8" name="Adjusted Field of View"/>
+    <entry group="0011" element="1033" vr="DS" vm="1" name="Detected Exposure Index"/>
+    <entry group="0011" element="1034" vr="DS" vm="1" name="Compensated Detector Exposure"/>
+    <entry group="0011" element="1035" vr="DS" vm="1" name="Uncompensated Detector Exposure"/>
+    <entry group="0011" element="1036" vr="DS" vm="1" name="Median Anatomy Count Value"/>
+    <entry group="0011" element="1037" vr="DS" vm="2" name="DEI lower and upper limit values"/>
+    <entry group="0011" element="1038" vr="SL" vm="6" name="Shift Vector for Pasting"/>
+    <entry group="0011" element="1039" vr="CS" vm="1" name="Image Number in Pasting"/>
+    <entry group="0011" element="1040" vr="SL" vm="1" name="Pasting Overlap"/>
+    <entry group="0011" element="1041" vr="IS" vm="24" name="Sub-image Collimator Vertices"/>
+    <entry group="0011" element="1042" vr="LO" vm="1" name="View IP"/>
+    <entry group="0011" element="1043" vr="IS" vm="24" name="Key-stone Co-ordinates"/>
+    <entry group="0011" element="1044" vr="CS" vm="1" name="Receptor Type"/>
+  </dict>
+  <dict owner="GEMS_GDXE_ATHENAV2_INTERNAL_USE">
+    <entry group="7fdf" element="0010" vr="LO" vm="1" name="Private Creator"/>
+    <entry group="7fdf" element="1010" vr="LT" vm="1" name="PPS Stream"/>
+    <entry group="7fdf" element="1020" vr="SS" vm="1" name="Auto Push Tag"/>
+    <entry group="7fdf" element="1025" vr="CS" vm="1" name="PPS Status"/>
+  </dict>
+</dicts>

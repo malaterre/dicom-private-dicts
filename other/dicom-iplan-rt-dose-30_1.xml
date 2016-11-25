@@ -1,0 +1,22 @@
+﻿<dicts>
+  <dict owner="BrainLAB_BeamProfile">
+    <entry group="3411" element="01" vr="SQ" vm="1" name="Beam Profile Sequence">
+</entry>
+    <entry group="3411" element="02" vr="IS" vm="1" name="Beam Profile Number">
+</entry>
+    <entry group="3411" element="03" vr="SQ" vm="1" name="Beam Parameter Sequence">
+</entry>
+    <entry group="3411" element="04" vr="UT" vm="1" name="Parameter Description">
+</entry>
+    <entry group="3411" element="05" vr="OB" vm="1" name="Parameter Data">
+</entry>
+    <entry group="3411" element="06" vr="IS" vm="1" name="Referenced Beam Profile Number">
+</entry>
+    <entry group="3273" element="00" vr="LO" vm="1" name="Private Creator Code “BrainLAB_PatientSetup” (see Note 8-6)">
+</entry>
+    <entry group="3273" element="00" vr="DS" vm="3" name="Isocenter Position (see Note 8-6)">
+</entry>
+    <entry group="3273" element="01" vr="CS" vm="1" name="Patient Position (see Note 8-6)">
+</entry>
+</dict>
+</dicts>

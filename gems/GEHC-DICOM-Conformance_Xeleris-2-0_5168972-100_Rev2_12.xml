@@ -1,0 +1,49 @@
+﻿<dicts>
+  <dict owner="PRIV">
+    <entry group="0057" element="4e" vr="SL" vm="1" name="&gt;Name Position" type="3">
+<definition>Name Position</definition>
+</entry>
+    <entry group="0057" element="4f" vr="SL" vm="1" name="&gt;NameDisplay" type="3">
+<definition>NameDisplay</definition>
+</entry>
+    <entry group="0057" element="50" vr="LO" vm="1" name="&gt;Label" type="3">
+<definition>Label</definition>
+</entry>
+    <entry group="0057" element="51" vr="SL" vm="1-n" name="&gt;BpSeg" type="3">
+<definition>BpSeg</definition>
+</entry>
+    <entry group="0057" element="52" vr="US" vm="1-n" name="&gt;BpSegpairs" type="3">
+<definition>BpSegpairs</definition>
+</entry>
+    <entry group="0057" element="53" vr="SW" vm="1" name="&gt;SeedSpace" type="3">
+<definition>SeedSpace</definition>
+</entry>
+    <entry group="0057" element="54" vr="FO" vm="1-n" name="&gt;Seeds" type="3">
+<definition>Seeds</definition>
+</entry>
+    <entry group="0057" element="55" vr="SL" vm="1-n" name="&gt;Shape" type="3">
+<definition>Shape</definition>
+</entry>
+    <entry group="0057" element="56" vr="FD" vm="1-n" name="&gt;ShapeTilt" type="3">
+<definition>ShapeTilt</definition>
+</entry>
+    <entry group="0057" element="59" vr="SL" vm="1" name="&gt;ShapePtsSpace" type="3">
+<definition>ShapePtsSpace</definition>
+</entry>
+    <entry group="0057" element="5a" vr="SL" vm="1" name="&gt;ShapeCtrlPtsCount" type="3">
+<definition>ShapeCtrlPtsCount</definition>
+</entry>
+    <entry group="0057" element="5b" vr="FD" vm="1-n" name="&gt;Shap CtrlPts" type="3">
+<definition>Shap CtrlPts</definition>
+</entry>
+    <entry group="0057" element="5c" vr="SL" vm="1" name="&gt;ShapeCPSpace" type="3">
+<definition>ShapeCPSpace</definition>
+</entry>
+    <entry group="0057" element="5d" vr="UL" vm="1" name="&gt;ROIFlags" type="3">
+<definition>ROIFlags</definition>
+</entry>
+    <entry group="0057" element="5e" vr="UL" vm="1" name="&gt;FrameNumber" type="3">
+<definition>FrameNumber</definition>
+</entry>
+</dict>
+</dicts>

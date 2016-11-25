@@ -1,0 +1,28 @@
+﻿<dicts>
+  <dict owner="BRIT Systems, Inc.">
+    <entry group="0021" element="a1" vr="UN" vm="1" name="&gt;BritObjectAction" type="1">
+<definition>Description of the action performed.</definition>
+</entry>
+    <entry group="0021" element="a2" vr="UN" vm="1" name="&gt;BritObjectActionDate" type="1">
+<definition>Date when the action was performed.</definition>
+</entry>
+    <entry group="0021" element="a3" vr="UN" vm="1" name="&gt;BritObjectActionTime" type="1">
+<definition>Time when the action was performed.</definition>
+</entry>
+    <entry group="0021" element="a4" vr="UN" vm="1" name="&gt;BritObjectActionUser" type="2">
+<definition>Login name of the user logged in when this item was inserted into the sequence, if available. This element is required for client applications (e.g. viewers, RRis client). Actions performed by BRIT server products may choose to omit this element or insert some other identifying information (e.g. AE title and IP of the server).</definition>
+</entry>
+    <entry group="0021" element="a5" vr="UN" vm="1" name="&gt;BritLocalAETitle" type="2">
+<definition>AE Title assigned to the BRIT software/SCU performing the action.</definition>
+</entry>
+    <entry group="0021" element="a6" vr="UN" vm="1" name="&gt;BritLocalIPAddress" type="2">
+<definition>IP Address assigned to the BRIT software/SCU performing the action. If a DICOM association is used to transfer the object being acted upon, the IP address should be obtained from the open socket as this will represent the actual network adapter being used which can be useful on a multi-homed system. Otherwise, the value assigned to the host in its configuration files should be used.</definition>
+</entry>
+    <entry group="0021" element="a7" vr="UN" vm="1" name="&gt;BritRemoteAETitle" type="2">
+<definition>AE Title disclosed by the remote AE. This element is only required in the sequence item if the object being acted upon is being received by (or sent to) a remote AE.</definition>
+</entry>
+    <entry group="0021" element="a8" vr="UN" vm="1" name="&gt;BritRemoteIPAddress" type="2">
+<definition>IP Address of the remote AE. This element is only required in the sequence item if the object being acted upon is being received by (or sent to) a remote AE. The IP address stored here should be obtained from the open socket for the association, if possible.</definition>
+</entry>
+</dict>
+</dicts>

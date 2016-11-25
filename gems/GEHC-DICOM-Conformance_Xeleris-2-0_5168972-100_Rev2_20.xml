@@ -1,0 +1,50 @@
+﻿<dicts>
+  <dict owner="PRIV">
+    <entry group="0011" element="6e" vr="UN" vm="1" name="Recon Type" type="3">
+</entry>
+    <entry group="0011" element="6f" vr="UN" vm="1" name="Pre Filter Type" type="3">
+</entry>
+    <entry group="0011" element="71" vr="UN" vm="1" name="Back Proj Filter Type" type="3">
+</entry>
+    <entry group="0011" element="72" vr="UN" vm="1" name="Recon Arc" type="3">
+</entry>
+    <entry group="0011" element="73" vr="UN" vm="1" name="Recon Pan AP Offset" type="3">
+</entry>
+    <entry group="0011" element="74" vr="UN" vm="1" name="Recon Pan LR Offset" type="3">
+</entry>
+    <entry group="0011" element="75" vr="UN" vm="1" name="Recon Area" type="3">
+</entry>
+    <entry group="0011" element="76" vr="UN" vm="1" name="Start View" type="3">
+</entry>
+    <entry group="0011" element="77" vr="UN" vm="1" name="Attenuation Type" type="3">
+</entry>
+    <entry group="0011" element="78" vr="UN" vm="1" name="Dual Energy Processing" type="3">
+</entry>
+    <entry group="0011" element="79" vr="UN" vm="1" name="Pre Filter Param" type="3">
+</entry>
+    <entry group="0011" element="7a" vr="UN" vm="1" name="Pre Filter Param 2" type="3">
+</entry>
+    <entry group="0011" element="7b" vr="UN" vm="1" name="Back Proj Filter Param" type="3">
+</entry>
+    <entry group="0011" element="7c" vr="UN" vm="1" name="Back Proj Filter Param 2" type="3">
+</entry>
+    <entry group="0011" element="7d" vr="UN" vm="1" name="Attenuation Coef" type="3">
+</entry>
+    <entry group="0011" element="7e" vr="UN" vm="1" name="Ref Slice Width" type="3">
+</entry>
+    <entry group="0011" element="7f" vr="UN" vm="1" name="Ref Trans Pixel Volume" type="3">
+</entry>
+    <entry group="0011" element="81" vr="UN" vm="1" name="Attenuation Threshold" type="3">
+</entry>
+    <entry group="0011" element="82" vr="UN" vm="1" name="Interpolation Distance" type="3">
+</entry>
+    <entry group="0011" element="83" vr="UN" vm="1" name="Interpolation Center X" type="3">
+</entry>
+    <entry group="0011" element="84" vr="UN" vm="1" name="Interpolation Center Y" type="3">
+</entry>
+    <entry group="0011" element="85" vr="UN" vm="1" name="Quant Filter Flag" type="3">
+</entry>
+    <entry group="0011" element="86" vr="UN" vm="1" name="Head Conversion" type="3">
+</entry>
+</dict>
+</dicts>

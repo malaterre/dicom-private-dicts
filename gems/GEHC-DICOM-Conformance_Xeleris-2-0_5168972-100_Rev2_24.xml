@@ -1,0 +1,76 @@
+﻿<dicts>
+  <dict owner="GEMS_GENIE_1">
+    <entry group="0011" element="32" vr="LO" vm="1" name="Processing Parent UID">
+</entry>
+    <entry group="0011" element="33" vr="LO" vm="1" name="Energy Correct Name">
+</entry>
+    <entry group="0011" element="34" vr="LO" vm="1" name="Spatial Correct Name">
+</entry>
+    <entry group="0011" element="35" vr="LO" vm="1" name="Tuning Calib Name">
+</entry>
+    <entry group="0011" element="36" vr="LO" vm="1" name="Uniformity Correct Name">
+</entry>
+    <entry group="0011" element="37" vr="LT" vm="1" name="Acquisition Specific Correction Name">
+</entry>
+    <entry group="0011" element="38" vr="SL" vm="1" name="Byte Order">
+</entry>
+    <entry group="0011" element="39" vr="SL" vm="1" name="Compression Type">
+</entry>
+    <entry group="0011" element="3a" vr="SL" vm="1" name="Picture Format">
+</entry>
+    <entry group="0011" element="3b" vr="FD" vm="1" name="Pixel Scale">
+</entry>
+    <entry group="0011" element="3c" vr="FD" vm="1" name="Pixel Offset">
+</entry>
+    <entry group="0011" element="3d" vr="SL" vm="4" name="Energy Peak (retired)">
+</entry>
+    <entry group="0011" element="3e" vr="SL" vm="1" name="FOV Shape">
+</entry>
+    <entry group="0011" element="3f" vr="SL" vm="1" name="Dataset Flags">
+</entry>
+    <entry group="0011" element="40" vr="LO" vm="1" name="Viewing Object Name">
+</entry>
+    <entry group="0011" element="41" vr="SL" vm="1" name="Orientation Angle">
+</entry>
+    <entry group="0011" element="42" vr="FD" vm="1" name="Rotation Angle">
+</entry>
+    <entry group="0011" element="43" vr="SL" vm="1" name="Window Inverse Flag">
+</entry>
+    <entry group="0011" element="44" vr="FD" vm="1" name="Threshold Center">
+</entry>
+    <entry group="0011" element="45" vr="FD" vm="1" name="Threshold Width">
+</entry>
+    <entry group="0011" element="46" vr="SL" vm="1" name="Interpolation Type">
+</entry>
+    <entry group="0011" element="50" vr="LO" vm="1" name="Where Object Name">
+</entry>
+    <entry group="0011" element="55" vr="FD" vm="1" name="Period">
+</entry>
+    <entry group="0011" element="56" vr="FD" vm="1" name="Elapsed Time">
+</entry>
+    <entry group="0011" element="57" vr="FD" vm="2" name="FOV">
+</entry>
+    <entry group="0011" element="61" vr="SL" vm="1" name="Image Size">
+</entry>
+    <entry group="0011" element="62" vr="FD" vm="1" name="Linear FOV">
+</entry>
+    <entry group="0011" element="63" vr="FD" vm="1" name="Spatial Offset">
+</entry>
+    <entry group="0011" element="64" vr="FD" vm="1" name="Spatial Orientation">
+</entry>
+    <entry group="0011" element="65" vr="LO" vm="1" name="Reference Dataset UID">
+</entry>
+    <entry group="0011" element="66" vr="SH" vm="1" name="Starcam Reference Dataset">
+</entry>
+    <entry group="0011" element="67" vr="SL" vm="1" name="Reference Frame Number">
+</entry>
+    <entry group="0011" element="68" vr="SL" vm="1" name="Cursor Length">
+</entry>
+    <entry group="0011" element="69" vr="SL" vm="1" name="Number of Cursors">
+</entry>
+    <entry group="0011" element="6a" vr="SL" vm="1" name="Cursor Coordinates">
+</entry>
+    <entry group="0011" element="6b" vr="SL" vm="1" name="Recon Options Flag">
+</entry>
+</dict>
+</dicts>

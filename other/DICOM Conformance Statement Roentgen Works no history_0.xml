@@ -1,0 +1,25 @@
+﻿<dicts>
+  <dict owner="BRIT Systems, Inc.">
+    <entry group="0021" element="00" vr="UN" vm="1" name="PrivateCreatorData" type="Auto">
+<definition>DICOM standard identifier for private tags. The value in this element should always be "BRIT Systems, Inc.". This element will be automatically added by all BRIT DICOM toolkits when any BRIT private element is added to an object, if it does not already exist. If it exists, all BRIT DICOM toolkits will automatically use this element to identify and adjust the element numbers used with any BRIT Private elements</definition>
+</entry>
+    <entry group="0021" element="90" vr="UN" vm="1" name="BritOriginalSenderAETitle" type="1">
+<definition>The AE Title of the original sending modality. This represents the first AE to send this object to a BRIT Systems DICOM SCP. This element is required if it does not already exist. Once it exists, it should never be changed or removed.  There is no way to record which AEs have handled or processed an object before it arrived at the first BRIT Systems SCP.</definition>
+</entry>
+    <entry group="0021" element="a0" vr="SQ" vm="1" name="BritObjectActionSequence" type="1">
+<definition>Sequence of items describing actions performed on the object by BRIT software products that resulted in the object being received or modified. This sequence is required if it does not already exist. Whenever a BRIT application receives or modifies a DICOM object, this sequence should be appended with a new item describing the action performed.</definition>
+</entry>
+    <entry group="0021" element="00" vr="UN" vm="1" name="&gt;PrivateCreatorData" type="Auto">
+<definition>DICOM standard identifier for private tags. The value in this element should always be "BRIT Systems, Inc.". This element will be automatically added by all BRIT DICOM toolkits when any BRIT private element is added to an object, if it does not already exist. If it exists, all BRIT DICOM toolkits will automatically use this element to identify and adjust the element numbers used with any BRIT Private elements.</definition>
+</entry>
+    <entry group="0021" element="91" vr="UN" vm="1" name="&gt;BritSoftwareTitle" type="1">
+<definition>Name of the BRIT software package that inserted this item into the sequence.</definition>
+</entry>
+    <entry group="0021" element="92" vr="UN" vm="1" name="&gt;BritSoftwareVersion" type="1">
+<definition>Version of the BRIT software package that inserted this item into the sequence.</definition>
+</entry>
+    <entry group="0021" element="93" vr="UN" vm="1" name="&gt;BritSerialNumber" type="2">
+<definition>Serial number of the system running the BRIT software that inserted this item into the sequence, if known. BRIT PC numbers can be used as serial numbers. This is intended as a way to trace events back to specific hardware.</definition>
+</entry>
+</dict>
+</dicts>

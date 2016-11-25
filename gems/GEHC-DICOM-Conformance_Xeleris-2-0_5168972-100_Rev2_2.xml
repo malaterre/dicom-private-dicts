@@ -1,0 +1,43 @@
+﻿<dicts>
+  <dict owner="PRIV">
+    <entry group="0009" element="10" vr="UN" vm="1" name="Study Name" type="3">
+<definition>Name of the Database Study Object</definition>
+</entry>
+    <entry group="0009" element="11" vr="UN" vm="1" name="Study Flags" type="3">
+<definition>Defines study information.</definition>
+</entry>
+    <entry group="0009" element="12" vr="UN" vm="1" name="Study Type" type="3">
+<definition>Defines type of study.</definition>
+</entry>
+    <entry group="0013" element="26" vr="UN" vm="1" name="Study Comments" type="3">
+<definition>User-defined additional information about the study.</definition>
+</entry>
+    <entry group="0033" element="50" vr="UN" vm="1" name="PhotoCDC Data SQ" type="3">
+<definition>SQ with items encoding describe PDO as part of 700</definition>
+</entry>
+    <entry group="0033" element="08" vr="UN" vm="1" name="&gt;Data Object Type" type="3">
+<definition>Data Object Type</definition>
+</entry>
+    <entry group="0033" element="10" vr="UN" vm="1" name="&gt;Modified" type="3">
+<definition>Modified</definition>
+</entry>
+    <entry group="0033" element="11" vr="UN" vm="1" name="&gt;Name" type="3">
+<definition>Name</definition>
+</entry>
+    <entry group="0033" element="16" vr="UN" vm="1" name="&gt;ProtocolDataUID" type="3">
+<definition>ProtocolDataUID</definition>
+</entry>
+    <entry group="0033" element="17" vr="UN" vm="1" name="&gt;Date" type="3">
+<definition>Date</definition>
+</entry>
+    <entry group="0033" element="18" vr="UN" vm="1" name="&gt;Time" type="3">
+<definition>Time</definition>
+</entry>
+    <entry group="0033" element="19" vr="UN" vm="1" name="&gt;ProtocolDataFlags" type="3">
+<definition>ProtocolDataFlags</definition>
+</entry>
+    <entry group="0033" element="1a" vr="UN" vm="1" name="&gt;ProtocolName" type="3">
+<definition>ProtocolName</definition>
+</entry>
+</dict>
+</dicts>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget 
+ $ pdftotext -nopgbrk -layout 
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts edition="2008" url="http://www.toshiba-medical.co.jp/tmd/english/dicom/index_files/miict0050ea.pdf">
+  <dict ref="Table 8.1-21" name="PRIVATE APPLICATION MODULE OF CREATED CT IMAGE SOP INSTANCES" owner="TOSHIBA_MEC_CT3">
+<!-- NOTE: CT Private Data 1 (7005,xx00) or CT Private Data 2 (7005,xx10) may contain some patient -->
+    <entry group="7005" element="00xx" name="Private Creator Code                                                           " vr="LO" vm="1"/>
+    <entry group="7005" element="xx00" name="CT Private Data 1                                                              " vr="OB" vm="1-n"/>
+    <entry group="7005" element="xx03" name="Cardiac R-R Mean Time                                                          " vr="SH" vm="1"/>
+    <entry group="7005" element="xx04" name="Cardiac Reconstruction Gating Phase in Percent                                 " vr="SH" vm="1"/>
+    <entry group="7005" element="xx05" name="Cardiac Reconstruction Gating Phase in ms                                      " vr="SH" vm="1"/>
+    <entry group="7005" element="xx06" name="Cardiac Reconstruction Mode                                                    " vr="SH" vm="1"/>
+    <entry group="7005" element="xx07" name="Reconstruction Center                                                          " vr="DS" vm="2"/>
+    <entry group="7005" element="xx08" name="Detector Slice Thickness in mm                                                 " vr="DS" vm="1"/>
+    <entry group="7005" element="xx09" name="Number of Detector rows to Reconstruct                                         " vr="LO" vm="1"/>
+    <entry group="7005" element="xx0A" name="Table Speed in mm/rot                                                          " vr="DS" vm="1"/>
+    <entry group="7005" element="xx0B" name="Filter                                                                         " vr="SH" vm="1"/>
+    <entry group="7005" element="xx0C" name="Reconstruction Correction Type                                                 " vr="SH" vm="1"/>
+    <entry group="7005" element="xx0D" name="Organ                                                                          " vr="CS" vm="1"/>
+    <entry group="7005" element="xx0E" name="File Type Remarks                                                              " vr="SH" vm="1"/>
+    <entry group="7005" element="xx0F" name="Direction                                                                      " vr="SH" vm="1"/>
+    <entry group="7005" element="xx10" name="CT Private Data 2                                                              " vr="OB" vm="1-n"/>
+    <entry group="7005" element="xx11" name="Series Comment                                                                 " vr="LT" vm="1"/>
+    <entry group="7005" element="xx12" name="Position                                                                       " vr="SH" vm="1"/>
+    <entry group="7005" element="xx13" name="Expert Plan No.                                                                " vr="US" vm="1"/>
+    <entry group="7005" element="xx14" name="Reconstruction ROI No.                                                         " vr="US" vm="1"/>
+    <entry group="7005" element="xx15" name="Special Helical ACQ No.                                                        " vr="US" vm="1"/>
+    <entry group="7005" element="xx16" name="Volume UID                                                                     " vr="UI" vm="1"/>
+    <entry group="7005" element="xx17" name="Total Frame Count in the Volume                                                " vr="US" vm="1"/>
+    <entry group="7005" element="xx18" name="Frame No.                                                                      " vr="US" vm="1"/>
+    <entry group="7005" element="xx19" name="Frame Sort Key                                                                 " vr="UL" vm="1"/>
+    <entry group="7005" element="xx1A" name="Frame Sort Order                                                               " vr="US" vm="1"/>
+    <entry group="7005" element="xx1B" name="Convolution Kernel                                                             " vr="SH" vm="1"/>
+    <entry group="7005" element="xx1C" name="Contrast/Bolus Agent                                                           " vr="LO" vm="1"/>
+    <entry group="7005" element="xx1D" name="Reconstruction Number                                                          " vr="UL" vm="1"/>
+    <entry group="7005" element="xx1E" name="Raw Data Number                                                                " vr="UL" vm="1"/>
+    <entry group="7005" element="xx1F" name="Volume Number                                                                  " vr="LO" vm="1"/>
+    <entry group="7005" element="xx20" name="Local Series Number                                                            " vr="UL" vm="1"/>
+    <entry group="7005" element="xx21" name="Decrease in Artifact Filter                                                    " vr="LO" vm="1"/>
+    <entry group="7005" element="xx22" name="Reconstruction Interval                                                        " vr="DS" vm="1"/>
+    <entry group="7005" element="xx23" name="Pitch Factor                                                                   " vr="DS" vm="1"/>
+    <entry group="7005" element="xx24" name="The Acquisition Date of NRA                                                    " vr="DA" vm="1"/>
+    <entry group="7005" element="xx25" name="Large Data File Attribute                                                      " vr="UL" vm="1"/>
+    <entry group="7005" element="xx26" name="Large Data File Name                                                           " vr="CS" vm="1-8"/>
+    <entry group="7005" element="xx28" name="Enhanced CT Private Sequence                                                   " vr="SQ" vm="1"/>
+    <entry group="7005" element="xx29" name="Frame UID                                                                      " vr="UI" vm="1"/>
+    <entry group="7005" element="xx30" name="Main Modality in Study                                                         " vr="CS" vm="1"/>
+    <entry group="7005" element="xx35" name="Scan Range                                                                     " vr="DS" vm="2"/>
+    <entry group="7005" element="xx36" name="CT Private Data 3                                                              " vr="OB" vm="1-n"/>
+    <entry group="7005" element="xx37" name="Total Frames                                                                   " vr="IS" vm="1"/>
+    <entry group="7005" element="xx38" name="Start Frame                                                                    " vr="IS" vm="1"/>
+    <entry group="7005" element="xx39" name="End Frame                                                                      " vr="IS" vm="1"/>
+    <entry group="7005" element="xx40" name="DLP    Dose Length Product                                                     " vr="FD" vm="1"/>
+    <entry group="7005" element="xx41" name="Raw Slice Information                                                          " vr="SH" vm="1"/>
+    <entry group="7005" element="xx42" name="Local Frame No                                                                 " vr="US" vm="1"/>
+    <entry group="7005" element="xx43" name="Volume Vector                                                                  " vr="DS" vm="3"/>
+    <entry group="7005" element="xx44" name="Volume Type                                                                    " vr="US" vm="1"/>
+    <entry group="7005" element="xx45" name="Relative Table Position of 4D Volume                                           " vr="DS" vm="1"/>
+    <entry group="7005" element="xx46" name="Absolute Table Position of 4D Volume                                           " vr="DS" vm="1"/>
+    <entry group="7005" element="xx47" name="Slice Pitch of 4D Volume                                                       " vr="DS" vm="1"/>
+    <entry group="7005" element="xx48" name="Respiratory Gating Inf.                                                        " vr="LO" vm="1"/>
+    <entry group="7005" element="xx49" name="Respiration Phase                                                              " vr="SH" vm="1"/>
+    <entry group="7005" element="xxF1" name="Protect Mark for Image, Curve or Private Record                                " vr="CS" vm="1"/>
+    <entry group="7005" element="xxF2" name="Protect Mark for Series Record                                                 " vr="CS" vm="1"/>
+    <entry group="7005" element="xxF3" name="Protect Mark for Study Record                                                  " vr="CS" vm="1"/>
+  </dict>
+</dicts>

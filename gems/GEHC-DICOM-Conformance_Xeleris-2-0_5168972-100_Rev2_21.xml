@@ -1,0 +1,18 @@
+﻿<dicts>
+  <dict owner="PRIV">
+    <entry group="0011" element="88" vr="UN" vm="1" name="Rfmtr Trans Ref" type="3">
+</entry>
+    <entry group="0011" element="89" vr="UN" vm="1" name="Rfmtr Trans Ref mm" type="3">
+</entry>
+    <entry group="0011" element="8a" vr="UN" vm="1" name="Two Line Trans Ref" type="3">
+</entry>
+    <entry group="0011" element="8b" vr="UN" vm="1" name="Three–D Zero" type="3">
+</entry>
+    <entry group="0011" element="8c" vr="UN" vm="1" name="Three–D Zero Length" type="3">
+</entry>
+    <entry group="0011" element="8d" vr="UN" vm="1" name="Three–D Zero In" type="3">
+</entry>
+    <entry group="0013" element="21" vr="UN" vm="1" name="Threshold" type="3">
+</entry>
+</dict>
+</dicts>

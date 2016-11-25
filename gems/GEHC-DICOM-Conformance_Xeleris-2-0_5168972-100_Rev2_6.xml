@@ -1,0 +1,52 @@
+﻿<dicts>
+  <dict owner="PRIV">
+    <entry group="0033" element="18" vr="UN" vm="1" name="&gt;Time" type="3">
+<definition>Time</definition>
+</entry>
+    <entry group="0033" element="19" vr="UN" vm="1" name="&gt;SeriesDataFlags" type="3">
+<definition>SeriesDataFlags</definition>
+</entry>
+    <entry group="0033" element="1a" vr="UN" vm="1" name="&gt;ProtocolName" type="3">
+<definition>ProtocolName</definition>
+</entry>
+    <entry group="0033" element="1b" vr="UN" vm="1" name="&gt;RelevantDataUID" type="3">
+<definition>RelevantDataUID</definition>
+</entry>
+    <entry group="0033" element="1c" vr="UN" vm="1" name="&gt;BulkData" type="3">
+<definition>BulkData</definition>
+</entry>
+    <entry group="0033" element="1d" vr="UN" vm="1" name="&gt;IntData" type="3">
+<definition>IntData</definition>
+</entry>
+    <entry group="0033" element="1e" vr="UN" vm="1" name="&gt;DoubleData" type="3">
+<definition>DoubleData</definition>
+</entry>
+    <entry group="0033" element="1f" vr="UN" vm="1" name="&gt;StringData" type="3">
+<definition>StringData</definition>
+</entry>
+    <entry group="0033" element="20" vr="UN" vm="1" name="&gt;BulkDataFormat" type="3">
+<definition>BulkDataFormat</definition>
+</entry>
+    <entry group="0033" element="21" vr="UN" vm="1" name="&gt;IntDataFormat" type="3">
+<definition>IntDataFormat</definition>
+</entry>
+    <entry group="0033" element="22" vr="UN" vm="1" name="&gt;DoubleDataFormat" type="3">
+<definition>DoubleDataFormat</definition>
+</entry>
+    <entry group="0033" element="23" vr="UN" vm="1" name="&gt;StringDataFormat" type="3">
+<definition>StringDataFormat</definition>
+</entry>
+    <entry group="0033" element="24" vr="UN" vm="1" name="&gt;Description" type="3">
+<definition>Description</definition>
+</entry>
+    <entry group="0033" element="73" vr="UN" vm="1" name="&gt;SDODoubleDataSQ" type="3">
+<definition>SDODoubleDataSQ</definition>
+</entry>
+    <entry group="0033" element="1e" vr="UN" vm="1" name="&gt;&gt;DoubleDataSQ" type="3">
+<definition>DoubleDataSQ</definition>
+</entry>
+    <entry group="0033" element="71" vr="UN" vm="1" name="&gt;SDOSOPClassUID" type="3">
+<definition>SDOSOPClassUID</definition>
+</entry>
+</dict>
+</dicts>

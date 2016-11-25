@@ -1,0 +1,44 @@
+﻿<dicts>
+  <dict owner="PRIV">
+    <entry group="0055" element="22" vr="SQ" vm="1" name="Xeleris Detector Information Sequence" type="3">
+<definition>Xeleris detector information.</definition>
+</entry>
+    <entry group="0011" element="23" vr="UN" vm="1" name="&gt;Use FOV Mask" type="3">
+<definition>Whether FOV mask used during image acquisition.
+The Defined Terms are:
+0 = no mask used
+1 = FOV mask used</definition>
+</entry>
+    <entry group="0011" element="24" vr="UN" vm="1" name="&gt;FOV Mask Y Cutoff Distance" type="3">
+<definition>Hexagonal FOV mask Y cutoff angle.</definition>
+</entry>
+    <entry group="0011" element="25" vr="UN" vm="1" name="&gt;FOV Mask Cutoff Angle" type="3">
+<definition>Hexagonal FOV mask cutoff angle.</definition>
+</entry>
+    <entry group="0011" element="29" vr="UN" vm="1" name="&gt;Uniformity Mean" type="3">
+<definition>Uniformity Mean value</definition>
+</entry>
+    <entry group="0011" element="3e" vr="UN" vm="1" name="&gt;FOV Shape" type="3">
+<definition>GEMS NM system detector type.
+The Defined Terms are:
+1 = 400AC
+6 = Optima
+7 = MAXXUS
+8 = Millennium MPS
+9 = Millennium MPR
+10 = Millennium MG</definition>
+</entry>
+    <entry group="0013" element="18" vr="UN" vm="1" name="&gt;Transmission Scan Time" type="3">
+<definition>Attenuation correction transmission scan duration.</definition>
+</entry>
+    <entry group="0013" element="19" vr="UN" vm="1" name="&gt;Transmission Mask Width" type="3">
+<definition>Attenuation correction transmission scan mask width.</definition>
+</entry>
+    <entry group="0013" element="1a" vr="UN" vm="1" name="&gt;Copper Attenuator Thickness" type="3">
+<definition>Thickness of transmission scan copper attenuator.</definition>
+</entry>
+    <entry group="0013" element="1e" vr="UN" vm="1" name="&gt;Tomo View Offset" type="3">
+<definition>Tomo view detector offset (vector)</definition>
+</entry>
+</dict>
+</dicts>

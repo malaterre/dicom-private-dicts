@@ -1,0 +1,58 @@
+﻿<dicts>
+  <dict owner="Mitra Markup 1.0">
+    <entry group="0029" element="00" vr="OB" vm="1-n" name="Markup1">
+</entry>
+    <entry group="0029" element="01" vr="OB" vm="1-n" name="Markup2">
+</entry>
+    <entry group="0029" element="02" vr="OB" vm="1-n" name="Markup3">
+</entry>
+    <entry group="0029" element="03" vr="OB" vm="1-n" name="Markup4">
+</entry>
+    <entry group="0029" element="04" vr="OB" vm="1-n" name="Markup5">
+</entry>
+    <entry group="0029" element="05" vr="OB" vm="1-n" name="Markup6">
+</entry>
+    <entry group="0029" element="06" vr="OB" vm="1-n" name="Markup7">
+</entry>
+    <entry group="0029" element="07" vr="OB" vm="1-n" name="Markup8">
+</entry>
+    <entry group="0029" element="08" vr="OB" vm="1-n" name="Markup9">
+</entry>
+    <entry group="0029" element="09" vr="OB" vm="1-n" name="Markup10">
+</entry>
+    <entry group="0029" element="10" vr="OB" vm="1-n" name="Markup11">
+</entry>
+    <entry group="0029" element="11" vr="OB" vm="1-n" name="Markup12">
+</entry>
+    <entry group="0029" element="12" vr="OB" vm="1" name="Markup13">
+</entry>
+    <entry group="0029" element="13" vr="OB" vm="1" name="Markup14">
+</entry>
+    <entry group="0029" element="14" vr="OB" vm="1" name="Markup15">
+</entry>
+</dict>
+  <dict owner="Mitra Presentation 1.0">
+    <entry group="0029" element="00" vr="CS" vm="1" name="Mitra Rotation">
+</entry>
+    <entry group="0029" element="01" vr="LO" vm="1" name="Mitra Window Width">
+</entry>
+    <entry group="0029" element="02" vr="LO" vm="1" name="Mitra Window Centre">
+</entry>
+    <entry group="0029" element="03" vr="IS" vm="1" name="Mitra Invert">
+</entry>
+    <entry group="0029" element="04" vr="IS" vm="1" name="Mitra Has Tabstop">
+</entry>
+</dict>
+  <dict owner="AGFA PACS Archive Mirroring 1.0">
+    <entry group="0031" element="00" vr="CS" vm="1" name="study_status">
+</entry>
+    <entry group="0031" element="01" vr="CS" vm="1" name="date_time_verified">
+</entry>
+</dict>
+  <dict owner="Mitra Object Document 1.0">
+    <entry group="0029" element="00" vr="OB" vm="1" name="IMPAX object document">
+</entry>
+    <entry group="0029" element="10" vr="OB" vm="1" name="IMPAX markup XML stored">
+</entry>
+</dict>
+</dicts>

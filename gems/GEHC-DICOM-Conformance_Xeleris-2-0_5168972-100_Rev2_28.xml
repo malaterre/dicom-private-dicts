@@ -1,0 +1,76 @@
+﻿<dicts>
+  <dict owner="GEMS_GENIE_1">
+    <entry group="5001" element="0f" vr="SL" vm="1" name="StyleFill">
+</entry>
+    <entry group="5001" element="10" vr="LO" vm="1" name="StyleColour">
+</entry>
+    <entry group="5001" element="11" vr="SL" vm="1" name="StyleWidth">
+</entry>
+    <entry group="5001" element="12" vr="SL" vm="1" name="StylePoint">
+</entry>
+    <entry group="5001" element="13" vr="LO" vm="1" name="StylePColour">
+</entry>
+    <entry group="5001" element="14" vr="SL" vm="1" name="StylePSize">
+</entry>
+    <entry group="5001" element="15" vr="Sl" vm="1" name="Segments">
+</entry>
+    <entry group="5001" element="16" vr="SL" vm="1" name="SegType">
+</entry>
+    <entry group="5001" element="17" vr="FD" vm="1-n" name="SegStart">
+</entry>
+    <entry group="5001" element="18" vr="FD" vm="1-n" name="SegEnd">
+</entry>
+    <entry group="5001" element="19" vr="SL" vm="1-n" name="SegStyleLine">
+</entry>
+    <entry group="5001" element="1a" vr="SL" vm="1-n" name="SegStyleFill">
+</entry>
+    <entry group="5001" element="1b" vr="LO" vm="1" name="SegStyleColour">
+</entry>
+    <entry group="5001" element="1c" vr="SL" vm="1-n" name="SegStyleWidth">
+</entry>
+    <entry group="5001" element="1d" vr="SL" vm="1-n" name="SegStylePoint">
+</entry>
+    <entry group="5001" element="1e" vr="SL" vm="1" name="SegStylePColour">
+</entry>
+    <entry group="5001" element="1f" vr="SL" vm="1" name="SegStylePSize">
+</entry>
+    <entry group="5001" element="20" vr="LO" vm="1" name="SegName">
+</entry>
+    <entry group="5001" element="21" vr="SL" vm="1-n" name="SegAllowDirInt">
+</entry>
+    <entry group="5001" element="22" vr="SL" vm="1" name="TextAnnots">
+</entry>
+    <entry group="5001" element="23" vr="FD" vm="1-n" name="TxtX">
+</entry>
+    <entry group="5001" element="24" vr="FD" vm="1-n" name="TxtY">
+</entry>
+    <entry group="5001" element="25" vr="LO" vm="1" name="TxtText">
+</entry>
+    <entry group="5001" element="26" vr="LO" vm="1" name="TxtName">
+</entry>
+    <entry group="5001" element="30" vr="LO" vm="1" name="ROIName">
+</entry>
+    <entry group="5001" element="31" vr="LO" vm="1" name="DerivedFromImageUID">
+</entry>
+    <entry group="5001" element="32" vr="SL" vm="1-n" name="DerivedFromImages">
+</entry>
+    <entry group="5001" element="33" vr="UL" vm="1" name="CurveFlags">
+</entry>
+    <entry group="5001" element="34" vr="LO" vm="1" name="CurveName">
+</entry>
+    <entry group="5001" element="35" vr="LO" vm="1" name="DatasetName">
+</entry>
+    <entry group="5001" element="36" vr="LO" vm="1" name="CurveUID">
+</entry>
+    <entry group="5001" element="37" vr="FD" vm="1" name="ROIArea">
+</entry>
+    <entry group="5001" element="38" vr="SL" vm="1" name="Modified">
+</entry>
+    <entry group="5001" element="39" vr="LO" vm="1" name="Name">
+</entry>
+    <entry group="5001" element="3a" vr="LO" vm="1" name="Software version">
+</entry>
+    <entry group="5001" element="3b" vr="SH" vm="1" name="StartDate">
+</entry>
+</dict>
+</dicts>

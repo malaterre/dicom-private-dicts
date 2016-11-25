@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="priv2html.xsl"?>
+<!-- The whole file was generated using :
+
+ $ wget http://www.gehealthcare.com/usen/interoperability/dicom/docs/5173574_2_100r1.pdf
+ $ pdftotext  -layout -nopgbrk  -f 57 -l 60 5173574_2_100r1.pdf 5173574_2_100r1.txt
+ <some minor manual cleaning>
+ $ python txt2xml.py 
+
+Change PA into DA in:
+    <entry group="0019" element="XX85" vr="DA" vm="1" name="Calibration date"/>
+
+-->
+<!--
+  Program: GDCM (Grassroots DICOM). A DICOM library
+  Module:  $URL$
+
+  Copyright (c) 2006-2008 Mathieu Malaterre
+  All rights reserved.
+  See Copyright.txt or http://gdcm.sourceforge.net/Copyright.html for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+     PURPOSE.  See the above copyright notice for more information.
+-->
+<dicts url="http://www.gehealthcare.com/usen/interoperability/dicom/docs/5173574_2_100r1.pdf">
+  <dict ref="Table 3-28:" name="Private Creator Identification" owner="GEMS_DL_STUDY_01">
+    <entry group="0015" element="XX8F" vr="IS" vm="1" name="study_number"/>
+  </dict>
+  <dict ref="Table 3-29:" name="Private Creator Identification" owner="GEMS_DL_SERIES">
+    <entry group="0015" element="XX87" vr="IS" vm="1" name="Number of images"/>
+    <entry group="0019" element="XX81" vr="US" vm="1" name="Calibration frame"/>
+    <entry group="0019" element="XX82" vr="CS" vm="1" name="Calibration object"/>
+    <entry group="0019" element="XX83" vr="DS" vm="1" name="Calibration object size mm"/>
+    <entry group="0019" element="XX84" vr="FL" vm="1" name="Calibration factor"/>
+    <entry group="0019" element="XX85" vr="DA" vm="1" name="Calibration date"/>
+    <entry group="0019" element="XX86" vr="TM" vm="1" name="Calibration time"/>
+    <entry group="0019" element="XX87" vr="US" vm="1" name="Calibration accuracy"/>
+    <entry group="0019" element="XX88" vr="CS" vm="1" name="Calibration extended"/>
+    <entry group="0019" element="XX89" vr="US" vm="1" name="Calibration image original"/>
+    <entry group="0019" element="XX8A" vr="US" vm="1" name="Calibration frame original"/>
+    <entry group="0019" element="XX8B" vr="US" vm="1" name="Calibration nb points uif"/>
+    <entry group="0019" element="XX8C" vr="US" vm="1-N" name="Calibration points row"/>
+    <entry group="0019" element="XX8D" vr="US" vm="1-N" name="Calibration points column"/>
+    <entry group="0019" element="XX8E" vr="FL" vm="1" name="Calibration mag ratio"/>
+    <entry group="0019" element="XX8F" vr="LO" vm="1" name="Calibration sw version"/>
+    <entry group="0019" element="XX90" vr="LO" vm="1" name="Extend calib sw version"/>
+    <entry group="0019" element="XX91" vr="IS" vm="1" name="Calibration return code"/>
+    <entry group="0019" element="XX92" vr="DS" vm="1" name="detector_rot_angle"/>
+    <entry group="0019" element="XX4E" vr="DS" vm="2" name="def_bright_contr"/>
+    <entry group="0019" element="XX4F" vr="DS" vm="2" name="user_bright_contr"/>
+    <entry group="0019" element="XX9D" vr="CS" vm="1" name="applicable review mode"/>
+    <entry group="0019" element="XX9E" vr="DS" vm="1-N" name="log LUT control points"/>
+    <entry group="0019" element="XX9F" vr="DS" vm="1-N" name="exp LUT SUB control points"/>
+    <entry group="0019" element="XXAD" vr="DS" vm="1-N" name="exp LUT NOSUB control points"/>
+    <entry group="0019" element="XXA0" vr="DS" vm="1" name="ABD value"/>
+    <entry group="0019" element="XXA1" vr="DS" vm="1" name="Sub window center"/>
+    <entry group="0019" element="XXA2" vr="DS" vm="1" name="Sub window width"/>
+    <entry group="0019" element="XXA4" vr="CS" vm="1" name="Auto injection enabled"/>
+    <entry group="0019" element="XXA5" vr="CS" vm="1" name="injection phase"/>
+    <entry group="0019" element="XXA6" vr="DS" vm="1" name="injection delay"/>
+    <entry group="0019" element="XXA7" vr="IS" vm="1" name="reference injection frame number"/>
+    <entry group="0019" element="XX0B" vr="DS" vm="1-2" name="fov dimension double"/>
+    <entry group="0019" element="XX31" vr="IS" vm="1" name="default spatial filter family"/>
+    <entry group="0019" element="XX32" vr="IS" vm="1" name="default spatial filter strength"/>
+    <entry group="0019" element="XXAB" vr="IS" vm="1" name="current spatial filter strength"/>
+    <entry group="0019" element="XXA9" vr="DS" vm="1-N" name="EPT"/>
+    <entry group="0019" element="XXAA" vr="CS" vm="1" name="can downscan 512"/>
+    <entry group="0019" element="XX9A" vr="DS" vm="1-N" name="sensor feedback"/>
+    <entry group="0019" element="XX95" vr="CS" vm="2" name="Image sweep"/>
+    <entry group="0019" element="XX97" vr="DS" vm="1-N" name="Angle 1 increment"/>
+    <entry group="0019" element="XX98" vr="DS" vm="1-N" name="Angle 2 increment"/>
+    <entry group="0019" element="XX99" vr="DS" vm="1-N" name="Angle 3 increment"/>
+    <entry group="0019" element="XX92" vr="DS" vm="1" name="Image detector rotation angle"/>
+    <entry group="0019" element="XX95" vr="CS" vm="2" name="Image flip"/>
+    <entry group="0019" element="XXC7" vr="CS" vm="1" name="Patient position per image"/>
+    <entry group="0019" element="XX93" vr="CS" vm="1" name="Spatial change"/>
+    <entry group="0019" element="XX4B" vr="IS" vm="2" name="Detector origin"/>
+    <entry group="0019" element="XXC5" vr="FL" vm="1" name="Preselected pivot rotation speed"/>
+    <entry group="0019" element="XXD4" vr="FL" vm="1" name="Detection gain value"/>
+    <entry group="0019" element="XXD5" vr="FL" vm="1" name="mR mAs calibration value"/>
+    <entry group="0019" element="XXDC" vr="LO" vm="1" name="DRM LUT file name"/>
+    <entry group="0019" element="XXDD" vr="DS" vm="1-N" name="DRM Strength"/>
+    <entry group="0019" element="XXAE" vr="LO" vm="1-N" name="SUB operator LUTs names"/>
+    <entry group="0019" element="XXC4" vr="IS" vm="1" name="Default spatial filter family"/>
+    <entry group="0019" element="XXC8" vr="CS" vm="1" name="3D structure of interest"/>
+    <entry group="0019" element="XXC9" vr="CS" vm="1" name="3D calibration out of date flag"/>
+    <entry group="0019" element="XXCA" vr="IS" vm="1" name="3Dspin expected number of frames"/>
+  </dict>
+  <dict ref="Table 3-31:" name="Private Creator Identification" owner="DLX_SERIE_01">
+    <entry group="0019" element="XX17" vr="IS" vm="1" name="usr_spa_flt_strgth"/>
+    <entry group="0019" element="XX18" vr="IS" vm="1" name="usr_zoom_factor"/>
+    <entry group="0019" element="XX24" vr="DS" vm="1" name="lbd_cm_pc_dtort"/>
+    <entry group="0019" element="XX25" vr="DS" vm="1" name="slope_lv_regress"/>
+    <entry group="0019" element="XX26" vr="DS" vm="1" name="int_lv_regress"/>
+    <entry group="0019" element="XX1E" vr="IS" vm="1" name="Percent landscape"/>
+    <entry group="0019" element="XX14" vr="IS" vm="1" name="adx acq mode"/>
+    <entry group="0019" element="XX21" vr="DS" vm="1" name="Table vertical position Table"/>
+    <entry group="0019" element="XX22" vr="DS" vm="1" name="longitudinal position"/>
+    <entry group="0019" element="XX23" vr="DS" vm="1" name="Table lateral position"/>
+    <entry group="0019" element="XX01" vr="DS" vm="1" name="Angle value 1"/>
+    <entry group="0019" element="XX02" vr="DS" vm="1" name="Angle value 2"/>
+    <entry group="0019" element="XX03" vr="DS" vm="1" name="Angle value 3"/>
+    <entry group="0019" element="XX20" vr="LO" vm="1" name="IP address"/>
+    <entry group="0019" element="XX19" vr="IS" vm="1" name="X zoom"/>
+    <entry group="0019" element="XX1A" vr="IS" vm="1" name="Y zoom"/>
+  </dict>
+  <dict ref="Table 3-32:" name="Private Creator Identification" owner="GEMS_DL_FRAME_01">
+    <entry group="0025" element="XX0A" vr="SQ" vm="1" name="frame_sequence"/>
+    <entry group="0025" element="XX02" vr="IS" vm="1" name="&gt;frame_id"/>
+  </dict>
+  <dict ref="Table 3-33:" name="Private Creator Identification" owner="GEMS_XR3DCAL_01">
+    <entry group="0021" element="XX01" vr="IS" vm="1" name="3Dcal image rows"/>
+    <entry group="0021" element="XX02" vr="IS" vm="1" name="3Dcal image columns"/>
+    <entry group="0021" element="XX03" vr="FL" vm="1" name="3Dcal field of view"/>
+    <entry group="0021" element="XX04" vr="DA" vm="1" name="3Dcal acquisition date"/>
+    <entry group="0021" element="XX05" vr="TM" vm="1" name="3Dcal acquisition time"/>
+    <entry group="0021" element="XX06" vr="DA" vm="1" name="3Dcal calibration processing date"/>
+    <entry group="0021" element="XX07" vr="TM" vm="1" name="3Dcal calibration processing time"/>
+    <entry group="0021" element="XX08" vr="FL" vm="1" name="3Dcal L arm angle"/>
+    <entry group="0021" element="XX09" vr="FL" vm="1-N" name="3Dcal Pivot angle vector"/>
+    <entry group="0021" element="XX0A" vr="FL" vm="1" name="3Dcal C arm angle"/>
+    <entry group="0021" element="XX0B" vr="SQ" vm="1" name="3Dcal matrix sequence"/>
+    <entry group="0021" element="XX0C" vr="LO" vm="1-N" name="&gt;3Dcal matrix elements"/>
+    <entry group="0021" element="XX0D" vr="LO" vm="1" name="3Dcal algorithm version"/>
+    <entry group="0021" element="XX0E" vr="FL" vm="1" name="3Dcal 3D frame unit size"/>
+    <entry group="0021" element="XX0F" vr="LO" vm="1" name="3Dcal calibration mode"/>
+    <entry group="0021" element="XX10" vr="FL" vm="1" name="3Dcal image frame origin row"/>
+    <entry group="0021" element="XX11" vr="FL" vm="1" name="3Dcal image frame origin column"/>
+    <entry group="0021" element="XX12" vr="IS" vm="1" name="3Dcal positioner pivot rotation speed"/>
+    <entry group="0021" element="XX13" vr="IS" vm="1" name="3Dcal number of images"/>
+    <entry group="0021" element="XX14" vr="UI" vm="1" name="3Dcal Instance UID"/>
+    <entry group="0021" element="XX15" vr="FL" vm="2" name="3Dcal image pixel spacing"/>
+    <entry group="0021" element="XX16" vr="CS" vm="1" name="3Dcal centering mode"/>
+  </dict>
+</dicts>

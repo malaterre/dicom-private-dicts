@@ -1,0 +1,10 @@
+﻿<dicts>
+  <dict owner="APEX_PRIVATE">
+    <entry group="0027" element="00" vr="LO" vm="1" name="Private Creator Identification">
+<definition>Identification is used to reserve a block of Private Elements. Value: APEX_PRIVATE</definition>
+</entry>
+    <entry group="0027" element="11" vr="DS" vm="1" name="Bed Position">
+<definition>Location of the patient table (or gantry relative to the table) in mm.</definition>
+</entry>
+</dict>
+</dicts>

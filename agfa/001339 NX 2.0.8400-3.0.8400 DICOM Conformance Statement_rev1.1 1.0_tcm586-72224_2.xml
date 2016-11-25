@@ -1,0 +1,9 @@
+﻿<dicts>
+  <dict owner="Agfa ADC NX">
+    <entry group="0019" element="fc" vr="IS" vm="1" name="Target Exposure Index">
+</entry>
+    <entry group="0019" element="fe" vr="CS" vm="1" name="Study Priority ID">
+<default_value>HIGH MED (=default) LOW NULL</default_value>
+</entry>
+</dict>
+</dicts>

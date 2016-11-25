@@ -1,0 +1,80 @@
+﻿<dicts>
+  <dict owner="PRIV">
+    <entry group="0009" element="20" vr="UN" vm="1" name="Series Object Name" type="3">
+<definition>Name of the Database Series Object.</definition>
+</entry>
+    <entry group="0009" element="21" vr="UN" vm="1" name="Series Flags" type="3">
+<definition>Defines series information.</definition>
+</entry>
+    <entry group="0009" element="22" vr="UN" vm="1" name="User Orientation" type="3">
+<definition>User specified patient orientation.</definition>
+</entry>
+    <entry group="0009" element="23" vr="UN" vm="1" name="Initiation Type" type="3">
+<definition>Acquisition initiation type.
+The Defined Terms are:
+0 = started on count rate
+1 = started after time delay
+2 = started manually</definition>
+</entry>
+    <entry group="0009" element="24" vr="UN" vm="1" name="Initiation Delay" type="3">
+<definition>Acquisition start delay time.</definition>
+</entry>
+    <entry group="0009" element="25" vr="UN" vm="1" name="Initiation Count Rate" type="3">
+<definition>Acquisition start count rate</definition>
+</entry>
+    <entry group="0009" element="26" vr="UN" vm="1" name="Number Energy Sets" type="3">
+<definition>Number of energy sets in this Series.</definition>
+</entry>
+    <entry group="0009" element="27" vr="UN" vm="1" name="Number Detectors" type="3">
+<definition>Number of detectors.</definition>
+</entry>
+    <entry group="0009" element="28" vr="UN" vm="1" name="Number R-R Windows" type="3">
+<definition>Number of R-R Interval Windows.</definition>
+</entry>
+    <entry group="0009" element="29" vr="UN" vm="1" name="Number MG Time Slots" type="3">
+<definition>Number of R-R Interval time bins.</definition>
+</entry>
+    <entry group="0009" element="2a" vr="UN" vm="1" name="Number View Sets" type="3">
+<definition>Number of view sets in this Series.</definition>
+</entry>
+    <entry group="0009" element="2b" vr="UN" vm="1" name="Trigger History UID" type="3">
+<definition>Trigger History UID.</definition>
+</entry>
+    <entry group="0009" element="2c" vr="UN" vm="1" name="Series Comments" type="3">
+<definition>User-defined additional information about the series.</definition>
+</entry>
+    <entry group="0009" element="2e" vr="UN" vm="1" name="Distance Prescribed" type="3">
+<definition>User prescribed whole body scanning distance.</definition>
+</entry>
+    <entry group="0011" element="0a" vr="UN" vm="1" name="Series Type" type="3">
+<definition>Defines type of series.
+The Defined Terms are:
+0 = static
+1 = whole body
+3 = multi-gated
+6 = dynamic
+9 = tomographic</definition>
+</entry>
+    <entry group="0011" element="0b" vr="UN" vm="1" name="Effective Series Duration" type="3">
+<definition>Duration of series acquisition.</definition>
+</entry>
+    <entry group="0011" element="0c" vr="UN" vm="1" name="Number Beats" type="3">
+<definition>Number of physiological triggers during acquisition.</definition>
+</entry>
+    <entry group="0033" element="70" vr="UN" vm="1" name="Seriesdata SQ" type="3">
+<definition>Used for encoding. private SPO as part of image.</definition>
+</entry>
+    <entry group="0033" element="08" vr="UN" vm="1" name="&gt;Data Object Type" type="3">
+<definition>Data Object Type</definition>
+</entry>
+    <entry group="0033" element="10" vr="UN" vm="1" name="&gt;Modified" type="3">
+<definition>Modified</definition>
+</entry>
+    <entry group="0033" element="11" vr="UN" vm="1" name="&gt;Name" type="3">
+<definition>Name</definition>
+</entry>
+    <entry group="0033" element="16" vr="UN" vm="1" name="&gt;SeriesDataUID" type="3">
+<definition>SeriesDataUID</definition>
+</entry>
+</dict>
+</dicts>

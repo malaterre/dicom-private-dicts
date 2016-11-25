@@ -1,0 +1,13 @@
+﻿<dicts>
+  <dict owner="PRIV">
+    <entry group="0009" element="40" vr="UN" vm="1" name="Patient Object Name" type="3">
+<definition>Name of the Database Patient Object</definition>
+</entry>
+    <entry group="0009" element="41" vr="UN" vm="1" name="Patient Flags" type="3">
+<definition>Defines patient information.</definition>
+</entry>
+    <entry group="0009" element="42" vr="UN" vm="1" name="Patient Creation Date" type="3">
+<definition>Date of Patient Entity creation (yyyy.mm.dd format).</definition>
+</entry>
+</dict>
+</dicts>

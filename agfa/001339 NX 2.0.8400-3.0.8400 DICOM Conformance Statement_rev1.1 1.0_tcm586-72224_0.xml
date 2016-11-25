@@ -1,0 +1,16 @@
+﻿<dicts>
+  <dict owner="Agfa ADC NX">
+    <entry group="0019" element="00" vr="LO" vm="1" name="“Agfa ADC NX”">
+</entry>
+    <entry group="0019" element="f0" vr="LO" vm="1" name="User Defined field 1">
+</entry>
+    <entry group="0019" element="f1" vr="LO" vm="1" name="User Defined field 2">
+</entry>
+    <entry group="0019" element="f2" vr="LO" vm="1" name="User Defined field 3">
+</entry>
+    <entry group="0019" element="f3" vr="LO" vm="1" name="User Defined field 4">
+</entry>
+    <entry group="0019" element="f4" vr="LO" vm="1" name="User Defined field 5">
+</entry>
+</dict>
+</dicts>

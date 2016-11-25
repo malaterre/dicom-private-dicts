@@ -1,0 +1,717 @@
+<?xml version="1.0"?>
+<dicts>
+  <dict ref="PRIVATE" name="CREATOR IDENTIFICATION" owner="GEMS_PETD_01">
+    <entry group="0009" element="0010" vr="SH" vm="1" type="1" name="Private Creator Data Element"/>
+    <entry group="0009" element="1001" vr="LO" vm="2" type="3" name="GE Advance Implementation Version Name"/>
+    <entry group="0009" element="1002" vr="LO" vm="1" type="3" name="GE Advance Patient.patient_id"/>
+    <entry group="0009" element="1003" vr="SH" vm="1" type="3" name="GE Advance Patient.compatible_version"/>
+    <entry group="0009" element="1004" vr="SH" vm="1" type="3" name="GE Advance Patient.software_version"/>
+    <entry group="0009" element="1005" vr="DT" vm="1" type="3" name="GE Advance Patient.patient_datetime"/>
+    <entry group="0009" element="1006" vr="SL" vm="1" type="3" name="GE Advance Patient.type"/>
+    <entry group="0009" element="1007" vr="UI" vm="1" type="3" name="GE Advance Exam.exam_id"/>
+    <entry group="0009" element="1008" vr="SH" vm="1" type="3" name="GE Advance Exam.compatible_version"/>
+    <entry group="0009" element="1009" vr="SH" vm="1" type="3" name="GE Advance Exam.software_version"/>
+    <entry group="0009" element="100A" vr="UI" vm="1" type="3" name="GE Advance Scan.scan_id"/>
+    <entry group="0009" element="100B" vr="SH" vm="1" type="3" name="GE Advance Scan.compatible_version"/>
+    <entry group="0009" element="100C" vr="SH" vm="1" type="3" name="GE Advance Scan.software_version"/>
+    <entry group="0009" element="100D" vr="DT" vm="1" type="3" name="GE Advance Scan.scan_datetime"/>
+    <entry group="0009" element="100E" vr="DT" vm="1" type="3" name="GE Advance Scan.scan_ready"/>
+    <entry group="0009" element="100F" vr="UI" vm="1" type="3" name="GE Advance Scan.scan_description"/>
+    <entry group="0009" element="1010" vr="LO" vm="1" type="3" name="GE Advance Scan.hospital_name"/>
+    <entry group="0009" element="1011" vr="LO" vm="1" type="3" name="GE Advance Scan.scanner_desc"/>
+    <entry group="0009" element="1012" vr="LO" vm="1" type="3" name="GE Advance Scan.manufacturer"/>
+    <entry group="0009" element="1013" vr="UI" vm="1" type="3" name="GE Advance Scan.for_identifier"/>
+    <entry group="0009" element="1014" vr="LO" vm="1" type="3" name="GE Advance Scan.landmark_name"/>
+    <entry group="0009" element="1015" vr="SH" vm="1" type="3" name="GE Advance Scan.landmark_abbrev"/>
+    <entry group="0009" element="1016" vr="SL" vm="1" type="3" name="GE Advance Scan.patient_position"/>
+    <entry group="0009" element="1017" vr="SL" vm="1" type="3" name="GE Advance Scan.scan_perspective"/>
+    <entry group="0009" element="1018" vr="SL" vm="1" type="3" name="GE Advance Scan.scan_type"/>
+    <entry group="0009" element="1019" vr="SL" vm="1" type="3" name="GE Advance Scan.scan_mode"/>
+    <entry group="0009" element="101A" vr="SL" vm="1" type="3" name="GE Advance Scan.start_condition"/>
+    <entry group="0009" element="101B" vr="SL" vm="1" type="3" name="GE Advance Scan.start_cond_data"/>
+    <entry group="0009" element="101C" vr="SL" vm="1" type="3" name="GE Advance Scan.sel_stop_cond"/>
+    <entry group="0009" element="101D" vr="SL" vm="1" type="3" name="GE Advance Scan.sel_stop_cond_data"/>
+    <entry group="0009" element="101E" vr="SL" vm="1" type="3" name="GE Advance Scan.collect_deadtime"/>
+    <entry group="0009" element="101F" vr="SL" vm="1" type="3" name="GE Advance Scan.collect_singles"/>
+    <entry group="0009" element="1020" vr="SL" vm="1" type="3" name="GE Advance Scan.collect_countrate"/>
+    <entry group="0009" element="1021" vr="SL" vm="1" type="3" name="GE Advance Scan.countrate_period"/>
+    <entry group="0009" element="1022" vr="SL" vm="1" type="3" name="GE Advance Scan.delayed_events"/>
+    <entry group="0009" element="1023" vr="SL" vm="1" type="3" name="GE Advance Scan.delayed_bias"/>
+    <entry group="0009" element="1024" vr="SL" vm="1" type="3" name="GE Advance Scan.word_size"/>
+    <entry group="0009" element="1025" vr="SL" vm="1" type="3" name="GE Advance Scan.axial_acceptance"/>
+    <entry group="0009" element="1026" vr="SL" vm="1" type="3" name="GE Advance Scan.axial_angle_3d"/>
+    <entry group="0009" element="1027" vr="SL" vm="1" type="3" name="GE Advance Scan.theta_compression"/>
+    <entry group="0009" element="1028" vr="SL" vm="1" type="3" name="GE Advance Scan.axial_compression"/>
+    <entry group="0009" element="1029" vr="FL" vm="1" type="3" name="GE Advance Scan.gantry_tilt_angle"/>
+    <entry group="0009" element="102A" vr="SL" vm="1" type="3" name="GE Advance Scan.collimation"/>
+    <entry group="0009" element="102B" vr="SL" vm="1" type="3" name="GE Advance Scan.scan_fov"/>
+    <entry group="0009" element="102C" vr="SL" vm="1" type="3" name="GE Advance Scan.axial_fov"/>
+    <entry group="0009" element="102D" vr="SL" vm="1" type="3" name="GE Advance Scan.event_separation"/>
+    <entry group="0009" element="102E" vr="SL" vm="1" type="3" name="GE Advance Scan.mask_width"/>
+    <entry group="0009" element="102F" vr="SL" vm="1" type="3" name="GE Advance Scan.binning_mode"/>
+    <entry group="0009" element="1030" vr="SL" vm="1" type="3" name="GE Advance Scan.trig_rej_method"/>
+    <entry group="0009" element="1031" vr="SL" vm="1" type="3" name="GE Advance Scan.number_for_reject"/>
+    <entry group="0009" element="1032" vr="SL" vm="1" type="3" name="GE Advance Scan.lower_reject_limit"/>
+    <entry group="0009" element="1033" vr="SL" vm="1" type="3" name="GE Advance Scan.upper_reject_limit"/>
+    <entry group="0009" element="1034" vr="SL" vm="1" type="3" name="GE Advance Scan.triggers_acquired"/>
+    <entry group="0009" element="1035" vr="SL" vm="1" type="3" name="GE Advance Scan.triggers_rejected"/>
+    <entry group="0009" element="1036" vr="LO" vm="1" type="3" name="GE Advance Scan.tracer_name"/>
+    <entry group="0009" element="1037" vr="LO" vm="1" type="3" name="GE Advance Scan.batch_description"/>
+    <entry group="0009" element="1038" vr="FL" vm="1" type="3" name="GE Advance Scan.tracer_activity"/>
+    <entry group="0009" element="1039" vr="DT" vm="1" type="3" name="GE Advance Scan.meas_datetime"/>
+    <entry group="0009" element="103A" vr="FL" vm="1" type="3" name="GE Advance Scan.pre_inj_volume"/>
+    <entry group="0009" element="103B" vr="DT" vm="1" type="3" name="GE Advance Scan.admin_datetime"/>
+    <entry group="0009" element="103C" vr="FL" vm="1" type="3" name="GE Advance Scan.post_inj_activity"/>
+    <entry group="0009" element="103D" vr="DT" vm="1" type="3" name="GE Advance Scan.post_inj_datetime"/>
+    <entry group="0009" element="103E" vr="SH" vm="1" type="3" name="GE Advance Scan.radionuclide_name"/>
+    <entry group="0009" element="103F" vr="FL" vm="1" type="3" name="GE Advance Scan.half_life"/>
+    <entry group="0009" element="1040" vr="FL" vm="1" type="3" name="GE Advance Scan.positron_fraction"/>
+    <entry group="0009" element="1041" vr="SL" vm="1" type="3" name="GE Advance Scan.source1_holder"/>
+    <entry group="0009" element="1042" vr="FL" vm="1" type="3" name="GE Advance Scan.source1_activity"/>
+    <entry group="0009" element="1043" vr="DT" vm="1" type="3" name="GE Advance Scan.source1_meas_dt"/>
+    <entry group="0009" element="1044" vr="SH" vm="1" type="3" name="GE Advance Scan.source1_radnuclide"/>
+    <entry group="0009" element="1045" vr="FL" vm="1" type="3" name="GE Advance Scan.source1_half_life"/>
+    <entry group="0009" element="1046" vr="SL" vm="1" type="3" name="GE Advance Scan.source2_holder"/>
+    <entry group="0009" element="1047" vr="FL" vm="1" type="3" name="GE Advance Scan.source2_activity"/>
+    <entry group="0009" element="1048" vr="DT" vm="1" type="3" name="GE Advance Scan.source2_meas_dt"/>
+    <entry group="0009" element="1049" vr="SH" vm="1" type="3" name="GE Advance Scan.source2_radnuclide"/>
+    <entry group="0009" element="104A" vr="FL" vm="1" type="3" name="GE Advance Scan.source2_half_life"/>
+    <entry group="0009" element="104B" vr="SL" vm="1" type="3" name="GE Advance Scan.source_speed"/>
+    <entry group="0009" element="104C" vr="FL" vm="1" type="3" name="GE Advance Scan.source_location"/>
+    <entry group="0009" element="104D" vr="SL" vm="1" type="3" name="GE Advance Scan.emission_present"/>
+    <entry group="0009" element="104E" vr="SL" vm="1" type="3" name="GE Advance Scan.lower_axial_acc"/>
+    <entry group="0009" element="104F" vr="SL" vm="1" type="3" name="GE Advance Scan.upper_axial_acc"/>
+    <entry group="0009" element="1050" vr="SL" vm="1" type="3" name="GE Advance Scan.lower_coinc_limit"/>
+    <entry group="0009" element="1051" vr="SL" vm="1" type="3" name="GE Advance Scan.upper_coinc_limit"/>
+    <entry group="0009" element="1052" vr="SL" vm="1" type="3" name="GE Advance Scan.coinc_delay_offset"/>
+    <entry group="0009" element="1053" vr="SL" vm="1" type="3" name="GE Advance Scan.coinc_output_mode"/>
+    <entry group="0009" element="1054" vr="SL" vm="1" type="3" name="GE Advance Scan.upper_energy_limit"/>
+    <entry group="0009" element="1055" vr="SL" vm="1" type="3" name="GE Advance Scan.lower_energy_limit"/>
+    <entry group="0009" element="1056" vr="UI" vm="1" type="3" name="GE Advance Scan.normal_cal_id"/>
+    <entry group="0009" element="1057" vr="UI" vm="1" type="3" name="GE Advance Scan.normal_2d_cal_id"/>
+    <entry group="0009" element="1058" vr="UI" vm="1" type="3" name="GE Advance Scan.blank_cal_id"/>
+    <entry group="0009" element="1059" vr="UI" vm="1" type="3" name="GE Advance Scan.wc_cal_id"/>
+    <entry group="0009" element="105A" vr="SL" vm="1" type="3" name="GE Advance Scan.derived"/>
+    <entry group="0009" element="105B" vr="LO" vm="1" type="3" name="GE Advance Scan.contrast_agent"/>
+    <entry group="0009" element="105C" vr="UI" vm="1" type="3" name="GE Advance Frame.frame_id"/>
+    <entry group="0009" element="105D" vr="UI" vm="1" type="3" name="GE Advance Frame.scan_id"/>
+    <entry group="0009" element="105E" vr="UI" vm="1" type="3" name="GE Advance Frame.exam_id"/>
+    <entry group="0009" element="105F" vr="LO" vm="1" type="3" name="GE Advance Frame.patient_id"/>
+    <entry group="0009" element="1060" vr="SH" vm="1" type="3" name="GE Advance Frame.compatible_version"/>
+    <entry group="0009" element="1061" vr="SH" vm="1" type="3" name="GE Advance Frame.software_version"/>
+    <entry group="0009" element="1062" vr="ST" vm="1" type="3" name="GE Advance Frame.where_is_frame"/>
+    <entry group="0009" element="1063" vr="SL" vm="1" type="3" name="GE Advance Frame.frame_size"/>
+    <entry group="0009" element="1064" vr="SL" vm="1" type="3" name="GE Advance Frame.file_exists"/>
+    <entry group="0009" element="1065" vr="SL" vm="1" type="3" name="GE Advance Frame.patient_entry"/>
+    <entry group="0009" element="1066" vr="FL" vm="1" type="3" name="GE Advance Frame.table_height"/>
+    <entry group="0009" element="1067" vr="FL" vm="1" type="3" name="GE Advance Frame.table_z_position"/>
+    <entry group="0009" element="1068" vr="DT" vm="1" type="3" name="GE Advance Frame.landmark_datetime"/>
+    <entry group="0009" element="1069" vr="SL" vm="1" type="3" name="GE Advance Frame.slice_count"/>
+    <entry group="0009" element="106A" vr="FL" vm="1" type="3" name="GE Advance Frame.start_location"/>
+    <entry group="0009" element="106B" vr="SL" vm="1" type="3" name="GE Advance Frame.acq_delay"/>
+    <entry group="0009" element="106C" vr="DT" vm="1" type="3" name="GE Advance Frame.acq_start"/>
+    <entry group="0009" element="106D" vr="SL" vm="1" type="3" name="GE Advance Frame.acq_duration"/>
+    <entry group="0009" element="106E" vr="SL" vm="1" type="3" name="GE Advance Frame.acq_bin_dur"/>
+    <entry group="0009" element="106F" vr="SL" vm="1" type="3" name="GE Advance Frame.acq_bin_start"/>
+    <entry group="0009" element="1070" vr="SL" vm="1" type="3" name="GE Advance Frame.actual_stop_cond"/>
+    <entry group="0009" element="1071" vr="FD" vm="1" type="3" name="GE Advance Frame.total_prompts"/>
+    <entry group="0009" element="1072" vr="FD" vm="1" type="3" name="GE Advance Frame.total_delays"/>
+    <entry group="0009" element="1073" vr="SL" vm="1" type="3" name="GE Advance Frame.frame_valid"/>
+    <entry group="0009" element="1074" vr="SL" vm="1" type="3" name="GE Advance Frame.validity_info"/>
+    <entry group="0009" element="1075" vr="SL" vm="1" type="3" name="GE Advance Frame.archived"/>
+    <entry group="0009" element="1076" vr="SL" vm="1" type="3" name="GE Advance Frame.compression"/>
+    <entry group="0009" element="1077" vr="SL" vm="1" type="3" name="GE Advance Frame.uncompressed_size"/>
+    <entry group="0009" element="1078" vr="SL" vm="1" type="3" name="GE Advance Frame.accum_bin_dur"/>
+    <entry group="0009" element="1079" vr="SH" vm="1" type="3" name="GE Advance ImageSet.compatible_version"/>
+    <entry group="0009" element="107A" vr="SH" vm="1" type="3" name="GE Advance ImageSet.software_version"/>
+    <entry group="0009" element="107B" vr="DT" vm="1" type="3" name="GE Advance ImageSet.is_datetime"/>
+    <entry group="0009" element="107C" vr="SL" vm="1" type="3" name="GE Advance ImageSet.is_source"/>
+    <entry group="0009" element="107D" vr="SL" vm="1" type="3" name="GE Advance ImageSet.is_contents"/>
+    <entry group="0009" element="107E" vr="SL" vm="1" type="3" name="GE Advance ImageSet.is_type"/>
+    <entry group="0009" element="107F" vr="FL" vm="3" type="3" name="GE Advance ImageSet.is_reference"/>
+    <entry group="0009" element="1080" vr="SL" vm="1" type="3" name="GE Advance ImageSet.multi_patient"/>
+    <entry group="0009" element="1081" vr="SL" vm="1" type="3" name="GE Advance ImageSet.number_of_normals"/>
+    <entry group="0009" element="1082" vr="UI" vm="1" type="3" name="GE Advance ImageSet.color_map_id"/>
+    <entry group="0009" element="1083" vr="SL" vm="1" type="3" name="GE Advance ImageSet.window_level_type"/>
+    <entry group="0009" element="1084" vr="FL" vm="1" type="3" name="GE Advance ImageSet.rotate"/>
+    <entry group="0009" element="1085" vr="SL" vm="1" type="3" name="GE Advance ImageSet.flip"/>
+    <entry group="0009" element="1086" vr="FL" vm="1" type="3" name="GE Advance ImageSet.zoom"/>
+    <entry group="0009" element="1087" vr="SL" vm="1" type="3" name="GE Advance ImageSet.pan_x"/>
+    <entry group="0009" element="1088" vr="SL" vm="1" type="3" name="GE Advance ImageSet.pan_y"/>
+    <entry group="0009" element="1089" vr="FL" vm="1" type="3" name="GE Advance ImageSet.window_level_min"/>
+    <entry group="0009" element="108A" vr="FL" vm="1" type="3" name="GE Advance ImageSet.window_level_max"/>
+    <entry group="0009" element="108B" vr="SL" vm="1" type="3" name="GE Advance ImageSet.recon_method"/>
+    <entry group="0009" element="108C" vr="SL" vm="1" type="3" name="GE Advance ImageSet.attenuation"/>
+    <entry group="0009" element="108D" vr="FL" vm="1" type="3" name="GE Advance ImageSet.atten_coefficient"/>
+    <entry group="0009" element="108E" vr="SL" vm="1" type="3" name="GE Advance ImageSet.bp_filter"/>
+    <entry group="0009" element="108F" vr="FL" vm="1" type="3" name="GE Advance ImageSet.bp_filter_cutoff"/>
+    <entry group="0009" element="1090" vr="SL" vm="1" type="3" name="GE Advance ImageSet.bp_filter_order"/>
+    <entry group="0009" element="1091" vr="FL" vm="1" type="3" name="GE Advance ImageSet.bp_center_l"/>
+    <entry group="0009" element="1092" vr="FL" vm="1" type="3" name="GE Advance ImageSet.bp_center_p"/>
+    <entry group="0009" element="1093" vr="SL" vm="1" type="3" name="GE Advance ImageSet.atten_smooth"/>
+    <entry group="0009" element="1094" vr="SL" vm="1" type="3" name="GE Advance ImageSet.atten_smooth_param"/>
+    <entry group="0009" element="1095" vr="SL" vm="1" type="3" name="GE Advance ImageSet.angle_smooth_param"/>
+    <entry group="0009" element="1096" vr="UI" vm="1" type="3" name="GE Advance ImageSet.wellcountercal_id"/>
+    <entry group="0009" element="1097" vr="UI" vm="1" type="3" name="GE Advance ImageSet.trans_scan_id"/>
+    <entry group="0009" element="1098" vr="UI" vm="1" type="3" name="GE Advance ImageSet.norm_cal_id"/>
+    <entry group="0009" element="1099" vr="UI" vm="1" type="3" name="GE Advance ImageSet.blnk_cal_id"/>
+    <entry group="0009" element="109A" vr="FL" vm="1" type="3" name="GE Advance ImageSet.cac_edge_threshold"/>
+    <entry group="0009" element="109B" vr="FL" vm="1" type="3" name="GE Advance ImageSet.cac_skull_offset"/>
+    <entry group="0009" element="109C" vr="UI" vm="1" type="3" name="GE Advance ImageSet.emiss_sub_id"/>
+    <entry group="0009" element="109D" vr="SL" vm="1" type="3" name="GE Advance ImageSet.radial_filter_3d"/>
+    <entry group="0009" element="109E" vr="FL" vm="1" type="3" name="GE Advance ImageSet.radial_cutoff_3d"/>
+    <entry group="0009" element="109F" vr="SL" vm="1" type="3" name="GE Advance ImageSet.axial_filter_3d"/>
+    <entry group="0009" element="10A0" vr="FL" vm="1" type="3" name="GE Advance ImageSet.axial_cutoff_3d"/>
+    <entry group="0009" element="10A1" vr="FL" vm="1" type="3" name="GE Advance ImageSet.axial_start"/>
+    <entry group="0009" element="10A2" vr="FL" vm="1" type="3" name="GE Advance ImageSet.axial_spacing"/>
+    <entry group="0009" element="10A3" vr="SL" vm="1" type="3" name="GE Advance ImageSet.axial_angles_used"/>
+    <entry group="0009" element="10B2" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ir_num_iterations"/>
+    <entry group="0009" element="10B3" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ir_num_subsets"/>
+    <entry group="0009" element="10B4" vr="FL" vm="1" type="3" name="GE Advance ImageSet.ir_recon_fov"/>
+    <entry group="0009" element="10B5" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ir_corr_model"/>
+    <entry group="0009" element="10B6" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ir_loop_filter"/>
+    <entry group="0009" element="10B7" vr="FL" vm="1" type="3" name="GE Advance ImageSet.ir_pre_filt_parm"/>
+    <entry group="0009" element="10B8" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ir_loop_filt_parm"/>
+    <entry group="0009" element="10B9" vr="FL" vm="1" type="3" name="GE Advance ImageSet.response_filt_parm"/>
+    <entry group="0009" element="10BA" vr="SL" vm="1" type="3" name="GE Advance ImageSet.post_filter"/>
+    <entry group="0009" element="10BB" vr="FL" vm="1" type="3" name="GE Advance ImageSet.post_filt_parm"/>
+    <entry group="0009" element="10BC" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ir_regularize"/>
+    <entry group="0009" element="10BD" vr="FL" vm="1" type="3" name="GE Advance ImageSet.regularize_parm"/>
+    <entry group="0009" element="10BE" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ac_bp_filter"/>
+    <entry group="0009" element="10BF" vr="FL" vm="1" type="3" name="GE Advance ImageSet.ac_bp_filt_cut_off"/>
+    <entry group="0009" element="10C0" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ac_bp_filt_order"/>
+    <entry group="0009" element="10C1" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ac_img_smooth"/>
+    <entry group="0009" element="10C2" vr="FL" vm="1" type="3" name="GE Advance ImageSet.ac_img_smooth_parm"/>
+    <entry group="0009" element="10C3" vr="SL" vm="1" type="3" name="GE Advance ImageSet.scatter_method"/>
+    <entry group="0009" element="10C4" vr="SL" vm="1" type="3" name="GE Advance ImageSet.scatter_num_iter"/>
+    <entry group="0009" element="10C5" vr="FL" vm="1" type="3" name="GE Advance ImageSet.scatter_parm"/>
+    <entry group="0009" element="10A4" vr="SH" vm="1" type="3" name="GE Advance Image.compatible_version"/>
+    <entry group="0009" element="10A5" vr="SH" vm="1" type="3" name="GE Advance Image.software_version"/>
+    <entry group="0009" element="10A6" vr="SL" vm="1" type="3" name="GE Advance Image.slice_number"/>
+    <entry group="0009" element="10A7" vr="FL" vm="1" type="3" name="GE Advance Image.total_counts"/>
+    <entry group="0009" element="10A8" vr="OB" vm="1" type="3" name="GE Advance Image.other_atts"/>
+    <entry group="0009" element="10A9" vr="SL" vm="1" type="3" name="GE Advance Image.other_atts_size"/>
+    <entry group="0009" element="10AA" vr="SL" vm="1" type="3" name="GE Advance Image.archived"/>
+    <entry group="0009" element="10AB" vr="FL" vm="1" type="3" name="GE Advance Image.bp_center_x"/>
+    <entry group="0009" element="10AC" vr="FL" vm="1" type="3" name="GE Advance Image.bp_center_y"/>
+    <entry group="0009" element="10AD" vr="UI" vm="1" type="3" name="GE Advance Image.trans_frame_id"/>
+    <entry group="0009" element="10AE" vr="UI" vm="1" type="3" name="GE Advance Image.tpluse_frame_id"/>
+    <entry group="0009" element="10C6" vr="FL" vm="1" type="3" name="GE Advance Image.seg_qc_parm"/>
+    <entry group="0009" element="10C7" vr="SL" vm="1" type="3" name="GE Advance Image.overlap"/>
+    <entry group="0009" element="10C8" vr="UI" vm="1" type="3" name="GE Advance Image.ovlp_frm_id"/>
+    <entry group="0009" element="10C9" vr="UI" vm="1" type="3" name="GE Advance Image.ovlp_trans_frm_id"/>
+    <entry group="0009" element="10CA" vr="UI" vm="1" type="3" name="GE Advance Image.ovlp_tpulse_frm_id"/>
+    <entry group="0011" element="0010" vr="SH" vm="1" type="1" name="Private Creator Data Element"/>
+    <entry group="0011" element="1001" vr="SQ" vm="1" type="3" name="GE Advance ROI Sequence"/>
+    <entry group="0011" element="1002" vr="UI" vm="1" type="3" name="&gt; GE Advance ROI.roi_id"/>
+    <entry group="0011" element="1003" vr="UI" vm="1" type="3" name="&gt; GE Advance ROI.image_id"/>
+    <entry group="0011" element="1004" vr="SH" vm="1" type="3" name="&gt; GE Advance ROI.compatible_version"/>
+    <entry group="0011" element="1005" vr="SH" vm="1" type="3" name="&gt; GE Advance ROI.software_version"/>
+    <entry group="0011" element="1006" vr="LO" vm="1" type="3" name="&gt; GE Advance ROI.roi_name"/>
+    <entry group="0011" element="1007" vr="DT" vm="1" type="3" name="&gt; GE Advance ROI.roi_datetime"/>
+    <entry group="0011" element="1008" vr="SL" vm="1" type="3" name="&gt; GE Advance ROI.roi_type"/>
+    <entry group="0011" element="1009" vr="FL" vm="1" type="3" name="&gt; GE Advance ROI.center_x"/>
+    <entry group="0011" element="100A" vr="FL" vm="1" type="3" name="&gt; GE Advance ROI.center_y"/>
+    <entry group="0011" element="100B" vr="FL" vm="1" type="3" name="&gt; GE Advance ROI.width"/>
+    <entry group="0011" element="100C" vr="FL" vm="1" type="3" name="&gt; GE Advance ROI.height"/>
+    <entry group="0011" element="100D" vr="FL" vm="1" type="3" name="&gt; GE Advance ROI.angle"/>
+    <entry group="0011" element="100E" vr="SL" vm="1" type="3" name="&gt; GE Advance ROI.number_of_points"/>
+    <entry group="0011" element="100F" vr="OB" vm="1" type="3" name="&gt; GE Advance ROI.roi_data"/>
+    <entry group="0011" element="1010" vr="SL" vm="1" type="3" name="&gt; GE Advance ROI.roi_size"/>
+    <entry group="0011" element="1011" vr="LO" vm="1" type="3" name="&gt; GE Advance ROI.color"/>
+    <entry group="0011" element="1012" vr="SL" vm="1" type="3" name="&gt; GE Advance ROI.line_type"/>
+    <entry group="0011" element="1013" vr="SL" vm="1" type="3" name="&gt; GE Advance ROI.line_width"/>
+    <entry group="0011" element="1014" vr="SL" vm="1" type="3" name="&gt; GE Advance ROI.roi_number"/>
+    <entry group="0011" element="1015" vr="SL" vm="1" type="3" name="&gt; GE Advance ROI.convex"/>
+    <entry group="0011" element="1016" vr="SL" vm="1" type="3" name="&gt; GE Advance ROI.atten_corr_flag"/>
+    <entry group="0013" element="0010" vr="SH" vm="1" type="1" name="Private Creator Data Element"/>
+    <entry group="0013" element="1001" vr="SQ" vm="1" type="3" name="GE Advance Annotation Sequence"/>
+    <entry group="0013" element="1002" vr="UI" vm="1" type="3" name="&gt; GE Advance Annotation.annotation_id"/>
+    <entry group="0013" element="1003" vr="UI" vm="1" type="3" name="&gt; GE Advance Annotation.image_id"/>
+    <entry group="0013" element="1004" vr="SH" vm="1" type="3" name="&gt; GE Advance Annotation.compatible_version"/>
+    <entry group="0013" element="1005" vr="SH" vm="1" type="3" name="&gt; GE Advance Annotation.software_version"/>
+    <entry group="0013" element="1006" vr="SL" vm="1" type="3" name="&gt; GE Advance Annotation.type"/>
+    <entry group="0013" element="1007" vr="LO" vm="1" type="3" name="&gt; GE Advance Annotation.font_name"/>
+    <entry group="0013" element="1008" vr="SH" vm="1" type="3" name="&gt; GE Advance Annotation.font_size"/>
+    <entry group="0013" element="1009" vr="LO" vm="1" type="3" name="&gt; GE Advance Annotation.foreground_color"/>
+    <entry group="0013" element="100A" vr="LO" vm="1" type="3" name="&gt; GE Advance Annotation.background_color"/>
+    <entry group="0013" element="100B" vr="SL" vm="1" type="3" name="&gt; GE Advance Annotation.coordinate_system"/>
+    <entry group="0013" element="100C" vr="FL" vm="1" type="3" name="&gt; GE Advance Annotation.start_x"/>
+    <entry group="0013" element="100D" vr="FL" vm="1" type="3" name="&gt; GE Advance Annotation.start_y"/>
+    <entry group="0013" element="100E" vr="FL" vm="1" type="3" name="&gt; GE Advance Annotation.end_x"/>
+    <entry group="0013" element="100F" vr="FL" vm="1" type="3" name="&gt; GE Advance Annotation.end_y"/>
+    <entry group="0013" element="1010" vr="SL" vm="1" type="3" name="&gt; GE Advance Annotation.start_symbol"/>
+    <entry group="0013" element="1011" vr="SL" vm="1" type="3" name="&gt; GE Advance Annotation.end_symbol"/>
+    <entry group="0013" element="1012" vr="OB" vm="1" type="3" name="&gt; GE Advance Annotation.annotation_data"/>
+    <entry group="0013" element="1013" vr="SL" vm="1" type="3" name="&gt; GE Advance Annotation.annotation_size"/>
+    <entry group="0013" element="1014" vr="LO" vm="1" type="3" name="&gt; GE Advance Annotation.label_id"/>
+  </dict>
+  <dict ref="TABLE 4.6-1" name="PRIVATE CREATOR IDENTIFICATION" owner="GEMS_PETD_01">
+
+    <entry group="0009" element="0010" vr="SH" vm="1" type="1" name="Private Creator Data Element"/>
+    <entry group="0009" element="1001" vr="LO" vm="2" type="3" name="GE Advance Implementation Version Name"/>
+    <entry group="0009" element="1002" vr="LO" vm="1" type="3" name="GE Advance Patient.patient_id"/>
+    <entry group="0009" element="1003" vr="SH" vm="1" type="3" name="GE Advance Patient.compatible_version"/>
+    <entry group="0009" element="1004" vr="SH" vm="1" type="3" name="GE Advance Patient.software_version"/>
+    <entry group="0009" element="1005" vr="DT" vm="1" type="3" name="GE Advance Patient.patient_datetime"/>
+    <entry group="0009" element="1006" vr="SL" vm="1" type="3" name="GE Advance Patient.type"/>
+    <entry group="0009" element="1007" vr="UI" vm="1" type="3" name="GE Advance Exam.exam_id"/>
+    <entry group="0009" element="1008" vr="SH" vm="1" type="3" name="GE Advance Exam.compatible_version"/>
+    <entry group="0009" element="1009" vr="SH" vm="1" type="3" name="GE Advance Exam.software_version"/>
+    <entry group="0009" element="100A" vr="UI" vm="1" type="3" name="GE Advance Scan.scan_id"/>
+    <entry group="0009" element="100B" vr="SH" vm="1" type="3" name="GE Advance Scan.compatible_version"/>
+    <entry group="0009" element="100C" vr="SH" vm="1" type="3" name="GE Advance Scan.software_version"/>
+    <entry group="0009" element="100D" vr="DT" vm="1" type="3" name="GE Advance Scan.scan_datetime"/>
+    <entry group="0009" element="100E" vr="DT" vm="1" type="3" name="GE Advance Scan.scan_ready"/>
+    <entry group="0009" element="100F" vr="UI" vm="1" type="3" name="GE Advance Scan.scan_description"/>
+    <entry group="0009" element="1010" vr="LO" vm="1" type="3" name="GE Advance Scan.hospital_name"/>
+    <entry group="0009" element="1011" vr="LO" vm="1" type="3" name="GE Advance Scan.scanner_desc"/>
+    <entry group="0009" element="1012" vr="LO" vm="1" type="3" name="GE Advance Scan.manufacturer"/>
+    <entry group="0009" element="1013" vr="UI" vm="1" type="3" name="GE Advance Scan.for_identifier"/>
+    <entry group="0009" element="1014" vr="LO" vm="1" type="3" name="GE Advance Scan.landmark_name"/>
+    <entry group="0009" element="1015" vr="SH" vm="1" type="3" name="GE Advance Scan.landmark_abbrev"/>
+    <entry group="0009" element="1016" vr="SL" vm="1" type="3" name="GE Advance Scan.patient_position"/>
+    <entry group="0009" element="1017" vr="SL" vm="1" type="3" name="GE Advance Scan.scan_perspective"/>
+    <entry group="0009" element="1018" vr="SL" vm="1" type="3" name="GE Advance Scan.scan_type"/>
+    <entry group="0009" element="1019" vr="SL" vm="1" type="3" name="GE Advance Scan.scan_mode"/>
+    <entry group="0009" element="101A" vr="SL" vm="1" type="3" name="GE Advance Scan.start_condition"/>
+    <entry group="0009" element="101B" vr="SL" vm="1" type="3" name="GE Advance Scan.start_cond_data"/>
+    <entry group="0009" element="101C" vr="SL" vm="1" type="3" name="GE Advance Scan.sel_stop_cond"/>
+    <entry group="0009" element="101D" vr="SL" vm="1" type="3" name="GE Advance Scan.sel_stop_cond_data"/>
+    <entry group="0009" element="101E" vr="SL" vm="1" type="3" name="GE Advance Scan.collect_deadtime"/>
+    <entry group="0009" element="101F" vr="SL" vm="1" type="3" name="GE Advance Scan.collect_singles"/>
+    <entry group="0009" element="1020" vr="SL" vm="1" type="3" name="GE Advance Scan.collect_countrate"/>
+    <entry group="0009" element="1021" vr="SL" vm="1" type="3" name="GE Advance Scan.countrate_period"/>
+    <entry group="0009" element="1022" vr="SL" vm="1" type="3" name="GE Advance Scan.delayed_events"/>
+    <entry group="0009" element="1023" vr="SL" vm="1" type="3" name="GE Advance Scan.delayed_bias"/>
+    <entry group="0009" element="1024" vr="SL" vm="1" type="3" name="GE Advance Scan.word_size"/>
+    <entry group="0009" element="1025" vr="SL" vm="1" type="3" name="GE Advance Scan.axial_acceptance"/>
+    <entry group="0009" element="1026" vr="SL" vm="1" type="3" name="GE Advance Scan.axial_angle_3d"/>
+    <entry group="0009" element="1027" vr="SL" vm="1" type="3" name="GE Advance Scan.theta_compression"/>
+    <entry group="0009" element="1028" vr="SL" vm="1" type="3" name="GE Advance Scan.axial_compression"/>
+    <entry group="0009" element="1029" vr="FL" vm="1" type="3" name="GE Advance Scan.gantry_tilt_angle"/>
+    <entry group="0009" element="102A" vr="SL" vm="1" type="3" name="GE Advance Scan.collimation"/>
+    <entry group="0009" element="102B" vr="SL" vm="1" type="3" name="GE Advance Scan.scan_fov"/>
+    <entry group="0009" element="102C" vr="SL" vm="1" type="3" name="GE Advance Scan.axial_fov"/>
+    <entry group="0009" element="102D" vr="SL" vm="1" type="3" name="GE Advance Scan.event_separation"/>
+    <entry group="0009" element="102E" vr="SL" vm="1" type="3" name="GE Advance Scan.mask_width"/>
+    <entry group="0009" element="102F" vr="SL" vm="1" type="3" name="GE Advance Scan.binning_mode"/>
+    <entry group="0009" element="1030" vr="SL" vm="1" type="3" name="GE Advance Scan.trig_rej_method"/>
+    <entry group="0009" element="1031" vr="SL" vm="1" type="3" name="GE Advance Scan.number_for_reject"/>
+    <entry group="0009" element="1032" vr="SL" vm="1" type="3" name="GE Advance Scan.lower_reject_limit"/>
+    <entry group="0009" element="1033" vr="SL" vm="1" type="3" name="GE Advance Scan.upper_reject_limit"/>
+    <entry group="0009" element="1034" vr="SL" vm="1" type="3" name="GE Advance Scan.triggers_acquired"/>
+    <entry group="0009" element="1035" vr="SL" vm="1" type="3" name="GE Advance Scan.triggers_rejected"/>
+    <entry group="0009" element="1036" vr="LO" vm="1" type="3" name="GE Advance Scan.tracer_name"/>
+    <entry group="0009" element="1037" vr="LO" vm="1" type="3" name="GE Advance Scan.batch_description"/>
+    <entry group="0009" element="1038" vr="FL" vm="1" type="3" name="GE Advance Scan.tracer_activity"/>
+    <entry group="0009" element="1039" vr="DT" vm="1" type="3" name="GE Advance Scan.meas_datetime"/>
+    <entry group="0009" element="103A" vr="FL" vm="1" type="3" name="GE Advance Scan.pre_inj_volume"/>
+    <entry group="0009" element="103B" vr="DT" vm="1" type="3" name="GE Advance Scan.admin_datetime"/>
+    <entry group="0009" element="103C" vr="FL" vm="1" type="3" name="GE Advance Scan.post_inj_activity"/>
+    <entry group="0009" element="103D" vr="DT" vm="1" type="3" name="GE Advance Scan.post_inj_datetime"/>
+    <entry group="0009" element="103E" vr="SH" vm="1" type="3" name="GE Advance Scan.radionuclide_name"/>
+    <entry group="0009" element="103F" vr="FL" vm="1" type="3" name="GE Advance Scan.half_life"/>
+    <entry group="0009" element="1040" vr="FL" vm="1" type="3" name="GE Advance Scan.positron_fraction"/>
+    <entry group="0009" element="1041" vr="SL" vm="1" type="3" name="GE Advance Scan.source1_holder"/>
+    <entry group="0009" element="1042" vr="FL" vm="1" type="3" name="GE Advance Scan.source1_activity"/>
+    <entry group="0009" element="1043" vr="DT" vm="1" type="3" name="GE Advance Scan.source1_meas_dt"/>
+    <entry group="0009" element="1044" vr="SH" vm="1" type="3" name="GE Advance Scan.source1_radnuclide"/>
+    <entry group="0009" element="1045" vr="FL" vm="1" type="3" name="GE Advance Scan.source1_half_life"/>
+    <entry group="0009" element="1046" vr="SL" vm="1" type="3" name="GE Advance Scan.source2_holder"/>
+    <entry group="0009" element="1047" vr="FL" vm="1" type="3" name="GE Advance Scan.source2_activity"/>
+    <entry group="0009" element="1048" vr="DT" vm="1" type="3" name="GE Advance Scan.source2_meas_dt"/>
+    <entry group="0009" element="1049" vr="SH" vm="1" type="3" name="GE Advance Scan.source2_radnuclide"/>
+    <entry group="0009" element="104A" vr="FL" vm="1" type="3" name="GE Advance Scan.source2_half_life"/>
+    <entry group="0009" element="104B" vr="SL" vm="1" type="3" name="GE Advance Scan.source_speed"/>
+    <entry group="0009" element="104C" vr="FL" vm="1" type="3" name="GE Advance Scan.source_location"/>
+    <entry group="0009" element="104D" vr="SL" vm="1" type="3" name="GE Advance Scan.emission_present"/>
+    <entry group="0009" element="104E" vr="SL" vm="1" type="3" name="GE Advance Scan.lower_axial_acc"/>
+    <entry group="0009" element="104F" vr="SL" vm="1" type="3" name="GE Advance Scan.upper_axial_acc"/>
+    <entry group="0009" element="1050" vr="SL" vm="1" type="3" name="GE Advance Scan.lower_coinc_limit"/>
+    <entry group="0009" element="1051" vr="SL" vm="1" type="3" name="GE Advance Scan.upper_coinc_limit"/>
+    <entry group="0009" element="1052" vr="SL" vm="1" type="3" name="GE Advance Scan.coinc_delay_offset"/>
+    <entry group="0009" element="1053" vr="SL" vm="1" type="3" name="GE Advance Scan.coinc_output_mode"/>
+    <entry group="0009" element="1054" vr="SL" vm="1" type="3" name="GE Advance Scan.upper_energy_limit"/>
+    <entry group="0009" element="1055" vr="SL" vm="1" type="3" name="GE Advance Scan.lower_energy_limit"/>
+    <entry group="0009" element="1056" vr="UI" vm="1" type="3" name="GE Advance Scan.normal_cal_id"/>
+    <entry group="0009" element="1057" vr="UI" vm="1" type="3" name="GE Advance Scan.normal_2d_cal_id"/>
+    <entry group="0009" element="1058" vr="UI" vm="1" type="3" name="GE Advance Scan.blank_cal_id"/>
+    <entry group="0009" element="1059" vr="UI" vm="1" type="3" name="GE Advance Scan.wc_cal_id"/>
+    <entry group="0009" element="105A" vr="SL" vm="1" type="3" name="GE Advance Scan.derived"/>
+    <entry group="0009" element="105B" vr="LO" vm="1" type="3" name="GE Advance Scan.contrast_agent"/>
+    <entry group="0009" element="105C" vr="UI" vm="1" type="3" name="GE Advance Frame.frame_id"/>
+    <entry group="0009" element="105D" vr="UI" vm="1" type="3" name="GE Advance Frame.scan_id"/>
+    <entry group="0009" element="105E" vr="UI" vm="1" type="3" name="GE Advance Frame.exam_id"/>
+    <entry group="0009" element="105F" vr="LO" vm="1" type="3" name="GE Advance Frame.patient_id"/>
+    <entry group="0009" element="1060" vr="SH" vm="1" type="3" name="GE Advance Frame.compatible_version"/>
+    <entry group="0009" element="1061" vr="SH" vm="1" type="3" name="GE Advance Frame.software_version"/>
+    <entry group="0009" element="1062" vr="ST" vm="1" type="3" name="GE Advance Frame.where_is_frame"/>
+    <entry group="0009" element="1063" vr="SL" vm="1" type="3" name="GE Advance Frame.frame_size"/>
+    <entry group="0009" element="1064" vr="SL" vm="1" type="3" name="GE Advance Frame.file_exists"/>
+    <entry group="0009" element="1065" vr="SL" vm="1" type="3" name="GE Advance Frame.patient_entry"/>
+    <entry group="0009" element="1066" vr="FL" vm="1" type="3" name="GE Advance Frame.table_height"/>
+    <entry group="0009" element="1067" vr="FL" vm="1" type="3" name="GE Advance Frame.table_z_position"/>
+    <entry group="0009" element="1068" vr="DT" vm="1" type="3" name="GE Advance Frame.landmark_datetime"/>
+    <entry group="0009" element="1069" vr="SL" vm="1" type="3" name="GE Advance Frame.slice_count"/>
+    <entry group="0009" element="106A" vr="FL" vm="1" type="3" name="GE Advance Frame.start_location"/>
+    <entry group="0009" element="106B" vr="SL" vm="1" type="3" name="GE Advance Frame.acq_delay"/>
+    <entry group="0009" element="106C" vr="DT" vm="1" type="3" name="GE Advance Frame.acq_start"/>
+    <entry group="0009" element="106D" vr="SL" vm="1" type="3" name="GE Advance Frame.acq_duration"/>
+    <entry group="0009" element="106E" vr="SL" vm="1" type="3" name="GE Advance Frame.acq_bin_dur"/>
+    <entry group="0009" element="106F" vr="SL" vm="1" type="3" name="GE Advance Frame.acq_bin_start"/>
+    <entry group="0009" element="1070" vr="SL" vm="1" type="3" name="GE Advance Frame.actual_stop_cond"/>
+    <entry group="0009" element="1071" vr="FD" vm="1" type="3" name="GE Advance Frame.total_prompts"/>
+    <entry group="0009" element="1072" vr="FD" vm="1" type="3" name="GE Advance Frame.total_delays"/>
+    <entry group="0009" element="1073" vr="SL" vm="1" type="3" name="GE Advance Frame.frame_valid"/>
+    <entry group="0009" element="1074" vr="SL" vm="1" type="3" name="GE Advance Frame.validity_info"/>
+    <entry group="0009" element="1075" vr="SL" vm="1" type="3" name="GE Advance Frame.archived"/>
+    <entry group="0009" element="1076" vr="SL" vm="1" type="3" name="GE Advance Frame.compression"/>
+    <entry group="0009" element="1077" vr="SL" vm="1" type="3" name="GE Advance Frame.uncompressed_size"/>
+    <entry group="0009" element="1078" vr="SL" vm="1" type="3" name="GE Advance Frame.accum_bin_dur"/>
+    <entry group="0009" element="1079" vr="SH" vm="1" type="3" name="GE Advance ImageSet.compatible_version"/>
+    <entry group="0009" element="107A" vr="SH" vm="1" type="3" name="GE Advance ImageSet.software_version"/>
+    <entry group="0009" element="107B" vr="DT" vm="1" type="3" name="GE Advance ImageSet.is_datetime"/>
+    <entry group="0009" element="107C" vr="SL" vm="1" type="3" name="GE Advance ImageSet.is_source"/>
+    <entry group="0009" element="107D" vr="SL" vm="1" type="3" name="GE Advance ImageSet.is_contents"/>
+    <entry group="0009" element="107E" vr="SL" vm="1" type="3" name="GE Advance ImageSet.is_type"/>
+    <entry group="0009" element="107F" vr="FL" vm="3" type="3" name="GE Advance ImageSet.is_reference"/>
+    <entry group="0009" element="1080" vr="SL" vm="1" type="3" name="GE Advance ImageSet.multi_patient"/>
+    <entry group="0009" element="1081" vr="SL" vm="1" type="3" name="GE Advance ImageSet.number_of_normals"/>
+    <entry group="0009" element="1082" vr="UI" vm="1" type="3" name="GE Advance ImageSet.color_map_id"/>
+    <entry group="0009" element="1083" vr="SL" vm="1" type="3" name="GE Advance ImageSet.window_level_type"/>
+    <entry group="0009" element="1084" vr="FL" vm="1" type="3" name="GE Advance ImageSet.rotate"/>
+    <entry group="0009" element="1085" vr="SL" vm="1" type="3" name="GE Advance ImageSet.flip"/>
+    <entry group="0009" element="1086" vr="FL" vm="1" type="3" name="GE Advance ImageSet.zoom"/>
+    <entry group="0009" element="1087" vr="SL" vm="1" type="3" name="GE Advance ImageSet.pan_x"/>
+    <entry group="0009" element="1088" vr="SL" vm="1" type="3" name="GE Advance ImageSet.pan_y"/>
+    <entry group="0009" element="1089" vr="FL" vm="1" type="3" name="GE Advance ImageSet.window_level_min"/>
+    <entry group="0009" element="108A" vr="FL" vm="1" type="3" name="GE Advance ImageSet.window_level_max"/>
+    <entry group="0009" element="108B" vr="SL" vm="1" type="3" name="GE Advance ImageSet.recon_method"/>
+    <entry group="0009" element="108C" vr="SL" vm="1" type="3" name="GE Advance ImageSet.attenuation"/>
+    <entry group="0009" element="108D" vr="FL" vm="1" type="3" name="GE Advance ImageSet.atten_coefficient"/>
+    <entry group="0009" element="108E" vr="SL" vm="1" type="3" name="GE Advance ImageSet.bp_filter"/>
+    <entry group="0009" element="108F" vr="FL" vm="1" type="3" name="GE Advance ImageSet.bp_filter_cutoff"/>
+    <entry group="0009" element="1090" vr="SL" vm="1" type="3" name="GE Advance ImageSet.bp_filter_order"/>
+    <entry group="0009" element="1091" vr="FL" vm="1" type="3" name="GE Advance ImageSet.bp_center_l"/>
+    <entry group="0009" element="1092" vr="FL" vm="1" type="3" name="GE Advance ImageSet.bp_center_p"/>
+    <entry group="0009" element="1093" vr="SL" vm="1" type="3" name="GE Advance ImageSet.atten_smooth"/>
+    <entry group="0009" element="1094" vr="SL" vm="1" type="3" name="GE Advance ImageSet.atten_smooth_param"/>
+    <entry group="0009" element="1095" vr="SL" vm="1" type="3" name="GE Advance ImageSet.angle_smooth_param"/>
+    <entry group="0009" element="1096" vr="UI" vm="1" type="3" name="GE Advance ImageSet.wellcountercal_id"/>
+    <entry group="0009" element="1097" vr="UI" vm="1" type="3" name="GE Advance ImageSet.trans_scan_id"/>
+    <entry group="0009" element="1098" vr="UI" vm="1" type="3" name="GE Advance ImageSet.norm_cal_id"/>
+    <entry group="0009" element="1099" vr="UI" vm="1" type="3" name="GE Advance ImageSet.blnk_cal_id"/>
+    <entry group="0009" element="109A" vr="FL" vm="1" type="3" name="GE Advance ImageSet.cac_edge_threshold"/>
+    <entry group="0009" element="109B" vr="FL" vm="1" type="3" name="GE Advance ImageSet.cac_skull_offset"/>
+    <entry group="0009" element="109C" vr="UI" vm="1" type="3" name="GE Advance ImageSet.emiss_sub_id"/>
+    <entry group="0009" element="109D" vr="SL" vm="1" type="3" name="GE Advance ImageSet.radial_filter_3d"/>
+    <entry group="0009" element="109E" vr="FL" vm="1" type="3" name="GE Advance ImageSet.radial_cutoff_3d"/>
+    <entry group="0009" element="109F" vr="SL" vm="1" type="3" name="GE Advance ImageSet.axial_filter_3d"/>
+    <entry group="0009" element="10A0" vr="FL" vm="1" type="3" name="GE Advance ImageSet.axial_cutoff_3d"/>
+    <entry group="0009" element="10A1" vr="FL" vm="1" type="3" name="GE Advance ImageSet.axial_start"/>
+    <entry group="0009" element="10A2" vr="FL" vm="1" type="3" name="GE Advance ImageSet.axial_spacing"/>
+    <entry group="0009" element="10A3" vr="SL" vm="1" type="3" name="GE Advance ImageSet.axial_angles_used"/>
+    <entry group="0009" element="10B2" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ir_num_iterations"/>
+    <entry group="0009" element="10B3" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ir_num_subsets"/>
+    <entry group="0009" element="10B4" vr="FL" vm="1" type="3" name="GE Advance ImageSet.ir_recon_fov"/>
+    <entry group="0009" element="10B5" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ir_corr_model"/>
+    <entry group="0009" element="10B6" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ir_loop_filter"/>
+    <entry group="0009" element="10B7" vr="FL" vm="1" type="3" name="GE Advance ImageSet.ir_pre_filt_parm"/>
+    <entry group="0009" element="10B8" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ir_loop_filt_parm"/>
+    <entry group="0009" element="10B9" vr="FL" vm="1" type="3" name="GE Advance ImageSet.response_filt_parm"/>
+    <entry group="0009" element="10BA" vr="SL" vm="1" type="3" name="GE Advance ImageSet.post_filter"/>
+    <entry group="0009" element="10BB" vr="FL" vm="1" type="3" name="GE Advance ImageSet.post_filt_parm"/>
+    <entry group="0009" element="10BC" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ir_regularize"/>
+    <entry group="0009" element="10BD" vr="FL" vm="1" type="3" name="GE Advance ImageSet.regularize_parm"/>
+    <entry group="0009" element="10BE" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ac_bp_filter"/>
+    <entry group="0009" element="10BF" vr="FL" vm="1" type="3" name="GE Advance ImageSet.ac_bp_filt_cut_off"/>
+    <entry group="0009" element="10C0" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ac_bp_filt_order"/>
+    <entry group="0009" element="10C1" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ac_img_smooth"/>
+    <entry group="0009" element="10C2" vr="FL" vm="1" type="3" name="GE Advance ImageSet.ac_img_smooth_parm"/>
+    <entry group="0009" element="10C3" vr="SL" vm="1" type="3" name="GE Advance ImageSet.scatter_method"/>
+    <entry group="0009" element="10C4" vr="SL" vm="1" type="3" name="GE Advance ImageSet.scatter_num_iter"/>
+    <entry group="0009" element="10C5" vr="FL" vm="1" type="3" name="GE Advance ImageSet.scatter_parm"/>
+    <entry group="5001" element="0010" vr="SH" vm="1" type="1" name="Private Creator Data Element"/>
+    <entry group="5001" element="1001" vr="UI" vm="1" type="3" name="GE Advance Curve.curve_id"/>
+    <entry group="5001" element="1002" vr="SH" vm="1" type="3" name="GE Advance Curve.compatible_version"/>
+    <entry group="5001" element="1003" vr="SH" vm="1" type="3" name="GE Advance Curve.software_version"/>
+    <entry group="5001" element="1004" vr="SL" vm="1" type="3" name="GE Advance Curve.statistics_type"/>
+    <entry group="5001" element="1005" vr="LT" vm="1" type="3" name="GE Advance Curve.how_derived"/>
+    <entry group="5001" element="1006" vr="SL" vm="1" type="3" name="GE Advance Curve.how_derived_size"/>
+    <entry group="5001" element="1007" vr="SL" vm="1" type="3" name="GE Advance Curve.multi_patient"/>
+    <entry group="5001" element="1008" vr="SL" vm="1" type="3" name="GE Advance Curve.deadtime"/>
+    <entry group="5003" element="0010" vr="SH" vm="1" type="1" name="Private Creator Data Element"/>
+    <entry group="5003" element="1001" vr="SQ" vm="1" type="3" name="GE Advance Graph Sequence"/>
+    <entry group="5003" element="1002" vr="UI" vm="1" type="3" name="&gt; GE Advance Graph.graph_id"/>
+    <entry group="5003" element="1003" vr="SH" vm="1" type="3" name="&gt; GE Advance Graph.compatible_version"/>
+    <entry group="5003" element="1004" vr="SH" vm="1" type="3" name="&gt; GE Advance Graph.software_version"/>
+    <entry group="5003" element="1005" vr="LO" vm="1" type="3" name="&gt; GE Advance Graph.title"/>
+    <entry group="5003" element="1006" vr="DT" vm="1" type="3" name="&gt; GE Advance Graph.graph_datetime"/>
+    <entry group="5003" element="1007" vr="ST" vm="1" type="3" name="&gt; GE Advance Graph.graph_description"/>
+    <entry group="5003" element="1008" vr="LO" vm="1" type="3" name="&gt; GE Advance Graph.title_font_name"/>
+    <entry group="5003" element="1009" vr="SH" vm="1" type="3" name="&gt; GE Advance Graph.title_font_size"/>
+    <entry group="5003" element="100A" vr="LO" vm="1" type="3" name="&gt; GE Advance Graph.footer"/>
+    <entry group="5003" element="100B" vr="SH" vm="1" type="3" name="&gt; GE Advance Graph.footer_font_size"/>
+    <entry group="5003" element="100C" vr="LO" vm="1" type="3" name="&gt; GE Advance Graph.foreground_color"/>
+    <entry group="5003" element="100D" vr="LO" vm="1" type="3" name="&gt; GE Advance Graph.background_color"/>
+    <entry group="5003" element="100E" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.graph_border"/>
+    <entry group="5003" element="100F" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.graph_width"/>
+    <entry group="5003" element="1010" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.graph_height"/>
+    <entry group="5003" element="1011" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.grid"/>
+    <entry group="5003" element="1012" vr="LO" vm="1" type="3" name="&gt; GE Advance Graph.label_font_name"/>
+    <entry group="5003" element="1013" vr="SH" vm="1" type="3" name="&gt; GE Advance Graph.label_font_size"/>
+    <entry group="5003" element="1014" vr="LO" vm="1" type="3" name="&gt; GE Advance Graph.axes_color"/>
+    <entry group="5003" element="1015" vr="LO" vm="1" type="3" name="&gt; GE Advance Graph.x_axis_label"/>
+    <entry group="5003" element="1016" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.x_axis_units"/>
+    <entry group="5003" element="1017" vr="FL" vm="1" type="3" name="&gt; GE Advance Graph.x_major_tics"/>
+    <entry group="5003" element="1018" vr="FL" vm="1" type="3" name="&gt; GE Advance Graph.x_axis_min"/>
+    <entry group="5003" element="1019" vr="FL" vm="1" type="3" name="&gt; GE Advance Graph.x_axis_max"/>
+    <entry group="5003" element="101A" vr="LO" vm="1" type="3" name="&gt; GE Advance Graph.y_axis_label"/>
+    <entry group="5003" element="101B" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.y_axis_units"/>
+    <entry group="5003" element="101C" vr="FL" vm="1" type="3" name="&gt; GE Advance Graph.y_major_tics"/>
+    <entry group="5003" element="101D" vr="FL" vm="1" type="3" name="&gt; GE Advance Graph.y_axis_min"/>
+    <entry group="5003" element="101E" vr="FL" vm="1" type="3" name="&gt; GE Advance Graph.y_axis_max"/>
+    <entry group="5003" element="101F" vr="LO" vm="1" type="3" name="&gt; GE Advance Graph.legend_font_name"/>
+    <entry group="5003" element="1020" vr="SH" vm="1" type="3" name="&gt; GE Advance Graph.legend_font_size"/>
+    <entry group="5003" element="1021" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.legend_location_x"/>
+    <entry group="5003" element="1022" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.legend_location_y"/>
+    <entry group="5003" element="1023" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.legend_width"/>
+    <entry group="5003" element="1024" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.legend_height"/>
+    <entry group="5003" element="1025" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.legend_border"/>
+    <entry group="5003" element="1026" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.multi_patient"/>
+    <entry group="5005" element="0010" vr="SH" vm="1" type="1" name="Private Creator Data Element"/>
+    <entry group="5005" element="1001" vr="SQ" vm="1" type="3" name="GE Advance CurvePresentation Sequence"/>
+    <entry group="5005" element="1002" vr="UI" vm="1" type="3" name="&gt; GE Advance CurvePresentation.curvepresent_id"/>
+    <entry group="5005" element="1003" vr="UI" vm="1" type="3" name="&gt; GE Advance CurvePresentation.graph_id"/>
+    <entry group="5005" element="1004" vr="UI" vm="1" type="3" name="&gt; GE Advance CurvePresentation.curve_id"/>
+    <entry group="5005" element="1005" vr="SH" vm="1" type="3" name="&gt; GE Advance  CurvePresentation.compatible_version"/>
+    <entry group="5005" element="1006" vr="SH" vm="1" type="3" name="&gt; GE Advance CurvePresentation.software_version"/>
+    <entry group="5005" element="1007" vr="LO" vm="1" type="3" name="&gt; GE Advance CurvePresentation.curve_label"/>
+    <entry group="5005" element="1008" vr="LO" vm="1" type="3" name="&gt; GE Advance CurvePresentation.color"/>
+    <entry group="5005" element="1009" vr="SL" vm="1" type="3" name="&gt; GE Advance CurvePresentation.line_type"/>
+    <entry group="5005" element="100A" vr="SL" vm="1" type="3" name="&gt; GE Advance CurvePresentation.line_width"/>
+    <entry group="5005" element="100B" vr="SL" vm="1" type="3" name="&gt; GE Advance CurvePresentation.point_symbol"/>
+    <entry group="5005" element="100C" vr="SL" vm="1" type="3" name="&gt; GE Advance  CurvePresentation.point_symbol_dim"/>
+    <entry group="5005" element="100D" vr="LO" vm="1" type="3" name="&gt; GE Advance CurvePresentation.point_color"/>
+  </dict>
+  <dict ref="TABLE 7.6-1"  name="PRIVATE CREATOR IDENTIFICATION" owner="GEMS_PETD_01">
+    <entry group="0009" element="0010" vr="SH" vm="1" type="1" name="Private Creator Data Element"/>
+    <entry group="0009" element="1001" vr="LO" vm="2" type="3" name="GE Advance Implementation Version Name"/>
+    <entry group="0009" element="1002" vr="LO" vm="1" type="3" name="GE Advance Patient.patient_id"/>
+    <entry group="0009" element="1003" vr="SH" vm="1" type="3" name="GE Advance Patient.compatible_version"/>
+    <entry group="0009" element="1004" vr="SH" vm="1" type="3" name="GE Advance Patient.software_version"/>
+    <entry group="0009" element="1005" vr="DT" vm="1" type="3" name="GE Advance Patient.patient_datetime"/>
+    <entry group="0009" element="1006" vr="SL" vm="1" type="3" name="GE Advance Patient.type"/>
+    <entry group="0009" element="1007" vr="UI" vm="1" type="3" name="GE Advance Exam.exam_id"/>
+    <entry group="0009" element="1008" vr="SH" vm="1" type="3" name="GE Advance Exam.compatible_version"/>
+    <entry group="0009" element="1009" vr="SH" vm="1" type="3" name="GE Advance Exam.software_version"/>
+    <entry group="0009" element="100A" vr="UI" vm="1" type="3" name="GE Advance Scan.scan_id"/>
+    <entry group="0009" element="100B" vr="SH" vm="1" type="3" name="GE Advance Scan.compatible_version"/>
+    <entry group="0009" element="100C" vr="SH" vm="1" type="3" name="GE Advance Scan.software_version"/>
+    <entry group="0009" element="100D" vr="DT" vm="1" type="3" name="GE Advance Scan.scan_datetime"/>
+    <entry group="0009" element="100E" vr="DT" vm="1" type="3" name="GE Advance Scan.scan_ready"/>
+    <entry group="0009" element="100F" vr="UI" vm="1" type="3" name="GE Advance Scan.scan_description"/>
+    <entry group="0009" element="1010" vr="LO" vm="1" type="3" name="GE Advance Scan.hospital_name"/>
+    <entry group="0009" element="1011" vr="LO" vm="1" type="3" name="GE Advance Scan.scanner_desc"/>
+    <entry group="0009" element="1012" vr="LO" vm="1" type="3" name="GE Advance Scan.manufacturer"/>
+    <entry group="0009" element="1013" vr="UI" vm="1" type="3" name="GE Advance Scan.for_identifier"/>
+    <entry group="0009" element="1014" vr="LO" vm="1" type="3" name="GE Advance Scan.landmark_name"/>
+    <entry group="0009" element="1015" vr="SH" vm="1" type="3" name="GE Advance Scan.landmark_abbrev"/>
+    <entry group="0009" element="1016" vr="SL" vm="1" type="3" name="GE Advance Scan.patient_position"/>
+    <entry group="0009" element="1017" vr="SL" vm="1" type="3" name="GE Advance Scan.scan_perspective"/>
+    <entry group="0009" element="1018" vr="SL" vm="1" type="3" name="GE Advance Scan.scan_type"/>
+    <entry group="0009" element="1019" vr="SL" vm="1" type="3" name="GE Advance Scan.scan_mode"/>
+    <entry group="0009" element="101A" vr="SL" vm="1" type="3" name="GE Advance Scan.start_condition"/>
+    <entry group="0009" element="101B" vr="SL" vm="1" type="3" name="GE Advance Scan.start_cond_data"/>
+    <entry group="0009" element="101C" vr="SL" vm="1" type="3" name="GE Advance Scan.sel_stop_cond"/>
+    <entry group="0009" element="101D" vr="SL" vm="1" type="3" name="GE Advance Scan.sel_stop_cond_data"/>
+    <entry group="0009" element="101E" vr="SL" vm="1" type="3" name="GE Advance Scan.collect_deadtime"/>
+    <entry group="0009" element="101F" vr="SL" vm="1" type="3" name="GE Advance Scan.collect_singles"/>
+    <entry group="0009" element="1020" vr="SL" vm="1" type="3" name="GE Advance Scan.collect_countrate"/>
+    <entry group="0009" element="1021" vr="SL" vm="1" type="3" name="GE Advance Scan.countrate_period"/>
+    <entry group="0009" element="1022" vr="SL" vm="1" type="3" name="GE Advance Scan.delayed_events"/>
+    <entry group="0009" element="1023" vr="SL" vm="1" type="3" name="GE Advance Scan.delayed_bias"/>
+    <entry group="0009" element="1024" vr="SL" vm="1" type="3" name="GE Advance Scan.word_size"/>
+    <entry group="0009" element="1025" vr="SL" vm="1" type="3" name="GE Advance Scan.axial_acceptance"/>
+    <entry group="0009" element="1026" vr="SL" vm="1" type="3" name="GE Advance Scan.axial_angle_3d"/>
+    <entry group="0009" element="1027" vr="SL" vm="1" type="3" name="GE Advance Scan.theta_compression"/>
+    <entry group="0009" element="1028" vr="SL" vm="1" type="3" name="GE Advance Scan.axial_compression"/>
+    <entry group="0009" element="1029" vr="FL" vm="1" type="3" name="GE Advance Scan.gantry_tilt_angle"/>
+    <entry group="0009" element="102A" vr="SL" vm="1" type="3" name="GE Advance Scan.collimation"/>
+    <entry group="0009" element="102B" vr="SL" vm="1" type="3" name="GE Advance Scan.scan_fov"/>
+    <entry group="0009" element="102C" vr="SL" vm="1" type="3" name="GE Advance Scan.axial_fov"/>
+    <entry group="0009" element="102D" vr="SL" vm="1" type="3" name="GE Advance Scan.event_separation"/>
+    <entry group="0009" element="102E" vr="SL" vm="1" type="3" name="GE Advance Scan.mask_width"/>
+    <entry group="0009" element="102F" vr="SL" vm="1" type="3" name="GE Advance Scan.binning_mode"/>
+    <entry group="0009" element="1030" vr="SL" vm="1" type="3" name="GE Advance Scan.trig_rej_method"/>
+    <entry group="0009" element="1031" vr="SL" vm="1" type="3" name="GE Advance Scan.number_for_reject"/>
+    <entry group="0009" element="1032" vr="SL" vm="1" type="3" name="GE Advance Scan.lower_reject_limit"/>
+    <entry group="0009" element="1033" vr="SL" vm="1" type="3" name="GE Advance Scan.upper_reject_limit"/>
+    <entry group="0009" element="1034" vr="SL" vm="1" type="3" name="GE Advance Scan.triggers_acquired"/>
+    <entry group="0009" element="1035" vr="SL" vm="1" type="3" name="GE Advance Scan.triggers_rejected"/>
+    <entry group="0009" element="1036" vr="LO" vm="1" type="3" name="GE Advance Scan.tracer_name"/>
+    <entry group="0009" element="1037" vr="LO" vm="1" type="3" name="GE Advance Scan.batch_description"/>
+    <entry group="0009" element="1038" vr="FL" vm="1" type="3" name="GE Advance Scan.tracer_activity"/>
+    <entry group="0009" element="1039" vr="DT" vm="1" type="3" name="GE Advance Scan.meas_datetime"/>
+    <entry group="0009" element="103A" vr="FL" vm="1" type="3" name="GE Advance Scan.pre_inj_volume"/>
+    <entry group="0009" element="103B" vr="DT" vm="1" type="3" name="GE Advance Scan.admin_datetime"/>
+    <entry group="0009" element="103C" vr="FL" vm="1" type="3" name="GE Advance Scan.post_inj_activity"/>
+    <entry group="0009" element="103D" vr="DT" vm="1" type="3" name="GE Advance Scan.post_inj_datetime"/>
+    <entry group="0009" element="103E" vr="SH" vm="1" type="3" name="GE Advance Scan.radionuclide_name"/>
+    <entry group="0009" element="103F" vr="FL" vm="1" type="3" name="GE Advance Scan.half_life"/>
+    <entry group="0009" element="1040" vr="FL" vm="1" type="3" name="GE Advance Scan.positron_fraction"/>
+    <entry group="0009" element="1041" vr="SL" vm="1" type="3" name="GE Advance Scan.source1_holder"/>
+    <entry group="0009" element="1042" vr="FL" vm="1" type="3" name="GE Advance Scan.source1_activity"/>
+    <entry group="0009" element="1043" vr="DT" vm="1" type="3" name="GE Advance Scan.source1_meas_dt"/>
+    <entry group="0009" element="1044" vr="SH" vm="1" type="3" name="GE Advance Scan.source1_radnuclide"/>
+    <entry group="0009" element="1045" vr="FL" vm="1" type="3" name="GE Advance Scan.source1_half_life"/>
+    <entry group="0009" element="1046" vr="SL" vm="1" type="3" name="GE Advance Scan.source2_holder"/>
+    <entry group="0009" element="1047" vr="FL" vm="1" type="3" name="GE Advance Scan.source2_activity"/>
+    <entry group="0009" element="1048" vr="DT" vm="1" type="3" name="GE Advance Scan.source2_meas_dt"/>
+    <entry group="0009" element="1049" vr="SH" vm="1" type="3" name="GE Advance Scan.source2_radnuclide"/>
+    <entry group="0009" element="104A" vr="FL" vm="1" type="3" name="GE Advance Scan.source2_half_life"/>
+    <entry group="0009" element="104B" vr="SL" vm="1" type="3" name="GE Advance Scan.source_speed"/>
+    <entry group="0009" element="104C" vr="FL" vm="1" type="3" name="GE Advance Scan.source_location"/>
+    <entry group="0009" element="104D" vr="SL" vm="1" type="3" name="GE Advance Scan.emission_present"/>
+    <entry group="0009" element="104E" vr="SL" vm="1" type="3" name="GE Advance Scan.lower_axial_acc"/>
+    <entry group="0009" element="104F" vr="SL" vm="1" type="3" name="GE Advance Scan.upper_axial_acc"/>
+    <entry group="0009" element="1050" vr="SL" vm="1" type="3" name="GE Advance Scan.lower_coinc_limit"/>
+    <entry group="0009" element="1051" vr="SL" vm="1" type="3" name="GE Advance Scan.upper_coinc_limit"/>
+    <entry group="0009" element="1052" vr="SL" vm="1" type="3" name="GE Advance Scan.coinc_delay_offset"/>
+    <entry group="0009" element="1053" vr="SL" vm="1" type="3" name="GE Advance Scan.coinc_output_mode"/>
+    <entry group="0009" element="1054" vr="SL" vm="1" type="3" name="GE Advance Scan.upper_energy_limit"/>
+    <entry group="0009" element="1055" vr="SL" vm="1" type="3" name="GE Advance Scan.lower_energy_limit"/>
+    <entry group="0009" element="1056" vr="UI" vm="1" type="3" name="GE Advance Scan.normal_cal_id"/>
+    <entry group="0009" element="1057" vr="UI" vm="1" type="3" name="GE Advance Scan.normal_2d_cal_id"/>
+    <entry group="0009" element="1058" vr="UI" vm="1" type="3" name="GE Advance Scan.blank_cal_id"/>
+    <entry group="0009" element="1059" vr="UI" vm="1" type="3" name="GE Advance Scan.wc_cal_id"/>
+    <entry group="0009" element="105A" vr="SL" vm="1" type="3" name="GE Advance Scan.derived"/>
+    <entry group="0009" element="105B" vr="LO" vm="1" type="3" name="GE Advance Scan.contrast_agent"/>
+    <entry group="0009" element="1079" vr="SH" vm="1" type="3" name="GE Advance ImageSet.compatible_version"/>
+    <entry group="0009" element="107A" vr="SH" vm="1" type="3" name="GE Advance ImageSet.software_version"/>
+    <entry group="0009" element="107B" vr="DT" vm="1" type="3" name="GE Advance ImageSet.is_datetime"/>
+    <entry group="0009" element="107C" vr="SL" vm="1" type="3" name="GE Advance ImageSet.is_source"/>
+    <entry group="0009" element="107D" vr="SL" vm="1" type="3" name="GE Advance ImageSet.is_contents"/>
+    <entry group="0009" element="107E" vr="SL" vm="1" type="3" name="GE Advance ImageSet.is_type"/>
+    <entry group="0009" element="107F" vr="FL" vm="3" type="3" name="GE Advance ImageSet.is_reference"/>
+    <entry group="0009" element="1080" vr="SL" vm="1" type="3" name="GE Advance ImageSet.multi_patient"/>
+    <entry group="0009" element="1081" vr="SL" vm="1" type="3" name="GE Advance ImageSet.number_of_normals"/>
+    <entry group="0009" element="1082" vr="UI" vm="1" type="3" name="GE Advance ImageSet.color_map_id"/>
+    <entry group="0009" element="1083" vr="SL" vm="1" type="3" name="GE Advance ImageSet.window_level_type"/>
+    <entry group="0009" element="1084" vr="FL" vm="1" type="3" name="GE Advance ImageSet.rotate"/>
+    <entry group="0009" element="1085" vr="SL" vm="1" type="3" name="GE Advance ImageSet.flip"/>
+    <entry group="0009" element="1086" vr="FL" vm="1" type="3" name="GE Advance ImageSet.zoom"/>
+    <entry group="0009" element="1087" vr="SL" vm="1" type="3" name="GE Advance ImageSet.pan_x"/>
+    <entry group="0009" element="1088" vr="SL" vm="1" type="3" name="GE Advance ImageSet.pan_y"/>
+    <entry group="0009" element="1089" vr="FL" vm="1" type="3" name="GE Advance ImageSet.window_level_min"/>
+    <entry group="0009" element="108A" vr="FL" vm="1" type="3" name="GE Advance ImageSet.window_level_max"/>
+    <entry group="0009" element="108B" vr="SL" vm="1" type="3" name="GE Advance ImageSet.recon_method"/>
+    <entry group="0009" element="108C" vr="SL" vm="1" type="3" name="GE Advance ImageSet.attenuation"/>
+    <entry group="0009" element="108D" vr="FL" vm="1" type="3" name="GE Advance ImageSet.atten_coefficient"/>
+    <entry group="0009" element="108E" vr="SL" vm="1" type="3" name="GE Advance ImageSet.bp_filter"/>
+    <entry group="0009" element="108F" vr="FL" vm="1" type="3" name="GE Advance ImageSet.bp_filter_cutoff"/>
+    <entry group="0009" element="1090" vr="SL" vm="1" type="3" name="GE Advance ImageSet.bp_filter_order"/>
+    <entry group="0009" element="1091" vr="FL" vm="1" type="3" name="GE Advance ImageSet.bp_center_l"/>
+    <entry group="0009" element="1092" vr="FL" vm="1" type="3" name="GE Advance ImageSet.bp_center_p"/>
+    <entry group="0009" element="1093" vr="SL" vm="1" type="3" name="GE Advance ImageSet.atten_smooth"/>
+    <entry group="0009" element="1094" vr="SL" vm="1" type="3" name="GE Advance ImageSet.atten_smooth_param"/>
+    <entry group="0009" element="1095" vr="SL" vm="1" type="3" name="GE Advance ImageSet.angle_smooth_param"/>
+    <entry group="0009" element="1096" vr="UI" vm="1" type="3" name="GE Advance ImageSet.wellcountercal_id"/>
+    <entry group="0009" element="1097" vr="UI" vm="1" type="3" name="GE Advance ImageSet.trans_scan_id"/>
+    <entry group="0009" element="1098" vr="UI" vm="1" type="3" name="GE Advance ImageSet.norm_cal_id"/>
+    <entry group="0009" element="1099" vr="UI" vm="1" type="3" name="GE Advance ImageSet.blnk_cal_id"/>
+    <entry group="0009" element="109A" vr="FL" vm="1" type="3" name="GE Advance ImageSet.cac_edge_threshold"/>
+    <entry group="0009" element="109B" vr="FL" vm="1" type="3" name="GE Advance ImageSet.cac_skull_offset"/>
+    <entry group="0009" element="109C" vr="UI" vm="1" type="3" name="GE Advance ImageSet.emiss_sub_id"/>
+    <entry group="0009" element="109D" vr="SL" vm="1" type="3" name="GE Advance ImageSet.radial_filter_3d"/>
+    <entry group="0009" element="109E" vr="FL" vm="1" type="3" name="GE Advance ImageSet.radial_cutoff_3d"/>
+    <entry group="0009" element="109F" vr="SL" vm="1" type="3" name="GE Advance ImageSet.axial_filter_3d"/>
+    <entry group="0009" element="10A0" vr="FL" vm="1" type="3" name="GE Advance ImageSet.axial_cutoff_3d"/>
+    <entry group="0009" element="10A1" vr="FL" vm="1" type="3" name="GE Advance ImageSet.axial_start"/>
+    <entry group="0009" element="10A2" vr="FL" vm="1" type="3" name="GE Advance ImageSet.axial_spacing"/>
+    <entry group="0009" element="10A3" vr="SL" vm="1" type="3" name="GE Advance ImageSet.axial_angles_used"/>
+    <entry group="0009" element="10B2" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ir_num_iterations"/>
+    <entry group="0009" element="10B4" vr="FL" vm="1" type="3" name="GE Advance ImageSet.ir_num_subsets"/>
+    <entry group="0009" element="10B5" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ir_corr_model"/>
+    <entry group="0009" element="10B6" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ir_loop_filter"/>
+    <entry group="0009" element="10B7" vr="FL" vm="1" type="3" name="GE Advance ImageSet.ir_pre_filt_parm"/>
+    <entry group="0009" element="10B8" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ir_loop_filt_parm"/>
+    <entry group="0009" element="10B9" vr="FL" vm="1" type="3" name="GE Advance ImageSet.response_filt_parm"/>
+    <entry group="0009" element="10BA" vr="SL" vm="1" type="3" name="GE Advance ImageSet.post_filter"/>
+    <entry group="0009" element="10BB" vr="FL" vm="1" type="3" name="GE Advance ImageSet.post_filt_parm"/>
+    <entry group="0009" element="10BC" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ir_regularize"/>
+    <entry group="0009" element="10BD" vr="FL" vm="1" type="3" name="GE Advance ImageSet.regularize_parm"/>
+    <entry group="0009" element="10BE" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ac_bp_filter"/>
+    <entry group="0009" element="10BF" vr="FL" vm="1" type="3" name="GE Advance ImageSet.ac_bp_filt_cut_off"/>
+    <entry group="0009" element="10C0" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ac_bp_filt_order"/>
+    <entry group="0009" element="10C1" vr="SL" vm="1" type="3" name="GE Advance ImageSet.ac_img_smooth"/>
+    <entry group="0009" element="10C2" vr="FL" vm="1" type="3" name="GE Advance ImageSet.ac_img_smooth_parm"/>
+    <entry group="0009" element="10C3" vr="SL" vm="1" type="3" name="GE Advance ImageSet.scatter_method"/>
+    <entry group="0009" element="10C4" vr="SL" vm="1" type="3" name="GE Advance ImageSet.scatter_num_iter"/>
+    <entry group="0009" element="10C5" vr="FL" vm="1" type="3" name="GE Advance ImageSet.scatter_parm"/>
+    <entry group="5001" element="0010" vr="SH" vm="1" type="1" name="Private Creator Data Element"/>
+    <entry group="5001" element="1001" vr="UI" vm="1" type="3" name="GE Advance Curve.curve_id"/>
+    <entry group="5001" element="1002" vr="SH" vm="1" type="3" name="GE Advance Curve.compatible_version"/>
+    <entry group="5001" element="1003" vr="SH" vm="1" type="3" name="GE Advance Curve.software_version"/>
+    <entry group="5001" element="1004" vr="SL" vm="1" type="3" name="GE Advance Curve.statistics_type"/>
+    <entry group="5001" element="1005" vr="LT" vm="1" type="3" name="GE Advance Curve.how_derived"/>
+    <entry group="5001" element="1006" vr="SL" vm="1" type="3" name="GE Advance Curve.how_derived_size"/>
+    <entry group="5001" element="1007" vr="SL" vm="1" type="3" name="GE Advance Curve.multi_patient"/>
+    <entry group="5001" element="1008" vr="SL" vm="1" type="3" name="GE Advance Curve.deadtime"/>
+    <entry group="5003" element="0010" vr="SH" vm="1" type="1" name="Private Creator Data Element"/>
+    <entry group="5003" element="1001" vr="SQ" vm="1" type="3" name="GE Advance Graph Sequence"/>
+    <entry group="5003" element="1002" vr="UI" vm="1" type="3" name="&gt; GE Advance Graph.graph_id"/>
+    <entry group="5003" element="1003" vr="SH" vm="1" type="3" name="&gt; GE Advance Graph.compatible_version"/>
+    <entry group="5003" element="1004" vr="SH" vm="1" type="3" name="&gt; GE Advance Graph.software_version"/>
+    <entry group="5003" element="1005" vr="LO" vm="1" type="3" name="&gt; GE Advance Graph.title"/>
+    <entry group="5003" element="1006" vr="DT" vm="1" type="3" name="&gt; GE Advance Graph.graph_datetime"/>
+    <entry group="5003" element="1007" vr="ST" vm="1" type="3" name="&gt; GE Advance Graph.graph_description"/>
+    <entry group="5003" element="1008" vr="LO" vm="1" type="3" name="&gt; GE Advance Graph.title_font_name"/>
+    <entry group="5003" element="1009" vr="SH" vm="1" type="3" name="&gt; GE Advance Graph.title_font_size"/>
+    <entry group="5003" element="100A" vr="LO" vm="1" type="3" name="&gt; GE Advance Graph.footer"/>
+    <entry group="5003" element="100B" vr="SH" vm="1" type="3" name="&gt; GE Advance Graph.footer_font_size"/>
+    <entry group="5003" element="100C" vr="LO" vm="1" type="3" name="&gt; GE Advance Graph.foreground_color"/>
+    <entry group="5003" element="100D" vr="LO" vm="1" type="3" name="&gt; GE Advance Graph.background_color"/>
+    <entry group="5003" element="100E" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.graph_border"/>
+    <entry group="5003" element="100F" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.graph_width"/>
+    <entry group="5003" element="1010" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.graph_height"/>
+    <entry group="5003" element="1011" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.grid"/>
+    <entry group="5003" element="1012" vr="LO" vm="1" type="3" name="&gt; GE Advance Graph.label_font_name"/>
+    <entry group="5003" element="1013" vr="SH" vm="1" type="3" name="&gt; GE Advance Graph.label_font_size"/>
+    <entry group="5003" element="1014" vr="LO" vm="1" type="3" name="&gt; GE Advance Graph.axes_color"/>
+    <entry group="5003" element="1015" vr="LO" vm="1" type="3" name="&gt; GE Advance Graph.x_axis_label"/>
+    <entry group="5003" element="1016" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.x_axis_units"/>
+    <entry group="5003" element="1017" vr="FL" vm="1" type="3" name="&gt; GE Advance Graph.x_major_tics"/>
+    <entry group="5003" element="1018" vr="FL" vm="1" type="3" name="&gt; GE Advance Graph.x_axis_min"/>
+    <entry group="5003" element="1019" vr="FL" vm="1" type="3" name="&gt; GE Advance Graph.x_axis_max"/>
+    <entry group="5003" element="101A" vr="LO" vm="1" type="3" name="&gt; GE Advance Graph.y_axis_label"/>
+    <entry group="5003" element="101B" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.y_axis_units"/>
+    <entry group="5003" element="101C" vr="FL" vm="1" type="3" name="&gt; GE Advance Graph.y_major_tics"/>
+    <entry group="5003" element="101D" vr="FL" vm="1" type="3" name="&gt; GE Advance Graph.y_axis_min"/>
+    <entry group="5003" element="101E" vr="FL" vm="1" type="3" name="&gt; GE Advance Graph.y_axis_max"/>
+    <entry group="5003" element="101F" vr="LO" vm="1" type="3" name="&gt; GE Advance Graph.legend_font_name"/>
+    <entry group="5003" element="1020" vr="SH" vm="1" type="3" name="&gt; GE Advance Graph.legend_font_size"/>
+    <entry group="5003" element="1021" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.legend_location_x"/>
+    <entry group="5003" element="1022" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.legend_location_y"/>
+    <entry group="5003" element="1023" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.legend_width"/>
+    <entry group="5003" element="1024" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.legend_height"/>
+    <entry group="5003" element="1025" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.legend_border"/>
+    <entry group="5003" element="1026" vr="SL" vm="1" type="3" name="&gt; GE Advance Graph.multi_patient"/>
+    <entry group="5005" element="0010" vr="SH" vm="1" type="1" name="Private Creator Data Element"/>
+    <entry group="5005" element="1001" vr="SQ" vm="1" type="3" name="GE Advance CurvePresentation Sequence"/>
+    <entry group="5005" element="1002" vr="UI" vm="1" type="3" name="&gt; GE Advance CurvePresentation.curvepresent_id"/>
+    <entry group="5005" element="1003" vr="UI" vm="1" type="3" name="&gt; GE Advance CurvePresentation.graph_id"/>
+    <entry group="5005" element="1004" vr="UI" vm="1" type="3" name="&gt; GE Advance CurvePresentation.curve_id"/>
+    <entry group="5005" element="1005" vr="SH" vm="1" type="3" name="&gt; GE Advance  CurvePresentation.compatible_version"/>
+    <entry group="5005" element="1006" vr="SH" vm="1" type="3" name="&gt; GE Advance CurvePresentation.software_version"/>
+    <entry group="5005" element="1007" vr="LO" vm="1" type="3" name="&gt; GE Advance CurvePresentation.curve_label"/>
+    <entry group="5005" element="1008" vr="LO" vm="1" type="3" name="&gt; GE Advance CurvePresentation.color"/>
+    <entry group="5005" element="1009" vr="SL" vm="1" type="3" name="&gt; GE Advance CurvePresentation.line_type"/>
+    <entry group="5005" element="100A" vr="SL" vm="1" type="3" name="&gt; GE Advance CurvePresentation.line_width"/>
+    <entry group="5005" element="100B" vr="SL" vm="1" type="3" name="&gt; GE Advance CurvePresentation.point_symbol"/>
+    <entry group="5005" element="100C" vr="SL" vm="1" type="3" name="&gt; GE Advance  CurvePresentation.point_symbol_dim"/>
+    <entry group="5005" element="100D" vr="LO" vm="1" type="3" name="&gt; GE Advance CurvePresentation.point_color"/>
+  </dict>
+
+</dicts>

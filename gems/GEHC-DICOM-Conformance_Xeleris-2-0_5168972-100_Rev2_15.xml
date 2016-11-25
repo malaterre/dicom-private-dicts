@@ -1,0 +1,23 @@
+﻿<dicts>
+  <dict owner="PRIV">
+    <entry group="0055" element="12" vr="SQ" vm="1" name="Xeleris Energy Window Informa- tion Sequence" type="3">
+<definition>—</definition>
+</entry>
+    <entry group="0055" element="13" vr="SQ" vm="1" name="&gt;Xeleris Energy Window Range Sequence" type="3">
+<definition>—</definition>
+</entry>
+    <entry group="0011" element="1c" vr="UN" vm="1" name="&gt;&gt;Energy Offset" type="3">
+<definition>Energy window offset as a percentage of the energy peak.</definition>
+</entry>
+    <entry group="0011" element="1d" vr="UN" vm="1" name="&gt;&gt;Energy Range" type="3">
+<definition>The Defined Terms are:
+0 = low energy range, X-series detector
+1 = high energy range, X-series detector
+2 = GE 511 Camera Range
+3 = Unknown</definition>
+</entry>
+    <entry group="0013" element="16" vr="UN" vm="1" name="&gt;&gt;AutoTrack Peak" type="3">
+<definition>Optima AutoTrack energy peak.</definition>
+</entry>
+</dict>
+</dicts>

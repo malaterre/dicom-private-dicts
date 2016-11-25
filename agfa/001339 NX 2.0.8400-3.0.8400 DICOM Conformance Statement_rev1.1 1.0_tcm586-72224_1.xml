@@ -1,0 +1,20 @@
+﻿<dicts>
+  <dict owner="Agfa ADC NX">
+    <entry group="0019" element="0e" vr="CS" vm="1" name="Scan direction">
+<default_value>LEFT_TOP_HO LEFT_TOP_VE RIGHT_TOP_HO RIGHT_TOP_VE LEFT_BOTTOM_HO LEFT_BOTTOM_VE RIGHT_BOTTOM_HO RIGHT_BOTTOM_VE</default_value>
+</entry>
+    <entry group="0019" element="28" vr="CS" vm="1" name="Is IP Signature Removed">
+<default_value>YES NO</default_value>
+</entry>
+    <entry group="0019" element="f6" vr="DS" vm="1" name="Plate sensitivity">
+<default_value>Only available in case that the image was scanned using a non- Compact family digitizer.</default_value>
+</entry>
+    <entry group="0019" element="f7" vr="DS" vm="1" name="Plate erasability">
+<default_value>Only available in case that the image was scanned using a non- Compact family digitizer.</default_value>
+</entry>
+    <entry group="0019" element="fa" vr="IS" vm="1" name="Exposure Index">
+</entry>
+    <entry group="0019" element="fb" vr="FL" vm="1" name="Deviation Index">
+</entry>
+</dict>
+</dicts>

@@ -1,0 +1,13 @@
+﻿<dicts>
+  <dict owner="PRIV">
+    <entry group="0009" element="10" vr="UN" vm="1" name="Study Name" type="3">
+<definition>Name of the Database Study Object</definition>
+</entry>
+    <entry group="0009" element="11" vr="UN" vm="1" name="Study Flags" type="3">
+<definition>Defines study information.</definition>
+</entry>
+    <entry group="0009" element="12" vr="UN" vm="1" name="Study Type" type="3">
+<definition>Defines type of study.</definition>
+</entry>
+</dict>
+</dicts>

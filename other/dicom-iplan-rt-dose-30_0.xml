@@ -1,0 +1,10 @@
+﻿<dicts>
+  <dict owner="BrainLAB_Conversion">
+    <entry group="0009" element="00" vr="LO" vm="1" name="Private Creator Code “BrainLAB_Conversion”">
+</entry>
+    <entry group="0009" element="01" vr="LO" vm="1" name="Export Platform Name">
+</entry>
+    <entry group="0009" element="02" vr="OB" vm="1" name="Export Platform Data">
+</entry>
+</dict>
+</dicts>

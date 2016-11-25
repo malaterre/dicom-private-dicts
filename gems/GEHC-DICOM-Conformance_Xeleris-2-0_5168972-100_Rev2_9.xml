@@ -1,0 +1,37 @@
+﻿<dicts>
+  <dict owner="PRIV">
+    <entry group="0011" element="0d" vr="UN" vm="1" name="Radio Nuclide Name" type="3">
+<definition>Name of radionuclide used.</definition>
+</entry>
+    <entry group="0011" element="10" vr="UN" vm="1" name="Dataset Object Name" type="3">
+<definition>Name of the Database Dataset Object.</definition>
+</entry>
+    <entry group="0011" element="11" vr="UN" vm="1" name="Dataset Modified" type="3">
+<definition>Dataset Modified Flag</definition>
+</entry>
+    <entry group="0011" element="12" vr="UN" vm="1" name="Dataset Name" type="3">
+<definition>Dataset Name</definition>
+</entry>
+    <entry group="0011" element="13" vr="UN" vm="1" name="Dataset Type" type="3">
+<definition>Defines type of dataset.
+The Defined Terms are:
+0 = static
+2 = whole body
+8 = dynamic
+11 = multi-gated
+12 = tomographic planar</definition>
+</entry>
+    <entry group="0011" element="14" vr="UN" vm="1" name="Completion Time" type="3">
+<definition>Completion Time</definition>
+</entry>
+    <entry group="0011" element="15" vr="UN" vm="1" name="Detector Number" type="3">
+<definition>Detector number image was acquired by.</definition>
+</entry>
+    <entry group="0011" element="16" vr="UN" vm="1" name="Energy Number" type="3">
+<definition>Energy set number.</definition>
+</entry>
+    <entry group="0011" element="17" vr="UN" vm="1" name="RR Interval Window Number" type="3">
+<definition>R-R interval number (TIAR number).</definition>
+</entry>
+</dict>
+</dicts>
