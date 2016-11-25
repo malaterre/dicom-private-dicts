@@ -8098,49 +8098,6 @@
   <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx11" vr="IS" vm="1" name="Private Voxar Calcium Scoring Report Schema"/>
   <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx12" vr="IS" vm="1" name="Private Voxar Source Series Number"/>
   <entry owner="Voxar 2.16.124.113543.6003.1999.12.20.12.5.0" group="1135" element="xx13" vr="LO" vm="1" name="Private Voxar Bottom Left Display Demographics"/>
-  <entry owner="WG12 Supplement 43" group="0009" element="xx01" vr="SQ" vm="1" name="Event Timer Sequence"/>
-  <entry owner="WG12 Supplement 43" group="0009" element="xx02" vr="FD" vm="1" name="Event Time Interval"/>
-  <entry owner="WG12 Supplement 43" group="0009" element="xx03" vr="SQ" vm="1" name="Event Code Sequence"/>
-  <entry owner="WG12 Supplement 43" group="0019" element="xx01" vr="FD" vm="1" name="Focus Depth(s)"/>
-  <entry owner="WG12 Supplement 43" group="0019" element="xx03" vr="SQ" vm="1" name="Excluded Intervals Sequence"/>
-  <entry owner="WG12 Supplement 43" group="0019" element="xx04" vr="DT" vm="1" name="Exclusion Start Datetime"/>
-  <entry owner="WG12 Supplement 43" group="0019" element="xx05" vr="FD" vm="1" name="Exclusion Duration"/>
-  <entry owner="WG12 Supplement 43" group="0019" element="xx06" vr="SQ" vm="1" name="US Image Description Sequence"/>
-  <entry owner="WG12 Supplement 43" group="0019" element="xx07" vr="SQ" vm="1" name="Image Data Type Sequence"/>
-  <entry owner="WG12 Supplement 43" group="0019" element="xx08" vr="CS" vm="1" name="Data Type"/>
-  <entry owner="WG12 Supplement 43" group="0019" element="xx09" vr="SQ" vm="1" name="Transducer Scan Geometry Code Sequence"/>
-  <entry owner="WG12 Supplement 43" group="0019" element="xx0b" vr="CS" vm="1" name="Aliased Data Type"/>
-  <entry owner="WG12 Supplement 43" group="0019" element="xx0c" vr="CS" vm="1" name="Position Measuring Device Used"/>
-  <entry owner="WG12 Supplement 43" group="0019" element="xx0d" vr="SQ" vm="1" name="Transducer Scanning Configuration Code Sequence"/>
-  <entry owner="WG12 Supplement 43" group="0019" element="xx0e" vr="SQ" vm="1" name="Transducer Beam Steering Code Sequence"/>
-  <entry owner="WG12 Supplement 43" group="0019" element="xx0f" vr="SQ" vm="1" name="Transducer Access Code Sequence"/>
-  <entry owner="WG12 Supplement 43" group="0021" element="xx01" vr="FD" vm="1" name="Image Position (Volume)"/>
-  <entry owner="WG12 Supplement 43" group="0021" element="xx02" vr="FD" vm="1" name="Image Orientation (Volume)"/>
-  <entry owner="WG12 Supplement 43" group="0021" element="xx07" vr="CS" vm="1" name="Ultrasound Acquisition Geometry"/>
-  <entry owner="WG12 Supplement 43" group="0021" element="xx08" vr="FD" vm="1" name="Apex Position"/>
-  <entry owner="WG12 Supplement 43" group="0021" element="xx09" vr="FD" vm="1" name="Volume to Transducer Mapping Matrix"/>
-  <entry owner="WG12 Supplement 43" group="0021" element="xx0a" vr="FD" vm="1" name="Volume to Table Mapping Matrix"/>
-  <entry owner="WG12 Supplement 43" group="0021" element="xx0c" vr="CS" vm="1" name="Patient Frame of Reference Source"/>
-  <entry owner="WG12 Supplement 43" group="0021" element="xx0d" vr="FD" vm="1" name="Temporal Position Time Offset"/>
-  <entry owner="WG12 Supplement 43" group="0021" element="xx0e" vr="SQ" vm="1" name="Plane Position (Volume) Sequence"/>
-  <entry owner="WG12 Supplement 43" group="0021" element="xx0f" vr="SQ" vm="1" name="Plane Orientation (Volume) Sequence"/>
-  <entry owner="WG12 Supplement 43" group="0021" element="xx10" vr="SQ" vm="1" name="Temporal Position Sequence"/>
-  <entry owner="WG12 Supplement 43" group="0021" element="xx11" vr="CS" vm="1" name="Dimension Organization Type"/>
-  <entry owner="WG12 Supplement 43" group="0029" element="xx01" vr="SQ" vm="1" name="Data Frame Assignment Sequence"/>
-  <entry owner="WG12 Supplement 43" group="0029" element="xx02" vr="CS" vm="1" name="Data Path Assignment"/>
-  <entry owner="WG12 Supplement 43" group="0029" element="xx03" vr="US" vm="1" name="Bits Mapped to Color Lookup Table"/>
-  <entry owner="WG12 Supplement 43" group="0029" element="xx04" vr="SQ" vm="1" name="Opacity 1 LUT Sequence"/>
-  <entry owner="WG12 Supplement 43" group="0029" element="xx05" vr="CS" vm="1" name="Opacity 1 LUT Transfer Function"/>
-  <entry owner="WG12 Supplement 43" group="0029" element="xx06" vr="FD" vm="1" name="Opacity Constant"/>
-  <entry owner="WG12 Supplement 43" group="0029" element="xx07" vr="US" vm="1" name="Opacity Lookup Table Descriptor"/>
-  <entry owner="WG12 Supplement 43" group="0029" element="xx08" vr="OW" vm="1" name="Opacity Lookup Table Data"/>
-  <entry owner="WG12 Supplement 43" group="0029" element="xx0b" vr="SQ" vm="1" name="Enhanced Palette Color Lookup Table Sequence"/>
-  <entry owner="WG12 Supplement 43" group="0029" element="xx0c" vr="SQ" vm="1" name="Opacity 2 LUT Sequence"/>
-  <entry owner="WG12 Supplement 43" group="0029" element="xx0d" vr="CS" vm="1" name="Opacity 2 LUT Transfer Function"/>
-  <entry owner="WG12 Supplement 43" group="0029" element="xx0e" vr="CS" vm="1" name="Data Path ID"/>
-  <entry owner="WG12 Supplement 43" group="0029" element="xx0f" vr="CS" vm="1" name="RGB LUT Transfer Function"/>
-  <entry owner="WG12 Supplement 43" group="0029" element="xx10" vr="CS" vm="1" name="Alpha LUT Transfer Function"/>
-  <entry owner="WG12 Supplement 43" group="0041" element="xx01" vr="CS" vm="1" name="Performed Protocol Type"/>
   <entry owner="http://www.gemedicalsystems.com/it_solutions/bamwallthickness/1.0" group="3119" element="xx10" vr="DT" vm="1" name="BAM WallThickness Session Date/Time"/>
   <entry owner="http://www.gemedicalsystems.com/it_solutions/bamwallthickness/1.0" group="3119" element="xx20" vr="PN" vm="1" name="BAM WallThickness Session Creator"/>
   <entry owner="http://www.gemedicalsystems.com/it_solutions/bamwallthickness/1.0" group="3119" element="xx30" vr="CS" vm="1" name="BAM WallThickness Session Completion Flag"/>

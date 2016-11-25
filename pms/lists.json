@@ -6,6 +6,9 @@
         "xml": "PMS-R32-dict.xml"
     }, 
     {
+        "xml": "HD11DCS.xml"
+    }, 
+    {
         "md5": "19df4c2fa6e438dd948e3a6d90ef43f5", 
         "tables": [
     {

@@ -199,7 +199,7 @@ for f in files:
           elstr=[]
           for el in j:
             elstr.append(el['text'])
-          if(debug): print >> sys.stderr, "debug el: %s" % ",".join(elstr)
+          if(debug): print >> sys.stderr, "debug el: %s" % ",".join(elstr).replace('\r',' ')
           for index,col in enumerate(k):
             elem[ col ] = j[index]['text'].replace('\r','\n')
           norm = normalize_entry(elem)

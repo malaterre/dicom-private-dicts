@@ -3,6 +3,30 @@
         "xml": "DICT_DAT.xml"
     }, 
     {
+        "xml": "5137440_100r1.xml"
+    }, 
+    {
+        "xml": "2389238_100r4.xml"
+    }, 
+    {
+        "xml": "5193428_1_800_r1_O.xml"
+    }, 
+    {
+        "xml": "5173574_2_100r1.xml"
+    }, 
+    {
+        "xml": "2393233_100r01.xml"
+    }, 
+    {
+        "xml": "21682450.xml"
+    }, 
+    {
+        "xml": "2270669_100r3.xml"
+    }, 
+    {
+        "xml": "2389238_100r4.xml"
+    }, 
+    {
         "content-disposition": "GEHC-DICOM-Conformance_Ventri_5179057DHF_Rev1.pdf", 
         "md5": "8ecce2f206060fa38dcd2b32df936b61", 
         "tables": [

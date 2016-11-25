@@ -10,6 +10,7 @@
             <xsl:apply-templates select="document('gems.xml')/*/entry"/>
             <xsl:apply-templates select="document('pms.xml')/*/entry"/>
             <xsl:apply-templates select="document('siemens.xml')/*/entry"/>
+            <xsl:apply-templates select="document('toshiba.xml')/*/entry"/>
             <xsl:apply-templates select="document('other.xml')/*/entry"/>
         </xsl:copy>
     </xsl:template>
