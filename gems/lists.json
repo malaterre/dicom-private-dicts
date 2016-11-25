@@ -27,6 +27,18 @@
         "xml": "2389238_100r4.xml"
     }, 
     {
+        "xml": "contour72.xml"
+    }, 
+    {
+        "xml": "DOC0225604r2.xml"
+    }, 
+    {
+        "xml": "2320439_100r0.xml"
+    }, 
+    {
+        "xml": "2014451_386r4.xml"
+    }, 
+    {
         "content-disposition": "GEHC-DICOM-Conformance_Ventri_5179057DHF_Rev1.pdf", 
         "md5": "8ecce2f206060fa38dcd2b32df936b61", 
         "tables": [

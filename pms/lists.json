@@ -9,6 +9,12 @@
         "xml": "HD11DCS.xml"
     }, 
     {
+        "xml": "DiDi_1_4_dcs_1_5.xml"
+    }, 
+    {
+        "xml": "DCS-Digital-Diagnost15-05.xml"
+    }, 
+    {
         "md5": "19df4c2fa6e438dd948e3a6d90ef43f5", 
         "tables": [
     {

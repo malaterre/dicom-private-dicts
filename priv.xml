@@ -2297,6 +2297,1170 @@
     <entry owner="GEMS_DL_IMG_01" group="0019" element="xxe9" vr="FL" vm="1-n" name="Source to detector distance per frame vector"/>
     <entry owner="GEMS_DL_IMG_01" group="0019" element="xxde" vr="CS" vm="1" name="Acquisition plane"/>
     <entry owner="GEMS_DL_STUDY_01" group="0015" element="xx8f" vr="IS" vm="1" name="Study Number"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx01" vr="LO" vm="1" name="full fidelity"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx02" vr="SH" vm="1" name="suite id"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx04" vr="SH" vm="1" name="product id"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx27" vr="SL" vm="1" name="image actual date"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx30" vr="SH" vm="1" name="service id"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx31" vr="SH" vm="1" name="mobile location number"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xxe3" vr="UI" vm="1" name="equipment UID"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xxe6" vr="SH" vm="1" name="Genesis Version - now"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xxe7" vr="UL" vm="1" name="Exam Record checksum"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xxe9" vr="SL" vm="1" name="Actual series data time stamp"/>
+    <entry owner="GEMS_PATI_01" group="0011" element="xx10" vr="SS" vm="1" name="Patient Status"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx02" vr="SL" vm="1" name="number of cells I in Detector"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx03" vr="DS" vm="1" name="cell number at Theta"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx04" vr="DS" vm="1" name="cell spacing"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx0f" vr="DS" vm="1" name="Horiz. frame of ref."/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx11" vr="SS" vm="1" name="series contrast"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx13" vr="SS" vm="1" name="start number for baseline"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx14" vr="SS" vm="1" name="end number for baseline"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx15" vr="SS" vm="1" name="start number for enhanced scans"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx16" vr="SS" vm="1" name="end number for enhanced scans"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx17" vr="SS" vm="1" name="series plane"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx18" vr="LO" vm="1" name="first scan ras"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx19" vr="DS" vm="1" name="first scan location"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx1a" vr="LO" vm="1" name="last scan ras"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx1b" vr="DS" vm="1" name="last scan loc"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx1e" vr="DS" vm="1" name="display field of view"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx23" vr="DS" vm="1" name="table speed"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx24" vr="DS" vm="1" name="mid scan time"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx25" vr="SS" vm="1" name="mid scan flag"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx26" vr="SL" vm="1" name="degrees of azimuth"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx27" vr="DS" vm="1" name="gantry period"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx2a" vr="DS" vm="1" name="X-Ray On position"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx2b" vr="DS" vm="1" name="X-Ray Off position"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx2c" vr="SL" vm="1" name="number of triggers"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx2e" vr="DS" vm="1" name="angle of first view"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx2f" vr="DS" vm="1" name="trigger frequency"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx39" vr="SS" vm="1" name="scan FOV type"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx40" vr="SS" vm="1" name="stat recon flag"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx41" vr="SS" vm="1" name="compute type"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx42" vr="SS" vm="1" name="segment number"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx43" vr="SS" vm="1" name="total segments requested"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx44" vr="DS" vm="1" name="interscan delay"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx47" vr="SS" vm="1" name="view compression factor"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx4a" vr="SS" vm="1" name="total no. of ref channels"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx4b" vr="SL" vm="1" name="data size for scan data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx52" vr="SS" vm="1" name="recon post proc. flag"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx57" vr="SS" vm="1" name="CT water number"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx58" vr="SS" vm="1" name="CT bone number"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx5e" vr="SL" vm="1" name="number of channels (1...512)"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx5f" vr="SL" vm="1" name="increment between channels"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx60" vr="SL" vm="1" name="starting view"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx61" vr="SL" vm="1" name="number of views"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx62" vr="SL" vm="1" name="increment between views"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx6a" vr="SS" vm="1" name="dependant on #views processed"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx6b" vr="SS" vm="1" name="field of view in detector cells"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx70" vr="SS" vm="1" name="value of back projection button"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx71" vr="SS" vm="1" name="set if fatq estimates were used"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx72" vr="DS" vm="1" name="Z chan avg over views"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx73" vr="DS" vm="1" name="avg of left ref chans over views"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx74" vr="DS" vm="1" name="max left chan over views"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx75" vr="DS" vm="1" name="avg of right ref chans over views"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx76" vr="DS" vm="1" name="max right chan over views"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxda" vr="SS" vm="1" name="reference channel used"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxdb" vr="DS" vm="1" name="back projector coefficient"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxdc" vr="SS" vm="1" name="primary spped correction used"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxdd" vr="SS" vm="1" name="overrange correction used"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxde" vr="DS" vm="1" name="dynamic Z alpha value"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx03" vr="SS" vm="1" name="Series from which Prescribed"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx05" vr="SH" vm="1" name="Genesis Version - now"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx07" vr="UL" vm="1" name="Series Record checksum"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx18" vr="SH" vm="1" name="Genesis version - Now"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx19" vr="UL" vm="1" name="Acqrecon record checksum"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx37" vr="SS" vm="1" name="Screen Format"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx4a" vr="LO" vm="1" name="anatomical reference for scout"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx90" vr="SS" vm="1" name="tube focal spot position"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx91" vr="SS" vm="1" name="biopsy position"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx92" vr="FL" vm="1" name="biposy T location"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx93" vr="FL" vm="1" name="biopsy ref location"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx70" vr="FD" vm="1" name="Start time(secs) in first axial"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx74" vr="SL" vm="1" name="No. of updates to header"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx7d" vr="SS" vm="1" name="indicates if the study has complete info (DICOM/genesis)"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx06" vr="SS" vm="1" name="Last pulse sequence used"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx07" vr="SL" vm="1" name="Images in Series"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx10" vr="SL" vm="1" name="Landmark Counter"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx11" vr="SS" vm="1" name="Number of Acqisitions"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx17" vr="SL" vm="1" name="Series Complete Flag"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx18" vr="SL" vm="1" name="Number of images archived"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx19" vr="SL" vm="1" name="Last image number used"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx1a" vr="SH" vm="1" name="Primary Receiver Suite and Host"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx06" vr="SL" vm="1" name="Image archive flag"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx10" vr="SS" vm="1" name="Scout Type"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx1c" vr="SL" vm="1" name="vma mamp"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx1d" vr="SS" vm="1" name="vma phase"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx1e" vr="SL" vm="1" name="vma mod"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx1f" vr="SL" vm="1" name="vma clip"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx20" vr="SS" vm="1" name="smart scan ON/OFF flag"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx30" vr="SH" vm="1" name="Foreign Image Revision"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx35" vr="SS" vm="1" name="Plane Type"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx40" vr="SH" vm="1" name="RAS letter of image location"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx41" vr="FL" vm="1" name="Image location"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx42" vr="FL" vm="1" name="Center R coord of plane image"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx43" vr="FL" vm="1" name="Center A coord of plane image"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx44" vr="FL" vm="1" name="Center S coord of plane image"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx45" vr="FL" vm="1" name="Normal R coord"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx46" vr="FL" vm="1" name="Normal A coord"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx47" vr="FL" vm="1" name="Normal S coord"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx48" vr="FL" vm="1" name="R Coord of Top Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx49" vr="FL" vm="1" name="A Coord of Top Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx4a" vr="FL" vm="1" name="S Coord of Top Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx4b" vr="FL" vm="1" name="R Coord of Bottom Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx4c" vr="FL" vm="1" name="A Coord of Bottom Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx4d" vr="FL" vm="1" name="S Coord of Bottom Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx50" vr="FL" vm="1" name="table start location"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx51" vr="FL" vm="1" name="table end location"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx52" vr="SH" vm="1" name="RAS letter for side of image"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx53" vr="SH" vm="1" name="RAS letter for anterior/posterior"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx54" vr="SH" vm="1" name="RAS letter for scout start loc"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx55" vr="SH" vm="1" name="RAS letter for scout end loc"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx04" vr="SL" vm="1" name="Lower range of Pixels1"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx05" vr="DS" vm="1" name="Lower range of Pixels1"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx06" vr="DS" vm="1" name="Lower range of Pixels1"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx07" vr="SL" vm="1" name="Lower range of Pixels1"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx08" vr="SH" vm="1" name="Lower range of Pixels1"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx09" vr="SH" vm="1" name="Lower range of Pixels1"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx0a" vr="SS" vm="1" name="Lower range of Pixels1"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx26" vr="SS" vm="1" name="version of the hdr struct"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx34" vr="SL" vm="1" name="advantage comp. overflow"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx10" vr="US" vm="1" name="window value"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx11" vr="US" vm="1" name="total input views"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx12" vr="SS" vm="3" name="X-Ray chain"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx13" vr="SS" vm="5" name="decon kernel parameters"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx14" vr="SS" vm="3" name="calibration parameters"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx15" vr="SS" vm="3" name="total output views"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx16" vr="SS" vm="5" name="number of overranges"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx17" vr="DS" vm="1" name="IBH image scale factors"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx18" vr="DS" vm="3" name="BBH coefficients"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx19" vr="SS" vm="1" name="number of BBH chains to blend"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx1a" vr="SL" vm="1" name="starting channel number"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx1b" vr="SS" vm="1" name="Ppscan parameters"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx1c" vr="SS" vm="1" name="GE image integrity"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx1d" vr="SS" vm="1" name="Level value"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx1e" vr="DS" vm="1" name="delta start time"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx1f" vr="SL" vm="1" name="max overranges in a view"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx20" vr="DS" vm="1" name="avg overranges all views"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx21" vr="SS" vm="1" name="corrected after glow terms"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx25" vr="SS" vm="6" name="reference channels"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx26" vr="US" vm="6" name="no views ref chans blocked"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx27" vr="SH" vm="1" name="scan pitch ratio"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx28" vr="OB" vm="1" name="Unique image iden"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx29" vr="OB" vm="1" name="Histogram tables"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx2a" vr="OB" vm="1" name="User defined data"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx2b" vr="SS" vm="4" name="Private Scan Options"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx31" vr="DS" vm="2" name="RA cord of target recon centre"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx40" vr="FL" vm="4" name="trigger on position"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx41" vr="FL" vm="4" name="degree of rotation"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx42" vr="SL" vm="4" name="DAS trigger source"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx43" vr="SL" vm="4" name="DAS fpa gain"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx44" vr="SL" vm="4" name="DAS output source"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx45" vr="SL" vm="4" name="DAS ad input"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx46" vr="SL" vm="4" name="DAS cal mode"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx47" vr="SL" vm="4" name="DAS cal frequency"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx48" vr="SL" vm="4" name="DAS reg xm"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx49" vr="SL" vm="4" name="DAS auto zero"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx4a" vr="SS" vm="4" name="starting channel of view"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx4b" vr="SL" vm="4" name="DAS xm pattern"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx4c" vr="SS" vm="4" name="TGGC trigger mode"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx4d" vr="FL" vm="4" name="start scan to Xray on delay"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx4e" vr="FL" vm="4" name="duration of xray on"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx01" vr="LO" vm="1" name="full fidelity"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx02" vr="SH" vm="1" name="suite id"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx04" vr="SH" vm="1" name="product id"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx27" vr="SL" vm="1" name="image actual date"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx30" vr="SH" vm="1" name="service id"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx31" vr="SH" vm="1" name="mobile location number"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xxe3" vr="UI" vm="1" name="equipment UID"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xxe6" vr="SH" vm="1" name="Genesis Version - now"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xxe7" vr="UL" vm="1" name="Exam Record checksum"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xxe9" vr="SL" vm="1" name="Actual series data time stamp"/>
+    <entry owner="GEMS_PATI_01" group="0011" element="xx10" vr="SS" vm="1" name="Patient Status"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx0f" vr="DS" vm="1" name="Horiz. frame of ref."/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx11" vr="SS" vm="1" name="series contrast"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx12" vr="SS" vm="1" name="last pseq"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx17" vr="SS" vm="1" name="series plane"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx18" vr="LO" vm="1" name="first scan ras"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx19" vr="DS" vm="1" name="first scan location"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx1a" vr="LO" vm="1" name="last scan ras"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx1b" vr="DS" vm="1" name="last scan loc"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx1e" vr="DS" vm="1" name="display field of view"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx5a" vr="FL" vm="1" name="Acquisition Duration"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx7d" vr="DS" vm="1" name="Second echo"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx7e" vr="SS" vm="1" name="number of echos"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx7f" vr="DS" vm="1" name="table delta"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx81" vr="SS" vm="1" name="contiguous"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx84" vr="DS" vm="1" name="peak SAR"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx85" vr="SS" vm="1" name="monitor SAR"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx87" vr="DS" vm="1" name="Cardiac repetition time"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx88" vr="SS" vm="1" name="images per cardiac cycle"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx8a" vr="SS" vm="1" name="actual receive gain analog"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx8b" vr="SS" vm="1" name="actual receive gain digital"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx8d" vr="DS" vm="1" name="delay after trigger"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx8f" vr="SS" vm="1" name="swappf"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx90" vr="SS" vm="1" name="Pause Interval"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx91" vr="DS" vm="1" name="Pulse Time"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx92" vr="SL" vm="1" name="Slice offset on freq axis"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx93" vr="DS" vm="1" name="Center Frequency"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx94" vr="SS" vm="1" name="Transmit Gain"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx95" vr="SS" vm="1" name="analog receiver gain"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx96" vr="SS" vm="1" name="digital receiver gain"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx97" vr="SL" vm="1" name="Bitmap defining CVs"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx98" vr="SS" vm="1" name="Center freq. Method"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx9b" vr="SS" vm="1" name="Pulse seq. mode"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx9c" vr="LO" vm="1" name="pulse seq. name"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx9d" vr="DT" vm="1" name="pulse seq. date"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx9e" vr="LO" vm="1" name="internal pulse seq. name"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx9f" vr="SS" vm="1" name="Transmitting coil"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa0" vr="SS" vm="1" name="Surface Coil Type"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa1" vr="SS" vm="1" name="Extremity Coil flag"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa2" vr="SL" vm="1" name="raw data run number"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa3" vr="UL" vm="1" name="Calibrated Field strength"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa4" vr="SS" vm="1" name="SAT fat/water/bone"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa5" vr="DS" vm="1" name="receive bandwidth"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa7" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa8" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa9" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxaa" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxab" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxac" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxad" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxae" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxaf" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb0" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb1" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb2" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb3" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb4" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb5" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb6" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb7" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb8" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb9" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxba" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxbb" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxbc" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxbd" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxbe" vr="DS" vm="1" name="projection angle"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc0" vr="SS" vm="1" name="saturation planes"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc1" vr="SS" vm="1" name="surface coil intensity"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc2" vr="SS" vm="1" name="SAT location R"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc3" vr="SS" vm="1" name="SAT location L"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc4" vr="SS" vm="1" name="SAT location A"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc5" vr="SS" vm="1" name="SAT location P"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc6" vr="SS" vm="1" name="SAT location H"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc7" vr="SS" vm="1" name="SAT location F"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc8" vr="SS" vm="1" name="SAT thickness R/L"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc9" vr="SS" vm="1" name="SAT thickness A/P"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxca" vr="SS" vm="1" name="SAT thickness H/F"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxcb" vr="SS" vm="1" name="prescribed flow axis"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxcc" vr="SS" vm="1" name="velocity encoding"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxcd" vr="SS" vm="1" name="thickness disclaimer"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxce" vr="SS" vm="1" name="prescan type"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxcf" vr="SS" vm="1" name="prescan status"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd0" vr="SH" vm="1" name="raw data type"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd2" vr="SS" vm="1" name="Projection Algorithm"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd3" vr="SH" vm="1" name="projection algorithm"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd5" vr="SS" vm="1" name="fractional echo"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd6" vr="SS" vm="1" name="prep pulse"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd7" vr="SS" vm="1" name="cardiac phases"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd8" vr="SS" vm="1" name="variable echoflag"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd9" vr="DS" vm="1" name="concatenated SAT"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxdf" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxe0" vr="DS" vm="1" name="user data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxe2" vr="DS" vm="1" name="Velocity Encode Scale"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxf2" vr="SS" vm="1" name="fast phases"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxf9" vr="DS" vm="1" name="transmission gain"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx03" vr="SS" vm="1" name="Series from which Prescribed"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx05" vr="SH" vm="1" name="Genesis Version - now"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx07" vr="UL" vm="1" name="Series Record checksum"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx18" vr="SH" vm="1" name="Genesis version - Now"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx19" vr="UL" vm="1" name="Acq recon record checksum"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx20" vr="DS" vm="1" name="Table start location"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx35" vr="SS" vm="1" name="Series from which prescribed"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx36" vr="SS" vm="1" name="image from which prescribed"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx37" vr="SS" vm="1" name="Screen Format"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx4f" vr="SS" vm="1" name="locations in acquisition"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx50" vr="SS" vm="1" name="graphically prescribed"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx51" vr="DS" vm="1" name="rotation from source x rot"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx52" vr="DS" vm="1" name="rotation from source y rot"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx53" vr="DS" vm="1" name="rotation from source z rot"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx54" vr="SH" vm="3" name="image position"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx55" vr="SH" vm="6" name="image orientation"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx56" vr="SL" vm="1" name="integer slop"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx57" vr="SL" vm="1" name="integer slop"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx58" vr="SL" vm="1" name="integer slop"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx59" vr="SL" vm="1" name="integer slop"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx5a" vr="SL" vm="1" name="integer slop"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx5b" vr="DS" vm="1" name="float slop"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx5c" vr="DS" vm="1" name="float slop"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx5d" vr="DS" vm="1" name="float slop"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx5e" vr="DS" vm="1" name="float slop"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx5f" vr="DS" vm="1" name="float slop"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx81" vr="DS" vm="1" name="auto window/level alpha"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx82" vr="DS" vm="1" name="auto window/level beta"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx83" vr="DS" vm="1" name="auto window/level window"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx84" vr="DS" vm="1" name="to window/level level"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx01" vr="SL" vm="1" name="Number of series in Study"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx02" vr="SL" vm="1" name="Number of unarchived Series"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx10" vr="SS" vm="1" name="reference image field"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx50" vr="SS" vm="1" name="summary image"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx70" vr="FD" vm="1" name="Start time(secs) in first axial"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx74" vr="SL" vm="1" name="No. of updates to header"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx7d" vr="SS" vm="1" name="indicates if study has complete info (DICOM/genesis)"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx06" vr="SS" vm="1" name="Last pulse sequence used"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx07" vr="SL" vm="1" name="Images in Series"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx10" vr="SL" vm="1" name="Landmark Counter"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx11" vr="SS" vm="1" name="Number of Acquisitions"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx14" vr="SL" vm="1" name="indicates no. of updates to header"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx17" vr="SL" vm="1" name="Series Complete Flag"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx18" vr="SL" vm="1" name="Number of images archived"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx19" vr="SL" vm="1" name="Last image number used"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx1a" vr="SH" vm="1" name="Primary Receiver Suite and Host"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx06" vr="SL" vm="1" name="Image archive flag"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx10" vr="SS" vm="1" name="Scout Type"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx30" vr="SH" vm="1" name="Foreign Image Revision"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx31" vr="SS" vm="1" name="Imaging Mode"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx32" vr="SS" vm="1" name="Pulse Sequence"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx33" vr="SL" vm="1" name="Imaging Options"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx35" vr="SS" vm="1" name="Plane Type"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx36" vr="SL" vm="1" name="Oblique Plane"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx40" vr="SH" vm="1" name="RAS letter of image location"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx41" vr="FL" vm="1" name="Image location"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx42" vr="FL" vm="1" name="Center R coord of plane image"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx43" vr="FL" vm="1" name="Center A coord of plane image"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx44" vr="FL" vm="1" name="Center S coord of plane image"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx45" vr="FL" vm="1" name="Normal R coord"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx46" vr="FL" vm="1" name="Normal A coord"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx47" vr="FL" vm="1" name="Normal S coord"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx48" vr="FL" vm="1" name="R Coord of Top Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx49" vr="FL" vm="1" name="A Coord of Top Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx4a" vr="FL" vm="1" name="S Coord of Top Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx4b" vr="FL" vm="1" name="R Coord of Bottom Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx4c" vr="FL" vm="1" name="A Coord of Bottom Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx4d" vr="FL" vm="1" name="S Coord of Bottom Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx60" vr="FL" vm="1" name="Image dimension - X"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx61" vr="FL" vm="1" name="Image dimension - Y"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx62" vr="FL" vm="1" name="Number of Excitations"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx15" vr="SL" vm="1" name="Lower range of Pixels1"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx16" vr="SL" vm="1" name="Lower range of Pixels1"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx17" vr="SL" vm="1" name="Lower range of Pixels2"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx18" vr="SL" vm="1" name="Upper range of Pixels2"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx1a" vr="SL" vm="1" name="Len of tot hdr in bytes"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx26" vr="SS" vm="1" name="version of the hdr struct"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx34" vr="SL" vm="1" name="advantage comp. overflow"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx35" vr="SL" vm="1" name="advantage comp. underflow"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx01" vr="SS" vm="1" name="bitmap of prescan options"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx02" vr="SS" vm="1" name="gradient offset in X"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx03" vr="SS" vm="1" name="gradient offset in Y"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx04" vr="SS" vm="1" name="gradient offset in Z"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx05" vr="SS" vm="1" name="img is original or unoriginal"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx06" vr="SS" vm="1" name="number of EPI shots"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx07" vr="SS" vm="1" name="views per segment"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx08" vr="SS" vm="1" name="respiratory rate,bpm"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx09" vr="SS" vm="1" name="respiratory trigger point"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx0a" vr="SS" vm="1" name="type of receiver used"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx0b" vr="DS" vm="1" name="peak rate of change of gradient field"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx0c" vr="DS" vm="1" name="limits in units of percent"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx0d" vr="DS" vm="1" name="PSD estimated limit"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx0e" vr="DS" vm="1" name="PSD estimated limit in tesla per second"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx0f" vr="DS" vm="1" name="saravghead"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx10" vr="US" vm="1" name="Window value"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx1c" vr="SS" vm="1" name="GE image integrity"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx1d" vr="SS" vm="1" name="Level value"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx28" vr="OB" vm="1" name="Unique image iden"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx29" vr="OB" vm="1" name="Histogram tables"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx2a" vr="OB" vm="1" name="User defined data"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx2b" vr="SS" vm="4" name="Private Scan Options"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx2c" vr="SS" vm="1" name="Effective echo spacing"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx2d" vr="SH" vm="1" name="String slop field 1"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx2e" vr="SH" vm="1" name="String slop field 2"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx2f" vr="SS" vm="1" name="Raw data type"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx30" vr="SS" vm="1" name="Raw data type"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx31" vr="DS" vm="2" name="RA cord of target recon centre"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx32" vr="SS" vm="1" name="Raw data type"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx33" vr="FL" vm="1" name="neg_scanspacing"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx34" vr="IS" vm="1" name="Offset Frequency"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx35" vr="UL" vm="1" name="User_usage_tag"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx36" vr="UL" vm="1" name="User_fill_map_MSW"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx37" vr="UL" vm="1" name="User_fill_map_LSW"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx38" vr="FL" vm="24" name="User25...User48"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx39" vr="IS" vm="4" name="slop_int_6... slop_int_9"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx01" vr="LO" vm="1" name="Full fidelity"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx02" vr="SH" vm="1" name="Suite id"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx04" vr="SH" vm="1" name="Product id"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx27" vr="SL" vm="1" name="Image actual date"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx30" vr="SH" vm="1" name="Service id"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx31" vr="SH" vm="1" name="Mobile location number"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xxe3" vr="UI" vm="1" name="Equipment UID"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xxe6" vr="SH" vm="1" name="Genesis Version - now"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xxe7" vr="UL" vm="1" name="Exam Record checksum"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xxe9" vr="SL" vm="1" name="Actual series data time stamp"/>
+    <entry owner="GEMS_PATI_01" group="0011" element="xx10" vr="SS" vm="1" name="Patient Status"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx0f" vr="DS" vm="1" name="Horiz. Frame of ref."/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx11" vr="SS" vm="1" name="Series contrast"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx12" vr="SS" vm="1" name="Last pseq"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx17" vr="SS" vm="1" name="Series plane"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx18" vr="LO" vm="1" name="First scan ras"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx19" vr="DS" vm="1" name="First scan location"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx1a" vr="LO" vm="1" name="Last scan ras"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx1b" vr="DS" vm="1" name="Last scan loc"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx1e" vr="DS" vm="1" name="Display field of view"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx5a" vr="FL" vm="1" name="Acquisition Duration"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx7d" vr="DS" vm="1" name="Second echo"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx7e" vr="SS" vm="1" name="Number of echoes"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx7f" vr="DS" vm="1" name="Table delta"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx81" vr="SS" vm="1" name="Contiguous"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx84" vr="DS" vm="1" name="Peak SAR"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx85" vr="SS" vm="1" name="Monitor SAR"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx87" vr="DS" vm="1" name="Cardiac repetition time"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx88" vr="SS" vm="1" name="Images per cardiac cycle"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx8a" vr="SS" vm="1" name="Actual receive gain analog"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx8b" vr="SS" vm="1" name="Actual receive gain digital"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx8d" vr="DS" vm="1" name="Delay after trigger"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx8f" vr="SS" vm="1" name="Swappf"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx90" vr="SS" vm="1" name="Pause Interval"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx91" vr="DS" vm="1" name="Pause Time"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx92" vr="SL" vm="1" name="Slice offset on freq axis"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx93" vr="DS" vm="1" name="Auto Prescan Center Frequency"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx94" vr="SS" vm="1" name="Auto Prescan Transmit Gain"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx95" vr="SS" vm="1" name="Auto Prescan Analog receiver gain"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx96" vr="SS" vm="1" name="Auto Prescan Digital receiver gain"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx97" vr="SL" vm="1" name="Bitmap defining CVs"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx98" vr="SS" vm="1" name="Center freq. Method"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx9b" vr="SS" vm="1" name="Pulse Sequence Mode"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx9c" vr="LO" vm="1" name="Pulse Sequence Name"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx9d" vr="DT" vm="1" name="Pulse Sequence Date"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx9e" vr="LO" vm="1" name="Internal Pulse Sequence Name"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx9f" vr="SS" vm="1" name="Transmitting Coil Type"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa0" vr="SS" vm="1" name="Surface Coil Type"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa1" vr="SS" vm="1" name="Extremity Coil flag"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa2" vr="SL" vm="1" name="Raw data run number"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa3" vr="UL" vm="1" name="Calibrated Field strength"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa4" vr="SS" vm="1" name="SAT fat/water/bone"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa5" vr="DS" vm="1" name="Receive bandwidth"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa7" vr="DS" vm="1" name="User data 0"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa8" vr="DS" vm="1" name="User data 1"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa9" vr="DS" vm="1" name="User data 2"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxaa" vr="DS" vm="1" name="User data 3"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxab" vr="DS" vm="1" name="User data 4"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxac" vr="DS" vm="1" name="User data 5"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxad" vr="DS" vm="1" name="User data 6"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxae" vr="DS" vm="1" name="User data 7"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxaf" vr="DS" vm="1" name="User data 8"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb0" vr="DS" vm="1" name="User data 9"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb1" vr="DS" vm="1" name="User data 10"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb2" vr="DS" vm="1" name="User data 11"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb3" vr="DS" vm="1" name="User data 12"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb4" vr="DS" vm="1" name="User data 13"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb5" vr="DS" vm="1" name="User data 14"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb6" vr="DS" vm="1" name="User data 15"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb7" vr="DS" vm="1" name="User data 16"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb8" vr="DS" vm="1" name="User data 17"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb9" vr="DS" vm="1" name="User data 18"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxba" vr="DS" vm="1" name="User data 19"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxbb" vr="DS" vm="1" name="User data 20"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxbc" vr="DS" vm="1" name="User data 21"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxbd" vr="DS" vm="1" name="User data 22"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxbe" vr="DS" vm="1" name="Projection angle"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc0" vr="SS" vm="1" name="Saturation planes"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc1" vr="SS" vm="1" name="Surface coil intensity"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc2" vr="SS" vm="1" name="SAT location R"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc3" vr="SS" vm="1" name="SAT location L"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc4" vr="SS" vm="1" name="SAT location A"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc5" vr="SS" vm="1" name="SAT location P"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc6" vr="SS" vm="1" name="SAT location H"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc7" vr="SS" vm="1" name="SAT location F"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc8" vr="SS" vm="1" name="SAT thickness R/L"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc9" vr="SS" vm="1" name="SAT thickness A/P"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxca" vr="SS" vm="1" name="SAT thickness H/F"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxcb" vr="SS" vm="1" name="Phase Contrast flow axis"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxcc" vr="SS" vm="1" name="Velocity encoding"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxcd" vr="SS" vm="1" name="Thickness disclaimer"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxce" vr="SS" vm="1" name="Prescan type"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxcf" vr="SS" vm="1" name="Prescan status"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd0" vr="SH" vm="1" name="Raw data type"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd2" vr="SS" vm="1" name="Projection Algorithm"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd3" vr="SH" vm="1" name="Projection Algorithm Name"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd5" vr="SS" vm="1" name="Fractional echo"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd6" vr="SS" vm="1" name="Prep pulse"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd7" vr="SS" vm="1" name="Cardiac phase number"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd8" vr="SS" vm="1" name="Variable echoflag"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd9" vr="DS" vm="1" name="Concatenated SAT {# DTI Diffusion Dir., release 9.0 &amp; below}"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxdf" vr="DS" vm="1" name="User data 23 {# DTI Diffusion Dir., release 9.0 &amp; below}"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxe0" vr="DS" vm="1" name="User data 24 {# DTI Diffusion Dir., release 10.0 &amp; above}"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxe2" vr="DS" vm="1" name="Velocity Encode Scale"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxf2" vr="SS" vm="1" name="Fast phases"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxf9" vr="DS" vm="1" name="Transmit gain"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx03" vr="SS" vm="1" name="Series from which Prescribed"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx05" vr="SH" vm="1" name="Genesis Version - now"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx07" vr="UL" vm="1" name="Series Record checksum"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx18" vr="SH" vm="1" name="Genesis version - Now"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx19" vr="UL" vm="1" name="Acq recon record checksum"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx20" vr="DS" vm="1" name="Table start location"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx35" vr="SS" vm="1" name="Series from which prescribed"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx36" vr="SS" vm="1" name="Image from which prescribed"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx37" vr="SS" vm="1" name="Screen Format"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx4f" vr="SS" vm="1" name="Locations in acquisition"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx50" vr="SS" vm="1" name="Graphically prescribed"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx51" vr="DS" vm="1" name="Rotation from source x rot"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx52" vr="DS" vm="1" name="Rotation from source y rot"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx53" vr="DS" vm="1" name="Rotation from source z rot"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx54" vr="SH" vm="3" name="Image position"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx55" vr="SH" vm="6" name="Image orientation"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx56" vr="SL" vm="1" name="Num 3D slabs"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx57" vr="SL" vm="1" name="Locs per 3D slab"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx58" vr="SL" vm="1" name="Overlaps"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx59" vr="SL" vm="1" name="Image Filtering 0.5/0.2T"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx5a" vr="SL" vm="1" name="Diffusion direction"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx5b" vr="DS" vm="1" name="Tagging Flip Angle"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx5c" vr="DS" vm="1" name="Tagging Orientation"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx5d" vr="DS" vm="1" name="Tag Spacing"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx5e" vr="DS" vm="1" name="RTIA_timer"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx5f" vr="DS" vm="1" name="Fps"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx81" vr="DS" vm="1" name="Auto window/level alpha"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx82" vr="DS" vm="1" name="Auto window/level beta"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx83" vr="DS" vm="1" name="Auto window/level window"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx84" vr="DS" vm="1" name="Auto window/level level"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx01" vr="SL" vm="1" name="Number of series in Study"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx02" vr="SL" vm="1" name="Number of unarchived Series"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx10" vr="SS" vm="1" name="Reference image field"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx50" vr="SS" vm="1" name="Summary image"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx70" vr="FD" vm="1" name="Start time(secs) in first axial"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx74" vr="SL" vm="1" name="No. of updates to header"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx7d" vr="SS" vm="1" name="Indicates study has complete info (DICOM/genesis)"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx06" vr="SS" vm="1" name="Last pulse sequence used"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx07" vr="SL" vm="1" name="Images in Series"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx10" vr="SL" vm="1" name="Landmark Counter"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx11" vr="SS" vm="1" name="Number of Acquisitions"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx14" vr="SL" vm="1" name="Indicates no. of updates to header"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx17" vr="SL" vm="1" name="Series Complete Flag"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx18" vr="SL" vm="1" name="Number of images archived"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx19" vr="SL" vm="1" name="Last image number used"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx1a" vr="SH" vm="1" name="Primary Receiver Suite and Host"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx1b" vr="OB" vm="1" name="Protocol Data Block (compressed)"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx06" vr="SL" vm="1" name="Image archive flag"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx10" vr="SS" vm="1" name="Scout Type"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx30" vr="SH" vm="1" name="Foreign Image Revision"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx31" vr="SS" vm="1" name="Imaging Mode"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx32" vr="SS" vm="1" name="Pulse Sequence"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx33" vr="SL" vm="1" name="Imaging Options"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx35" vr="SS" vm="1" name="Plane Type"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx36" vr="SL" vm="1" name="Oblique Plane"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx40" vr="SH" vm="1" name="RAS letter of image location"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx41" vr="FL" vm="1" name="Image location"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx42" vr="FL" vm="1" name="Center R coord of plane image"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx43" vr="FL" vm="1" name="Center A coord of plane image"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx44" vr="FL" vm="1" name="Center S coord of plane image"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx45" vr="FL" vm="1" name="Normal R coord"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx46" vr="FL" vm="1" name="Normal A coord"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx47" vr="FL" vm="1" name="Normal S coord"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx48" vr="FL" vm="1" name="R Coord of Top Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx49" vr="FL" vm="1" name="A Coord of Top Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx4a" vr="FL" vm="1" name="S Coord of Top Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx4b" vr="FL" vm="1" name="R Coord of Bottom Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx4c" vr="FL" vm="1" name="A Coord of Bottom Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx4d" vr="FL" vm="1" name="S Coord of Bottom Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx60" vr="FL" vm="1" name="Image dimension - X"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx61" vr="FL" vm="1" name="Image dimension - Y"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx62" vr="FL" vm="1" name="Number of Excitations"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx15" vr="SL" vm="1" name="Lower range of Pixels1"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx16" vr="SL" vm="1" name="Upper range of Pixels1"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx17" vr="SL" vm="1" name="Lower range of Pixels2"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx18" vr="SL" vm="1" name="Upper range of Pixels2"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx1a" vr="SL" vm="1" name="Len of tot hdr in bytes"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx26" vr="SS" vm="1" name="Version of the hdr struct"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx34" vr="SL" vm="1" name="Advantage comp. Overflow"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx35" vr="SL" vm="1" name="Advantage comp. Underflow"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx01" vr="SS" vm="1" name="Bitmap of prescan options"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx02" vr="SS" vm="1" name="Gradient offset in X"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx03" vr="SS" vm="1" name="Gradient offset in Y"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx04" vr="SS" vm="1" name="Gradient offset in Z"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx05" vr="SS" vm="1" name="Img is original or unoriginal"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx06" vr="SS" vm="1" name="Number of EPI shots"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx07" vr="SS" vm="1" name="Views per segment"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx08" vr="SS" vm="1" name="Respiratory rate, bpm"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx09" vr="SS" vm="1" name="Respiratory trigger point"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx0a" vr="SS" vm="1" name="Type of receiver used"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx0b" vr="DS" vm="1" name="DB/dt Peak rate of change of gradient field"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx0c" vr="DS" vm="1" name="dB/dt Limits in units of percent"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx0d" vr="DS" vm="1" name="PSD estimated limit"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx0e" vr="DS" vm="1" name="PSD estimated limit in tesla per second"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx0f" vr="DS" vm="1" name="Saravghead"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx10" vr="US" vm="1" name="Window value"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx1c" vr="SS" vm="1" name="GE image integrity"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx1d" vr="SS" vm="1" name="Level value"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx28" vr="OB" vm="1" name="Unique image iden"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx29" vr="OB" vm="1" name="Histogram tables"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx2a" vr="OB" vm="1" name="User defined data"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx2b" vr="SS" vm="4" name="Private Scan Options"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx2c" vr="SS" vm="1" name="Effective echo spacing"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx2d" vr="SH" vm="1" name="Filter Mode (String slop field 1 in legacy GE MR"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx2e" vr="SH" vm="1" name="String slop field 2"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx2f" vr="SS" vm="1" name="Image Type (real, imaginary, phase, magnitude)"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx30" vr="SS" vm="1" name="Vas collapse flag"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx31" vr="DS" vm="2" name="RA cord of target recon center"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx32" vr="SS" vm="1" name="Vas flags"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx33" vr="FL" vm="1" name="Neg_scanspacing"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx34" vr="IS" vm="1" name="Offset Frequency"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx35" vr="UL" vm="1" name="User_usage_tag"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx36" vr="UL" vm="1" name="User_fill_map_MSW"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx37" vr="UL" vm="1" name="User_fill_map_LSW"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx38" vr="FL" vm="24" name="User data 25...User data 48 {User48=Effective Resolution for spiral}"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx39" vr="IS" vm="4" name="Slop_int_6... slop_int_9"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx60" vr="IS" vm="8" name="Slop_int_10...slop_int_17"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx61" vr="UI" vm="1" name="Scanner Study Entity UID"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx62" vr="SH" vm="1" name="Scanner Study ID"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx6f" vr="DS" vm="3-4" name="Scanner Table Entry (single gradient coil systems only)/Scanner Table Entry + Gradient Coil Selected"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx70" vr="LO" vm="1" name="Paradigm Name"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx71" vr="ST" vm="1" name="Paradigm Description"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx72" vr="UI" vm="1" name="Paradigm UID"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx73" vr="US" vm="1" name="Experiment Type"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx74" vr="US" vm="1" name="#rest volumes"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx75" vr="US" vm="1" name="#active volumes"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx76" vr="US" vm="1" name="#dummy scans"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx77" vr="SH" vm="1" name="Application Name"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx78" vr="SH" vm="1" name="Application Version"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx79" vr="US" vm="1" name="Slices Per Volume"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx7a" vr="US" vm="1" name="Expected Time Points"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx7b" vr="FL" vm="1-n" name="Regressor Values"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx7c" vr="FL" vm="1" name="Delay after slice group"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx7d" vr="US" vm="1" name="Recon mode flag word"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx7e" vr="LO" vm="1-n" name="PACC specific information"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx7f" vr="DS" vm="1-n" name="Reserved"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx80" vr="LO" vm="1-n" name="Coil ID Data"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx81" vr="LO" vm="1" name="GE Coil Name"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx82" vr="LO" vm="1-n" name="System Configuration Information"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx83" vr="DS" vm="1-2" name="Asset R Factors"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx84" vr="LO" vm="5" name="Additional Asset Data"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx85" vr="UT" vm="1" name="Debug Data (text format)"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx86" vr="OB" vm="1" name="Debug Data (binary format)"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx87" vr="UT" vm="1" name="Reserved"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx88" vr="UI" vm="1" name="PURE Acquisition Calibration Series UID"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx89" vr="LO" vm="3" name="Governing Body, dB/dt, and SAR definition"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx8a" vr="CS" vm="1" name="Private In-Plane Phase Encoding Direction"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx8b" vr="OB" vm="1" name="FMRI Binary Data Block"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx8c" vr="DS" vm="6" name="Voxel Location"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx8d" vr="DS" vm="7-7n" name="SAT Band Locations"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx8e" vr="DS" vm="3" name="Spectro Prescan Values"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx8f" vr="DS" vm="3" name="Spectro Parameters"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx90" vr="LO" vm="1-n" name="SAR Definition"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx91" vr="DS" vm="1-n" name="SAR value"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx92" vr="LO" vm="1" name="Image Error Text"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx93" vr="DS" vm="1-n" name="Spectro Quantitation Values"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx94" vr="DS" vm="1-n" name="Spectro Ratio Values"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx95" vr="LO" vm="1" name="Prescan Reuse String"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx96" vr="CS" vm="1" name="Content Qualification"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx97" vr="LO" vm="8" name="Image Filtering Parameters"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx98" vr="UI" vm="1" name="ASSET Acquisition Calibration Series UID"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx99" vr="LO" vm="1-n" name="Extended Options"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx9a" vr="IS" vm="1" name="Rx Stack Identification"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xx10" vr="UI" vm="1" name="DICOM Implementation UID"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xx11" vr="SH" vm="1" name="DICOM Implementation Version"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xx12" vr="UI" vm="1" name="Within-DICOM-Implementation SOP Instance UID"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xx13" vr="SH" vm="1" name="Application Name"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xx14" vr="SH" vm="1" name="Application Version"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xx15" vr="SH" vm="1" name="Compatibility Version"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xx21" vr="UI" vm="1-n" name="Referenced Series UID"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xx31" vr="US" vm="1" name="Number of Objects Averaged"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xx41" vr="US" vm="1" name="Number of Expected Time Points"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xx51" vr="US" vm="1" name="Number of Slices Per Volume"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xx60" vr="US" vm="1" name="BW Image Type"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xx61" vr="US" vm="1" name="Experiment Type"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xx71" vr="UI" vm="1" name="Paradigm UID"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xx72" vr="LO" vm="1" name="Paradigm Name"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xx73" vr="ST" vm="1" name="Paradigm Description"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xx80" vr="OB" vm="1" name="Contrast"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xx81" vr="FL" vm="1-n" name="Regressor Values"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xx86" vr="US" vm="1" name="Number of Degrees of Freedom"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xx8a" vr="FL" vm="1" name="Z Threshold"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xx8b" vr="FL" vm="1" name="p Threshold"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xxa0" vr="FL" vm="1-n" name="Motion Parameters"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xxa1" vr="FL" vm="1-n" name="Registration Parameters"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xxa2" vr="FL" vm="1-n" name="Subject Data"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xxb0" vr="OB" vm="1" name="DTI Parameters"/>
+    <entry owner="GEMS_PARM_01" group="2001" element="xxc0" vr="OB" vm="1" name="Paradigm Info"/>
+    <entry owner="GEMS_MR_RAW_01" group="7001" element="xx01" vr="OB" vm="1" name="rdb_hdr_rec"/>
+    <entry owner="GEMS_MR_RAW_01" group="7001" element="xx02" vr="OB" vm="1" name="rdb_hdr_per_pass_tab"/>
+    <entry owner="GEMS_MR_RAW_01" group="7001" element="xx03" vr="OB" vm="1" name="rdb_hdr_unlock_raw"/>
+    <entry owner="GEMS_MR_RAW_01" group="7001" element="xx04" vr="OB" vm="1" name="rdb_hdr_data_acq_tab"/>
+    <entry owner="GEMS_MR_RAW_01" group="7001" element="xx05" vr="OB" vm="1" name="rdb_hdr_nex_tab"/>
+    <entry owner="GEMS_MR_RAW_01" group="7001" element="xx06" vr="OB" vm="1" name="rdb_hdr_nex_abort_tab"/>
+    <entry owner="GEMS_MR_RAW_01" group="7001" element="xx07" vr="OB" vm="1" name="rdb_hdr_tool"/>
+    <entry owner="GEMS_MR_RAW_01" group="7001" element="xx08" vr="OB" vm="1" name="rdb_raw_data"/>
+    <entry owner="GEMS_MR_RAW_01" group="7001" element="xx09" vr="OB" vm="1" name="SSP save"/>
+    <entry owner="GEMS_MR_RAW_01" group="7001" element="xx0a" vr="OB" vm="1" name="UDA save"/>
+    <entry owner="GEMS_MR_RAW_01" group="7001" element="xx0b" vr="OB" vm="1" name="rdb_chemsat_data"/>
+    <entry owner="GEMS_FUNCTOOL_01" group="0051" element="xx01" vr="LO" vm="1" name="Functional Proc Group Name"/>
+    <entry owner="GEMS_FUNCTOOL_01" group="0051" element="xx02" vr="LO" vm="1" name="Functional Processing Name"/>
+    <entry owner="GEMS_FUNCTOOL_01" group="0051" element="xx03" vr="SL" vm="1" name="Bias of Functional Image"/>
+    <entry owner="GEMS_FUNCTOOL_01" group="0051" element="xx04" vr="FL" vm="1" name="Scale of Functional Image"/>
+    <entry owner="GEMS_FUNCTOOL_01" group="0051" element="xx05" vr="SL" vm="1" name="Length of Parameters String"/>
+    <entry owner="GEMS_FUNCTOOL_01" group="0051" element="xx06" vr="LT" vm="1" name="Store Parameters string, delimited by character ESC=0x1B (27)"/>
+    <entry owner="GEMS_FUNCTOOL_01" group="0051" element="xx07" vr="LO" vm="1" name="Functional Image Version"/>
+    <entry owner="GEMS_FUNCTOOL_01" group="0051" element="xx08" vr="SL" vm="1" name="Store Color Ramp"/>
+    <entry owner="GEMS_FUNCTOOL_01" group="0051" element="xx09" vr="SL" vm="1" name="Store Width of Functional Image"/>
+    <entry owner="GEMS_FUNCTOOL_01" group="0051" element="xx0a" vr="SL" vm="1" name="Store level of Functional Image"/>
+    <entry owner="GEMS_FUNCTOOL_01" group="0051" element="xx0b" vr="FL" vm="1" name="Store B-Value with Functional Image"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx01" vr="LO" vm="1" name="Full fidelity"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx02" vr="SH" vm="1" name="Suite id"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx04" vr="SH" vm="1" name="Product id"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx27" vr="SL" vm="1" name="Image actual date"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx30" vr="SH" vm="1" name="Service id"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx31" vr="SH" vm="1" name="Mobile location number"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xxe3" vr="UI" vm="1" name="Equipment UID"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xxe6" vr="SH" vm="1" name="Genesis Version - now"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xxe7" vr="UL" vm="1" name="Exam Record checksum"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xxe9" vr="SL" vm="1" name="Actual series data time stamp"/>
+    <entry owner="GEMS_PATI_01" group="0011" element="xx10" vr="SS" vm="1" name="Patient Status"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx02" vr="SL" vm="1" name="Number of cells I in Detector"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx03" vr="DS" vm="1" name="Cell number at Theta"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx04" vr="DS" vm="1" name="Cell spacing"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx0f" vr="DS" vm="1" name="Horiz. Frame of ref."/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx11" vr="SS" vm="1" name="Series contrast"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx13" vr="SS" vm="1" name="Start number for baseline"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx14" vr="SS" vm="1" name="End number for baseline"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx15" vr="SS" vm="1" name="Start number for enhanced scans"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx16" vr="SS" vm="1" name="End number for enhanced scans"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx17" vr="SS" vm="1" name="Series plane"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx18" vr="LO" vm="1" name="First scan ras"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx19" vr="DS" vm="1" name="First scan location"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx1a" vr="LO" vm="1" name="Last scan ras"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx1b" vr="DS" vm="1" name="Last scan loc"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx1e" vr="DS" vm="1" name="Display field of view"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx23" vr="DS" vm="1" name="Table speed"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx24" vr="DS" vm="1" name="Mid scan time"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx25" vr="SS" vm="1" name="Mid scan flag"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx26" vr="SL" vm="1" name="Degrees of azimuth"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx27" vr="DS" vm="1" name="Gantry period"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx2a" vr="DS" vm="1" name="x-ray On position"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx2b" vr="DS" vm="1" name="x-ray Off position"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx2c" vr="SL" vm="1" name="Number of triggers"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx2e" vr="DS" vm="1" name="Angle of first view"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx2f" vr="DS" vm="1" name="Trigger frequency"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx39" vr="SS" vm="1" name="Scan FOV type"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx40" vr="SS" vm="1" name="Stat recon flag"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx41" vr="SS" vm="1" name="Compute type"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx42" vr="SS" vm="1" name="Segment number"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx43" vr="SS" vm="1" name="Total segments requested"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx44" vr="DS" vm="1" name="Interscan delay"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx47" vr="SS" vm="1" name="View compression factor"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx4a" vr="SS" vm="1" name="Total no. of ref channels"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx4b" vr="SL" vm="1" name="Data size for scan data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx52" vr="SS" vm="1" name="Recon post proc. Flag"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx57" vr="SS" vm="1" name="CT water number"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx58" vr="SS" vm="1" name="CT bone number"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx5e" vr="SL" vm="1" name="Number of channels (1...512)"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx5f" vr="SL" vm="1" name="Increment between channels"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx60" vr="SL" vm="1" name="Starting view"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx61" vr="SL" vm="1" name="Number of views"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx62" vr="SL" vm="1" name="Increment between views"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx6a" vr="SS" vm="1" name="Dependent on #views processed"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx6b" vr="SS" vm="1" name="Field of view in detector cells"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx70" vr="SS" vm="1" name="Value of back projection button"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx71" vr="SS" vm="1" name="Set if fatq estimates were used"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx72" vr="DS" vm="1" name="Z chan avg over views"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx73" vr="DS" vm="1" name="Avg of left ref chans over views"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx74" vr="DS" vm="1" name="Max left chan over views"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx75" vr="DS" vm="1" name="Avg of right ref chans over views"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx76" vr="DS" vm="1" name="Max right chan over views"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxda" vr="SS" vm="1" name="Reference channel used"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxdb" vr="DS" vm="1" name="Back projector coefficient"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxdc" vr="SS" vm="1" name="Primary speed correction used"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxdd" vr="SS" vm="1" name="Overrange correction used"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxde" vr="DS" vm="1" name="Dynamic Z alpha value"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx03" vr="SS" vm="1" name="Series from which Prescribed"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx05" vr="SH" vm="1" name="Genesis Version - now"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx07" vr="UL" vm="1" name="Series Record checksum"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx18" vr="SH" vm="1" name="Genesis version - Now"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx19" vr="UL" vm="1" name="Acqrecon record checksum"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx37" vr="SS" vm="1" name="Screen Format"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx4a" vr="LO" vm="1" name="Anatomical reference for scout"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx90" vr="SS" vm="1" name="Tube focal spot position"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx91" vr="SS" vm="1" name="Biopsy position"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx92" vr="FL" vm="1" name="Biopsy T location"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx93" vr="FL" vm="1" name="Biopsy ref location"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx70" vr="FD" vm="1" name="Start time(secs) in first axial"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx74" vr="SL" vm="1" name="No. of updates to header"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx7d" vr="SS" vm="1" name="Indicates if the study has complete info (DICOM/genesis)"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx06" vr="SS" vm="1" name="Last pulse sequence used"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx07" vr="SL" vm="1" name="Images in Series"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx10" vr="SL" vm="1" name="Landmark Counter"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx11" vr="SS" vm="1" name="Number of Acquisitions"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx17" vr="SL" vm="1" name="Series Complete Flag"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx18" vr="SL" vm="1" name="Number of images archived"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx19" vr="SL" vm="1" name="Last image number used"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx1a" vr="SH" vm="1" name="Primary Receiver Suite and Host"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx06" vr="SL" vm="1" name="Image archive flag"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx10" vr="SS" vm="1" name="Scout Type"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx1c" vr="SL" vm="1" name="Vma mamp"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx1d" vr="SS" vm="1" name="Vma phase"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx1e" vr="SL" vm="1" name="Vma mod"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx1f" vr="SL" vm="1" name="Vma clip"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx20" vr="SS" vm="1" name="Smart scan ON/OFF flag"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx30" vr="SH" vm="1" name="Foreign Image Revision"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx35" vr="SS" vm="1" name="Plane Type"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx40" vr="SH" vm="1" name="RAS letter of image location"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx41" vr="FL" vm="1" name="Image location"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx42" vr="FL" vm="1" name="Center R coord of plane image"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx43" vr="FL" vm="1" name="Center A coord of plane image"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx44" vr="FL" vm="1" name="Center S coord of plane image"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx45" vr="FL" vm="1" name="Normal R coord"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx46" vr="FL" vm="1" name="Normal A coord"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx47" vr="FL" vm="1" name="Normal S coord"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx48" vr="FL" vm="1" name="R Coord of Top Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx49" vr="FL" vm="1" name="A Coord of Top Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx4a" vr="FL" vm="1" name="S Coord of Top Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx4b" vr="FL" vm="1" name="R Coord of Bottom Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx4c" vr="FL" vm="1" name="A Coord of Bottom Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx4d" vr="FL" vm="1" name="S Coord of Bottom Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx50" vr="FL" vm="1" name="Table start location"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx51" vr="FL" vm="1" name="Table end location"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx52" vr="SH" vm="1" name="RAS letter for side of image"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx53" vr="SH" vm="1" name="RAS letter for anterior/posterior"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx54" vr="SH" vm="1" name="RAS letter for scout start loc"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx55" vr="SH" vm="1" name="RAS letter for scout end loc"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx04" vr="SL" vm="1" name="Lower range of Pixels1"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx05" vr="DS" vm="1" name="Lower range of Pixels1"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx06" vr="DS" vm="1" name="Lower range of Pixels1"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx07" vr="SL" vm="1" name="Lower range of Pixels1"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx08" vr="SH" vm="1" name="Lower range of Pixels1"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx09" vr="SH" vm="1" name="Lower range of Pixels1"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx0a" vr="SS" vm="1" name="Lower range of Pixels1"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx26" vr="SS" vm="1" name="Version of the hdr struct"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx34" vr="SL" vm="1" name="Advantage comp. Overflow"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx10" vr="US" vm="1" name="Window value"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx11" vr="US" vm="1" name="Total input views"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx12" vr="SS" vm="3" name="X-ray chain"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx13" vr="SS" vm="5" name="Decon kernel parameters"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx14" vr="SS" vm="3" name="Calibration parameters"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx15" vr="SS" vm="3" name="Total output views"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx16" vr="SS" vm="5" name="Number of overranges"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx17" vr="DS" vm="1" name="IBH image scale factors"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx18" vr="DS" vm="3" name="BBH coefficients"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx19" vr="SS" vm="1" name="Number of BBH chains to blend"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx1a" vr="SL" vm="1" name="Starting channel number"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx1b" vr="SS" vm="1" name="Ppscan parameters"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx1c" vr="SS" vm="1" name="GE image integrity"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx1d" vr="SS" vm="1" name="Level value"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx1e" vr="DS" vm="1" name="Delta start time"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx1f" vr="SL" vm="1" name="Max overranges in a view"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx20" vr="DS" vm="1" name="Avg overranges all views"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx21" vr="SS" vm="1" name="Corrected after glow terms"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx25" vr="SS" vm="6" name="Reference channels"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx26" vr="US" vm="6" name="No views ref chans blocked"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx27" vr="SH" vm="1" name="Scan pitch ratio"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx28" vr="OB" vm="1" name="Unique image iden"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx29" vr="OB" vm="1" name="Histogram tables"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx2a" vr="OB" vm="1" name="User defined data"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx2b" vr="SS" vm="4" name="Private Scan Options"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx31" vr="DS" vm="2" name="RA cord of target recon center"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx40" vr="FL" vm="4" name="Trigger on position"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx41" vr="FL" vm="4" name="Degree of rotation"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx42" vr="SL" vm="4" name="DAS trigger source"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx43" vr="SL" vm="4" name="DAS fpa gain"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx44" vr="SL" vm="4" name="DAS output source"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx45" vr="SL" vm="4" name="DAS ad input"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx46" vr="SL" vm="4" name="DAS cal mode"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx47" vr="SL" vm="4" name="DAS cal frequency"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx48" vr="SL" vm="4" name="DAS reg xm"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx49" vr="SL" vm="4" name="DAS auto zero"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx4a" vr="SS" vm="4" name="Starting channel of view"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx4b" vr="SL" vm="4" name="DAS xm pattern"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx4c" vr="SS" vm="4" name="TGGC trigger mode"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx4d" vr="FL" vm="4" name="Start scan to X-ray on delay"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx4e" vr="FL" vm="4" name="Duration of X-ray on"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx01" vr="SS" vm="1" name="Number of Macro Rows in Detector"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx02" vr="FL" vm="1" name="Macro width at ISO Center"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx03" vr="SS" vm="1" name="DAS type"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx04" vr="SS" vm="1" name="DAS gain"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx05" vr="SS" vm="1" name="DAS Temprature"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx06" vr="CS" vm="1" name="Table Direction"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx07" vr="FL" vm="1" name="Z smoothing Factor"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx08" vr="SS" vm="1" name="View Weighting Mode"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx09" vr="SS" vm="1" name="Sigma Row number"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx0a" vr="FL" vm="1" name="Minimum DAS value"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx0b" vr="FL" vm="1" name="Maximum Offset Value"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx0c" vr="SS" vm="1" name="Number of Views shifted"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx0d" vr="SS" vm="1" name="Z tracking Flag"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx0e" vr="FL" vm="1" name="Mean Z error"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx0f" vr="FL" vm="1" name="Z tracking Error"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx10" vr="SS" vm="1" name="Start View 2A"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx11" vr="SS" vm="1" name="Number of Views 2A"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx12" vr="SS" vm="1" name="Start View 1A"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx13" vr="SS" vm="1" name="Sigma Mode"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx14" vr="SS" vm="1" name="Number of Views 1A"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx15" vr="SS" vm="1" name="Start View 2B"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx16" vr="SS" vm="1" name="Number Views 2B"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx17" vr="SS" vm="1" name="Start View 1B"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx18" vr="SS" vm="1" name="Number of Views 1B"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx19" vr="SS" vm="1" name="Air Calibration Date"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx1a" vr="SS" vm="1" name="Air Calibration Time"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx1b" vr="SS" vm="1" name="Phantom Calibration Date"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx1c" vr="SS" vm="1" name="Phantom Calibration Time"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx1d" vr="SS" vm="1" name="Z Slope Calibration Date"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx1e" vr="SS" vm="1" name="Z Slope Calibration Time"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx1f" vr="SS" vm="1" name="Cross Talk Calibration Date"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx20" vr="SS" vm="1" name="Cross Talk Calibration Time"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx21" vr="SS" vm="1" name="Iterbone Flag"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx22" vr="SS" vm="1" name="Perisstaltic Flag"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx30" vr="CS" vm="1" name="CardiacReconAlgorithm"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx31" vr="CS" vm="1" name="AvgHeartRateForImage"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx32" vr="FL" vm="1" name="TemporalResolution"/>
+    <entry owner="GEMS_HELIOS_01" group="0045" element="xx33" vr="CS" vm="1" name="PctRpeakDelay"/>
+    <entry owner="GEMS_CT_CARDIAC_001" group="0049" element="xx01" vr="SQ" vm="1" name="CT Cardiac Sequence"/>
+    <entry owner="GEMS_CT_CARDIAC_001" group="0049" element="xx02" vr="CS" vm="1" name="HeartRateAtConfirm"/>
+    <entry owner="GEMS_CT_CARDIAC_001" group="0049" element="xx03" vr="FL" vm="1" name="AvgHeartRatePriorToConfirm"/>
+    <entry owner="GEMS_CT_CARDIAC_001" group="0049" element="xx04" vr="CS" vm="1" name="MinHeartRatePriorToConfirm"/>
+    <entry owner="GEMS_CT_CARDIAC_001" group="0049" element="xx05" vr="CS" vm="1" name="MaxHeartRatePriorToConfirm"/>
+    <entry owner="GEMS_CT_CARDIAC_001" group="0049" element="xx06" vr="FL" vm="1" name="StdDevHeartRatePriorToConfirm"/>
+    <entry owner="GEMS_CT_CARDIAC_001" group="0049" element="xx07" vr="US" vm="1" name="NumHeartRateSamplesPriorToConfirm"/>
+    <entry owner="GEMS_CT_CARDIAC_001" group="0049" element="xx08" vr="CS" vm="1" name="AutoHeartRateDetectPredict"/>
+    <entry owner="GEMS_CT_CARDIAC_001" group="0049" element="xx09" vr="CS" vm="1" name="SystemOptimizedHeartRate"/>
+    <entry owner="GEMS_CT_CARDIAC_001" group="0049" element="xx0a" vr="ST" vm="1" name="EkgMonitorType"/>
+    <entry owner="GEMS_CT_CARDIAC_001" group="0049" element="xx0b" vr="CS" vm="1" name="NumReconSectors"/>
+    <entry owner="GEMS_CT_CARDIAC_001" group="0049" element="xx0c" vr="FL" vm="256" name="RpeakTimeStamps"/>
+    <entry owner="GEMS_IQTB_IDEN_47" group="0047" element="xx01" vr="SH" vm="1" name="Image Path"/>
+    <entry owner="GEMS_IQTB_IDEN_47" group="0047" element="xx02" vr="UL" vm="1" name="Image Date/Time"/>
+    <entry owner="GEMS_IQTB_IDEN_47" group="0047" element="xx03" vr="UL" vm="1" name="Queue Sequence Number"/>
+    <entry owner="GEMS_IQTB_IDEN_47" group="0047" element="xx04" vr="UL" vm="1" name="Recon Sequence ID"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx01" vr="LO" vm="1" name="Full fidelity"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx02" vr="SH" vm="1" name="Suite id"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx04" vr="SH" vm="1" name="Product id"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx27" vr="SL" vm="1" name="Image actual date"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx30" vr="SH" vm="1" name="Service id"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xx31" vr="SH" vm="1" name="Mobile location number"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xxe3" vr="UI" vm="1" name="Equipment UID"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xxe6" vr="SH" vm="1" name="Genesis Version - now"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xxe7" vr="UL" vm="1" name="Exam Record checksum"/>
+    <entry owner="GEMS_IDEN_01" group="0009" element="xxe9" vr="SL" vm="1" name="Actual series data time stamp"/>
+    <entry owner="GEMS_PATI_01" group="0011" element="xx10" vr="SS" vm="1" name="Patient Status"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx0f" vr="DS" vm="1" name="Horiz. Frame of ref."/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx11" vr="SS" vm="1" name="Series contrast"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx12" vr="SS" vm="1" name="Last pseq"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx17" vr="SS" vm="1" name="Series plane"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx18" vr="LO" vm="1" name="First scan ras"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx19" vr="DS" vm="1" name="First scan location"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx1a" vr="LO" vm="1" name="Last scan ras"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx1b" vr="DS" vm="1" name="Last scan loc"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx1e" vr="DS" vm="1" name="Display field of view"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx5a" vr="FL" vm="1" name="Acquisition Duration"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx7d" vr="DS" vm="1" name="Second echo"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx7e" vr="SS" vm="1" name="Number of echoes"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx7f" vr="DS" vm="1" name="Table delta"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx81" vr="SS" vm="1" name="Contiguous"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx84" vr="DS" vm="1" name="Peak SAR"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx85" vr="SS" vm="1" name="Monitor SAR"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx87" vr="DS" vm="1" name="Cardiac repetition time"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx88" vr="SS" vm="1" name="Images per cardiac cycle"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx8a" vr="SS" vm="1" name="Actual receive gain analog"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx8b" vr="SS" vm="1" name="Actual receive gain digital"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx8d" vr="DS" vm="1" name="Delay after trigger"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx8f" vr="SS" vm="1" name="Swappf"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx90" vr="SS" vm="1" name="Pause Interval"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx91" vr="DS" vm="1" name="Pulse Time"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx92" vr="SL" vm="1" name="Slice offset on freq axis"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx93" vr="DS" vm="1" name="Center Frequency"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx94" vr="SS" vm="1" name="Transmit Gain"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx95" vr="SS" vm="1" name="Analog receiver gain"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx96" vr="SS" vm="1" name="Digital receiver gain"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx97" vr="SL" vm="1" name="Bitmap defining CVs"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx98" vr="SS" vm="1" name="Center freq. Method"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx9b" vr="SS" vm="1" name="Pulse seq. Mode"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx9c" vr="LO" vm="1" name="Pulse seq. Name"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx9d" vr="DT" vm="1" name="Pulse seq. Date"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx9e" vr="LO" vm="1" name="Internal pulse seq. Name"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xx9f" vr="SS" vm="1" name="Transmitting coil"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa0" vr="SS" vm="1" name="Surface Coil Type"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa1" vr="SS" vm="1" name="Extremity Coil flag"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa2" vr="SL" vm="1" name="Raw data run number"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa3" vr="UL" vm="1" name="Calibrated Field strength"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa4" vr="SS" vm="1" name="SAT fat/water/bone"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa5" vr="DS" vm="1" name="Receive bandwidth"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa7" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa8" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxa9" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxaa" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxab" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxac" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxad" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxae" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxaf" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb0" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb1" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb2" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb3" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb4" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb5" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb6" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb7" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb8" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxb9" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxba" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxbb" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxbc" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxbd" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxbe" vr="DS" vm="1" name="Projection angle"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc0" vr="SS" vm="1" name="Saturation planes"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc1" vr="SS" vm="1" name="Surface coil intensity"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc2" vr="SS" vm="1" name="SAT location R"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc3" vr="SS" vm="1" name="SAT location L"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc4" vr="SS" vm="1" name="SAT location A"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc5" vr="SS" vm="1" name="SAT location P"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc6" vr="SS" vm="1" name="SAT location H"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc7" vr="SS" vm="1" name="SAT location F"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc8" vr="SS" vm="1" name="SAT thickness R/L"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxc9" vr="SS" vm="1" name="SAT thickness A/P"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxca" vr="SS" vm="1" name="SAT thickness H/F"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxcb" vr="SS" vm="1" name="Prescribed flow axis"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxcc" vr="SS" vm="1" name="Velocity encoding"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxcd" vr="SS" vm="1" name="Thickness disclaimer"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxce" vr="SS" vm="1" name="Prescan type"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxcf" vr="SS" vm="1" name="Prescan status"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd0" vr="SH" vm="1" name="Raw data type"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd2" vr="SS" vm="1" name="Projection Algorithm"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd3" vr="SH" vm="1" name="Projection algorithm"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd5" vr="SS" vm="1" name="Fractional echo"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd6" vr="SS" vm="1" name="Prep pulse"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd7" vr="SS" vm="1" name="Cardiac phases"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd8" vr="SS" vm="1" name="Variable echoflag"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxd9" vr="DS" vm="1" name="Concatenated SAT"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxdf" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxe0" vr="DS" vm="1" name="User data"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxe2" vr="DS" vm="1" name="Velocity Encode Scale"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxf2" vr="SS" vm="1" name="Fast phases"/>
+    <entry owner="GEMS_ACQU_01" group="0019" element="xxf9" vr="DS" vm="1" name="Transmission gain"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx03" vr="SS" vm="1" name="Series from which Prescribed"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx05" vr="SH" vm="1" name="Genesis Version - now"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx07" vr="UL" vm="1" name="Series Record checksum"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx18" vr="SH" vm="1" name="Genesis version - Now"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx19" vr="UL" vm="1" name="Acq recon record checksum"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx20" vr="DS" vm="1" name="Table start location"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx35" vr="SS" vm="1" name="Series from which prescribed"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx36" vr="SS" vm="1" name="Image from which prescribed"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx37" vr="SS" vm="1" name="Screen Format"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx4f" vr="SS" vm="1" name="Locations in acquisition"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx50" vr="SS" vm="1" name="Graphically prescribed"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx51" vr="DS" vm="1" name="Rotation from source x rot"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx52" vr="DS" vm="1" name="Rotation from source y rot"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx53" vr="DS" vm="1" name="Rotation from source z rot"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx54" vr="SH" vm="3" name="Image position"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx55" vr="SH" vm="6" name="Image orientation"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx56" vr="SL" vm="1" name="Integer slop"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx57" vr="SL" vm="1" name="Integer slop"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx58" vr="SL" vm="1" name="Integer slop"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx59" vr="SL" vm="1" name="Integer slop"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx5a" vr="SL" vm="1" name="Integer slop"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx5b" vr="DS" vm="1" name="Float slop"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx5c" vr="DS" vm="1" name="Float slop"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx5d" vr="DS" vm="1" name="Float slop"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx5e" vr="DS" vm="1" name="Float slop"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx5f" vr="DS" vm="1" name="Float slop"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx81" vr="DS" vm="1" name="Auto window/level alpha"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx82" vr="DS" vm="1" name="Auto window/level beta"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx83" vr="DS" vm="1" name="Auto window/level window"/>
+    <entry owner="GEMS_RELA_01" group="0021" element="xx84" vr="DS" vm="1" name="To window/level level"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx01" vr="SL" vm="1" name="Number of series in Study"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx02" vr="SL" vm="1" name="Number of unarchived Series"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx10" vr="SS" vm="1" name="Reference image field"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx50" vr="SS" vm="1" name="Summary image"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx70" vr="FD" vm="1" name="Start time(secs) in first axial"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx74" vr="SL" vm="1" name="No. of updates to header"/>
+    <entry owner="GEMS_STDY_01" group="0023" element="xx7d" vr="SS" vm="1" name="Indicates if study has complete info (DICOM/genesis)"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx06" vr="SS" vm="1" name="Last pulse sequence used"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx07" vr="SL" vm="1" name="Images in Series"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx10" vr="SL" vm="1" name="Landmark Counter"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx11" vr="SS" vm="1" name="Number of Acquisitions"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx14" vr="SL" vm="1" name="Indicates no. of updates to header"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx17" vr="SL" vm="1" name="Series Complete Flag"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx18" vr="SL" vm="1" name="Number of images archived"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx19" vr="SL" vm="1" name="Last image number used"/>
+    <entry owner="GEMS_SERS_01" group="0025" element="xx1a" vr="SH" vm="1" name="Primary Receiver Suite and Host"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx06" vr="SL" vm="1" name="Image archive flag"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx10" vr="SS" vm="1" name="Scout Type"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx30" vr="SH" vm="1" name="Foreign Image Revision"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx31" vr="SS" vm="1" name="Imaging Mode"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx32" vr="SS" vm="1" name="Pulse Sequence"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx33" vr="SL" vm="1" name="Imaging Options"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx35" vr="SS" vm="1" name="Plane Type"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx36" vr="SL" vm="1" name="Oblique Plane"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx40" vr="SH" vm="1" name="RAS letter of image location"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx41" vr="FL" vm="1" name="Image location"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx42" vr="FL" vm="1" name="Center R coord of plane image"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx43" vr="FL" vm="1" name="Center A coord of plane image"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx44" vr="FL" vm="1" name="Center S coord of plane image"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx45" vr="FL" vm="1" name="Normal R coord"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx46" vr="FL" vm="1" name="Normal A coord"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx47" vr="FL" vm="1" name="Normal S coord"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx48" vr="FL" vm="1" name="R Coord of Top Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx49" vr="FL" vm="1" name="A Coord of Top Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx4a" vr="FL" vm="1" name="S Coord of Top Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx4b" vr="FL" vm="1" name="R Coord of Bottom Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx4c" vr="FL" vm="1" name="A Coord of Bottom Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx4d" vr="FL" vm="1" name="S Coord of Bottom Right Corner"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx60" vr="FL" vm="1" name="Image dimension - X"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx61" vr="FL" vm="1" name="Image dimension - Y"/>
+    <entry owner="GEMS_IMAG_01" group="0027" element="xx62" vr="FL" vm="1" name="Number of Excitations"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx15" vr="SL" vm="1" name="Lower range of Pixels1"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx16" vr="SL" vm="1" name="Lower range of Pixels1"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx17" vr="SL" vm="1" name="Lower range of Pixels2"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx18" vr="SL" vm="1" name="Upper range of Pixels2"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx1a" vr="SL" vm="1" name="Len of tot hdr in bytes"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx26" vr="SS" vm="1" name="Version of the hdr struct"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx34" vr="SL" vm="1" name="Advantage comp. Overflow"/>
+    <entry owner="GEMS_IMPS_01" group="0029" element="xx35" vr="SL" vm="1" name="Advantage comp. Underflow"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx01" vr="SS" vm="1" name="Bitmap of prescan options"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx02" vr="SS" vm="1" name="Gradient offset in X"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx03" vr="SS" vm="1" name="Gradient offset in Y"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx04" vr="SS" vm="1" name="Gradient offset in Z"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx05" vr="SS" vm="1" name="Img is original or unoriginal"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx06" vr="SS" vm="1" name="Number of EPI shots"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx07" vr="SS" vm="1" name="Views per segment"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx08" vr="SS" vm="1" name="Respiratory rate, bpm"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx09" vr="SS" vm="1" name="Respiratory trigger point"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx0a" vr="SS" vm="1" name="Type of receiver used"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx0b" vr="DS" vm="1" name="Peak rate of change of gradient field"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx0c" vr="DS" vm="1" name="Limits in units of percent"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx0d" vr="DS" vm="1" name="PSD estimated limit"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx0e" vr="DS" vm="1" name="PSD estimated limit in tesla per second"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx0f" vr="DS" vm="1" name="Saravghead"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx10" vr="US" vm="1" name="Window value"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx1c" vr="SS" vm="1" name="GE image integrity"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx1d" vr="SS" vm="1" name="Level value"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx28" vr="OB" vm="1" name="Unique image iden"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx29" vr="OB" vm="1" name="Histogram tables"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx2a" vr="OB" vm="1" name="User defined data"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx2b" vr="SS" vm="4" name="Private Scan Options"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx2c" vr="SS" vm="1" name="Effective echo spacing"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx2d" vr="SH" vm="1" name="String slop field 1"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx2e" vr="SH" vm="1" name="String slop field 2"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx2f" vr="SS" vm="1" name="Raw data type"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx30" vr="SS" vm="1" name="Raw data type"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx31" vr="DS" vm="2" name="RA cord of target recon center"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx32" vr="SS" vm="1" name="Raw data type"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx33" vr="FL" vm="1" name="Neg_scanspacing"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx34" vr="IS" vm="1" name="Offset Frequency"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx35" vr="UL" vm="1" name="User_usage_tag"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx36" vr="UL" vm="1" name="User_fill_map_MSW"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx37" vr="UL" vm="1" name="User_fill_map_LSW"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx38" vr="FL" vm="24" name="User25...User48"/>
+    <entry owner="GEMS_PARM_01" group="0043" element="xx39" vr="IS" vm="4" name="Slop_int_6... slop_int_9"/>
+    <entry owner="GEMS_DL_STUDY_01" group="0015" element="xx82" vr="DS" vm="1" name="Fluoro DAP (Dose Area Product)"/>
+    <entry owner="GEMS_DL_STUDY_01" group="0015" element="xx84" vr="DS" vm="1" name="Cine DAP"/>
+    <entry owner="GEMS_DLX_DOSE_01" group="0027" element="xx01" vr="SQ" vm="1" name="Private Radiation Dose Sequence"/>
+    <entry owner="GEMS_DLX_DOSE_01" group="0027" element="xx02" vr="IS" vm="1" name="Run Number"/>
+    <entry owner="GEMS_DLX_DOSE_01" group="0027" element="xx03" vr="TM" vm="1" name="Run Time"/>
+    <entry owner="GEMS_DLX_DOSE_01" group="0027" element="xx04" vr="IS" vm="1" name="Number of Frames"/>
+    <entry owner="GEMS_DLX_DOSE_01" group="0027" element="xx05" vr="DS" vm="1" name="Frames per Second"/>
+    <entry owner="GEMS_DLX_DOSE_01" group="0027" element="xx06" vr="CS" vm="1" name="Plane"/>
+    <entry owner="GEMS_DLX_DOSE_01" group="0027" element="xx07" vr="DS" vm="1" name="KV"/>
+    <entry owner="GEMS_DLX_DOSE_01" group="0027" element="xx08" vr="DS" vm="1" name="MA"/>
+    <entry owner="GEMS_DLX_DOSE_01" group="0027" element="xx09" vr="DS" vm="1" name="Mas"/>
+    <entry owner="GEMS_DLX_DOSE_01" group="0027" element="xx10" vr="DS" vm="1" name="Ms"/>
+    <entry owner="GEMS_DLX_DOSE_01" group="0027" element="xx11" vr="DS" vm="1" name="Angulation"/>
+    <entry owner="GEMS_DLX_DOSE_01" group="0027" element="xx12" vr="DS" vm="1" name="Rotation"/>
+    <entry owner="GEMS_DLX_DOSE_01" group="0027" element="xx13" vr="DS" vm="1" name="Focal Distance"/>
+    <entry owner="GEMS_DLX_DOSE_01" group="0027" element="xx14" vr="DS" vm="1" name="Image Intensifier Mode"/>
     <entry owner="GEMS_GENIE_1" group="0011" element="xx0d" vr="UN" vm="1" name="Radio Nuclide Name"/>
     <entry owner="GEMS_GENIE_1" group="0011" element="xx12" vr="UN" vm="1" name="Dataset Name"/>
     <entry owner="GEMS_GENIE_1" group="0011" element="xx13" vr="UN" vm="1" name="Dataset Type"/>
@@ -5314,6 +6478,115 @@
     <entry owner="Eclispe 60" group="200d" element="xx5d" vr="CS" vm="1" name="Private data"/>
     <entry owner="Eclispe 60" group="200d" element="xx5e" vr="CS" vm="1" name="Private data"/>
     <entry owner="Eclispe 60" group="200d" element="xxff" vr="IS" vm="1" name="Private data"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx00" vr="LT" vm="1" name="Post Mode String"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx01" vr="LT" vm="1" name="Post Data"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx10" vr="LT" vm="1" name="Image Header"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx22" vr="LO" vm="1" name="Route AET"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx23" vr="DS" vm="1" name="PCR Print Scale"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx24" vr="ST" vm="1" name="PCR Print Job End"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx25" vr="IS" vm="1" name="PCR No Film Copies"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx26" vr="IS" vm="1" name="PCR Film Layout Position"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx27" vr="ST" vm="1" name="PCR Print Report Name"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx70" vr="ST" vm="1" name="RAD Protocol Printer"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx71" vr="ST" vm="1" name="RAD Protocol Medium"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx80" vr="LO" vm="1" name="Original Filename"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx89" vr="IS" vm="1" name="Exposure Index"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8a" vr="IS" vm="1" name="Collimator X"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8b" vr="IS" vm="1" name="Collimator Y"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8c" vr="LO" vm="1" name="Print Marker"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8d" vr="LO" vm="1" name="RGDV Name"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8e" vr="LO" vm="1" name="Acqd Sensitivity"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8f" vr="LO" vm="1" name="Processing Category"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx90" vr="LO" vm="1" name="Unprocessed Flag"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx91" vr="DS" vm="2" name="Key Values"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx92" vr="LO" vm="1" name="Destination Postprocessing Function"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa0" vr="LO" vm="1" name="Version"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa1" vr="LO" vm="1" name="Ranging Mode"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa2" vr="DS" vm="1" name="Abdomen Brightness"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa3" vr="DS" vm="1" name="Fixed Brightness"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa4" vr="DS" vm="1" name="Detail Contrast"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa5" vr="DA" vm="1" name="Contrast Balance"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa6" vr="DS" vm="1" name="Structure Boost"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa7" vr="DS" vm="1" name="Structure Preference"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa8" vr="DS" vm="1" name="Noise Robustness"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa9" vr="DS" vm="1" name="Noise Dose Limit"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxaa" vr="DS" vm="1" name="Noise Dose Step"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxab" vr="DS" vm="1" name="Noise Frequency Limit"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxac" vr="DS" vm="1" name="Weak Contrast Limit"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxad" vr="DS" vm="1" name="Strong Contrast Limit"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxae" vr="DS" vm="1" name="Structure Boost Offset"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxaf" vr="LO" vm="1" name="Smooth Gain"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb0" vr="LO" vm="1" name="Measure Field 1"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb1" vr="LO" vm="1" name="Measure Field 2"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb2" vr="IS" vm="1" name="Key Percentile 1"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb3" vr="IS" vm="1" name="Key Percentile 2"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb4" vr="IS" vm="1" name="Density LUT"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb5" vr="DS" vm="1" name="Brightness"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb6" vr="DS" vm="1" name="Gamma"/>
+    <entry owner="DIDI TO PCR 1.1" group="0089" element="xx10" vr="SQ" vm="1" name="Stamp Image Sequence"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx00" vr="LT" vm="1" name="Post Mode String"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx01" vr="LT" vm="1" name="Post Data"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx10" vr="LT" vm="1" name="Image Header"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx20" vr="LT" vm="1" name="SCPreName"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx21" vr="IS" vm="1" name="SCPostNo"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx22" vr="LT" vm="1" name="SCSOPInstanceUID"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx23" vr="LT" vm="1" name="SCCreationDate"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx24" vr="LT" vm="1" name="SCProcessingCategory"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx25" vr="LT" vm="1" name="SCPostMethod"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx26" vr="LT" vm="1" name="SCPostString"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx27" vr="LT" vm="1" name="SCPostString2"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx28" vr="LT" vm="1" name="SCMode"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx29" vr="IS" vm="1" name="SCStCommit"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx2a" vr="IS" vm="1" name="SCExported"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx2b" vr="IS" vm="1" name="SCPrinted"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx2c" vr="LT" vm="1" name="SCOperator"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx40" vr="LT" vm="1" name="SCPreName"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx41" vr="IS" vm="1" name="SCPreType"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx22" vr="LO" vm="1" name="Route AET"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx23" vr="DS" vm="1" name="PCR Print Scale"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx24" vr="ST" vm="1" name="PCR Print Job End"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx25" vr="IS" vm="1" name="PCR No Film Copies"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx26" vr="IS" vm="1" name="PCR Film Layout Position"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx27" vr="ST" vm="1" name="PCR Print Report Name"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx70" vr="ST" vm="1" name="RAD Protocol Printer"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx71" vr="ST" vm="1" name="RAD Protocol Medium"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx80" vr="LO" vm="1" name="Original Filename"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx81" vr="SH" vm="1" name="Filter Type"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx82" vr="LT" vm="1" name="Stitching"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx89" vr="IS" vm="1" name="Exposure Index"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8a" vr="IS" vm="1" name="Collimator X"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8b" vr="IS" vm="1" name="Collimator Y"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8c" vr="LO" vm="1" name="Print Marker"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8d" vr="LO" vm="1" name="RGDV Name"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8e" vr="LO" vm="1" name="Acqd Sensitivity"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8f" vr="LO" vm="1" name="Processing Category"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx90" vr="LO" vm="1" name="Unprocessed Flag"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx91" vr="DS" vm="2" name="Key Values"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx92" vr="LO" vm="1" name="Destination Postprocessing Function"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa0" vr="LO" vm="1" name="Version"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa1" vr="LO" vm="1" name="Ranging Mode"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa2" vr="DS" vm="1" name="Abdomen Brightness"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa3" vr="DS" vm="1" name="Fixed Brightness"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa4" vr="DS" vm="1" name="Detail Contrast"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa5" vr="DA" vm="1" name="Contrast Balance"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa6" vr="DS" vm="1" name="Structure Boost"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa7" vr="DS" vm="1" name="Structure Preference"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa8" vr="DS" vm="1" name="Noise Robustness"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa9" vr="DS" vm="1" name="Noise Dose Limit"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxaa" vr="DS" vm="1" name="Noise Dose Step"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxab" vr="DS" vm="1" name="Noise Frequency Limit"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxac" vr="DS" vm="1" name="Weak Contrast Limit"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxad" vr="DS" vm="1" name="Strong Contrast Limit"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxae" vr="DS" vm="1" name="Structure Boost Offset"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxaf" vr="LO" vm="1" name="Smooth Gain"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb0" vr="LO" vm="1" name="Measure Field 1"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb1" vr="LO" vm="1" name="Measure Field 2"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb2" vr="IS" vm="1" name="Key Percentile 1"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb3" vr="IS" vm="1" name="Key Percentile 2"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb4" vr="IS" vm="1" name="Density LUT"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb5" vr="DS" vm="1" name="Brightness"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb6" vr="DS" vm="1" name="Gamma"/>
+    <entry owner="DIDI TO PCR 1.1" group="0089" element="xx10" vr="SQ" vm="1" name="Stamp Image Sequence"/>
     <entry owner="ADAC_IMG" group="0019" element="xx00" vr="LO" vm="2" name="ADAC Header Signature"/>
     <entry owner="ADAC_IMG" group="0019" element="xx02" vr="IS" vm="1" name="Ver200 ADAC Pegasys File Size"/>
     <entry owner="ADAC_IMG" group="0019" element="xx21" vr="US" vm="1" name="Ver200 Number of ADAC Headers"/>

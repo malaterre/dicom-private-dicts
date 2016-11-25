@@ -2236,6 +2236,133 @@
 
 
   
+    
+    
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx00" vr="LT" vm="1" name="Post Mode String"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx01" vr="LT" vm="1" name="Post Data"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx10" vr="LT" vm="1" name="Image Header"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx22" vr="LO" vm="1" name="Route AET"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx23" vr="DS" vm="1" name="PCR Print Scale"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx24" vr="ST" vm="1" name="PCR Print Job End"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx25" vr="IS" vm="1" name="PCR No Film Copies"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx26" vr="IS" vm="1" name="PCR Film Layout Position"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx27" vr="ST" vm="1" name="PCR Print Report Name"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx70" vr="ST" vm="1" name="RAD Protocol Printer"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx71" vr="ST" vm="1" name="RAD Protocol Medium"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx80" vr="LO" vm="1" name="Original Filename"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx89" vr="IS" vm="1" name="Exposure Index"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8a" vr="IS" vm="1" name="Collimator X"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8b" vr="IS" vm="1" name="Collimator Y"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8c" vr="LO" vm="1" name="Print Marker"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8d" vr="LO" vm="1" name="RGDV Name"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8e" vr="LO" vm="1" name="Acqd Sensitivity"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8f" vr="LO" vm="1" name="Processing Category"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx90" vr="LO" vm="1" name="Unprocessed Flag"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx91" vr="DS" vm="2" name="Key Values"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx92" vr="LO" vm="1" name="Destination Postprocessing Function"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa0" vr="LO" vm="1" name="Version"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa1" vr="LO" vm="1" name="Ranging Mode"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa2" vr="DS" vm="1" name="Abdomen Brightness"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa3" vr="DS" vm="1" name="Fixed Brightness"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa4" vr="DS" vm="1" name="Detail Contrast"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa5" vr="DA" vm="1" name="Contrast Balance"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa6" vr="DS" vm="1" name="Structure Boost"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa7" vr="DS" vm="1" name="Structure Preference"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa8" vr="DS" vm="1" name="Noise Robustness"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa9" vr="DS" vm="1" name="Noise Dose Limit"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxaa" vr="DS" vm="1" name="Noise Dose Step"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxab" vr="DS" vm="1" name="Noise Frequency Limit"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxac" vr="DS" vm="1" name="Weak Contrast Limit"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxad" vr="DS" vm="1" name="Strong Contrast Limit"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxae" vr="DS" vm="1" name="Structure Boost Offset"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxaf" vr="LO" vm="1" name="Smooth Gain"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb0" vr="LO" vm="1" name="Measure Field 1"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb1" vr="LO" vm="1" name="Measure Field 2"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb2" vr="IS" vm="1" name="Key Percentile 1"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb3" vr="IS" vm="1" name="Key Percentile 2"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb4" vr="IS" vm="1" name="Density LUT"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb5" vr="DS" vm="1" name="Brightness"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb6" vr="DS" vm="1" name="Gamma"/>
+    
+    <entry owner="DIDI TO PCR 1.1" group="0089" element="xx10" vr="SQ" vm="1" name="Stamp Image Sequence"/>
+  
+
+
+  
+    
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx00" vr="LT" vm="1" name="Post Mode String"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx01" vr="LT" vm="1" name="Post Data"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx10" vr="LT" vm="1" name="Image Header"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx20" vr="LT" vm="1" name="SCPreName"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx21" vr="IS" vm="1" name="SCPostNo"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx22" vr="LT" vm="1" name="SCSOPInstanceUID"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx23" vr="LT" vm="1" name="SCCreationDate"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx24" vr="LT" vm="1" name="SCProcessingCategory"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx25" vr="LT" vm="1" name="SCPostMethod"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx26" vr="LT" vm="1" name="SCPostString"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx27" vr="LT" vm="1" name="SCPostString2"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx28" vr="LT" vm="1" name="SCMode"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx29" vr="IS" vm="1" name="SCStCommit"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx2a" vr="IS" vm="1" name="SCExported"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx2b" vr="IS" vm="1" name="SCPrinted"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx2c" vr="LT" vm="1" name="SCOperator"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx40" vr="LT" vm="1" name="SCPreName"/>
+    <entry owner="SPI-P-Private-DiDi Release 1" group="0019" element="xx41" vr="IS" vm="1" name="SCPreType"/>
+  
+  
+    
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx22" vr="LO" vm="1" name="Route AET"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx23" vr="DS" vm="1" name="PCR Print Scale"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx24" vr="ST" vm="1" name="PCR Print Job End"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx25" vr="IS" vm="1" name="PCR No Film Copies"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx26" vr="IS" vm="1" name="PCR Film Layout Position"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx27" vr="ST" vm="1" name="PCR Print Report Name"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx70" vr="ST" vm="1" name="RAD Protocol Printer"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx71" vr="ST" vm="1" name="RAD Protocol Medium"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx80" vr="LO" vm="1" name="Original Filename"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx81" vr="SH" vm="1" name="Filter Type"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx82" vr="LT" vm="1" name="Stitching"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx89" vr="IS" vm="1" name="Exposure Index"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8a" vr="IS" vm="1" name="Collimator X"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8b" vr="IS" vm="1" name="Collimator Y"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8c" vr="LO" vm="1" name="Print Marker"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8d" vr="LO" vm="1" name="RGDV Name"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8e" vr="LO" vm="1" name="Acqd Sensitivity"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx8f" vr="LO" vm="1" name="Processing Category"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx90" vr="LO" vm="1" name="Unprocessed Flag"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx91" vr="DS" vm="2" name="Key Values"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xx92" vr="LO" vm="1" name="Destination Postprocessing Function"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa0" vr="LO" vm="1" name="Version"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa1" vr="LO" vm="1" name="Ranging Mode"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa2" vr="DS" vm="1" name="Abdomen Brightness"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa3" vr="DS" vm="1" name="Fixed Brightness"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa4" vr="DS" vm="1" name="Detail Contrast"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa5" vr="DA" vm="1" name="Contrast Balance"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa6" vr="DS" vm="1" name="Structure Boost"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa7" vr="DS" vm="1" name="Structure Preference"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa8" vr="DS" vm="1" name="Noise Robustness"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxa9" vr="DS" vm="1" name="Noise Dose Limit"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxaa" vr="DS" vm="1" name="Noise Dose Step"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxab" vr="DS" vm="1" name="Noise Frequency Limit"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxac" vr="DS" vm="1" name="Weak Contrast Limit"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxad" vr="DS" vm="1" name="Strong Contrast Limit"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxae" vr="DS" vm="1" name="Structure Boost Offset"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxaf" vr="LO" vm="1" name="Smooth Gain"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb0" vr="LO" vm="1" name="Measure Field 1"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb1" vr="LO" vm="1" name="Measure Field 2"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb2" vr="IS" vm="1" name="Key Percentile 1"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb3" vr="IS" vm="1" name="Key Percentile 2"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb4" vr="IS" vm="1" name="Density LUT"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb5" vr="DS" vm="1" name="Brightness"/>
+    <entry owner="DIDI TO PCR 1.1" group="0019" element="xxb6" vr="DS" vm="1" name="Gamma"/>
+  
+  
+    
+    <entry owner="DIDI TO PCR 1.1" group="0089" element="xx10" vr="SQ" vm="1" name="Stamp Image Sequence"/>
+  
+
+
+  
     <entry owner="ADAC_IMG" group="0019" element="xx00" vr="LO" vm="2" name="ADAC Header Signature"/>
     <entry owner="ADAC_IMG" group="0019" element="xx02" vr="IS" vm="1" name="Ver200 ADAC Pegasys File Size"/>
     <entry owner="ADAC_IMG" group="0019" element="xx21" vr="US" vm="1" name="Ver200 Number of ADAC Headers"/>

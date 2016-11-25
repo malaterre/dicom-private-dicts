@@ -2,6 +2,8 @@
 <file>pms/EVMLegacy.xml</file>
 <file>pms/PMS-R32-dict.xml</file>
 <file>pms/HD11DCS.xml</file>
+<file>pms/DiDi_1_4_dcs_1_5.xml</file>
+<file>pms/DCS-Digital-Diagnost15-05.xml</file>
 <file>pms/DICOM_Conformance_Statement_Pegasys_R4.25_0.xml</file>
 <file>pms/DICOM_Conformance_Statement_Pegasys_R4.25_1.xml</file>
 <file>pms/DICOM_Conformance_Statement_Pegasys_R4.25_2.xml</file>
