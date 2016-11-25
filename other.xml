@@ -1,6 +1,43 @@
 <?xml version="1.0"?>
 <dict>
 
+
+<entry owner="AMICAS0" group="0023" element="xx01" vr="UI" vm="1" name="Original SOP Instance UID"/>
+<entry owner="AMICAS0" group="0023" element="xx02" vr="OB" vm="1" name="Compressed Pixel Data"/>
+<entry owner="AMICAS0" group="0023" element="xx08" vr="US" vm="1" name="Minimum Pixel Value"/>
+<entry owner="AMICAS0" group="0023" element="xx10" vr="US" vm="1" name="Maximum Pixel Value"/>
+<entry owner="AMICAS0" group="0023" element="xx16" vr="SL" vm="1" name="Intercept"/>
+<entry owner="AMICAS0" group="0023" element="xx17" vr="UL" vm="1" name="Compressed Image Length"/>
+<entry owner="AMICAS0" group="0023" element="xx18" vr="US" vm="1" name="Compressed Image Flag"/>
+<entry owner="AMICAS0" group="0023" element="xx19" vr="US" vm="1" name="Reconstituted Image Flag"/>
+<entry owner="AMICAS0" group="0023" element="xx20" vr="LO" vm="1" name="Compressed Mimetype"/>
+<entry owner="AMICAS0" group="0023" element="xx21" vr="US" vm="1" name="Telemed Image Flag"/>
+<entry owner="AMICAS0" group="0023" element="xx22" vr="UL" vm="1" name="Original Station ID"/>
+<entry owner="AMICAS0" group="0023" element="xx30" vr="LO" vm="1" name="Validation Element Signature"/>
+<entry owner="AMICAS0" group="0023" element="xx31" vr="LO" vm="1" name="Validation Element Reason"/>
+<entry owner="AMICAS0" group="0023" element="xx32" vr="DA" vm="1" name="Validation Element Date"/>
+<entry owner="AMICAS0" group="0023" element="xx33" vr="LO" vm="1" name="Validation Element State"/>
+<entry owner="AMICAS0" group="0023" element="xx34" vr="UI" vm="1" name="Validation Element Old Amicas Image UID"/>
+<entry owner="AMICAS0" group="0023" element="xx35" vr="UI" vm="1" name="Old Study Instance UID"/>
+<entry owner="AMICAS0" group="0023" element="xx36" vr="UI" vm="1" name="Old Series Instance UID"/>
+<entry owner="AMICAS0" group="0023" element="xx37" vr="UI" vm="1" name="Old SOP Instance UID"/>
+<entry owner="AMICAS0" group="0023" element="xx40" vr="US" vm="1" name="Archive Restored Flag"/>
+<entry owner="AMICAS0" group="0023" element="xx42" vr="US" vm="1" name="Migrated Image Flag"/>
+<entry owner="AMICAS0" group="0023" element="xx43" vr="US" vm="1" name="Lossless Compression Flag"/>
+<entry owner="AMICAS0" group="0023" element="xx44" vr="UT" vm="1" name="Spine Label Set"/>
+<entry owner="AMICAS0" group="0023" element="xx45" vr="US" vm="1" name="Demo File Version"/>
+<entry owner="AMICAS0" group="0023" element="xx46" vr="CS" vm="1" name="Sharpen Type"/>
+<entry owner="AMICAS0" group="0023" element="xx47" vr="US" vm="1" name="Kernel Rows"/>
+<entry owner="AMICAS0" group="0023" element="xx48" vr="US" vm="1" name="Kernel Columns"/>
+<entry owner="AMICAS0" group="0023" element="xx49" vr="FL" vm="1" name="Kernel Data"/>
+<entry owner="AMICAS0" group="0023" element="xx4a" vr="US" vm="1" name="Mammography Edges"/>
+<entry owner="AMICAS0" group="0023" element="xx50" vr="UT" vm="1" name="3D Key Image Info"/>
+<entry owner="AMICAS0" group="0023" element="xx51" vr="UT" vm="1" name="Viewer Layout Information"/>
+<entry owner="AMICAS0" group="0023" element="xx52" vr="UT" vm="1" name="MPR Series Creation Info"/>
+<entry owner="AMICAS0" group="0023" element="xx53" vr="UT" vm="1" name="Study Presentation Step Info"/>
+
+
+
   
     <entry owner="SCHICK TECHNOLOGIES - Viewset Creator ID" group="0009" element="xx01" vr="UI" vm="1" name="Instance UID"/>
     <entry owner="SCHICK TECHNOLOGIES - Viewset Creator ID" group="0009" element="xx02" vr="LO" vm="1" name="Name"/>

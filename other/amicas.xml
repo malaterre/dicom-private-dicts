@@ -1,0 +1,37 @@
+<dicts>
+<dict owner="AMICAS0">
+<entry group="0023" element="01" vr="UI" vm="1" name="Original SOP Instance UID"></entry>
+<entry group="0023" element="02" vr="OB" vm="1" name="Compressed Pixel Data"></entry>
+<entry group="0023" element="08" vr="US" vm="1" name="Minimum Pixel Value"></entry>
+<entry group="0023" element="10" vr="US" vm="1" name="Maximum Pixel Value"></entry>
+<entry group="0023" element="16" vr="SL" vm="1" name="Intercept"></entry>
+<entry group="0023" element="17" vr="UL" vm="1" name="Compressed Image Length"></entry>
+<entry group="0023" element="18" vr="US" vm="1" name="Compressed Image Flag"></entry>
+<entry group="0023" element="19" vr="US" vm="1" name="Reconstituted Image Flag"></entry>
+<entry group="0023" element="20" vr="LO" vm="1" name="Compressed Mimetype"></entry>
+<entry group="0023" element="21" vr="US" vm="1" name="Telemed Image Flag"></entry>
+<entry group="0023" element="22" vr="UL" vm="1" name="Original Station ID"></entry>
+<entry group="0023" element="30" vr="LO" vm="1" name="Validation Element Signature"></entry>
+<entry group="0023" element="31" vr="LO" vm="1" name="Validation Element Reason"></entry>
+<entry group="0023" element="32" vr="DA" vm="1" name="Validation Element Date"></entry>
+<entry group="0023" element="33" vr="LO" vm="1" name="Validation Element State"></entry>
+<entry group="0023" element="34" vr="UI" vm="1" name="Validation Element Old Amicas Image UID"></entry>
+<entry group="0023" element="35" vr="UI" vm="1" name="Old Study Instance UID"></entry>
+<entry group="0023" element="36" vr="UI" vm="1" name="Old Series Instance UID"></entry>
+<entry group="0023" element="37" vr="UI" vm="1" name="Old SOP Instance UID"></entry>
+<entry group="0023" element="40" vr="US" vm="1" name="Archive Restored Flag"></entry>
+<entry group="0023" element="42" vr="US" vm="1" name="Migrated Image Flag"></entry>
+<entry group="0023" element="43" vr="US" vm="1" name="Lossless Compression Flag"></entry>
+<entry group="0023" element="44" vr="UT" vm="1" name="Spine Label Set"></entry>
+<entry group="0023" element="45" vr="US" vm="1" name="Demo File Version"></entry>
+<entry group="0023" element="46" vr="CS" vm="1" name="Sharpen Type"></entry>
+<entry group="0023" element="47" vr="US" vm="1" name="Kernel Rows"></entry>
+<entry group="0023" element="48" vr="US" vm="1" name="Kernel Columns"></entry>
+<entry group="0023" element="49" vr="FL" vm="1" name="Kernel Data"></entry>
+<entry group="0023" element="4a" vr="US" vm="1" name="Mammography Edges"></entry>
+<entry group="0023" element="50" vr="UT" vm="1" name="3D Key Image Info"></entry>
+<entry group="0023" element="51" vr="UT" vm="1" name="Viewer Layout Information"></entry>
+<entry group="0023" element="52" vr="UT" vm="1" name="MPR Series Creation Info"></entry>
+<entry group="0023" element="53" vr="UT" vm="1" name="Study Presentation Step Info"></entry>
+</dict>
+</dicts>

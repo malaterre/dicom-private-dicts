@@ -70,23 +70,6 @@
   <entry owner="AGFA" group="0019" element="xx93" vr="CS" vm="1" name="Status"/>
   <entry owner="AGFA PACS Archive Mirroring 1.0" group="0031" element="xx00" vr="CS" vm="1" name="?"/>
   <entry owner="AGFA PACS Archive Mirroring 1.0" group="0031" element="xx01" vr="UL" vm="1" name="?"/>
-  <entry owner="AGFA-AG_HPState" group="0071" element="xx18" vr="SQ" vm="1" name="?"/>
-  <entry owner="AGFA-AG_HPState" group="0071" element="xx19" vr="SQ" vm="1" name="?"/>
-  <entry owner="AGFA-AG_HPState" group="0071" element="xx1a" vr="SQ" vm="1" name="?"/>
-  <entry owner="AGFA-AG_HPState" group="0071" element="xx1c" vr="SQ" vm="1" name="?"/>
-  <entry owner="AGFA-AG_HPState" group="0071" element="xx1e" vr="SQ" vm="1" name="?"/>
-  <entry owner="AGFA-AG_HPState" group="0071" element="xx20" vr="FL" vm="1-n" name="?"/>
-  <entry owner="AGFA-AG_HPState" group="0071" element="xx21" vr="FD" vm="1-n" name="?"/>
-  <entry owner="AGFA-AG_HPState" group="0071" element="xx22" vr="FD" vm="1-n" name="?"/>
-  <entry owner="AGFA-AG_HPState" group="0071" element="xx23" vr="FD" vm="1-n" name="?"/>
-  <entry owner="AGFA-AG_HPState" group="0071" element="xx24" vr="FD" vm="1" name="?"/>
-  <entry owner="AGFA-AG_HPState" group="0073" element="xx23" vr="SH" vm="1" name="?"/>
-  <entry owner="AGFA-AG_HPState" group="0073" element="xx24" vr="SQ" vm="1" name="?"/>
-  <entry owner="AGFA-AG_HPState" group="0073" element="xx28" vr="SQ" vm="1" name="?"/>
-  <entry owner="AGFA-AG_HPState" group="0073" element="xx80" vr="FL" vm="1" name="?"/>
-  <entry owner="AGFA-AG_HPState" group="0075" element="xx10" vr="LO" vm="1" name="?"/>
-  <entry owner="AGFA-AG_HPState" group="0087" element="xx01" vr="LO" vm="1" name="?"/>
-  <entry owner="AGFA-AG_HPState" group="0087" element="xx02" vr="LO" vm="1" name="?"/>
   <entry owner="AGFA_ADC_Compact" group="0019" element="xx05" vr="ST" vm="1" name="Data stream from cassette"/>
   <entry owner="AGFA_ADC_Compact" group="0019" element="xx10" vr="LO" vm="1" name="Private Identification Code"/>
   <entry owner="AGFA_ADC_Compact" group="0019" element="xx30" vr="ST" vm="1" name="Set of destination types"/>
@@ -125,7 +108,6 @@
   <entry owner="AMI Sequence Annotations_01" group="3103" element="xx10" vr="CS" vm="1" name="AMI Annotation Sequence (RET)"/>
   <entry owner="AMI Sequence Annotations_01" group="3103" element="xx20" vr="UI" vm="1" name="AMI Annotation UID (RET)"/>
   <entry owner="AMI Sequence Annotations_01" group="3103" element="xx30" vr="US" vm="1" name="AMI Annotation Color (RET)"/>
-  <entry owner="AMI Sequence Annotations_01" group="3103" element="xx40" vr="FD" vm="1" name="FontSize"/>
   <entry owner="AMI Sequence Annotations_01" group="3103" element="xx50" vr="CS" vm="1" name="AMI Annotation Line Style (RET)"/>
   <entry owner="AMI Sequence Annotations_01" group="3103" element="xx60" vr="SQ" vm="1" name="AMI Annotation Elements (RET)"/>
   <entry owner="AMI Sequence Annotations_01" group="3103" element="xx70" vr="SH" vm="1" name="AMI Annotation Label (RET)"/>
@@ -154,7 +136,6 @@
   <entry owner="AMICAS0" group="0023" element="xx08" vr="US" vm="1" name=""/>
   <entry owner="AMICAS0" group="0023" element="xx10" vr="US" vm="1" name=""/>
   <entry owner="AMICAS0" group="0023" element="xx16" vr="SL" vm="1" name=""/>
-  <entry owner="APEX_PRIVATE" group="0027" element="xx10" vr="LO" vm="1" name="Private Creator"/>
   <entry owner="APEX_PRIVATE" group="0027" element="xx11" vr="DS" vm="1" name="Bed Position"/>
   <entry owner="ATL HDI V1.0" group="0009" element="xx00" vr="UN" vm="1" name="Private"/>
   <entry owner="ATL HDI V1.0" group="0009" element="xx10" vr="UN" vm="1" name="Private"/>

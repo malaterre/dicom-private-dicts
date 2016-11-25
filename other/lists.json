@@ -1,4 +1,7 @@
 [
+    {
+        "xml": "amicas.xml"
+    }, 
    {
       "tables" : [
          {
