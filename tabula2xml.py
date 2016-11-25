@@ -33,15 +33,21 @@ def normalize_header( header ):
     txt = it['text']
     if txt == 'Attribute Name' or txt == 'Name' or txt == 'Attribute':
       ret[ index ] = u'AttributeName'
-    elif txt == 'Group, Tag':
+    elif txt == 'DICOM VR':
+      ret[ index ] = u'VR'
+    elif txt == 'DICOM VM':
+      ret[ index ] = u'VM'
+    elif txt == 'DICOM Tag' or txt == 'Group, Tag':
       ret[ index ] = u'Tag'
     elif txt == 'Default Value':
       ret[ index ] = u'DefaultValue'
     elif txt == 'Description' or txt == 'Attribute Description':
       ret[ index ] = u'Definition'
+    elif txt == 'DICOM Private Creator':
+      ret[ index ] = u'Owner'
     else:
       ret[ index ] = txt
-  if(debug): print >> sys.stderr, "debug header:", debug
+  if(debug): print >> sys.stderr, "debug header:", debug, ret
   return ret
 
 def read_group( value ):
@@ -183,7 +189,9 @@ for f in files:
     for page in pages:
       data = page['data']
       if use_table_header:
+        #print data[0]
         k = normalize_header( data[0] )
+        #print k
         for j in data[1:]: # skip first line
           elem={}
           elstr=[]

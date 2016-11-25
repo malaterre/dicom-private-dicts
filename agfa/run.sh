@@ -5,4 +5,5 @@ set -e
 ./tabula.sh -o "agfa/ad48c1a03a1e2b6c7e8126c6e42d7870_0_0.json" --spreadsheet -p 25 -a 50,61,400,1000 "agfa/000946_tcm583-21755.pdf"
 ./tabula.sh -o "agfa/ad48c1a03a1e2b6c7e8126c6e42d7870_1_0.json" --spreadsheet -p 16 -a 100,50,250,1000 "agfa/000946_tcm583-21755.pdf"
 ./tabula.sh -o "agfa/2e52b0254d8591c9839d1f855f08ee35_0_0.json" --spreadsheet -p 37 -a 291.083,63.878,561.893,547.358 "agfa/000410_tcm583-21790.pdf"
+./tabula.sh -o "agfa/35f6dab742c45e9b1afeb13ea6443e39_0_0.json" -p 86 -a 203.509,41.297,554.72,548.767 "agfa/001537_IMPAX_6.7_DICOM_Conformance_Statement.pdf"
 #rm agfa/chunk?.json

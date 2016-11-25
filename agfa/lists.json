@@ -73,5 +73,34 @@
          }
       ],
       "url" : "http://www.agfahealthcare.com/he/france/fr/binaries/000410_tcm583-21790.pdf"
-   }
+   },
+{
+
+        "content-disposition": "001537_IMPAX_6.7_DICOM_Conformance_Statement.pdf", 
+      "md5" : "35f6dab742c45e9b1afeb13ea6443e39",
+"tables":
+[
+    {
+        "chunks": [
+            {
+                "area": "203.509,41.297,554.72,548.767", 
+                "page": "86",
+"spreadsheet" : false
+            }
+        ], 
+        "_use_table_header_weird_phantom_col": true,
+"header" : [
+               "AttributeName",
+               "Tag",
+               "VR",
+               "VM",
+               "UNK",
+               "Owner"
+            ]
+    }
+],
+
+"url":"http://www.agfahealthcare.com/global/en/he/library/libraryopen?ID=54472549"
+}
+
 ]

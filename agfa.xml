@@ -57,4 +57,38 @@
     <entry owner="1.2.840.113681" group="0019" element="xx13" vr="ST" vm="1" name="CR Image IP Params Right"/>
 
 
+
+  
+    <entry owner="Mitra Markup 1.0" group="0029" element="xx00" vr="OB" vm="1-n" name="Markup1"/>
+    <entry owner="Mitra Markup 1.0" group="0029" element="xx01" vr="OB" vm="1-n" name="Markup2"/>
+    <entry owner="Mitra Markup 1.0" group="0029" element="xx02" vr="OB" vm="1-n" name="Markup3"/>
+    <entry owner="Mitra Markup 1.0" group="0029" element="xx03" vr="OB" vm="1-n" name="Markup4"/>
+    <entry owner="Mitra Markup 1.0" group="0029" element="xx04" vr="OB" vm="1-n" name="Markup5"/>
+    <entry owner="Mitra Markup 1.0" group="0029" element="xx05" vr="OB" vm="1-n" name="Markup6"/>
+    <entry owner="Mitra Markup 1.0" group="0029" element="xx06" vr="OB" vm="1-n" name="Markup7"/>
+    <entry owner="Mitra Markup 1.0" group="0029" element="xx07" vr="OB" vm="1-n" name="Markup8"/>
+    <entry owner="Mitra Markup 1.0" group="0029" element="xx08" vr="OB" vm="1-n" name="Markup9"/>
+    <entry owner="Mitra Markup 1.0" group="0029" element="xx09" vr="OB" vm="1-n" name="Markup10"/>
+    <entry owner="Mitra Markup 1.0" group="0029" element="xx10" vr="OB" vm="1-n" name="Markup11"/>
+    <entry owner="Mitra Markup 1.0" group="0029" element="xx11" vr="OB" vm="1-n" name="Markup12"/>
+    <entry owner="Mitra Markup 1.0" group="0029" element="xx12" vr="OB" vm="1" name="Markup13"/>
+    <entry owner="Mitra Markup 1.0" group="0029" element="xx13" vr="OB" vm="1" name="Markup14"/>
+    <entry owner="Mitra Markup 1.0" group="0029" element="xx14" vr="OB" vm="1" name="Markup15"/>
+
+  
+    <entry owner="Mitra Presentation 1.0" group="0029" element="xx00" vr="CS" vm="1" name="Mitra Rotation"/>
+    <entry owner="Mitra Presentation 1.0" group="0029" element="xx01" vr="LO" vm="1" name="Mitra Window Width"/>
+    <entry owner="Mitra Presentation 1.0" group="0029" element="xx02" vr="LO" vm="1" name="Mitra Window Centre"/>
+    <entry owner="Mitra Presentation 1.0" group="0029" element="xx03" vr="IS" vm="1" name="Mitra Invert"/>
+    <entry owner="Mitra Presentation 1.0" group="0029" element="xx04" vr="IS" vm="1" name="Mitra Has Tabstop"/>
+
+  
+    <entry owner="AGFA PACS Archive Mirroring 1.0" group="0031" element="xx00" vr="CS" vm="1" name="study_status"/>
+    <entry owner="AGFA PACS Archive Mirroring 1.0" group="0031" element="xx01" vr="CS" vm="1" name="date_time_verified"/>
+
+  
+    <entry owner="Mitra Object Document 1.0" group="0029" element="xx00" vr="OB" vm="1" name="IMPAX object document"/>
+    <entry owner="Mitra Object Document 1.0" group="0029" element="xx10" vr="OB" vm="1" name="IMPAX markup XML stored"/>
+
+
 </dict>
