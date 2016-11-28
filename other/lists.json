@@ -5,244 +5,297 @@
     {
         "xml": "amicas.xml"
     }, 
-   {
-      "tables" : [
-         {
-            "owner" : "SCHICK TECHNOLOGIES - Viewset Creator ID",
-            "use_table_header" : true,
-            "chunks" : [
-               {
-                  "page" : 24,
-"area" : " 274.253,76.118,373.703,538.178" 
-               }]
-         },
-          {
-            "owner" : "SCHICK TECHNOLOGIES - Viewset Item Creator ID",
-            "use_table_header" : true,
-            "chunks" : [
-               {
-                  "page" : 24,
-"area" : " 400.478,80.708,675.113,536.648" 
-               }]
-          },
-          {
-            "owner" : "SCHICK TECHNOLOGIES - Change List Creator ID",
-            "use_table_header" : true,
-            "chunks" : [
-               {
-                  "page" : 25,
-"area" : " 179.393,79.178,242.123,536.648" 
-               }]
-          },
-          {
-            "owner" : "SCHICK TECHNOLOGIES - Change Item Creator ID",
-            "use_table_header" : true,
-            "chunks" : [
-               {
-                  "page" : 25,
-"area" : " 271.193,79.943,366.053,537.413" 
-               }]
-          },
-          {
-            "owner" : "SCHICK TECHNOLOGIES - Note List Creator ID",
-            "use_table_header" : true,
-            "chunks" : [
-               {
-                  "page" : 25,
-"area" : " 490.748,77.648,555.008,539.708" 
-               }]
-          },
-          {
-            "owner" : "SCHICK TECHNOLOGIES - Note Item Creator ID",
-            "use_table_header" : true,
-            "chunks" : [
-               {
-                  "page" : 25,
-"area" : " 580.253,74.588,680.468,536.648" 
-               }]
-          },
-          {
-            "owner" : "SCHICK TECHNOLOGIES - Image Security Creator ID",
-            "use_table_header" : true,
-            "chunks" : [
-               {
-                  "page" : 26,
-"area" : " 175.568,79.178,221.468,534.353" 
-               }]
-         }
-      ],
-      "url" : "http://www.schicktech.com/uploads/downloads/DicomClient_Conformance_35.pdf",
-      "md5" : "1fe9c48e9060577dc44baee016409739"
-   },
-   {
-      "url" : "http://www.soundvet.com/library/media/pdf/DICOMconformanceTruDR_VPACSv15.pdf",
-      "md5" : "b9977a8fe336aa8721bf6d1d9cfad8af",
-      "tables" : [
-         {
-            "owner" : "Sound Technologies",
-            "header" : [
-               "AttributeName",
-               "Tag",
-               "VR",
-               "Type",
-               "Definition"
-            ],
-            "chunks" : [
-               {
-                  "page" : 15,
-"area" : "198.518,53.168,708.773,568.778" 
-               },
-               {
-                  "page" : 16,
-"area" : "63.878,53.168,386.708,558.068" 
-               }]
-         }
-      ]
-   },
-   {
-      "url" : "http://www.radinfosystems.com/pdf/PowerPACS_ImageImporter-DicomConform.pdf",
-      "md5" : "b9c03ced27f3e2c0c5baa9de5861f722",
-      "tables" : [
-         {
-            "owner" : "PRIVATE ORIGINAL ATTRIBUTES",
-            "header" : [
-               "AttributeName",
-               "Tag",
-               "VR",
-               "VM",
-               "Type",
-               "Definition"
-            ],
-   "chunks" : [
-      {
-         "area" : "263.543,97.538,711.833,536.648",
-         "page" : "17"
-      },
-      {
-         "page" : "18",
-         "area" : "93.713,99.833,456.323,534.353"
-      }
-   ]
-
-         }
-      ]
-   },
-   {
-      "url" : "http://www.dexis.com/filebin/documents/policy/DEXIS-DICOM.pdf",
-      "md5" : "ad4f23dd449f3bae7718952aad1d9817",
-      "tables" : [
-         {
-            "owner" : "2.16.840.1.114059.1.1.6.1.50.1",
-            "header" : [
-               "AttributeName",
-               "Tag",
-               "Definition"
-            ],
-"chunks": [{"page": "19", "area": "215.725,50.101,412.768,350.709"}]
-
-         }
-      ]
-   },
-   {
-      "url" : "http://www.mckesson.com/documents/providers/mckesson-radiology-12-dicom-conformance-statement/",
-      "content-disposition" : "McKesson Radiology 12.1.1 DICOM Conformance Statement rev1.0.pdf",
-      "md5" : "04f2c2905d4f72f3e42501cc4670d1f7",
-      "tables" : [
-         {
-            "owner" : "A.L.I. Technologies, Inc.",
-            "header" : [
-               "Tag",
-               "AttributeName",
-               "VR",
-               "VM",
-               "Definition"
-            ],
-"chunks": [{"page": "137", "area": "511.403,83.768,735.548,568.013"}, {"page": "138", "area": "107.483,79.178,231.413,569.543"}, {"page": "186", "area": "130.433,83.003,256.658,568.778"}, {"page": "190", "area": "255.893,83.768,506.048,568.013"}, {"page": "195", "area": "594.023,81.473,722.543,566.483"}]
-
-         }
-      ]
-   },
-{
-"md5":"a07c48bf8074101e61daacbced0686ea",
-"tables":[
     {
-        "chunks": [
+        "md5": "1fe9c48e9060577dc44baee016409739", 
+        "tables": [
             {
-                "area": "114.75,76.883,716.805,551.948",
-                "page": "20"
+                "chunks": [
+                    {
+                        "area": " 274.253,76.118,373.703,538.178", 
+                        "page": 24
+                    }
+                ], 
+                "owner": "SCHICK TECHNOLOGIES - Viewset Creator ID", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": " 400.478,80.708,675.113,536.648", 
+                        "page": 24
+                    }
+                ], 
+                "owner": "SCHICK TECHNOLOGIES - Viewset Item Creator ID", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": " 179.393,79.178,242.123,536.648", 
+                        "page": 25
+                    }
+                ], 
+                "owner": "SCHICK TECHNOLOGIES - Change List Creator ID", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": " 271.193,79.943,366.053,537.413", 
+                        "page": 25
+                    }
+                ], 
+                "owner": "SCHICK TECHNOLOGIES - Change Item Creator ID", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": " 490.748,77.648,555.008,539.708", 
+                        "page": 25
+                    }
+                ], 
+                "owner": "SCHICK TECHNOLOGIES - Note List Creator ID", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": " 580.253,74.588,680.468,536.648", 
+                        "page": 25
+                    }
+                ], 
+                "owner": "SCHICK TECHNOLOGIES - Note Item Creator ID", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": " 175.568,79.178,221.468,534.353", 
+                        "page": 26
+                    }
+                ], 
+                "owner": "SCHICK TECHNOLOGIES - Image Security Creator ID", 
+                "use_table_header": true
             }
         ], 
-        "owner": "BRIT Systems, Inc.", 
-        "use_table_header": false,
-        "_comment" : "need to add fake col",
-            "header" : [ "UNK","AttributeName", "Tag", "Type", "Definition" ]
+        "url": "http://www.schicktech.com/uploads/downloads/DicomClient_Conformance_35.pdf"
     }, 
     {
-        "chunks": [
+        "md5": "b9977a8fe336aa8721bf6d1d9cfad8af", 
+        "tables": [
             {
-                "area": "115.515,76.118,546.21,551.948", 
-                "page": "21"
+                "chunks": [
+                    {
+                        "area": "198.518,53.168,708.773,568.778", 
+                        "page": 15
+                    }, 
+                    {
+                        "area": "63.878,53.168,386.708,558.068", 
+                        "page": 16
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "VR", 
+                    "Type", 
+                    "Definition"
+                ], 
+                "owner": "Sound Technologies"
             }
         ], 
-        "owner": "BRIT Systems, Inc.", 
-        "use_table_header": false,
-        "_comment" : "need to add fake col",
-            "header" : [ "UNK", "AttributeName", "Tag", "Type", "Definition" ]
-
-    }
-],
-
-"url":"http://www.brit.com/DICOM Conformance PDFs/DICOM Conformance Statement Roentgen Works no history.pdf"
-},
-{
-
-"md5":"7d915c3c6be7fd6a19198ff92d308151",
-"_todo":"page 16 please",
-"tables":
-[
-    {
-        "chunks": [
-            {
-"area": "641.74,61.359,705.703,531.409", 
-"hack":"skip last elem",
-                "page": "23"
-            }
-        ], 
-        "owner": "BrainLAB_Conversion", 
-        "use_table_header": false,
-            "header" : [ "Tag", "AttributeName", "VR", "VM" ]
+        "url": "http://www.soundvet.com/library/media/pdf/DICOMconformanceTruDR_VPACSv15.pdf"
     }, 
     {
-        "chunks": [
+        "md5": "b9c03ced27f3e2c0c5baa9de5861f722", 
+        "tables": [
             {
-                "area": "109.97,63.591,249.795,532.897", 
-                "page": "24"
+                "chunks": [
+                    {
+                        "area": "263.543,97.538,711.833,536.648", 
+                        "page": "17"
+                    }, 
+                    {
+                        "area": "93.713,99.833,456.323,534.353", 
+                        "page": "18"
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "VR", 
+                    "VM", 
+                    "Type", 
+                    "Definition"
+                ], 
+                "owner": "PRIVATE ORIGINAL ATTRIBUTES"
             }
         ], 
-        "owner": "BrainLAB_BeamProfile", 
-        "use_table_header": false,
-            "header" : [ "Tag", "AttributeName", "VR", "VM" ]
-    }
-],
-
-"url":"https://www.brainlab.com/wp-content/uploads/2014/01/dicom-iplan-rt-dose-30.pdf"
-},
-{
-"md5":"c281287ba9a237bf2bdb6618c58abaea",
-"tables":
-[
+        "url": "http://www.radinfosystems.com/pdf/PowerPACS_ImageImporter-DicomConform.pdf"
+    }, 
     {
-        "chunks": [
+        "md5": "ad4f23dd449f3bae7718952aad1d9817", 
+        "tables": [
             {
-                "area": "524.995,149.866,772.663,543.309", 
-                "page": "25"
+                "chunks": [
+                    {
+                        "area": "215.725,50.101,412.768,350.709", 
+                        "page": "19"
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "Definition"
+                ], 
+                "owner": "2.16.840.1.114059.1.1.6.1.50.1"
             }
         ], 
-        "owner": "Canon Inc.", 
-        "use_table_header": false,
-            "header" : [ "AttributeName", "Tag", "VR", "Type", "Definition" ]
+        "url": "http://www.dexis.com/filebin/documents/policy/DEXIS-DICOM.pdf"
+    }, 
+    {
+        "content-disposition": "McKesson Radiology 12.1.1 DICOM Conformance Statement rev1.0.pdf", 
+        "md5": "04f2c2905d4f72f3e42501cc4670d1f7", 
+        "tables": [
+            {
+                "chunks": [
+                    {
+                        "area": "511.403,83.768,735.548,568.013", 
+                        "page": "137"
+                    }, 
+                    {
+                        "area": "107.483,79.178,231.413,569.543", 
+                        "page": "138"
+                    }, 
+                    {
+                        "area": "130.433,83.003,256.658,568.778", 
+                        "page": "186"
+                    }, 
+                    {
+                        "area": "255.893,83.768,506.048,568.013", 
+                        "page": "190"
+                    }, 
+                    {
+                        "area": "594.023,81.473,722.543,566.483", 
+                        "page": "195"
+                    }
+                ], 
+                "header": [
+                    "Tag", 
+                    "AttributeName", 
+                    "VR", 
+                    "VM", 
+                    "Definition"
+                ], 
+                "owner": "A.L.I. Technologies, Inc."
+            }
+        ], 
+        "url": "http://www.mckesson.com/documents/providers/mckesson-radiology-12-dicom-conformance-statement/"
+    }, 
+    {
+        "md5": "a07c48bf8074101e61daacbced0686ea", 
+        "tables": [
+            {
+                "_comment": "need to add fake col", 
+                "chunks": [
+                    {
+                        "area": "114.75,76.883,716.805,551.948", 
+                        "page": "20"
+                    }
+                ], 
+                "header": [
+                    "UNK", 
+                    "AttributeName", 
+                    "Tag", 
+                    "Type", 
+                    "Definition"
+                ], 
+                "owner": "BRIT Systems, Inc.", 
+                "use_table_header": false
+            }, 
+            {
+                "_comment": "need to add fake col", 
+                "chunks": [
+                    {
+                        "area": "115.515,76.118,546.21,551.948", 
+                        "page": "21"
+                    }
+                ], 
+                "header": [
+                    "UNK", 
+                    "AttributeName", 
+                    "Tag", 
+                    "Type", 
+                    "Definition"
+                ], 
+                "owner": "BRIT Systems, Inc.", 
+                "use_table_header": false
+            }
+        ], 
+        "url": "http://www.brit.com/DICOM Conformance PDFs/DICOM Conformance Statement Roentgen Works no history.pdf"
+    }, 
+    {
+        "_todo": "page 16 please", 
+        "md5": "7d915c3c6be7fd6a19198ff92d308151", 
+        "tables": [
+            {
+                "chunks": [
+                    {
+                        "area": "641.74,61.359,705.703,531.409", 
+                        "hack": "skip last elem", 
+                        "page": "23"
+                    }
+                ], 
+                "header": [
+                    "Tag", 
+                    "AttributeName", 
+                    "VR", 
+                    "VM"
+                ], 
+                "owner": "BrainLAB_Conversion", 
+                "use_table_header": false
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "109.97,63.591,249.795,532.897", 
+                        "page": "24"
+                    }
+                ], 
+                "header": [
+                    "Tag", 
+                    "AttributeName", 
+                    "VR", 
+                    "VM"
+                ], 
+                "owner": "BrainLAB_BeamProfile", 
+                "use_table_header": false
+            }
+        ], 
+        "url": "https://www.brainlab.com/wp-content/uploads/2014/01/dicom-iplan-rt-dose-30.pdf"
+    }, 
+    {
+        "md5": "c281287ba9a237bf2bdb6618c58abaea", 
+        "tables": [
+            {
+                "chunks": [
+                    {
+                        "area": "524.995,149.866,772.663,543.309", 
+                        "page": "25"
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "VR", 
+                    "Type", 
+                    "Definition"
+                ], 
+                "owner": "Canon Inc.", 
+                "use_table_header": false
+            }
+        ], 
+        "url": "http://www.shimadzu.com/med/products/dicomihe/k25cur0000002w0b-att/radio_02.pdf"
     }
-],
-"url":"http://www.shimadzu.com/med/products/dicomihe/k25cur0000002w0b-att/radio_02.pdf"
-}
 ]

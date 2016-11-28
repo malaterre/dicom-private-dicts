@@ -1,158 +1,182 @@
 [
-   {
-      "md5" : "258e6887d6b66b92d44d50a7cf4d8a80",
-      "tables" : [
-         {
-            "owner" : "AGFA",
-            "header" : [
-               "AttributeName",
-               "Tag",
-               "VR",
-               "DefaultValue"
-            ],
-            "chunks" : [
-               {
-                  "page" : 15,
-                  "area" : "400,173,650,1000"
-               }
-            ]
-         }
-      ],
-      "url" : "http://www.agfahealthcare.com/he/france/fr/binaries/000978_tcm583-21764.pdf"
-   },
-   {
-      "md5" : "ad48c1a03a1e2b6c7e8126c6e42d7870",
-      "url" : "http://www.agfahealthcare.com/he/france/fr/binaries/000946_tcm583-21755.pdf",
-      "tables" : [
-         {
-            "chunks" : [
-               {
-                  "page" : 25,
-                  "area" : "50,61,400,1000"
-               }
-            ],
-            "header" : [
-               "AttributeName",
-               "Tag",
-               "VR",
-               "Type",
-               "DefaultValue",
-               "UNK"
-            ],
-            "owner" : "AGFA_ADC_Compact"
-         },
-         {
-            "chunks" : [
-               {
-                  "area" : "100,50,250,1000",
-                  "page" : 16
-               }
-            ],
-            "owner" : "AGFA",
-            "header" : [
-               "AttributeName",
-               "Tag",
-               "DefaultValue"
-            ]
-         }
-      ]
-   },
-   {
-      "md5" : "2e52b0254d8591c9839d1f855f08ee35",
-      "tables" : [
-         {
-            "owner" : "1.2.840.113681",
-            "header" : [
-               "Tag",
-               "VR",
-               "VM",
-               "AttributeName",
-               "Definition"
-            ],
-"chunks": [{"page": "37", "area": "291.083,63.878,561.893,547.358"}]
-         }
-      ],
-      "url" : "http://www.agfahealthcare.com/he/france/fr/binaries/000410_tcm583-21790.pdf"
-   },
-{
-
+    {
+        "md5": "258e6887d6b66b92d44d50a7cf4d8a80", 
+        "tables": [
+            {
+                "chunks": [
+                    {
+                        "area": "400,173,650,1000", 
+                        "page": 15
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "VR", 
+                    "DefaultValue"
+                ], 
+                "owner": "AGFA"
+            }
+        ], 
+        "url": "http://www.agfahealthcare.com/he/france/fr/binaries/000978_tcm583-21764.pdf"
+    }, 
+    {
+        "md5": "ad48c1a03a1e2b6c7e8126c6e42d7870", 
+        "tables": [
+            {
+                "chunks": [
+                    {
+                        "area": "50,61,400,1000", 
+                        "page": 25
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "VR", 
+                    "Type", 
+                    "DefaultValue", 
+                    "UNK"
+                ], 
+                "owner": "AGFA_ADC_Compact"
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "100,50,250,1000", 
+                        "page": 16
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "DefaultValue"
+                ], 
+                "owner": "AGFA"
+            }
+        ], 
+        "url": "http://www.agfahealthcare.com/he/france/fr/binaries/000946_tcm583-21755.pdf"
+    }, 
+    {
+        "md5": "2e52b0254d8591c9839d1f855f08ee35", 
+        "tables": [
+            {
+                "chunks": [
+                    {
+                        "area": "291.083,63.878,561.893,547.358", 
+                        "page": "37"
+                    }
+                ], 
+                "header": [
+                    "Tag", 
+                    "VR", 
+                    "VM", 
+                    "AttributeName", 
+                    "Definition"
+                ], 
+                "owner": "1.2.840.113681"
+            }
+        ], 
+        "url": "http://www.agfahealthcare.com/he/france/fr/binaries/000410_tcm583-21790.pdf"
+    }, 
+    {
         "content-disposition": "001537_IMPAX_6.7_DICOM_Conformance_Statement.pdf", 
-      "md5" : "35f6dab742c45e9b1afeb13ea6443e39",
-"tables":
-[
-    {
-        "chunks": [
+        "md5": "35f6dab742c45e9b1afeb13ea6443e39", 
+        "tables": [
             {
-                "area": "203.509,41.297,554.72,548.767", 
-                "page": "86",
-"spreadsheet" : false
+                "_use_table_header_weird_phantom_col": true, 
+                "chunks": [
+                    {
+                        "area": "203.509,41.297,554.72,548.767", 
+                        "page": "86", 
+                        "spreadsheet": false
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "VR", 
+                    "VM", 
+                    "UNK", 
+                    "Owner"
+                ]
             }
         ], 
-        "_use_table_header_weird_phantom_col": true,
-"header" : [
-               "AttributeName",
-               "Tag",
-               "VR",
-               "VM",
-               "UNK",
-               "Owner"
-            ]
+        "url": "http://www.agfahealthcare.com/global/en/he/library/libraryopen?ID=54472549"
+    }, 
+    {
+        "md5": "5cae2b40cf2c1f5a0c28e448d311766c", 
+        "tables": [
+            {
+                "chunks": [
+                    {
+                        "area": "188.999,76.269,289.452,520.492", 
+                        "page": "47"
+                    }
+                ], 
+                "header": [
+                    "Tag", 
+                    "AttributeName", 
+                    "VR"
+                ], 
+                "owner": "Agfa ADC NX", 
+                "use_table_header": false
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "464.685,47.25,722.885,557.696", 
+                        "page": "73"
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "VR", 
+                    "DefaultValue", 
+                    "UNK", 
+                    "UNK"
+                ], 
+                "owner": "Agfa ADC NX", 
+                "use_table_header": false
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "116.822,49.482,191.976,555.464", 
+                        "page": "74"
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "VR", 
+                    "DefaultValue", 
+                    "UNK", 
+                    "UNK"
+                ], 
+                "owner": "Agfa ADC NX", 
+                "use_table_header": false
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "657.405,47.25,681.216,569.602", 
+                        "page": "80"
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "VR", 
+                    "DefaultValue", 
+                    "UNK", 
+                    "UNK"
+                ], 
+                "owner": "Agfa ADC NX", 
+                "use_table_header": false
+            }
+        ], 
+        "url": "http://www.agfahealthcare.com/he/latam/es/binaries/001339 NX 2.0.8400-3.0.8400 DICOM Conformance Statement_rev1.1 1.0_tcm586-72224.pdf"
     }
-],
-
-"url":"http://www.agfahealthcare.com/global/en/he/library/libraryopen?ID=54472549"
-},
-{
-"md5":"5cae2b40cf2c1f5a0c28e448d311766c",
-"tables":
-[
-    {
-        "chunks": [
-            {
-                "area": "188.999,76.269,289.452,520.492",
-                "page": "47"
-            }
-        ], 
-        "owner": "Agfa ADC NX", 
-        "use_table_header": false,
-            "header" : [ "Tag", "AttributeName", "VR" ]
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "464.685,47.25,722.885,557.696", 
-                "page": "73"
-            }
-        ], 
-        "owner": "Agfa ADC NX", 
-        "use_table_header": false,
-            "header" : [ "AttributeName", "Tag", "VR", "DefaultValue", "UNK", "UNK" ]
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "116.822,49.482,191.976,555.464",
-                "page": "74"
-            }
-        ], 
-        "owner": "Agfa ADC NX", 
-        "use_table_header": false,
-            "header" : [ "AttributeName", "Tag", "VR", "DefaultValue", "UNK", "UNK" ]
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "657.405,47.25,681.216,569.602", 
-                "page": "80"
-            }
-        ], 
-        "owner": "Agfa ADC NX", 
-        "use_table_header": false,
-            "header" : [ "AttributeName", "Tag", "VR", "DefaultValue", "UNK", "UNK" ]
-    }
-],
-
-"url":"http://www.agfahealthcare.com/he/latam/es/binaries/001339 NX 2.0.8400-3.0.8400 DICOM Conformance Statement_rev1.1 1.0_tcm586-72224.pdf"
-}
-
 ]

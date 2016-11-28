@@ -1,30 +1,30 @@
 [
-   {
-      "tables" : [
-         {
-            "owner" : "MMCPrivate",
-            "chunks" : [
-               {
-                  "page" : 57,
-                  "area" : "234.647,38.317,794.898,578.479"
-               },
-               {
-                  "pages" : "58-64"
-               },
-               {
-                  "page" : 65,
-                  "area" : "54.686,44.269,123.88,568.807"
-               }
-            ],
-            "header" : [
-               "AttributeName",
-               "Tag",
-               "VR",
-               "Definition"
-            ]
-         }
-      ],
-      "url" : "http://www.hitachimed.com/idc/groups/hitachimedical/documents/supportingdocumentpdf/poc_013216.pdf",
-      "md5" : "01df924b002f764933bc6566c57fe3ce"
-   }
+    {
+        "md5": "01df924b002f764933bc6566c57fe3ce", 
+        "tables": [
+            {
+                "chunks": [
+                    {
+                        "area": "234.647,38.317,794.898,578.479", 
+                        "page": 57
+                    }, 
+                    {
+                        "pages": "58-64"
+                    }, 
+                    {
+                        "area": "54.686,44.269,123.88,568.807", 
+                        "page": 65
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "VR", 
+                    "Definition"
+                ], 
+                "owner": "MMCPrivate"
+            }
+        ], 
+        "url": "http://www.hitachimed.com/idc/groups/hitachimedical/documents/supportingdocumentpdf/poc_013216.pdf"
+    }
 ]

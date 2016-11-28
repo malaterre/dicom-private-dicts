@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+"""
+Main script to take as input lists.json to generate dependencies
+"""
 import json
 import argparse
 import os

@@ -333,389 +333,381 @@
             }
         ], 
         "url": "http://www3.gehealthcare.fr/~/media/documents/us-global/products/interoperability/dicom/xray/gehc-dicom-conformance_xrd-acquisition-workstation_2296992-100_rev1.pdf"
-    },
+    }, 
     {
         "content-disposition": "GEHC-DICOM-Conformance_Xeleris-2-0_5168972-100_Rev2.pdf", 
         "md5": "f43f9660e3d2f249ce74990fde80b769", 
-"url":"http://www3.gehealthcare.com/~/media/documents/us-global/products/interoperability/dicom/nuclear-medicine/gehc-dicom-conformance_xeleris-2-0_5168972-100_rev2.pdf",
-"tables":
-[
-    {
-        "chunks": [
+        "tables": [
             {
-                "area": "162.0,70.0,238.0,528.0", 
-                "page": "150"
+                "chunks": [
+                    {
+                        "area": "162.0,70.0,238.0,528.0", 
+                        "page": "150"
+                    }
+                ], 
+                "owner": "PRIV", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "289.0,70.0,365.0,526.0", 
+                        "page": "150"
+                    }
+                ], 
+                "owner": "PRIV", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "420.0,70.0,706.0,540.0", 
+                        "page": "150"
+                    }
+                ], 
+                "owner": "PRIV", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "72.0,70.0,605.0,540.0", 
+                        "page": "151"
+                    }
+                ], 
+                "owner": "PRIV", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "94.0,70.0,541.0,538.0", 
+                        "page": "152"
+                    }
+                ], 
+                "owner": "PRIV", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "98.0,70.0,695.0,539.0", 
+                        "page": "153"
+                    }
+                ], 
+                "owner": "PRIV", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "72.0,70.0,415.0,539.0", 
+                        "page": "154"
+                    }
+                ], 
+                "owner": "PRIV", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "82.0,70.0,698.0,526.0", 
+                        "page": "155"
+                    }
+                ], 
+                "owner": "PRIV", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "72.0,70.0,268.0,517.0", 
+                        "page": "156"
+                    }
+                ], 
+                "owner": "PRIV", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "403.0,70.0,697.0,541.0", 
+                        "page": "156"
+                    }
+                ], 
+                "owner": "PRIV", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "72.0,68.0,695.0,541.0", 
+                        "page": "157"
+                    }
+                ], 
+                "owner": "PRIV", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "72.0,68.0,700.0,541.0", 
+                        "page": "158"
+                    }
+                ], 
+                "owner": "PRIV", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "72.0,69.0,396.0,541.0", 
+                        "page": "159"
+                    }
+                ], 
+                "owner": "PRIV", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "591.0,69.0,691.0,541.0", 
+                        "page": "159"
+                    }
+                ], 
+                "owner": "PRIV", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "72.0,70.0,253.0,538.0", 
+                        "page": "160"
+                    }
+                ], 
+                "owner": "PRIV", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "84.0,70.0,272.0,539.0", 
+                        "page": "161"
+                    }
+                ], 
+                "owner": "PRIV", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "330.0,70.0,638.0,512.0", 
+                        "page": "161"
+                    }
+                ], 
+                "owner": "PRIV", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "98.0,70.0,347.0,538.0", 
+                        "page": "162"
+                    }
+                ], 
+                "owner": "PRIV", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "403.0,70.0,568.0,538.0", 
+                        "page": "162"
+                    }
+                ], 
+                "owner": "PRIV", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "98.0,70.0,339.0,492.0", 
+                        "page": "163"
+                    }
+                ], 
+                "owner": "PRIV", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "98.0,70.0,499.0,538.0", 
+                        "page": "164"
+                    }
+                ], 
+                "owner": "PRIV", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "554.0,70.0,699.0,538.0", 
+                        "page": "164"
+                    }
+                ], 
+                "owner": "PRIV", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "98.0,70.0,696.0,541.0", 
+                        "page": "165"
+                    }
+                ], 
+                "owner": "GEMS_GENIE_1", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "74.0,70.0,706.0,541.0", 
+                        "page": "166"
+                    }
+                ], 
+                "owner": "GEMS_GENIE_1", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "74.0,70.0,706.0,541.0", 
+                        "page": "167"
+                    }
+                ], 
+                "owner": "GEMS_GENIE_1", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "74.0,70.0,706.0,541.0", 
+                        "page": "168"
+                    }
+                ], 
+                "owner": "GEMS_GENIE_1", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "74.0,70.0,706.0,541.0", 
+                        "page": "169"
+                    }
+                ], 
+                "owner": "GEMS_GENIE_1", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "74.0,70.0,706.0,541.0", 
+                        "page": "170"
+                    }
+                ], 
+                "owner": "GEMS_GENIE_1", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "74.0,70.0,706.0,541.0", 
+                        "page": "171"
+                    }
+                ], 
+                "owner": "GEMS_GENIE_1", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "74.0,70.0,638.0,541.0", 
+                        "page": "172"
+                    }
+                ], 
+                "owner": "GEMS_GENIE_1", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "74.0,70.0,638.0,541.0", 
+                        "page": "173"
+                    }
+                ], 
+                "owner": "GEMS_XELPRV_01", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "74.0,70.0,706.0,541.0", 
+                        "page": "174"
+                    }
+                ], 
+                "owner": "GEMS_XELPRV_01", 
+                "use_table_header": true
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "74.0,70.0,604.0,541.0", 
+                        "page": "175"
+                    }
+                ], 
+                "owner": "GEMS_XELPRV_01", 
+                "use_table_header": true
             }
         ], 
-        "owner": "PRIV", 
-        "use_table_header": true
+        "url": "http://www3.gehealthcare.com/~/media/documents/us-global/products/interoperability/dicom/nuclear-medicine/gehc-dicom-conformance_xeleris-2-0_5168972-100_rev2.pdf"
     }, 
     {
-        "chunks": [
+        "content-disposition": "GEHC-DICOM-Conformance_XPertPR-V5-5-Acquisition-V6-0_2289763-100.pdf", 
+        "md5": "83e686356af86d7292843e98887c2185", 
+        "tables": [
             {
-                "area": "289.0,70.0,365.0,526.0", 
-                "page": "150"
-            }
-        ], 
-        "owner": "PRIV", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "420.0,70.0,706.0,540.0", 
-                "page": "150"
-            }
-        ], 
-        "owner": "PRIV", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "72.0,70.0,605.0,540.0", 
-                "page": "151"
-            }
-        ], 
-        "owner": "PRIV", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "94.0,70.0,541.0,538.0", 
-                "page": "152"
-            }
-        ], 
-        "owner": "PRIV", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "98.0,70.0,695.0,539.0", 
-                "page": "153"
-            }
-        ], 
-        "owner": "PRIV", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "72.0,70.0,415.0,539.0", 
-                "page": "154"
-            }
-        ], 
-        "owner": "PRIV", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "82.0,70.0,698.0,526.0", 
-                "page": "155"
-            }
-        ], 
-        "owner": "PRIV", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "72.0,70.0,268.0,517.0", 
-                "page": "156"
-            }
-        ], 
-        "owner": "PRIV", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "403.0,70.0,697.0,541.0", 
-                "page": "156"
-            }
-        ], 
-        "owner": "PRIV", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "72.0,68.0,695.0,541.0", 
-                "page": "157"
-            }
-        ], 
-        "owner": "PRIV", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "72.0,68.0,700.0,541.0", 
-                "page": "158"
-            }
-        ], 
-        "owner": "PRIV", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "72.0,69.0,396.0,541.0", 
-                "page": "159"
-            }
-        ], 
-        "owner": "PRIV", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "591.0,69.0,691.0,541.0", 
-                "page": "159"
-            }
-        ], 
-        "owner": "PRIV", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "72.0,70.0,253.0,538.0", 
-                "page": "160"
-            }
-        ], 
-        "owner": "PRIV", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "84.0,70.0,272.0,539.0", 
-                "page": "161"
-            }
-        ], 
-        "owner": "PRIV", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "330.0,70.0,638.0,512.0", 
-                "page": "161"
-            }
-        ], 
-        "owner": "PRIV", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "98.0,70.0,347.0,538.0", 
-                "page": "162"
-            }
-        ], 
-        "owner": "PRIV", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "403.0,70.0,568.0,538.0", 
-                "page": "162"
-            }
-        ], 
-        "owner": "PRIV", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "98.0,70.0,339.0,492.0", 
-                "page": "163"
-            }
-        ], 
-        "owner": "PRIV", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "98.0,70.0,499.0,538.0", 
-                "page": "164"
-            }
-        ], 
-        "owner": "PRIV", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "554.0,70.0,699.0,538.0", 
-                "page": "164"
-            }
-        ], 
-        "owner": "PRIV", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "98.0,70.0,696.0,541.0", 
-                "page": "165"
-            }
-        ], 
-        "owner": "GEMS_GENIE_1", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "74.0,70.0,706.0,541.0", 
-                "page": "166"
-            }
-        ], 
-        "owner": "GEMS_GENIE_1", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "74.0,70.0,706.0,541.0", 
-                "page": "167"
-            }
-        ], 
-        "owner": "GEMS_GENIE_1", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "74.0,70.0,706.0,541.0", 
-                "page": "168"
-            }
-        ], 
-        "owner": "GEMS_GENIE_1", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "74.0,70.0,706.0,541.0", 
-                "page": "169"
-            }
-        ], 
-        "owner": "GEMS_GENIE_1", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "74.0,70.0,706.0,541.0", 
-                "page": "170"
-            }
-        ], 
-        "owner": "GEMS_GENIE_1", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "74.0,70.0,706.0,541.0", 
-                "page": "171"
-            }
-        ], 
-        "owner": "GEMS_GENIE_1", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "74.0,70.0,638.0,541.0", 
-                "page": "172"
-            }
-        ], 
-        "owner": "GEMS_GENIE_1", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "74.0,70.0,638.0,541.0", 
-                "page": "173"
-            }
-        ], 
-        "owner": "GEMS_XELPRV_01", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "74.0,70.0,706.0,541.0", 
-                "page": "174"
-            }
-        ], 
-        "owner": "GEMS_XELPRV_01", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "74.0,70.0,604.0,541.0", 
-                "page": "175"
-            }
-        ], 
-        "owner": "GEMS_XELPRV_01", 
-        "use_table_header": true
-    }
-]
-},
-{
-"content-disposition":"GEHC-DICOM-Conformance_XPertPR-V5-5-Acquisition-V6-0_2289763-100.pdf",
-"md5":"83e686356af86d7292843e98887c2185",
-"url":"http://www3.gehealthcare.fr/~/media/documents/us-global/products/interoperability/dicom/nuclear-medicine/gehc-dicom-conformance_xpertpr-v5-5-acquisition-v6-0_2289763-100.pdf",
-"tables":
-[
-    {
-        "chunks": [
-            {
-                "area": "287.971,71.772,411.433,518.766", 
-                "page": "45"
-            }
-        ], 
-        "owner": "APEX_PRIVATE", 
+                "chunks": [
+                    {
+                        "area": "287.971,71.772,411.433,518.766", 
+                        "page": "45"
+                    }
+                ], 
                 "header": [
                     "AttributeName", 
                     "Tag", 
                     "VR", 
-                    "VM",
+                    "VM", 
                     "Definition"
-                ]
-
-    }, 
-    {
-        "chunks": [
+                ], 
+                "owner": "APEX_PRIVATE"
+            }, 
             {
-                "area": "411.432,66.566,578.405,546.284", 
-                "page": "45"
-            }
-        ], 
-        "owner": "ELGEMS_XPERT", 
+                "chunks": [
+                    {
+                        "area": "411.432,66.566,578.405,546.284", 
+                        "page": "45"
+                    }
+                ], 
                 "header": [
                     "AttributeName", 
                     "Tag", 
                     "VR", 
-                    "VM",
+                    "VM", 
                     "Definition"
-                ]
-
+                ], 
+                "owner": "ELGEMS_XPERT"
+            }
+        ], 
+        "url": "http://www3.gehealthcare.fr/~/media/documents/us-global/products/interoperability/dicom/nuclear-medicine/gehc-dicom-conformance_xpertpr-v5-5-acquisition-v6-0_2289763-100.pdf"
     }
-
-
-]
-
-}
-
 ]

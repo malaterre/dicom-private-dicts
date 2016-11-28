@@ -1,181 +1,237 @@
 [
     {
-      "xml" : "syngo_fV.xml"
-    },
+        "xml": "syngo_fV.xml"
+    }, 
     {
-      "xml" : "diction.xml"
-    },
+        "xml": "diction.xml"
+    }, 
     {
         "md5": "6911efec32a2157fa29ee3237ed89843", 
         "tables": [
-    {
-        "chunks": [
             {
-                "area": "363.671,61.359,409.783,535.872", 
-                "page": "31"
+                "chunks": [
+                    {
+                        "area": "363.671,61.359,409.783,535.872", 
+                        "page": "31"
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "Type", 
+                    "DefaultValue"
+                ], 
+                "owner": "CARDIO-SMS 1.0"
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "101.882,60.616,149.482,534.384", 
+                        "page": "32"
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "Type", 
+                    "Definition"
+                ], 
+                "owner": "CARDIO-D.R. 1.0"
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "613.594,62.103,670.119,538.847", 
+                        "page": "33"
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "Type", 
+                    "Definition"
+                ], 
+                "owner": "SIEMENS CSA NON-IMAGE"
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "544.123,59.872,736.01,540.334", 
+                        "page": "39"
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "UNK", 
+                    "UNK", 
+                    "Definition"
+                ], 
+                "owner": "CARDIO-D.R. 1.0"
             }
         ], 
-        "owner": "CARDIO-SMS 1.0", 
-                "header" : ["AttributeName","Tag","Type","DefaultValue"]
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "101.882,60.616,149.482,534.384", 
-                "page": "32"
-            }
-        ], 
-        "owner": "CARDIO-D.R. 1.0", 
-                "header" : ["AttributeName","Tag","Type","Definition"]
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "613.594,62.103,670.119,538.847", 
-                "page": "33"
-            }
-        ], 
-        "owner": "SIEMENS CSA NON-IMAGE", 
-                "header" : ["AttributeName","Tag","Type","Definition"]
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "544.123,59.872,736.01,540.334",
-                "page": "39"
-            }
-        ], 
-        "owner": "CARDIO-D.R. 1.0", 
-                "header" : ["AttributeName","Tag","UNK","UNK","Definition"]
-    }
-], 
         "url": "https://www.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mdaw/mtiw/~edisp/acom_pc_rec_dcs_v60-00074270.pdf"
-    },
+    }, 
     {
         "md5": "c1ed9957d71d5a87368cb91b6c678a00", 
         "tables": [
-    {
-        "chunks": [
             {
-                "area": "470.093,184.748,721.778,428.018", 
-        "spreadsheet": false, 
-                "page": "57"
+                "chunks": [
+                    {
+                        "area": "470.093,184.748,721.778,428.018", 
+                        "page": "57", 
+                        "spreadsheet": false
+                    }
+                ], 
+                "header": [
+                    "Tag", 
+                    "AttributeName", 
+                    "VR"
+                ], 
+                "owner": "SIEMENS_FLCOMPACT_VA01A_PROC"
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "63.113,189.338,668.228,423.428", 
+                        "page": "58", 
+                        "spreadsheet": false
+                    }
+                ], 
+                "header": [
+                    "Tag", 
+                    "AttributeName", 
+                    "VR"
+                ], 
+                "owner": "SIEMENS_FLCOMPACT_VA01A_PROC"
             }
         ], 
-        "owner": "SIEMENS_FLCOMPACT_VA01A_PROC", 
-                "header" : ["Tag","AttributeName","VR"]
+        "url": "http://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mda1/njiy/~edisp/cios_family_dicom_01_16-02589882.pdf"
     }, 
     {
-        "chunks": [
+        "md5": "4fa3996764c1a45e338daf145268d3af", 
+        "tables": [
             {
-                "area": "63.113,189.338,668.228,423.428", 
-        "spreadsheet": false, 
-                "page": "58"
+                "chunks": [
+                    {
+                        "area": "389.458,87.391,759.101,515.047", 
+                        "page": "74"
+                    }
+                ], 
+                "header": [
+                    "Tag", 
+                    "Owner", 
+                    "AttributeName", 
+                    "VR", 
+                    "VM"
+                ], 
+                "owner": "PRIV"
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "74.119,89.622,523.344,518.022", 
+                        "page": "75"
+                    }
+                ], 
+                "header": [
+                    "Tag", 
+                    "Owner", 
+                    "AttributeName", 
+                    "VR", 
+                    "VM"
+                ], 
+                "owner": "PRIV"
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "542.682,87.391,763.576,515.047", 
+                        "page": "75"
+                    }
+                ], 
+                "header": [
+                    "Tag", 
+                    "Owner", 
+                    "AttributeName", 
+                    "VR", 
+                    "VM"
+                ], 
+                "owner": "PRIV"
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "73.387,88.134,399.893,517.278", 
+                        "page": "76"
+                    }
+                ], 
+                "header": [
+                    "Tag", 
+                    "Owner", 
+                    "AttributeName", 
+                    "VR", 
+                    "VM"
+                ], 
+                "owner": "PRIV"
             }
         ], 
-        "owner": "SIEMENS_FLCOMPACT_VA01A_PROC", 
-                "header" : ["Tag","AttributeName","VR"]
+        "url": "https://www.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mdaw/mtiy/~edisp/fluorospotcompactvf10c_luminosdrfva10c_dcs-00073968.pdf"
+    }, 
+    {
+        "md5": "003bdada514adcf773fa1761fa3892b9", 
+        "tables": [
+            {
+                "chunks": [
+                    {
+                        "pages": "30-43"
+                    }
+                ], 
+                "header": [
+                    "UNK", 
+                    "AttributeName", 
+                    "Tag", 
+                    "Definition"
+                ], 
+                "owner": "MMCPrivate"
+            }
+        ], 
+        "url": "https://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mdaw/mtiz/~edisp/x500_1_0_conformance_statement-00074148.pdf"
+    }, 
+    {
+        "md5": "b44300dadb66e9194dfbd3c78f63ce48", 
+        "tables": [
+            {
+                "chunks": [
+                    {
+                        "area": "202.742,85.159,233.979,530.666", 
+                        "page": "71"
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "Definition"
+                ], 
+                "owner": "BioPri3D", 
+                "use_table_header": false
+            }, 
+            {
+                "chunks": [
+                    {
+                        "area": "88.959,83.672,113.503,536.616", 
+                        "page": "72"
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "Definition"
+                ], 
+                "owner": "BioPri3D", 
+                "use_table_header": false
+            }
+        ], 
+        "url": "http://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mdaw/mte4/~edisp/x-leonardo_dcs_vb11-00074288.pdf"
     }
-], 
-      "url":"http://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mda1/njiy/~edisp/cios_family_dicom_01_16-02589882.pdf"
-    },
-    {
-"tables":[
-    {
-        "chunks": [
-            {
-                "area": "389.458,87.391,759.101,515.047", 
-                "page": "74"
-            }
-        ], 
-        "owner": "PRIV", 
-                "header" : ["Tag","Owner","AttributeName","VR","VM"]
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "74.119,89.622,523.344,518.022", 
-                "page": "75"
-            }
-        ], 
-        "owner": "PRIV", 
-                "header" : ["Tag","Owner","AttributeName","VR","VM"]
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "542.682,87.391,763.576,515.047", 
-                "page": "75"
-            }
-        ], 
-        "owner": "PRIV", 
-                "header" : ["Tag","Owner","AttributeName","VR","VM"]
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "73.387,88.134,399.893,517.278", 
-                "page": "76"
-            }
-        ], 
-        "owner": "PRIV", 
-                "header" : ["Tag","Owner","AttributeName","VR","VM"]
-    }
-],
-"md5":"4fa3996764c1a45e338daf145268d3af",
-    "url":"https://www.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mdaw/mtiy/~edisp/fluorospotcompactvf10c_luminosdrfva10c_dcs-00073968.pdf"
-    },
-{
-"md5":"003bdada514adcf773fa1761fa3892b9",
-"tables":
-[
-         {
-            "owner" : "MMCPrivate",
-            "chunks" : [
-               {
-                  "pages" : "30-43"
-               }
-               
-            ],
-            "header" : [
-               "UNK",
-               "AttributeName",
-               "Tag",
-               "Definition"
-            ]
-         }
-      ],
-
-"url":"https://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mdaw/mtiz/~edisp/x500_1_0_conformance_statement-00074148.pdf"
-},
-{
-"md5":"b44300dadb66e9194dfbd3c78f63ce48",
-"tables":
-[
-    {
-        "chunks": [
-            {
-                "area": "202.742,85.159,233.979,530.666", 
-                "page": "71"
-            }
-        ], 
-        "owner": "BioPri3D", 
-        "use_table_header": false,
-            "header" : [ "AttributeName", "Tag", "Definition" ]
-
-    }, 
-    {
-        "chunks": [
-            {
-                "area": "88.959,83.672,113.503,536.616", 
-                "page": "72"
-            }
-        ], 
-        "owner": "BioPri3D", 
-        "use_table_header": false,
-            "header" : [ "AttributeName", "Tag", "Definition" ]
-    }
-],
-"url":"http://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mdaw/mte4/~edisp/x-leonardo_dcs_vb11-00074288.pdf"
-}
 ]

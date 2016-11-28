@@ -1,7 +1,7 @@
 [
     {
         "xml": "EVMLegacy.xml"
-    },
+    }, 
     {
         "xml": "PMS-R32-dict.xml"
     }, 
@@ -17,101 +17,95 @@
     {
         "md5": "19df4c2fa6e438dd948e3a6d90ef43f5", 
         "tables": [
-    {
-        "chunks": [
             {
-                "area": "254.023,142.0,386.152,529.985",
-                "page": "22"
-            }
-        ], 
-        "fixme_owner": "ADAC_ROI", 
-        "owner": "ADAC_IMG", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
+                "chunks": [
+                    {
+                        "area": "254.023,142.0,386.152,529.985", 
+                        "page": "22"
+                    }
+                ], 
+                "fixme_owner": "ADAC_ROI", 
+                "owner": "ADAC_IMG", 
+                "use_table_header": true
+            }, 
             {
-                "area": "424.034,142.0,535.542,529.985",
-                "page": "22",
-"_spreadsheet" : false
-            }
-        ], 
-        "owner": "ADAC_IMG", 
-        "use_table_header": true
-    }, 
-    {
-        "chunks": [
+                "chunks": [
+                    {
+                        "_spreadsheet": false, 
+                        "area": "424.034,142.0,535.542,529.985", 
+                        "page": "22"
+                    }
+                ], 
+                "owner": "ADAC_IMG", 
+                "use_table_header": true
+            }, 
             {
-                "area": "575.027,142.0,646.82,529.985",
-                "page": "22",
-"_spreadsheet" : false
+                "chunks": [
+                    {
+                        "_spreadsheet": false, 
+                        "area": "575.027,142.0,646.82,529.985", 
+                        "page": "22"
+                    }
+                ], 
+                "owner": "ADAC_IMG", 
+                "use_table_header": true
             }
-        ], 
-        "owner": "ADAC_IMG", 
-        "use_table_header": true
-    }
         ], 
         "url": "http://incenter.medical.philips.com/doclib/enc/fetch/2000/4504/577242/577256/588723/5144873/5144488/5144390/DICOM_Conformance_Statement_Pegasys_R4.25.pdf?nodeid=5148569&vernum=-2"
-    },
-{
+    }, 
+    {
         "md5": "f820e4498134b3e0e1150a6c1e72b457", 
-        "tables": 
-[
-    {
-        "chunks": [
+        "tables": [
             {
-                "area": "645.278,35.573,738.608,564.188", 
-                "page": "18"
-            }
-        ], 
-        "owner": "ATL HDI V1.0", 
-        "_use_table_header": true,
+                "_use_table_header": true, 
+                "chunks": [
+                    {
+                        "area": "645.278,35.573,738.608,564.188", 
+                        "page": "18"
+                    }
+                ], 
                 "header": [
                     "AttributeName", 
                     "Tag", 
                     "Type", 
-                    "DefaultValue",
+                    "DefaultValue", 
                     "Definition"
-                ]
-
-    }, 
-    {
-        "chunks": [
+                ], 
+                "owner": "ATL HDI V1.0"
+            }, 
             {
-                "area": "52.403,37.868,243.653,559.598", 
-                "page": "19"
-            }
-        ], 
-        "owner": "ATL HDI V1.0", 
-        "_use_table_header": true,
+                "_use_table_header": true, 
+                "chunks": [
+                    {
+                        "area": "52.403,37.868,243.653,559.598", 
+                        "page": "19"
+                    }
+                ], 
                 "header": [
                     "AttributeName", 
                     "Tag", 
                     "Type", 
-                    "DefaultValue",
+                    "DefaultValue", 
                     "Definition"
-                ]
-
-    }, 
-    {
-        "chunks": [
+                ], 
+                "owner": "ATL HDI V1.0"
+            }, 
             {
-                "area": "507.578,36.338,614.678,527.468", 
-                "page": "20"
-            }
-        ], 
-        "owner": "ATL PRIVATE TAGS", 
+                "chunks": [
+                    {
+                        "area": "507.578,36.338,614.678,527.468", 
+                        "page": "20"
+                    }
+                ], 
                 "header": [
                     "AttributeName", 
                     "Tag", 
-                    "DefaultValue",
+                    "DefaultValue", 
                     "Definition"
-                ]
-
-    }
-]
-
-, 
+                ], 
+                "owner": "ATL PRIVATE TAGS"
+            }
+        ], 
         "url": "http://incenter.medical.philips.com/doclib/enc/fetch/2000/4504/577242/577256/588723/5144873/5144488/5144888/DICOM_Conformance_Statement_HDI_5000_R195.xx.pdf?nodeid=5147546&vernum=-2"
     }
 ]
