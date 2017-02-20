@@ -9,6 +9,9 @@ import sys
 if __name__ == "__main__":
   f=sys.argv[1]
   
+  b={}
+  b["md5"]="FIXME"
+  b["url"]="FIXME"
   a=[]
   with open(f, "r") as ins:
     for line in ins:
@@ -20,6 +23,7 @@ if __name__ == "__main__":
       chunk["area"]=items[5]
       assert items[6] == '-p'
       chunk["page"]=items[7]
+      chunk["spreadsheet"]=True
       array.append(chunk)
       j["chunks"]=array
       #j["header"]=[]
@@ -27,4 +31,5 @@ if __name__ == "__main__":
       j["owner"]="FIXME"
       a.append( j )
   
-  print json.dumps(a, sort_keys=True, indent=4)
+  b["tables"]=a
+  print json.dumps(b, sort_keys=True, indent=4)

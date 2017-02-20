@@ -21,6 +21,7 @@
                 "chunks": [
                     {
                         "area": "254.023,142.0,386.152,529.985", 
+                        "spreadsheet": true,
                         "page": "22"
                     }
                 ], 
@@ -33,6 +34,7 @@
                     {
                         "_spreadsheet": false, 
                         "area": "424.034,142.0,535.542,529.985", 
+                        "spreadsheet": true,
                         "page": "22"
                     }
                 ], 
@@ -44,6 +46,7 @@
                     {
                         "_spreadsheet": false, 
                         "area": "575.027,142.0,646.82,529.985", 
+                        "spreadsheet": true,
                         "page": "22"
                     }
                 ], 
@@ -61,6 +64,7 @@
                 "chunks": [
                     {
                         "area": "645.278,35.573,738.608,564.188", 
+                        "spreadsheet": true,
                         "page": "18"
                     }
                 ], 
@@ -78,6 +82,7 @@
                 "chunks": [
                     {
                         "area": "52.403,37.868,243.653,559.598", 
+                        "spreadsheet": true,
                         "page": "19"
                     }
                 ], 
@@ -94,6 +99,7 @@
                 "chunks": [
                     {
                         "area": "507.578,36.338,614.678,527.468", 
+                        "spreadsheet": true,
                         "page": "20"
                     }
                 ], 

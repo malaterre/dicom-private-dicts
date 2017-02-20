@@ -12,7 +12,8 @@
                 "chunks": [
                     {
                         "area": "363.671,61.359,409.783,535.872", 
-                        "page": "31"
+                        "page": "31",
+                        "spreadsheet": true
                     }
                 ], 
                 "header": [
@@ -27,7 +28,8 @@
                 "chunks": [
                     {
                         "area": "101.882,60.616,149.482,534.384", 
-                        "page": "32"
+                        "page": "32",
+                        "spreadsheet": true
                     }
                 ], 
                 "header": [
@@ -42,7 +44,8 @@
                 "chunks": [
                     {
                         "area": "613.594,62.103,670.119,538.847", 
-                        "page": "33"
+                        "page": "33",
+                        "spreadsheet": true
                     }
                 ], 
                 "header": [
@@ -57,7 +60,8 @@
                 "chunks": [
                     {
                         "area": "544.123,59.872,736.01,540.334", 
-                        "page": "39"
+                        "page": "39",
+                        "spreadsheet": true
                     }
                 ], 
                 "header": [
@@ -115,7 +119,8 @@
                 "chunks": [
                     {
                         "area": "389.458,87.391,759.101,515.047", 
-                        "page": "74"
+                        "page": "74",
+                        "spreadsheet": true
                     }
                 ], 
                 "header": [
@@ -131,7 +136,8 @@
                 "chunks": [
                     {
                         "area": "74.119,89.622,523.344,518.022", 
-                        "page": "75"
+                        "page": "75",
+                        "spreadsheet": true
                     }
                 ], 
                 "header": [
@@ -147,7 +153,8 @@
                 "chunks": [
                     {
                         "area": "542.682,87.391,763.576,515.047", 
-                        "page": "75"
+                        "page": "75",
+                        "spreadsheet": true
                     }
                 ], 
                 "header": [
@@ -163,7 +170,8 @@
                 "chunks": [
                     {
                         "area": "73.387,88.134,399.893,517.278", 
-                        "page": "76"
+                        "page": "76",
+                        "spreadsheet": true
                     }
                 ], 
                 "header": [
@@ -184,7 +192,8 @@
             {
                 "chunks": [
                     {
-                        "pages": "30-43"
+                        "pages": "30-43",
+                        "spreadsheet": true
                     }
                 ], 
                 "header": [
@@ -205,7 +214,8 @@
                 "chunks": [
                     {
                         "area": "202.742,85.159,233.979,530.666", 
-                        "page": "71"
+                        "page": "71",
+                        "spreadsheet": true
                     }
                 ], 
                 "header": [
@@ -220,7 +230,8 @@
                 "chunks": [
                     {
                         "area": "88.959,83.672,113.503,536.616", 
-                        "page": "72"
+                        "page": "72",
+                        "spreadsheet": true
                     }
                 ], 
                 "header": [
@@ -233,5 +244,34 @@
             }
         ], 
         "url": "http://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mdaw/mte4/~edisp/x-leonardo_dcs_vb11-00074288.pdf"
-    }
+    },
+{
+    "md5": "b3da02ae5ac369c9f39095cd2c7a4cd5", 
+    "tables": [
+        {
+            "chunks": [
+                {
+                    "area": "52.785,79.178,727.515,554.243", 
+                    "page": "16",
+                        "spreadsheet": false
+                }
+            ], 
+            "owner": "FIXME", 
+            "use_table_header": true
+        }, 
+        {
+            "chunks": [
+                {
+                    "area": "60.053,85.298,431.078,551.948", 
+                    "page": "17",
+                        "spreadsheet": false
+                }
+            ], 
+            "owner": "FIXME", 
+            "use_table_header": true
+        }
+    ], 
+    "url": "https://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@services/documents/download/mdaw/mtiy/~edisp/8419009.vft.02-00073814.pdf"
+}
+
 ]

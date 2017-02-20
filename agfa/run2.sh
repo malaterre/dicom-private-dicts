@@ -7,3 +7,4 @@
 ./tabula2xml.py  --header "AttributeName,Tag,VR,DefaultValue,UNK,UNK"  --owner "Agfa ADC NX"  --files "agfa/5cae2b40cf2c1f5a0c28e448d311766c_1_0.json" --output "agfa/001339 NX 2.0.8400-3.0.8400 DICOM Conformance Statement_rev1.1 1.0_tcm586-72224_1.xml"
 ./tabula2xml.py  --header "AttributeName,Tag,VR,DefaultValue,UNK,UNK"  --owner "Agfa ADC NX"  --files "agfa/5cae2b40cf2c1f5a0c28e448d311766c_2_0.json" --output "agfa/001339 NX 2.0.8400-3.0.8400 DICOM Conformance Statement_rev1.1 1.0_tcm586-72224_2.xml"
 ./tabula2xml.py  --header "AttributeName,Tag,VR,DefaultValue,UNK,UNK"  --owner "Agfa ADC NX"  --files "agfa/5cae2b40cf2c1f5a0c28e448d311766c_3_0.json" --output "agfa/001339 NX 2.0.8400-3.0.8400 DICOM Conformance Statement_rev1.1 1.0_tcm586-72224_3.xml"
+

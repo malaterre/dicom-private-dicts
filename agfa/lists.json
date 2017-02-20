@@ -6,7 +6,8 @@
                 "chunks": [
                     {
                         "area": "400,173,650,1000", 
-                        "page": 15
+                        "page": 15,
+                        "spreadsheet": true
                     }
                 ], 
                 "header": [
@@ -27,7 +28,8 @@
                 "chunks": [
                     {
                         "area": "50,61,400,1000", 
-                        "page": 25
+                        "page": 25,
+                        "spreadsheet": true
                     }
                 ], 
                 "header": [
@@ -44,6 +46,7 @@
                 "chunks": [
                     {
                         "area": "100,50,250,1000", 
+                        "spreadsheet": true,
                         "page": 16
                     }
                 ], 
@@ -64,6 +67,7 @@
                 "chunks": [
                     {
                         "area": "291.083,63.878,561.893,547.358", 
+                        "spreadsheet": true,
                         "page": "37"
                     }
                 ], 
@@ -111,7 +115,8 @@
                 "chunks": [
                     {
                         "area": "188.999,76.269,289.452,520.492", 
-                        "page": "47"
+                        "page": "47",
+                        "spreadsheet": true
                     }
                 ], 
                 "header": [
@@ -126,7 +131,8 @@
                 "chunks": [
                     {
                         "area": "464.685,47.25,722.885,557.696", 
-                        "page": "73"
+                        "page": "73",
+                        "spreadsheet": true
                     }
                 ], 
                 "header": [
@@ -144,7 +150,8 @@
                 "chunks": [
                     {
                         "area": "116.822,49.482,191.976,555.464", 
-                        "page": "74"
+                        "page": "74",
+                        "spreadsheet": true
                     }
                 ], 
                 "header": [
@@ -162,7 +169,8 @@
                 "chunks": [
                     {
                         "area": "657.405,47.25,681.216,569.602", 
-                        "page": "80"
+                        "page": "80",
+                        "spreadsheet": true
                     }
                 ], 
                 "header": [

@@ -6,13 +6,16 @@
                 "chunks": [
                     {
                         "area": "234.647,38.317,794.898,578.479", 
+                        "spreadsheet": true,
                         "page": 57
                     }, 
                     {
+                        "spreadsheet": true,
                         "pages": "58-64"
                     }, 
                     {
                         "area": "54.686,44.269,123.88,568.807", 
+                        "spreadsheet": true,
                         "page": 65
                     }
                 ], 

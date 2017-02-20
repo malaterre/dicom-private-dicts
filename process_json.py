@@ -53,8 +53,13 @@ with open(f) as data_file, open(olists,'w') as out_file, open(orun,'w') as out_f
         # use tabula to extra a single chunk:
         out_file2.write( './tabula.sh -o "%s" ' % fil )
         # this is nasty on some fuji PDF when only one line is extracted, one need to skip the spreadsheet option:
-        if not chunk.has_key('spreadsheet') or chunk['spreadsheet']:
-          out_file2.write( "--spreadsheet " )
+        if chunk.has_key('spreadsheet'):
+          if chunk['spreadsheet']:
+            out_file2.write( "--spreadsheet " )
+          else:
+            out_file2.write( "--no-spreadsheet " )
+        else:
+          assert(False) # without explicit option tabula has a random behavior
         # Define as page range (whole page):
         if chunk.has_key('pages'):
           out_file2.write( "-p " )

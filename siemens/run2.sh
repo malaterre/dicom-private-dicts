@@ -11,3 +11,6 @@
 ./tabula2xml.py  --header "UNK,AttributeName,Tag,Definition"  --owner "MMCPrivate"  --files "siemens/003bdada514adcf773fa1761fa3892b9_0_0.json" --output "siemens/x500_1_0_conformance_statement-00074148_0.xml"
 ./tabula2xml.py  --header "AttributeName,Tag,Definition"  --owner "BioPri3D"  --files "siemens/b44300dadb66e9194dfbd3c78f63ce48_0_0.json" --output "siemens/x-leonardo_dcs_vb11-00074288_0.xml"
 ./tabula2xml.py  --header "AttributeName,Tag,Definition"  --owner "BioPri3D"  --files "siemens/b44300dadb66e9194dfbd3c78f63ce48_1_0.json" --output "siemens/x-leonardo_dcs_vb11-00074288_1.xml"
+./tabula2xml.py  --owner "FIXME" --use_table_header --files "siemens/b3da02ae5ac369c9f39095cd2c7a4cd5_0_0.json" --output "siemens/8419009.vft.02-00073814_0.xml"
+./tabula2xml.py  --owner "FIXME" --use_table_header --files "siemens/b3da02ae5ac369c9f39095cd2c7a4cd5_1_0.json" --output "siemens/8419009.vft.02-00073814_1.xml"
+

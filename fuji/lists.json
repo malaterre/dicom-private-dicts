@@ -6,10 +6,12 @@
             {
                 "chunks": [
                     {
+                        "spreadsheet": true,
                         "pages": "27-30"
                     }, 
                     {
                         "area": "0,0,450,1000", 
+                        "spreadsheet": true,
                         "page": 31
                     }
                 ], 
@@ -26,10 +28,12 @@
                 "chunks": [
                     {
                         "area": "427.714,30.122,778.021,538.847", 
+                        "spreadsheet": true,
                         "page": 38
                     }, 
                     {
                         "area": "75.932,59.872,498.382,562.647", 
+                        "spreadsheet": true,
                         "page": 39
                     }
                 ], 
@@ -51,13 +55,16 @@
                 "chunks": [
                     {
                         "area": "234.647,38.317,794.898,578.479", 
+                        "spreadsheet": true,
                         "page": 57
                     }, 
                     {
+                        "spreadsheet": true,
                         "pages": "58,64"
                     }, 
                     {
                         "area": "54.686,44.269,123.88,568.807", 
+                        "spreadsheet": true,
                         "page": 65
                     }
                 ], 
@@ -77,22 +84,27 @@
                 "chunks": [
                     {
                         "area": "161.033,130.433,262.013,498.398", 
+                        "spreadsheet": true,
                         "page": 24
                     }, 
                     {
                         "area": "263.543,116.663,449.438,506.813", 
+                        "spreadsheet": true,
                         "page": 24
                     }, 
                     {
                         "area": "450.203,94.478,643.748,500.693", 
+                        "spreadsheet": true,
                         "page": 24
                     }, 
                     {
                         "area": "645.278,117.428,716.423,520.583", 
+                        "spreadsheet": true,
                         "page": 24
                     }, 
                     {
                         "area": "86.828,119.723,200.813,515.227", 
+                        "spreadsheet": true,
                         "page": 25
                     }
                 ], 
@@ -114,10 +126,12 @@
                 "chunks": [
                     {
                         "area": "431.843,130.433,717.188,500.693", 
+                        "spreadsheet": true,
                         "page": 27
                     }, 
                     {
                         "area": "88.358,131.963,294.143,503.753", 
+                        "spreadsheet": true,
                         "page": 28
                     }, 
                     {
@@ -127,10 +141,12 @@
                     }, 
                     {
                         "area": "307.913,133.493,465.503,496.103", 
+                        "spreadsheet": true,
                         "page": 28
                     }, 
                     {
                         "area": "522.112,125.078,563.423,498.398", 
+                        "spreadsheet": true,
                         "page": 28
                     }, 
                     {
@@ -140,10 +156,12 @@
                     }, 
                     {
                         "area": "577.958,123.548,712.598,493.808", 
+                        "spreadsheet": true,
                         "page": 28
                     }, 
                     {
                         "area": "90.653,134.258,293.378,531.293", 
+                        "spreadsheet": true,
                         "page": 29
                     }, 
                     {
@@ -153,6 +171,7 @@
                     }, 
                     {
                         "area": "306.383,127.373,396.653,498.398", 
+                        "spreadsheet": true,
                         "page": 29
                     }
                 ], 
