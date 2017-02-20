@@ -1,6 +1,11 @@
 #!/bin/sh
 set -e
 
+# main driver for the tabula jar
+# simply pass option
+# only specify the JSON output
+# the spreadsheet is driven per client request
+
 TABULA=tabula-0.9.1-jar-with-dependencies.jar
 
 #java -jar $TABULA --silent --spreadsheet -f JSON "$@"

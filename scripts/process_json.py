@@ -14,9 +14,12 @@ args = parser.parse_args()
 def getpdflocalpath(it, dirpath):
   # compute the PDF local path:
   if it.has_key('content-disposition'):
-    inpdf = "%s/%s" % (dirpath, it['content-disposition'])
+    pdffile = it['content-disposition']
   else:
-    inpdf = "%s/%s" % (dirpath, os.path.basename( it['url']))
+    pdffile = os.path.basename(it['url'])
+  # use startswith to handle "pdf?nodeid=5148569&vernum=-2"
+  assert( pdffile.split('.')[-1].lower().startswith( 'pdf' ) )
+  inpdf = "%s/%s" % (dirpath, pdffile)
   return inpdf
 
 dirpath= args.dir
@@ -51,7 +54,7 @@ with open(f) as data_file, open(olists,'w') as out_file, open(orun,'w') as out_f
         fil = "%s/%s_%d_%d.json" % (dirpath,it['md5'],indext,index) # md5 clash ?
         files.append( fil )
         # use tabula to extra a single chunk:
-        out_file2.write( './tabula.sh -o "%s" ' % fil )
+        out_file2.write( './scripts/tabula.sh -o "%s" ' % fil )
         # this is nasty on some fuji PDF when only one line is extracted, one need to skip the spreadsheet option:
         if chunk.has_key('spreadsheet'):
           if chunk['spreadsheet']:
@@ -91,7 +94,7 @@ with open(f) as data_file, open(olists,'w') as out_file, open(orun,'w') as out_f
       if table.has_key( "use_table_header" ) and table["use_table_header"]:
         assert( not table.has_key( "header" ) )
         opts += '--use_table_header'
-      out_file5.write( './tabula2xml.py %s --files "%s" --output "%s"\n' % (opts, fstr, outxml) )
+      out_file5.write( './scripts/tabula2xml.py %s --files "%s" --output "%s"\n' % (opts, fstr, outxml) )
       out_file3.write( '<file>%s</file>\n' % urllib.quote(outxml)  )
   out_file2.write( '\n' )
   out_file5.write( '\n' )
