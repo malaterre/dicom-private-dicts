@@ -2,7 +2,8 @@
 
 set -x
 
-URL=http://www.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@healthit/@imagingit/documents/download/mda1/mjy1/~edisp/syngo_fv-02184790.zip
+URL=https://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@healthit/@imagingit/documents/download/mda2/mtcw/~edisp/vx57n-03122234.zip
+#URL=http://www.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@healthit/@imagingit/documents/download/mda1/mjy1/~edisp/syngo_fv-02184790.zip
 #https://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@healthit/@imagingit/documents/download/mda2/mtcw/~edisp/vx57n-03122234.zip
 
 wget -c "$URL"
@@ -13,7 +14,8 @@ unzip -d tmp "$zipfile"
 SKIP=1477268
 COUNT=185436
 
-infile=tmp/syngo_fV/syngo_fV.exe
+#infile=tmp/syngo_fV/syngo_fV.exe
+infile=tmp/VX57N_syngo_fV/syngo_fV.exe
 tmpfile=syngo_tmp.txt
 outfile=syngo_fV.txt
 
