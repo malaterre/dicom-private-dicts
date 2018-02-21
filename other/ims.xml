@@ -1,0 +1,94 @@
+﻿<dicts>
+  <dict owner="INTELERAD MEDICAL SYSTEMS">
+    <entry group="3f03" element="0001" vr="SQ" vm="1" name="Attribute History">
+</entry>
+    <entry group="3f03" element="0002" vr="DT" vm="1" name="Change Timestamp">
+</entry>
+    <entry group="3f03" element="0003" vr="LO" vm="1" name="Change initiator">
+</entry>
+    <entry group="3f03" element="0004" vr="ST" vm="1" name="Change explanation">
+</entry>
+    <entry group="3f01" element="0001" vr="LO" vm="1" name="Institution">
+</entry>
+    <entry group="3f01" element="0002" vr="SH" vm="1" name="AE Title Destination">
+</entry>
+    <entry group="3f01" element="0003" vr="LO" vm="1" name="Source AE Title">
+</entry>
+    <entry group="3f01" element="0004" vr="SH" vm="1" name="Deferred Validation">
+</entry>
+    <entry group="3f01" element="0005" vr="LO" vm="1" name="Series Owner">
+</entry>
+    <entry group="3f01" element="0006" vr="LO" vm="1" name="Group Number">
+</entry>
+    <entry group="3f01" element="0007" vr="SH" vm="1" name="Stripped Pixel Data">
+</entry>
+    <entry group="3f01" element="0008" vr="SH" vm="1" name="Pending Move Request">
+</entry>
+    <entry group="3f01" element="0009" vr="LO" vm="1" name="Dicom Premap Sites">
+</entry>
+    <entry group="3f01" element="000a" vr="DA" vm="1" name="Association Date">
+</entry>
+    <entry group="3f01" element="000b" vr="TM" vm="1" name="Association Time">
+</entry>
+    <entry group="3f01" element="000c" vr="SH" vm="1" name="Use Source AE">
+</entry>
+    <entry group="3f01" element="000e" vr="SH" vm="1" name="Relay to AE">
+</entry>
+    <entry group="3f01" element="000f" vr="SH" vm="1" name="ImsMoveRequestRedirectionCount">
+</entry>
+    <entry group="3f01" element="0010" vr="LO" vm="1" name="ImsPostFix to AccessionNumber">
+</entry>
+    <entry group="3f01" element="0011" vr="US" vm="1" name="Count of tags present when CTN wrote the file">
+</entry>
+    <entry group="3f01" element="0012" vr="UL" vm="1" name="Association Epoch In Seconds">
+</entry>
+    <entry group="0029" element="0001" vr="FD" vm="1" name="Image Compression Fraction">
+</entry>
+    <entry group="0029" element="0002" vr="FD" vm="1" name="Image Quality">
+</entry>
+    <entry group="0029" element="0003" vr="FD" vm="1" name="Image Bytes Transferred">
+</entry>
+    <entry group="0029" element="0008" vr="SL" vm="1" name="Image Bounding Box">
+</entry>
+    <entry group="0029" element="0009" vr="LO" vm="1" name="Image Bounding Box Algorithm ID">
+</entry>
+    <entry group="0029" element="0010" vr="SH" vm="1" name="J2C Parameter Type">
+</entry>
+    <entry group="0029" element="0011" vr="CS" vm="1" name="J2C Pixel Representation">
+</entry>
+    <entry group="0029" element="0012" vr="US" vm="1" name="J2C Bits Allocated">
+</entry>
+    <entry group="0029" element="0013" vr="US" vm="1" name="J2C Pixel Shift Value">
+</entry>
+    <entry group="0029" element="0014" vr="US" vm="1" name="J2C Planar Configuration">
+</entry>
+    <entry group="0029" element="0015" vr="DS" vm="1" name="J2C Rescale Intercept">
+</entry>
+    <entry group="0029" element="0016" vr="US" vm="1" name="J2c Smallest Pixel Value">
+</entry>
+    <entry group="0029" element="0017" vr="US" vm="1" name="J2c Largest Pixel Value">
+</entry>
+    <entry group="0029" element="0026" vr="DS" vm="1" name="J2C Rescale Slope">
+</entry>
+    <entry group="0029" element="0020" vr="LO" vm="1" name="Pixel Data MD5 Sum Values">
+</entry>
+    <entry group="0029" element="0021" vr="US" vm="1" name="Pixel Data Histogram Percentiles">
+</entry>
+    <entry group="0029" element="0022" vr="FD" vm="1" name="Pixel Data Histogram Percentile Values">
+</entry>
+    <entry group="0029" element="0023" vr="FD" vm="1" name="VOI LUT Window Level Values">
+</entry>
+    <entry group="0029" element="0024" vr="FD" vm="1" name="VOI LUT Real Pixel Value Range">
+</entry>
+    <entry group="0029" element="0025" vr="IS" vm="1" name="VOI LUT Index">
+</entry>
+    <entry group="0029" element="0027" vr="FD" vm="1" name="DEPRECATED: Image Rotation Angle">
+</entry>
+    <entry group="0029" element="0028" vr="FD" vm="1" name="DEPRECATED: Displayed Area Top Left-Hand Corner">
+</entry>
+    <entry group="0029" element="0029" vr="FD" vm="1" name="DEPRECATED: Displayed Area Bottom Right-Hand Corner">
+</entry>
+    <entry group="6001" element="0001" vr="US" vm="1" name="Overlay bit position">
+</entry>
+</dict>
+</dicts>

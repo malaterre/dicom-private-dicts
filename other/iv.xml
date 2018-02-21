@@ -1,0 +1,84 @@
+﻿<dicts>
+  <dict owner="INTELERAD MEDICAL SYSTEMS INTELEVIEWER">
+    <entry group="3f05" element="0001" vr="LO" vm="1" name="InteleViewer Source Name">
+</entry>
+    <entry group="3f05" element="0002" vr="LO" vm="1" name="Preview Image Id">
+</entry>
+    <entry group="0071" element="0001" vr="LO" vm="1" name="InteleViewer Markup Type">
+</entry>
+    <entry group="0071" element="0002" vr="ST" vm="1" name="InteleViewer Markup Text">
+</entry>
+    <entry group="0071" element="0003" vr="FD" vm="1" name="InteleViewer Markup Text Offset">
+</entry>
+    <entry group="0071" element="0004" vr="FD" vm="1" name="InteleViewer Markup Position">
+</entry>
+    <entry group="0071" element="0005" vr="FD" vm="1" name="InteleViewer Markup Half-Vector">
+</entry>
+    <entry group="0071" element="0006" vr="FD" vm="1" name="InteleViewer Markup Vector 1">
+</entry>
+    <entry group="0071" element="0007" vr="FD" vm="1" name="InteleViewer Markup Vector 2">
+</entry>
+    <entry group="0071" element="0008" vr="FD" vm="1" name="InteleViewer Markup Orthogonal Position">
+</entry>
+    <entry group="0071" element="0009" vr="FD" vm="1" name="InteleViewer Markup Orthogonal Half-Vector">
+</entry>
+    <entry group="0071" element="000a" vr="FD" vm="1" name="InteleViewer Markup Minimum Length">
+</entry>
+    <entry group="0071" element="000b" vr="SL" vm="1" name="InteleViewer Markup Number of Polygons">
+</entry>
+    <entry group="0071" element="000c" vr="SL" vm="1" name="InteleViewer Markup Length of Polygons">
+</entry>
+    <entry group="0071" element="000d" vr="FD" vm="1" name="InteleViewer Markup Points">
+</entry>
+    <entry group="0071" element="000e" vr="FD" vm="1" name="InteleViewer Markup Slice Separation">
+</entry>
+    <entry group="0071" element="000f" vr="US" vm="1" name="InteleViewer Markup VOI Index">
+</entry>
+    <entry group="0071" element="0010" vr="FD" vm="1" name="InteleViewer Markup Sagittal Text Offset">
+</entry>
+    <entry group="0071" element="0011" vr="FD" vm="1" name="InteleViewer Markup Default Text Offset">
+</entry>
+    <entry group="0071" element="0020" vr="LO" vm="1" name="InteleViewer Markup Dataset Tool ID">
+</entry>
+    <entry group="0071" element="0021" vr="FD" vm="1" name="InteleViewer Markup Distance Calibration">
+</entry>
+    <entry group="0071" element="0030" vr="FD" vm="1" name="InteleViewer Markup Image Grid Origin">
+</entry>
+    <entry group="0071" element="0031" vr="FD" vm="1" name="InteleViewer Markup Image Grid Pixel Row Vector">
+</entry>
+    <entry group="0071" element="0032" vr="FD" vm="1" name="InteleViewer Markup Image Grid Pixel Column Vector">
+</entry>
+    <entry group="0071" element="0033" vr="CS" vm="1" name="InteleViewer Markup Image Grid Is Calibrated">
+</entry>
+    <entry group="0071" element="0034" vr="FD" vm="1" name="Image Rotation Angle">
+</entry>
+    <entry group="0071" element="0035" vr="FD" vm="1" name="Displayed Area Top Left-Hand Corner">
+</entry>
+    <entry group="0071" element="0036" vr="FD" vm="1" name="Displayed Area Bottom Right-Hand Corner">
+</entry>
+    <entry group="3f0f" element="0001" vr="US" vm="1" name="InteleViewer Advanced Visualization Presentation Bin Size">
+</entry>
+    <entry group="3f0f" element="0002" vr="SQ" vm="1" name="InteleViewer Advanced Visualization Presentation Bin">
+</entry>
+    <entry group="3f0f" element="0003" vr="LO" vm="1" name="InteleViewer Advanced Visualization RenderType">
+</entry>
+    <entry group="3f0f" element="0004" vr="FD" vm="1" name="InteleViewer Advanced Visualization Row Vector">
+</entry>
+    <entry group="3f0f" element="0005" vr="FD" vm="1" name="InteleViewer Advanced Visualization Column Vector">
+</entry>
+    <entry group="3f0f" element="0006" vr="FD" vm="1" name="InteleViewer Advanced Visualization Slab Thickness">
+</entry>
+    <entry group="3f0f" element="0007" vr="LO" vm="1" name="InteleViewer Advanced Visualization Original Dataset Series UID">
+</entry>
+    <entry group="3f0f" element="0008" vr="LO" vm="1" name="InteleViewer Advanced Visualization Transfer Function Type">
+</entry>
+    <entry group="3f0f" element="0009" vr="LO" vm="1" name="InteleViewer Advanced Visualization Source Dataset Sub Volume First SOP UID">
+</entry>
+    <entry group="3f0f" element="0010" vr="LO" vm="1" name="InteleViewer Advanced Visualization Source Dataset Sub Volume Last SOP UID">
+</entry>
+    <entry group="3f0f" element="0011" vr="LO" vm="1" name="InteleViewer Advanced Visualization Sub volume creation algorithm">
+</entry>
+    <entry group="3f0f" element="0012" vr="US" vm="1" name="InteleViewer Advanced Visualization Numbe of images in Sub volume">
+</entry>
+</dict>
+</dicts>
