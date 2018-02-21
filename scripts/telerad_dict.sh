@@ -4,6 +4,7 @@
 set -x
 
 URL=https://connect.capitalradiology.com.au/InteleViewer/win32/InteleViewer-install-win32.exe
+# https://connect.capitalradiology.com.au/InteleViewer/
 
 wget -c "$URL"
 zipfile=$(basename "$URL")
