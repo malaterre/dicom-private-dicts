@@ -1,6 +1,7 @@
 #!/usr/bin/env python
-""" Convert iv.txt ims.txt into XML """
+""" Convert iv.txt ims.txt into JSON """
 
+import json
 import sys
 #
 #public class DDict
@@ -82,47 +83,70 @@ def process( mode, line ):
     process3( line )
 
 d={}
-d[0]='UN'
-d[1]='UL'
-d[2]='UI'
-d[3]='US'
-d[4]='AE'
-d[5]='AT'
-d[6]='LO'
-d[7]='SH'
-d[8]='OB'
-d[9]='CS'
-d[10]='SQ'
-d[11]='DA'
-d[12]='TM'
-d[13]='ST'
-d[14]='PN'
-d[15]='IS'
-d[16]='DS'
-d[17]='AS'
-d[18]='LT'
-d[19]='SL'
-d[20]='FD'
-d[21]='US_SS'
-d[22]='OW_OB'
-d[23]='SS'
-d[24]='OW'
-d[25]='NONE'
-d[26]='FL'
-d[27]='UT'
-d[28]='DT'
-d[29]='OF'
-d[30]='UK'
+
+vrs={}
+vrs[0]='UN'
+vrs[1]='UL'
+vrs[2]='UI'
+vrs[3]='US'
+vrs[4]='AE'
+vrs[5]='AT'
+vrs[6]='LO'
+vrs[7]='SH'
+vrs[8]='OB'
+vrs[9]='CS'
+vrs[10]='SQ'
+vrs[11]='DA'
+vrs[12]='TM'
+vrs[13]='ST'
+vrs[14]='PN'
+vrs[15]='IS'
+vrs[16]='DS'
+vrs[17]='AS'
+vrs[18]='LT'
+vrs[19]='SL'
+vrs[20]='FD'
+vrs[21]='US_SS'
+vrs[22]='OW_OB'
+vrs[23]='SS'
+vrs[24]='OW'
+vrs[25]='NONE'
+vrs[26]='FL'
+vrs[27]='UT'
+vrs[28]='DT'
+vrs[29]='OF'
+vrs[30]='UK'
 
 def getvr( ivr ):
-  return d[ int(ivr) ]
+  return vrs[ int(ivr) ]
 
+
+def print_element( group, element, creator, name, vr, vm, ret ):
+  el = {}
+  el['group'] = group
+  el['element'] = element
+  el['name'] = name[1:-1]
+  el['vr'] = vr
+  el['vm'] = vm
+  #el['owner'] = creator
+  if not d.has_key( creator ):
+    d[ creator ] = []
+  if ret:
+    el['retired'] = True
+  #else: print '(%s,%s,"%s") "%s"'%(group,element,creator,name)
+  d[creator].append( el )
+
+ims="INTELERAD MEDICAL SYSTEMS"
+iv="INTELERAD MEDICAL SYSTEMS INTELEVIEWER"
 
 if __name__ == "__main__":
+  creator = iv
   filename = sys.argv[1]
   parse = 0
   with open(filename,'rU') as f:
     for line in f:
       line = line.rstrip('\n')
       group,element,vr,name = line[1:-1].split(',')
-      print hex(int(group)), hex(int(element)), getvr(vr), name
+      #print hex(int(group)), hex(int(element)), getvr(vr), name
+      print_element( "%04x" % int(group.strip()), "%04x" % int(element.strip()), creator, name.strip(), getvr(vr), "1", False )
+  print json.dumps(d)
