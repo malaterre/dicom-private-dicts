@@ -6,7 +6,7 @@ set -e
 # only specify the JSON output
 # the spreadsheet is driven per client request
 
-TABULA=tabula-0.9.1-jar-with-dependencies.jar
+TABULA=tabula-1.0.5-jar-with-dependencies.jar
 
 #java -jar $TABULA --silent --spreadsheet -f JSON "$@"
 
