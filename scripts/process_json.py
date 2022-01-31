@@ -5,7 +5,7 @@ Main script to take as input lists.json to generate dependencies
 import json
 import argparse
 import os
-import urllib
+import urllib.request, urllib.parse, urllib.error
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--dir', help='dir help')
@@ -13,7 +13,7 @@ args = parser.parse_args()
 
 def getpdflocalpath(it, dirpath):
   # compute the PDF local path:
-  if it.has_key('content-disposition'):
+  if 'content-disposition' in it:
     pdffile = it['content-disposition']
   else:
     pdffile = os.path.basename(it['url'])
@@ -37,7 +37,7 @@ with open(f) as data_file, open(olists,'w') as out_file, open(orun,'w') as out_f
   # let's write the series of files for this manufacturer in an index file
   out_file3.write( '<index>\n' )
   for it in data:
-    if not it.has_key('url'):
+    if 'url' not in it:
       out_file3.write( '<file>%s/%s</file>\n' % (dirpath,it['xml']) )
       continue
     out_file.write( it['url'] + '\n' )
@@ -56,7 +56,7 @@ with open(f) as data_file, open(olists,'w') as out_file, open(orun,'w') as out_f
         # use tabula to extra a single chunk:
         out_file2.write( './scripts/tabula.sh -o "%s" ' % fil )
         # this is nasty on some fuji PDF when only one line is extracted, one need to skip the spreadsheet option:
-        if chunk.has_key('spreadsheet'):
+        if 'spreadsheet' in chunk:
           if chunk['spreadsheet']:
             out_file2.write( "--spreadsheet " )
           else:
@@ -64,14 +64,14 @@ with open(f) as data_file, open(olists,'w') as out_file, open(orun,'w') as out_f
         else:
           assert(False) # without explicit option tabula has a random behavior
         # Define as page range (whole page):
-        if chunk.has_key('pages'):
+        if 'pages' in chunk:
           out_file2.write( "-p " )
           out_file2.write( chunk['pages'] )
         # or a single page (with an area)
-        elif chunk.has_key('page'):
+        elif 'page' in chunk:
           out_file2.write( "-p " )
           out_file2.write( str(chunk['page']) )
-          if chunk.has_key('area'):
+          if 'area' in chunk:
             out_file2.write( " -a " )
             out_file2.write( chunk['area'] )
         else:
@@ -84,18 +84,18 @@ with open(f) as data_file, open(olists,'w') as out_file, open(orun,'w') as out_f
       fstr = ','.join(files)
       opts = ""
       # pass the table header (defined manually, generally because JSON output is bogus)
-      if table.has_key( "header" ):
-        assert( not table.has_key( "use_table_header" ) or not table["use_table_header"] )
+      if "header" in table:
+        assert( "use_table_header" not in table or not table["use_table_header"] )
         opts += ' --header "%s" ' % ",".join(table['header'])
       # pass the table owner
-      if table.has_key( "owner" ):
+      if "owner" in table:
         opts += ' --owner "%s" ' % table['owner']
       # special option to use the table header directly from the JSON generated output
-      if table.has_key( "use_table_header" ) and table["use_table_header"]:
-        assert( not table.has_key( "header" ) )
+      if "use_table_header" in table and table["use_table_header"]:
+        assert( "header" not in table )
         opts += '--use_table_header'
       out_file5.write( './scripts/tabula2xml.py %s --files "%s" --output "%s"\n' % (opts, fstr, outxml) )
-      out_file3.write( '<file>%s</file>\n' % urllib.quote(outxml)  )
+      out_file3.write( '<file>%s</file>\n' % urllib.parse.quote(outxml)  )
   out_file2.write( '\n' )
   out_file5.write( '\n' )
   #out_file2.write( '#rm %s/chunk?.json\n' % dirpath )

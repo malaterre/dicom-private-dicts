@@ -32,22 +32,22 @@ def normalize_header( header ):
   for index,it in enumerate(header):
     txt = it['text']
     if txt == 'Attribute Name' or txt == 'Name' or txt == 'Attribute':
-      ret[ index ] = u'AttributeName'
+      ret[ index ] = 'AttributeName'
     elif txt == 'DICOM VR':
-      ret[ index ] = u'VR'
+      ret[ index ] = 'VR'
     elif txt == 'DICOM VM':
-      ret[ index ] = u'VM'
+      ret[ index ] = 'VM'
     elif txt == 'DICOM Tag' or txt == 'Group, Tag':
-      ret[ index ] = u'Tag'
+      ret[ index ] = 'Tag'
     elif txt == 'Default Value': # or txt == 'Value':
-      ret[ index ] = u'DefaultValue'
+      ret[ index ] = 'DefaultValue'
     elif txt == 'Description' or txt == 'Attribute Description':
-      ret[ index ] = u'Definition'
+      ret[ index ] = 'Definition'
     elif txt == 'DICOM Private Creator':
-      ret[ index ] = u'Owner'
+      ret[ index ] = 'Owner'
     else:
       ret[ index ] = txt
-  if(debug): print >> sys.stderr, "debug header:", debug, ret
+  if(debug): print("debug header:", debug, ret, file=sys.stderr)
   return ret
 
 def read_group( value ):
@@ -57,10 +57,10 @@ def read_group( value ):
   try:
     group = eval(group)
   except SyntaxError:
-    print "Could not eval group: [%s]" % value
+    print("Could not eval group: [%s]" % value)
     return 0
   if( group > 0xffff or group < 0 ):
-    raise ValueError, "group issue with %s" % value
+    raise ValueError("group issue with %s" % value)
   return group
 
 def read_element( value ):
@@ -92,17 +92,17 @@ def read_element( value ):
   try:
     element = eval(element)
   except SyntaxError:
-    print "SyntaxError from input %s" % element
+    print("SyntaxError from input %s" % element)
     if "..." in value:
-      print "accepting as is"
+      print("accepting as is")
       element = 0
     else:
       raise
   except TypeError:
-    print "TypeError from input %s" % element
+    print("TypeError from input %s" % element)
     raise
   if(element > 0xff or element < 0):
-    raise ValueError, "element issue with %s (%d) : %d" % (value, len(value), element)
+    raise ValueError("element issue with %s (%d) : %d" % (value, len(value), element))
   return element
 
 def normalize_entry( entry ):
@@ -111,7 +111,7 @@ def normalize_entry( entry ):
   ret['vr'] = 'UN'
   ret['owner'] = owner
   #if(debug): print entry
-  for key,value in entry.items():
+  for key,value in list(entry.items()):
     if key == 'VR':
       if value != None and value != '':
         ret['vr'] = value
@@ -119,7 +119,7 @@ def normalize_entry( entry ):
       if value != None and value != '':
         ret['vm'] = value.replace(' ','') # really replace '1 - n' into '1-n'
     elif key == 'Tag':
-      if(debug): print >> sys.stderr, "debug tag:", value
+      if(debug): print("debug tag:", value, file=sys.stderr)
       sep = '|'
       if ',' in value:
         sep = ','
@@ -133,10 +133,10 @@ def normalize_entry( entry ):
       elif '[' in value:
         bracko = '['
         brackc = ']'
-      if(debug): print >> sys.stderr, "sep/brack(s) are: [%s]/[%s]/[%s]"% (sep,bracko,brackc)
+      if(debug): print("sep/brack(s) are: [%s]/[%s]/[%s]"% (sep,bracko,brackc), file=sys.stderr)
       v = value.split(sep)
       if len(v) != 2:
-        print "Dont know how to split: [%s]"% value
+        print("Dont know how to split: [%s]"% value)
         return None
       group = read_group( value.split(sep)[0].replace(bracko,'') )
       if( group % 2 == 0 ):
@@ -177,9 +177,9 @@ def normalize_entry( entry ):
       # reserved keyword to indicate skipping of columns
       pass
     else:
-      raise ValueError, "impossible key: [%s]" % key
-  if ret.has_key( 'name' ):
-    assert ret.has_key( 'vr' )
+      raise ValueError("impossible key: [%s]" % key)
+  if 'name' in ret:
+    assert 'vr' in ret
     if ret['vr'] == 'UN' and ret['name'].endswith('Sequence'):
       ret['vr'] = 'SQ'
   return ret
@@ -199,7 +199,7 @@ for f in files:
           elstr=[]
           for el in j:
             elstr.append(el['text'])
-          if(debug): print >> sys.stderr, "debug el: %s" % ",".join(elstr).replace('\r',' ')
+          if(debug): print("debug el: %s" % ",".join(elstr).replace('\r',' '), file=sys.stderr)
           for index,col in enumerate(k):
             elem[ col ] = j[index]['text'].replace('\r','\n')
           norm = normalize_entry(elem)
@@ -207,13 +207,13 @@ for f in files:
             d.append(norm)
       elif header != None:
         k = header
-        if(debug): print >> sys.stderr, "debug header: %s"% k
+        if(debug): print("debug header: %s"% k, file=sys.stderr)
         for line,j in enumerate(data[0:]): # should I skip the first line ?
           elem={}
           elstr=[]
           for el in j:
             elstr.append(el['text'])
-          if(debug): print >> sys.stderr, "debug el: %d/%d -> %s" % (len(k),len(j),",".join(elstr).replace('\r',' '))
+          if(debug): print("debug el: %d/%d -> %s" % (len(k),len(j),",".join(elstr).replace('\r',' ')), file=sys.stderr)
           try:
             for index,col in enumerate(k):
               elem[ col ] = j[index]['text'].replace('\r',' ')
@@ -223,9 +223,9 @@ for f in files:
           except IndexError:
             jointed = ",".join(elstr)
             if line == 0 or ('Tag' in jointed or 'Attribute' in jointed or 'Notes' in jointed and line == 1):
-              print "Pb with table header: %s" % ",".join(elstr)
+              print("Pb with table header: %s" % ",".join(elstr))
             else:
-              print "Pb with line %d: %s %s" % (line,",".join(elstr),",".join(header))
+              print("Pb with line %d: %s %s" % (line,",".join(elstr),",".join(header)))
               raise
       else:
         assert(False)

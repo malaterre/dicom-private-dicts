@@ -14,11 +14,11 @@ class XMLDictWriter:
   def writeall(self, d):
     new_dict = {}
     for value in d:
-      if value['owner'] not in new_dict.keys():
+      if value['owner'] not in list(new_dict.keys()):
         new_dict[value['owner']] = []
       new_dict[value['owner']].append(value)
     #print new_dict
-    for owner,subd in new_dict.items():
+    for owner,subd in list(new_dict.items()):
       self.writelines(owner, subd)
   def writelines(self, owner, d):
     self.out_file.write( "  <dict " )
@@ -32,14 +32,14 @@ class XMLDictWriter:
       for o in self.order:
         #val = '%('+o+')s'
         entry += ' %s="%s"' % (o,escape(it[o]))
-      if it.has_key('type'):
+      if 'type' in it:
         entry += ' type="%s"' % escape(it['type'])
       entry += '>\n'
-      if it.has_key('definition'):
+      if 'definition' in it:
         entry += '<definition>'
         entry += escape(it['definition'])
         entry += '</definition>\n'
-      if it.has_key('default_value'):
+      if 'default_value' in it:
         entry += '<default_value>'
         entry += escape(it['default_value'])
         entry += '</default_value>\n'
