@@ -47,7 +47,7 @@
                 "owner": "FDMS 1.0"
             }
         ], 
-        "url": "https://www.fujifilmusa.com/products/medical/technical-documents/product-bulletins/pdf/index/FCR-Go-Flash-IIP.pdf"
+        "url": "https://healthcaresolutions-us.fujifilm.com/sites/default/files/inline-files/FCR-Go-Flash-IIP.pdf"
     }, 
     {
         "_tables": [
@@ -75,7 +75,7 @@
         "_url": "http://www.fujifilmmedical.fr/up/File/DICOM/fcr_dicom-Flash IIP_CR Console.pdf", 
         "md5": "62bd81d61720271b8084d8fa7fab2032", 
         "tables": [], 
-        "url": "http://www.umgxray.com/pdf/fujifilmfcrxl2dicom.pdf"
+        "url": "https://healthcaresolutions-us.fujifilm.com/sites/default/files/inline-files/fcr_dicom.pdf"
     }, 
     {
         "md5": "ffe64d981344b2895d8a2c405d74ae2a", 
@@ -117,7 +117,7 @@
                 "owner": "FDMS 1.0"
             }
         ], 
-        "url": "http://www.fujimed.com/resources/dicom-ihe-statements/doc/qa-ws771_dcs.pdf"
+        "url": "https://healthcaresolutions-us.fujifilm.com/sites/default/files/inline-files/QA-WS771_DCS.pdf"
     }, 
     {
         "md5": "90fe6f0ec69a1caa154858b36a04453a", 
@@ -184,6 +184,6 @@
                 "owner": "FDMS 1.0"
             }
         ], 
-        "url": "https://www.fujifilmusa.com/products/medical/technical-documents/product-bulletins/pdf/index/HI-C655.pdf"
+        "url": "https://healthcaresolutions-us.fujifilm.com/sites/default/files/inline-files/HI-C655.pdf"
     }
 ]
