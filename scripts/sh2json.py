@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """
 convert a tabula shell script into a partial json representation (that you can
 copy/paste)
@@ -32,4 +32,4 @@ if __name__ == "__main__":
       a.append( j )
   
   b["tables"]=a
-  print json.dumps(b, sort_keys=True, indent=4)
+  print(json.dumps(b, sort_keys=True, indent=4))
