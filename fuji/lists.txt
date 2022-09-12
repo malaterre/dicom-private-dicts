@@ -1,4 +1,4 @@
-https://www.fujifilmusa.com/products/medical/technical-documents/product-bulletins/pdf/index/FCR-Go-Flash-IIP.pdf
-http://www.umgxray.com/pdf/fujifilmfcrxl2dicom.pdf
-http://www.fujimed.com/resources/dicom-ihe-statements/doc/qa-ws771_dcs.pdf
-https://www.fujifilmusa.com/products/medical/technical-documents/product-bulletins/pdf/index/HI-C655.pdf
+https://healthcaresolutions-us.fujifilm.com/sites/default/files/inline-files/FCR-Go-Flash-IIP.pdf
+https://healthcaresolutions-us.fujifilm.com/sites/default/files/inline-files/fcr_dicom.pdf
+https://healthcaresolutions-us.fujifilm.com/sites/default/files/inline-files/QA-WS771_DCS.pdf
+https://healthcaresolutions-us.fujifilm.com/sites/default/files/inline-files/HI-C655.pdf
