@@ -29,5 +29,36 @@
             }
         ], 
         "url": "http://www.hitachimed.com/idc/groups/hitachimedical/documents/supportingdocumentpdf/poc_013216.pdf"
+    },
+    {
+        "md5": "01df924b002f764933bc6566c57fe3ce", 
+        "tables": [
+            {
+                "chunks": [
+                    {
+                        "area": "234.647,38.317,794.898,578.479", 
+                        "spreadsheet": true,
+                        "page": 57
+                    }, 
+                    {
+                        "spreadsheet": true,
+                        "pages": "58-64"
+                    }, 
+                    {
+                        "area": "54.686,44.269,123.88,568.807", 
+                        "spreadsheet": true,
+                        "page": 65
+                    }
+                ], 
+                "header": [
+                    "AttributeName", 
+                    "Tag", 
+                    "VR", 
+                    "Definition"
+                ], 
+                "owner": "MMCPrivate"
+            }
+        ], 
+        "url": "https://www.vitacastle.com/businesses/healthcare/products-support/dicom/pdf/mr/echelon-oval-e1e-hm0034-01_dicom_cs_v5_1_r1.pdf"
     }
 ]
