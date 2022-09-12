@@ -1,12 +1,12 @@
 #!/bin/sh
-#set -x
+set -x
 set -e
 
 dirs="agfa fuji gems hitachi other siemens pms toshiba"
 
 for dir in $dirs
 do
-  python scripts/process_json.py --dir $dir
+  python3 scripts/process_json.py --dir $dir
 done
 
 # I cannot use --continue, so instead simply use --no-clobber
