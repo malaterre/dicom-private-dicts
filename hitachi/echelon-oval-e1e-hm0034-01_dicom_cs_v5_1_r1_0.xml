@@ -1,0 +1,784 @@
+﻿<dicts>
+  <dict owner="MMCPrivate">
+    <entry group="0009" element="00" vr="LO" vm="1" name="Private Creator">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="01" vr="LO" vm="1" name="Technologist">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="02" vr="LO" vm="1" name="ScheduledStudyDateTime">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="03" vr="OB" vm="1" name="StudyAppData">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="04" vr="UI" vm="1" name="ProtocolObjectID">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="05" vr="LO" vm="1" name="Name">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="06" vr="IS" vm="1" name="Frequency">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="07" vr="SH" vm="1" name="UpdateFlag">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="08" vr="SH" vm="1" name="Directory">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="09" vr="LO" vm="1" name="Comments">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="0a" vr="LO" vm="1" name="Region">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="0b" vr="SH" vm="1" name="Laterality">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="0c" vr="TM" vm="1" name="TotalScanTime">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="0d" vr="LO" vm="1" name="ContrastMedium">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="0e" vr="LO" vm="1" name="CreateDateTime">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="0f" vr="LO" vm="1" name="Creator">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="10" vr="LO" vm="1" name="SiteName">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="11" vr="LO" vm="1" name="ReferringPhysician">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="12" vr="LO" vm="1" name="Radiologist">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="13" vr="LO" vm="1" name="Technologist">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="14" vr="UI" vm="1" name="ProtocolUid">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="15" vr="SH" vm="1" name="IsInLibrary">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="16" vr="LO" vm="1" name="Gating">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="17" vr="ST" vm="1" name="Note">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="18" vr="IS" vm="1" name="NumberOfTasks">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="19" vr="SH" vm="1" name="IsFlagRaised">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="1a" vr="SH" vm="1" name="IsArchived">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="1b" vr="SH" vm="1" name="IsDefault">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="1c" vr="OB" vm="1" name="ProtocolAppData">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="1d" vr="SH" vm="1" name="IsAllowCascadeSave">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="1e" vr="SH" vm="1" name="IsAllowCascadeProtect">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="1f" vr="SQ" vm="1" name="TaskInfo">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="20" vr="UI" vm="1" name="TaskInfoObjectID">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="21" vr="LO" vm="1" name="Name">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="22" vr="SH" vm="1" name="TaskStatus">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="23" vr="SH" vm="1" name="TaskPriority">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="24" vr="SH" vm="1" name="Leaf">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="25" vr="LO" vm="1" name="TaskID">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="26" vr="IS" vm="1" name="Frequency">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="27" vr="SH" vm="1" name="UpdateFlag">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="28" vr="SH" vm="1" name="Directory">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="29" vr="LO" vm="1" name="Comments">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="2a" vr="SH" vm="1" name="Category">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="2b" vr="LO" vm="1" name="Region">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="2c" vr="SH" vm="1" name="Laterality">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="2d" vr="TM" vm="1" name="ScanTime">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="2e" vr="LO" vm="1" name="ContrastMedium">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="2f" vr="LO" vm="1" name="CreateDateTime">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="30" vr="LO" vm="1" name="Creator">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="31" vr="LO" vm="1" name="SiteName">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="32" vr="LO" vm="1" name="ReferringPhysician">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="33" vr="LO" vm="1" name="Radiologist">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="34" vr="LO" vm="1" name="Technologist">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="35" vr="UI" vm="1" name="TaskUid">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="36" vr="UI" vm="1" name="TaskInfoUid">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="37" vr="SH" vm="1" name="IsInLibrary">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="38" vr="IS" vm="1" name="TaskOrder">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="39" vr="LO" vm="1" name="Gating">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="3a" vr="SH" vm="1" name="Plane">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="3b" vr="LO" vm="1" name="SequenceType">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="3c" vr="SH" vm="1" name="IsExecutive">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="3d" vr="ST" vm="1" name="Note">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="3e" vr="SH" vm="1" name="AutoStart">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="3f" vr="SH" vm="1" name="AutoSave">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="40" vr="SH" vm="1" name="AutoArchive">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="41" vr="IS" vm="1" name="QueueGroupID">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="42" vr="SH" vm="1" name="IsFlagRaised">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="43" vr="SH" vm="1" name="IsArchived">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="44" vr="SH" vm="1" name="IsDefault">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="45" vr="OB" vm="1" name="TaskInfoAppData">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="46" vr="SH" vm="1" name="IsAllowCascadeSave">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="47" vr="SH" vm="1" name="IsAllowCascadeProtect">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="48" vr="LO" vm="1" name="ProtocolName">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="4e" vr="LO" vm="1" name="Cms_BodyPartExamined">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="4f" vr="LO" vm="1" name="IsProtected">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="5f" vr="UI" vm="1" name="ProtocolObjectID">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="60" vr="OB" vm="1" name="TaskInfoAppData">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="72" vr="UI" vm="1" name="ProtocolTaskInfoObjectID">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="73" vr="IS" vm="1" name="ProtocolTaskOrder">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="74" vr="UI" vm="1" name="ProtocolTaskUid">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="75" vr="OB" vm="1" name="ProtocolTaskAppData">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="76" vr="SH" vm="1" name="ProtocolTaskIsAllowCascadeSave">
+<definition>From Application</definition>
+</entry>
+    <entry group="0009" element="77" vr="SH" vm="1" name="ProtocolTaskIsAllowCascadeProtect">
+<definition>From Application</definition>
+</entry>
+    <entry group="0011" element="00" vr="LO" vm="1" name="Private Creator">
+<definition>From Application</definition>
+</entry>
+    <entry group="0011" element="01" vr="LO" vm="1" name="IsRapidRegistration">
+<definition>From Application</definition>
+</entry>
+    <entry group="0011" element="02" vr="LO" vm="1" name="IsProtected">
+<definition>From Application</definition>
+</entry>
+    <entry group="0019" element="00" vr="LO" vm="1" name="Private Creator">
+<definition>From Application</definition>
+</entry>
+    <entry group="0019" element="01" vr="LO" vm="1" name="ProcType">
+<definition>From Application</definition>
+</entry>
+    <entry group="0019" element="02" vr="LO" vm="1" name="Plane">
+<definition>From Application</definition>
+</entry>
+    <entry group="0019" element="03" vr="SH" vm="1" name="IsSnapShotSeries">
+<definition>From Application</definition>
+</entry>
+    <entry group="0019" element="04" vr="DS" vm="1" name="MaxFsColor">
+<definition>From Application</definition>
+</entry>
+    <entry group="0019" element="05" vr="LO" vm="1" name="SeriesCategoryType">
+<definition>From Application</definition>
+</entry>
+    <entry group="0019" element="07" vr="LO" vm="1" name="ImageContrastBolusAgent">
+<definition>From Application</definition>
+</entry>
+    <entry group="0019" element="08" vr="LO" vm="1" name="ImageSliceThickness">
+<definition>From Application</definition>
+</entry>
+    <entry group="0019" element="09" vr="LO" vm="1" name="ImageReconstructionDiameter">
+<definition>From Application</definition>
+</entry>
+    <entry group="0019" element="0a" vr="LO" vm="1" name="ImageEchoTime">
+<definition>From Application</definition>
+</entry>
+    <entry group="0019" element="0b" vr="LO" vm="1" name="ImageRepetitionTime">
+<definition>From Application</definition>
+</entry>
+    <entry group="0019" element="0c" vr="LO" vm="1" name="SequenceType">
+<definition>From Application</definition>
+</entry>
+    <entry group="0019" element="0d" vr="LO" vm="1" name="TaskUid">
+<definition>From Application</definition>
+</entry>
+    <entry group="0019" element="0e" vr="OB" vm="1" name="SeriesAppData">
+<definition>From Application</definition>
+</entry>
+    <entry group="0019" element="0f" vr="IS" vm="1" name="MultiSliceNumber">
+<definition>From Application</definition>
+</entry>
+    <entry group="0019" element="10" vr="LO" vm="1" name="ImageScanTime">
+<definition>From Application</definition>
+</entry>
+    <entry group="0019" element="11" vr="LO" vm="1" name="IsProtected">
+<definition>From Application</definition>
+</entry>
+    <entry group="0019" element="20" vr="UI" vm="1" name="MultiFrameSopInstanceUid">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="00" vr="LO" vm="1" name="Private Creator">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="01" vr="IS" vm="1" name="SliceNumber">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="02" vr="IS" vm="1" name="PhaseNumber">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="03" vr="LO" vm="1" name="ProcType">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="04" vr="LO" vm="1" name="StopwatchTime">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="05" vr="LO" vm="1" name="Plane">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="06" vr="LO" vm="1" name="ScanTime">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="08" vr="LO" vm="1" name="DualSliceFlag">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="09" vr="LO" vm="1" name="SspRatio">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="0a" vr="LO" vm="1" name="GatingSignalSource">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="0b" vr="LO" vm="1" name="Rephase">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="0c" vr="LO" vm="1" name="HalfEcho">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="0d" vr="LO" vm="1" name="RectFOVRatio">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="0e" vr="LO" vm="1" name="HalfScan">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="0f" vr="LO" vm="1" name="NumShots">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="10" vr="LO" vm="1" name="ContrastAgent">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="11" vr="LO" vm="1" name="EchoAllocation">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="12" vr="LO" vm="1" name="NumEchoShift">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="13" vr="LO" vm="1" name="FatSat">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="14" vr="LO" vm="1" name="MTC">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="15" vr="LO" vm="1" name="NumPreSat">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="16" vr="LO" vm="1" name="TargetVelocity">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="17" vr="LO" vm="1" name="VENCAxis">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="18" vr="LO" vm="1" name="NumVENCDirection">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="1c" vr="LO" vm="1" name="IsScalableWindowLevel">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="1d" vr="LO" vm="1" name="ThreeDSettingLineAngle">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="1e" vr="LO" vm="1" name="MPGTotalAxis">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="1f" vr="LO" vm="1" name="MPGAxisNumber">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="20" vr="IS" vm="1" name="MultiEchoNumber">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="21" vr="DS" vm="1" name="NaviAverageGateWidth">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="22" vr="ST" vm="1" name="ShimCompensateValue">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="23" vr="LO" vm="1" name="GCOffset">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="24" vr="DS" vm="1" name="NaviMaxGateWidth">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="25" vr="DS" vm="1" name="NaviMinGateWidth">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="26" vr="DS" vm="1" name="NaviMaxGatePosition">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="27" vr="DS" vm="1" name="NaviMinGatePosition">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="28" vr="DS" vm="1" name="TimeDuration">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="29" vr="DS" vm="1" name="TablePosition">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="2a" vr="DS" vm="1" name="NaviInitialGateWidth">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="2b" vr="DS" vm="1" name="NaviFinalGateWidth">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="2c" vr="DS" vm="1" name="NaviInitialGatePosition">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="2d" vr="DS" vm="1" name="NaviFinalGatePosition">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="2e" vr="DS" vm="1" name="NaviAverageGatePosition">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="2f" vr="OB" vm="1" name="ImageAppData">
+<definition>From Application</definition>
+</entry>
+    <entry group="0029" element="30" vr="FD" vm="1" name="DiffusionBValue">
+<definition>The value is same as Diffusion b-value of MR Diffusion Macro</definition>
+</entry>
+    <entry group="0029" element="31" vr="SQ" vm="1" name="SharedFunctionalGroupsSequence">
+<definition>The value is same as Shared Functional Groups Sequence of Multi-frame Functional Groups Module</definition>
+</entry>
+    <entry group="0029" element="32" vr="SQ" vm="1" name="PerFrameFunctionalGroupsSequence">
+<definition>The value is same as Per-frame Functional Groups Sequence of Multi- frame Functional Groups Module</definition>
+</entry>
+    <entry group="0029" element="33" vr="DS" vm="1" name="LossyImageCompressionRatio">
+<definition>The value is same as Lossy Image Compression Ratio of Enhanced MR Image Module</definition>
+</entry>
+    <entry group="0029" element="34" vr="UI" vm="1" name="InstanceCreatorUID">
+<definition>The value is same as Instance Creator UID of SOP Common Module</definition>
+</entry>
+    <entry group="0029" element="35" vr="UI" vm="1" name="RelatedGeneralSOPClassUID">
+<definition>The value is same as Related General SOP Class UID of SOP Common Module</definition>
+</entry>
+    <entry group="0029" element="36" vr="UI" vm="1" name="OriginalSpecializedSOPClassUID">
+<definition>The value is same as Original Specialized SOP Class UID of SOP Common Module</definition>
+</entry>
+    <entry group="0029" element="37" vr="SH" vm="1" name="TimezoneOffsetFromUTC">
+<definition>The value is same as Timezone Offset From UTC of SOP Common Module</definition>
+</entry>
+    <entry group="0029" element="38" vr="CS" vm="1" name="SOPInstanceStatus">
+<definition>The value is same as SOP Instance Status of SOP Common Module</definition>
+</entry>
+    <entry group="0029" element="39" vr="DT" vm="1" name="SOPAuthorizationDateandTime">
+<definition>The value is same as SOP Authorization Date and Time of SOP Common Module</definition>
+</entry>
+    <entry group="0029" element="3a" vr="LT" vm="1" name="SOPAuthorizationComment">
+<definition>The value is same as SOP Authorization Comment of SOP Common Module</definition>
+</entry>
+    <entry group="0029" element="3b" vr="LO" vm="1" name="AuthorizationEquipmentCertificationNumber">
+<definition>The value is same as Authorization Equipment Certification Number of SOP Common Module</definition>
+</entry>
+    <entry group="0029" element="3c" vr="UL" vm="1" name="ConcatenationFrameOffsetNumber">
+<definition>The value is same as Concatenation Frame Offset Number of Multi-frame Functional Groups Module</definition>
+</entry>
+    <entry group="0029" element="3d" vr="CS" vm="1" name="RepresentativeFrameNumber">
+<definition>The value is same as Representative Frame Number of Multi-frame Functional Groups Module</definition>
+</entry>
+    <entry group="0029" element="3e" vr="UI" vm="1" name="ConcatenationUID">
+<definition>The value is same as Concatenation UID of Multi-frame Functional Groups Module</definition>
+</entry>
+    <entry group="0029" element="3f" vr="US" vm="1" name="InConcatenationNumber">
+<definition>The value is same as In-concatenation Number of Multi-frame Functional Groups Module</definition>
+</entry>
+    <entry group="0029" element="40" vr="CS" vm="1" name="CardiacSynchronizationTechnique">
+<definition>The value is same as Cardiac Synchronization Technique of Cardiac Synchronization Module</definition>
+</entry>
+    <entry group="0029" element="41" vr="CS" vm="1" name="CardiacSignalSource">
+<definition>The value is same as Cardiac Signal Source of Cardiac Synchronization Module</definition>
+</entry>
+    <entry group="0029" element="42" vr="FD" vm="1" name="CardiacRRIntervalSpecified">
+<definition>The value is same as Cardiac RR Interval Specified of Cardiac Synchronization Module</definition>
+</entry>
+    <entry group="0029" element="43" vr="CS" vm="1" name="CardiacBeatRejectionTechnique">
+<definition>The value is same as Cardiac Beat Rejection Technique of Cardiac Synchronization Module</definition>
+</entry>
+    <entry group="0029" element="44" vr="IS" vm="1" name="LowRRValue">
+<definition>The value is same as Low R-R Value of Cardiac Synchronization Module</definition>
+</entry>
+    <entry group="0029" element="45" vr="IS" vm="1" name="HighRRValue">
+<definition>The value is same as High R-R Value of Cardiac Synchronization Module</definition>
+</entry>
+    <entry group="0029" element="46" vr="IS" vm="1" name="IntervalsAcquired">
+<definition>The value is same as Intervals Acquired of Cardiac Synchronization Module</definition>
+</entry>
+    <entry group="0029" element="47" vr="IS" vm="1" name="IntervalsRejected">
+<definition>The value is same as Intervals Rejected of Cardiac Synchronization Module</definition>
+</entry>
+    <entry group="0029" element="48" vr="CS" vm="1" name="RespiratoryMotionCompensationTechnique">
+<definition>The value is same as Respiratory Motion Compensation Technique of Respiratory Synchronization Module</definition>
+</entry>
+    <entry group="0029" element="49" vr="CS" vm="1" name="RespiratorySignalSource">
+<definition>The value is same as Respiratory Signal Source of Respiratory Synchronization Module</definition>
+</entry>
+    <entry group="0029" element="4a" vr="CS" vm="1" name="BulkMotionCompensationTechnique">
+<definition>The value is same as Bulk Motion Compensation Technique of Bulk Motion Synchronization Module</definition>
+</entry>
+    <entry group="0029" element="4b" vr="CS" vm="1" name="BulkMotionSignalSource">
+<definition>The value is same as Bulk Motion Signal Source of Bulk Motion Synchronization Module</definition>
+</entry>
+    <entry group="0029" element="4c" vr="CS" vm="1" name="PixelPresentation">
+<definition>The value is same as Pixel Presentation of Common CT/MR Image Description Macro/Enhanced MR Image Module</definition>
+</entry>
+    <entry group="0029" element="4d" vr="CS" vm="1" name="VolumetricProperties">
+<definition>The value is same as Volumetric Properties of Common CT/MR Image Description Macro/Enhanced MR Image Module</definition>
+</entry>
+    <entry group="0029" element="4e" vr="CS" vm="1" name="VolumeBasedCalculationTechnique">
+<definition>The value is same as Volume Based Calculation Technique of Common CT/MR Image Description Macro/Enhanced MR Image Module</definition>
+</entry>
+    <entry group="0029" element="4f" vr="ST" vm="1" name="AcquisitionContextDescription">
+<definition>The value is same as Acquisition Context Description of Acquisition Context Module</definition>
+</entry>
+    <entry group="0029" element="50" vr="SQ" vm="1" name="ModalityLUTSequence">
+<definition>The value is same as Mdality LUT module</definition>
+</entry>
+    <entry group="0029" element="51" vr="LO" vm="1" name="LUTDescriptor">
+<definition>The value is same as LUT Descriptor of Modality LUT module</definition>
+</entry>
+    <entry group="0029" element="52" vr="LO" vm="1" name="LUTExplanation">
+<definition>The value is same as LUT Explanation of Modality LUT module</definition>
+</entry>
+    <entry group="0029" element="53" vr="LO" vm="1" name="LUTData">
+<definition>The value is same as LUT Data of Modality LUT module</definition>
+</entry>
+    <entry group="0029" element="54" vr="CS" vm="1" name="PresentationLUTShape">
+<definition>The value is same as Presentation LUT Shape of General Image Module/Enhanced MR Image Module</definition>
+</entry>
+    <entry group="0029" element="55" vr="SQ" vm="1" name="FrameAnatomySequence">
+<definition>The value is same as Frame Anatomy Sequence of Frame Anatomy Macro</definition>
+</entry>
+    <entry group="0029" element="56" vr="CS" vm="1" name="FrameLaterality">
+<definition>The value is same as Frame Laterality of Frame Anatomy Macro</definition>
+</entry>
+    <entry group="0029" element="57" vr="SQ" vm="1" name="AnatomicRegionSequence">
+<definition>The value is same as Anatomic Region Sequence of General Anatomy Macro</definition>
+</entry>
+    <entry group="0029" element="58" vr="SH" vm="1" name="AnatomicRegionCodeValue">
+<definition>The value is same as Code Value of Code Sequence Macro</definition>
+</entry>
+    <entry group="0029" element="59" vr="SH" vm="1" name="AnatomicRegionCodingSchemeDesignator">
+<definition>The value is same as Coding Scheme Designator of  Code Sequence Macro</definition>
+</entry>
+    <entry group="0029" element="5a" vr="SH" vm="1" name="AnatomicRegionCodingSchemeVersion">
+<definition>The value is same as Coding Scheme Version of  Code Sequence Macro</definition>
+</entry>
+    <entry group="0029" element="5b" vr="LO" vm="1" name="AnatomicRegionCodeMeaning">
+<definition>The value is same as Code Meaning of Code Sequence Macro</definition>
+</entry>
+    <entry group="0029" element="5c" vr="SQ" vm="1" name="PixelValueTransformationSequence">
+<definition>The value is same as Pixel Value Transformation Sequence of Pixel Value Transformation Macro</definition>
+</entry>
+    <entry group="0029" element="5d" vr="LO" vm="1" name="RescaleType">
+<definition>The value is same as Rescale Type of Pixel Value Transformation Macro</definition>
+</entry>
+    <entry group="0029" element="5e" vr="SQ" vm="1" name="CardiacTriggerSequence">
+<definition>The value is same as Cardiac Synchronization Macro</definition>
+</entry>
+    <entry group="0029" element="5f" vr="FD" vm="1" name="TriggerDelayTime">
+<definition>The value is same as Nominal Cardiac Trigger Delay Time of Cardiac Synchronization Macro</definition>
+</entry>
+    <entry group="0029" element="60" vr="SQ" vm="1" name="FrameVOILUTSequence">
+<definition>The value is same as Frame VOI LUT Sequence of Frame VOI LUT Macro</definition>
+</entry>
+    <entry group="0029" element="61" vr="LO" vm="1" name="WindowCenterAndWidthExplanation">
+<definition>The value is same as Window Center &amp; Width Explanation of Frame VOI LUT Macro</definition>
+</entry>
+    <entry group="0029" element="62" vr="CS" vm="1" name="AcquisitionContrast">
+<definition>The value is same as Acquisition Contrast of MR Image Description Macro</definition>
+</entry>
+    <entry group="0029" element="63" vr="SQ" vm="1" name="MRModifierSequence">
+<definition>The value is same as MR Modifier Sequence of MR Modifier Macro</definition>
+</entry>
+    <entry group="0029" element="64" vr="CS" vm="1" name="ParallelAcquisitionTechnic">
+<definition>The value is same as Parallel Acquisition Technique of MR Modifier Macro</definition>
+</entry>
+    <entry group="0029" element="65" vr="FD" vm="1" name="ParallelReductionFactorSecIn">
+<definition>The value is same as Parallel Reduction Factor Second In-plane of MR Modifier Macro</definition>
+</entry>
+    <entry group="0029" element="66" vr="CS" vm="1" name="InversionRecovery">
+<definition>The value is same as Inversion Recovery of MR Modifier Macro</definition>
+</entry>
+    <entry group="0029" element="67" vr="CS" vm="1" name="FlowCompensation">
+<definition>The value is same as Flow Compensation of MR Modifier Macro</definition>
+</entry>
+    <entry group="0029" element="68" vr="CS" vm="1" name="FlowCompensationDirection">
+<definition>The value is same as Flow Compensation Direction of MR Modifier Macro</definition>
+</entry>
+    <entry group="0029" element="69" vr="CS" vm="1" name="SpatialPreSaturation">
+<definition>The value is same as Spatial Pre- saturation of MR Modifier Macro</definition>
+</entry>
+    <entry group="0029" element="6a" vr="CS" vm="1" name="PartialFourier">
+<definition>The value is same as Partial Fourier of MR Modifier Macro</definition>
+</entry>
+    <entry group="0029" element="6b" vr="CS" vm="1" name="PartialFourierDirection">
+<definition>The value is same as Partial Fourier Direction of  MR Modifier Macro</definition>
+</entry>
+    <entry group="0029" element="6c" vr="CS" vm="1" name="ResonantNucleus">
+<definition>The value is same as Resonant Nucleus of Enhanced MR Image Module</definition>
+</entry>
+    <entry group="0029" element="6d" vr="CS" vm="1" name="KSpaceFiltering">
+<definition>The value is same as k-space Filtering of Enhanced MR Image Module</definition>
+</entry>
+    <entry group="0029" element="6e" vr="CS" vm="1" name="ApplicableSafetyStandardAgency">
+<definition>The value is same as Applicable Safety Standard Agency of Enhanced MR Image Module</definition>
+</entry>
+    <entry group="0029" element="6f" vr="LO" vm="1" name="ApplicableSafetyStandardDescription">
+<definition>The value is same as Applicable Safety Standard Description of Enhanced MR Image Module</definition>
+</entry>
+    <entry group="0029" element="70" vr="SQ" vm="1" name="MRReceiveCoilSequence">
+<definition>The value is same as MR Receive Coil Sequence of MR Receive Coil  Macro</definition>
+</entry>
+    <entry group="0029" element="71" vr="LO" vm="1" name="ReceiveCoilManufacturerName">
+<definition>The value is same as Receive Coil Manufacturer Name of MR Receive Coil  Macro</definition>
+</entry>
+    <entry group="0029" element="72" vr="CS" vm="1" name="ReceiveCoilType">
+<definition>The value is same as Receive Coil Type of MR Receive Coil  Macro</definition>
+</entry>
+    <entry group="0029" element="73" vr="CS" vm="1" name="QuadratureReceiveCoil">
+<definition>The value is same as Quadrature Receive Coil of MR Receive Coil Macro</definition>
+</entry>
+    <entry group="0029" element="74" vr="LO" vm="1" name="MultiCoilConfiguration">
+<definition>The value is same as Multi-Coil Configuration of MR Receive Coil Macro</definition>
+</entry>
+    <entry group="0029" element="75" vr="CS" vm="1" name="ComplexImageComponent">
+<definition>The value is same as Complex Image Component of MR Image Frame Type Macro/Enhanced MR Image Module/MR Image Description Macro</definition>
+</entry>
+    <entry group="0029" element="76" vr="SH" vm="1" name="PulseSequenceName">
+<definition>The value is same as Pulse Sequence Name of MR Pulse Sequence Module</definition>
+</entry>
+    <entry group="0029" element="77" vr="CS" vm="1" name="EchoPulseSequence">
+<definition>The value is same as Echo Pulse Sequence of MR Pulse Sequence Module</definition>
+</entry>
+    <entry group="0029" element="78" vr="CS" vm="1" name="MultipleSpinEcho">
+<definition>The value is same as Multiple Spin Echo of MR Pulse Sequence Module</definition>
+</entry>
+    <entry group="0029" element="79" vr="CS" vm="1" name="MultiPlanarExcitation">
+<definition>The value is same as Multi-planar Excitation of MR Pulse Sequence Module</definition>
+</entry>
+    <entry group="0029" element="7a" vr="CS" vm="1" name="PhaseContrast">
+<definition>The value is same as Phase Contrast of MR Pulse Sequence Module</definition>
+</entry>
+    <entry group="0029" element="7b" vr="CS" vm="1" name="TimeOfFlightContrast">
+<definition>The value is same as Time of Flight Contrast of MR Pulse Sequence Module</definition>
+</entry>
+    <entry group="0029" element="7c" vr="CS" vm="1" name="SteadyStatePulseSequence">
+<definition>The value is same as Steady State Pulse Sequence of MR Pulse Sequence Module</definition>
+</entry>
+    <entry group="0029" element="7d" vr="CS" vm="1" name="EchoPlanarPulseSequence">
+<definition>The value is same as Echo Planar Pulse Sequence of MR Pulse Sequence Module</definition>
+</entry>
+    <entry group="0029" element="7e" vr="CS" vm="1" name="SpectrallySelectedSuppression">
+<definition>The value is same as Spectrally Selected Suppression of MR Pulse Sequence Module</definition>
+</entry>
+    <entry group="0029" element="7f" vr="CS" vm="1" name="OversamplingPhase">
+<definition>The value is same as Oversampling Phase of MR Pulse Sequence Module</definition>
+</entry>
+    <entry group="0029" element="80" vr="CS" vm="1" name="SegmentedKSpaceTraversal">
+<definition>The value is same as Segmented k- Space Traversal of MR Pulse Sequence Module</definition>
+</entry>
+    <entry group="0029" element="81" vr="CS" vm="1" name="CoverageOfKSpace">
+<definition>The value is same as Coverage of k- Space of MR Pulse Sequence Module</definition>
+</entry>
+    <entry group="0029" element="82" vr="SQ" vm="1" name="MRTimingAndRelatedParametersSequence">
+<definition>The value is same as MR Timing and Related Parameters Sequence of MR Timing and Related Parameters Macro</definition>
+</entry>
+    <entry group="0029" element="83" vr="US" vm="1" name="RFEchoTrainLength">
+<definition>The value is same as RF Echo Train Length of MR Timing and Related Parameters Macro</definition>
+</entry>
+    <entry group="0029" element="84" vr="US" vm="1" name="GradientEchoTrainLength">
+<definition>The value is same as Gradient Echo Train Length of MR Timing and Related Parameters Macro</definition>
+</entry>
+    <entry group="0029" element="85" vr="CS" vm="1" name="GradientOutputType">
+<definition>The value is same as Gradient Output Type of MR Timing and Related Parameters Macro</definition>
+</entry>
+    <entry group="0029" element="86" vr="FD" vm="1" name="GradientOutput">
+<definition>The value is same as Gradient Output of MR Timing and Related Parameters Macro</definition>
+</entry>
+    <entry group="0029" element="87" vr="SQ" vm="1" name="MRFOVGeometrySequence">
+<definition>The value is same as MR FOV Geometry Sequence of MR FOV/Geometry Macro</definition>
+</entry>
+    <entry group="0029" element="88" vr="US" vm="1" name="MRAcquisitionFrequencyEncodingSteps">
+<definition>The value is same as MR Acquisition Frequency Encoding Steps of MR FOV/Geometry Macro</definition>
+</entry>
+    <entry group="0029" element="89" vr="US" vm="1" name="MRAcquisitionPhaseEncodingStepsInPlane">
+<definition>The value is same as MR Acquisition Phase Encoding Steps in-plane of MR FOV/Geometry Macro</definition>
+</entry>
+    <entry group="0029" element="8a" vr="US" vm="1" name="MRAcquisitionPhaseEncodingStepsOutOfPlane">
+<definition>The value is same as MR Acquisition Phase Encoding Steps out-of-plane of MR FOV/Geometry Macro</definition>
+</entry>
+    <entry group="0029" element="8b" vr="SQ" vm="1" name="MRTransmitCoilSequence">
+<definition>The value is same as MR Transmit Coil Sequence of MR Transmit Coil Macro</definition>
+</entry>
+    <entry group="0029" element="8c" vr="SH" vm="1" name="TransmitCoilName">
+<definition>The value is same as Transmit Coil Name of MR Transmit Coil Macro</definition>
+</entry>
+    <entry group="0029" element="8d" vr="LO" vm="1" name="TransmitCoilManufacturerName">
+<definition>The value is same as Transmit Coil Manufacturer Name of MR Transmit Coil Macro</definition>
+</entry>
+    <entry group="0029" element="8e" vr="CS" vm="1" name="TransmitCoilType">
+<definition>The value is same as Transmit Coil Type of MR Transmit Coil Macro</definition>
+</entry>
+    <entry group="0029" element="8f" vr="SQ" vm="1" name="MREchoSequence">
+<definition>The value is same as MR Echo Sequence of MR Echo Macro</definition>
+</entry>
+    <entry group="0029" element="90" vr="FD" vm="1" name="EffectiveEchoTime">
+<definition>The value is same as Effective Echo Time of MR Echo Macro</definition>
+</entry>
+    <entry group="0029" element="91" vr="SQ" vm="1" name="MRMetaboliteMapSequence">
+<definition>The value is same as MR Metabolite Map Sequence of MR Metabolite Map Macro</definition>
+</entry>
+    <entry group="0029" element="92" vr="ST" vm="1" name="MetaboliteMapDescription">
+<definition>The value is same as Metabolite Map Description of MR Metabolite Map Macro</definition>
+</entry>
+    <entry group="0029" element="93" vr="SQ" vm="1" name="MetaboliteMapCodeSequence">
+<definition>The value is same as Metabolite Map Code Sequence of MR Metabolite Map Macro</definition>
+</entry>
+    <entry group="0029" element="94" vr="SH" vm="1" name="MetaboliteMapCodeValue">
+<definition>The value is same as Code Value of Code Sequence Macro</definition>
+</entry>
+    <entry group="0029" element="95" vr="SH" vm="1" name="MetaboliteMapCodingSchemeDesignator">
+<definition>The value is same as Coding Scheme Designator of Code Sequence Macro</definition>
+</entry>
+    <entry group="0029" element="96" vr="SH" vm="1" name="MetaboliteMapCodingSchemeVersion">
+<definition>The value is same as Coding Scheme Version of Code Sequence Macro</definition>
+</entry>
+    <entry group="0029" element="97" vr="LO" vm="1" name="MetaboliteMapCodeMeaning">
+<definition>The value is same as Code Meaning of Code Sequence Macro</definition>
+</entry>
+    <entry group="0029" element="98" vr="SQ" vm="1" name="MRImagingModifierSequence">
+<definition>The value is same as MR Imaging Modifier Sequence of MR Imaging Modifier Macro</definition>
+</entry>
+    <entry group="0029" element="99" vr="CS" vm="1" name="MagnetizationTransfer">
+<definition>The value is same as Magnetization Transfer of MR Imaging Modifier Macro</definition>
+</entry>
+    <entry group="0029" element="9a" vr="CS" vm="1" name="BloodSignalNulling">
+<definition>The value is same as Blood Signal Nulling of MR Imaging Modifier Macro</definition>
+</entry>
+    <entry group="0029" element="9b" vr="CS" vm="1" name="Tagging">
+<definition>The value is same as Tagging of MR Imaging Modifier Macro</definition>
+</entry>
+    <entry group="0029" element="9c" vr="FD" vm="1" name="TagSpacingFirstDimension">
+<definition>The value is same as Tag Spacing First Dimension of MR Imaging Modifier Macro</definition>
+</entry>
+    <entry group="0029" element="9d" vr="FD" vm="1" name="TagSpacingSecondDimension">
+<definition>The value is same as Tag Spacing Second Dimension of MR Imaging Modifier Macro</definition>
+</entry>
+    <entry group="0029" element="9e" vr="FD" vm="1" name="TagAngleFirstAxis">
+<definition>The value is same as Tag Angle First Axis of MR Imaging Modifier Macro</definition>
+</entry>
+    <entry group="0029" element="9f" vr="SS" vm="1" name="TagAngleSecondAxis">
+<definition>The value is same as Tag Angle Second Axis of MR Imaging Modifier Macro</definition>
+</entry>
+</dict>
+</dicts>
