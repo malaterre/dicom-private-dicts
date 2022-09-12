@@ -2,7 +2,8 @@
 
 set -x
 
-URL=https://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@healthit/@imagingit/documents/download/mda2/mtcw/~edisp/vx57n-03122234.zip
+URL=https://marketing.webassets.siemens-healthineers.com/1800000003122234/f1ec269a2c0f/vx57n-03122234_1800000003122234.zip
+#URL=https://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@healthit/@imagingit/documents/download/mda2/mtcw/~edisp/vx57n-03122234.zip
 #URL=http://www.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@healthit/@imagingit/documents/download/mda1/mjy1/~edisp/syngo_fv-02184790.zip
 #https://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@healthit/@imagingit/documents/download/mda2/mtcw/~edisp/vx57n-03122234.zip
 
